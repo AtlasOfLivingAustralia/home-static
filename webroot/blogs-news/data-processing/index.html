@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+	<meta charset="UTF-8">
+	<meta name="id" content="31308">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Data processing – Atlas of Living Australia</title>
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+
+
+
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+
+
+
+
+
+
+
+
+
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-4355440-1', 'auto');
+			ga('set', 'forceSSL', true);
+			ga('send', 'pageview');
+		</script>
+
+	
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
+<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-180x180.png">
+<meta name="msapplication-TileImage" content="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-270x270.png">
+
+
+ 
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Atlas of Living Australia">
+  <meta property="og:title" content="Data processing">
+  <meta property="og:url" content="https://www-test.ala.org.au/blogs-news/data-processing/">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content='We are regularly asked about how we process and manage data.  This blog provides a reasonably technical overview of:
+
+ 	some of the processes occurrence data goes through;
+ 	how the results of this processing are visible to users; and
+ 	how users can explore and filter data to be "fit for purpose"'>
+  <meta property="article:published_time" content="2013-10-09T10:28:48+11:00">
+  <meta property="article:modified_time" content="2019-11-06T13:34:56+11:00">
+  <meta property="og:updated_time" content="2019-11-06T13:34:56+11:00">
+  <meta property="article:section" content="Data">
+  <meta property="article:section" content="Uncategorised">
+  <meta property="article:section" content="ALA Blog">
+ 
+  <meta itemprop="name" content="Data processing">
+  <meta itemprop="headline" content="Data processing">
+  <meta itemprop="description" content='We are regularly asked about how we process and manage data.  This blog provides a reasonably technical overview of:
+
+ 	some of the processes occurrence data goes through;
+ 	how the results of this processing are visible to users; and
+ 	how users can explore and filter data to be "fit for purpose"'>
+  <meta itemprop="datePublished" content="2013-10-09">
+  <meta itemprop="dateModified" content="2019-11-06T13:34:56+11:00">
+  <meta itemprop="author" content="Dave Martin">
+   
+ 
+  <meta name="twitter:title" content="Data processing">
+  <meta name="twitter:url" content="https://www-test.ala.org.au/blogs-news/data-processing/">
+  <meta name="twitter:description" content='We are regularly asked about how we process and manage data.  This blog provides a reasonably technical overview of:
+
+ 	some of the processes occurrence data goes through;
+ 	how the results of this processing are visible to users; and
+ 	how users can explore and filter data to be "fit for purpose"'>
+  <meta name="twitter:card" content="summary_large_image">
+ 
+ 
+ 
+
+	
+</head>
+
+<body class="post-template-default single single-post postid-31308 single-format-standard wp-custom-logo wp-embed-responsive group-blog">
+
+<div class="site" id="page">
+	
+	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+		<a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+					<div class="container">
+						
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-visible">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-none d-lg-block">
+													
+							<div id="ala-auth-buttons-logged-in" class="hidden">
+								<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth.ala.org.au/cas/logout?service=https://www.ala.org.au/" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out" class="hidden">
+								<a href="https://auth.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth.ala.org.au/cas/login?service=https://www.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+
+
+															
+																			</div>
+		
+					</div>
+					
+					<div class="main-nav-wrapper">
+												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 22 22">
+								<defs>
+									<style>
+										.search-icon {
+											fill: #fff;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path class="search-icon" d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z" transform="translate(-1516 -60)"></path>
+							</svg>
+							<span class="collapse visible-on-show" aria-hidden="true">×</span>
+							Search</button>
+																					<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/blogs-news/data-processing" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Login"><i class="fa fa-sign-in"></i></a>
+																				<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</a>
+
+						
+						
+						<div id="navbarNavDropdown" class="collapse navbar-collapse offcanvas-collapse"><ul id="main-menu" class="navbar-nav ml-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-22 nav-item"><a title="Search & analyse" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-22">Search & analyse</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-22" role="menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41958 nav-item"><a title="Search species" href="https://bie.ala.org.au/" class="dropdown-item">Search species</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item"><a title="Search & download records" href="https://biocache.ala.org.au/search#tab_simpleSearch" class="dropdown-item">Search & download records</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28 nav-item"><a title="Search datasets" href="https://collections.ala.org.au/datasets" class="dropdown-item">Search datasets</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41967 nav-item"><hr class="menu-separator"></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24 nav-item"><a title="Spatial analysis (Spatial Portal)" href="https://spatial.ala.org.au/" class="dropdown-item">Spatial analysis (Spatial Portal)</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-26" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26 nav-item"><a title="Explore your area" href="https://biocache.ala.org.au/explore/your-area" class="dropdown-item">Explore your area</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-31" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31 nav-item"><a title="Explore natural history collections" href="https://collections.ala.org.au/" class="dropdown-item">Explore natural history collections</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-32 nav-item"><a title="Contribute" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-32">Contribute</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-32" role="menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40773" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40773 nav-item"><a title="Share your dataset" href="https://support.ala.org.au/support/solutions/articles/6000195493-how-to-submit-a-data-set" class="dropdown-item">Share your dataset</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40728" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40728 nav-item"><a title="Upload species list" href="https://lists.ala.org.au/public/speciesLists" class="dropdown-item">Upload species list</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41968 nav-item"><hr class="menu-separator"></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43213 nav-item"><a title="Record a sighting" href="https://www-test.ala.org.au/home/record-a-sighting/" class="dropdown-item">Record a sighting</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 nav-item"><a title="Transcribe & digitise (DigiVol)" href="https://volunteer.ala.org.au/" class="dropdown-item">Transcribe & digitise (DigiVol)</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa?hub=ala-cs#isCitizenScience%3Dtrue%26isWorldWide%3Dfalse%26max%3D20%26sort%3DdateCreatedSort" class="dropdown-item">Discover citizen science projects</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-178 nav-item"><a title="About" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-178">About</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-178" role="menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179 nav-item"><a title="About us" href="https://www-test.ala.org.au/about-ala/" class="dropdown-item">About us</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40734" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-40734 nav-item"><a title="News & media" href="https://www-test.ala.org.au/blog/" class="dropdown-item">News & media</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43476 nav-item"><a title="Publications" href="https://www-test.ala.org.au/publications/" class="dropdown-item">Publications</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175 nav-item"><a title="Contact us" href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41969 nav-item"><hr class="menu-separator"></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43693" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43693 nav-item"><a title="Current projects" href="https://www-test.ala.org.au/current-projects/" class="dropdown-item">Current projects</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40731 nav-item"><a title="International Living Atlases" href="https://living-atlases.gbif.org/" class="dropdown-item">International Living Atlases</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40730 nav-item"><a title="Education resources" href="https://www-test.ala.org.au/education-resources/" class="dropdown-item">Education resources</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177 nav-item"><a title="Indigenous ecological knowledge" href="https://www-test.ala.org.au/indigenous-ecological-knowledge/" class="dropdown-item">Indigenous ecological knowledge</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41970 nav-item"><hr class="menu-separator"></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41796 nav-item"><a title="All sites, services & tools" href="https://www-test.ala.org.au/sites-and-services/" class="dropdown-item">All sites, services & tools</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-41391 nav-item"><a title="Help" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-41391">Help</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-41391" role="menu">
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41959 nav-item"><a title="Browse all articles (FAQs)" href="https://support.ala.org.au/support/home" class="dropdown-item">Browse all articles (FAQs)</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41960 nav-item"><a title="ALA Data help" href="https://support.ala.org.au/support/solutions/6000137994" class="dropdown-item">ALA Data help</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41961" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41961 nav-item"><a title="ALA Tools & Apps help" href="https://support.ala.org.au/support/solutions/6000138053" class="dropdown-item">ALA Tools & Apps help</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41962" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41962 nav-item"><a title="ALA Spatial Portal help" href="https://support.ala.org.au/support/solutions/6000138349" class="dropdown-item">ALA Spatial Portal help</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41963 nav-item"><a title="Contact us" href="/contact-us/" class="dropdown-item">Contact us</a></li>
+</ul>
+</li>
+</ul></div>
+					</div>
+				</div>
+
+	        	        </div>
+		    		</nav>
+			    <div id="autocompleteSearchALA" class="collapse">
+	    	<div class="container">
+		        <form method="get" action="https://bie.ala.org.au/search" class="search-form">
+		            <div class="d-flex justify-content-between">
+		                <input id="autocompleteHeader" type="text" name="q" placeholder="Search species, datasets, and more..." class="search-input autocompleteBIE" autocomplete="off">
+		                <button class="search-submit" title="submit">
+		                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 22 22">
+		                        <defs>
+		                            <style>
+		                                .search-icon {
+		                                    fill: #fff;
+		                                    fill-rule: evenodd;
+		                                }
+		                            </style>
+		                        </defs>
+		                        <path class="search-icon" d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z" transform="translate(-1516 -60)"></path>
+		                    </svg>
+		                </button>
+		            </div>
+		        </form>
+		    </div>
+	    </div>
+	    	    	
+        	</div>
+
+
+<div class="featured-hero" role="banner" style="background-image: url(https://www-test.ala.org.au/app/uploads/2019/06/purple-coral-pea-banner-image-by-reiner-richter_default-banner-1920-x-720.jpg);">
+    <div class="bg-overlay"></div>
+    <div class="container">
+						                <h1 class="banner-title">Data processing</h1>
+			
+    </div>
+</div>
+
+<div class="wrapper" id="single-wrapper">
+
+	<div class="container" id="content" tabindex="-1">
+
+		<div class="row">
+
+			<div class="col-md content-area" id="primary">
+
+			<main class="site-main" id="main">
+
+				
+					
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c46ac35a988136c"></script>
+
+<article class="post-31308 post type-post status-publish format-standard has-post-thumbnail hentry category-data category-uncategorised category-blogs-news" id="post-31308">
+
+	<header class="entry-header">
+
+		<div class="entry-meta">
+
+			<span class="posted-on"><span class="sr-only">Posted on </span><time class="entry-date published updated" datetime="2013-10-09T10:28:48+11:00">9th October 2013</time></span>
+		</div>
+
+		<div class="addthis_inline_share_toolbox"></div>
+
+	</header>
+
+	
+	
+	<div class="entry-content">
+
+		<p>We are regularly asked about how we process and manage data.  This blog provides a reasonably technical overview of:</p>
+<ol>
+<li><span style="font-size: 13px;">some of the processes occurrence data goes through;</span></li>
+<li><span style="font-size: 13px;">how the results of this processing are visible to users; and</span></li>
+<li><span style="font-size: 13px;">how users can explore and filter data to be “fit for purpose”</span></li>
+</ol>
+<p><span style="font-size: 13px;">Note that these processes continue to evolve over time to better detect issues and address your needs so your feedback is welcome.</span></p>
+<h2 id="general-approach">General approach</h2>
+<p dir="ltr">Our philosophy is to:</p>
+<ul>
+<li><strong>Preserve</strong> the original data as provided by the data provider</li>
+<li>I<strong>nterpret</strong> the data in terms of taxonomy provided by <a title="National Species Lists (NSL)" href="http://biodiversity.org.au">National Species Lists</a>, geospatial information and attribution.</li>
+<li><strong>Assert </strong>additional information about the data based on a range of tests. These assertions are designed to help Atlas’ users make clear decisions about data use.</li>
+</ul>
+<p>In this approach, the Atlas does not make an <em>overall</em> assertion about the quality of data.  This is based upon the premise that we do not know (or need to know) the purpose to which data will be put.  In other words each user’s <em>fitness-for-purpose </em>scenario is different – so we put as much information in the hands of the user as possible to help you make this call.</p>
+<p><span style="font-size: 13px;">To take this point further – some data may be unusable to some users in some circumstances, but will still be valuable in other contexts.  With this in mind, the Atlas will never restrict data from a search based on the results of the data processing, but will expose the results and allow users to filter certain data in or out of display and later analyses.</span></p>
+<figure id="attachment_31455" aria-describedby="caption-attachment-31455" style="width: 574px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2013/10/data-processing1.png"><img class="size-full wp-image-31455" title="data-processing" src="http://www.ala.org.au/wp-content/uploads/2013/10/data-processing1.png" alt="Simple diagram of some of the processes run over occurrence data" width="574" height="207"></a><figcaption id="caption-attachment-31455" class="wp-caption-text">Simple diagram of some of the processes run over occurrence data</figcaption></figure>
+<h2 id="assertions">Assertions</h2>
+<p dir="ltr">As data is processed and ingested into the Atlas, a large number of <em>tests</em> are run against the data.  These result in <em>assertions</em> about the content and quality of the data.  All the assertion types and descriptions of the tests are outlined in <a title="Data quality checks spreadsheet" href="http://bit.ly/15LvG25">this spreadsheet</a>.</p>
+<figure style="width: 405px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-3.21.06-PM.png"><img class="size-full wp-image-31419" title="Data quality summary on record page" src="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-3.21.06-PM.png" alt="Data quality summary on record page" width="405" height="245"></a><figcaption class="wp-caption-text">Data quality summary displayed on record page</figcaption></figure>
+<p>The results of the tests and assertions are visible on a <a title="Example record with data quality tests" href="http://biocache.ala.org.au/occurrence/4cbbfd12-fe60-4987-8cc5-d20c4be3dd12" target="_blank" rel="noopener noreferrer">record page</a> and can also be used in searches as well as including or excluding records from display or analyses – as per the following screenshots:</p>
+<div>
+<div style="float: left;">
+<figure id="attachment_31468" aria-describedby="caption-attachment-31468" style="width: 691px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-9.35.35-AM1.png"><img class=" wp-image-31468 " title="Screen Shot 2013-10-04 at 9.35.35 AM" src="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-9.35.35-AM1.png" alt="Listing of test ran on a record page" width="691" height="405"></a><figcaption id="caption-attachment-31468" class="wp-caption-text">Listing of tests run on a record page</figcaption></figure>
+</div>
+<div style="float: left;">
+<figure id="attachment_31314" aria-describedby="caption-attachment-31314" style="width: 608px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-9.53.09-AM.png"><img class=" wp-image-31314 " title='The "record issues" facet' src="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-9.53.09-AM.png" alt='The "record issues" facet which can be used to include/exclude records with specific assertions' width="608" height="607"></a><figcaption id="caption-attachment-31314" class="wp-caption-text">The “record issues” facet which can be used to include/exclude records with specific assertions</figcaption></figure>
+</div>
+</div>
+<figure style="width: 1099px" class="wp-caption alignnone"><a href="http://spatial.ala.org.au/?q=lsid:%22urn:lsid:biodiversity.org.au:apni.taxon:295882%22&cm=assertions"><img class="size-full wp-image-31404    " title="Mapping of Acacia acuminata" src="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-04-at-11.17.21-AM.png" alt="Mapping of Acacia acuminata" width="1099" height="895"></a><figcaption class="wp-caption-text">Mapping of Acacia acuminata with the record issues facet selected. The occurrence points are coloured by issues detected with the records. Within the spatial portal, users can select records with/without issues and produce a layer from this selection</figcaption></figure>
+<h2 style="clear: both;" id="taxonomy">Taxonomy</h2>
+<p>The taxonomy provided with the original occurrence record can vary from a scientific name to a classification from subspecies to kingdom.  Scientific names are parsed using the useful java <a href="http://tools.gbif.org/nameparser/">GBIF ECAT name parser library</a> developed by GBIF. This code extracts the key components of the name (generic, specific epithet, authorship etc) taking into account the nomenclatural rules (botanical and zoological) for scientific names.  The Atlas extends the GBIF ECAT Name parser to handle Phrase Names as defined in the National Species List (NSL).  The NSL includes  the Australian Faunal Directory (AFD), the Australian Plant Name Index (APNI) and the Australian Plant Census. The classification is matched to taxa in the NSL.</p>
+<p>The type of the name matching is classified into one of the categories on the left (as of 4/10/2013).</p>
+<div>
+<div style="float: left;">
+<figure id="attachment_31345" aria-describedby="caption-attachment-31345" style="width: 607px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-11.39.18-AM.png"><img class="size-full wp-image-31345  " title="Name matching metrics" src="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-11.39.18-AM.png" alt="Name matching metrics" width="607" height="609"></a><figcaption id="caption-attachment-31345" class="wp-caption-text">Name matching metrics can be used to select records matched in a certain way.</figcaption></figure>
+</div>
+<div style="float: right;">
+<figure id="attachment_31346" aria-describedby="caption-attachment-31346" style="width: 619px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-11.38.28-AM.png"><img class="size-full wp-image-31346      " title="Taxonomic name matching " src="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-11.38.28-AM.png" alt="Taxonomic name matching " width="619" height="615"></a><figcaption id="caption-attachment-31346" class="wp-caption-text">Taxonomic name issues can be used to include/exclude records that may have issues such as being associated with a misapplied name</figcaption></figure>
+</div>
+</div>
+<p><br style="clear: both;"><br>
+Taxonomic name issues that are flagged include:</p>
+<div>
+<ul>
+<li>Parent concept is synonym of child: Arises when a species is divided into 1 or more subspecies and the species name is marked as a synonym to one of the subspecies.</li>
+<li>Match to misapplied name: A warning to indicate that the supplied scientific name has been misapplied in the past.</li>
+<li>Matched to homonym: During the match a homonym was detected.  This will often cause the match to be applied at a higher level in the classification.</li>
+<li>Affinity species: The supplied scientific name included an <a title="aff marker information" href="http://bionomenclature-glossary.gbif.org/?term=aff.">aff. marker</a>.</li>
+<li>Confer species: The supplied scientific name included a <a title="Cf. information" href="http://en.wikipedia.org/wiki/Cf.">cf. marker.</a></li>
+<li>Associated name excluded:  The scientific name is both an accepted name and excluded from another name.</li>
+<li>Matched to excluded species: The scientific name matched to a species that is considered excluded from Australia.</li>
+<li>Species plural: The scientific name was supplied with an spp. marker.</li>
+</ul>
+<p>Further information about the Name Matching algorithms used by the ALA can be found in the <a href="http://code.google.com/p/ala-portal/wiki/ALANames">ALA Names List wiki</a>.</p>
+</div>
+<h2 style="clear: both;" id="duplicate-detection">Duplicate detection</h2>
+<p>Detecting for duplicate occurrence records is one of the tests performed during data processing.  If a potential duplicate is detected, the record is flagged which then allows users to optionally discard duplicates records from searches, analysis and mapping.  A discussion  by Simon Bennett on duplicate records is available <a href="https://docs.google.com/file/d/0B7rqu1P0r1N0N09VSm1Qbk5mMUk/edit">here</a>.  Duplicates may occur in observational data due to historical data merging between datasets. For specimen data, “duplicate” may be inaccurate as there may be multiple specimens taken from the same individual or multiple specimens taken as part of the same collection event.</p>
+<p>The Atlas uses the scientific name, decimal latitude, decimal longitude, collector and collection date to detect potential duplicate records. Here are some additional implementation details:</p>
+<ul>
+<li>Records are grouped at a species level. Synonyms are mapped to the accepted name, and the accepted name is used in this grouping.</li>
+<li>Collection dates are duplicates where year, month and day are identical. Paired empty values are considered identical.</li>
+<li>Collector names are compared; if one is null it is considered a duplicate, otherwise a <a title="Levenshtein distance" href="http://en.wikipedia.org/wiki/Levenshtein_distance">Levenstein distance</a> is calculated with an acceptable threshold indicating a duplicate</li>
+<li>Latitudes and Longitudes are duplicates when they are identical at the same precision. Null values are excluded from consideration.</li>
+</ul>
+<p>When a group of duplicate records are identified, one record is identified as the “<strong>representative</strong>” of the duplicates.  The representative record is the one that is the most complete in terms of geospatial information and other metadata.</p>
+<p>The duplicate detection process is run as a batch job across all data each week.</p>
+<figure style="width: 619px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-11.39.27-AM.png"><img class="size-full wp-image-31336   " title="Duplicate detection status values" src="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-11.39.27-AM.png" alt="Duplicate detection status values from the facet" width="619" height="628"></a><figcaption class="wp-caption-text">Duplicate detection status values from the facet. Users can use this facet to select records marked as duplicates by the criteria used to associate the records.</figcaption></figure>
+<h2 style="clear: both;" id=""></h2>
+<p>Here is an example record that has been <a title="Duplicate record" href="http://biocache.ala.org.au/occurrence/0ce02814-25fa-4fda-93f8-0184841d9e5d">marked as a duplicate</a>. In this particular case the specimens were possibly collected as part of the same collection event.</p>
+<figure style="width: 1217px" class="wp-caption alignnone"><img class="size-full wp-image-31364 " style="border: 1px solid #FCFCFC;" title="Associated record details for PERTH 8480311" src="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-1.29.20-PM.png" alt="Associated record details for PERTH 8480311" width="1217" height="735"><figcaption class="wp-caption-text">Associated record details for PERTH 8480311</figcaption></figure>
+<h2 style="clear: both;" id="expert-distribution-outlier">Expert distribution outlier</h2>
+<p>As part of the work on <a href="http://fish.ala.org.au">fishmap</a>, the Atlas worked with <a title="CSIRO Marine Division" href="http://www.cmar.csiro.au/" target="_blank" rel="noopener noreferrer">CSIRO CMAR</a> to expose fish distributions. These distributions are represented as polygons where each species is believed to occur. Each distribution has been developed by an expert in the taxonomic group.</p>
+<p>A similar suite of expert distributions has been developed for birds by <a title="BirdLife international" href="http://www.birdlife.org/">BirdLife international</a>. Both sets of distributions are used to add assertions to occurrence records that fall outside these polygons. As with many assertions, just because an assertion is made, does not necessarily mean that the record is an ‘error’. For example, in the case of these expert distributions, a new observation may extend the species range.</p>
+<div>
+<div style="float: left;">
+<figure style="width: 363px" class="wp-caption alignnone"><a href="http://bie.ala.org.au/species/Chaetodon+reticulatus"><img class="      " title="Chaetodon reticulatus : Reticulate Butterflyfish" src="https://web.archive.org/web/20131020170245/http://bie.ala.org.au/repo/1111/195/1957551/raw.jpg" alt="Chaetodon reticulatus : Reticulate Butterflyfish" width="363" height="303"></a><figcaption class="wp-caption-text">Reticulate Butterflyfish. Image by: J.E. Randall. Australian National Fish Collection Images. Licence: CC BY-NC 3.0</figcaption></figure>
+</div>
+<div style="float: right;">
+<figure style="width: 320px" class="wp-caption alignnone"><a href="http://bie.ala.org.au/species/Chaetodon+reticulatus"><img class="    " title="Distribution map for Reticulate Butterflyfish as supplied by CSIRO CMAR" src="http://spatial.ala.org.au/layers-service/distribution/map/png/2859" alt="Distribution map for Reticulate Butterflyfish as supplied by CSIRO CMAR" width="320" height="320"></a><figcaption class="wp-caption-text">Distribution map for Reticulate Butterflyfish as supplied by CSIRO CMAR</figcaption></figure>
+</div>
+</div>
+<div style="clear: both;">The expert range and the occurrence record location are displayed on the <a title="Example record outside species expert range" href="http://biocache.ala.org.au/occurrence/a1ef8638-8a9c-49f9-8071-03362b26499b">record page</a>:</div>
+<figure style="width: 1116px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-12.06.23-PM.png"><img class="size-full wp-image-31355   " title="Screen Shot 2013-10-08 at 12.06.23 PM" src="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-12.06.23-PM.png" alt="Record outside of expert distribution area" width="1116" height="525"></a><figcaption class="wp-caption-text">Record outside of expert distribution area</figcaption></figure>
+<p>We hope to add expert ranges for other groups as they become available. This process is run across all data each week.</p>
+<h2 style="clear: both;" id="environmental-outlier-detection">Environmental outlier detection</h2>
+<figure style="width: 350px" class="wp-caption alignnone"><img class=" " title="Mountain thornbill. Image by: Tom Tarrant. Licence: http://creativecommons.org/licenses/by-nc-sa/2.0/" src="https://web.archive.org/web/20131020170342/http://bie.ala.org.au/repo/1013/167/1674272/raw.jpg" alt="Mountain thornbill. Image by: Tom Tarrant. Licence: http://creativecommons.org/licenses/by-nc-sa/2.0/" width="350" height="230"><figcaption class="wp-caption-text">Mountain thornbill. Image by: Tom Tarrant. Licence: http://creativecommons.org/licenses/by-nc-sa/2.0/</figcaption></figure>
+<p>Environmental outlier’ detection is run across all occurrence data that has been classified to species level. In this case ‘Environmental outlier’ means that an occurrence record lies <em>outside</em> one or more of the <em>expected</em> environmental ranges of the species. This check intersects all point locations for each species with 5 selected environmental surfaces, and then runs an algorithm known as <a title="reverse jacknife" href="https://github.com/AtlasOfLivingAustralia/ala-dataquality/wiki/DETECTED_OUTLIER_JACKKNIFE">Reverse JackKnife</a>  See <a href="https://docs.google.com/open?id=0B7rqu1P0r1N0NGVhZmVhMjItZmZmOS00YmJjLWJjZGQtY2Y0ZjczZmUzZTZl">here</a> for details.</p>
+<p>The 5 selected environmental layers were selected because, as a group, they account for most of the <em>terrestrial</em> environment of Australia at a 1km resolution. It is recognized that these 5 layers may not cover the significant environmental determinants of all terrestrial species, or at different scales, but it is a start. With marine species, the environmental layers are less well developed, but watch this space.</p>
+<p>For more information about the selection of the environmental layers see Williams, K.J. and Belbin, L. and Austin, M.P. and Stein, J.L. and Ferrier, S., (2012). “Which environmental variables should I use in my biodiversity model?”, International Journal of Geographical Information Science, vol. 26, no. 11, pp. 2009-2047. DOI: <a href="http://dx.doi.org/10.1080/13658816.2012.698015" target="_blank" rel="noopener noreferrer">10.1080/13658816.2012.698015</a>, <a href="http://www.scopus.com/inward/record.url?eid=2-s2.0-84867849849&partnerID=MN8TOARS" target="_blank" rel="noopener noreferrer">http://www.scopus.com/inward/record.url?eid=2-s2.0-84867849849&partnerID=MN8TOARS</a></p>
+<p>This process is run across all species each week.</p>
+<figure id="attachment_31350" aria-describedby="caption-attachment-31350" style="width: 944px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-4.03.15-PM.png"><img class="size-full wp-image-31350 " title="Mountain thornbill records in the spatial portal" src="http://www.ala.org.au/wp-content/uploads/2013/10/Screen-Shot-2013-10-04-at-4.03.15-PM.png" alt="Mountain thornbill records in the spatial portal" width="944" height="824"></a><figcaption id="caption-attachment-31350" class="wp-caption-text">Mountain thornbill records in the spatial portal</figcaption></figure>
+<h2 style="clear: both;" id=""></h2>
+<p>Below is a display taken from an <a title="Outlier record for Mountain thornbill" href="http://biocache.ala.org.au/occurrence/12fa7da3-d15b-4946-b2b9-6ee37900985b">occurrence record </a>that has been marked as a potential environmental outlier against 3 of the 5 environments.<br>
+Records in blue are not considered outliers. The records in red are considered potential outliers for this environmental surface. The actual record being viewed is considered a potential outlier against this environment and is coloured yellow.</p>
+<figure id="attachment_31389" aria-describedby="caption-attachment-31389" style="width: 1001px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-2.51.17-PM.png"><img class="size-full wp-image-31389" title="Record considered an environmental outlier for 3 surfaces" src="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-2.51.17-PM.png" alt="Record considered an environmental outlier for 3 surfaces" width="1001" height="707"></a><figcaption id="caption-attachment-31389" class="wp-caption-text">Record considered an environmental outlier for 3 surfaces</figcaption></figure>
+<h2 style="clear: both;" id="query-assertions-new">Query assertions (new!)</h2>
+<p>As part of the <a title="ANDS" href="http://www.ands.org.au/">Australian National Data Service </a>(<strong><a title="ANDS" href="http://www.ands.org.au/">ANDS</a>)</strong> funded collaboration with<strong> <a href="http://www.jcu.edu.au/ctbcc/" rel="cc:attributionURL">Centre for Tropical Biodiversity & Climate Change</a> </strong>and the<strong> <a href="http://eresearch.jcu.edu.au/" rel="cc:attributionURL">eResearch Centre</a>, <a href="http://www.jcu.edu.au/">James Cook University</a></strong>, the Atlas now supports what we are calling “query assertions”. These are pre-defined queries (based on, say – “this species in this location at this time”) that dynamically flags records if they match the query. For example, a query could be “all records for the Atlas Nematode (fictitious) in the Condamine Alliance NRM (or any polygon) with the date range of 1970 to 1980” can be flagged as for example, “introduced” or another criteria.</p>
+<p>This gives expert users a quick way of flagging issues against a  large number of records. This type of assertion also differs from ad-hoc annotations provided for a single record (see “Flag an issue” on a <a title="an example occurrence record" href="http://biocache.ala.org.au/occurrence/ef32b031-d280-42cf-85c5-d106aea1cb61">record page</a>) in that they are applied to all new data that matches an existing query assertion as it is loaded into the Atlas.</p>
+<p>There are blog articles on the development activities for the project <a title="AP30 blogs" href="http://ap30-ala.blogspot.com.au/">here</a> and <a title="JCU blogs for Edgar" href="http://jcu-eresearch.github.io/Edgar/">here</a>.</p>
+<figure id="attachment_31369" aria-describedby="caption-attachment-31369" style="width: 720px" class="wp-caption alignnone"><a style="background-color: #f3f3f3; text-align: center;" href="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-04-at-4.06.39-PM.png"><img class="size-full wp-image-31369 " title="Mountain thornbill records as display in the JCU edgar portal" src="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-04-at-4.06.39-PM.png" alt="Mountain thornbill records as display in the JCU edgar portal" width="720" height="669"></a><figcaption id="caption-attachment-31369" class="wp-caption-text">Mountain thornbill records as display in the JCU edgar portal</figcaption></figure>
+<p>A listing of records that have been so marked with query assertions is available<a title="Records marked via query assertions" href="http://biocache.ala.org.au/occurrences/search?q=query_assertion_type_s:*#tab_recordsView"> here</a>. An example record that has been marked in this way is <a title="A record with a query assertion" href="http://biocache.ala.org.au/occurrence/c23a9135-3c20-4934-bc0a-f45ac74c8ee1">here</a>. The annotation also has a link to other records that have been marked with this assertion. Here is an example set of record marked with a single assertion <a title="Query assertion" href="https://biocache.ala.org.au/occurrences/search?q=query_assertion_uuid:3b9054ef-7f50-494a-9bde-b336f613152a">listing</a>.</p>
+<figure id="attachment_31391" aria-describedby="caption-attachment-31391" style="width: 756px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-2.53.44-PM.png"><img class="size-full wp-image-31391" title="A record marked with query assertion" src="http://www.ala.org.au/wp-content/uploads/2010/10/Screen-Shot-2013-10-08-at-2.53.44-PM.png" alt="A record marked with query assertion" width="756" height="279"></a><figcaption id="caption-attachment-31391" class="wp-caption-text">A record marked with query assertion</figcaption></figure>
+<p>This process is run weekly across all data. <strong>Note:</strong> There isn’t currently a user interface in the Atlas (web services must be used) for adding this type of assertion but we hope to add this in the near future.</p>
+<h2 style="clear: both;" id="spatial-validity">Spatial validity</h2>
+<p>Records are marked as spatially suspect if they fail one or more of a subset of the spatial tests. As with other tests, users may include/exclude data with specific spatial assertions. All tests are outlined in <a title="Data quality checks spreadsheet" href="http://bit.ly/15LvG25">this spreadsheet</a>.</p>
+<p>Examples of issues that will cause a record to be marked as suspect include:</p>
+<ul>
+<li>Coordinates given as 0,0. Typically a result of bad default values for empty database fields.</li>
+<li>Coordinates out of range (Latitude >90 or <-90 and Longitude >180 or <-180).</li>
+<li>Marine species on land or vice-versa.</li>
+<li>Supplied coordinates are the centre of a country.</li>
+<li>The coordinates given are in the centre of a State or Territory. suggesting they have been generated post collection event, erroneously by software .</li>
+<li>Records marked as geospatially suspect by users.</li>
+<li>Environmental outliers.</li>
+<li>Expert distribution outliers.</li>
+</ul>
+<h2 style="clear: both;" id="automated-tests-and-human-annotations">Automated Tests and Human annotations</h2>
+<p>The suite of Atlas tests cannot identify all errors. For example, a record may contain a valid scientific name but it may have been misnamed at the time of observation or subsequently. If the misnamed species occurs in the same environmental or spatial conditions,  it is unlikely to be automatically detected, unless other tests flag an issue. Such a naming  error may be detected for example, by a taxonomist who recognizes the record and knows about the corresponding museum specimen or a history of misnaming.</p>
+<p>There are four possible combinations of detecting and correcting errors by automated tests and by people. Automated tests may be able to both detect and correct a range of errors as noted above. In some cases, automated tests can detect errors but cannot correct them. For example, a record may be flagged as being a genuine environmental outlier but how does one correct the location of the observation?</p>
+<p>In summary, the automatic tests with the Atlas of Living Australia are very necessary but insufficient. Human intervention is required to design the tests and evaluate the results. In many cases, human intervention is required to detect and correct errors that the automatic tests cannot: See <a href="http://www.pensoft.net/journals/zookeys/article/5438/a-specialist%E2%80%99s-audit-of-aggregated-occurrence-records-an-%E2%80%98aggregator%E2%80%99s%E2%80%99-perspective">http://www.pensoft.net/journals/zookeys/article/5438/a-specialist%E2%80%99s-audit-of-aggregated-occurrence-records-an-%E2%80%98aggregator%E2%80%99s%E2%80%99-perspective</a></p>
+<p>The Atlas therefore values all <a title="Annotations to records" href="http://www.ala.org.au/blogs-news/annotations-alerts-about-new-annotations-and-annotations-of-interest/" target="_blank" rel="noopener noreferrer">annotations</a> to records when potential issues are detected by users. The Atlas is looking into methods that will support the bulk import of record annotations where an external analysis has been performed by taxonomic/domain experts.</p>
+<h2 id="the-sandbox">The Sandbox</h2>
+<p>You can run the Atlas tests against you data by uploading it to the <a title="Sandbox" href="http://sandbox.ala.org.au">Atlas’ sandbox tool</a>.  <strong>Note:</strong> The uploaded data is removed from the Atlas periodically. The tests run in the sandbox do not currently include duplicate detection, environmental outlier detection or expert distribution outlier detection – but this is another area are working on at the moment.</p>
+
+		
+	</div>
+
+	<footer class="entry-footer">
+
+				
+		<div class="post-footer">
+			<div class="addthis_inline_share_toolbox"></div>
+			<a href="https://www-test.ala.org.au/blog/" class="btn btn-outline-dark btn-lg"><i class="fal fa-lg fa-angle-left"></i> Back to Articles</a>
+		</div>
+	</footer>
+
+</article>
+
+					
+				
+			</main>
+
+			</div>
+
+			
+			
+<div class="col-md-3 widget-area" id="right-sidebar" role="complementary">
+
+<aside id="pvtl-recent-posts-2" class="widget pvtl-recent-posts-class">	<h3 class="widget-title">Latest Posts</h3>
+	<div class="post-list">
+					<article class="recent-post" id="post-44165">
+				<a href="https://www-test.ala.org.au/blogs-news/ala-newsletter-july-2020/" rel="bookmark" title="ALA newsletter July 2020">
+					<header class="recent-header">
+													<div class="recent-meta">
+								<span class="posted-on"><span class="sr-only">Posted on </span><time class="entry-date published updated" datetime="2020-07-07T12:53:34+10:00">7th July 2020</time></span>							</div>
+												<h2 class="recent-title">
+							ALA newsletter July 2020						</h2>
+					</header>
+					<div class="recent-content">
+						ALA newsletter July 2020					</div>
+				</a>
+			</article>
+					<article class="recent-post" id="post-44114">
+				<a href="https://www-test.ala.org.au/blogs-news/new-ala-strategy-for-2020-2025/" rel="bookmark" title="New ALA strategy for 2020-2025">
+					<header class="recent-header">
+													<div class="recent-meta">
+								<span class="posted-on"><span class="sr-only">Posted on </span><time class="entry-date published updated" datetime="2020-07-07T09:50:12+10:00">7th July 2020</time></span>							</div>
+												<h2 class="recent-title">
+							New ALA strategy for 2020-2025						</h2>
+					</header>
+					<div class="recent-content">
+						Today we release our Atlas of Living Australia Strategy 2020-2025.  					</div>
+				</a>
+			</article>
+					<article class="recent-post" id="post-44139">
+				<a href="https://www-test.ala.org.au/blogs-news/message-from-andre-zerger-atlas-of-living-australia-director-2/" rel="bookmark" title="Message from Andre Zerger, Atlas of Living Australia Director">
+					<header class="recent-header">
+													<div class="recent-meta">
+								<span class="posted-on"><span class="sr-only">Posted on </span><time class="entry-date published updated" datetime="2020-07-07T09:49:44+10:00">7th July 2020</time></span>							</div>
+												<h2 class="recent-title">
+							Message from Andre Zerger, Atlas of Living Australia Director						</h2>
+					</header>
+					<div class="recent-content">
+						Welcome to the winter edition of our ALA newsletter. 					</div>
+				</a>
+			</article>
+			</div>
+</aside>
+</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+<footer class="site-footer" id="colophon">
+	
+			<div class="footer-top-bar footer-subscribe">
+			<div class="container">
+				<div class="d-flex align-items-center justify-content-center flex-column flex-md-row">
+					<h3>Want the latest ALA news & updates?</h3>
+					<a href="https://alerts.ala.org.au/notification/myAlerts" class="btn btn-outline-white btn-lg">Get email alerts</a>
+				</div>
+			</div>
+		</div>
+	
+	<div class="footer-top">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-12 col-lg-4 align-center logo-column">
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<div class="account">
+																										<a href="https://auth.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign Up</a>
+							<a href="https://www-test.ala.org.au/wp/wp-login.php" class="btn btn-primary btn-sm">Login</a>
+																									<ul class="social">
+			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 content-column">
+										<div class="d-flex">
+						<div class="image">
+							<img src="https://www-test.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg" alt="iNaturalist logo" id="inat-logo">
+						</div>
+						<div class="content">
+							<h4><a href="https://www.ala.org.au/home/record-a-sighting/">Record a sighting</a></h4>
+<p>Upload your observations, identify species, and contribute to the ALA.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 content-column">
+										<div class="d-flex">
+						<div class="image">
+							<img src="https://www-test.ala.org.au/app/uploads/2019/06/19-0078_ALA_ICON_IconSuite_Spatial-Portal-white.svg" alt="">
+						</div>
+						<div class="content">
+							<h4><a href="https://spatial.ala.org.au/">Explore the Spatial Portal</a></h4>
+<p>Visualise and analyse relationships between species, location and environment.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-middle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-lg-6">
+					
+					<div class="footer-menu"><ul id="menu-search-analyse" class="menu menu-2-col"><li id="menu-item-208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Search & analyse" href="#">Search & analyse</a>
+<ul class="sub-menu">
+	<li id="menu-item-41964" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search species" href="https://bie.ala.org.au/">Search species</a></li>
+	<li id="menu-item-209" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search & download records" href="https://biocache.ala.org.au/search#tab_simpleSearch">Search & download records</a></li>
+	<li id="menu-item-210" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search datasets" href="https://collections.ala.org.au/datasets">Search datasets</a></li>
+	<li id="menu-item-211" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Spatial analysis (Spatial Portal)" href="https://spatial.ala.org.au/">Spatial analysis (Spatial Portal)</a></li>
+	<li id="menu-item-215" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Explore your area" href="https://biocache.ala.org.au/explore/your-area">Explore your area</a></li>
+	<li id="menu-item-216" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Explore natural history collections" href="https://collections.ala.org.au/">Explore natural history collections</a></li>
+	<li id="menu-item-217" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Explore regions" href="https://regions.ala.org.au/">Explore regions</a></li>
+	<li id="menu-item-40715" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Browse Australian iconic species" href="https://lists.ala.org.au/iconic-species?fq=kvp+group%3ABirds">Browse Australian iconic species</a></li>
+	<li id="menu-item-212" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Download predefined datasets" href="https://downloads.ala.org.au/;jsessionid=1C9E9863308C4B095E1B5DDAABA61B91">Download predefined datasets</a></li>
+	<li id="menu-item-40716" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Browse specimen images" href="https://specimens.ala.org.au/">Browse specimen images</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+				<div class="col-md-4 col-lg-3">
+					
+					<div class="footer-menu"><ul id="menu-contribute" class="menu"><li id="menu-item-218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Contribute" href="#">Contribute</a>
+<ul class="sub-menu">
+	<li id="menu-item-40774" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Share your dataset" href="https://support.ala.org.au/support/solutions/articles/6000195493-how-to-submit-a-data-set">Share your dataset</a></li>
+	<li id="menu-item-40718" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Upload species list" href="https://lists.ala.org.au/public/speciesLists">Upload species list</a></li>
+	<li id="menu-item-43212" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Record a sighting" href="https://www-test.ala.org.au/home/record-a-sighting/">Record a sighting</a></li>
+	<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Transcribe & digitise (DigiVol)" href="https://digivol.ala.org.au/">Transcribe & digitise (DigiVol)</a></li>
+	<li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa?hub=ala-cs#isCitizenScience%3Dtrue%26isWorldWide%3Dfalse%26max%3D20%26sort%3DdateCreatedSort">Discover citizen science projects</a></li>
+	<li id="menu-item-222" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Download mobile apps" href="https://www.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/">Download mobile apps</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+				<div class="col-md-4 col-lg-3">
+					
+					<div class="footer-menu"><ul id="menu-about" class="menu"><li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a title="About" href="https://www-test.ala.org.au/about-ala/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-40724" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About us" href="https://www-test.ala.org.au/about-ala/">About us</a></li>
+	<li id="menu-item-41965" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="News & media" href="/blog/">News & media</a></li>
+	<li id="menu-item-43475" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Publications" href="https://www-test.ala.org.au/publications/">Publications</a></li>
+	<li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Contact us" href="https://www-test.ala.org.au/contact-us/">Contact us</a></li>
+	<li id="menu-item-43694" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Current projects" href="https://www-test.ala.org.au/current-projects/">Current projects</a></li>
+	<li id="menu-item-40721" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="International Living Atlases" href="https://living-atlases.gbif.org/">International Living Atlases</a></li>
+	<li id="menu-item-40720" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Education resources" href="https://www-test.ala.org.au/education-resources/">Education resources</a></li>
+	<li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Indigenous ecological knowledge" href="https://www-test.ala.org.au/indigenous-ecological-knowledge/">Indigenous ecological knowledge</a></li>
+	<li id="menu-item-44056" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/">ALA logo and identity</a></li>
+	<li id="menu-item-41966" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="All sites, services & tools" href="/sites-and-services/">All sites, services & tools</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+				<div class="col-md-4 col-lg-6">
+					
+					<div class="footer-menu"><ul id="menu-tools" class="menu menu-2-col"><li id="menu-item-41579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Tools" href="#">Tools</a>
+<ul class="sub-menu">
+	<li id="menu-item-41581" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="BioCollect" href="/biocollect/">BioCollect</a></li>
+	<li id="menu-item-41580" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Zoatrack" href="https://zoatrack.org/">Zoatrack</a></li>
+	<li id="menu-item-41582" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Phylolink" href="https://phylolink.ala.org.au/">Phylolink</a></li>
+	<li id="menu-item-41583" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Sandbox" href="https://sandbox.ala.org.au/">Sandbox</a></li>
+	<li id="menu-item-41584" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA dashboard" href="https://dashboard.ala.org.au/">ALA dashboard</a></li>
+	<li id="menu-item-41585" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="MERIT" href="https://fieldcapture.ala.org.au/">MERIT</a></li>
+	<li id="menu-item-41586" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Flora of Australia" href="https://profiles.ala.org.au/opus/foa">Flora of Australia</a></li>
+	<li id="menu-item-41587" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Sensitive Data Service" href="https://sds.ala.org.au/">Sensitive Data Service</a></li>
+	<li id="menu-item-41588" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Fishmap" href="https://fish.ala.org.au/">Fishmap</a></li>
+	<li id="menu-item-41589" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA4R" href="https://support.ala.org.au/support/solutions/folders/6000233099">ALA4R</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+				<div class="col-md-4 col-lg-3">
+					
+					<div class="footer-menu"><ul id="menu-community-hubs" class="menu"><li id="menu-item-41590" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Community hubs" href="#">Community hubs</a>
+<ul class="sub-menu">
+	<li id="menu-item-41591" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="AVH: Australasian Virtual Herbarium" href="https://avh.ala.org.au/">AVH: Australasian Virtual Herbarium</a></li>
+	<li id="menu-item-41592" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="OZCAM: Online Zoological Collections..." href="https://ozcam.ala.org.au/">OZCAM: Online Zoological Collections…</a></li>
+	<li id="menu-item-41593" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ASBP: Australian Seed Bank Partnership" href="https://asbp.ala.org.au/">ASBP: Australian Seed Bank Partnership</a></li>
+	<li id="menu-item-41594" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="MDBA: Murray-Darling Basin Authority" href="https://mdba.ala.org.au/">MDBA: Murray-Darling Basin Authority</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+				<div class="col-md-4 col-lg-3">
+					
+					<div class="footer-menu"><ul id="menu-ala-for" class="menu"><li id="menu-item-41868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="ALA for..." href="#">ALA for…</a>
+<ul class="sub-menu">
+	<li id="menu-item-41867" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA for researchers" href="/ala-for-researchers">ALA for researchers</a></li>
+	<li id="menu-item-41866" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA for government and land managers" href="/ala-for-government-and-land-managers-2/">ALA for government and land managers</a></li>
+	<li id="menu-item-41865" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA for community and schools" href="/ala-for-community-and-schools-2/">ALA for community and schools</a></li>
+</ul>
+</li>
+</ul></div>				</div>
+				<div class="col-md-12">
+					
+					<div class="footer-menu-horizontal"><ul id="menu-other-links" class="menu horizontal"><li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a title="News & media" href="https://www-test.ala.org.au/blog/">News & media</a></li>
+<li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Help" href="https://support.ala.org.au/support/home">Help</a></li>
+<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Developer tools & documentation" href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer tools & documentation</a></li>
+<li id="menu-item-41795" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="All sites, services & tools" href="https://www-test.ala.org.au/sites-and-services/">All sites, services & tools</a></li>
+</ul></div>				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 content-column">
+					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+				</div>
+				<div class="col-md-6 content-column">
+					<h4>Acknowledgement of Traditional Owners and Country</h4>
+<p>The Atlas of Living Australia acknowledges Australia’s Traditional Owners and pays respect to the past and present Elders of the nation’s Aboriginal and Torres Strait Islander communities. We honour and celebrate the spiritual, cultural and customary connections of Traditional Owners to country and the biodiversity that forms part of that country.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-7">
+					<p class="alert-text text-creativecommons">
+						This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative Commons Attribution 3.0 Australia License</a> <a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/"><img alt="Creative Commons License" style="border-width:0" src="/app/themes/pvtl/images/cc-by.png"></a>
+					</p>
+				</div>
+				<div class="col-md-12 col-lg-5 text-lg-right">
+					<ul class="menu horizontal">
+						<li><a href="/terms-of-use#cy">Copyright</a></li>
+						<li><a href="/terms-of-use">Terms of Use</a></li>
+						<li><a href="https://status.ala.org.au/">System Status</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</footer>
+
+</div>
+
+<div class="modal fade experience-modal" id="experience-modal" tabindex="-1" role="dialog" aria-labelledby="experience-modal" aria-hidden="true" data-backdrop="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+			</div>
+
+			<div class="modal-body">
+				<h4>Customise Your Experience</h4>
+<p><strong>To best tailor your experience, please let us know</strong></p>
+<p>Which group do you associate with most?</p>
+									<div class="experience-groups">
+													<div class="experience-group">
+							<button type="button" data-name="Researchers" class="group-btn group-btn-red group-btn-1" data-toggle="tooltip" data-placement="right" title="Researchers includes ecoscientists, taxonomists, collection owners, tertiary students and lecturers.">
+                                        Researchers
+                                    </button>							</div>
+													<div class="experience-group">
+							<button type="button" data-name="Government and land managers" class="group-btn group-btn-red group-btn-2" data-toggle="tooltip" data-placement="right" title="Government and land managers includes federal, state and local government departments, land managers, landowners, rangers, non-government organisations, and environmental consultants.">
+                                        Government and land managers
+                                    </button>							</div>
+													<div class="experience-group">
+							<button type="button" data-name="Community and schools" class="group-btn group-btn-red group-btn-3" data-toggle="tooltip" data-placement="right" title="Community and schools includes citizen scientists, community groups, school students and teachers, and the general public.">
+                                        Community and schools
+                                    </button>							</div>
+												<div class="experience-group">
+							<button type="button" data-name="null" class="group-btn group-btn-grey">
+								None of the above
+							</button>
+						</div>
+					</div>
+				
+				<p><em>Use the Customise Your Experience link at the top of the page to easily change your nominated user group at any time.</em></p>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+
+
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.ala.org.au"]);
+  _paq.push(["setDomains", ["*.ala.org.au"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://ash.ala.org.au/";
+    _paq.push(['setTrackerUrl', u+'ash.html']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'ash.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://ash.ala.org.au/ash.php?idsite=1&rec=1" style="border:0;" alt=""></p></noscript>
+
+
+<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+FreshWidget.init("", {"queryString": "&widgetType=popup&helpdesk_ticket[group_id]=6000207804&helpdesk_ticket[product_id]=6000005589&formTitle=Report+an+issue+or+ask+for+help", "utf8": "✓", "widgetType": "popup", "buttonType": "text", "buttonText": "Need help?", "buttonColor": "white", "buttonBg": "#d5502a", "alignment": "2", "offset": "220px", "formHeight": "500px", "url": "https://support.ala.org.au"} );
+</script>
+
+</body>
+
+</html>
