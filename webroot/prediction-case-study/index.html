@@ -12,34 +12,21 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -104,8 +91,25 @@ Ecologists, field naturalists and all sorts of people might ask such a question.
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -122,7 +126,21 @@ Ecologists, field naturalists and all sorts of people might ask such a question.
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -235,13 +253,13 @@ Ecologists, field naturalists and all sorts of people might ask such a question.
 
 		<h2 id="where-could-the-greater-glider-be">Where could the Greater Glider be?</h2>
 <p><cite>Author: Dr Jane Elith, The University of Melbourne, School of Botany</cite></p>
-<div class="wp-caption alignright"><img class="size-thumbnail wp-image-15058" title="Jane Elith" src="http://www.ala.org.au/wp-content/uploads/2010/10/Jane-Elith-91x91.jpg" alt="" width="91" height="91">
+<div class="wp-caption alignright"><img loading="lazy" class="size-thumbnail wp-image-15058" title="Jane Elith" src="http://www.ala.org.au/wp-content/uploads/2010/10/Jane-Elith-91x91.jpg" alt="" width="91" height="91">
 <p class="wp-caption-text">Dr Jane Elith,<br>
 <a class="external" href="http://www.botany.unimelb.edu.au/envisci/about/staff/elith.html" target="_blank">The University of Melbourne</a><br>
 <a href="#about">About the author</a></p>
 </div>
 <p>Ecologists, field naturalists and all sorts of people might ask such a question. The greater glider, <a href="http://bie.ala.org.au/species/urn:lsid:biodiversity.org.au:afd.taxon:1e2a4845-ec97-4754-9fed-3fefaddf54f7"><em>Petauroides volans</em></a> (Kerr, 1792), is Australia’s largest glider, an arboreal marsupial that feeds on <em>Eucalyptus</em>leaves at night and shelters in tree hollows during the day. We have records of where it has been observed, but where else might it be? Species distribution models (“SDMs”, a.k.a. “ecological niche models”) are often used to answer such questions. They link records of a species’ occurrence with relevant environmental data, and predict areas that could be suitable for the species. These models assume that the records that we have are a random sample of suitable locations for the species, and that the environmental data include variables important to the species. Species modelling tools are used throughout the world to answer questions including:</p>
-<div class="wp-caption alignright"><img class="size-medium wp-image-7787" title="Greater Glider1" src="http://bie.ala.org.au/repo/1036/20/208697/raw.jpg" alt="" width="281" height="175">
+<div class="wp-caption alignright"><img loading="lazy" class="size-medium wp-image-7787" title="Greater Glider1" src="http://bie.ala.org.au/repo/1036/20/208697/raw.jpg" alt="" width="281" height="175">
 <p class="wp-caption-text"><cite>Source: Wikipedia </cite> The Greater Glider (<em>Petauroides volans</em>).</p>
 </div>
 <ul>
@@ -261,12 +279,12 @@ Ecologists, field naturalists and all sorts of people might ask such a question.
 <li><strong>How to define the landscape.</strong> MaxEnt compares the location of occurrences with environments across the area selected. In the ALA, this area is called the Active Area, and by default is the displayed map window extent. This may not be optimal. If you want to work out why your species is south of the divide rather than north, in Victoria, you won’t want the model to use all of Australia because it would be making too broad a comparison. You can define the Active Area in one of eight ways.</li>
 </ol>
 <h2 id="modelling-the-greater-glider">Modelling the Greater Glider</h2>
-<p><img class="alignleft size-full wp-image-14942" title="Greater glider" src="http://www.ala.org.au/wp-content/uploads/2010/10/Greater-glider.png" alt="" width="184" height="161">In October 2010 there were 640 occurrence records of the greater glider in the ALA. Most were in sensible places, but some were in the ocean and one in Madagascar. These were excluded.</p>
+<p><img loading="lazy" class="alignleft size-full wp-image-14942" title="Greater glider" src="http://www.ala.org.au/wp-content/uploads/2010/10/Greater-glider.png" alt="" width="184" height="161">In October 2010 there were 640 occurrence records of the greater glider in the ALA. Most were in sensible places, but some were in the ocean and one in Madagascar. These were excluded.</p>
 <p>Ecologists say that the greater glider needs the right climate and other resources to satisfy their energy and water requirements as they feed, move around, reproduce, and rear young. These must include suitable tree hollows for shelter. We selected 13 layers that are likely to represent those conditions – either directly, for the glider itself, or indirectly, by providing suitable conditions for the trees it requires. The layers were humidity (annual), precipitation (of driest and wettest months), temperature (maximum of the hottest month, minimum of the coldest month, mean annual maximum), substrate (lithology fertility, organic carbon, topographic wetness, soil depth), topography (topographic relief, valley bottom flatness index) and vegetation (NDVI mean).</p>
-<p><img class="alignright size-full wp-image-14946" title="Greater glider map 2" src="http://www.ala.org.au/wp-content/uploads/2010/10/Greater-glider-map-2.png" alt="" width="92" height="159">We chose one Active Area (landscape) down the eastern side of Australia using the “Polygon” option (see map at right). This was to identify the variables driving the fine-scale distinctions between occupied and unoccupied areas in the east. A second Active Area covering Australia to show the continent-wide correlates of distribution (Active Area option: “Box-Australia”).</p>
+<p><img loading="lazy" class="alignright size-full wp-image-14946" title="Greater glider map 2" src="http://www.ala.org.au/wp-content/uploads/2010/10/Greater-glider-map-2.png" alt="" width="92" height="159">We chose one Active Area (landscape) down the eastern side of Australia using the “Polygon” option (see map at right). This was to identify the variables driving the fine-scale distinctions between occupied and unoccupied areas in the east. A second Active Area covering Australia to show the continent-wide correlates of distribution (Active Area option: “Box-Australia”).</p>
 <h2 id="interpreting-the-results">Interpreting the Results</h2>
 <p>We used two models because we chose two landscapes. Both predicted similar distributions, and used similar variables with similar response shapes to predict the distribution. It is not always like this – quite often, the important variables will change depending on the scale of the landscape used. The figures below are for the all-Australia landscape. They show the mapped predicted distribution, with green values higher probabilities than oranges. The four graphs show the fitted functions for the four most important variables: from left to right: precipitation of the driest month; mean annual relative humidity; maximum temperature of the hottest month and precipitation of the wettest month. The percentages below each graph show the relative importance of the variable in the model. The shapes of the graphs show the species response to that variable when the other variables in the model are held constant. For example, the first graph shows that the species is unlikely to occur when the driest month is very dry (i.e. towards the left end of the x axis). These graphs give insights into the variables most strongly related to the species distribution. These should be checked against ecological knowledge.</p>
-<p><img class="aligncenter size-full wp-image-15780" title="Greater Glider Modelling" src="/wp-content/uploads/2010/10/greater_glider_Modelling_720.png" alt="Greater Glider Modelling" width="720" height="179"></p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-15780" title="Greater Glider Modelling" src="/wp-content/uploads/2010/10/greater_glider_Modelling_720.png" alt="Greater Glider Modelling" width="720" height="179"></p>
 <h2 id="what-could-go-wrong-pitfalls-for-the-unwary">What could go wrong? – Pitfalls for the unwary</h2>
 <p>These models, like all, are based on certain assumptions. If these aren’t met, your model might be nonsense. The most common problems are with the species data: the assumption is a random sample, so if you have, instead, a very biased sample (e.g. if only one state was surveyed) then the model will be more a model of sampling effort than species distribution. Or if the taxonomy is unclear and you have records for 3 species rather than one, then your model will be trying to predict suitable conditions for all three species. Or if you have very few records (e.g. less than 30), there won’t be much information to train the model on. Perhaps you might also lack the relevant predictors, or the species might be mostly restricted by the distribution of a predator. All of these have solutions, but will need some extra work on your desktop version. Similarly, using these models for climate change or invasive species predictions is rather more difficult than for species at equilibrium, and needs special care.</p>
 <h2 id="help-on-the-maxent">Help on the Maxent</h2>
@@ -275,7 +293,7 @@ Ecologists, field naturalists and all sorts of people might ask such a question.
 <h2 id="about">About the author</h2>
 <p>Dr Jane Elith is an Australian Research Council Future Fellow based at The University of Melbourne. She is an internationally acknowledged expert in species distribution modelling (SDM), having worked with terrestrial, freshwater and marine species. Jane is currently focussing on the use of SDM for predicting climate change impacts and invasive species. She has played a key role in facilitating the adoption of improved methods from the field of machine learning. Jane has published over 40 papers on ecology, a number of which are some of the most cited papers in this field.</p>
 <h2 id="contributors-to-this-page">Contributors to this page</h2>
-<p><img class="size-full wp-image-10367" title="UniMelb" src="http://www.ala.org.au/wp-content/uploads/2010/10/UOM-Rev3D_H_Sm_new-308x102.jpg" alt="" width="250" height="77"><br>
+<p><img loading="lazy" class="size-full wp-image-10367" title="UniMelb" src="http://www.ala.org.au/wp-content/uploads/2010/10/UOM-Rev3D_H_Sm_new-308x102.jpg" alt="" width="250" height="77"><br>
 <a class="external" href="https://web.archive.org/web/20060903081142/http://www.botany.unimelb.edu.au:80/botany/" target="_blank">The University of Melbourne, School of Botany</a></p>
 <h3 id="referenced-links">Referenced links</h3>
 <p><a class="external" href="http://www.cs.princeton.edu/~schapire/maxent/" target="_blank">Maxent Software</a></p>
@@ -325,9 +343,10 @@ Ecologists, field naturalists and all sorts of people might ask such a question.
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -463,7 +482,7 @@ Ecologists, field naturalists and all sorts of people might ask such a question.
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -534,12 +553,12 @@ Ecologists, field naturalists and all sorts of people might ask such a question.
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

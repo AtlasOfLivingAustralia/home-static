@@ -11,15 +11,14 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,19 +27,7 @@
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -97,8 +84,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -115,7 +119,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -241,17 +259,17 @@
 		<p><strong>by Yugul Mangi Rangers, Ben Kitchener, Dr. Emilie Ens</strong></p>
 <p>Since colonisation, the coerced centralisation of Aboriginal groups meant that many Aboriginal people were disconnected from their Country. Across Australia there are concerted efforts by Indigenous communities to get back and reconnect to Country. Many things have changed over the last 200 plus years such as native species decline, invasion of new species and changed fire regimes. Our cross-cultural Citizen Science project aims to learn about these changes using Western and Indigenous techniques and include Rangers, Elders and young people to inform current and future land management decision-making.</p>
 <p>In September 2018, the Yugul Mangi Rangers of south east Arnhem land and Macquarie University scientists planned a cross-cultural fauna survey for the Wilton River Range, approximately 20 minutes drive from Ngukurr Aboriginal community. This area was chosen as it holds special cultural value to local people. Additionally, Elders recalled the presence of many native mammal species here in the past, such as the critically endangered Northern Quoll and various rodent species, which have not been seen in recent times.</p>
-<figure id="attachment_40536" aria-describedby="caption-attachment-40536" style="width: 605px" class="wp-caption aligncenter"><img src="https://www.ala.org.au/app/uploads/2019/05/Wilton-River-Survey-Location-IEK-May-2019-1-1-300x124.png" alt="" width="605" height="250" class=" wp-image-40536"><figcaption id="caption-attachment-40536" class="wp-caption-text">The Wilton River survey location (green diamond) in the South East Arnhem Land Indigenous Protected Area (IPA) (yellow polygon) in the Top End region of Australia.</figcaption></figure>
+<figure id="attachment_40536" aria-describedby="caption-attachment-40536" style="width: 605px" class="wp-caption aligncenter"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2019/05/Wilton-River-Survey-Location-IEK-May-2019-1-1-300x124.png" alt="" width="605" height="250" class=" wp-image-40536"><figcaption id="caption-attachment-40536" class="wp-caption-text">The Wilton River survey location (green diamond) in the South East Arnhem Land Indigenous Protected Area (IPA) (yellow polygon) in the Top End region of Australia.</figcaption></figure>
 <p>As part of the trip, the survey team partnered with Ngukurr School and took 33 students on the survey with the hope of finding some interesting animal species and teaching students about the value of cross-cultural research. The Year 7 and Year 8-9 classes assisted rangers on the second day of the survey to check, rebait and set animal traps and do a spotlighting survey. Additionally, the senior boys class participated in an overnight trip and assisted with trap checking and maintenance, a spotlighting survey, Indigenous traditional animal surveys (including active searches and fishing surveys) and finally helped pack up the survey sites on the final day.</p>
 <p>These activities were led by Yugul Mangi Rangers Clayton Munur, Gene Daniels, Patrick Daniels and Cedrick Robertson. The rangers taught the students about: the use of both western and Indigenous animal trapping techniques; the use of technology for data collection (survey app and tablet); and modern threats to local fauna, such as the Cane Toad (<em>Rhinella marina</em>).</p>
-<figure id="attachment_40539" aria-describedby="caption-attachment-40539" style="width: 580px" class="wp-caption aligncenter"><img src="https://www.ala.org.au/app/uploads/2019/05/IEK-may-2019-left-and-right-students-1-300x119.png" alt="" width="580" height="230" class=" wp-image-40539"><figcaption id="caption-attachment-40539" class="wp-caption-text"><strong>Left</strong>: A Ngukurr School student is assisted by rangers as he checks a funnel trap for any captured skinks or geckos. <strong>Right</strong>: Students use the survey app to record species data, with the assistance of Macquarie’s Ben Kitchener.</figcaption></figure>
+<figure id="attachment_40539" aria-describedby="caption-attachment-40539" style="width: 580px" class="wp-caption aligncenter"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2019/05/IEK-may-2019-left-and-right-students-1-300x119.png" alt="" width="580" height="230" class=" wp-image-40539"><figcaption id="caption-attachment-40539" class="wp-caption-text"><strong>Left</strong>: A Ngukurr School student is assisted by rangers as he checks a funnel trap for any captured skinks or geckos. <strong>Right</strong>: Students use the survey app to record species data, with the assistance of Macquarie’s Ben Kitchener.</figcaption></figure>
 <p>Overall, the survey team recorded 57 fauna species throughout the survey period. Interesting species included the Orange-naped Snake (<em>Furina ornata</em>), Sugar Glider (<em>Petaurus breviceps</em>), Delicate Mouse (<em>Pseudomys delicatulus</em>), Spiny-tailed Gecko (<em>Strophurus ciliaris</em>) and Metallic Snake-eyed Skink (<em>Cryptoblepharus metallicus</em>).</p>
 <p>The team also made some valuable cultural knowledge recordings, as we were lucky enough to have local Urapunga Elder, Dennis Duncan, joining us to speak to the students about the history of the survey area. The location surveyed was Dennis’s country where he grew up with his family, and also holds great cultural significance as a men’s ceremonial area. However, with the building of the Roper Highway, which runs through this country, these ceremonies have been forced to relocate to a different area.</p>
-<figure id="attachment_40540" aria-describedby="caption-attachment-40540" style="width: 525px" class="wp-caption aligncenter"><img src="https://www.ala.org.au/app/uploads/2019/05/IEK-amy-2019-Urapunga-Elder-and-Trad-Owner-1-300x225.jpg" alt="" width="525" height="393" class=" wp-image-40540"><figcaption id="caption-attachment-40540" class="wp-caption-text">Urapunga Elder and Traditional Owner, Dennis Duncan, tells Ngukurr School students about stories of the country being surveyed and the cultural importance of the area to his family and the local people.</figcaption></figure>
+<figure id="attachment_40540" aria-describedby="caption-attachment-40540" style="width: 525px" class="wp-caption aligncenter"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2019/05/IEK-amy-2019-Urapunga-Elder-and-Trad-Owner-1-300x225.jpg" alt="" width="525" height="393" class=" wp-image-40540"><figcaption id="caption-attachment-40540" class="wp-caption-text">Urapunga Elder and Traditional Owner, Dennis Duncan, tells Ngukurr School students about stories of the country being surveyed and the cultural importance of the area to his family and the local people.</figcaption></figure>
 <p>The outcomes of this survey, both social and ecological, demonstrate the value of a cross-cultural approach to citizen science in remote communities. Collaboration with schools and other youth groups provides rangers and community Elders with a platform for the intergenerational transfer of cultural knowledge and the engagement of youth in on-country conservation.</p>
-<figure id="attachment_40541" aria-describedby="caption-attachment-40541" style="width: 533px" class="wp-caption aligncenter"><img src="https://www.ala.org.au/app/uploads/2019/05/IEK-may-2019_survey-team-1-300x225.png" alt="" width="533" height="399" class=" wp-image-40541"><figcaption id="caption-attachment-40541" class="wp-caption-text">Some of the survey team, including students, rangers and community members pose for a group photo at the rocky survey site.</figcaption></figure>
+<figure id="attachment_40541" aria-describedby="caption-attachment-40541" style="width: 533px" class="wp-caption aligncenter"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2019/05/IEK-may-2019_survey-team-1-300x225.png" alt="" width="533" height="399" class=" wp-image-40541"><figcaption id="caption-attachment-40541" class="wp-caption-text">Some of the survey team, including students, rangers and community members pose for a group photo at the rocky survey site.</figcaption></figure>
 <p><em>Special thanks to the Ngukurr and Urapunga communities, and particularly Urapunga Elder Dennis Duncan for sharing a small part of his local knowledge and hosting the Yugul Mangi Rangers and Macquarie University staff on his country.</em></p>
-<p><img src="https://www.ala.org.au/app/uploads/2019/05/IEK-may-2019-logos-1-300x67.png" alt="" width="582" height="132" class=" wp-image-40542 aligncenter"></p>
+<p><img loading="lazy" src="https://www.ala.org.au/app/uploads/2019/05/IEK-may-2019-logos-1-300x67.png" alt="" width="582" height="132" class=" wp-image-40542 aligncenter"></p>
 
 		
 	</div>
@@ -343,9 +361,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -481,7 +500,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -552,12 +571,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

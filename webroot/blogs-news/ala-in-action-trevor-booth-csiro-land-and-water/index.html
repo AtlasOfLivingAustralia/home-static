@@ -11,15 +11,14 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,19 +27,7 @@
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -98,8 +85,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -116,7 +120,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -242,16 +260,16 @@
 		<p>By Trevor Booth</p>
 <p>At the World Forestry Congress in 1991, I envisaged ‘a global climatological audit to assist conservation and sustainable development’. I imagined having interpolated climatic data available for the whole world, as well as data on species distributions, the ability to develop descriptions of species climatic requirements and to map climatically suitable areas. Thanks to the ALA team, and many other organisations and individuals who have contributed data, we now have a world-leading system with a fantastic set of tools available to carry out these analyses.</p>
 <p>At the first ALA Science Symposium, I described how the ALA can be used to check and improve descriptions of tree species climatic requirements. I showed how the description of climatic requirements for <em>Eucalyptus nitens</em> from the <a href="http://www.cabi.org/fc/">CABI Forestry Compendium</a> can be compared with results from both the ALA and the Global Biodiversity Information Facility (see <a href="https://www.ala.org.au/wp-content/uploads/2014/07/Booth-Trevor.pdf">full presentation</a>). </p>
-<figure id="attachment_39104" aria-describedby="caption-attachment-39104" style="width: 1100px" class="wp-caption aligncenter"><img src="http://www.ala.org.au/wp-content/uploads/2018/02/Trevor-Booth-image1-300x196.png" alt="" width="1100" height="719" class="wp-image-39104 "><figcaption id="caption-attachment-39104" class="wp-caption-text">In an example slide from that presentation red lines have been added to the image to show the range of suitable conditions indicated by the CABI Forestry Compendium.</figcaption></figure>
+<figure id="attachment_39104" aria-describedby="caption-attachment-39104" style="width: 1100px" class="wp-caption aligncenter"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/02/Trevor-Booth-image1-300x196.png" alt="" width="1100" height="719" class="wp-image-39104 "><figcaption id="caption-attachment-39104" class="wp-caption-text">In an example slide from that presentation red lines have been added to the image to show the range of suitable conditions indicated by the CABI Forestry Compendium.</figcaption></figure>
 <p>In the previous <a href="https://t.e2ma.net/webview/ntmpye/9009da7f7326b89c9c673c868ad63ded">ALA newsletter</a> Lee Belbin described the use of the scatterplot facility. This was used in the example above to identify some outlying sites of particular interest. In the Director’s message in the current ALA newsletter John La Salle mentions a recent paper by Josep Serra-Diaz and colleagues that describes the importance of considering whether outliers such as these should be included in species distribution analyses or not. In this case we know that these northern <em>E. niten</em>s occurrences are reliably located, as they are well-known outliers for this commercially important species.</p>
 <p>When checking outliers such as these in Australia it’s useful to access the detailed information available for each site. This facility does not work if you are using the Internet Explorer browser, but does work if you run the ALA using the freely available <a href="http://www.google.com/chrome">Chrome</a> browser.</p>
-<figure id="attachment_39105" aria-describedby="caption-attachment-39105" style="width: 861px" class="wp-caption aligncenter"><img src="http://www.ala.org.au/wp-content/uploads/2018/02/Trevor-Booth-image2-300x215.png" alt="" width="861" height="617" class="wp-image-39105 "><figcaption id="caption-attachment-39105" class="wp-caption-text">In the above image I’ve used a left mouse click to look at a northern <em>E. nitens</em> occurrence that has been added since my previous presentation. If you are using the Chrome browser clicking on the ‘view details’ option brings up a mass of information about the sample. Coordinate precision is ‘unknown’, but as can be seen from even the basic occurrence information above the latitude and longitude are only given as whole numbers in degrees. This suggests the occurrence is not accurately located and should not be used in species distribution analyses.</figcaption></figure>
+<figure id="attachment_39105" aria-describedby="caption-attachment-39105" style="width: 861px" class="wp-caption aligncenter"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/02/Trevor-Booth-image2-300x215.png" alt="" width="861" height="617" class="wp-image-39105 "><figcaption id="caption-attachment-39105" class="wp-caption-text">In the above image I’ve used a left mouse click to look at a northern <em>E. nitens</em> occurrence that has been added since my previous presentation. If you are using the Chrome browser clicking on the ‘view details’ option brings up a mass of information about the sample. Coordinate precision is ‘unknown’, but as can be seen from even the basic occurrence information above the latitude and longitude are only given as whole numbers in degrees. This suggests the occurrence is not accurately located and should not be used in species distribution analyses.</figcaption></figure>
 <p>Data from GBIF can be used to check if a species has shown climatic adaptability beyond that of its natural distribution when tested outside Australia. Another image from my ALA Science Symposium presentation shows data that I extracted from GBIF and imported into the ALA.</p>
-<p><img src="http://www.ala.org.au/wp-content/uploads/2018/02/Trevor-booth-image-3-300x195.png" alt="" width="1150" height="747" class=" wp-image-39153 aligncenter"></p>
+<p><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/02/Trevor-booth-image-3-300x195.png" alt="" width="1150" height="747" class=" wp-image-39153 aligncenter"></p>
 <p>When analysing climatic data for locations outside Australia we need to use WorldClim variables. Notice that the WorldClim annual mean temperature data are actually MAT x 10 i.e. the range shown on the graph is 100 to 170, but this is actually 10.0<sup>o</sup>C to 17.0<sup>o</sup>C. Again we can use the scatterplot facility to identify suspicious outliers that may need careful checking. Estimating species climatic adaptability beyond that shown by analyses of their natural distributions is not only important for species introductions, but also for estimating how natural stands in Australia may respond under climate change. It is a focus for much of my current work (see <a href="http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSPAmHPTyOKbPSqcF2uoLvXg-3D_ftCS7aD2B1CdKPmhuiLR1QKfbb6GqpI8LntsiFrxIjUhOSm7eJ-2BWy-2FOgx-2BPFR-2FMyxHrQVkzZ9m2e06ciE0Ap9L4uxf6J7-2Fy4rehXEvRGhxvK-2B6DRihm1tWFqL3f7YLXlKSN5Sq-2FMokiQHup1yH01bjh4KycuEifjdE8iJITDAQKIeXkNI0K42SypTgAagk8XNBXW-2BuWi2g88S3V3tm6H6j5abFLeXwY4KDy-2FnerF41LVuZub8HhRlIIAQZEzruS-2BpvmlU4ia-2FLMuyV1hnWH7dw-3D-3D">http://rdcu.be/xXnw</a>).</p>
 <p>Using information from both Australia and overseas is helpful for determining the range of species climatic requirements. However, the ALA is also useful for looking at likely climatic variations within a particular species distribution. It is well known that climatic tolerances vary within tree species distributions. For example, if you want to grow <em>Eucalyptus camaldulensis </em>(River Red Gum) at a tropical site outside Australia you would want to select a provenance (i.e. seed from a particular location) from a tropical location such as Petford in Queensland. If you want to grow it at a Mediterranean site you would select a provenance from a cooler winter rainfall location, such as Lake Albacutya in Victoria. In other words, within the whole range of a species, particularly widespread ones, there are often provenances distinctly adapted to local temperature and rainfall conditions. </p>
 <p>Therefore when looking to restore forest sites in Australia under climate change we may want to consider using not only local seed, but also seed from locations currently experiencing climatic conditions similar to those expected in the future at that site. This is called ‘climate-adjusted provenancing’. For more information, view a short (15 min) talk I gave on <a href="http://www.aabr.org.au/portfolio-items/using-the-atlas-of-living-australia-to-assist-provenance-selection-for-restoration-plantings-under-climate-change-trevor-booth-csiro-aabr-forum-2016/">“Using the Atlas of Living Australia to assist provenance selection under climate change”</a>. This uses information from the <a href="http://climatechangeinaustralia.gov.au">Climate Change in Australia</a> website and the ALA’s ‘define environmental envelope’ feature (available under Add to Map/Add Area/Other). A key slide from the presentation, combining images from three ALA screens, is shown below.</p>
-<figure id="attachment_39106" aria-describedby="caption-attachment-39106" style="width: 1071px" class="wp-caption aligncenter"><img src="http://www.ala.org.au/wp-content/uploads/2018/02/Trevor-Booth-image3-300x184.png" alt="" width="1071" height="656" class="wp-image-39106"><figcaption id="caption-attachment-39106" class="wp-caption-text">The red arrow shows the proposed forest restoration site near Albury (NSW). The red dots are natural distribution locations for <em>Eucalyptus albens</em> (White Box). The black shaded areas show warmer and drier locations likely to be similar to climatic conditions expected at the restoration site in 2030. At the highest mapping resolution the ALA shows <em>E. albens</em> occurrences within this area on the Google EarthTM map. We would not want to collect seed from an isolated tree in the middle of a paddock, as it is unlikely to be genetically diverse. But, we can see that it would be possible to collect seed from within an extensive stand of trees. Future research, including genomic studies, will help to determine the optimal distance away from the restoration site from which to collect seed.</figcaption></figure>
+<figure id="attachment_39106" aria-describedby="caption-attachment-39106" style="width: 1071px" class="wp-caption aligncenter"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/02/Trevor-Booth-image3-300x184.png" alt="" width="1071" height="656" class="wp-image-39106"><figcaption id="caption-attachment-39106" class="wp-caption-text">The red arrow shows the proposed forest restoration site near Albury (NSW). The red dots are natural distribution locations for <em>Eucalyptus albens</em> (White Box). The black shaded areas show warmer and drier locations likely to be similar to climatic conditions expected at the restoration site in 2030. At the highest mapping resolution the ALA shows <em>E. albens</em> occurrences within this area on the Google EarthTM map. We would not want to collect seed from an isolated tree in the middle of a paddock, as it is unlikely to be genetically diverse. But, we can see that it would be possible to collect seed from within an extensive stand of trees. Future research, including genomic studies, will help to determine the optimal distance away from the restoration site from which to collect seed.</figcaption></figure>
 <p>It should be emphasized that the idea of climate-adjusted provenancing is to plant introduced as well as local seed and let nature sort out which is most appropriate. A paper (available at <a href="https://www.researchgate.net/profile/Trevor_Booth">my ResearchGate web pages</a> on the ‘Research’ tab, along with several other ALA-related papers) on ‘Identifying particular areas for seed collections for restoration plantings under climate change’ describes the use of the ALA for this purpose in more detail.</p>
 <p>For more information, please contact me by email <a href="mailto:trevor.booth@csiro.au">trevor.booth@csiro.au</a>. </p>
 
@@ -345,9 +363,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -483,7 +502,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -554,12 +573,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

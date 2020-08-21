@@ -11,15 +11,14 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,19 +27,7 @@
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -95,8 +82,25 @@ We will choose a particular data set, filter (facet) on a particular type of rec
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -113,7 +117,21 @@ We will choose a particular data set, filter (facet) on a particular type of rec
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -251,36 +269,36 @@ We will choose a particular data set, filter (facet) on a particular type of rec
 <hr>
 <h2 id="occurrence">Facet the results of an occurrence search</h2>
 <p>On the <a href="http://biocache.ala.org.au/occurrences/search">occurrence search page</a>, the search text field matches against any attribute of an occurrence record e.g., scientific name (at any taxonomic level), collector, data set full name etc.</p>
-<figure id="attachment_28336" aria-describedby="caption-attachment-28336" style="width: 700px" class="wp-caption aligncenter"><img src="/wp-content/uploads/2012/02/lepidoptera_search_700px.png" alt="Search the occurrence records for Lepidoptera" title="Search the occurrence records for Lepidoptera" width="700" height="64" class="size-full wp-image-28336"><figcaption id="caption-attachment-28336" class="wp-caption-text">Search the occurrence records for Lepidoptera</figcaption></figure>
+<figure id="attachment_28336" aria-describedby="caption-attachment-28336" style="width: 700px" class="wp-caption aligncenter"><img loading="lazy" src="/wp-content/uploads/2012/02/lepidoptera_search_700px.png" alt="Search the occurrence records for Lepidoptera" title="Search the occurrence records for Lepidoptera" width="700" height="64" class="size-full wp-image-28336"><figcaption id="caption-attachment-28336" class="wp-caption-text">Search the occurrence records for Lepidoptera</figcaption></figure>
 <p>In the following detailed example, we match against the order, Lepidoptera, by typing it in the auto-complete Search field.</p>
 <p>We facet (filter) the record by clicking the Record Type – ‘GenomicDNA’ – to restrict the selection to only those Lepidopteran records with molecular DNA data. Currently, this data only is available in the EMBL data set, so the ‘European Molecular Biology Laboratory Australian Mirror’ is the only Dataset shown in the available facets list to the left.<br>
 <a name="occurrenceresults"> </a><br>
-<figure id="attachment_28211" aria-describedby="caption-attachment-28211" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/Occurrence_results_faceted_900px.png"><img src="/wp-content/uploads/2012/02/Occurrence_results_faceted_700px.png" alt="Lepidopteran occurrence results faceted for genomic data" title="Lepidopteran occurrence results faceted for genomic data" width="700" height="579" class="size-full wp-image-28211"></a><figcaption id="caption-attachment-28211" class="wp-caption-text">Lepidopteran occurrence results faceted for genomic data</figcaption></figure></p>
+<figure id="attachment_28211" aria-describedby="caption-attachment-28211" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/Occurrence_results_faceted_900px.png"><img loading="lazy" src="/wp-content/uploads/2012/02/Occurrence_results_faceted_700px.png" alt="Lepidopteran occurrence results faceted for genomic data" title="Lepidopteran occurrence results faceted for genomic data" width="700" height="579" class="size-full wp-image-28211"></a><figcaption id="caption-attachment-28211" class="wp-caption-text">Lepidopteran occurrence results faceted for genomic data</figcaption></figure></p>
 <p>The user can further facet the returned results to the user’s specific area of interest by clicking on additional facet class values – note only one per facet, e.g. choose a State/Territory.</p>
 <p>Pressing the ‘Downloads’ button, brings up dialogue window for the user to fill in their details. A zip file of occurrence records (data.csv) and a list of data providers (citations.csv) is produced by pressing ‘Download All Records’. <a href="/spatial-portal-help/export-point-sample/#download%20">See Downloading »<br>
 </a></p>
 <p>When viewing a <a href="/how-to-help/ways-to-search-the-atlas/#occurrenceresults">list of occurrence records</a> from the EMBL data set – accessed by many means – navigate to an individual record by clicking the on the link <a href="http://biocache.ala.org.au/occurrence/30c7819a-9329-4b12-b855-97706ff45d82">View record</a>.</p>
-<figure id="attachment_28208" aria-describedby="caption-attachment-28208" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/Occurrence_single_782px.png"><img src="/wp-content/uploads/2012/02/Occurrence_single_700px.png" alt="A single occurrence record from the data set EMBL" title="A single occurrence record from the data set EMBL" width="700" height="802" class="size-full wp-image-28208"></a><figcaption id="caption-attachment-28208" class="wp-caption-text">Example of an individual Occurrence record from the data set 'EMBL'.</figcaption></figure>
+<figure id="attachment_28208" aria-describedby="caption-attachment-28208" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/Occurrence_single_782px.png"><img loading="lazy" src="/wp-content/uploads/2012/02/Occurrence_single_700px.png" alt="A single occurrence record from the data set EMBL" title="A single occurrence record from the data set EMBL" width="700" height="802" class="size-full wp-image-28208"></a><figcaption id="caption-attachment-28208" class="wp-caption-text">Example of an individual Occurrence record from the data set 'EMBL'.</figcaption></figure>
 <h3 id="using-an-individual-occurrence-record-to-access-the-european-nucleotide-archive-ena">Using an individual occurrence record to access the European Nucleotide Archive (ENA)</h3>
 <p>For ‘European Molecular Biology Laboratory Australian Mirror’ records, click on the <a class="external" href="http://www.ebi.ac.uk/ena/data/view/AB497574" target="_blank">More details</a> link. You will be taken to an individual EMBL record in the European Nucleotide Archive.</p>
-<figure id="attachment_28333" aria-describedby="caption-attachment-28333" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/ENA_900px1.png"><img src="/wp-content/uploads/2012/02/ENA_700px1.png" alt="EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)" title="EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)" width="700" height="545" class="size-full wp-image-28333"></a><figcaption id="caption-attachment-28333" class="wp-caption-text">EMBL occurrence data record displayed through the European Nucleotide Archive (ENA).</figcaption></figure>
+<figure id="attachment_28333" aria-describedby="caption-attachment-28333" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/ENA_900px1.png"><img loading="lazy" src="/wp-content/uploads/2012/02/ENA_700px1.png" alt="EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)" title="EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)" width="700" height="545" class="size-full wp-image-28333"></a><figcaption id="caption-attachment-28333" class="wp-caption-text">EMBL occurrence data record displayed through the European Nucleotide Archive (ENA).</figcaption></figure>
 <p>EMBL has a significant tool set to capture and manipulate sequence data.</p>
 <p>When on the <a href="#occurrenceresults">occurrence record results</a> page, clicking the ‘Map’ tab produces a basic overview map of the points (see image below). Some additional faceting by colours is available on the map under ‘Colour by’ and the ‘Legend’.</p>
-<figure id="attachment_28348" aria-describedby="caption-attachment-28348" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/occurrence_map_900px.png"><img src="/wp-content/uploads/2012/02/occurrence_map_700px.png" alt="Clicking on the map tab displays a basic map of the Lepidopteran points with molecular DNA data." title="Clicking on the map tab displays a basic map of the Lepidopteran points with molecular DNA data." width="700" height="540" class="size-full wp-image-28348"></a><figcaption id="caption-attachment-28348" class="wp-caption-text">Clicking on the map tab displays a basic map of the Lepidopteran points with molecular DNA data.</figcaption></figure>
+<figure id="attachment_28348" aria-describedby="caption-attachment-28348" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/occurrence_map_900px.png"><img loading="lazy" src="/wp-content/uploads/2012/02/occurrence_map_700px.png" alt="Clicking on the map tab displays a basic map of the Lepidopteran points with molecular DNA data." title="Clicking on the map tab displays a basic map of the Lepidopteran points with molecular DNA data." width="700" height="540" class="size-full wp-image-28348"></a><figcaption id="caption-attachment-28348" class="wp-caption-text">Clicking on the map tab displays a basic map of the Lepidopteran points with molecular DNA data.</figcaption></figure>
 <p>Clicking on the <a href="http://spatial.ala.org.au/?q=lsid:urn:lsid:biodiversity.org.au:afd.taxon:7cb6c81c-a7c4-4dd5-8578-fcfd2de847d6&fq=basis_of_record:GenomicDNA&qc=">View in spatial portal</a> sends the same query to the Spatial Portal – a powerful and interactive mapping and analysis tool. <a href="/spatial-portal-help/getting-started/">See Spatial Portal Help »</a></p>
-<figure id="attachment_28206" aria-describedby="caption-attachment-28206" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/Spatial_Portal_GenomicDNA_900px.png"><img src="/wp-content/uploads/2012/02/Spatial_Portal_GenomicDNA_700px.png" alt="The Spatial portal displaying molecular occurrence data for the Order Lepidoptera." title="The Spatial portal displaying molecular occurrence data for the Order Lepidoptera." width="700" height="483" class="size-full wp-image-28206"></a><figcaption id="caption-attachment-28206" class="wp-caption-text">The Spatial portal displaying molecular occurrence data for the Order Lepidoptera, with an additional area added to the map.</figcaption></figure>
+<figure id="attachment_28206" aria-describedby="caption-attachment-28206" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/Spatial_Portal_GenomicDNA_900px.png"><img loading="lazy" src="/wp-content/uploads/2012/02/Spatial_Portal_GenomicDNA_700px.png" alt="The Spatial portal displaying molecular occurrence data for the Order Lepidoptera." title="The Spatial portal displaying molecular occurrence data for the Order Lepidoptera." width="700" height="483" class="size-full wp-image-28206"></a><figcaption id="caption-attachment-28206" class="wp-caption-text">The Spatial portal displaying molecular occurrence data for the Order Lepidoptera, with an additional area added to the map.</figcaption></figure>
 <p>Catalogue Numbers can be used to download selected sequences either individually or in groups from the EMBL source site. The ability to select just the sequence data from targeted areas or from any facet division meaningful to the user, provides a powerful way of targeting only the pertinent sequence data for download.</p>
 <p>In the image above, an area around Forbes has been added. The user can choose to selectively download only those records within the area. See <a href="/spatial-portal-help/areas-add-to-map/">Spatial Portal Add Areas to Map</a> and <a href="/spatial-portal-help/export-point-sample/">Export Point Sample »</a><br>
 <a name="external"> </a><br>
 The Catalogue Numbers of the occurrence records can be extracted from the download (data.csv) and used to create a simple comma delimited file which can be uploaded into the ENA search screen. (There are multiple ways this site can accept input search queries).</p>
-<figure id="attachment_28212" aria-describedby="caption-attachment-28212" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/Test_txt_file_900px.png"><img src="/wp-content/uploads/2012/02/Test_txt_file_700px.png" alt="Test txt file of Catalogue Numbers" title="Test txt file of Catalogue Numbers" width="700" height="61" class="size-full wp-image-28212"></a><figcaption id="caption-attachment-28212" class="wp-caption-text">Test txt file of Catalogue Numbers for loading into other external tools</figcaption></figure>
+<figure id="attachment_28212" aria-describedby="caption-attachment-28212" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/Test_txt_file_900px.png"><img loading="lazy" src="/wp-content/uploads/2012/02/Test_txt_file_700px.png" alt="Test txt file of Catalogue Numbers" title="Test txt file of Catalogue Numbers" width="700" height="61" class="size-full wp-image-28212"></a><figcaption id="caption-attachment-28212" class="wp-caption-text">Test txt file of Catalogue Numbers for loading into other external tools</figcaption></figure>
 <p>In the ENA, click on ‘Choose File’ and browse to find a file containing Catalogue Numbers, ‘test.txt’ in the above image.</p>
-<figure id="attachment_28217" aria-describedby="caption-attachment-28217" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/EMBL_Add_Text_900px.png"><img src="/wp-content/uploads/2012/02/EMBL_Add_Text_700px.png" alt="Add the text file with Catalogue Numbers in ENA" title="Add the text file with Catalogue Numbers in ENA" width="700" height="82" class="size-full wp-image-28217"></a><figcaption id="caption-attachment-28217" class="wp-caption-text">Add the text file with Catalogue Numbers in ENA</figcaption></figure>
-<figure id="attachment_28215" aria-describedby="caption-attachment-28215" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/ENA_900px.png"><img src="/wp-content/uploads/2012/02/ENA_700px.png" alt="EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)" title="EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)" width="700" height="464" class="size-full wp-image-28215"></a><figcaption id="caption-attachment-28215" class="wp-caption-text">EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)</figcaption></figure>
+<figure id="attachment_28217" aria-describedby="caption-attachment-28217" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/EMBL_Add_Text_900px.png"><img loading="lazy" src="/wp-content/uploads/2012/02/EMBL_Add_Text_700px.png" alt="Add the text file with Catalogue Numbers in ENA" title="Add the text file with Catalogue Numbers in ENA" width="700" height="82" class="size-full wp-image-28217"></a><figcaption id="caption-attachment-28217" class="wp-caption-text">Add the text file with Catalogue Numbers in ENA</figcaption></figure>
+<figure id="attachment_28215" aria-describedby="caption-attachment-28215" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/ENA_900px.png"><img loading="lazy" src="/wp-content/uploads/2012/02/ENA_700px.png" alt="EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)" title="EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)" width="700" height="464" class="size-full wp-image-28215"></a><figcaption id="caption-attachment-28215" class="wp-caption-text">EMBL occurrence data record displayed through the European Nucleotide Archive (ENA)</figcaption></figure>
 <p>Results from the search can then be downloaded into multiple formats including, Text, XML or FASTA.<br>
 A similar process is also available through the <a class="external" href="http://www.ncbi.nlm.nih.gov/nuccore" target="_blank">NCBI nucleotide repository</a>.</p>
 <p>Data imported into the alignment package (<a href="http://www.mbio.ncsu.edu/bioedit/bioedit.html">BioEdit</a>) using the FASTA file download option.</p>
-<figure id="attachment_28219" aria-describedby="caption-attachment-28219" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/BioEdit_900px.png"><img src="/wp-content/uploads/2012/02/BioEdit_700px.png" alt="BioEdit Sequence Alignment Editor" title="BioEdit Sequence Alignment Editor" width="700" height="359" class="size-full wp-image-28219"></a><figcaption id="caption-attachment-28219" class="wp-caption-text">BioEdit Sequence Alignment Editor</figcaption></figure>
+<figure id="attachment_28219" aria-describedby="caption-attachment-28219" style="width: 700px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/02/BioEdit_900px.png"><img loading="lazy" src="/wp-content/uploads/2012/02/BioEdit_700px.png" alt="BioEdit Sequence Alignment Editor" title="BioEdit Sequence Alignment Editor" width="700" height="359" class="size-full wp-image-28219"></a><figcaption id="caption-attachment-28219" class="wp-caption-text">BioEdit Sequence Alignment Editor</figcaption></figure>
 <h2 id="spatial">Use the Spatial Portal to facet the results for Genomic Lepidopteran data for an area</h2>
 <p>The same process described above using the Atlas to search for data sets, view and download occurrence records containing genomic data can be ‘<em>replicated</em>‘ using the Spatial Portal. <a href="/spatial-portal-help/facet-add-to-map/">For more info »</a></p>
 <h2 id="useful-links">Useful Links</h2>
@@ -378,9 +396,10 @@ A similar process is also available through the <a class="external" href="http:/
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -516,7 +535,7 @@ A similar process is also available through the <a class="external" href="http:/
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -587,12 +606,12 @@ A similar process is also available through the <a class="external" href="http:/
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

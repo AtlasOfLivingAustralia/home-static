@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -114,8 +101,25 @@ The ALA is home to millions of records about Australi">
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -132,7 +136,21 @@ The ALA is home to millions of records about Australi">
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -256,8 +274,8 @@ The ALA is home to millions of records about Australi">
 	<div class="entry-content">
 
 		<p style="text-align: justify;">Have you ever spotted a plant or animal and been unsure of what it is?  If the answer is yes, then you’re not alone.  In fact, one of the most common questions we get asked at the Atlas of Living Australia (ALA) is: “<strong>what is this species?”</strong></p>
-<figure id="attachment_37581" aria-describedby="caption-attachment-37581" style="width: 347px" class="wp-caption alignright"><img class=" wp-image-37581" src="https://www.ala.org.au/app/uploads/2017/02/sightingsblogpic8-1.jpg" alt="Rachel Marks spotted this fungus in the Royal National Park" width="347" height="229" srcset="https://www-test.ala.org.au/app/uploads/2017/02/sightingsblogpic8-1.jpg 509w,https://www-test.ala.org.au/app/uploads/2017/02/sightingsblogpic8-1-300x198.jpg 300w" sizes="(max-width: 347px) 100vw, 347px"><figcaption id="caption-attachment-37581" class="wp-caption-text">Rachel Marks spotted this unknown fungus in the Royal National Park</figcaption></figure>
-<figure id="attachment_37577" aria-describedby="caption-attachment-37577" style="width: 330px" class="wp-caption alignnone"><img class=" wp-image-37577" src="https://www.ala.org.au/app/uploads/2017/02/FullSizeRender-1.jpg" alt="Moth image by David Middlebrook in the Blue Mountains NSW" width="330" height="247" srcset="https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1.jpg 3264w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-300x225.jpg 300w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-768x576.jpg 768w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-1024x768.jpg 1024w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-1920x1440.jpg 1920w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-640x480.jpg 640w" sizes="(max-width: 330px) 100vw, 330px"><figcaption id="caption-attachment-37577" class="wp-caption-text">Unknown moth image by David Middlebrook in the Blue Mountains NSW</figcaption></figure>
+<figure id="attachment_37581" aria-describedby="caption-attachment-37581" style="width: 347px" class="wp-caption alignright"><img loading="lazy" class=" wp-image-37581" src="https://www.ala.org.au/app/uploads/2017/02/sightingsblogpic8-1.jpg" alt="Rachel Marks spotted this fungus in the Royal National Park" width="347" height="229" srcset="https://www-test.ala.org.au/app/uploads/2017/02/sightingsblogpic8-1.jpg 509w,https://www-test.ala.org.au/app/uploads/2017/02/sightingsblogpic8-1-300x198.jpg 300w" sizes="(max-width: 347px) 100vw, 347px"><figcaption id="caption-attachment-37581" class="wp-caption-text">Rachel Marks spotted this unknown fungus in the Royal National Park</figcaption></figure>
+<figure id="attachment_37577" aria-describedby="caption-attachment-37577" style="width: 330px" class="wp-caption alignnone"><img loading="lazy" class=" wp-image-37577" src="https://www.ala.org.au/app/uploads/2017/02/FullSizeRender-1.jpg" alt="Moth image by David Middlebrook in the Blue Mountains NSW" width="330" height="247" srcset="https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1.jpg 3264w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-300x225.jpg 300w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-768x576.jpg 768w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-1024x768.jpg 1024w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-1920x1440.jpg 1920w,https://www-test.ala.org.au/app/uploads/2017/02/FullSizeRender-1-640x480.jpg 640w" sizes="(max-width: 330px) 100vw, 330px"><figcaption id="caption-attachment-37577" class="wp-caption-text">Unknown moth image by David Middlebrook in the Blue Mountains NSW</figcaption></figure>
 <p style="text-align: justify;"><strong> </strong></p>
 <p style="text-align: justify;">The ALA is home to millions of records about Australia’s amazing biodiversity, enabling us to have more detailed picture of Australia’s biodiversity than ever before.  These records come from many places- museums, herbaria, universities, and government departments just to name a few.  In addition to this, we also rely on community sightings.  Sometimes you may have spotted something unique in your area, but before posting it to the ALA, you want to be sure what it is.  To help you with this, we’ve put together some tips on how to go about identifying a species.</p>
 <p style="text-align: justify;"><strong>Top tip #1 </strong></p>
@@ -265,7 +283,7 @@ The ALA is home to millions of records about Australi">
 <p><strong>Top tip #2</strong></p>
 <p style="text-align: justify;">Check out what has already been sighted in that area.  Did you know that you can use the ALA to map the occurrence records at a particular location? That way you can see which species have already been sighted in the area and possibly match the species you have seen to one of them.  This is a good place to start your search and it will also give you a bit of insight into your local biodiversity.</p>
 <p>Simply go to <a href="https://www.ala.org.au/explore-by-location/">Explore locations</a> from the ALA home page, then <a href="http://biocache.ala.org.au/explore/your-area">Explore by location</a>.</p>
-<figure id="attachment_43129" aria-describedby="caption-attachment-43129" style="width: 533px" class="wp-caption alignnone"><img class=" wp-image-43129" src="https://www.ala.org.au/app/uploads/2019/08/actmap1-300x163.png" alt="A map of the species occurrence records in a suburb of the ACT." width="533" height="290" srcset="https://www-test.ala.org.au/app/uploads/2019/08/actmap1-300x163.png 300w,https://www-test.ala.org.au/app/uploads/2019/08/actmap1-768x417.png 768w,https://www-test.ala.org.au/app/uploads/2019/08/actmap1-1024x556.png 1024w,https://www-test.ala.org.au/app/uploads/2019/08/actmap1.png 1171w" sizes="(max-width: 533px) 100vw, 533px"><figcaption id="caption-attachment-43129" class="wp-caption-text">A map of the species occurrence records in a suburb of the ACT.</figcaption></figure>
+<figure id="attachment_43129" aria-describedby="caption-attachment-43129" style="width: 533px" class="wp-caption alignnone"><img loading="lazy" class=" wp-image-43129" src="https://www.ala.org.au/app/uploads/2019/08/actmap1-300x163.png" alt="A map of the species occurrence records in a suburb of the ACT." width="533" height="290" srcset="https://www-test.ala.org.au/app/uploads/2019/08/actmap1-300x163.png 300w,https://www-test.ala.org.au/app/uploads/2019/08/actmap1-768x417.png 768w,https://www-test.ala.org.au/app/uploads/2019/08/actmap1-1024x556.png 1024w,https://www-test.ala.org.au/app/uploads/2019/08/actmap1.png 1171w" sizes="(max-width: 533px) 100vw, 533px"><figcaption id="caption-attachment-43129" class="wp-caption-text">A map of the species occurrence records in a suburb of the ACT.</figcaption></figure>
 <p>Then type in your suburb or postcode or street name. You can change the radius of the range and move the pin. You can filter the results by clicking on the group.</p>
 <p>A more detailed description of this process can be found in the <a href="https://www.ala.org.au/education-resources/teachers-guides/">ALA User Guides</a>.</p>
 <p>If you found this helpful, keep your eye out on our <a href="http://www.ala.org.au/blogs-news/">blog</a> for more tips on how to get the most out of the ALA, and your frequently asked questions answered.</p>
@@ -360,9 +378,10 @@ The ALA is home to millions of records about Australi">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -498,7 +517,7 @@ The ALA is home to millions of records about Australi">
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -569,12 +588,12 @@ The ALA is home to millions of records about Australi">
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

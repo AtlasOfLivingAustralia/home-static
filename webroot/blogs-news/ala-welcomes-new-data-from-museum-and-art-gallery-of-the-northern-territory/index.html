@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -102,8 +89,25 @@ Th">
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -120,7 +124,21 @@ Th">
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -245,16 +263,16 @@ Th">
 
 		<p>The <a title="Museum and Art Gallery of the Northern Territory" href="http://www.magnt.net.au" target="_blank">Museum and Art Gallery of the Northern Territory</a> (MAGNT) has more than quadrupled their specimen data that is freely available online through the <a title="ALA" href="https://www.ala.org.au%20" target="_blank">Atlas of Living Australia</a> (ALA). Newly available data has increased the number of accessible MAGNT records from around 53,000 to more than 220,000.</p>
 <p>The new records include mammals, reptiles, amphibians, birds, fish, and for the first time data from MAGNT’s marine invertebrates collections.</p>
-<figure id="attachment_33574" aria-describedby="caption-attachment-33574" style="width: 313px" class="wp-caption alignnone"><a href="https://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image001-3/" rel="attachment wp-att-33574"><img class="size-full wp-image-33574" title="Nautilus shell" src="https://www.ala.org.au/wp-content/uploads/2015/02/image0012.jpg" alt="" width="313" height="260"></a><figcaption id="caption-attachment-33574" class="wp-caption-text">Data from specimens, such as this beautiful Nautilus shell, found in the collections of the Museum and Art Gallery of the Northern Territory, are now available via the ALA website. Credit: Gavin Dally, MAGNT</figcaption></figure>
+<figure id="attachment_33574" aria-describedby="caption-attachment-33574" style="width: 313px" class="wp-caption alignnone"><a href="https://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image001-3/" rel="attachment wp-att-33574"><img loading="lazy" class="size-full wp-image-33574" title="Nautilus shell" src="https://www.ala.org.au/wp-content/uploads/2015/02/image0012.jpg" alt="" width="313" height="260"></a><figcaption id="caption-attachment-33574" class="wp-caption-text">Data from specimens, such as this beautiful Nautilus shell, found in the collections of the Museum and Art Gallery of the Northern Territory, are now available via the ALA website. Credit: Gavin Dally, MAGNT</figcaption></figure>
 <p>MAGNT’s marine invertebrates collections include specimens collected over more than 40 years from Northern Australian waters, an area that is environmentally significant as a transition zone between biodiversity regions. Marine environments, such as this, remain one of the most challenging areas for biodiversity researchers, due to their size, scale and inaccessibility. Therefore, making data from these collections of molluscs, marine worms, corals, crustaceans and sponges available online will be a great help to the marine research community.</p>
-<figure id="attachment_33561" aria-describedby="caption-attachment-33561" style="width: 510px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image003/" rel="attachment wp-att-33561"><img class="size-full wp-image-33561" title="Hammerhead shark specimen" src="http://www.ala.org.au/wp-content/uploads/2015/02/image003.jpg" alt="" width="510" height="340"></a><figcaption id="caption-attachment-33561" class="wp-caption-text">MAGNT staff member, Rex Williams, examines a Hammerhead shark specimen from their natural history collection. Credit: MAGNT</figcaption></figure>
+<figure id="attachment_33561" aria-describedby="caption-attachment-33561" style="width: 510px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image003/" rel="attachment wp-att-33561"><img loading="lazy" class="size-full wp-image-33561" title="Hammerhead shark specimen" src="http://www.ala.org.au/wp-content/uploads/2015/02/image003.jpg" alt="" width="510" height="340"></a><figcaption id="caption-attachment-33561" class="wp-caption-text">MAGNT staff member, Rex Williams, examines a Hammerhead shark specimen from their natural history collection. Credit: MAGNT</figcaption></figure>
 <p>“These quantum leaps in the accessibility of information on Australia’s rich animal life are very exciting. They fill huge gaps in our knowledge of species right around Australia, and open up this data for use by researchers throughout Australia and around the world,” said Dr Mark Norman,<a title="CHAFC" href="http://chafc.org.au/" target="_blank"> Chair of the Council of Heads of Australian Faunal Collections</a>.</p>
 <p>As well as making these collections more accessible and discoverable, getting them online makes it possible for researchers to explore and analyse the information they hold using sophisticated digital tools. The <a title="ALA Spatial Portal" href="http://spatial.ala.org.au/webportal//" target="_blank">ALA Spatial Portal</a> allows specimen records from Australia’s museums and other natural history collections to be analysed in conjunction with contextual and environmental habitat information, including an array of marine data.</p>
 <p>”Making this data accessible allows us to work out where species live, how they’re changing over time, what’s happening with marine pests, and what impacts climate change is having,” explained Dr Norman.</p>
-<figure id="attachment_33562" aria-describedby="caption-attachment-33562" style="width: 284px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image002/" rel="attachment wp-att-33562"><img class="size-full wp-image-33562" title="Crocodile skulls" src="http://www.ala.org.au/wp-content/uploads/2015/02/image002.jpg" alt="" width="284" height="426"></a><figcaption id="caption-attachment-33562" class="wp-caption-text">They’re some toothy grins! It’s probably not surprising that MAGNT has an impressive collection of crocodile specimens, and now you can access the data via the ALA. Credit: Gavin Dally, MAGNT</figcaption></figure>
+<figure id="attachment_33562" aria-describedby="caption-attachment-33562" style="width: 284px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image002/" rel="attachment wp-att-33562"><img loading="lazy" class="size-full wp-image-33562" title="Crocodile skulls" src="http://www.ala.org.au/wp-content/uploads/2015/02/image002.jpg" alt="" width="284" height="426"></a><figcaption id="caption-attachment-33562" class="wp-caption-text">They’re some toothy grins! It’s probably not surprising that MAGNT has an impressive collection of crocodile specimens, and now you can access the data via the ALA. Credit: Gavin Dally, MAGNT</figcaption></figure>
 <p>Australia’s museums house millions of natural history specimens, and making these collections digitally accessible is an ongoing process. The collections continue to grow, as scientists carry on exploring our environment, and museum staff and volunteers work tirelessly to document, database and get those specimen data online. This latest update from MAGNT means that the majority of their digitised specimen data can now be found online; more data will become available with further regular updates.</p>
-<figure id="attachment_33563" aria-describedby="caption-attachment-33563" style="width: 316px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image004/" rel="attachment wp-att-33563"><img class=" wp-image-33563 " title="MAGNT data (before)" src="http://www.ala.org.au/wp-content/uploads/2015/02/image004-316x284-custom.jpg" alt="" width="316" height="284"></a><figcaption id="caption-attachment-33563" class="wp-caption-text">These maps demonstrate MAGNT’s species records available on the ALA prior to (above) and following (below) the recent data upload. All those extra records are great news, particularly for anyone interested in species found in and around the Northern Territory!</figcaption></figure>
-<figure id="attachment_33564" aria-describedby="caption-attachment-33564" style="width: 316px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image005/" rel="attachment wp-att-33564"><img class=" wp-image-33564 " title="MAGNT data (now)" src="http://www.ala.org.au/wp-content/uploads/2015/02/image005-316x297-custom.jpg" alt="" width="316" height="297"></a><figcaption id="caption-attachment-33564" class="wp-caption-text">From around 53,000 to more than 220,000 data entries from MAGNT</figcaption></figure>
+<figure id="attachment_33563" aria-describedby="caption-attachment-33563" style="width: 316px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image004/" rel="attachment wp-att-33563"><img loading="lazy" class=" wp-image-33563 " title="MAGNT data (before)" src="http://www.ala.org.au/wp-content/uploads/2015/02/image004-316x284-custom.jpg" alt="" width="316" height="284"></a><figcaption id="caption-attachment-33563" class="wp-caption-text">These maps demonstrate MAGNT’s species records available on the ALA prior to (above) and following (below) the recent data upload. All those extra records are great news, particularly for anyone interested in species found in and around the Northern Territory!</figcaption></figure>
+<figure id="attachment_33564" aria-describedby="caption-attachment-33564" style="width: 316px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/ala-welcomes-new-data-from-museum-and-art-gallery-of-the-northern-territory/attachment/image005/" rel="attachment wp-att-33564"><img loading="lazy" class=" wp-image-33564 " title="MAGNT data (now)" src="http://www.ala.org.au/wp-content/uploads/2015/02/image005-316x297-custom.jpg" alt="" width="316" height="297"></a><figcaption id="caption-attachment-33564" class="wp-caption-text">From around 53,000 to more than 220,000 data entries from MAGNT</figcaption></figure>
 
 		
 	</div>
@@ -346,9 +364,10 @@ Th">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -484,7 +503,7 @@ Th">
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -555,12 +574,12 @@ Th">
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

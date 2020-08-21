@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -98,8 +85,25 @@ This blog will focus on point data you would like to use within the Atlas. The s
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -116,7 +120,21 @@ This blog will focus on point data you would like to use within the Atlas. The s
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -243,19 +261,19 @@ This blog will focus on point data you would like to use within the Atlas. The s
 <p>This blog will focus on point data you would like to use within the Atlas. The sandbox handles species occurrence data but can also be used to upload a list coordinates (latitude, longitude) with <strong>any number of ad-hoc properties associated with these data</strong>. Scientific names or common names are optional.</p>
 <p>As an example, <a title="Termite dataset uploaded to Sandbox" href="http://sandbox.ala.org.au/hubs-webapp/occurrences/search?q=data_resource_uid:drt1407">heres a dataset</a> that we’ve uploaded for <a title="Termites - ISOPTERA" href="http://bie.ala.org.au/species/urn:lsid:biodiversity.org.au:afd.taxon:17cbb1c6-039f-432a-ab0b-7d863e3bf6dc">termite</a> mounds recorded by Peter Neville on <a title="Black Mountain, Canberra, ACT" href="https://maps.google.com/maps?q=black+mountain+act,+canberra&hl=en&ll=-35.273758,149.10254&spn=0.029781,0.066004&sll=37.0625,-95.677068&sspn=58.294644,135.175781&t=h&hq=black+mountain+act,+canberra&z=15" target="_blank">Black Mountain, ACT</a>. This dataset includes 17 additional properties that are not in standard use within the Atlas. The sandbox will support the facetting with all 17 of these properties, and in addition intersect the coordinates with environmental and contextual layers (IBRA regions, states, local government areas). The raw data can be found <a href="http://www.ala.org.au/wp-content/uploads/2012/10/termites.csv">here</a>.</p>
 <p>Once the data is uploaded, you can manipulate the data using search facets, and colour point data using custom facets:</p>
-<figure id="attachment_30151" aria-describedby="caption-attachment-30151" style="width: 1002px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.29.39-PM1.png"><img class="size-full wp-image-30151  " title="Occurrence view for data upload" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.29.39-PM1.png" alt="Occurrence view for data upload" width="1002" height="831"></a><figcaption id="caption-attachment-30151" class="wp-caption-text">Occurrence view for data upload</figcaption></figure>
+<figure id="attachment_30151" aria-describedby="caption-attachment-30151" style="width: 1002px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.29.39-PM1.png"><img loading="lazy" class="size-full wp-image-30151  " title="Occurrence view for data upload" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.29.39-PM1.png" alt="Occurrence view for data upload" width="1002" height="831"></a><figcaption id="caption-attachment-30151" class="wp-caption-text">Occurrence view for data upload</figcaption></figure>
 <p>View charts for your data, with breakdowns by the custom fields in your dataset:</p>
-<figure id="attachment_30153" aria-describedby="caption-attachment-30153" style="width: 391px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-3.22.28-PM2.png"><img class="size-full wp-image-30153  " title="Charts for data upload" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-3.22.28-PM2.png" alt="Charts for data upload" width="391" height="644"></a><figcaption id="caption-attachment-30153" class="wp-caption-text">Charts for data upload</figcaption></figure>
+<figure id="attachment_30153" aria-describedby="caption-attachment-30153" style="width: 391px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-3.22.28-PM2.png"><img loading="lazy" class="size-full wp-image-30153  " title="Charts for data upload" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-3.22.28-PM2.png" alt="Charts for data upload" width="391" height="644"></a><figcaption id="caption-attachment-30153" class="wp-caption-text">Charts for data upload</figcaption></figure>
 <p>And also make use of these facets in the<a title="Spatial portal" href="http://spatial.ala.org.au"> spatial portal</a>.</p>
-<figure id="attachment_30154" aria-describedby="caption-attachment-30154" style="width: 1443px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.30.16-PM1.png"><img class="size-full wp-image-30154  " title="Spatial portal data upload" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.30.16-PM1.png" alt="Spatial portal data upload" width="1443" height="914"></a><figcaption id="caption-attachment-30154" class="wp-caption-text">Spatial portal data upload</figcaption></figure>
+<figure id="attachment_30154" aria-describedby="caption-attachment-30154" style="width: 1443px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.30.16-PM1.png"><img loading="lazy" class="size-full wp-image-30154  " title="Spatial portal data upload" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.30.16-PM1.png" alt="Spatial portal data upload" width="1443" height="914"></a><figcaption id="caption-attachment-30154" class="wp-caption-text">Spatial portal data upload</figcaption></figure>
 <p>Within the <a title="Spatial portal" href="http://spatial.ala.org.au" target="_blank">spatial portal</a>, the custom facets can be used to generate layers from subsets of the data in the same way it can with the standard facets (e.g. occurrence date, scientific name, LGA, states) for species occurrence data.</p>
 <p> </p>
 <h2 id="how-to-use-it-with-your-data">How to use it with your data</h2>
 <p>1. Visit <a title="Sandbox URL" href="http://sandbox.ala.org.au">http://sandbox.ala.org.au</a>, and <strong>paste in your data </strong>into the text field at the top of this page..</p>
-<figure id="attachment_30146" aria-describedby="caption-attachment-30146" style="width: 1413px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.32.22-PM3.png"><img class="size-full wp-image-30146  " title="Initial copy and paste into sandbox" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.32.22-PM3.png" alt="Initial copy and paste into sandbox" width="1413" height="466"></a><figcaption id="caption-attachment-30146" class="wp-caption-text">Initial copy and paste into sandbox</figcaption></figure>
+<figure id="attachment_30146" aria-describedby="caption-attachment-30146" style="width: 1413px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.32.22-PM3.png"><img loading="lazy" class="size-full wp-image-30146  " title="Initial copy and paste into sandbox" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.32.22-PM3.png" alt="Initial copy and paste into sandbox" width="1413" height="466"></a><figcaption id="caption-attachment-30146" class="wp-caption-text">Initial copy and paste into sandbox</figcaption></figure>
 <p>2. <strong>Check how the <a title="Sandbox" href="http://sandbox.ala.org.au" target="_blank">sandbox</a> has parsed your data</strong>. The <a title="Sandbox" href="http://sandbox.ala.org.au" target="_blank">sandbox</a> will try to work out if the first line of the data are column headings or data. If it gets it wrong, you can change the interpretation of the first line of your data using the select box.</p>
 <p>Fields headings with a yellow background are fields not recognised as standard Atlas fields. Facets will be created for these non-standard fields provided the data within these fields is below 50 characters in length. You can adjust these headings at this stage and hit the <strong>Reprocess sample</strong> button.</p>
-<figure id="attachment_30171" aria-describedby="caption-attachment-30171" style="width: 1382px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.32.39-PM1.png"><img class="size-full wp-image-30171 " title="Sandbox - Interpretation of data" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.32.39-PM1.png" alt="Sandbox - Interpretation of data" width="1382" height="435"></a><figcaption id="caption-attachment-30171" class="wp-caption-text">Sandbox - Interpretation of data</figcaption></figure>
+<figure id="attachment_30171" aria-describedby="caption-attachment-30171" style="width: 1382px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.32.39-PM1.png"><img loading="lazy" class="size-full wp-image-30171 " title="Sandbox - Interpretation of data" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.32.39-PM1.png" alt="Sandbox - Interpretation of data" width="1382" height="435"></a><figcaption id="caption-attachment-30171" class="wp-caption-text">Sandbox - Interpretation of data</figcaption></figure>
 <p>3.  <strong>Upload the data</strong>. Uploading and processing of your data may take up to 2 minutes. During this processing, the sandbox does the following:</p>
 <ul>
 <li>Attempts to match the classification in the records to the National Species Lists.</li>
@@ -264,7 +282,7 @@ This blog will focus on point data you would like to use within the Atlas. The s
 <li>Data quality checks</li>
 </ul>
 <p>Once this has finished, you should see the following options:</p>
-<figure id="attachment_30172" aria-describedby="caption-attachment-30172" style="width: 1330px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.33.30-PM1.png"><img class="size-full wp-image-30172" title="Data upload - options" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.33.30-PM1.png" alt="Data upload - options" width="1330" height="372"></a><figcaption id="caption-attachment-30172" class="wp-caption-text">Data upload - options</figcaption></figure>
+<figure id="attachment_30172" aria-describedby="caption-attachment-30172" style="width: 1330px" class="wp-caption alignnone"><a href="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.33.30-PM1.png"><img loading="lazy" class="size-full wp-image-30172" title="Data upload - options" src="http://www.ala.org.au/wp-content/uploads/2012/10/Screen-Shot-2012-10-09-at-5.33.30-PM1.png" alt="Data upload - options" width="1330" height="372"></a><figcaption id="caption-attachment-30172" class="wp-caption-text">Data upload - options</figcaption></figure>
 <p>Here are the options from here:</p>
 <ul>
 <li>“<strong>Mapping & Analysis with your data</strong>” will take you to the <a title="Spatial portal" href="http://spatial.ala.org.au" target="_blank">Spatial portal</a>.</li>
@@ -364,9 +382,10 @@ This blog will focus on point data you would like to use within the Atlas. The s
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -502,7 +521,7 @@ This blog will focus on point data you would like to use within the Atlas. The s
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -573,12 +592,12 @@ This blog will focus on point data you would like to use within the Atlas. The s
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

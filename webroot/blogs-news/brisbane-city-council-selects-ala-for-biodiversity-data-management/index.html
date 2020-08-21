@@ -11,15 +11,14 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,19 +27,7 @@
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -97,8 +84,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -115,7 +119,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -240,7 +258,7 @@
 
 		<p>Local governments own a large amount of biodiversity and environmental data. Data is frequently collected for waterway management and conservation programs, surveys for development sites, and environmental impact studies, and many other purposes. <a href="https://www.brisbane.qld.gov.au/">Brisbane City Council</a> recently completed an assessment of their biodiversity data and selected the ALA as its approved corporate platform for all data collection and storage across all its business units.</p>
 <p>Brisbane City Council’s Chairman of Environment, Parks and Sustainability, Cr David McLachlan explains, “After Council researched and trialled various methods of record keeping, our officers found ALA represented the best mix of data collection and collation, share functionality, data analysis – and the fact that access to over 74 million biodiversity records were freely accessible – this all added up to an attractive package impossible for Council to pass up.”</p>
-<figure id="attachment_39575" aria-describedby="caption-attachment-39575" style="width: 507px" class="wp-caption alignright"><img src="http://www.ala.org.au/wp-content/uploads/2018/06/creek-catchment-officers_36-300x200.jpg" alt="" width="507" height="338" class="wp-image-39575 "><figcaption id="caption-attachment-39575" class="wp-caption-text">Brisbane City Council creek catchment officers at work in the field. Image credit: Brisbane City Council</figcaption></figure>
+<figure id="attachment_39575" aria-describedby="caption-attachment-39575" style="width: 507px" class="wp-caption alignright"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/06/creek-catchment-officers_36-300x200.jpg" alt="" width="507" height="338" class="wp-image-39575 "><figcaption id="caption-attachment-39575" class="wp-caption-text">Brisbane City Council creek catchment officers at work in the field. Image credit: Brisbane City Council</figcaption></figure>
 <p><strong>Main benefits of using the ALA</strong></p>
 <p>Since 2016, Brisbane City Council has used ALA as its principal source of data and 2017 saw the adoption of the ALA platform for chronicling all the Council’s flora and fauna data. </p>
 <p>Brisbane City Council recognises the numerous benefits of using and promoting the ALA including the following: </p>
@@ -250,7 +268,7 @@
 <li>Ability to promote contribution to a national project on the Council’s existing networks.</li>
 <li>By contributing to the analysis of data the ALA aids in ascertaining trends at a regional, state and national level.</li>
 </ul>
-<figure id="attachment_39578" aria-describedby="caption-attachment-39578" style="width: 507px" class="wp-caption alignright"><img src="http://www.ala.org.au/wp-content/uploads/2018/06/north-east-wetlands_13-300x199.jpg" alt="" width="507" height="336" class="wp-image-39578 "><figcaption id="caption-attachment-39578" class="wp-caption-text">Scaly-breasted lorikeet recorded in Brisbane City Council’s north east wetlands. Image credit: Brisbane City Council</figcaption></figure>
+<figure id="attachment_39578" aria-describedby="caption-attachment-39578" style="width: 507px" class="wp-caption alignright"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/06/north-east-wetlands_13-300x199.jpg" alt="" width="507" height="336" class="wp-image-39578 "><figcaption id="caption-attachment-39578" class="wp-caption-text">Scaly-breasted lorikeet recorded in Brisbane City Council’s north east wetlands. Image credit: Brisbane City Council</figcaption></figure>
 <p>“One of greatest benefits to Brisbane City Council in using the ALA platform however, is the ability to manage flora and fauna records, notably; improving the available information on wildlife occurrences within Brisbane – specifically photos, descriptions and information on where our wildlife can be found,” Cr McLachlan explained.</p>
 <p>“Other benefits include opportunities for the wider community to be involved with recording wildlife movements across Brisbane while also being able to get involved in a broad range of citizen science programs that help bridge the knowledge gaps of Brisbane’s local (and threatened) species which is where the ALA’s citizen science portal, BioCollect comes into its own.  It is greatly appreciated that as a dynamic and community-minded Council, the fact all data is stored on, and accessible by the ALA, is governed under a creative commons licence allowing Council to provide a rich and engaging user experience either directly from the ALA or via the corporate website.”</p>
 <p>Brisbane City Council currently promotes these benefits and more – and diligently works with internal program partners to encourage local community and conservation groups to get involved with the myriad of citizen science programs available and even for the groups to create their own under ALA’s <a href="https://www.ala.org.au/biocollect/">BioCollect</a> platform using Brisbane City Council as a program partner.</p>
@@ -259,7 +277,7 @@
 <p><strong>Brisbane City Council staff training</strong></p>
 <p>To encourage use of the ALA tools across Brisbane City Council’s many business areas, the Biodiversity and Conservation Planning team is now in the process of hosting ALA information and training sessions for a number of these areas.</p>
 <p>Other Council community initiatives include Greenheart Fairs (sustainability events), and schools and environment centre events. It is envisioned that Council will use the educational resources and classroom activities to broaden the knowledge of students across Brisbane schools and those people in the wider community who have a passion and love of Brisbane’s unique biodiversity to increase their knowledge through citizen science projects. </p>
-<figure id="attachment_39577" aria-describedby="caption-attachment-39577" style="width: 276px" class="wp-caption alignright"><img src="http://www.ala.org.au/wp-content/uploads/2018/06/b227f0db-e7a3-4211-bbd8-4dbb95ff5092-276x300.jpg" alt="" width="276" height="300" class="wp-image-39577 size-medium"><figcaption id="caption-attachment-39577" class="wp-caption-text">Image record of <em>Litoria brevipalmata</em>, green-thighed tree frog, on the ALA. Image credit: Poleta33</figcaption></figure>
+<figure id="attachment_39577" aria-describedby="caption-attachment-39577" style="width: 276px" class="wp-caption alignright"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/06/b227f0db-e7a3-4211-bbd8-4dbb95ff5092-276x300.jpg" alt="" width="276" height="300" class="wp-image-39577 size-medium"><figcaption id="caption-attachment-39577" class="wp-caption-text">Image record of <em>Litoria brevipalmata</em>, green-thighed tree frog, on the ALA. Image credit: Poleta33</figcaption></figure>
 <p>Council’s Environment Centres encourage their volunteers and community groups to work on developing their own citizen science projects with a theme specific to each centre’s location.  For example, a project might involve the endangered Green-thighed frog, which has been known to inhabit the wetter forest areas of Karawatha Forest in Brisbane’s south-east and needs substantial increased surveying for additional populations.  Increased frog surveys could be a great possibility for a BioCollect project run by the Environment Centre’s staff and volunteers.</p>
 <p>Council foresees a range of other applications for ALA to inform a range of landuse planning and management decisions, specifically ALA’s ability to delineate mappable areas where significant and threatened species occur. </p>
 <p>“What makes ALA the foremost national biodiversity database anywhere in Australia is its free, online, user-friendly platform that allows local communities to record flora and fauna sightings that enables local government, and others, to interrogate biodiversity data for future environmental trend analysis and planning processes.”</p>
@@ -357,9 +375,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -495,7 +514,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -566,12 +585,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

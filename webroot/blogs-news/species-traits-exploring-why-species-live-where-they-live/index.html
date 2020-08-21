@@ -11,15 +11,14 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,19 +27,7 @@
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -96,8 +83,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -114,7 +118,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -237,24 +255,24 @@
 	<div class="entry-excerpt">By Michael Kearney, Physiological Ecologist, School of BioSciences, The University of Melbourne</div>
 	<div class="entry-content">
 
-		<figure id="attachment_40189" aria-describedby="caption-attachment-40189" style="width: 264px" class="wp-caption alignright"><img src="http://www.ala.org.au/wp-content/uploads/2018/11/michael-kearney-portrait-225x300.jpg" alt="" width="264" height="352" class=" wp-image-40189"><figcaption id="caption-attachment-40189" class="wp-caption-text">Michael Kearney with a Stumpy Tailed Lizard near Ouyen, Victoria.</figcaption></figure>
+		<figure id="attachment_40189" aria-describedby="caption-attachment-40189" style="width: 264px" class="wp-caption alignright"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/11/michael-kearney-portrait-225x300.jpg" alt="" width="264" height="352" class=" wp-image-40189"><figcaption id="caption-attachment-40189" class="wp-caption-text">Michael Kearney with a Stumpy Tailed Lizard near Ouyen, Victoria.</figcaption></figure>
 <p>I grew up in a bushy outer suburb of Melbourne and spent most of my spare time looking for animals in my backyard and down at the local creek. As my travels grew wider, I began to find the geographic distributions of species fascinating. What characteristics of a species allow it to live in the harshest of the Australian deserts? What is it about a montane specialist that prevents it from living at low elevation?</p>
 <p>These questions—and a general curiosity about species, their traits and the environments they live in—motivate my research and have steered me towards working with the Atlas of Living Australia.</p>
 <h3 id="the-limits-of-species-distribution-mapping"><strong>The limits of species distribution mapping</strong></h3>
 <p>The ALA provides detailed information on Australian species’ distributions. But we actually have very limited understanding of why the distributions appear as they do. This limits our ability to anticipate the geographic spread or decline of species as the Australian environment changes.</p>
 <p>Understanding the causes of species distribution limits is not a trivial problem. Ecological systems are a complex web of interactions. The processes limiting species distribution and abundance may occur over vast spatial and temporal scales. Today, we have detailed quantitative information on climate and terrain. We can use this data to statistically model species occurrences as a function of environmental factors. This is often referred to as ‘ecological niche modelling’, and there are tools to do this in the ALA. However, the current models are limited in what they can say about the underlying processes, and about what might happen in new scenarios.</p>
-<figure id="attachment_40179" aria-describedby="caption-attachment-40179" style="width: 513px" class="wp-caption aligncenter"><img src="http://www.ala.org.au/wp-content/uploads/2018/11/2018-11-14_15-35-33-300x192.png" alt="" width="513" height="328" class=" wp-image-40179"><figcaption id="caption-attachment-40179" class="wp-caption-text">Simple species distribution map of Stumpy Tailed Lizard (<em>Tiliqua rugosa</em>) records across Australia, generated using the ALA.</figcaption></figure>
+<figure id="attachment_40179" aria-describedby="caption-attachment-40179" style="width: 513px" class="wp-caption aligncenter"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/11/2018-11-14_15-35-33-300x192.png" alt="" width="513" height="328" class=" wp-image-40179"><figcaption id="caption-attachment-40179" class="wp-caption-text">Simple species distribution map of Stumpy Tailed Lizard (<em>Tiliqua rugosa</em>) records across Australia, generated using the ALA.</figcaption></figure>
 <h3 id="introducing-traits-connecting-functional-characteristics-of-a-species-with-its-environment"><strong>Introducing traits: connecting functional characteristics of a species with its environment</strong></h3>
 <p>Instead of starting with occurrence records, and statistically relating them to environmental data, another approach is to build models that explicitly represent the cause-and-effect links between the functional traits of organisms and their environments. This is the path I have been taking in my research, something I have called ‘mechanistic niche modelling’.</p>
 <p>I knew that building these models on the basis of physical first-principles would give the greatest predictive power and generality across species and environments.  Although I didn’t know a lot of physics when I started, I was able to follow the trail blazed by a number of intrepid ecologists (especially <span><a href="https://integrativebiology.wisc.edu/staff/porter-warren/">Prof. Warren Porter, Department of Integrative Biology, University of Wisconsin </a></span> and <span><a href="https://www.bio.vu.nl/thb/personnel/members/kooijman.html">Prof. Bas Kooijman, Department of Theoretical Biology, Vrije University, Amsterdam</a></span>) who had applied the fundamental laws of thermodynamics to explore how organisms exchange energy and matter with their environments. This field is called ‘biophysical ecology’.</p>
 <p>The equations of biophysical ecology allow us to ask: Will an organism be warm enough to forage? Will it overheat and die? How does the environment affect its energy requirements? How much water will it lose, and is that balanced by what it is getting from food? How long will it take to hatch, mature and reproduce? Will it die before getting a chance to reproduce?  </p>
 <p>Answers to these questions can be put together to understand what limits species distribution and abundance. This approach can also be used to plan or interpret field surveys, allowing us to determine what time of day or year we are most likely to find a given species in a particular environment.</p>
 <h3 id="our-results-so-far"><strong>Our results so far</strong></h3>
-<figure id="attachment_40191" aria-describedby="caption-attachment-40191" style="width: 300px" class="wp-caption alignright"><img src="http://www.ala.org.au/wp-content/uploads/2018/11/sleepy-lizard-image-by-michael-kearney-300x226.png" alt="" width="300" height="226" class="wp-image-40191 size-medium"><figcaption id="caption-attachment-40191" class="wp-caption-text">Shingle-back, or Sleepy Lizard (<em>Tiliqua rugosa</em>). Image by Michael Kearney.</figcaption></figure>
+<figure id="attachment_40191" aria-describedby="caption-attachment-40191" style="width: 300px" class="wp-caption alignright"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/11/sleepy-lizard-image-by-michael-kearney-300x226.png" alt="" width="300" height="226" class="wp-image-40191 size-medium"><figcaption id="caption-attachment-40191" class="wp-caption-text">Shingle-back, or Sleepy Lizard (<em>Tiliqua rugosa</em>). Image by Michael Kearney.</figcaption></figure>
 <p>To understand how climate limits the distribution, life histories and activity patterns of a broad range of species, I developed a suite of models for making biophysical calculations with an R package, <span><a href="https://github.com/mrke/NicheMapR">NicheMapR.</a></span></p>
 <p>I used these models in our recent study of the Sleepy Lizard <span><a href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecm.1326">Field tests of a general ectotherm niche model show how water can limit lizard activity and distribution</a></span>. This study showed that Sleepy Lizard distribution is far more constrained by water than by temperature, and that it will become inactive to avoid water loss during dry spells.</p>
 <p>We have also analysed the water requirements of the endangered Night Parrot (<em>Pezoporus occidentalis)</em> in the paper <span><a href="https://climatechangeresponses.biomedcentral.com/articles/10.1186/s40665-016-0027-y">An estimate of the water budget for the endangered night parrot of Australia under recent and future climates</a></span>. This revealed that, to survive, the night parrot must have access to standing water during the summer. This has important implications for managing the resources of this critically endangered species.</p>
-<figure id="attachment_40192" aria-describedby="caption-attachment-40192" style="width: 334px" class="wp-caption aligncenter"><img src="http://www.ala.org.au/wp-content/uploads/2018/11/Infrared-image-of-night-parrot-197x300.png" alt="" width="334" height="509" class="wp-image-40192 "><figcaption id="caption-attachment-40192" class="wp-caption-text">Infra red image of a night parrot, taken from Kearney, Porter and Murphy, 2016.</figcaption></figure>
+<figure id="attachment_40192" aria-describedby="caption-attachment-40192" style="width: 334px" class="wp-caption aligncenter"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/11/Infrared-image-of-night-parrot-197x300.png" alt="" width="334" height="509" class="wp-image-40192 "><figcaption id="caption-attachment-40192" class="wp-caption-text">Infra red image of a night parrot, taken from Kearney, Porter and Murphy, 2016.</figcaption></figure>
 <h3 id="looking-forward-a-world-with-more-trait-data"><strong>Looking forward – a world with more trait data</strong></h3>
 <p>The tools now exist to answer fundamental questions about how species are limited by their environments, but what we need most is the trait data. Which traits we need is very clear – the equations of ‘biophysical models’ precisely define them.</p>
 <p>For the models of heat exchange, water balance, and potential activity time, we need traits like solar reflectance, resistance to water loss, surface area, insulation (e.g. fur depth), temperature and desiccation thresholds for activity and survival, and the water content of the body, food and faeces.</p>
@@ -360,9 +378,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -498,7 +517,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -569,12 +588,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -93,8 +80,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -111,7 +115,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -238,24 +256,24 @@
 <p>As someone who is involved in producing reference images to support pest diagnosis and biodiversity research (see <a title="Pests and Diseases Image Library" href="http://www.padil.gov.au/">PaDIL</a>), I certainly have a daily focus on producing the best images possible.  In a sense, therefore, I certainly agree with my correspondent that, “spending the effort to capture good images at a high quality makes them much more useful to a greater audience”.  Ideally, all images for virtual diagnostics would be prepared by highly trained specialists with unlimited time using cutting edge technology.</p>
 <p>However I believe it is essential for us to balance this view.  Lower-quality images are frequently perfectly adequate to tell us what we need.  We usually make do with ‘good enough’ – and usually ‘good enough’ gets the job done.   Understanding the difficulties that most people (scientists and citizen scientists) have in creating high quality images, we should not set too high a standard for the user to submit material.  I’d like to illustrate this with an example.</p>
 <p>I recently received the mite image below. For the entomologist in a New Guinea village who took this image, the limiting factor was not time and skill but rather equipment.</p>
-<figure id="attachment_17913" aria-describedby="caption-attachment-17913" style="width: 406px" class="wp-caption aligncenter"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/mite.jpg"><img class="size-large wp-image-17913" title="Mite" src="http://www.ala.org.au/wp-content/uploads/2011/03/mite-406x500.jpg" alt="" width="406" height="500"></a><figcaption id="caption-attachment-17913" class="wp-caption-text">Image received from entomologist in New Guinea</figcaption></figure>
+<figure id="attachment_17913" aria-describedby="caption-attachment-17913" style="width: 406px" class="wp-caption aligncenter"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/mite.jpg"><img loading="lazy" class="size-large wp-image-17913" title="Mite" src="http://www.ala.org.au/wp-content/uploads/2011/03/mite-406x500.jpg" alt="" width="406" height="500"></a><figcaption id="caption-attachment-17913" class="wp-caption-text">Image received from entomologist in New Guinea</figcaption></figure>
 <p>My correspondent worried that such an image might be of little use to a mite expert, but I would be very concerned if such a person was unable at least to make a tentative ID from what was supplied.</p>
 <p>What was supplied included not only the photo but also metadata for the image. That metadata was location: New Guinea; and Host: <em>Apis mellifera</em>.</p>
 <p>Now there are only two genera of mites that attack <em>Apis</em> and which are of biosecurity concern to Australia, or indeed to SE Asia: <em>Varroa</em> and <em>Tropilaelaps</em>. One is oval in shape and one is elongate:</p>
-<figure id="attachment_17904" aria-describedby="caption-attachment-17904" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/varroa.jpg"><img class="size-medium wp-image-17904" title="Varroa" src="http://www.ala.org.au/wp-content/uploads/2011/03/varroa-240x197.jpg" alt="" width="240" height="197"></a><figcaption id="caption-attachment-17904" class="wp-caption-text">Varroa</figcaption></figure>
-<figure id="attachment_17903" aria-describedby="caption-attachment-17903" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/tropilaelaps.jpg"><img class="size-medium wp-image-17903" title="Tropilaelaps" src="http://www.ala.org.au/wp-content/uploads/2011/03/tropilaelaps-240x202.jpg" alt="" width="240" height="202"></a><figcaption id="caption-attachment-17903" class="wp-caption-text">Tropilaelaps</figcaption></figure>
+<figure id="attachment_17904" aria-describedby="caption-attachment-17904" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/varroa.jpg"><img loading="lazy" class="size-medium wp-image-17904" title="Varroa" src="http://www.ala.org.au/wp-content/uploads/2011/03/varroa-240x197.jpg" alt="" width="240" height="197"></a><figcaption id="caption-attachment-17904" class="wp-caption-text">Varroa</figcaption></figure>
+<figure id="attachment_17903" aria-describedby="caption-attachment-17903" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/tropilaelaps.jpg"><img loading="lazy" class="size-medium wp-image-17903" title="Tropilaelaps" src="http://www.ala.org.au/wp-content/uploads/2011/03/tropilaelaps-240x202.jpg" alt="" width="240" height="202"></a><figcaption id="caption-attachment-17903" class="wp-caption-text">Tropilaelaps</figcaption></figure>
 <p>When Denis Anderson recently revised and described new species in the mite genus <em>Tropilaelaps,</em> I contacted him and asked for reference material to be image captured for PADIL.</p>
 <p>He sent me all of the type slides, along with specimens preserved in OH, explained to me what diagnostic images to capture, and wrote diagnostics notes for each species. So I captured images of all four known species and put them on PaDIL with in incredible amount of detail.</p>
-<figure id="attachment_17911" aria-describedby="caption-attachment-17911" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/genus-overview.jpg"><img class="size-medium wp-image-17911" title="Genus overview" src="http://www.ala.org.au/wp-content/uploads/2011/03/genus-overview-240x223.jpg" alt="" width="240" height="223"></a><figcaption id="caption-attachment-17911" class="wp-caption-text">Genus overview page</figcaption></figure>
-<figure id="attachment_17910" aria-describedby="caption-attachment-17910" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/species-overview.jpg"><img class="size-medium wp-image-17910" title="Species overview" src="http://www.ala.org.au/wp-content/uploads/2011/03/species-overview-110x240.jpg" alt="" width="240" height="232"></a><figcaption id="caption-attachment-17910" class="wp-caption-text">Species overview page</figcaption></figure>
-<figure id="attachment_17916" aria-describedby="caption-attachment-17916" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/diagnostic-feature.jpg"><img class="size-medium wp-image-17916" title="Diagnostic feature" src="http://www.ala.org.au/wp-content/uploads/2011/03/diagnostic-feature-240x199.jpg" alt="" width="240" height="180"></a><figcaption id="caption-attachment-17916" class="wp-caption-text">Subapical tooth</figcaption></figure>
-<figure id="attachment_17915" aria-describedby="caption-attachment-17915" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/high-quality-image.jpg"><img class="size-medium wp-image-17915" title="Spending the effort" src="http://www.ala.org.au/wp-content/uploads/2011/03/high-quality-image-240x180.jpg" alt="" width="240" height="180"></a><figcaption id="caption-attachment-17915" class="wp-caption-text">Good image at high quality</figcaption></figure>
+<figure id="attachment_17911" aria-describedby="caption-attachment-17911" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/genus-overview.jpg"><img loading="lazy" class="size-medium wp-image-17911" title="Genus overview" src="http://www.ala.org.au/wp-content/uploads/2011/03/genus-overview-240x223.jpg" alt="" width="240" height="223"></a><figcaption id="caption-attachment-17911" class="wp-caption-text">Genus overview page</figcaption></figure>
+<figure id="attachment_17910" aria-describedby="caption-attachment-17910" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/species-overview.jpg"><img loading="lazy" class="size-medium wp-image-17910" title="Species overview" src="http://www.ala.org.au/wp-content/uploads/2011/03/species-overview-110x240.jpg" alt="" width="240" height="232"></a><figcaption id="caption-attachment-17910" class="wp-caption-text">Species overview page</figcaption></figure>
+<figure id="attachment_17916" aria-describedby="caption-attachment-17916" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/diagnostic-feature.jpg"><img loading="lazy" class="size-medium wp-image-17916" title="Diagnostic feature" src="http://www.ala.org.au/wp-content/uploads/2011/03/diagnostic-feature-240x199.jpg" alt="" width="240" height="180"></a><figcaption id="caption-attachment-17916" class="wp-caption-text">Subapical tooth</figcaption></figure>
+<figure id="attachment_17915" aria-describedby="caption-attachment-17915" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/high-quality-image.jpg"><img loading="lazy" class="size-medium wp-image-17915" title="Spending the effort" src="http://www.ala.org.au/wp-content/uploads/2011/03/high-quality-image-240x180.jpg" alt="" width="240" height="180"></a><figcaption id="caption-attachment-17915" class="wp-caption-text">Good image at high quality</figcaption></figure>
 <p>I did “[spend] the effort to capture good images at a high quality [to] make them much more useful to a greater audience”, but I have always remembered the lessons I learned by talking to the users of such images – biosecurity diagnosticians.</p>
 <p>I clearly remember having a discussion with some diagnosticians about a new high-quality taxonomic publication which included wonderful scanning electron micrographs (SEMs) showing diagnostic features in high detail.  I assumed this book would be enormously useful to them, but they resoundingly replied that they hated it! The reason was that ” it is not what we see under the microscope”. I have never forgotten that lesson and I have endeavoured to take images that resemble what you see under a microscope.</p>
 <p>The above image is the “perfect” ventral image for that species. Denis has done a wonderful job of preparing and slide mounting the specimen. I have used a $50,000+ Leica DM500 compound microscope with DIC (differential interference contrast) lightening regime and the single image is a montage of about 10 originals. And the image can be zoomified. What more could you possibly want?</p>
 <p>Well, I also took images of unmounted specimens in OH and images of known intraspecific variation. And believe it or not, I was told that the OH images were more useful than the slide mounted images.</p>
-<figure id="attachment_17926" aria-describedby="caption-attachment-17926" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/unmounted-specimens.jpg"><img class="size-medium wp-image-17926" title="Intraspecific variation" src="http://www.ala.org.au/wp-content/uploads/2011/03/unmounted-specimens-240x209.jpg" alt="" width="240" height="209"></a><figcaption id="caption-attachment-17926" class="wp-caption-text">Known intraspecific variation</figcaption></figure>
-<figure id="attachment_17927" aria-describedby="caption-attachment-17927" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/OH-specimens.jpg"><img class="size-medium wp-image-17927" title="OH" src="http://www.ala.org.au/wp-content/uploads/2011/03/OH-specimens-240x206.jpg" alt="" width="240" height="206"></a><figcaption id="caption-attachment-17927" class="wp-caption-text">Unmounted specimens</figcaption></figure>
+<figure id="attachment_17926" aria-describedby="caption-attachment-17926" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/unmounted-specimens.jpg"><img loading="lazy" class="size-medium wp-image-17926" title="Intraspecific variation" src="http://www.ala.org.au/wp-content/uploads/2011/03/unmounted-specimens-240x209.jpg" alt="" width="240" height="209"></a><figcaption id="caption-attachment-17926" class="wp-caption-text">Known intraspecific variation</figcaption></figure>
+<figure id="attachment_17927" aria-describedby="caption-attachment-17927" style="width: 240px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2011/03/OH-specimens.jpg"><img loading="lazy" class="size-medium wp-image-17927" title="OH" src="http://www.ala.org.au/wp-content/uploads/2011/03/OH-specimens-240x206.jpg" alt="" width="240" height="206"></a><figcaption id="caption-attachment-17927" class="wp-caption-text">Unmounted specimens</figcaption></figure>
 <p>They clearly show the modified forelegs and the spanner like ventral and genitalia armature. The males have a space while there is no space in females</p>
 <p>Which image do you think is more useful to the entomologist in a New Guinea village when looking down the microscope at a non-slide mounted specimen?</p>
 <p>I intend to add these images to the PaDIL page to provide users with as many different views of the same animal.</p>
@@ -352,9 +370,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -490,7 +509,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -561,12 +580,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

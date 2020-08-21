@@ -11,15 +11,14 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,19 +27,7 @@
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -96,8 +83,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -114,7 +118,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -240,7 +258,7 @@
 		<p>Since finding out about the ALA, the Rocky Waterholes-Salisbury Bushcare group have been using it in a number of ways to enhance their site in suburban Brisbane.</p>
 <p><a href="http://www.bushcare.org.au/">Bushcare</a> groups are made up of volunteers across Australia who come together to restore natural environments in urban reserves. Among other activities, the Rocky Waterholes-Salisbury group cleans up rubbish, removes weeds, and propagates and plants native shrubs and trees.</p>
 <p>Volunteers also consult with other community members. Recently, they have organised talks on weed management from bush restoration experts, received training on tool use, engaged Scout groups in planting events and learned about indigenous uses of plants from local elders.</p>
-<p><figure id="attachment_38717" aria-describedby="caption-attachment-38717" style="width: 283px" class="wp-caption alignright"><img src="http://www.ala.org.au/wp-content/uploads/2017/11/GT3-223x300.jpg" alt="An image of a sloped site with holes dug for plants to be planted in" width="283" height="381" class="wp-image-38717"><figcaption id="caption-attachment-38717" class="wp-caption-text">An area with holes dug ready for planting</figcaption></figure><figure id="attachment_38720" aria-describedby="caption-attachment-38720" style="width: 519px" class="wp-caption alignleft"><img src="http://www.ala.org.au/wp-content/uploads/2017/11/GT5-300x221.jpg" alt="An image of a number of different weed species" width="519" height="382" class="wp-image-38720"><figcaption id="caption-attachment-38720" class="wp-caption-text">A number of different weed species were collected during one of the group’s recent work days</figcaption></figure></p>
+<p><figure id="attachment_38717" aria-describedby="caption-attachment-38717" style="width: 283px" class="wp-caption alignright"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2017/11/GT3-223x300.jpg" alt="An image of a sloped site with holes dug for plants to be planted in" width="283" height="381" class="wp-image-38717"><figcaption id="caption-attachment-38717" class="wp-caption-text">An area with holes dug ready for planting</figcaption></figure><figure id="attachment_38720" aria-describedby="caption-attachment-38720" style="width: 519px" class="wp-caption alignleft"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2017/11/GT5-300x221.jpg" alt="An image of a number of different weed species" width="519" height="382" class="wp-image-38720"><figcaption id="caption-attachment-38720" class="wp-caption-text">A number of different weed species were collected during one of the group’s recent work days</figcaption></figure></p>
 <p> </p>
 <p> </p>
 <p> </p>
@@ -254,10 +272,10 @@
 <p> </p>
 <p>Greg Tasney, a member of the group, uses the ALA to log sightings and help build a picture of local biodiversity. The group shares the ALA login so that all members can add to the database. </p>
 <p>“Information from the ALA specifically about our site is used in grant applications and defence submissions against future development. The data illustrates the diversity of species living onsite, and highlights how important our bush care program is,” Mr Tasney said.</p>
-<figure id="attachment_38718" aria-describedby="caption-attachment-38718" style="width: 588px" class="wp-caption aligncenter"><img src="http://www.ala.org.au/wp-content/uploads/2017/11/GT4-300x202.jpg" alt='The elusive Buff-Banded Rail, the "animal emblem" of the Rocky Waterholes-Salisbury Bushcare group.' width="588" height="396" class="wp-image-38718"><figcaption id="caption-attachment-38718" class="wp-caption-text">The elusive Buff-Banded Rail, the “animal emblem” of the Rocky Waterholes-Salisbury Bushcare group.</figcaption></figure>
+<figure id="attachment_38718" aria-describedby="caption-attachment-38718" style="width: 588px" class="wp-caption aligncenter"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2017/11/GT4-300x202.jpg" alt='The elusive Buff-Banded Rail, the "animal emblem" of the Rocky Waterholes-Salisbury Bushcare group.' width="588" height="396" class="wp-image-38718"><figcaption id="caption-attachment-38718" class="wp-caption-text">The elusive Buff-Banded Rail, the “animal emblem” of the Rocky Waterholes-Salisbury Bushcare group.</figcaption></figure>
 <p>Mr Tasney also uses the ALA to search occurrence records in surrounding areas. Based on sightings in surrounding areas, Greg believes that Red-necked Wallabies could already be using the local riparian and creek corridors to move into and out of nearby Toohey Forest Park.</p>
 <p>“After our recent plantings have grown and thickened, I predict the Rocky Waterholes-Salisbury area will become an important natural vegetation and wildlife corridor,” he said.</p>
-<figure id="attachment_38716" aria-describedby="caption-attachment-38716" style="width: 614px" class="wp-caption aligncenter"><img src="http://www.ala.org.au/wp-content/uploads/2017/11/GT1-300x171.jpg" alt="A large lizard asleep in some bare branches in the air" width="614" height="350" class="wp-image-38716"><figcaption id="caption-attachment-38716" class="wp-caption-text">A regular sight at the Rocky Waterholes site are the water dragons sleeping in the branches</figcaption></figure>
+<figure id="attachment_38716" aria-describedby="caption-attachment-38716" style="width: 614px" class="wp-caption aligncenter"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2017/11/GT1-300x171.jpg" alt="A large lizard asleep in some bare branches in the air" width="614" height="350" class="wp-image-38716"><figcaption id="caption-attachment-38716" class="wp-caption-text">A regular sight at the Rocky Waterholes site are the water dragons sleeping in the branches</figcaption></figure>
 <p> </p>
 <p>Check out the <a href="https://www.facebook.com/search/top/?q=rocky%20waterholes%20-%20salisbury%20bushcare">Rocky Waterholes-Salisbury Bushcare</a> Facebook page if you want to keep up with their activities. <a href="mailto:support@ala.org.au">Contact us</a> if you would like to share how you’re using the ALA.</p>
 
@@ -351,9 +369,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -489,7 +508,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -560,12 +579,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

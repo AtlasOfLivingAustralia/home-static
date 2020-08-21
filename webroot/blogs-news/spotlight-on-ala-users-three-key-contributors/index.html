@@ -11,15 +11,14 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,19 +27,7 @@
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -96,8 +83,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -114,7 +118,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -240,16 +258,16 @@
 		<p>Wanting to share their knowledge with others, using it as a place to store a wealth of species information and wanting to take part in citizen science are just a few motivating factors that drive people to upload sightings directly to the ALA. Here we showcase three different users and their images.</p>
 <h4 id="shell-collector">Shell collector</h4>
 <p>Gavin Nichols is an amateur collector of molluscs and has collected specimens of about 300 different species.  He takes images of the best specimens to contribute after discovering that there was only 20 records in the ALA of the cowry species Mauritia mauritiana in NSW. Gavin consults with professionals and other enthusiasts from all over the world via social media. He also takes and records other measurements of some types of shells; like size to mass ratios, tooth counts and pattern sizes. It’s really great to have great images like these in the ALA, some of which are the only images we have on the species. (Note:- Before you head out collecting yourself, remember that it is not always legal to collect shells from beaches. A quick google search of your planned site should give you answers)</p>
-<figure id="attachment_40466" aria-describedby="caption-attachment-40466" style="width: 323px" class="wp-caption alignright"><img class="wp-image-40466" src="https://www.ala.org.au/app/uploads/2019/04/blog2-1-300x251.jpg" alt="" width="323" height="270"><figcaption id="caption-attachment-40466" class="wp-caption-text">Doxander vittatus</figcaption></figure>
-<figure id="attachment_40465" aria-describedby="caption-attachment-40465" style="width: 300px" class="wp-caption alignnone"><img class="wp-image-40465 size-medium" src="https://www.ala.org.au/app/uploads/2019/04/blog1-1-300x297.jpg" alt="" width="300" height="297"><figcaption id="caption-attachment-40465" class="wp-caption-text">Erronea xanthodon</figcaption></figure>
+<figure id="attachment_40466" aria-describedby="caption-attachment-40466" style="width: 323px" class="wp-caption alignright"><img loading="lazy" class="wp-image-40466" src="https://www.ala.org.au/app/uploads/2019/04/blog2-1-300x251.jpg" alt="" width="323" height="270"><figcaption id="caption-attachment-40466" class="wp-caption-text">Doxander vittatus</figcaption></figure>
+<figure id="attachment_40465" aria-describedby="caption-attachment-40465" style="width: 300px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-40465 size-medium" src="https://www.ala.org.au/app/uploads/2019/04/blog1-1-300x297.jpg" alt="" width="300" height="297"><figcaption id="caption-attachment-40465" class="wp-caption-text">Erronea xanthodon</figcaption></figure>
 <h4 id="stunning-close-ups">Stunning close-ups</h4>
 <p>Michael Hains has travelled extensively around Australia and has contributed some fantastic images of birds and mammals to the ALA, however, it was his unusual images of bark and seed pods that first got our attention. On one of his first trips to the Mt Annan Botanic Gardens, it was too windy to get good pictures of leaves or flowers, so he took images of bark at high magnification (around 3X). He then realised few people had contributed this type of image to the ALA, so he started adding them. He uses digital focus-stacking techniques to give greater depth of field to his pictures (which should be viewed at full size). Michael has also photographed several endangered animal species contributing valuable images to the ALA.</p>
-<figure id="attachment_40468" aria-describedby="caption-attachment-40468" style="width: 305px" class="wp-caption alignright"><img class="wp-image-40468" src="https://www.ala.org.au/app/uploads/2019/04/blog4-1-300x287.jpg" alt="" width="305" height="292"><figcaption id="caption-attachment-40468" class="wp-caption-text">Close up of Banksia integrifolia</figcaption></figure>
-<figure id="attachment_40467" aria-describedby="caption-attachment-40467" style="width: 295px" class="wp-caption alignnone"><img class="wp-image-40467" src="https://www.ala.org.au/app/uploads/2019/04/blog3-1-300x289.jpg" alt="" width="295" height="284" srcset="https://www-test.ala.org.au/app/uploads/2019/04/blog3-1-300x289.jpg 300w,https://www-test.ala.org.au/app/uploads/2019/04/blog3-1.jpg 744w" sizes="(max-width: 295px) 100vw, 295px"><figcaption id="caption-attachment-40467" class="wp-caption-text">The scribbled bark of Eucalyptus racemosa</figcaption></figure>
+<figure id="attachment_40468" aria-describedby="caption-attachment-40468" style="width: 305px" class="wp-caption alignright"><img loading="lazy" class="wp-image-40468" src="https://www.ala.org.au/app/uploads/2019/04/blog4-1-300x287.jpg" alt="" width="305" height="292"><figcaption id="caption-attachment-40468" class="wp-caption-text">Close up of Banksia integrifolia</figcaption></figure>
+<figure id="attachment_40467" aria-describedby="caption-attachment-40467" style="width: 295px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-40467" src="https://www.ala.org.au/app/uploads/2019/04/blog3-1-300x289.jpg" alt="" width="295" height="284" srcset="https://www-test.ala.org.au/app/uploads/2019/04/blog3-1-300x289.jpg 300w,https://www-test.ala.org.au/app/uploads/2019/04/blog3-1.jpg 744w" sizes="(max-width: 295px) 100vw, 295px"><figcaption id="caption-attachment-40467" class="wp-caption-text">The scribbled bark of Eucalyptus racemosa</figcaption></figure>
 <h4 id="snapshot-of-a-forest">Snapshot of a forest</h4>
 <p>Armed with a deep connection with and love for the forest surrounding her home, Jayn Hobba has undertaken “to keep a photographic record of the past and present state of play in this environment”. She works closely with neighbours in both State Forest areas and farmland to promote good forest health, even adopting some practices to encourage regeneration of old forest areas. She hopes that by sharing this data through the ALA that she can help educate others about environmental values and sustainable forest management. She finds using the ALA helps organise her records; allowing cross referencing with the sightings of others while contributing to the knowledge and mapping of Australia’s species. She thinks that in the future she will be able to use other ALA functions to enhance her work.</p>
-<figure id="attachment_40469" aria-describedby="caption-attachment-40469" style="width: 326px" class="wp-caption alignright"><img class="wp-image-40469" src="https://www.ala.org.au/app/uploads/2019/04/blog5-1-275x300.jpg" alt="" width="326" height="356"><figcaption id="caption-attachment-40469" class="wp-caption-text">Lichen grows on a branch</figcaption></figure>
-<figure id="attachment_40470" aria-describedby="caption-attachment-40470" style="width: 353px" class="wp-caption alignnone"><img class="wp-image-40470" src="https://www.ala.org.au/app/uploads/2019/04/blog6-1-300x300.jpg" alt="" width="353" height="353" srcset="https://www-test.ala.org.au/app/uploads/2019/04/blog6-1-300x300.jpg 300w,https://www-test.ala.org.au/app/uploads/2019/04/blog6-1-150x150.jpg 150w,https://www-test.ala.org.au/app/uploads/2019/04/blog6-1-768x767.jpg 768w,https://www-test.ala.org.au/app/uploads/2019/04/blog6-1.jpg 855w" sizes="(max-width: 353px) 100vw, 353px"><figcaption id="caption-attachment-40470" class="wp-caption-text">A processionary ring of caterpillars</figcaption></figure>
+<figure id="attachment_40469" aria-describedby="caption-attachment-40469" style="width: 326px" class="wp-caption alignright"><img loading="lazy" class="wp-image-40469" src="https://www.ala.org.au/app/uploads/2019/04/blog5-1-275x300.jpg" alt="" width="326" height="356"><figcaption id="caption-attachment-40469" class="wp-caption-text">Lichen grows on a branch</figcaption></figure>
+<figure id="attachment_40470" aria-describedby="caption-attachment-40470" style="width: 353px" class="wp-caption alignnone"><img loading="lazy" class="wp-image-40470" src="https://www.ala.org.au/app/uploads/2019/04/blog6-1-300x300.jpg" alt="" width="353" height="353" srcset="https://www-test.ala.org.au/app/uploads/2019/04/blog6-1-300x300.jpg 300w,https://www-test.ala.org.au/app/uploads/2019/04/blog6-1-150x150.jpg 150w,https://www-test.ala.org.au/app/uploads/2019/04/blog6-1-768x767.jpg 768w,https://www-test.ala.org.au/app/uploads/2019/04/blog6-1.jpg 855w" sizes="(max-width: 353px) 100vw, 353px"><figcaption id="caption-attachment-40470" class="wp-caption-text">A processionary ring of caterpillars</figcaption></figure>
 <p>If you’re keen to start contributing sightings to the ALA, check out our User Guide. Also, feel free to contact us if you want to share with us your motivations for contributing to this great resource.</p>
 
 		
@@ -342,9 +360,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -480,7 +499,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -551,12 +570,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

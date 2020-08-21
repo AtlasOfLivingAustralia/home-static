@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -99,8 +86,25 @@ A grid cell by species composition matrix. The number of occurrences of each">
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -117,7 +121,21 @@ A grid cell by species composition matrix. The number of occurrences of each">
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -247,17 +265,17 @@ A grid cell by species composition matrix. The number of occurrences of each">
 <li>A species richness map. Calculated on the same basis as the occurrence density but the value is the average count of the number of different species.</li>
 </ol>
 <p>The sites by species matrix is probably the most common data structure for ecological data analysis. The number of species occurrences and the species richness (unique number of taxa) are independently averaged over a moving window of grid cells.</p>
-<div class="clearfix"><img class="aligncenter size-full wp-image-26661" title="Point to Grid" src="/wp-content/uploads/2011/12/Point-to-Grid.png" alt="" width="357" height="233"></div>
+<div class="clearfix"><img loading="lazy" class="aligncenter size-full wp-image-26661" title="Point to Grid" src="/wp-content/uploads/2011/12/Point-to-Grid.png" alt="" width="357" height="233"></div>
 <p>From the menu option, select “Tools” and then “Points to Grid”.<br>
-<img class="size-full wp-image-25237 aligncenter" title="Points to grid Step1" src="/wp-content/uploads/2011/12/Points_to_grid_step1_640px.png" alt="Points to grid Step1" width="640" height="182"><br>
+<img loading="lazy" class="size-full wp-image-25237 aligncenter" title="Points to grid Step1" src="/wp-content/uploads/2011/12/Points_to_grid_step1_640px.png" alt="Points to grid Step1" width="640" height="182"><br>
 Choose an area to apply the species to grid process. You can <a title="Areas (Add to Map)" href="http://www.ala.org.au/spatial-portal-help/areas-add-to-map/">define a new area</a> on the fly or use a previously defined area. <strong>NOTE:</strong> Using the ‘Current extent’ window as the default may not be wise if that area contains marine and terrestrial environments and if the species of interest are only in the one environment. For purely terrestrial or marine species, it is better to define the area accordingly to reduce the size of the job. If you exceed the capabilities of the server, you will get a warning and the process will stop. You can then either reduce the area as stated, or the grid size or both.</p>
 <p>Any predefined area (My Area) listed as a map layer in the top left layers list can be used for a Points to Grid</p>
 <p>Click the “Next” button</p>
-<figure id="attachment_31678" aria-describedby="caption-attachment-31678" style="width: 485px" class="wp-caption aligncenter"><a href="http://www.ala.org.au/?attachment_id=31678"><img class=" wp-image-31678 " title="PointsToGridS2" src="http://www.ala.org.au/wp-content/uploads/2014/01/PointsToGridS2.jpg" alt="" width="485" height="282"></a><figcaption id="caption-attachment-31678" class="wp-caption-text">Step 2: Select species</figcaption></figure>
+<figure id="attachment_31678" aria-describedby="caption-attachment-31678" style="width: 485px" class="wp-caption aligncenter"><a href="http://www.ala.org.au/?attachment_id=31678"><img loading="lazy" class=" wp-image-31678 " title="PointsToGridS2" src="http://www.ala.org.au/wp-content/uploads/2014/01/PointsToGridS2.jpg" alt="" width="485" height="282"></a><figcaption id="caption-attachment-31678" class="wp-caption-text">Step 2: Select species</figcaption></figure>
 <p style="text-align: center;">
 </p><p>A single <a href="/spatial-portal-help/species-add-to-map/">taxon</a> (species or higher taxonomic level) or a <a title="Species lists" href="http://lists.ala.org.au">List</a> of species can be used. Either search for the scientific or common name, create a new list of species or use an existing list.</p>
 <p style="text-align: center;">
-</p><p style="text-align: center;"><img class="size-full wp-image-25243 aligncenter" title="Points to Grid Step 3" src="/wp-content/uploads/2011/12/Points_to_grid_step3_640px.png" alt="Points to Grid Step 3" width="640" height="249"></p>
+</p><p style="text-align: center;"><img loading="lazy" class="size-full wp-image-25243 aligncenter" title="Points to Grid Step 3" src="/wp-content/uploads/2011/12/Points_to_grid_step3_640px.png" alt="Points to Grid Step 3" width="640" height="249"></p>
 <p>Set the size of each grid cell in decimal degrees and from the range of grid cell matrix size to make up the moving average window configuration (e.g. 9×9 grid cells, each with a length of your nominated grid cell size in decimal degrees). The occurrence density and species richness averages are calculated for the cell at the centre of the moving average window. The window then shifts cell by cell to calculate the next set of averages. The moving average and sites (grid cells) by species matrix is calculated for each grid cell in the defined area.</p>
 <p>The user must choose to produce one or more of the following:</p>
 <ul>
@@ -265,18 +283,18 @@ Choose an area to apply the species to grid process. You can <a title="Areas (Ad
 <li><a href="#occurrencedensity">Occurrence Density layer</a></li>
 <li><a href="#speciesrichness">Species Richness layer</a></li>
 </ul>
-<p style="text-align: center;"><img class="size-full wp-image-25210 aligncenter" title="Points to Grid Data Preparation" src="/wp-content/uploads/2011/12/Points_to_grid_Data_Prep.png" alt="Points to Grid Data Preparation" width="326" height="133"></p>
+<p style="text-align: center;"><img loading="lazy" class="size-full wp-image-25210 aligncenter" title="Points to Grid Data Preparation" src="/wp-content/uploads/2011/12/Points_to_grid_Data_Prep.png" alt="Points to Grid Data Preparation" width="326" height="133"></p>
 <p>It can take several minutes to prepare the data and layers. The time taken is proportional to the size of the area defined and the size of the grid cells used.</p>
 <h2 id="sitesbyspecies">Sites by Species CSV report</h2>
-<p style="text-align: center;"><img class="size-full wp-image-25263 aligncenter" title="Download Species Zipfile" src="/wp-content/uploads/2011/12/Download_Species_Zipfile.png" alt="Download Species Zipfile" width="403" height="282"></p>
+<p style="text-align: center;"><img loading="lazy" class="size-full wp-image-25263 aligncenter" title="Download Species Zipfile" src="/wp-content/uploads/2011/12/Download_Species_Zipfile.png" alt="Download Species Zipfile" width="403" height="282"></p>
 <p>A sites by species CSV file containing a record for each grid cell with the presence or absence of the selected species. The first three fields of each record contains a cell identifier (concatenated longitude and latitude), the longitude (decimal degrees) and latitude (decimal degrees). This matrix is often sparse meaning that cells contain more absences than presences.</p>
-<figure id="attachment_25253" aria-describedby="caption-attachment-25253" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2011/12/SiteBySpecies_800px.png"><img class="size-full wp-image-25253 " title="Sites By Species CSV" src="/wp-content/uploads/2011/12/SiteBySpecies_640px.png" alt="Sites By Species CSV" width="640" height="400"></a><figcaption id="caption-attachment-25253" class="wp-caption-text">Example Sites by Species CSV report</figcaption></figure>
+<figure id="attachment_25253" aria-describedby="caption-attachment-25253" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2011/12/SiteBySpecies_800px.png"><img loading="lazy" class="size-full wp-image-25253 " title="Sites By Species CSV" src="/wp-content/uploads/2011/12/SiteBySpecies_640px.png" alt="Sites By Species CSV" width="640" height="400"></a><figcaption id="caption-attachment-25253" class="wp-caption-text">Example Sites by Species CSV report</figcaption></figure>
 <h2 id="occurrencedensity">Occurrence Density layer</h2>
-<figure id="attachment_25274" aria-describedby="caption-attachment-25274" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2011/12/Occurrence_density_800px.png"><img class="size-full wp-image-25274 " title="Occurrence Density" src="/wp-content/uploads/2011/12/Occurrence_density_640px.png" alt="Occurrence Density" width="640" height="435"></a><figcaption id="caption-attachment-25274" class="wp-caption-text">Example Occurrence Density layer</figcaption></figure>
+<figure id="attachment_25274" aria-describedby="caption-attachment-25274" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2011/12/Occurrence_density_800px.png"><img loading="lazy" class="size-full wp-image-25274 " title="Occurrence Density" src="/wp-content/uploads/2011/12/Occurrence_density_640px.png" alt="Occurrence Density" width="640" height="435"></a><figcaption id="caption-attachment-25274" class="wp-caption-text">Example Occurrence Density layer</figcaption></figure>
 <p>The occurrence density layer is the average number of species (or other taxa) occurrences within each grid cell area based on the moving average window parameters. The colour legend gives the ranges of values for the Occurrence Density layer.</p>
 <p><strong>Note:</strong> Occurrence Density may reflect the survey effort. Occurrence density is generally greater along roads and near sites of higher human population.</p>
 <h2 id="speciesrichness">Species Richness layer</h2>
-<figure id="attachment_25276" aria-describedby="caption-attachment-25276" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2011/12/Species_Richness_800px.png"><img class="size-full wp-image-25276 " title="Species Richness" src="/wp-content/uploads/2011/12/Species_Richness_640px.png" alt="Species Richness" width="640" height="411"></a><figcaption id="caption-attachment-25276" class="wp-caption-text">Example Species Richness layer</figcaption></figure>
+<figure id="attachment_25276" aria-describedby="caption-attachment-25276" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2011/12/Species_Richness_800px.png"><img loading="lazy" class="size-full wp-image-25276 " title="Species Richness" src="/wp-content/uploads/2011/12/Species_Richness_640px.png" alt="Species Richness" width="640" height="411"></a><figcaption id="caption-attachment-25276" class="wp-caption-text">Example Species Richness layer</figcaption></figure>
 <p>This layer shows the average species richness (uniqueness count) in each grid cell area based on the moving window parameters.</p>
 <p>The colour legend gives the ranges of values for the Species Richness layer.</p>
 
@@ -370,9 +388,10 @@ Choose an area to apply the species to grid process. You can <a title="Areas (Ad
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -508,7 +527,7 @@ Choose an area to apply the species to grid process. You can <a title="Areas (Ad
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -579,12 +598,12 @@ Choose an area to apply the species to grid process. You can <a title="Areas (Ad
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

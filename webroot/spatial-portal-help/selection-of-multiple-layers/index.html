@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -96,8 +83,25 @@ Any set of environmental layers can be uploaded, pasted, or downloaded for later
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -114,7 +118,21 @@ Any set of environmental layers can be uploaded, pasted, or downloaded for later
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -252,35 +270,35 @@ Any set of environmental layers can be uploaded, pasted, or downloaded for later
 <p>Layer Short names are used to select environmental layers in the upload, download, and paste in a set of layers. (They are also used behind the scenes in the layer cookie and the best 5 terrestrial layers).</p>
 <p>To see a list of all the ‘Short name’ (column four) layers, click on the <a href="http://spatial.ala.org.au/layers" target="_blank">layers</a> link in the various dialogue boxes (See <a href="#paste">Example 1</a>, <a href="#pastebox">Example 2</a>).</p>
 <p>A CSV or JSON layers file can be downloaded for later reference.</p>
-<figure id="attachment_26548" aria-describedby="caption-attachment-26548" style="width: 691px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Layers_list_large.png"><img class="size-full wp-image-26547" title="Layers list - see the Short names" src="/wp-content/uploads/2012/01/Layers_list_large.png" alt="Layers list - see the Short names" width="691" height="633"></a><figcaption id="caption-attachment-26548" class="wp-caption-text">Layers list - see the Short names</figcaption></figure>
+<figure id="attachment_26548" aria-describedby="caption-attachment-26548" style="width: 691px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Layers_list_large.png"><img loading="lazy" class="size-full wp-image-26547" title="Layers list - see the Short names" src="/wp-content/uploads/2012/01/Layers_list_large.png" alt="Layers list - see the Short names" width="691" height="633"></a><figcaption id="caption-attachment-26548" class="wp-caption-text">Layers list - see the Short names</figcaption></figure>
 <h2 id="bestfive">Pre-set Five Best Terrestrial Layers</h2>
-<figure id="attachment_26552" aria-describedby="caption-attachment-26552" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_step3_best_lge1.png"><img class="size-full wp-image-26552" title="Best 5 independent terrestrial environmental layers" src="/wp-content/uploads/2012/01/Export_point_sample_step3_best_640px.png" alt="Best 5 independent terrestrial environmental layers" width="640" height="602"></a><figcaption id="caption-attachment-26552" class="wp-caption-text">Best 5 independent terrestrial environmental layers</figcaption></figure>
+<figure id="attachment_26552" aria-describedby="caption-attachment-26552" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_step3_best_lge1.png"><img loading="lazy" class="size-full wp-image-26552" title="Best 5 independent terrestrial environmental layers" src="/wp-content/uploads/2012/01/Export_point_sample_step3_best_640px.png" alt="Best 5 independent terrestrial environmental layers" width="640" height="602"></a><figcaption id="caption-attachment-26552" class="wp-caption-text">Best 5 independent terrestrial environmental layers</figcaption></figure>
 <p>Select the ‘Best 5 layers’ from the pull down list and the layers will be checked. The user can continue to select / deselect layers.</p>
 <h2 id="upload">Import/Upload Short Name Layer Set</h2>
-<figure id="attachment_26587" aria-describedby="caption-attachment-26587" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_paste_set_lge.png"><img class="aligncenter size-full wp-image-26588" title="Upload a text file of comma-delimited 'Short name' environmental layers" src="/wp-content/uploads/2012/01/Export_point_sample_paste_set_640px.png" alt="Upload a text file of comma-delimited 'Short name' environmental layers" width="640" height="600"></a><figcaption id="caption-attachment-26587" class="wp-caption-text">Upload a text file of comma-delimited short name environmental layers</figcaption></figure>
+<figure id="attachment_26587" aria-describedby="caption-attachment-26587" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_paste_set_lge.png"><img loading="lazy" class="aligncenter size-full wp-image-26588" title="Upload a text file of comma-delimited 'Short name' environmental layers" src="/wp-content/uploads/2012/01/Export_point_sample_paste_set_640px.png" alt="Upload a text file of comma-delimited 'Short name' environmental layers" width="640" height="600"></a><figcaption id="caption-attachment-26587" class="wp-caption-text">Upload a text file of comma-delimited short name environmental layers</figcaption></figure>
 <p>Press the ‘Upload set’ button, browse to find the text file, and matching layers will be selected. The user can continue to select / deselect layers.</p>
-<figure id="attachment_26542" aria-describedby="caption-attachment-26542" style="width: 595px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_layers_down1.png"><img class="size-full wp-image-26542" title="Example Upload 'Short name' Layers Set text file" src="/wp-content/uploads/2012/01/Export_point_sample_layers_down1.png" alt="Example Upload 'Short name' Layers Set text file" width="595" height="119"></a><figcaption id="caption-attachment-26542" class="wp-caption-text">Example Upload short name layers set text file</figcaption></figure>
+<figure id="attachment_26542" aria-describedby="caption-attachment-26542" style="width: 595px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_layers_down1.png"><img loading="lazy" class="size-full wp-image-26542" title="Example Upload 'Short name' Layers Set text file" src="/wp-content/uploads/2012/01/Export_point_sample_layers_down1.png" alt="Example Upload 'Short name' Layers Set text file" width="595" height="119"></a><figcaption id="caption-attachment-26542" class="wp-caption-text">Example Upload short name layers set text file</figcaption></figure>
 <p><a href="#selectedlayers">Example selected layers »</a></p>
 <h2 id="paste">Paste in Short Name Layers</h2>
-<figure id="attachment_26587" aria-describedby="caption-attachment-26587" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_paste_set_lge.png"><img class="aligncenter size-full wp-image-26588" title="Paste in your own comma-delimited short name layer text" src="/wp-content/uploads/2012/01/Export_point_sample_paste_set_640px.png" alt="Paste in your own comma-delimited short name layer text" width="640" height="600"></a><figcaption id="caption-attachment-26587" class="wp-caption-text">Paste in your own comma-delimited short name layer text</figcaption></figure>
+<figure id="attachment_26587" aria-describedby="caption-attachment-26587" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_paste_set_lge.png"><img loading="lazy" class="aligncenter size-full wp-image-26588" title="Paste in your own comma-delimited short name layer text" src="/wp-content/uploads/2012/01/Export_point_sample_paste_set_640px.png" alt="Paste in your own comma-delimited short name layer text" width="640" height="600"></a><figcaption id="caption-attachment-26587" class="wp-caption-text">Paste in your own comma-delimited short name layer text</figcaption></figure>
 <p>Select the ‘paste a layer set’ from the pull down list. The ‘Paste in a layer list’ dialogue box comes up.<br>
 <a name="pastebox"></a></p>
-<figure id="attachment_26584" aria-describedby="caption-attachment-26584" style="width: 537px" class="wp-caption aligncenter"><img class="size-full wp-image-26584" title="Paste into the text box a comma-delimited set of layer short names" src="/wp-content/uploads/2012/01/Export_Point_Sample_Step3_paste.png" alt="Paste into the text box a comma-delimited set of layer short names" width="537" height="423"><figcaption id="caption-attachment-26584" class="wp-caption-text">Paste into the text box a comma-delimited set of layer short names</figcaption></figure>
+<figure id="attachment_26584" aria-describedby="caption-attachment-26584" style="width: 537px" class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-26584" title="Paste into the text box a comma-delimited set of layer short names" src="/wp-content/uploads/2012/01/Export_Point_Sample_Step3_paste.png" alt="Paste into the text box a comma-delimited set of layer short names" width="537" height="423"><figcaption id="caption-attachment-26584" class="wp-caption-text">Paste into the text box a comma-delimited set of layer short names</figcaption></figure>
 <p>Press the ‘Next’ button and the layers will be imported. The user can continue to select / deselect layers.<br>
 <a name="selectedlayers"></a></p>
-<figure id="attachment_26582" aria-describedby="caption-attachment-26582" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_paste_large.png"><img class="size-full wp-image-26582" title="Layers selected after pasting in a set of layer short names" src="/wp-content/uploads/2012/01/Export_point_sample_paste_640px.png" alt="Layers selected after pasting in a set of layer short names" width="640" height="604"></a><figcaption id="caption-attachment-26582" class="wp-caption-text">Layers selected after pasting in a set of layer short names</figcaption></figure>
+<figure id="attachment_26582" aria-describedby="caption-attachment-26582" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_paste_large.png"><img loading="lazy" class="size-full wp-image-26582" title="Layers selected after pasting in a set of layer short names" src="/wp-content/uploads/2012/01/Export_point_sample_paste_640px.png" alt="Layers selected after pasting in a set of layer short names" width="640" height="604"></a><figcaption id="caption-attachment-26582" class="wp-caption-text">Layers selected after pasting in a set of layer short names</figcaption></figure>
 <h2 id="search">Add from Search field</h2>
-<figure id="attachment_26628" aria-describedby="caption-attachment-26628" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_add_search_lge.png"><img class="size-full wp-image-26628" title="Select layers by searching in the 'Add from search' field" src="/wp-content/uploads/2012/01/Export_point_sample_add_search_640px.png" alt="Select layers by searching in the 'Add from search' field" width="640" height="599"></a><figcaption id="caption-attachment-26628" class="wp-caption-text">Select layers by searching in the Add from search field</figcaption></figure>
+<figure id="attachment_26628" aria-describedby="caption-attachment-26628" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_add_search_lge.png"><img loading="lazy" class="size-full wp-image-26628" title="Select layers by searching in the 'Add from search' field" src="/wp-content/uploads/2012/01/Export_point_sample_add_search_640px.png" alt="Select layers by searching in the 'Add from search' field" width="640" height="599"></a><figcaption id="caption-attachment-26628" class="wp-caption-text">Select layers by searching in the Add from search field</figcaption></figure>
 <p>The ‘Add from search’ field is an auto-complete select box. Partially typing in the Layer’s name or Short name will reduce the available selection. Click on the desired layer in the pull down list and the layer will be checked.</p>
 <p>The user can continue to select / deselect layers.</p>
 <p><a href="#selectedlayers">Example selected layers »</a></p>
 <h2 id="download">Download a Layer Set</h2>
-<figure id="attachment_26582" aria-describedby="caption-attachment-26582" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_paste_large.png"><img class="size-full wp-image-26582" title="Download a text file set of comma-delimited 'Short name' environmental layers" src="/wp-content/uploads/2012/01/Export_point_sample_paste_640px.png" alt="Download a text file set of comma-delimited 'Short name' environmental layers" width="640" height="604"></a><figcaption id="caption-attachment-26582" class="wp-caption-text">Download a text file set of comma-delimited short name environmental layers</figcaption></figure>
+<figure id="attachment_26582" aria-describedby="caption-attachment-26582" style="width: 640px" class="wp-caption aligncenter"><a href="/wp-content/uploads/2012/01/Export_point_sample_paste_large.png"><img loading="lazy" class="size-full wp-image-26582" title="Download a text file set of comma-delimited 'Short name' environmental layers" src="/wp-content/uploads/2012/01/Export_point_sample_paste_640px.png" alt="Download a text file set of comma-delimited 'Short name' environmental layers" width="640" height="604"></a><figcaption id="caption-attachment-26582" class="wp-caption-text">Download a text file set of comma-delimited short name environmental layers</figcaption></figure>
 <p>Press the ‘Download set’ button to save a text file with a set of comma-delimited ‘Short name’ environmental layers.</p>
-<figure id="attachment_26544" aria-describedby="caption-attachment-26544" style="width: 402px" class="wp-caption aligncenter"><img class="size-full wp-image-26544" title="Download sample layers set" src="/wp-content/uploads/2012/01/Export_point_sample_layers1.png" alt="Download sample layers set" width="402" height="292"><figcaption id="caption-attachment-26544" class="wp-caption-text">Download sample layers set</figcaption></figure>
+<figure id="attachment_26544" aria-describedby="caption-attachment-26544" style="width: 402px" class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-26544" title="Download sample layers set" src="/wp-content/uploads/2012/01/Export_point_sample_layers1.png" alt="Download sample layers set" width="402" height="292"><figcaption id="caption-attachment-26544" class="wp-caption-text">Download sample layers set</figcaption></figure>
 <p>This ‘Short name’ set can be later <a href="#upload">Uploaded</a> to reselect the same set.</p>
 <h2 id="cookie">Choose a Previous Layer Set</h2>
-<figure id="attachment_26298" aria-describedby="caption-attachment-26298" style="width: 640px" class="wp-caption aligncenter"><a href="https://www.ala.org.au/wp-content/uploads/2012/01/Export_Point_Sample_Step31.png"><img class="size-full wp-image-26619" title="My Sampling shows up to 20 of the user’s last layer sets available for reuse" src="/wp-content/uploads/2012/01/Export_Point_Sample_Step3_640px1.png" alt="My Sampling shows up to 20 of the user’s last layer sets available for reuse" width="640" height="598"></a><figcaption id="caption-attachment-26298" class="wp-caption-text">My Sampling shows up to 20 of the user’s last layer sets available for reuse</figcaption></figure>
+<figure id="attachment_26298" aria-describedby="caption-attachment-26298" style="width: 640px" class="wp-caption aligncenter"><a href="https://www.ala.org.au/wp-content/uploads/2012/01/Export_Point_Sample_Step31.png"><img loading="lazy" class="size-full wp-image-26619" title="My Sampling shows up to 20 of the user’s last layer sets available for reuse" src="/wp-content/uploads/2012/01/Export_Point_Sample_Step3_640px1.png" alt="My Sampling shows up to 20 of the user’s last layer sets available for reuse" width="640" height="598"></a><figcaption id="caption-attachment-26298" class="wp-caption-text">My Sampling shows up to 20 of the user’s last layer sets available for reuse</figcaption></figure>
 <p>Select the ‘My Sampling’ set from the pull down list and the layers will be checked. The user can continue to select / deselect layers.</p>
 <p><a href="#selectedlayers">Example selected layers »</a></p>
 
@@ -374,9 +392,10 @@ Any set of environmental layers can be uploaded, pasted, or downloaded for later
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -512,7 +531,7 @@ Any set of environmental layers can be uploaded, pasted, or downloaded for later
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -583,12 +602,12 @@ Any set of environmental layers can be uploaded, pasted, or downloaded for later
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

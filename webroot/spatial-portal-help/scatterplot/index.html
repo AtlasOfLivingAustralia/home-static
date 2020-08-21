@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -95,8 +82,25 @@ The scatterp">
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -113,7 +117,21 @@ The scatterp">
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -238,7 +256,7 @@ The scatterp">
 
 		<p>The scatterplot function links the sampled values of any two environmental variables on a species (or genus etc) with the map. Points on the scatterplot represent the environment found at each occurrence record, as given by the environmental variables of the two axes of the scatterplot.</p>
 <p>The scatterplot (environmental space) and the map (geographic space) are linked. Dragging a rectangle over an area of the scatterplot to enclose occurrence points will highlight the corresponding points on the map. You can also define an active area on the map and have all occurrences within that area highlighted on the scatterplot.</p>
-<p><a href="/wp-content/uploads/2011/10/Scatterplot-1.png"><img class="aligncenter size-full wp-image-26777" title="Scatterplot 1_640" src="/wp-content/uploads/2011/10/Scatterplot-11.png" alt="Scatterplot 1_640" width="640" height="415"><br>
+<p><a href="/wp-content/uploads/2011/10/Scatterplot-1.png"><img loading="lazy" class="aligncenter size-full wp-image-26777" title="Scatterplot 1_640" src="/wp-content/uploads/2011/10/Scatterplot-11.png" alt="Scatterplot 1_640" width="640" height="415"><br>
 </a>The scatterplot allows you to:</p>
 <ul>
 <li>Examine the environmental niche of one or two taxa or taxonomic groups. Using a species as the primary taxa and its genus as the secondary taxa can be highly informative. For example, survey effort for the species may be able to be evaluated. Two similar species can be plotted to see how they may be partitioning the environment.</li>
@@ -254,7 +272,7 @@ The scatterp">
 <li>Identify sub-populations that may adapt best to various climate change scenarios.</li>
 <li>Identify what environmental combinations exist within an area.</li>
 </ul>
-<p><img class="aligncenter size-full wp-image-26778" title="Scatterplot 2" src="/wp-content/uploads/2011/10/Scatterplot-2.png" alt="" width="400" height="259"><br>
+<p><img loading="lazy" class="aligncenter size-full wp-image-26778" title="Scatterplot 2" src="/wp-content/uploads/2011/10/Scatterplot-2.png" alt="" width="400" height="259"><br>
 From the menu option, select ‘Tools’ and then ‘Scatterplot’.</p>
 <h3 id="options">Options</h3>
 <p>The scatterplot requires a minimum of three parameters – a species or taxonomic group and two environmental variables.</p>
@@ -300,31 +318,31 @@ From the menu option, select ‘Tools’ and then ‘Scatterplot’.</p>
 <li>Temperature – annual mean (Bio01).</li>
 <li>Precipitation – annual (Bio12).</li>
 </ul>
-<p style="text-align: center;"><img class="aligncenter" title="ALA Spatial Portal-122" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal-122.png" alt="" width="652" height="346"></p>
-<p style="text-align: center;"><img class="aligncenter" title="ALA Spatial Portal-123" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal-123.png" alt="" width="658" height="359"></p>
-<p style="text-align: center;"><img class="wp-image-20946 aligncenter" title="ALA Spatial Portal" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal.png" alt="" width="665" height="355"></p>
+<p style="text-align: center;"><img loading="lazy" class="aligncenter" title="ALA Spatial Portal-122" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal-122.png" alt="" width="652" height="346"></p>
+<p style="text-align: center;"><img loading="lazy" class="aligncenter" title="ALA Spatial Portal-123" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal-123.png" alt="" width="658" height="359"></p>
+<p style="text-align: center;"><img loading="lazy" class="wp-image-20946 aligncenter" title="ALA Spatial Portal" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal.png" alt="" width="665" height="355"></p>
 <p style="text-align: left;">For <strong>Step 4</strong>, we are now using the general window for any type of environmental/contextual layer selection. If you tick the box next to “<strong>Display possible environments</strong>“, the scatterplot will be shaded (from dark meaning a small area of that environmental combination – to light meaning a large area of that environmental combination) to display what environmental combinations are possible – and not all are, thankfully.</p>
 <p style="text-align: left;">In the context of the scatterplot, it is likely that you will want to use the ‘<strong>Add from search</strong>‘ box and either enter part of the name of the layer or its short name (e.g., Bio01 for “Temperature – annual mean”) and then check the box on the left of the name to select it. Ditto with the second layer. At the bottom of the window, you will see the number of layers selected and this should equal 2 before clicking on the next key (bottom right).</p>
 <p style="text-align: left;">An alternative is to import the names of the two layers from a file – and this can be done from the top dropdown box. The names of the two selected layers can of course also be exported using the ‘Export set’ button at the bottom of the table. You can then re-import the list using the import option from the top dropdown box.</p>
-<figure id="attachment_37390" aria-describedby="caption-attachment-37390" style="width: 670px" class="wp-caption aligncenter"><img class=" wp-image-37390" src="https://www.ala.org.au/app/uploads/2016/11/Capture-2.jpg" alt="Layer selection" width="670" height="578" srcset="https://www-test.ala.org.au/app/uploads/2016/11/Capture-2.jpg 834w,https://www-test.ala.org.au/app/uploads/2016/11/Capture-2-300x259.jpg 300w,https://www-test.ala.org.au/app/uploads/2016/11/Capture-2-768x663.jpg 768w" sizes="(max-width: 670px) 100vw, 670px"><figcaption id="caption-attachment-37390" class="wp-caption-text">Layer selection</figcaption></figure>
-<p style="text-align: center;"><img class="aligncenter" title="ALA Spatial Portal-126" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal-126.png" alt="" width="640" height="347"></p>
-<p style="text-align: center;"><img class="aligncenter" title="ALA Spatial Portal-127" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal-127.png" alt="" width="650" height="345"></p>
+<figure id="attachment_37390" aria-describedby="caption-attachment-37390" style="width: 670px" class="wp-caption aligncenter"><img loading="lazy" class=" wp-image-37390" src="https://www.ala.org.au/app/uploads/2016/11/Capture-2.jpg" alt="Layer selection" width="670" height="578" srcset="https://www-test.ala.org.au/app/uploads/2016/11/Capture-2.jpg 834w,https://www-test.ala.org.au/app/uploads/2016/11/Capture-2-300x259.jpg 300w,https://www-test.ala.org.au/app/uploads/2016/11/Capture-2-768x663.jpg 768w" sizes="(max-width: 670px) 100vw, 670px"><figcaption id="caption-attachment-37390" class="wp-caption-text">Layer selection</figcaption></figure>
+<p style="text-align: center;"><img loading="lazy" class="aligncenter" title="ALA Spatial Portal-126" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal-126.png" alt="" width="640" height="347"></p>
+<p style="text-align: center;"><img loading="lazy" class="aligncenter" title="ALA Spatial Portal-127" src="/wp-content/uploads/2011/04/ALA-Spatial-Portal-127.png" alt="" width="650" height="345"></p>
 <p>Once you have entered the name of the primary taxa (<em>Eucalyptus camaldulensis</em>), the (primary) occurrences are mapped.</p>
-<p><a href="/wp-content/uploads/2011/10/Scatterplot-32.png"><img class="aligncenter size-full wp-image-26783" title="Scatterplot 3_640" src="/wp-content/uploads/2011/10/Scatterplot-33.png" alt="Scatterplot 3_640" width="640" height="425"></a></p>
+<p><a href="/wp-content/uploads/2011/10/Scatterplot-32.png"><img loading="lazy" class="aligncenter size-full wp-image-26783" title="Scatterplot 3_640" src="/wp-content/uploads/2011/10/Scatterplot-33.png" alt="Scatterplot 3_640" width="640" height="425"></a></p>
 <p>The background taxa group is the genus <em>Eucalyptus</em>. This gives us a good indication of what environments the genus covers and what portion of that environment is covered by <em>E. camaldulensis</em>. These occurrences are only mapped on the scatterplot in orange in the background. The <em>E. camaldulensis</em> is shown by blue points. If the highlight records <a href="#highlightactive">in the active area</a> was selected, then those records would be ringed with a red circle.</p>
 <p>In the worked example, we will use temperature (Temperature – annual mean (Bio01)) and precipitation (Precipitation – annual (Bio12)) as the two environmental variables to define the environment. Once these two variables have been added, the scatterplot is generated. As there is a large number of occurrences (<em>Eucalyptus</em> has over 240,000 records), processing can take up to a minute or so. The distribution of <em>Eucalyptus</em> (orange dots) covers a significant portion of the scatterplot, thereby indicating that the genus can handle a wide range of temperature and rainfall conditions. The majority of the distribution is below 2,500mm rainfall, with two higher rainfall extensions at low and high temperature. To learn more about the environment used by the genus, make it the primary taxa.</p>
 <p><em>Eucalyptus camaldulensis</em> is located toward the bottom of the scatterplot distribution and clearly follows the outline of the genus ‘envelope’ on the low precipitation end, but over a broad range of temperature. This suggests that <em>E. camaldulensis</em> is stereotypic of low rainfall adapted eucalyptus. However, it covers mean annual temperatures from 12°C to nearly 30°C – a very impressive range!</p>
-<p><img class="aligncenter size-full wp-image-26784" title="Scatterplot 4" src="/wp-content/uploads/2011/10/Scatterplot-4.png" alt="" width="366" height="362"></p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-26784" title="Scatterplot 4" src="/wp-content/uploads/2011/10/Scatterplot-4.png" alt="" width="366" height="362"></p>
 <p>Let’s look at some of the outliers to see where they occur. First, the low temperature end. Drag a rectangle over the lower end occurrences on the scatterplot. This highlights the corresponding points on the map, near Cressy in Tasmania and Macedon in Victoria. The former is low altitude, but further south than the higher altitude Macedon.<br>
-<a href="/wp-content/uploads/2011/10/Scatterplot-5.png"><img class="aligncenter wp-image-26786" title="Scatterplot 5_640" src="/wp-content/uploads/2011/10/Scatterplot-51.png" alt="Scatterplot 5_640" width="640" height="427"></a></p>
+<a href="/wp-content/uploads/2011/10/Scatterplot-5.png"><img loading="lazy" class="aligncenter wp-image-26786" title="Scatterplot 5_640" src="/wp-content/uploads/2011/10/Scatterplot-51.png" alt="Scatterplot 5_640" width="640" height="427"></a></p>
 <p>Let’s do the same at the high temperature end to see where these occurrences are located. Drag the rectangle on the scatterplot and then examine the highlighted occurrences on the map. Not unexpectedly – the high temperature occurrences are found in the extreme north of Australia.</p>
-<p><a href="/wp-content/uploads/2011/10/Scatterplot-6.png"><img class="aligncenter wp-image-26790" title="Scatterplot 6_640" src="/wp-content/uploads/2011/10/Scatterplot-61.png" alt="Scatterplot 6_640" width="640" height="427"></a></p>
+<p><a href="/wp-content/uploads/2011/10/Scatterplot-6.png"><img loading="lazy" class="aligncenter wp-image-26790" title="Scatterplot 6_640" src="/wp-content/uploads/2011/10/Scatterplot-61.png" alt="Scatterplot 6_640" width="640" height="427"></a></p>
 <p>Note that the range of temperature and rainfall values of the rectangle are listed above the scatterplot. In this case, a mean annual temperature range of 25.6130°C to 28.0974°C and rainfall between 285.996mm and 485.908mm. Also note that there are 20 records selected</p>
-<p><img class="aligncenter size-full wp-image-26792" title="Scatterplot 7" src="/wp-content/uploads/2011/10/Scatterplot-7.png" alt="" width="385" height="200"></p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-26792" title="Scatterplot 7" src="/wp-content/uploads/2011/10/Scatterplot-7.png" alt="" width="385" height="200"></p>
 <p>The selected occurrences could be used to create two new mapped layers – an ‘IN-group’ containing only those 20 occurrences and an ‘OUT-group’ containing all the rest. This option can be useful for filtering/separating out a subset of occurrences for further analysis in say the <a href="/spatial-portal-help/prediction-tools/">spatial prediction</a> model. Also note that there are 73 occurrences that have one or two missing environmental values of temperature or rainfall. If an IN/OUT groups are created these occurrences are added to the OUT-group by default. If you click the checkbox saying ‘Select records with missing values’, then the corresponding occurrences will be highlighted on the map and added to the IN-group. In all cases, these occurrences are located off the terrestrial temperature and rainfall surfaces; they occur in the ocean. This may be due to the resolution of the surfaces or of the coastline or just inaccurate occurrence locations.</p>
-<p><a href="/wp-content/uploads/2011/10/Scatterplot-8.png"><img class="aligncenter wp-image-26794" title="Scatterplot 8_640" src="/wp-content/uploads/2011/10/Scatterplot-81.png" alt="Scatterplot 8_640" width="640" height="432"></a></p>
+<p><a href="/wp-content/uploads/2011/10/Scatterplot-8.png"><img loading="lazy" class="aligncenter wp-image-26794" title="Scatterplot 8_640" src="/wp-content/uploads/2011/10/Scatterplot-81.png" alt="Scatterplot 8_640" width="640" height="432"></a></p>
 <p>Next, let’s consider why <em>E. camaldulensis</em> doesn’t occur in a few environments on the scatterplot.</p>
-<p><img class="aligncenter size-full wp-image-26795" title="Scatterplot 4" src="/wp-content/uploads/2011/10/Scatterplot-41.png" alt="" width="366" height="362"></p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-26795" title="Scatterplot 4" src="/wp-content/uploads/2011/10/Scatterplot-41.png" alt="" width="366" height="362"></p>
 <p>There is a hole in the distribution of <em>E. camaldulensis</em> at around 25°C and 600mm that is filled by other eucalypt species (shown by the orange <em>Eucalyptus</em> background points) so that environment exists in nature. But why are there no occurrences here? There are at least four possibilities:</p>
 <ol>
 <li><em>E. camaldulensis</em> may not be able to survive in that environment. This is possible here but unlikely.</li>
@@ -430,9 +448,10 @@ From the menu option, select ‘Tools’ and then ‘Scatterplot’.</p>
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -568,7 +587,7 @@ From the menu option, select ‘Tools’ and then ‘Scatterplot’.</p>
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -639,12 +658,12 @@ From the menu option, select ‘Tools’ and then ‘Scatterplot’.</p>
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

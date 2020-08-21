@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -99,8 +86,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -117,7 +121,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -240,11 +258,11 @@
 	<div class="entry-excerpt">  The Koala is one of the most recognizable and celebrated species in Australian fauna, inhabiting Eucalyptus woodlands and forests through out eastern Australia: from the SE South Australia across Victoria, Eastern NSW, and SE QLD. Koalas are one of the few Australian species that feed exclusively on Eucalyptus leaves and are partial to only a few gum tree species (not a […]</div>
 	<div class="entry-content">
 
-		<figure id="attachment_35365" aria-describedby="caption-attachment-35365" style="width: 2048px" class="wp-caption aligncenter"><img class="size-full wp-image-35365" src="https://www.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1.jpg" alt="Photo: Scott Mills via iNaturalist License: CC-BY-SA 3.0" width="2048" height="1466" srcset="https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1.jpg 2048w,https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1-300x215.jpg 300w,https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1-768x550.jpg 768w,https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1-1024x733.jpg 1024w,https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1-1920x1374.jpg 1920w" sizes="(max-width: 2048px) 100vw, 2048px"><figcaption id="caption-attachment-35365" class="wp-caption-text">Photo: Scott Mills via iNaturalist License: CC-BY-SA 3.0</figcaption></figure>
+		<figure id="attachment_35365" aria-describedby="caption-attachment-35365" style="width: 2048px" class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-35365" src="https://www.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1.jpg" alt="Photo: Scott Mills via iNaturalist License: CC-BY-SA 3.0" width="2048" height="1466" srcset="https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1.jpg 2048w,https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1-300x215.jpg 300w,https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1-768x550.jpg 768w,https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1-1024x733.jpg 1024w,https://www-test.ala.org.au/app/uploads/2015/11/4b479173-6361-4274-9915-ad892c3a91cf-1-1920x1374.jpg 1920w" sizes="(max-width: 2048px) 100vw, 2048px"><figcaption id="caption-attachment-35365" class="wp-caption-text">Photo: Scott Mills via iNaturalist License: CC-BY-SA 3.0</figcaption></figure>
 <p> </p>
 <p>The <a href="http://bie.ala.org.au/species/Phascolarctos+cinereus" target="_blank">Koala</a> is one of the most recognizable and celebrated species in Australian fauna, inhabiting Eucalyptus woodlands and forests through out eastern Australia: from the SE South Australia across Victoria, Eastern NSW, and SE QLD. Koalas are one of the few Australian species that feed exclusively on Eucalyptus leaves and are partial to only a few gum tree species (not a highly nutritious or energy rich diet, hence all the sleeping!). The iconic Koala is celebrated in popular culture and are on the must-see list for almost every international tourist visiting Australia.</p>
 <p> </p>
-<figure id="attachment_35278" aria-describedby="caption-attachment-35278" style="width: 1000px" class="wp-caption aligncenter"><img class="size-full wp-image-35278" src="https://www.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1.jpg" alt="T-Swizzle, Oprah, Obama, Camilla, Harry Styles, Putin, MJ, and Mariah... Celebrities and dignitaries always ensure they get a Koala cuddle when visiting. (Images via Buzzfeed)" width="1000" height="1000" srcset="https://www-test.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1.jpg 1000w,https://www-test.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1-150x150.jpg 150w,https://www-test.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1-300x300.jpg 300w,https://www-test.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1-768x768.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px"><figcaption id="caption-attachment-35278" class="wp-caption-text">Celebrities and dignitaries always ensure they squeeze in a Koala cuddle when visiting. (Images sourced via <a href="http://www.buzzfeed.com/lindsays21/8-pictures-of-how-celebrities-made-holding-koalas-b8ii" target="_blank">Buzzfeed</a>)</figcaption></figure>
+<figure id="attachment_35278" aria-describedby="caption-attachment-35278" style="width: 1000px" class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-35278" src="https://www.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1.jpg" alt="T-Swizzle, Oprah, Obama, Camilla, Harry Styles, Putin, MJ, and Mariah... Celebrities and dignitaries always ensure they get a Koala cuddle when visiting. (Images via Buzzfeed)" width="1000" height="1000" srcset="https://www-test.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1.jpg 1000w,https://www-test.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1-150x150.jpg 150w,https://www-test.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1-300x300.jpg 300w,https://www-test.ala.org.au/app/uploads/2015/10/Celebs-Holding-Koalas-1-768x768.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px"><figcaption id="caption-attachment-35278" class="wp-caption-text">Celebrities and dignitaries always ensure they squeeze in a Koala cuddle when visiting. (Images sourced via <a href="http://www.buzzfeed.com/lindsays21/8-pictures-of-how-celebrities-made-holding-koalas-b8ii" target="_blank">Buzzfeed</a>)</figcaption></figure>
 <p> </p>
 <p>Unfortunately, Koala populations are being threatened by a number of factors including habitat loss (urban development, fire, and drought) and disease, including a highly infectious <a href="http://www.bbc.com/news/magazine-22207442" target="_blank">strain of </a><em><a href="http://www.bbc.com/news/magazine-22207442" target="_blank">Chlamydia</a>;</em> a sexually transmitted disease which can presents symptoms such as conjunctivitis and genital infections, causing individuals to be weak and vulnerable to other threats (predation, malnutrition, fire, etc.).</p>
 <p>Across the Koala range of Australia; conservation groups, ecologists, wildlife organisations, national parks, and government departments are engaging in programs and methods to monitor, protect, and ensure Koalas continue to exist.</p>
@@ -273,7 +291,7 @@
 <h3 data-bind="text:name" id="friends-of-the-koala-volunteers-conserving-northern-rivers-koalas"><span style="color: #ff6600;"><strong>Friends of the Koala – Volunteers conserving northern rivers koalas </strong></span></h3>
 <p data-bind="text:name"><strong>Friends of the Koala Inc. (QLD)</strong></p>
 <p data-bind="text:name">Seen a Koala in the Northern Rivers region of Queensland? The <a href="https://web.archive.org/web/20161012040115/http://www.friendsofthekoala.org:80/wp/?" target="_blank">Friends of the Koala Inc.</a> group are always keen to receive a sighting, which can be registered <a href="https://web.archive.org/web/20160119005347/http://www.friendsofthekoala.org:80/wp/?page_id=80" target="_blank">here</a>.</p>
-<figure id="attachment_35360" aria-describedby="caption-attachment-35360" style="width: 1024px" class="wp-caption aligncenter"><img class="size-full wp-image-35360" src="https://www.ala.org.au/app/uploads/2015/11/David-Iliff-Koala_climbing_tree-1.jpg" alt="Koala Phascolarctos cinereus. Photo: David Iliff License: CC-BY-SA 3.0" width="1024" height="1007" srcset="https://www-test.ala.org.au/app/uploads/2015/11/David-Iliff-Koala_climbing_tree-1.jpg 1024w,https://www-test.ala.org.au/app/uploads/2015/11/David-Iliff-Koala_climbing_tree-1-300x295.jpg 300w,https://www-test.ala.org.au/app/uploads/2015/11/David-Iliff-Koala_climbing_tree-1-768x755.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption id="caption-attachment-35360" class="wp-caption-text">Koala <em>Phascolarctos cinereus</em>. Photo: David Iliff License: CC-BY-SA 3.0</figcaption></figure>
+<figure id="attachment_35360" aria-describedby="caption-attachment-35360" style="width: 1024px" class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-35360" src="https://www.ala.org.au/app/uploads/2015/11/David-Iliff-Koala_climbing_tree-1.jpg" alt="Koala Phascolarctos cinereus. Photo: David Iliff License: CC-BY-SA 3.0" width="1024" height="1007" srcset="https://www-test.ala.org.au/app/uploads/2015/11/David-Iliff-Koala_climbing_tree-1.jpg 1024w,https://www-test.ala.org.au/app/uploads/2015/11/David-Iliff-Koala_climbing_tree-1-300x295.jpg 300w,https://www-test.ala.org.au/app/uploads/2015/11/David-Iliff-Koala_climbing_tree-1-768x755.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px"><figcaption id="caption-attachment-35360" class="wp-caption-text">Koala <em>Phascolarctos cinereus</em>. Photo: David Iliff License: CC-BY-SA 3.0</figcaption></figure>
 <p data-bind="text:name">Of course, you don’t need to limit Koala-spotting and reporting activities to certain times of the year or programs – you can <a href="http://www.ala.org.au/get-involved/" target="_blank">upload a sighting to the Atlas of Living Australia directly</a> or you can <a href="https://www.ala.org.au/get-involved/citizen-science/" target="_blank">search for a wide range of bioblitz and citizen science projects</a> on our website too.</p>
 
 		
@@ -366,9 +384,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -504,7 +523,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -575,12 +594,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

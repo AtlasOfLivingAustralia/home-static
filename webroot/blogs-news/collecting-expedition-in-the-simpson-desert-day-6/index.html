@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -102,8 +89,25 @@ Magnificent weather continuing – not a cloud in the sky at sunset.">
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -120,7 +124,21 @@ Magnificent weather continuing – not a cloud in the sky at sunset.">
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -243,12 +261,12 @@ Magnificent weather continuing – not a cloud in the sky at sunset.">
 	
 	<div class="entry-content">
 
-		<p><a title="Day 6 - Photo 17: Christie and Sean lead the camels by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912138216/"><img class="alignright" src="http://farm7.static.flickr.com/6049/5912138216_d26f86435a_m.jpg" alt="Day 6 - Photo 17: Christie and Sean lead the camels" width="240" height="180"></a> Camp Day 6 (July 7th). Lat -23 .83292. Long 138.55421. Elev 91m. Time 6.36 pm.<br>
+		<p><a title="Day 6 - Photo 17: Christie and Sean lead the camels by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912138216/"><img loading="lazy" class="alignright" src="http://farm7.static.flickr.com/6049/5912138216_d26f86435a_m.jpg" alt="Day 6 - Photo 17: Christie and Sean lead the camels" width="240" height="180"></a> Camp Day 6 (July 7th). Lat -23 .83292. Long 138.55421. Elev 91m. Time 6.36 pm.<br>
 <cite>By Paul Flemons, Australian Museum</cite></p>
 <p><strong>Tip:</strong> Hover mouse over photo to see the caption. Click on photos to see different sizes and/or make a comment on Flickr.</p>
 <p>Magnificent weather continuing – not a cloud in the sky at sunset. Very light breeze. Day was warm and excellent for walking.  The clear skies will ensure another cold night tonight. Long walking day today – about 9km over undulating terrain covered predominantly in spinifex and saltbush made for rugged walking with occasional respite afforded by dry and not so dry claypans. Once again we have chosen to camp on a dry claypan as it suits the camels for loading and unloading.</p>
 <p>The Zebra finches are clearly doing well after the rain and flush of growth – they are by far and away the most dominant bird species. Today we saw a family group – the young birds identifiable by their dark bills, compared to the bright orange of their parents. We were attracted to them by their begging calls and watched them being fed by their attentive parents. Several members of the group are interested in the array of tracks on the sand dunes and we spend some of our time debating over fox, dog and cat tracks, the amazing “highways” of rodent tracks and unusual slide marks that could be snake, lizard or tail marks. Bustard tracks were found today, characterised by the three toe print, and dragging nail marks. Later in the afternoon we flushed a Bustard from the Gidgee scrub which caused excitement and wonderment in the group.</p>
-<p><a title="Day 6 - Photo 24: Paul and Istan by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911580685/"><img class="alignleft" src="http://farm6.static.flickr.com/5077/5911580685_bd2570b00c_m.jpg" alt="Day 6 - Photo 24: Paul and Istan" width="240" height="180"></a> The camels have settled in to their work on the trek. The first few days were trying for the cameleers, who had to work very hard to lead the “strings” of 19 camels through the desert. It was also a steep learning curve for us, learning to help load and unload the camels and fit them into their saddles each day. We’re all getting into the groove now and the morning loading is smooth and efficient, for both people and camels! The afternoon unloading is pleasant and relaxing, with ample opportunity for rubbing down our “favourite” camels and giving them cuddles. The camels are very vocal and we can tell they enjoy their afternoon hugs as they sigh and in some cases, lie their head right down on the ground.</p>
+<p><a title="Day 6 - Photo 24: Paul and Istan by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911580685/"><img loading="lazy" class="alignleft" src="http://farm6.static.flickr.com/5077/5911580685_bd2570b00c_m.jpg" alt="Day 6 - Photo 24: Paul and Istan" width="240" height="180"></a> The camels have settled in to their work on the trek. The first few days were trying for the cameleers, who had to work very hard to lead the “strings” of 19 camels through the desert. It was also a steep learning curve for us, learning to help load and unload the camels and fit them into their saddles each day. We’re all getting into the groove now and the morning loading is smooth and efficient, for both people and camels! The afternoon unloading is pleasant and relaxing, with ample opportunity for rubbing down our “favourite” camels and giving them cuddles. The camels are very vocal and we can tell they enjoy their afternoon hugs as they sigh and in some cases, lie their head right down on the ground.</p>
 <h2 id="highlights-of-the-day">Highlights of the day</h2>
 <p><strong>Birds</strong>: White Backed Swallow, Rufous Crowned Emu Wren, White Winged Triller, White Backed Swallow, Australian Bustard, Chirruping Wedgebill, Australian Hobby.<br>
 <strong>Reptiles</strong>: Central Military Dragon</p>
@@ -259,7 +277,7 @@ Magnificent weather continuing – not a cloud in the sky at sunset.">
 <li>Simpson Desert full of life on camel trek Day 3. <a href="/atlas-blog/simpson-desert-full-of-life-on-camel-trek-day-3/">Story »</a></li>
 <li>Follow camel trek collecting animals in the Simpson Desert, F.W. Qld. <a href="/atlas-blog/collecting-expedition-by-camel-trek-in-the-simpson-desert-far-west-queensland/">Story »</a></li>
 </ul>
-<p><a title="Day 6 - Photo 20: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912137404/"><img src="http://farm7.static.flickr.com/6047/5912137404_bd0570b11f_m.jpg" alt="Day 6 - Photo 20: Identification please" width="240" height="180"></a> <a title="Day 6 - Photo 11: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912137756/"><img src="http://farm7.static.flickr.com/6050/5912137756_95e2992a20_m.jpg" alt="Day 6 - Photo 11: Identification please" width="240" height="171"></a> <a title="Day 6 - Photo 19: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911579205/"><img src="http://farm7.static.flickr.com/6053/5911579205_7723119ac6_m.jpg" alt="Day 6 - Photo 19: Identification please" width="240" height="180"></a> <a title="Day 6 - Photo 9: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911578453/"><img src="http://farm7.static.flickr.com/6015/5911578453_fba965a460_m.jpg" alt="Day 6 - Photo 9: Identification please" width="240" height="152"></a> <a title="Day 6 - Photo 16: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911578891/"><img src="http://farm6.static.flickr.com/5315/5911578891_2cf524eb3a_m.jpg" alt="Day 6 - Photo 16: Identification please" width="240" height="180"></a> <a title="Day 6 - Photo 28: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911579411/"><img src="http://farm6.static.flickr.com/5071/5911579411_fa9789ee64_m.jpg" alt="Day 6 - Photo 28: Identification please" width="240" height="160"></a> <a title="Day 6 - Photo 23: Beth and camel by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911580499/"><img src="http://farm7.static.flickr.com/6017/5911580499_ec38af7549_m.jpg" alt="Day 6 - Photo 23: Beth and camel" width="180" height="240"></a> <a href="http://www.flickr.com/photos/atlasoflivingaustralia/5912138318/" title="Day 6 - Photo 18: Beth and camels by Atlas of Living Australia, on Flickr"><img src="http://farm7.static.flickr.com/6019/5912138318_4803125c36_m.jpg" width="240" height="180" alt="Day 6 - Photo 18: Beth and camels"></a> <a title="Day 6 - Photo 22: Bustard tracks by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911579929/"><img src="http://farm7.static.flickr.com/6033/5911579929_797c7d18f0_m.jpg" alt="Day 6 - Photo 22: Bustard tracks" width="180" height="240"></a> <a title="Day 6 - Photo 15: Drying claypan between dunes by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912137970/"><img src="http://farm7.static.flickr.com/6054/5912137970_ceb9c223e0_m.jpg" alt="Day 6 - Photo 15: Drying claypan between dunes" width="240" height="180"></a> <a title="Day 6 - Photo 13: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911578595/"><img src="http://farm7.static.flickr.com/6038/5911578595_077b169df9_m.jpg" alt="Day 6 - Photo 13: Identification please" width="240" height="160"></a> <a title="Day 6 - Photo 21: Lunch break by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912138570/"><img src="http://farm6.static.flickr.com/5277/5912138570_7663343b9e_m.jpg" alt="Day 6 - Photo 21: Lunch break" width="240" height="152"></a>   <a title="Day 6 - Photo 26: Sleeping quarters by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911581331/"><img src="http://farm6.static.flickr.com/5271/5911581331_eaaaf2cb60_m.jpg" alt="Day 6 - Photo 26: Sleeping quarters" width="240" height="180"></a> <a title="Day 6 - Photo 25: Yeehaa! by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911580819/"><img src="http://farm7.static.flickr.com/6027/5911580819_8ed5fc1c61_m.jpg" alt="Day 6 - Photo 25: Yeehaa!" width="240" height="180"></a><a href="http://www.flickr.com/photos/atlasoflivingaustralia/5911581409/" title="Day 6 - Photo 27: Identification please by Atlas of Living Australia, on Flickr"><img src="http://farm7.static.flickr.com/6007/5911581409_e0c750de6d_m.jpg" width="240" height="160" alt="Day 6 - Photo 27: Identification please"></a> <a title="Day 6 - Photo 8: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911577825/"><img src="http://farm6.static.flickr.com/5272/5911577825_c3196117ef_m.jpg" alt="Day 6 - Photo 8: Identification please" width="240" height="118"></a></p>
+<p><a title="Day 6 - Photo 20: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912137404/"><img loading="lazy" src="http://farm7.static.flickr.com/6047/5912137404_bd0570b11f_m.jpg" alt="Day 6 - Photo 20: Identification please" width="240" height="180"></a> <a title="Day 6 - Photo 11: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912137756/"><img loading="lazy" src="http://farm7.static.flickr.com/6050/5912137756_95e2992a20_m.jpg" alt="Day 6 - Photo 11: Identification please" width="240" height="171"></a> <a title="Day 6 - Photo 19: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911579205/"><img loading="lazy" src="http://farm7.static.flickr.com/6053/5911579205_7723119ac6_m.jpg" alt="Day 6 - Photo 19: Identification please" width="240" height="180"></a> <a title="Day 6 - Photo 9: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911578453/"><img loading="lazy" src="http://farm7.static.flickr.com/6015/5911578453_fba965a460_m.jpg" alt="Day 6 - Photo 9: Identification please" width="240" height="152"></a> <a title="Day 6 - Photo 16: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911578891/"><img loading="lazy" src="http://farm6.static.flickr.com/5315/5911578891_2cf524eb3a_m.jpg" alt="Day 6 - Photo 16: Identification please" width="240" height="180"></a> <a title="Day 6 - Photo 28: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911579411/"><img loading="lazy" src="http://farm6.static.flickr.com/5071/5911579411_fa9789ee64_m.jpg" alt="Day 6 - Photo 28: Identification please" width="240" height="160"></a> <a title="Day 6 - Photo 23: Beth and camel by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911580499/"><img loading="lazy" src="http://farm7.static.flickr.com/6017/5911580499_ec38af7549_m.jpg" alt="Day 6 - Photo 23: Beth and camel" width="180" height="240"></a> <a href="http://www.flickr.com/photos/atlasoflivingaustralia/5912138318/" title="Day 6 - Photo 18: Beth and camels by Atlas of Living Australia, on Flickr"><img loading="lazy" src="http://farm7.static.flickr.com/6019/5912138318_4803125c36_m.jpg" width="240" height="180" alt="Day 6 - Photo 18: Beth and camels"></a> <a title="Day 6 - Photo 22: Bustard tracks by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911579929/"><img loading="lazy" src="http://farm7.static.flickr.com/6033/5911579929_797c7d18f0_m.jpg" alt="Day 6 - Photo 22: Bustard tracks" width="180" height="240"></a> <a title="Day 6 - Photo 15: Drying claypan between dunes by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912137970/"><img loading="lazy" src="http://farm7.static.flickr.com/6054/5912137970_ceb9c223e0_m.jpg" alt="Day 6 - Photo 15: Drying claypan between dunes" width="240" height="180"></a> <a title="Day 6 - Photo 13: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911578595/"><img loading="lazy" src="http://farm7.static.flickr.com/6038/5911578595_077b169df9_m.jpg" alt="Day 6 - Photo 13: Identification please" width="240" height="160"></a> <a title="Day 6 - Photo 21: Lunch break by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5912138570/"><img loading="lazy" src="http://farm6.static.flickr.com/5277/5912138570_7663343b9e_m.jpg" alt="Day 6 - Photo 21: Lunch break" width="240" height="152"></a>   <a title="Day 6 - Photo 26: Sleeping quarters by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911581331/"><img loading="lazy" src="http://farm6.static.flickr.com/5271/5911581331_eaaaf2cb60_m.jpg" alt="Day 6 - Photo 26: Sleeping quarters" width="240" height="180"></a> <a title="Day 6 - Photo 25: Yeehaa! by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911580819/"><img loading="lazy" src="http://farm7.static.flickr.com/6027/5911580819_8ed5fc1c61_m.jpg" alt="Day 6 - Photo 25: Yeehaa!" width="240" height="180"></a><a href="http://www.flickr.com/photos/atlasoflivingaustralia/5911581409/" title="Day 6 - Photo 27: Identification please by Atlas of Living Australia, on Flickr"><img loading="lazy" src="http://farm7.static.flickr.com/6007/5911581409_e0c750de6d_m.jpg" width="240" height="160" alt="Day 6 - Photo 27: Identification please"></a> <a title="Day 6 - Photo 8: Identification please by Atlas of Living Australia, on Flickr" href="http://www.flickr.com/photos/atlasoflivingaustralia/5911577825/"><img loading="lazy" src="http://farm6.static.flickr.com/5272/5911577825_c3196117ef_m.jpg" alt="Day 6 - Photo 8: Identification please" width="240" height="118"></a></p>
 
 		
 	</div>
@@ -351,9 +369,10 @@ Magnificent weather continuing – not a cloud in the sky at sunset.">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -489,7 +508,7 @@ Magnificent weather continuing – not a cloud in the sky at sunset.">
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -560,12 +579,12 @@ Magnificent weather continuing – not a cloud in the sky at sunset.">
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

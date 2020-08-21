@@ -11,15 +11,14 @@
 <link rel="dns-prefetch" href="//s.w.org">
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,19 +27,7 @@
 
 
 
-
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	<meta name="mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
 <link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
@@ -96,8 +83,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -114,7 +118,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -243,10 +261,10 @@
 <p>To celebrate the theme for this year’s NAIDOC week – Because of Her, We Can! – we have included three stories that highlight the IEK work undertaken in the ALA, and which have Indigenous women as the driving force.</p>
 <p><b>Cherry Daniels, cultural adviser for the east Arnhem Land work</b><strong> </strong></p>
 <p>Cherry Wulumirr Daniels OAM, other Elders, Rangers and young people of the SE Arnhem Land and Laynhapuy Indigenous Protected Areas in eastern Arnhem Land are working with Emilie Ens and Ben Kitchener, ecologists from Macquarie University, to document species and share traditional Aboriginal names and stories of plants and animals with other Australians.</p>
-<figure id="attachment_39594" aria-describedby="caption-attachment-39594" style="width: 402px" class="wp-caption alignnone"><img src="http://www.ala.org.au/wp-content/uploads/2018/07/naidocimage2-300x200.jpg" alt="Cherry Daniels inspiring women rangers and young people of east Arnhem Land" class=" wp-image-39594" width="402" height="268"><figcaption id="caption-attachment-39594" class="wp-caption-text">Cherry Daniels inspiring women rangers and young people of east Arnhem Land</figcaption></figure>
+<figure id="attachment_39594" aria-describedby="caption-attachment-39594" style="width: 402px" class="wp-caption alignnone"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/07/naidocimage2-300x200.jpg" alt="Cherry Daniels inspiring women rangers and young people of east Arnhem Land" class=" wp-image-39594" width="402" height="268"><figcaption id="caption-attachment-39594" class="wp-caption-text">Cherry Daniels inspiring women rangers and young people of east Arnhem Land</figcaption></figure>
 <p>Under Cherry’s guidance, Ngukurr community from SE Arnhem Land have been working on a cross-cultural field guide of 275 plant and animal species that includes Western and local Indigenous scientific knowledge. They are currently transforming this book into an online version through a private webpage of the ALA that can be used by community members and the local schools to learn more about local species, cultural knowledge and threats. The team is also providing a two-way Indigenous engagement case study to encourage more Indigenous content and, importantly, feedback loops to make the ALA more relevant and useful for Indigenous people.</p>
 <p>Cherry has guided this project and its evolution over 10 years. Cherry is a 73 year old Ngandi woman who lives in Ngukurr community in the NT. She works tirelessly to inspire all people, especially young people and women in her community, to care for their country, culture and languages. Her strong knowledge of how the land was prior to recent threats from invasive species, wildfire and climate change, combined with her rare cultural knowledge make her a treasure of not only her community but all of Australia, as recognised by an OAM in 2016. As part of her work, she has mentored many other Aboriginal women to fill her large shoes, including women from the Yugul Mangi Rangers, Julie Roy, Edna Nelson and Maritza Roberts, as well as young people from the Ngukurr Yangabla (Young People) Project, including Karis Robertson, Sandra Blitner and Melissa Wurramarrba. Melissa was a finalist in the NT Young Achievers Awards 2018 and is currently studying at Macquarie University in Sydney, alongside Cherry’s grandson Ernest Junya Daniels.  </p>
-<figure id="attachment_39593" aria-describedby="caption-attachment-39593" style="width: 407px" class="wp-caption alignnone"><img src="http://www.ala.org.au/wp-content/uploads/2018/07/naidocimage1-300x200.jpg" alt="Cherry Daniels passing on knowledge to women rangers and young people of east Arnhem Land" class=" wp-image-39593" width="407" height="271"><figcaption id="caption-attachment-39593" class="wp-caption-text">Cherry Daniels passing on knowledge to women rangers and young people of east Arnhem Land</figcaption></figure>
+<figure id="attachment_39593" aria-describedby="caption-attachment-39593" style="width: 407px" class="wp-caption alignnone"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/07/naidocimage1-300x200.jpg" alt="Cherry Daniels passing on knowledge to women rangers and young people of east Arnhem Land" class=" wp-image-39593" width="407" height="271"><figcaption id="caption-attachment-39593" class="wp-caption-text">Cherry Daniels passing on knowledge to women rangers and young people of east Arnhem Land</figcaption></figure>
 <p>For more information on Cherry read <a href="http://www.abc.net.au/news/science/2016-07-07/way-of-the-water-lilies-where-science-meets-the-billabong/7571206">Way of the water lilies: Where science meets the billabong</a></p>
 <p><strong>Development of the seasonal calendar platform</strong></p>
 <p>Emma Woodward (CSIRO/ALA) is working with traditional owners from three regions of Australia to develop and test an interactive seasonal calendar platform. Indigenous women are driving each of these research engagements.  </p>
@@ -254,7 +272,7 @@
 <p>The development of the digital seasonal calendar platform has been informed by previous work driven by Gulumoerrgin (Larrakia) traditional owner Lorraine Williams. You can view the interactive online seasonal calendar here: <a href="http://www.larrakia.csiro.au/#/calendar/dinidjanggama"></a><a href="http://www.larrakia.csiro.au/#/calendar/dinidjanggama">http://www.larrakia.csiro.au/#/calendar/dinidjanggama</a></p>
 <p><b>Josephine Grant, ranger coordinator from the Central Land Council, and adviser on The Tracks App project</b></p>
 <p>The Tracks App is a data collection system designed to be used by Aboriginal rangers to record animal signs, such as tracks, scats, diggings and burrows, identified using traditional tracking techniques.</p>
-<figure id="attachment_39595" aria-describedby="caption-attachment-39595" style="width: 300px" class="wp-caption alignnone"><img src="http://www.ala.org.au/wp-content/uploads/2018/07/naidocimage3-300x277.png" alt="" class="size-medium wp-image-39595" width="300" height="277"><figcaption id="caption-attachment-39595" class="wp-caption-text">Josephine Grant showing The Tracks App</figcaption></figure>
+<figure id="attachment_39595" aria-describedby="caption-attachment-39595" style="width: 300px" class="wp-caption alignnone"><img loading="lazy" src="http://www.ala.org.au/wp-content/uploads/2018/07/naidocimage3-300x277.png" alt="" class="size-medium wp-image-39595" width="300" height="277"><figcaption id="caption-attachment-39595" class="wp-caption-text">Josephine Grant showing The Tracks App</figcaption></figure>
 <p>Funded by the Australian Government, the Tracks App was designed by Central Land Council staff and developed with the ALA as part of the Bilby Blitz program. The Bilby Blitz aimed to survey the Greater Bilby across Aboriginal managed land across the Northern Territory and Western Australia.</p>
 <p>As coordinator of the Anmatyerr Ranger group and expert tracker in her own right, Josephine Grant provided significant input into the app’s development. She has since used it in the field to record bilby signs and with school students to increase their understanding and awareness of tracking work.</p>
 <p>A major aim of the Tracks App was to make it available in Aboriginal languages as English is often a second, third or fourth language for Aboriginal people. In March 2018 the CLC launched English and Warlpiri language versions of the app. Josephine has been working with Gladys Brown, lead ranger from the Muru-Warinyi Ankkul Ranger Group in Tennant Creek, on translating it into the Waramungu language.</p>
@@ -351,9 +369,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -489,7 +508,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -560,12 +579,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

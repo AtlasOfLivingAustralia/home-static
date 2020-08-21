@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -28,18 +27,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -84,8 +71,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -102,7 +106,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -217,7 +235,7 @@
 <p>The South Australian Museum holds valuable and interesting collections and digital technologies mean that more people than ever before can access them and use them in previously unimaginable ways. We are photographing insects for the Atlas of Living Australia that are incredibly scientifically important, as they are the actual specimen that defined the species. Making digital images available online makes them easier to find for scientists and others who use these photos and records in lots of different ways.</p>
 <p>The small team of approximately 15 volunteers brings together a diverse group of people. Some are long-time supporters of the museum, pleased to have an opportunity to contribute to our work, some have an interest in entomology or digital photography, and some are interested in contributing to the scientific community’s understanding and preservation of biodiversity.</p>
 <p>Each day the project manager brings a selection of specimens from the collection for photographing. Some days we have a mix of moths and butterflies, wasps and bugs. Occasionally we have a particular group to prioritise because photos have been requested by a researcher; and we’ve even photographed a couple of live capterpillars! But some days we find ourselves working on a giant tray after tray of almost identical little brown beetles!</p>
-<figure id="attachment_26107" aria-describedby="caption-attachment-26107" style="width: 316px" class="wp-caption alignright"><a href="http://www.ala.org.au/wp-content/uploads/2012/01/20-005666_Kapunda_tepperi_lateral1.jpg"><img class="size-medium wp-image-26107 " style="margin-left: 10px; margin-right: 10px;" title="20-005666_Kapunda_tepperi_lateral" src="http://www.ala.org.au/wp-content/uploads/2012/01/20-005666_Kapunda_tepperi_lateral1-316x236.jpg" alt="20-005666_Kapunda_tepperi_lateral" width="316" height="236"></a><figcaption id="caption-attachment-26107" class="wp-caption-text">20-005666_Kapunda_tepperi_lateral</figcaption></figure>
+<figure id="attachment_26107" aria-describedby="caption-attachment-26107" style="width: 316px" class="wp-caption alignright"><a href="http://www.ala.org.au/wp-content/uploads/2012/01/20-005666_Kapunda_tepperi_lateral1.jpg"><img loading="lazy" class="size-medium wp-image-26107 " style="margin-left: 10px; margin-right: 10px;" title="20-005666_Kapunda_tepperi_lateral" src="http://www.ala.org.au/wp-content/uploads/2012/01/20-005666_Kapunda_tepperi_lateral1-316x236.jpg" alt="20-005666_Kapunda_tepperi_lateral" width="316" height="236"></a><figcaption id="caption-attachment-26107" class="wp-caption-text">20-005666_Kapunda_tepperi_lateral</figcaption></figure>
 <p>Despite the uniformity of some of our drawers of insects, all members of the team have found it an eye-opening experience. Steven, a digital media artist with an eye for beauty, mentioned that he finds a ‘sense of wonder in seeing something old and familiar in a completely new way. Seeing the intricate textures, patterns and colours of various types of insects made me appreciate in an all new way just how complicated and varied the animal kingdom can be’. Anne, a teacher and museum educator, has discovered something new through the imaging technology that the team has been using, saying that the ‘microscope, photography and computer programs used allows us to see detail in the insects that otherwise would be missed. There are beautiful colours and intricate structures not visible to the naked eye’.</p>
 <p>Volunteers use a digital camera with a macro lens to capture larger specimens, and a microscope with a digital camera for smaller specimens. Very small specimens are a challenge, as the microsystem can take a long time to capture all the required images, only to discover that there is some vibration in the final image, or one of its legs is extending beyond the frame! This kind of incident usually prompts a big sigh (sometimes an expletive!) as the volunteer realises it needs to be re-done.</p>
 <p>The environment in our digitisation laboratory is influenced by the nature of the work that the volunteers are doing. Several volunteers reported that the most challenging part of the job is ‘working with fragile specimens and not breaking them’, or ‘handling the delicate insects, making sure they are photographed well, and returned to their box without damage’. Steven described the fact that he was given ‘responsibility to handle delicate, fragile and unique pieces of entomological history’ as ‘both a privilege and a challenge’.</p>
@@ -225,7 +243,7 @@
 <p>Some volunteers work on capturing the photographs, while others work alongside them creating database records or using Photoshop to check and optimise the photographs that have been captured, ready for archiving and publication.</p>
 <p>Volunteers enjoy being part of a diverse team. Anne commented that this is what attracted her to the project, saying that she ‘wanted to work on something interesting with people who are dedicated and passionate about their subjects. The museum is a great place to meet such people.’</p>
 <p>Some volunteers are participating in this project to build their professional skills. Entomology student Matt described how this experience has built on what he learned at university, reporting that he joined the project because ‘this seemed like a great way to apply what I had learnt, while obtaining new skills and being able to experience a portion of the work an entomologist may be involved in’, and he expects that ‘this experience will give me a skill set that the formal education I have already undergone can’t give me’. Matt believes that this has already helped his work skills, pointing out that in his databasing he has ‘learnt how small details in specimen information such as location and date collected can be important’ and the problems that arise if they aren’t specific enough. He also finds that ‘the diversity of specimens has been a good way for me to continue to test myself on basic identification. The handling of such delicate specimens has no doubt increased the amount of care I take with these specimens as well as increasing my patience when things don’t always go as planned.’</p>
-<figure id="attachment_26102" aria-describedby="caption-attachment-26102" style="width: 316px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2012/01/Matt-at-work.jpg"><img class="size-medium wp-image-26102  " style="margin-left: 10px; margin-right: 10px;" title="Matt at work" src="http://www.ala.org.au/wp-content/uploads/2012/01/Matt-at-work-316x217.jpg" alt="Matt at work" width="316" height="217"></a><figcaption id="caption-attachment-26102" class="wp-caption-text">Matt at work</figcaption></figure>
+<figure id="attachment_26102" aria-describedby="caption-attachment-26102" style="width: 316px" class="wp-caption alignleft"><a href="http://www.ala.org.au/wp-content/uploads/2012/01/Matt-at-work.jpg"><img loading="lazy" class="size-medium wp-image-26102  " style="margin-left: 10px; margin-right: 10px;" title="Matt at work" src="http://www.ala.org.au/wp-content/uploads/2012/01/Matt-at-work-316x217.jpg" alt="Matt at work" width="316" height="217"></a><figcaption id="caption-attachment-26102" class="wp-caption-text">Matt at work</figcaption></figure>
 <p>In a different field of interest, Steven recently graduated from a Masters in Visual Arts and says that he has enjoyed the opportunity to ‘acquire practical experience in using my photographic and digital imaging skills to a real world project – and something that was a departure from creative endeavour’.</p>
 <p>After a day of photographing we carefully return the insects to the correct place in the collection, where entomology cabinets help protect them from pest infestation, so that they will remain useful for researchers another 150 years from now.</p>
 <p>The project has turned us all into insect enthusiasts and passionate advocates for our tiny friends’ role in biodiversity. Project manager Alexis found that this experience has changed her gardening habits, as she sought out native plants to encourage more native insects to take up residence. Danijela, a visual arts student with an interest in textiles, discovered on a recent trip to the Flinders Ranges to learn about plant dyes that she was more aware of the insect life around her, and three members of the team are now proud owners of pet spiny leaf insects!</p>
@@ -268,9 +286,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -406,7 +425,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -477,12 +496,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

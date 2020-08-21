@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -94,8 +81,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -112,7 +116,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -235,14 +253,14 @@
 	<div class="entry-excerpt">With summer almost here, now is the perfect time to get out of the house and enjoy Australia’s great outdoors. And what better way to do it than by joining one of the citizen science events that are happening across the country this November! Not only will you be out enjoying nature, but you’ll be […]</div>
 	<div class="entry-content">
 
-		<figure id="attachment_32738" aria-describedby="caption-attachment-32738" style="width: 316px" class="wp-caption alignright"><a href="http://www.ala.org.au/blogs-news/calling-all-citizen-scientists/attachment/sopa-commission/" rel="attachment wp-att-32738"><img class="size-medium wp-image-32738  " title="Two boys and a lady looking for species in long grass." src="http://www.ala.org.au/wp-content/uploads/2014/11/MN077_SydneyOlympicParkAuthority-316x210.jpg" alt="Two boys and a lady looking at long grass." width="316" height="210"></a><figcaption id="caption-attachment-32738" class="wp-caption-text">Why not get outdoors this November and help improve Australia’s biodiversity knowledge by joining a citizen science event? Credit: Sydney Olympic Park Authority</figcaption></figure>
+		<figure id="attachment_32738" aria-describedby="caption-attachment-32738" style="width: 316px" class="wp-caption alignright"><a href="http://www.ala.org.au/blogs-news/calling-all-citizen-scientists/attachment/sopa-commission/" rel="attachment wp-att-32738"><img loading="lazy" class="size-medium wp-image-32738  " title="Two boys and a lady looking for species in long grass." src="http://www.ala.org.au/wp-content/uploads/2014/11/MN077_SydneyOlympicParkAuthority-316x210.jpg" alt="Two boys and a lady looking at long grass." width="316" height="210"></a><figcaption id="caption-attachment-32738" class="wp-caption-text">Why not get outdoors this November and help improve Australia’s biodiversity knowledge by joining a citizen science event? Credit: Sydney Olympic Park Authority</figcaption></figure>
 <p><span style="font-size: small;">With summer almost here, now is the perfect time to get out of the house and enjoy Australia’s great outdoors. And what better way to do it than by joining one of the citizen science events that are happening across the country this November! Not only will you be out enjoying nature, but you’ll be making a valuable contribution to Australia’s biodiversity knowledge as well, with recorded sightings being fed into the <a href="http://www.ala.org.au" target="_blank">Atlas of Living Australia</a>(ALA).</span></p>
 <p><span style="font-size: small;">Events include the <a style="font-size: 13px;" href="http://www.alcw.org.au/mimosa-rocks-bioblitz-ready-to-roll/" target="_blank">Mimosa Rocks BioBlitz</a>, which is taking place on the 7<sup>th</sup> and 8<sup>th</sup> of November; the <a href="http://www.environment.nsw.gov.au/research/bioblitz.htm" target="_blank">World Parks Congress BioBlitz</a>, which will be held in Sydney on Sunday November 16<sup>th</sup>; and the <a href="http://koalacount.ala.org.au/bdrs-core/npansw/home.htm" target="_blank">National Koala Count</a>, which will run from the 7<sup>th</sup> to 17<sup>th</sup> of November.</span></p>
 <p><span style="font-size: small;">The picturesque Mimosa Rocks National Park is located on the NSW south coast and is home to an amazing array of flora and fauna, including Potaroos, Glossy Black-cockatoos, orchids, and cycads to name just a few. The Mimosa Rocks BioBlitz will include 43 surveys hosted by expert scientists and naturalists. For more information, including what surveys are happening when and how to register, please visit <a href="http://www.alcw.org.au/mimosa-rocks-bioblitz-ready-to-roll/" target="_blank">www.alcw.org.au</a>.</span></p>
-<figure id="attachment_32739" aria-describedby="caption-attachment-32739" style="width: 316px" class="wp-caption alignleft"><span style="font-size: small;"><a href="http://www.ala.org.au/blogs-news/calling-all-citizen-scientists/attachment/libby-hepburn-atlas-of-life-in-the-coastal-wilderness-moth/" rel="attachment wp-att-32739"><img class="size-medium wp-image-32739 " title="Large moth sitting on a person's hand" src="http://www.ala.org.au/wp-content/uploads/2014/11/Libby-Hepburn-Atlas-of-Life-in-the-Coastal-Wilderness-moth-316x216.jpg" alt="Large moth sitting on a person's hand" width="316" height="216"></a></span><figcaption id="caption-attachment-32739" class="wp-caption-text">Just one of the beautiful creatures you might discover. Credit: Libby Hepburn</figcaption></figure>
+<figure id="attachment_32739" aria-describedby="caption-attachment-32739" style="width: 316px" class="wp-caption alignleft"><span style="font-size: small;"><a href="http://www.ala.org.au/blogs-news/calling-all-citizen-scientists/attachment/libby-hepburn-atlas-of-life-in-the-coastal-wilderness-moth/" rel="attachment wp-att-32739"><img loading="lazy" class="size-medium wp-image-32739 " title="Large moth sitting on a person's hand" src="http://www.ala.org.au/wp-content/uploads/2014/11/Libby-Hepburn-Atlas-of-Life-in-the-Coastal-Wilderness-moth-316x216.jpg" alt="Large moth sitting on a person's hand" width="316" height="216"></a></span><figcaption id="caption-attachment-32739" class="wp-caption-text">Just one of the beautiful creatures you might discover. Credit: Libby Hepburn</figcaption></figure>
 <p><span style="font-size: small;">The World Parks Congress (WPC) BioBlitz is happening as part of <a href="http://www.worldparkscongress.org/involved/social_planetfest.html" target="_blank">PlanetFest</a>, and, with the help of families and nature lovers, aims to capture a snapshot of the biodiversity at Sydney Olympic Park. Experts will take participants on guided nature surveys where they’ll go hunting for birds, insects, plants, frogs and water bugs. There will be hands on displays in the BioBlitz marquee, providing the opportunity to learn more about BioBlitz events and how they assist protected area managers to involve the public in scientific surveys. For more information and to register for the event, please visit <a href="http://wpcbioblitz.eventbrite.com.au" target="_blank">http://wpcbioblitz.eventbrite.com.au</a>.</span></p>
 <p><span style="font-size: small;">Both the Mimosa Rocks and WPC BioBlitz events are using the international product, <a href="http://www.inaturalist.org/">iNaturalist</a>, to register sightings. These records will be incorporated into the ALA on a regular basis.</span></p>
-<figure id="attachment_32740" aria-describedby="caption-attachment-32740" style="width: 316px" class="wp-caption alignright"><span style="font-size: small;"><a href="http://www.ala.org.au/blogs-news/calling-all-citizen-scientists/attachment/istock_000019042302xlarge_reduced/" rel="attachment wp-att-32740"><img class="size-medium wp-image-32740  " title="Two koalas sitting on a branch" src="http://www.ala.org.au/wp-content/uploads/2014/11/iStock_000019042302XLarge_REDUCED-316x210.jpg" alt="Two koalas sitting on a branch" width="316" height="210"></a></span><figcaption id="caption-attachment-32740" class="wp-caption-text">Join the fun of the National Koala Count and help us better understand these furry friends.</figcaption></figure>
+<figure id="attachment_32740" aria-describedby="caption-attachment-32740" style="width: 316px" class="wp-caption alignright"><span style="font-size: small;"><a href="http://www.ala.org.au/blogs-news/calling-all-citizen-scientists/attachment/istock_000019042302xlarge_reduced/" rel="attachment wp-att-32740"><img loading="lazy" class="size-medium wp-image-32740  " title="Two koalas sitting on a branch" src="http://www.ala.org.au/wp-content/uploads/2014/11/iStock_000019042302XLarge_REDUCED-316x210.jpg" alt="Two koalas sitting on a branch" width="316" height="210"></a></span><figcaption id="caption-attachment-32740" class="wp-caption-text">Join the fun of the National Koala Count and help us better understand these furry friends.</figcaption></figure>
 <p><span style="font-size: small;">And for those who aren’t in NSW, why not take part in the National Koala Count, which is open to participants across Australia. A freely-available, GPS-enabled smartphone app, BioTag, has been developed especially for the event by the ALA. The app allows participants to easily record their koala sightings anywhere across the country. BioTag is available for both android and Apple mobile devices and can be downloaded from <a href="https://play.google.com/store/search?q=biotag&hl=en" target="_blank">Google play</a> and <a href="http://www.apple.com/au/itunes/" target="_blank">iTunes</a>, just search for BioTag. People who do not own a smartphone or tablet can enter their sightings directly into the <a href="http://koalacount.ala.org.au/bdrs-core/npansw/home.htm?signin=true" target="_blank">National Parks Association’s Data Portal</a>. To get involved, simply register at <a href="http://koalacount.ala.org.au/bdrs-core/npansw/home.htm" target="_blank">www.koalacount.org.au</a>, download BioTag, or log onto the <a href="http://koalacount.ala.org.au/bdrs-core/npansw/home.htm?signin=true" target="_blank">Data Portal</a>, and you are ready to start counting!</span></p>
 <p><span style="font-size: small;">By participating in any (or all!) of these events you will be helping to build a more comprehensive picture of the numbers and locations of Australian plant and animal species across the landscape, which is highly important for the effective management of our precious and unique biodiversity.</span></p>
 
@@ -336,9 +354,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -474,7 +493,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -545,12 +564,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">

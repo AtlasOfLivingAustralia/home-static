@@ -12,15 +12,14 @@
 
 
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.min.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js"></script>
+<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
 
 
@@ -30,18 +29,6 @@
 
 
 
-
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-4355440-1', 'auto');
-			ga('set', 'forceSSL', true);
-			ga('send', 'pageview');
-		</script>
-
-	
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -101,8 +88,25 @@
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
 						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+									
+	    
+						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
+
+										<div class="account d-lg-block">
+							<div id="ala-auth-buttons-logged-in" class="d-none">
+								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
+							</div>
+							<div id="ala-auth-buttons-logged-out">
+								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
+								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+							</div>
+						</div>
+		
+					</div>
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
@@ -119,7 +123,21 @@
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-											<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+								<defs>
+									<style>
+										.account-icon {
+											fill: #212121;
+											fill-rule: evenodd;
+										}
+									</style>
+								</defs>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+							</svg>
+							Account</a>
+						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
 
@@ -243,15 +261,15 @@
 	<div class="entry-content">
 
 		<p>The Atlas of Living Australia (ALA), in collaboration with the creators of <a href="https://phylojive.ala.org.au/">PhyloJIVE</a>, will soon be introducing new tools to explore species data and relationships from a phylogenetic (or tree of life) perspective. The tools are intended for both novices and experts alike, and aim to make phylogenetic approaches to data exploration and visualisation accessible to a broad range of audiences.</p>
-<figure id="attachment_33632" aria-describedby="caption-attachment-33632" style="width: 938px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/data/coming-soon-new-phylogenetic-tree-of-life-tools/attachment/acacia-rainfall/" rel="attachment wp-att-33632"><img class="size-full wp-image-33632" title="Acacia Rainfall" src="http://www.ala.org.au/wp-content/uploads/2015/02/Acacia-Rainfall.png" alt="" width="938" height="845"></a><figcaption id="caption-attachment-33632" class="wp-caption-text">A phylogenetic tree showing the evolutionary relationships between Acacia species (left) is intersected with ALA Acacia records and precipitation layers to reveal the rainfall envelope occupied by a clade of Acacias. The envelope occupied at present (top right) can be compared to the envelope that would be occupied under 2030 predicted rainfall (bottom right).</figcaption></figure>
+<figure id="attachment_33632" aria-describedby="caption-attachment-33632" style="width: 938px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/data/coming-soon-new-phylogenetic-tree-of-life-tools/attachment/acacia-rainfall/" rel="attachment wp-att-33632"><img loading="lazy" class="size-full wp-image-33632" title="Acacia Rainfall" src="http://www.ala.org.au/wp-content/uploads/2015/02/Acacia-Rainfall.png" alt="" width="938" height="845"></a><figcaption id="caption-attachment-33632" class="wp-caption-text">A phylogenetic tree showing the evolutionary relationships between Acacia species (left) is intersected with ALA Acacia records and precipitation layers to reveal the rainfall envelope occupied by a clade of Acacias. The envelope occupied at present (top right) can be compared to the envelope that would be occupied under 2030 predicted rainfall (bottom right).</figcaption></figure>
 <p> </p>
 <p>A phylogeny (or a tree of life) is essentially a theory about how organisms are related to one another through evolutionary time. Phylogenies are based on the assumption that more closely related species will be more similar to one another, and they are commonly built using genetic sequences or physical characters. They are often visually represented as trees: the tips of the ever branching tree representing species, and the branches representing ‘evolutionary distance’ (e.g. length of time) from the ancestors from which they evolved.</p>
 <p> </p>
-<figure id="attachment_33628" aria-describedby="caption-attachment-33628" style="width: 662px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/data/coming-soon-new-phylogenetic-tree-of-life-tools/attachment/tree-and-map-3/" rel="attachment wp-att-33628"><img class=" wp-image-33628 " title="tree and map" src="http://www.ala.org.au/wp-content/uploads/2015/02/tree-and-map2-946x576-custom.jpg" alt="" width="662" height="403"></a><figcaption id="caption-attachment-33628" class="wp-caption-text">ALA’s new phylogenetic tools integrate phylogenetic trees and spatial mapping so that phylogenies can be represented spatially by, for example species occurrence or character. Here, the occurrence of Acacia species from the clade highlighted by the green node is mapped and coloured by species.</figcaption></figure>
+<figure id="attachment_33628" aria-describedby="caption-attachment-33628" style="width: 662px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/data/coming-soon-new-phylogenetic-tree-of-life-tools/attachment/tree-and-map-3/" rel="attachment wp-att-33628"><img loading="lazy" class=" wp-image-33628 " title="tree and map" src="http://www.ala.org.au/wp-content/uploads/2015/02/tree-and-map2-946x576-custom.jpg" alt="" width="662" height="403"></a><figcaption id="caption-attachment-33628" class="wp-caption-text">ALA’s new phylogenetic tools integrate phylogenetic trees and spatial mapping so that phylogenies can be represented spatially by, for example species occurrence or character. Here, the occurrence of Acacia species from the clade highlighted by the green node is mapped and coloured by species.</figcaption></figure>
 <p> </p>
 <p>The new ALA-PhyloJIVE tools intersect species occurrence data with environmental layers and phylogenetic trees, enabling a variety of new perspectives on biodiversity. For example, you will be able to investigate the environmental envelopes occupied by the species of any chosen clade (a group of related organisms sharing a common ancestral node). You can also measure and compare biodiversity for any given area/s in ways that account for both the number of species occurring there, and their evolutionary distinctness from one another, using phylogenetic diversity. The tools will also allow you to map the spatial distribution of characters (e.g. waxy leaves) across the landscape.</p>
 <p> </p>
-<figure id="attachment_33625" aria-describedby="caption-attachment-33625" style="width: 529px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/data/coming-soon-new-phylogenetic-tree-of-life-tools/attachment/pd-grid/" rel="attachment wp-att-33625"><img class="size-full wp-image-33625" title="PD grid" src="http://www.ala.org.au/wp-content/uploads/2015/02/PD-grid.jpg" alt="" width="529" height="446"></a><figcaption id="caption-attachment-33625" class="wp-caption-text">Phylogenetic Diversity (PD) of amphibians (grid cells 50x50km) with darker areas indicating higher PD. With ALA’s new tools PD can be assessed at a continental scale (as shown here), or compared between any number of user-defined areas, providing new options for exploring biodiversity patterns. (Map not corrected for patchy sampling. Source tree: Pyron RA, Wiens JJ. 2011. A large-scale phylogeny of Amphibia with over 2,800 species, and a revised classification of extant frogs, salamanders, and caecilians. Molecular Phylogenetics and Evolution 61: 543-583.)</figcaption></figure>
+<figure id="attachment_33625" aria-describedby="caption-attachment-33625" style="width: 529px" class="wp-caption alignnone"><a href="http://www.ala.org.au/blogs-news/data/coming-soon-new-phylogenetic-tree-of-life-tools/attachment/pd-grid/" rel="attachment wp-att-33625"><img loading="lazy" class="size-full wp-image-33625" title="PD grid" src="http://www.ala.org.au/wp-content/uploads/2015/02/PD-grid.jpg" alt="" width="529" height="446"></a><figcaption id="caption-attachment-33625" class="wp-caption-text">Phylogenetic Diversity (PD) of amphibians (grid cells 50x50km) with darker areas indicating higher PD. With ALA’s new tools PD can be assessed at a continental scale (as shown here), or compared between any number of user-defined areas, providing new options for exploring biodiversity patterns. (Map not corrected for patchy sampling. Source tree: Pyron RA, Wiens JJ. 2011. A large-scale phylogeny of Amphibia with over 2,800 species, and a revised classification of extant frogs, salamanders, and caecilians. Molecular Phylogenetics and Evolution 61: 543-583.)</figcaption></figure>
 <p> </p>
 <p>Watch this space for notification of the availability of these phylogenetic tools. Your feedback on the tools will be welcome.</p>
 <p>For more information, please contact support@ala.org.au.</p>
@@ -348,9 +366,10 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-													<ul class="social">
+																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
@@ -486,7 +505,7 @@
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
 				</div>
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
@@ -557,12 +576,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript">
+<script type="text/javascript" id="child-understrap-scripts-js-extra">
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
 
 
 <script type="text/javascript">
