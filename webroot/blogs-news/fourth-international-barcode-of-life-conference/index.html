@@ -14,10 +14,10 @@
 
 <link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5.1" type="text/css" media="all">
 <link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-js"></script>
+<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
 <script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
 
@@ -91,17 +91,17 @@ The Consortium for the Barcode of Life and the University of Adelaide invite y
 						
 				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
 				<div class="outer-nav-wrapper">
-														<div class="top-bar d-flex header-search-toggled auth-buttons-profile">
+														<div class="top-bar d-flex header-search-toggled auth-buttons-visible">
 									
 	    
 						<a href="/contact-us" class="btn btn-link btn-sm d-none d-lg-inline-block">Contact us</a>
 
 										<div class="account d-lg-block">
-							<div id="ala-auth-buttons-logged-in" class="d-none">
+							<div class="ala-auth-buttons-logged-in d-none">
 								<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
 								<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-white btn-sm">Logout</a>
 							</div>
-							<div id="ala-auth-buttons-logged-out">
+							<div class="ala-auth-buttons-logged-out">
 								<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign up</a>
 								<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
 							</div>
@@ -124,7 +124,8 @@ The Consortium for the Barcode of Life and the University of Adelaide invite y
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
-																<a href="https://auth.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
+															<div class="ala-auth-buttons-logged-in d-none">
+						<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
 							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
 								<defs>
 									<style>
@@ -137,7 +138,11 @@ The Consortium for the Barcode of Life and the University of Adelaide invite y
 								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
 							</svg>
 							Account</a>
-						<a href="https://www-test.ala.org.au/wp/wp-login.php" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+						<a href="https://auth-test.ala.org.au/cas/logout" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
+					</div>
+					<div class="ala-auth-buttons-logged-out">
+						<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Login"><i class="fa fa-sign-in"></i></a>
+					</div>
 															<a href="javascript:" class="navbar-toggler order-4 order-lg-2" type="button" data-toggle="offcanvas" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</a>
@@ -380,8 +385,9 @@ The Consortium for the Barcode of Life and the University of Adelaide invite y
 				<div class="col-md-12 col-lg-4 align-center logo-column">
 					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-																				<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
-																			<ul class="social">
+																										<a href="https://auth.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign Up</a>
+							<a href="https://www-test.ala.org.au/wp/wp-login.php" class="btn btn-primary btn-sm">Login</a>
+																									<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
