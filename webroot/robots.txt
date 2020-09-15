@@ -1,7 +1,7 @@
 
 # Disallow particular paths for all user agents
 User-agent: *
-Disallow: /
+Disallow: /wp/wp-admin
 Crawl-delay: 30
 
 # Disallow entire user agents

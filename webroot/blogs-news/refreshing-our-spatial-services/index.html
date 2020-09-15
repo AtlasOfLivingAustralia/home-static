@@ -27,6 +27,7 @@
 
 
 
+
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
@@ -47,8 +48,8 @@
   <meta property="og:image:url" content="https://www-test.ala.org.au/app/uploads/2020/07/Spatial-Portal-layer-review-1.png">
   <meta property="og:image:secure_url" content="https://www-test.ala.org.au/app/uploads/2020/07/Spatial-Portal-layer-review-1.png">
   <meta property="article:published_time" content="2020-07-07T09:49:26+10:00">
-  <meta property="article:modified_time" content="2020-07-08T13:28:26+10:00">
-  <meta property="og:updated_time" content="2020-07-08T13:28:26+10:00">
+  <meta property="article:modified_time" content="2020-09-10T11:17:13+10:00">
+  <meta property="og:updated_time" content="2020-09-10T11:17:13+10:00">
   <meta property="article:section" content="ALA Blog">
   <meta property="article:section" content="ALA Newsletter">
  
@@ -57,7 +58,7 @@
   <meta itemprop="description" content="We’re starting a review of our environmental and contextual layers to improve user experience and system performance.">
   <meta itemprop="image" content="https://www-test.ala.org.au/app/uploads/2020/07/Spatial-Portal-layer-review-1.png">
   <meta itemprop="datePublished" content="2020-07-07">
-  <meta itemprop="dateModified" content="2020-07-08T13:28:26+10:00">
+  <meta itemprop="dateModified" content="2020-09-10T11:17:13+10:00">
   <meta itemprop="author" content="ALA Communications">
    
  
@@ -431,9 +432,18 @@
 				<div class="col-md-12 col-lg-4 align-center logo-column">
 					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-																										<a href="https://auth.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign Up</a>
-							<a href="https://www-test.ala.org.au/wp/wp-login.php" class="btn btn-primary btn-sm">Login</a>
-																									<ul class="social">
+													
+						<div class="ala-auth-buttons-logged-in d-none">
+							<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+							<a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-primary btn-sm">Logout</a>
+						</div>
+						<div class="ala-auth-buttons-logged-out">
+							<a href="https://auth-test.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign Up</a>
+							<a href="https://auth-test.ala.org.au/cas/login?service=https://www-test.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+						</div>
+
+
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
