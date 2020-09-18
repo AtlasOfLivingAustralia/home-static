@@ -2,8 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www-test.ala.org.au/zotpress-test/</loc>
-    <lastmod>2020-09-17T11:04:09+00:00</lastmod>
+    <loc>https://www-test.ala.org.au/ala-cited-publications/</loc>
+    <lastmod>2020-09-18T16:09:40+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
