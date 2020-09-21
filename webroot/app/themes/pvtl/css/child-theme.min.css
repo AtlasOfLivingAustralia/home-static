@@ -5170,7 +5170,7 @@ div.bibliography .doctitle {font-weight: 500;}
 div.bibliography a.doctitle, div.bibliography a.doctitle.active, div.bibliography a.doctitle:hover, div.bibliography a.doctitle:link, div.bibliography a.doctitle:visited {color: #883524;font-weight: 200;text-decoration: none;}
 div.bibliography span.doctitle {display: block;}
 div.bibliography #pubSearchButton {font-family: inherit;padding: .1rem 1rem;}
-div.bibliography #pubSearchBox {margin-left: -50px;margin-top: 1rem;}
+div.bibliography #pubSearchBox {margin-left: -50px;margin-top: 1.5rem;margin-bottom: 1.5rem;}
 div.bibliography .bib-cat {list-style: none;text-indent: 0;margin: 0;padding: 0;}
 div.bibliography .bib-cat li {display: inline;}
 div.bibliography .bib-cat li:not(:last-child):after, div.bibliography .bib-cat:not(:first-child):before {content: " | ";}
