@@ -342,9 +342,18 @@
 				<div class="col-md-12 col-lg-4 align-center logo-column">
 					<a class="navbar-brand" rel="home" href="https://www.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
 					<div class="account">
-																										<a href="https://auth.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign Up</a>
-							<a href="https://www.ala.org.au/wp/wp-login.php" class="btn btn-primary btn-sm">Login</a>
-																									<ul class="social">
+													
+						<div class="ala-auth-buttons-logged-in d-none">
+							<a href="https://auth.ala.org.au/userdetails/myprofile/" class="btn btn-outline-white btn-sm">Profile</a>
+							<a href="https://auth.ala.org.au/cas/logout" class="btn btn-primary btn-sm">Logout</a>
+						</div>
+						<div class="ala-auth-buttons-logged-out">
+							<a href="https://auth.ala.org.au/userdetails/registration/createAccount" class="btn btn-outline-white btn-sm">Sign Up</a>
+							<a href="https://auth.ala.org.au/cas/login?service=https://www.ala.org.au/" class="btn btn-primary btn-sm">Login</a>
+						</div>
+
+
+																			<ul class="social">
 			<li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
