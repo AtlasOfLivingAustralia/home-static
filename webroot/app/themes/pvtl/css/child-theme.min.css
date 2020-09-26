@@ -4781,6 +4781,7 @@ ul.menu.horizontal li {display: inline-block;}
 @media (max-width:575.98px) {.footer-menu .menu.menu-2-col .sub-menu li {-ms-flex-preferred-size: 100%;flex-basis: 100%;}}
 .footer-menu-horizontal .menu.horizontal>li {margin-right: 20px;}
 .footer-menu-horizontal .menu.horizontal a {color: #212121;font-weight: 500;font-size: 1rem;display: inline-block;margin-bottom: 5px;}
+.site-footer {content-visibility: auto;}
 @media (max-width:767.98px) {.site-footer .content-column:not(:last-child) {padding-bottom: 30px;}}
 .footer-bottom {padding-top: 50px;padding-bottom: 50px;color: #565656;}
 .footer-bottom img {margin-top: 20px;margin-right: 15px;}
@@ -4979,7 +4980,7 @@ button.swiper-pagination-bullet {border: none;margin: 0;padding: 0;-webkit-box-s
 	.accordion-tab a[aria-expanded=true]:after {content: "";}
 	.accordion-content {padding-bottom: 40px;}
 	.tab-box h3 {font-size: 20px;margin: 1.25rem 0 1.5rem;}}
-.feature-box {background: url("../images/bg-pattern.png") no-repeat center #637073;background-size: cover;color: #fff;}
+.feature-box {background: url("../images/bg-pattern.png") no-repeat center #637073;background-size: cover;content-visibility: auto;color: #fff;}
 .feature-box h3 {margin-bottom: 1.5em;color: inherit;}
 @media (max-width:767.98px) {.feature-box h3 {text-align: center;}}
 .link-box {display: block;position: relative;-webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);box-shadow: 0 5px 20px 0 rgba(0,0,0,.2);color: #fff;}
@@ -5066,7 +5067,7 @@ button.swiper-pagination-bullet {border: none;margin: 0;padding: 0;-webkit-box-s
 .pvtl-recent-posts-class .recent-post .recent-meta {display: block;margin-bottom: 4px;}
 .pvtl-recent-posts-class .recent-post .recent-title {font-family: Lato,sans-serif;font-size: 18px;font-weight: 700;color: #212121;-webkit-transition: color .2s ease;transition: color .2s ease;}
 .pvtl-recent-posts-class .recent-post .recent-content {max-height: 4.6em;overflow: hidden;}
-.latest-posts-block {padding-bottom: 50px;}
+.latest-posts-block {padding-bottom: 50px;content-visibility: auto;}
 .latest-posts-block h3 {color: #212121;margin-bottom: 1em;}
 .social-tabs {border: 1px solid #ced4da;}
 .social-tabs .nav {display: -webkit-box;display: -ms-flexbox;display: flex;}
