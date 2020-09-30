@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/blogs-news/data-in-the-ala-bushfire-affected-areas-2019-2020-bushfire-season/</loc>
+    <lastmod>2020-09-30T10:09:12+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/blogs-news/national-science-week-2020/</loc>
     <lastmod>2020-09-09T17:05:52+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -495,7 +501,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/contact-us/</loc>
-    <lastmod>2020-09-25T15:28:52+00:00</lastmod>
+    <lastmod>2020-09-25T15:38:55+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -513,7 +519,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/about-ala/</loc>
-    <lastmod>2019-07-16T10:49:53+00:00</lastmod>
+    <lastmod>2020-09-30T12:12:58+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
