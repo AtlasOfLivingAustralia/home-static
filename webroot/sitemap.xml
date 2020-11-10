@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/ala-cited-publications/</loc>
+    <lastmod>2020-11-04T15:35:51+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/blogs-news/data-in-the-ala-bushfire-affected-areas-2019-2020-bushfire-season/</loc>
     <lastmod>2020-09-30T10:09:12+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -531,7 +537,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/publications/</loc>
-    <lastmod>2020-10-26T16:12:32+00:00</lastmod>
+    <lastmod>2020-11-10T13:37:17+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -543,7 +549,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/</loc>
-    <lastmod>2020-11-02T11:21:10+00:00</lastmod>
+    <lastmod>2020-11-02T11:33:29+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
