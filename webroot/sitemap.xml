@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/blogs-news/celebrating-10-years-of-science-impact/</loc>
+    <lastmod>2020-11-16T14:56:09+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/ala-cited-publications/</loc>
     <lastmod>2020-11-04T15:35:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -537,7 +543,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/publications/</loc>
-    <lastmod>2020-11-13T10:32:44+00:00</lastmod>
+    <lastmod>2020-11-16T14:44:50+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
