@@ -2,6 +2,24 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/blogs-news/new-improvements-to-ala-data-quality-filters/</loc>
+    <lastmod>2020-11-23T09:55:17+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ala.org.au/blogs-news/guest-editorial/</loc>
+    <lastmod>2020-11-23T10:03:40+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.ala.org.au/blogs-news/federal-budget-announcement-2020/</loc>
+    <lastmod>2020-11-23T09:17:25+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/blogs-news/celebrating-10-years-of-science-impact/</loc>
     <lastmod>2020-11-17T14:48:40+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -9,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/ala-cited-publications/</loc>
-    <lastmod>2020-11-18T09:16:09+00:00</lastmod>
+    <lastmod>2020-11-23T09:01:44+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -177,7 +195,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/data-quality-project/</loc>
-    <lastmod>2020-08-04T13:42:01+00:00</lastmod>
+    <lastmod>2020-11-23T09:16:23+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
