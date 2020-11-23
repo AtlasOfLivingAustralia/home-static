@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/blogs-news/ala-newsletter-november-2020/</loc>
+    <lastmod>2020-11-23T12:03:14+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/blogs-news/new-improvements-to-ala-data-quality-filters/</loc>
     <lastmod>2020-11-23T10:18:26+00:00</lastmod>
     <changefreq>monthly</changefreq>
