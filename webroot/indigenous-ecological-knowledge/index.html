@@ -4,43 +4,291 @@
 	<meta charset="UTF-8">
 	<meta name="id" content="169">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-	<title>Indigenous Ecological Knowledge – Atlas of Living Australia</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<title>Indigenous Ecological Knowledge &#8211; Atlas of Living Australia</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Atlas of Living Australia &raquo; Feed" href="https://www-test.ala.org.au/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Atlas of Living Australia &raquo; Comments Feed" href="https://www-test.ala.org.au/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/www-test.ala.org.au\/wp\/wp-includes\/js\/wp-emoji.js?ver=5.5.3","twemoji":"https:\/\/www-test.ala.org.au\/wp\/wp-includes\/js\/twemoji.js?ver=5.5.3"}};
+			/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
 
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//s.w.org">
+( function( window, document, settings ) {
+	var src, ready, ii, tests;
 
+	// Create a canvas element for testing native browser support of emoji.
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
+	/**
+	 * Checks if two sets of Emoji characters render the same visually.
+	 *
+	 * @since 4.9.0
+	 *
+	 * @private
+	 *
+	 * @param {number[]} set1 Set of Emoji character codes.
+	 * @param {number[]} set2 Set of Emoji character codes.
+	 *
+	 * @return {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
 
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
 
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
 
+		return rendered1 === rendered2;
+	}
 
+	/**
+	 * Detects if the browser supports rendering emoji or flag emoji.
+	 *
+	 * Flag emoji are a single glyph made of two characters, so some browsers
+	 * (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @private
+	 *
+	 * @param {string} type Whether to test for support of "flag" or "emoji".
+	 *
+	 * @return {boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
 
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
 
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for Transgender flag compatibility. This flag is shortlisted for the Emoji 13 spec,
+				 * but has landed in Twemoji early, so we can add support for it, too.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (white flag emoji + transgender symbol).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0x1F3F3, 0xFE0F, 0x200D, 0x26A7, 0xFE0F ],
+					[ 0x1F3F3, 0xFE0F, 0x200B, 0x26A7, 0xFE0F ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0xD83C, 0xDDFA, 0xD83C, 0xDDF3 ],
+					[ 0xD83C, 0xDDFA, 0x200B, 0xD83C, 0xDDF3 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0xD83C, 0xDFF4, 0xDB40, 0xDC67, 0xDB40, 0xDC62, 0xDB40, 0xDC65, 0xDB40, 0xDC6E, 0xDB40, 0xDC67, 0xDB40, 0xDC7F ],
+					[ 0xD83C, 0xDFF4, 0x200B, 0xDB40, 0xDC67, 0x200B, 0xDB40, 0xDC62, 0x200B, 0xDB40, 0xDC65, 0x200B, 0xDB40, 0xDC6E, 0x200B, 0xDB40, 0xDC67, 0x200B, 0xDB40, 0xDC7F ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * So easy, even a baby could do it!
+				 *
+				 *  To test for Emoji 13 support, try to render a new emoji: Man Feeding Baby.
+				 *
+				 * The Man Feeding Baby emoji is a ZWJ sequence combining 👨 Man, a Zero Width Joiner and 🍼 Baby Bottle.
+				 *
+				 * 0xD83D, 0xDC68 == Man emoji.
+				 * 0x200D == Zero-Width Joiner (ZWJ) that links the two code points for the new emoji or
+				 * 0x200B == Zero-Width Space (ZWS) that is rendered for clients not supporting the new emoji.
+				 * 0xD83C, 0xDF7C == Baby Bottle.
+				 *
+				 * When updating this test for future Emoji releases, ensure that individual emoji that make up the
+				 * sequence come from older emoji standards.
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[0xD83D, 0xDC68, 0x200D, 0xD83C, 0xDF7C],
+					[0xD83D, 0xDC68, 0x200B, 0xD83C, 0xDF7C]
+				);
+
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Adds a script to the head of the document.
+	 *
+	 * @ignore
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param {Object} src The url where the script is located.
+	 * @return {void}
+	 */
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	/*
+	 * Tests the browser support for flag emojis and other emojis, and adjusts the
+	 * support settings accordingly.
+	 */
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	// Sets DOMReady to false and assigns a ready function to settings.
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	// When the browser can not render everything we need to load a polyfill.
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		/*
+		 * Cross-browser version of adding a dom ready event.
+		 */
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='child-understrap-styles-css'  href='https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&#038;ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www-test.ala.org.au/app/plugins/tablepress/css/default.css?ver=1.12' type='text/css' media='all' />
+<script type='text/javascript' src='https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js?ver=5.5.3' id='popper-scripts-js'></script>
+<link rel="https://api.w.org/" href="https://www-test.ala.org.au/wp-json/" /><link rel="alternate" type="application/json" href="https://www-test.ala.org.au/wp-json/wp/v2/pages/169" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www-test.ala.org.au/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www-test.ala.org.au/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel='shortlink' href='https://www-test.ala.org.au/?p=169' />
+<link rel="alternate" type="application/json+oembed" href="https://www-test.ala.org.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww-test.ala.org.au%2Findigenous-ecological-knowledge%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www-test.ala.org.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww-test.ala.org.au%2Findigenous-ecological-knowledge%2F&#038;format=xml" />
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-4355440-4', 'auto');
+			ga('set', 'forceSSL', true);
+			ga('send', 'pageview');
+		</script>
+
+	<link rel="canonical" href="https://www-test.ala.org.au/indigenous-ecological-knowledge/"/>
 
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
-<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
-<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-180x180.png">
-<meta name="msapplication-TileImage" content="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-270x270.png">
+<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-270x270.png" />
 
-
- 
-  <meta property="og:locale" content="en_US">
-  <meta property="og:site_name" content="Atlas of Living Australia">
-  <meta property="og:title" content="Indigenous Ecological Knowledge">
-  <meta property="og:url" content="https://www-test.ala.org.au/indigenous-ecological-knowledge/">
-  <meta property="og:type" content="article">
+<!-- START - Open Graph and Twitter Card Tags 2.3.3 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Atlas of Living Australia"/>
+  <meta property="og:title" content="Indigenous Ecological Knowledge"/>
+  <meta property="og:url" content="https://www-test.ala.org.au/indigenous-ecological-knowledge/"/>
+  <meta property="og:type" content="article"/>
   <meta property="og:description" content="In partnership with Indigenous communities working on country, the Atlas of Living Australia (ALA) is exploring the role of information management platforms in bridging the boundaries between traditional and contemporary Indigenous knowledge and western science.
 
 
@@ -51,10 +299,10 @@ Overview
 
 
 
-The ALA’s Indigenous">
- 
-  <meta itemprop="name" content="Indigenous Ecological Knowledge">
-  <meta itemprop="headline" content="Indigenous Ecological Knowledge">
+The ALA’s Indigenous"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="Indigenous Ecological Knowledge"/>
+  <meta itemprop="headline" content="Indigenous Ecological Knowledge"/>
   <meta itemprop="description" content="In partnership with Indigenous communities working on country, the Atlas of Living Australia (ALA) is exploring the role of information management platforms in bridging the boundaries between traditional and contemporary Indigenous knowledge and western science.
 
 
@@ -65,12 +313,12 @@ Overview
 
 
 
-The ALA’s Indigenous">
-  <meta itemprop="author" content="pvtladmin">
-   
- 
-  <meta name="twitter:title" content="Indigenous Ecological Knowledge">
-  <meta name="twitter:url" content="https://www-test.ala.org.au/indigenous-ecological-knowledge/">
+The ALA’s Indigenous"/>
+  <meta itemprop="author" content="pvtladmin"/>
+  <!--<meta itemprop="publisher" content="Atlas of Living Australia"/>--> <!-- To solve: The attribute publisher.itemtype has an invalid value -->
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Indigenous Ecological Knowledge"/>
+  <meta name="twitter:url" content="https://www-test.ala.org.au/indigenous-ecological-knowledge/"/>
   <meta name="twitter:description" content="In partnership with Indigenous communities working on country, the Atlas of Living Australia (ALA) is exploring the role of information management platforms in bridging the boundaries between traditional and contemporary Indigenous knowledge and western science.
 
 
@@ -81,26 +329,26 @@ Overview
 
 
 
-The ALA’s Indigenous">
-  <meta name="twitter:card" content="summary_large_image">
- 
- 
- 
-
+The ALA’s Indigenous"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+ <!-- is_singular -->
+<!-- END - Open Graph and Twitter Card Tags 2.3.3 -->
 	
 </head>
 
 <body class="page-template page-template-page-templates page-template-right-sidebaranchors page-template-page-templatesright-sidebaranchors-php page page-id-169 wp-custom-logo wp-embed-responsive group-blog">
 
 <div class="site" id="page">
-	
+	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 		<a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
 
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
-						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+						<!-- Your site title as branding in the menu -->
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px" /> </a>				<!-- end custom logo -->
 				<div class="outer-nav-wrapper">
 														<div class="top-bar d-flex header-search-toggled auth-buttons-visible">
 									
@@ -122,7 +370,7 @@ The ALA’s Indigenous">
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
-													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 22 22">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22">
 								<defs>
 									<style>
 										.search-icon {
@@ -131,13 +379,13 @@ The ALA’s Indigenous">
 										}
 									</style>
 								</defs>
-								<path class="search-icon" d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z" transform="translate(-1516 -60)"></path>
+								<path class="search-icon" d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z" transform="translate(-1516 -60)"/>
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
 															<div class="ala-auth-buttons-logged-in d-none">
 						<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
-							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 37 41">
 								<defs>
 									<style>
 										.account-icon {
@@ -146,7 +394,7 @@ The ALA’s Indigenous">
 										}
 									</style>
 								</defs>
-								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"/>
 							</svg>
 							Account</a>
 						<a href="https://auth-test.ala.org.au/cas/logout" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
@@ -159,11 +407,11 @@ The ALA’s Indigenous">
 						</a>
 
 						
-						
-						<div id="navbarNavDropdown" class="collapse navbar-collapse offcanvas-collapse"><ul id="main-menu" class="navbar-nav ml-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-22 nav-item"><a title="Search & analyse" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-22">Search & analyse</a>
+						<!-- The WordPress Menu goes here -->
+						<div id="navbarNavDropdown" class="collapse navbar-collapse offcanvas-collapse"><ul id="main-menu" class="navbar-nav ml-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-22 nav-item"><a title="Search &amp; analyse" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-22">Search &#038; analyse</a>
 <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-22" role="menu">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41958 nav-item"><a title="Search species" href="https://bie.ala.org.au/" class="dropdown-item">Search species</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item"><a title="Search & download records" href="https://biocache.ala.org.au/search#tab_simpleSearch" class="dropdown-item">Search & download records</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item"><a title="Search &amp; download records" href="https://biocache.ala.org.au/search#tab_simpleSearch" class="dropdown-item">Search &#038; download records</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28 nav-item"><a title="Search datasets" href="https://collections.ala.org.au/datasets" class="dropdown-item">Search datasets</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41967 nav-item"><hr class="menu-separator"></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24 nav-item"><a title="Spatial analysis (Spatial Portal)" href="https://spatial.ala.org.au/" class="dropdown-item">Spatial analysis (Spatial Portal)</a></li>
@@ -177,36 +425,36 @@ The ALA’s Indigenous">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40728" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40728 nav-item"><a title="Upload species list" href="https://lists.ala.org.au/public/speciesLists" class="dropdown-item">Upload species list</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41968 nav-item"><hr class="menu-separator"></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43213 nav-item"><a title="Record a sighting" href="https://www-test.ala.org.au/home/record-a-sighting/" class="dropdown-item">Record a sighting</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 nav-item"><a title="Transcribe & digitise (DigiVol)" href="https://volunteer.ala.org.au/" class="dropdown-item">Transcribe & digitise (DigiVol)</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa?hub=ala-cs#isCitizenScience%3Dtrue%26isWorldWide%3Dfalse%26max%3D20%26sort%3DdateCreatedSort" class="dropdown-item">Discover citizen science projects</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 nav-item"><a title="Transcribe &amp; digitise (DigiVol)" href="https://volunteer.ala.org.au/" class="dropdown-item">Transcribe &#038; digitise (DigiVol)</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa" class="dropdown-item">Discover citizen science projects</a></li>
 </ul>
 </li>
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44273" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-44273 nav-item"><a title="Resources" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-44273">Resources</a>
-<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-44273" role="menu">
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-44408 nav-item"><a title="Resources" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-44408">Resources</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-44408" role="menu">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43476 nav-item"><a title="Brochures and reports" href="https://www-test.ala.org.au/publications/" class="dropdown-item">Brochures and reports</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44290 nav-item"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/" class="dropdown-item">ALA logo and identity</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44274 nav-item"><a title="ALA-cited publications" href="https://www-test.ala.org.au/ala-cited-publications/" class="dropdown-item">ALA-cited publications</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44410 nav-item"><a title="ALA-cited publications" href="https://www-test.ala.org.au/ala-cited-publications/" class="dropdown-item">ALA-cited publications</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44409 nav-item"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/" class="dropdown-item">ALA logo and identity</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40730 nav-item"><a title="Education resources" href="https://www-test.ala.org.au/education-resources/" class="dropdown-item">Education resources</a></li>
 </ul>
 </li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown active menu-item-178 nav-item"><a title="About" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-178">About</a>
 <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-178" role="menu">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179 nav-item"><a title="About us" href="https://www-test.ala.org.au/about-ala/" class="dropdown-item">About us</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40734 nav-item"><a title="News & media" href="https://www-test.ala.org.au/blog/" class="dropdown-item">News & media</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40734 nav-item"><a title="News &amp; media" href="https://www-test.ala.org.au/blog/" class="dropdown-item">News &#038; media</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175 nav-item"><a title="Contact us" href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41969 nav-item"><hr class="menu-separator"></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43693" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43693 nav-item"><a title="Current projects" href="https://www-test.ala.org.au/current-projects/" class="dropdown-item">Current projects</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40731 nav-item"><a title="International Living Atlases" href="https://living-atlases.gbif.org/" class="dropdown-item">International Living Atlases</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-169 current_page_item active menu-item-177 nav-item"><a title="Indigenous ecological knowledge" href="https://www-test.ala.org.au/indigenous-ecological-knowledge/" class="dropdown-item">Indigenous ecological knowledge</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41970 nav-item"><hr class="menu-separator"></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41796 nav-item"><a title="All sites, services & tools" href="https://www-test.ala.org.au/sites-and-services/" class="dropdown-item">All sites, services & tools</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41796 nav-item"><a title="All sites, services &#038; tools" href="https://www-test.ala.org.au/sites-and-services/" class="dropdown-item">All sites, services &#038; tools</a></li>
 </ul>
 </li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-41391 nav-item"><a title="Help" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-41391">Help</a>
 <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-41391" role="menu">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41959 nav-item"><a title="Browse all articles (FAQs)" href="https://support.ala.org.au/support/home" class="dropdown-item">Browse all articles (FAQs)</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41960 nav-item"><a title="ALA Data help" href="https://support.ala.org.au/support/solutions/6000137994" class="dropdown-item">ALA Data help</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41961" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41961 nav-item"><a title="ALA Tools & Apps help" href="https://support.ala.org.au/support/solutions/6000138053" class="dropdown-item">ALA Tools & Apps help</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41961" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41961 nav-item"><a title="ALA Tools &amp; Apps help" href="https://support.ala.org.au/support/solutions/6000138053" class="dropdown-item">ALA Tools &#038; Apps help</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41962" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41962 nav-item"><a title="ALA Spatial Portal help" href="https://support.ala.org.au/support/solutions/6000138349" class="dropdown-item">ALA Spatial Portal help</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41963 nav-item"><a title="Contact us" href="/contact-us/" class="dropdown-item">Contact us</a></li>
 </ul>
@@ -216,14 +464,14 @@ The ALA’s Indigenous">
 				</div>
 
 	        	        </div>
-		    		</nav>
+		    		</nav><!-- .site-navigation -->
 			    <div id="autocompleteSearchALA" class="collapse">
 	    	<div class="container">
 		        <form method="get" action="https://bie.ala.org.au/search" class="search-form">
 		            <div class="d-flex justify-content-between">
-		                <input id="autocompleteHeader" type="text" name="q" placeholder="Search species, datasets, and more..." class="search-input autocompleteBIE" autocomplete="off">
+		                <input id="autocompleteHeader" type="text" name="q" placeholder="Search species, datasets, and more..." class="search-input autocompleteBIE" autocomplete="off"/>
 		                <button class="search-submit" title="submit">
-		                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 22 22">
+		                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22">
 		                        <defs>
 		                            <style>
 		                                .search-icon {
@@ -232,7 +480,9 @@ The ALA’s Indigenous">
 		                                }
 		                            </style>
 		                        </defs>
-		                        <path class="search-icon" d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z" transform="translate(-1516 -60)"></path>
+		                        <path class="search-icon"
+		                              d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+		                              transform="translate(-1516 -60)"></path>
 		                    </svg>
 		                </button>
 		            </div>
@@ -240,7 +490,7 @@ The ALA’s Indigenous">
 		    </div>
 	    </div>
 	    	    	
-        	</div>
+        	</div><!-- #wrapper-navbar end -->
 
 
 <div class="featured-hero" role="banner" style="background-image: url(https://www-test.ala.org.au/app/uploads/2019/06/purple-coral-pea-banner-image-by-reiner-richter_default-banner-1920-x-720.jpg);">
@@ -257,7 +507,9 @@ The ALA’s Indigenous">
 
 		<div class="row">
 
-			<div class="col-md-8 order-1 order-md-0 content-area" id="primary">
+			<div
+				class="col-md-8 order-1 order-md-0 content-area"
+				id="primary">
 
 				<main class="site-main" id="main" role="main">
 
@@ -285,7 +537,7 @@ The ALA’s Indigenous">
 
 
 
-<p><em><strong>Please note:</strong> Aboriginal and Torres Strait Islander people should be aware that this website (and the links provided) may contain images, voices or names of deceased persons in photographs or printed material.</em></p>
+<p><em><strong>Please note:</strong>&nbsp;Aboriginal and Torres Strait Islander people should be aware that this website (and the links provided) may contain images, voices or names of deceased persons in photographs or printed material.</em></p>
 
 
 		<a name="Yugul-Mangi-Rangers" id="Yugul-Mangi-Rangers" title="Yugul Mangi Rangers" class="sr-only"></a>
@@ -301,7 +553,7 @@ The ALA’s Indigenous">
 
 
 
-<ul><li><a href="https://www.ala.org.au/blogs-news/citizen-science-project-builds-on-award-winning-cross-cultural-collaboration-in-eastern-arnhem-land/">Citizen science project builds on award wining cross-cultural collaboration in eastern Arnhem Land (November 2018)</a></li><li><a href="https://blog.csiro.au/community-led-science-arnhem-land/">Community-led science in Arnhem Land</a></li><li><a href="http://www.ala.org.au/blogs-news/sharing-indigenous-womens-knowledge-of-biodiversity-and-culture-across-tribal-boundaries-in-arnhem-land/">Sharing Indigenous women’s knowledge of biodiversity and culture across tribal boundaries in Arnhem Land</a></li><li><a href="http://www.ala.org.au/wp-content/uploads/2016/06/Roberts_Gumbuli-Learning-both-ways-animal-and-plant-knowledge-in-SE-Arnhem-Land.pdf">ALA Symposium 2016 presentation by Maritza Roberts and Basil Murrungun</a></li><li><a href="http://www.ala.org.au/about-the-atlas/case-studies/test-case-study/">Learning by doing: the Yugul Mangi Rangers and ecologists conduct two-way biodiversity research in remote Arnhem Land with ALA support</a></li><li><a href="http://www.ala.org.au/blogs-news/first-ala-records-of-elusive-leichhardts-grasshopper-in-arnhem-land/">First ALA records of elusive Leichhardt’s Grasshopper in Arnhem Land</a></li><li><a href="http://www.ala.org.au/blogs-news/returning-to-the-remote-country-of-the-ngandi-people/">Returning to the remote Country of the Ngandi people</a></li><li><a href="http://www.ala.org.au/blogs-news/bringing-south-east-arnhem-land-stories-to-south-east-australia-mob/">Bringing south-east Arnhem Land stories to south-east Australia mob</a></li></ul>
+<ul><li><a href="https://www.ala.org.au/blogs-news/citizen-science-project-builds-on-award-winning-cross-cultural-collaboration-in-eastern-arnhem-land/">Citizen science project builds on award wining cross-cultural collaboration in eastern Arnhem Land (November 2018)</a></li><li><a href="https://blog.csiro.au/community-led-science-arnhem-land/">Community-led science in Arnhem Land</a></li><li><a href="http://www.ala.org.au/blogs-news/sharing-indigenous-womens-knowledge-of-biodiversity-and-culture-across-tribal-boundaries-in-arnhem-land/">Sharing Indigenous women’s knowledge of biodiversity and culture across tribal boundaries in Arnhem Land</a></li><li><a href="http://www.ala.org.au/wp-content/uploads/2016/06/Roberts_Gumbuli-Learning-both-ways-animal-and-plant-knowledge-in-SE-Arnhem-Land.pdf">ALA Symposium 2016 presentation by Maritza Roberts and Basil Murrungun</a></li><li><a href="/blogs-news/learning-by-doing-the-ala-is-sponsoring-yugul-mangi-rangers-and-ecologists-to-conduct-two-way-biodiversity-research-in-remote-arnhem-land/">Learning by doing: the Yugul Mangi Rangers and ecologists conduct two-way biodiversity research in remote Arnhem Land with ALA support</a></li><li><a href="http://www.ala.org.au/blogs-news/first-ala-records-of-elusive-leichhardts-grasshopper-in-arnhem-land/">First ALA records of elusive Leichhardt’s Grasshopper in Arnhem Land</a></li><li><a href="http://www.ala.org.au/blogs-news/returning-to-the-remote-country-of-the-ngandi-people/">Returning to the remote Country of the Ngandi people</a></li><li><a href="http://www.ala.org.au/blogs-news/bringing-south-east-arnhem-land-stories-to-south-east-australia-mob/">Bringing south-east Arnhem Land stories to south-east Australia mob</a></li></ul>
 
 
 		<a name="Olkola-People" id="Olkola-People" title="Olkola People" class="sr-only"></a>
@@ -317,7 +569,7 @@ The ALA’s Indigenous">
 
 
 
-<ul><li><a href="http://www.terrijanke.com.au/single-post/2016/12/12/Some-Recent-Projects-by-Anika">Anika Valenti, Solicitor with Terri Janke & Company – IP workshop with Olkola Aboriginal Corporation</a></li><li><a href="http://www.ala.org.au/wp-content/uploads/2016/07/Lyons_Ross-Learning-and-working-together-with-Olkola-people-on-the-ALA-Pilot.pdf">ALA Symposium 2016 presentation by John Ross (Olkola Traditional Owner) and Pethie Lyons (CSIRO)</a></li><li><a href="http://www.ala.org.au/blogs-news/indigenous-ecological-knowledge-the-olkola-people/">Indigenous Ecological Knowledge: The Olkola People</a></li><li><a href="http://www.ala.org.au/blogs-news/indigenous-ecological-knowledge-olkola-and-killarney-station/">Indigenous Ecological Knowledge: Olkola and Killarney Station</a> </li></ul>
+<ul><li><a href="http://www.terrijanke.com.au/single-post/2016/12/12/Some-Recent-Projects-by-Anika">Anika Valenti, Solicitor with Terri Janke &amp; Company – IP workshop with Olkola Aboriginal Corporation</a></li><li><a href="http://www.ala.org.au/wp-content/uploads/2016/07/Lyons_Ross-Learning-and-working-together-with-Olkola-people-on-the-ALA-Pilot.pdf">ALA Symposium 2016 presentation by John Ross (Olkola Traditional Owner) and Pethie Lyons (CSIRO)</a></li><li><a href="http://www.ala.org.au/blogs-news/indigenous-ecological-knowledge-the-olkola-people/">Indigenous Ecological Knowledge: The Olkola People</a></li><li><a href="http://www.ala.org.au/blogs-news/indigenous-ecological-knowledge-olkola-and-killarney-station/">Indigenous Ecological Knowledge: Olkola and Killarney Station</a> </li></ul>
 
 
 		<a name="Indigenous-Seasonal-Calendars" id="Indigenous-Seasonal-Calendars" title="Indigenous Seasonal Calendars" class="sr-only"></a>
@@ -329,11 +581,11 @@ The ALA’s Indigenous">
 
 
 
-<p>ALA is working with Emma Woodward (CSIRO – <a href="https://www.csiro.au/en/Research/Environment/Land-management/Indigenous/Indigenous-calendars">seasonal calendar work</a>) to co-develop with a number of Indigenous communities, the ALA Seasonal Calendar platform. </p>
+<p>ALA is working with Emma Woodward (CSIRO –&nbsp;<a href="https://www.csiro.au/en/Research/Environment/Land-management/Indigenous/Indigenous-calendars">seasonal calendar work</a>) to co-develop with a number of Indigenous communities, the ALA Seasonal Calendar platform. </p>
 
 
 
-<p>Banbai nation people at Wattleridge Indigenous Protected Area in northern New South Wales, are working with Michelle McKemey at the University of New England to develop fire and season calendars. The calendars represent annual seasonal changes as well as biocultural indicators that indicate the right, and wrong, time to burn. They are developed using results of ecological experiments, literature reviews, observations and cultural knowledge gathered through interviews. ALA is working with Michelle to see how the calendar can be incorporated into the ALA Seasonal Calendar platform. See the work of the Banbai here – <a href="http://www.ala.org.au/blogs-news/banbai-nation-and-ngukurr-community-season-and-fire-calendars/">Indigenous fire and seasons calendar.</a></p>
+<p>Banbai nation people at Wattleridge Indigenous Protected Area in northern New South Wales, are working with Michelle McKemey at the University of New England to develop fire and season calendars. The calendars represent annual seasonal changes as well as biocultural indicators that indicate the right, and wrong, time to burn. They are developed using results of ecological experiments, literature reviews, observations and cultural knowledge gathered through interviews. ALA is working with Michelle to see how the calendar can be incorporated into the ALA Seasonal Calendar platform. See the work of the Banbai here – <a href="/blogs-news/banbai-nation-community-season-and-fire-calendars/">Indigenous fire and seasons calendar.</a></p>
 
 
 		<a name="The-Tracks-App" id="The-Tracks-App" title="The Tracks App" class="sr-only"></a>
@@ -345,11 +597,11 @@ The ALA’s Indigenous">
 
 
 
-<p>In 2017 the Central Land Council (CLC) obtained funding to develop a mobile app to support ranger groups in recording their tracking of bilbys and other small mammals, reptiles and pest animal species. The CLC partnered with the ALA to develop the app which was released in March 2018.  Initially The Tracks App will be used by ranger groups in the Northern Territory from the Tanami Desert to the South Australian border region, but it is anticipated that it will eventually be used by approximately 26 ranger groups throughout Australia’s sandy desert country. </p>
+<p>In 2017 the Central Land Council (CLC) obtained funding to develop a mobile app to support ranger groups in recording their tracking of bilbys and other small mammals, reptiles and pest animal species. The CLC partnered with the ALA to develop the app which was released in March 2018.&nbsp; Initially The Tracks App will be used by ranger groups in the Northern Territory from the Tanami Desert to the South Australian border region, but it is anticipated that it will eventually be used by approximately 26 ranger groups throughout Australia’s sandy desert country. </p>
 
 
 
-<ul><li><a href="https://www.ala.org.au/blogs-news/the-tracks-app-a-bi-lingual-mobile-app-exploring-biodiversity-in-an-indigenous-context/">ALA Blog – The Tracks App – a bilingual mobile app being used by Central Land Council rangers</a></li></ul>
+<ul><li><a href="https://www.ala.org.au/blogs-news/the-tracks-app-a-bi-lingual-mobile-app-exploring-biodiversity-in-an-indigenous-context/">ALA Blog – The Tracks App – a bilingual mobile app being used by&nbsp;Central Land Council rangers</a></li></ul>
 
 
 		<a name="Improving-relevance" id="Improving-relevance" title="Improving relevance" class="sr-only"></a>
@@ -365,7 +617,7 @@ The ALA’s Indigenous">
 
 
 
-<ul><li>introduction of specific <strong>spatial layers</strong> into the ALA’s mapping and analysis tools – such as 2o16 Indigenous Protected Areas, Indigenous Land Use Agreement areas, Representative Aboriginal and Torres Straight Islander Body areas.</li><li>modifications to the Species <strong>Profiles app</strong> to upload multi-media files and to improve useability</li><li>addition of a tab and other modifications on ALA <strong>Species pages</strong> to enable Indigenous stories, Indigenous language names and multimedia to be displayed.</li><li>working with communities around how best to show <strong>language names</strong> within the ALA – see <a href="http://www.ala.org.au/wp-content/uploads/2018/09/ALA-IEK-program-Language.pdf">ALA IEK program – Language</a> for an overview (e.g. Warlpiri (see Tracks App) and Kamilaroi/Gamilaraay). The following <a href="http://www.ala.org.au/wp-content/uploads/2017/01/Names-Darwin-Core-Vernacular-name-standardv1.xlsx">spreadsheet</a> provides one format to add language names for species consistent with Darwin Core standards.</li></ul>
+<ul><li>introduction of specific&nbsp;<strong>spatial layers</strong>&nbsp;into the ALA’s mapping and analysis tools – such as 2o16 Indigenous Protected Areas, Indigenous Land Use Agreement areas,&nbsp;Representative Aboriginal and Torres Straight Islander Body areas.</li><li>modifications to the Species&nbsp;<strong>Profiles app</strong>&nbsp;to upload multi-media files and to improve useability</li><li>addition of a tab and other modifications on ALA&nbsp;<strong>Species pages</strong>&nbsp;to enable Indigenous stories, Indigenous language names and multimedia to be displayed.</li><li>working with communities&nbsp;around how best to show&nbsp;<strong>language names</strong>&nbsp;within the ALA – see&nbsp;<a href="http://www.ala.org.au/wp-content/uploads/2018/09/ALA-IEK-program-Language.pdf">ALA IEK program – Language</a>&nbsp;for an overview (e.g. Warlpiri (see Tracks App) and Kamilaroi/Gamilaraay). The following&nbsp;<a href="http://www.ala.org.au/wp-content/uploads/2017/01/Names-Darwin-Core-Vernacular-name-standardv1.xlsx">spreadsheet</a>&nbsp;provides one format to add language names for species consistent with Darwin Core standards.</li></ul>
 
 
 		<a name="Indigenous-Cultural-and-Intellectual-Property" id="Indigenous-Cultural-and-Intellectual-Property" title="Indigenous Cultural and Intellectual Property" class="sr-only"></a>
@@ -377,7 +629,7 @@ The ALA’s Indigenous">
 
 
 
-<p>The ALA worked with <a href="http://www.terrijanke.com.au/">Terri Janke & Company</a> to develop some Indigenous Knowledge Protocols for the ALA. It includes the concept of Indigenous Cultural and Intellectual Property (ICIP) which incorporates all aspects of knowledge (science, plant and animal knowledge, stories, designs and symbols, ritual knowledge), cultural objects (arts, crafts, weapons, tools), performances (ceremonies, dance and song) and human remains and includes the secret and sacred.  As part of a broader review of the terms of use for the ALA – we are working out how best to implement the protocols, which includes guiding principles such as:</p>
+<p>The ALA worked with&nbsp;<a href="http://www.terrijanke.com.au/">Terri Janke &amp; Company</a>&nbsp;to develop some Indigenous Knowledge Protocols for the ALA. It includes the concept of Indigenous Cultural and Intellectual Property (ICIP) which incorporates all aspects of knowledge (science, plant and animal knowledge, stories, designs and symbols, ritual knowledge), cultural objects (arts, crafts, weapons, tools), performances (ceremonies, dance and song) and human remains and includes the secret and sacred. &nbsp;As part of a broader review of the terms of use for the ALA – we are working out how best to implement the protocols, which includes guiding principles such as:</p>
 
 
 
@@ -385,11 +637,11 @@ The ALA’s Indigenous">
 
 
 
-<p>Members of the IEK project team are working with Dr Jane Anderson from <a href="http://localcontexts.org/">Local Contexts</a> to scope out and potentially develop and implement Traditional Knowledge Labels (<a href="http://localcontexts.org/tk-labels/">TK Labels</a>) into various digital platforms within the ALA – e.g. seasonal calendars, Profiles – to support the ethical and equitable data sharing of ecological and environmental knowledge from Aboriginal and Torres Strait Islander peoples and communities.  The intention is to also assess whether we need new TK Labels that will help identify and address Indigenous needs around the sharing of non-secret and non-confidential IEK.</p>
+<p>Members of the IEK project team are working with Dr Jane Anderson from&nbsp;<a href="http://localcontexts.org/">Local Contexts</a>&nbsp;to scope out and potentially develop and implement Traditional Knowledge Labels (<a href="http://localcontexts.org/tk-labels/">TK Labels</a>) into various digital platforms within the ALA – e.g. seasonal calendars, Profiles – to support the ethical and equitable data sharing of ecological and environmental knowledge from Aboriginal and Torres Strait Islander peoples and communities.&nbsp; The intention is to also assess whether we need new TK Labels that will help identify and address Indigenous needs around the sharing of non-secret and non-confidential IEK.</p>
 
 
 
-<p>The presentation, <a href="http://Digital%20Platforms%20and%20Indigenous%20Knowledge">Digital Platforms and Indigenous Knowledge – ALA</a>, to the 2019 AIATSIS National Research Conference on Indigenous Knowledge and Digital Platforms provides an overview of some of the issues and opportunities around the protection of ICIP in digital infrastructures such as the ALA.</p>
+<p>The presentation, <a href="https://aiatsis.gov.au/publications/presentations/digital-platforms-and-indigenous-knowledge-atlas-living-australia">Digital Platforms and Indigenous Knowledge ALA</a>, to the 2019 AIATSIS National Research Conference on Indigenous Knowledge and Digital Platforms provides an overview of some of the issues and opportunities around the protection of ICIP in digital infrastructures such as the ALA.</p>
 
 
 		<a name="Indigenous-Languages" id="Indigenous-Languages" title="Indigenous Languages" class="sr-only"></a>
@@ -401,15 +653,15 @@ The ALA’s Indigenous">
 
 
 
-<p>The ALA has been working with knowledge holders from the Kamilaroi nation (north eastern NSW and south eastern Queensland), researchers at CSIRO Land & Water and environmental consultant  Michelle McKemey from Melaleuca Enterprises to map 683 Indigenous plant and animal names (in three related Kamilaroi languages: Kamilaroi/Gamilaroi/Gamilaraay (alternate spellings of one language), Yuwaalayaay and Yuwaalaraay) to Latin species names in the ALA. </p>
+<p>The ALA has been working with knowledge holders from the Kamilaroi nation (north eastern NSW and south eastern Queensland), researchers at CSIRO Land &amp; Water and environmental consultant&nbsp; Michelle McKemey from Melaleuca Enterprises to map 683 Indigenous plant and animal names (in three related Kamilaroi languages: Kamilaroi/Gamilaroi/Gamilaraay (alternate spellings of one language), Yuwaalayaay and Yuwaalaraay) to Latin species names in the ALA. </p>
 
 
 
-<ul><li>ALA Blog – <a href="https://www.ala.org.au/blogs-news/indigenous-language-names-in-the-ala/">Indigenous language names in the ALA </a></li></ul>
+<ul><li>ALA Blog &#8211; <a href="https://www.ala.org.au/blogs-news/indigenous-language-names-in-the-ala/">Indigenous language names in the ALA </a></li></ul>
 
 
 
-<p>The <a href="http://laal.cdu.edu.au/">Living Archive of Aboriginal Languages</a> has teamed up with ALA and Digivol to crowdsource the transcription of some of the literature materials shared through the archive. The Living Archive is a digital archive of endangered literature in Indigenous languages of the Northern Territory. It currently contains over 3500 items in 50 Indigenous languages, all available under a Creative Commons license.  Join in!</p>
+<p>The&nbsp;<a href="http://laal.cdu.edu.au/">Living Archive of Aboriginal Languages</a>&nbsp;has teamed up with ALA and Digivol to crowdsource the transcription of some of the literature materials shared through the archive.&nbsp;The Living Archive is a digital archive of endangered literature in Indigenous languages of the Northern Territory. It currently contains over 3500 items in 50 Indigenous languages, all available under a Creative Commons license.&nbsp; Join in!</p>
 
 
 
@@ -425,27 +677,27 @@ The ALA’s Indigenous">
 
 
 
-<p>ALA is being used in the classroom to celebrate traditional knowledge and culture.  Former teacher and CSIRO’s <a href="https://www.csiro.au/en/Education/Programs/Indigenous-STEM">Indigenous STEM Program</a> Coordinator Geoff Guymer uses his experience in working in remote communities in the Northern Territory to give a classification activity a local Indigenous focus. </p>
+<p>ALA is being used in the classroom to celebrate traditional knowledge and culture.&nbsp; Former teacher and CSIRO’s&nbsp;<a href="https://www.csiro.au/en/Education/Programs/Indigenous-STEM">Indigenous STEM Program</a>&nbsp;Coordinator Geoff Guymer uses his experience in working in remote communities in the Northern Territory to give a classification activity a local Indigenous focus.&nbsp;</p>
 
 
 
 <ul><li><a href="https://www.ala.org.au/blogs-news/using-ala-in-the-classroom-classification/">ALA Blog – Using ALA in the classroom – Classification</a></li></ul>
 
 		
-	</div>
+	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 
 		
-	</footer>
+	</footer><!-- .entry-footer -->
 
-</article>
+</article><!-- #post-## -->
 
 						
 					
-				</main>
+				</main><!-- #main -->
 
-			</div>
+			</div><!-- #primary -->
 
 			
 <div class="col-md-3 order-0 order-md-1 widget-area" id="right-sidebar" role="complementary">
@@ -454,27 +706,27 @@ The ALA’s Indigenous">
 			<div class="scrollable" data-sticky>
 				<h3 class="widget-title">Jump to section...</h3>
 				<div class="anchors list-group" id="anchorList">
-												<a href="#Overview" title="Overview" class="list-group-item list-group-item-action"><span>Overview</span></a>	
-																	<a href="#Yugul-Mangi-Rangers" title="Yugul Mangi Rangers" class="list-group-item list-group-item-action"><span>Yugul Mangi Rangers</span></a>	
-																	<a href="#Olkola-People" title="Olkola People" class="list-group-item list-group-item-action"><span>Olkola People</span></a>	
-																	<a href="#Indigenous-Seasonal-Calendars" title="Indigenous Seasonal Calendars" class="list-group-item list-group-item-action"><span>Indigenous Seasonal Calendars</span></a>	
-																	<a href="#The-Tracks-App" title="The Tracks App" class="list-group-item list-group-item-action"><span>The Tracks App</span></a>	
-																	<a href="#Improving-relevance" title="Improving relevance" class="list-group-item list-group-item-action"><span>Improving relevance</span></a>	
-																	<a href="#Indigenous-Cultural-and-Intellectual-Property" title="Indigenous Cultural and Intellectual Property" class="list-group-item list-group-item-action"><span>Indigenous Cultural and Intellectual Property</span></a>	
-																	<a href="#Indigenous-Languages" title="Indigenous Languages" class="list-group-item list-group-item-action"><span>Indigenous Languages</span></a>	
-																	<a href="#IEK-Education-Resources" title="IEK Education Resources" class="list-group-item list-group-item-action"><span>IEK Education Resources</span></a>	
-													</div>
+				<!-- block core/paragraph --><!-- block  --><!-- block acf/content-anchor -->								<a href="#Overview" title="Overview" class="list-group-item list-group-item-action"><span>Overview</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block acf/content-anchor -->								<a href="#Yugul-Mangi-Rangers" title="Yugul Mangi Rangers" class="list-group-item list-group-item-action"><span>Yugul Mangi Rangers</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/list --><!-- block  --><!-- block acf/content-anchor -->								<a href="#Olkola-People" title="Olkola People" class="list-group-item list-group-item-action"><span>Olkola People</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/list --><!-- block  --><!-- block acf/content-anchor -->								<a href="#Indigenous-Seasonal-Calendars" title="Indigenous Seasonal Calendars" class="list-group-item list-group-item-action"><span>Indigenous Seasonal Calendars</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block acf/content-anchor -->								<a href="#The-Tracks-App" title="The Tracks App" class="list-group-item list-group-item-action"><span>The Tracks App</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/list --><!-- block  --><!-- block acf/content-anchor -->								<a href="#Improving-relevance" title="Improving relevance" class="list-group-item list-group-item-action"><span>Improving relevance</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/list --><!-- block  --><!-- block acf/content-anchor -->								<a href="#Indigenous-Cultural-and-Intellectual-Property" title="Indigenous Cultural and Intellectual Property" class="list-group-item list-group-item-action"><span>Indigenous Cultural and Intellectual Property</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/list --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block acf/content-anchor -->								<a href="#Indigenous-Languages" title="Indigenous Languages" class="list-group-item list-group-item-action"><span>Indigenous Languages</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/list --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/list --><!-- block  --><!-- block acf/content-anchor -->								<a href="#IEK-Education-Resources" title="IEK Education Resources" class="list-group-item list-group-item-action"><span>IEK Education Resources</span></a>	
+									<!-- block  --><!-- block core/heading --><!-- block  --><!-- block core/paragraph --><!-- block  --><!-- block core/list -->				</div>
 				<a href="#page" title="Back to Top" class="back"><i class="fas fa-arrow-to-top"></i> Back to Top</a>
 			</div>
 		</aside>
 
-</div>
+</div><!-- #right-sidebar -->
 
-		</div>
+		</div><!-- .row -->
 
-	</div>
+	</div><!-- Container end -->
 
-</div>
+</div><!-- Wrapper end -->
 
 
 
@@ -486,7 +738,7 @@ The ALA’s Indigenous">
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px" /></a>
 					<div class="account">
 													
 						<div class="ala-auth-buttons-logged-in d-none">
@@ -504,41 +756,41 @@ The ALA’s Indigenous">
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
-				</div>
+				</div><!--col end -->
 				<div class="col-md-6 col-lg-4 content-column">
 										<div class="d-flex">
 						<div class="image">
-							<img src="https://www-test.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg" alt="iNaturalist logo" id="inat-logo">
+							<img src="https://www-test.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg" alt="iNaturalist logo" id="inat-logo" />
 						</div>
 						<div class="content">
 							<h4><a href="https://www.ala.org.au/home/record-a-sighting/">Record a sighting</a></h4>
 <p>Upload your observations, identify species, and contribute to the ALA.</p>
 						</div>
 					</div>
-				</div>
+				</div><!--col end -->
 				<div class="col-md-6 col-lg-4 content-column">
 										<div class="d-flex">
 						<div class="image">
-							<img src="https://www-test.ala.org.au/app/uploads/2019/06/19-0078_ALA_ICON_IconSuite_Spatial-Portal-white.svg" alt="">
+							<img src="https://www-test.ala.org.au/app/uploads/2019/06/19-0078_ALA_ICON_IconSuite_Spatial-Portal-white.svg" alt="" />
 						</div>
 						<div class="content">
 							<h4><a href="https://spatial.ala.org.au/">Explore the Spatial Portal</a></h4>
 <p>Visualise and analyse relationships between species, location and environment.</p>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
+				</div><!--col end -->
+			</div><!-- row end -->
+		</div><!-- container end -->
 	</div>
 
 	<div class="footer-middle">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-lg-3">
-					<div class="footer-menu"><ul id="menu-search-analyse" class="menu"><li id="menu-item-208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Search & analyse" href="#">Search & analyse</a>
+					<div class="footer-menu"><ul id="menu-search-analyse" class="menu"><li id="menu-item-208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Search &amp; analyse" href="#">Search &#038; analyse</a>
 <ul class="sub-menu">
 	<li id="menu-item-41964" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search species" href="https://bie.ala.org.au/">Search species</a></li>
-	<li id="menu-item-209" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search & download records" href="https://biocache.ala.org.au/search#tab_simpleSearch">Search & download records</a></li>
+	<li id="menu-item-209" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search &amp; download records" href="https://biocache.ala.org.au/search#tab_simpleSearch">Search &#038; download records</a></li>
 	<li id="menu-item-210" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search datasets" href="https://collections.ala.org.au/datasets">Search datasets</a></li>
 	<li id="menu-item-211" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Spatial analysis (Spatial Portal)" href="https://spatial.ala.org.au/">Spatial analysis (Spatial Portal)</a></li>
 	<li id="menu-item-215" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Explore your area" href="https://biocache.ala.org.au/explore/your-area">Explore your area</a></li>
@@ -548,26 +800,26 @@ The ALA’s Indigenous">
 	<li id="menu-item-40716" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Browse specimen images" href="https://specimens.ala.org.au/">Browse specimen images</a></li>
 </ul>
 </li>
-</ul></div>				</div>
+</ul></div>				</div><!--col end -->
 				<div class="col-md-6 col-lg-3">
 					<div class="footer-menu"><ul id="menu-contribute" class="menu"><li id="menu-item-218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Contribute" href="#">Contribute</a>
 <ul class="sub-menu">
 	<li id="menu-item-40774" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Share your dataset" href="https://support.ala.org.au/support/solutions/articles/6000195493-how-to-submit-a-data-set">Share your dataset</a></li>
 	<li id="menu-item-40718" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Upload species list" href="https://lists.ala.org.au/public/speciesLists">Upload species list</a></li>
 	<li id="menu-item-43212" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Record a sighting" href="https://www-test.ala.org.au/home/record-a-sighting/">Record a sighting</a></li>
-	<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Transcribe & digitise (DigiVol)" href="https://digivol.ala.org.au/">Transcribe & digitise (DigiVol)</a></li>
-	<li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa?hub=ala-cs#isCitizenScience%3Dtrue%26isWorldWide%3Dfalse%26max%3D20%26sort%3DdateCreatedSort">Discover citizen science projects</a></li>
+	<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Transcribe &amp; digitise (DigiVol)" href="https://digivol.ala.org.au/">Transcribe &#038; digitise (DigiVol)</a></li>
+	<li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa">Discover citizen science projects</a></li>
 	<li id="menu-item-222" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Download mobile apps" href="https://www.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/">Download mobile apps</a></li>
 </ul>
 </li>
 </ul></div>				</div>
 				<div class="col-md-6 col-lg-3">
-					<div class="footer-menu"><ul id="menu-resources" class="menu"><li id="menu-item-44281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Resources" href="#">Resources</a>
+					<div class="footer-menu"><ul id="menu-resources" class="menu"><li id="menu-item-44402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Resources" href="#">Resources</a>
 <ul class="sub-menu">
-	<li id="menu-item-44283" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Brochures and reports" href="https://www-test.ala.org.au/publications/">Brochures and reports</a></li>
-	<li id="menu-item-44289" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/">ALA logo and identity</a></li>
-	<li id="menu-item-44282" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA-cited publications" href="https://www-test.ala.org.au/ala-cited-publications/">ALA-cited publications</a></li>
-	<li id="menu-item-44284" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Education Resources" href="https://www-test.ala.org.au/education-resources/">Education Resources</a></li>
+	<li id="menu-item-44398" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Brochures and reports" href="https://www-test.ala.org.au/publications/">Brochures and reports</a></li>
+	<li id="menu-item-44399" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA-cited publications" href="https://www-test.ala.org.au/ala-cited-publications/">ALA-cited publications</a></li>
+	<li id="menu-item-44401" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/">ALA logo and identity</a></li>
+	<li id="menu-item-44400" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Education resources" href="https://www-test.ala.org.au/education-resources/">Education resources</a></li>
 </ul>
 </li>
 </ul></div>				</div>
@@ -575,12 +827,12 @@ The ALA’s Indigenous">
 					<div class="footer-menu"><ul id="menu-about" class="menu"><li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children"><a title="About" href="https://www-test.ala.org.au/about-ala/">About</a>
 <ul class="sub-menu">
 	<li id="menu-item-40724" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About us" href="https://www-test.ala.org.au/about-ala/">About us</a></li>
-	<li id="menu-item-41965" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="News & media" href="/blog/">News & media</a></li>
+	<li id="menu-item-41965" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="News &amp; media" href="/blog/">News &#038; media</a></li>
 	<li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Contact us" href="https://www-test.ala.org.au/contact-us/">Contact us</a></li>
 	<li id="menu-item-43694" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Current projects" href="https://www-test.ala.org.au/current-projects/">Current projects</a></li>
 	<li id="menu-item-40721" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="International Living Atlases" href="https://living-atlases.gbif.org/">International Living Atlases</a></li>
 	<li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-169 current_page_item"><a title="Indigenous ecological knowledge" href="https://www-test.ala.org.au/indigenous-ecological-knowledge/">Indigenous ecological knowledge</a></li>
-	<li id="menu-item-41966" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="All sites, services & tools" href="/sites-and-services/">All sites, services & tools</a></li>
+	<li id="menu-item-41966" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="All sites, services &amp; tools" href="/sites-and-services/">All sites, services &#038; tools</a></li>
 </ul>
 </li>
 </ul></div>				</div>
@@ -606,14 +858,14 @@ The ALA’s Indigenous">
 					<div class="footer-menu"><ul id="menu-community-hubs" class="menu"><li id="menu-item-41590" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Community hubs" href="#">Community hubs</a>
 <ul class="sub-menu">
 	<li id="menu-item-41591" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="AVH: Australasian Virtual Herbarium" href="https://avh.ala.org.au/">AVH: Australasian Virtual Herbarium</a></li>
-	<li id="menu-item-41592" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="OZCAM: Online Zoological Collections..." href="https://ozcam.ala.org.au/">OZCAM: Online Zoological Collections…</a></li>
+	<li id="menu-item-41592" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="OZCAM: Online Zoological Collections..." href="https://ozcam.ala.org.au/">OZCAM: Online Zoological Collections&#8230;</a></li>
 	<li id="menu-item-41593" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ASBP: Australian Seed Bank Partnership" href="https://asbp.ala.org.au/">ASBP: Australian Seed Bank Partnership</a></li>
 	<li id="menu-item-41594" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="MDBA: Murray-Darling Basin Authority" href="https://mdba.ala.org.au/">MDBA: Murray-Darling Basin Authority</a></li>
 </ul>
 </li>
 </ul></div>				</div>
 				<div class="col-md-6 col-lg-3">
-					<div class="footer-menu"><ul id="menu-ala-for" class="menu"><li id="menu-item-41868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="ALA for..." href="#">ALA for…</a>
+					<div class="footer-menu"><ul id="menu-ala-for" class="menu"><li id="menu-item-41868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="ALA for..." href="#">ALA for&#8230;</a>
 <ul class="sub-menu">
 	<li id="menu-item-41867" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA for researchers" href="/ala-for-researchers">ALA for researchers</a></li>
 	<li id="menu-item-41866" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA for government and land managers" href="/ala-for-government-and-land-managers-2/">ALA for government and land managers</a></li>
@@ -622,24 +874,23 @@ The ALA’s Indigenous">
 </li>
 </ul></div>				</div>
 				<div class="col-md-6 col-lg-3">
-					<div class="footer-menu"><ul id="menu-help" class="menu"><li id="menu-item-44275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Help" href="#">Help</a>
+					<div class="footer-menu"><ul id="menu-help" class="menu"><li id="menu-item-44403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Help" href="#">Help</a>
 <ul class="sub-menu">
-	<li id="menu-item-44276" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Browse all articles (FAQs)" href="https://support.ala.org.au/support/home">Browse all articles (FAQs)</a></li>
-	<li id="menu-item-44277" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Data help" href="https://support.ala.org.au/support/solutions/6000137994">ALA Data help</a></li>
-	<li id="menu-item-44278" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Tools & Apps help" href="https://support.ala.org.au/support/solutions/6000138053">ALA Tools & Apps help</a></li>
-	<li id="menu-item-44279" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Spatial Portal help" href="https://support.ala.org.au/support/solutions/6000138349">ALA Spatial Portal help</a></li>
-	<li id="menu-item-44280" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Contact Us" href="https://www-test.ala.org.au/contact-us/">Contact Us</a></li>
+	<li id="menu-item-44404" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Data help" href="https://support.ala.org.au/support/solutions/6000137994">ALA Data help</a></li>
+	<li id="menu-item-44405" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Tools &amp; Apps help" href="https://support.ala.org.au/support/solutions/6000138053">ALA Tools &#038; Apps help</a></li>
+	<li id="menu-item-44406" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Spatial Portal help" href="https://support.ala.org.au/support/solutions/6000138349">ALA Spatial Portal help</a></li>
+	<li id="menu-item-44407" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Contact Us" href="https://www-test.ala.org.au/contact-us/">Contact Us</a></li>
 </ul>
 </li>
 </ul></div>				</div>
 				<div class="col-md-12">
-					<div class="footer-menu-horizontal"><ul id="menu-other-links" class="menu horizontal"><li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="News & media" href="https://www-test.ala.org.au/blog/">News & media</a></li>
+					<div class="footer-menu-horizontal"><ul id="menu-other-links" class="menu horizontal"><li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="News &amp; media" href="https://www-test.ala.org.au/blog/">News &#038; media</a></li>
 <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Help" href="https://support.ala.org.au/support/home">Help</a></li>
-<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Developer tools & documentation" href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer tools & documentation</a></li>
-<li id="menu-item-41795" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="All sites, services & tools" href="https://www-test.ala.org.au/sites-and-services/">All sites, services & tools</a></li>
+<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Developer tools &amp; documentation" href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer tools &#038; documentation</a></li>
+<li id="menu-item-41795" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="All sites, services &#038; tools" href="https://www-test.ala.org.au/sites-and-services/">All sites, services &#038; tools</a></li>
 </ul></div>				</div>
-			</div>
-		</div>
+			</div><!-- row end -->
+		</div><!-- container end -->
 	</div>
 
 	<div class="footer-bottom">
@@ -647,14 +898,14 @@ The ALA’s Indigenous">
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
-				</div>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109" /></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109" /></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109" /></a></p>
+				</div><!--col end -->
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
 <p>The Atlas of Living Australia acknowledges Australia’s Traditional Owners and pays respect to the past and present Elders of the nation’s Aboriginal and Torres Strait Islander communities. We honour and celebrate the spiritual, cultural and customary connections of Traditional Owners to country and the biodiversity that forms part of that country.</p>
-				</div>
-			</div>
-		</div>
+				</div><!--col end -->
+			</div><!-- row end -->
+		</div><!-- container end -->
 	</div>
 
 	<div class="footer-copyright">
@@ -664,28 +915,36 @@ The ALA’s Indigenous">
 					<p class="alert-text text-creativecommons">
 						This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative Commons Attribution 3.0 Australia License</a> <a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/"><img alt="Creative Commons License" style="border-width:0" src="/app/themes/pvtl/images/cc-by.png"></a>
 					</p>
-				</div>
+				</div><!--col end -->
 				<div class="col-md-12 col-lg-5 text-lg-right">
 					<ul class="menu horizontal">
 						<li><a href="/terms-of-use#cy">Copyright</a></li>
 						<li><a href="/terms-of-use">Terms of Use</a></li>
 						<li><a href="https://status.ala.org.au/">System Status</a></li>
 					</ul>
-				</div>
-			</div>
-		</div>
+				</div><!--col end -->
+			</div><!-- row end -->
+		</div><!-- container end -->
 	</div>
 
-</footer>
+</footer><!-- wrapper end -->
 
-</div>
+</div><!-- #page we need this extra closing tag here -->
 
-<div class="modal fade experience-modal" id="experience-modal" tabindex="-1" role="dialog" aria-labelledby="experience-modal" aria-hidden="true" data-backdrop="true">
+<div
+	class="modal fade experience-modal"
+	id="experience-modal"
+	tabindex="-1"
+	role="dialog"
+	aria-labelledby="experience-modal"
+	aria-hidden="true"
+	data-backdrop="true"
+>
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">×</span>
+					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 
@@ -695,15 +954,36 @@ The ALA’s Indigenous">
 <p>Which group do you associate with most?</p>
 									<div class="experience-groups">
 													<div class="experience-group">
-							<button type="button" data-name="Researchers" class="group-btn group-btn-red group-btn-1" data-toggle="tooltip" data-placement="right" title="Researchers includes ecoscientists, taxonomists, collection owners, tertiary students and lecturers.">
+							<button
+                                        type="button"
+                                        data-name="Researchers"
+                                        class="group-btn group-btn-red group-btn-1"
+                                        data-toggle="tooltip"
+                                        data-placement="right"
+                                        title="Researchers includes ecoscientists, taxonomists, collection owners, tertiary students and lecturers."
+                                    >
                                         Researchers
                                     </button>							</div>
 													<div class="experience-group">
-							<button type="button" data-name="Government and land managers" class="group-btn group-btn-red group-btn-2" data-toggle="tooltip" data-placement="right" title="Government and land managers includes federal, state and local government departments, land managers, landowners, rangers, non-government organisations, and environmental consultants.">
+							<button
+                                        type="button"
+                                        data-name="Government and land managers"
+                                        class="group-btn group-btn-red group-btn-2"
+                                        data-toggle="tooltip"
+                                        data-placement="right"
+                                        title="Government and land managers includes federal, state and local government departments, land managers, landowners, rangers, non-government organisations, and environmental consultants."
+                                    >
                                         Government and land managers
                                     </button>							</div>
 													<div class="experience-group">
-							<button type="button" data-name="Community and schools" class="group-btn group-btn-red group-btn-3" data-toggle="tooltip" data-placement="right" title="Community and schools includes citizen scientists, community groups, school students and teachers, and the general public.">
+							<button
+                                        type="button"
+                                        data-name="Community and schools"
+                                        class="group-btn group-btn-red group-btn-3"
+                                        data-toggle="tooltip"
+                                        data-placement="right"
+                                        title="Community and schools includes citizen scientists, community groups, school students and teachers, and the general public."
+                                    >
                                         Community and schools
                                     </button>							</div>
 												<div class="experience-group">
@@ -718,14 +998,15 @@ The ALA’s Indigenous">
 		</div>
 	</div>
 </div>
-<script type="text/javascript" id="child-understrap-scripts-js-extra">
+<script type='text/javascript' id='child-understrap-scripts-js-extra'>
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
+<script type='text/javascript' src='https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js?ver=1.0' id='child-understrap-scripts-js'></script>
+<script type='text/javascript' src='https://www-test.ala.org.au/wp/wp-includes/js/wp-embed.js?ver=5.5.3' id='wp-embed-js'></script>
 
-
+<!-- ALA self hosted analytics -->
 <script type="text/javascript">
   var _paq = window._paq || [];
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
@@ -741,8 +1022,8 @@ var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/a
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'ash.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="https://ash.ala.org.au/ash.php?idsite=1&rec=1" style="border:0;" alt=""></p></noscript>
-
+<noscript><p><img src="https://ash.ala.org.au/ash.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End ALA self hosted analytics -->
 
 <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
 <script type="text/javascript">
@@ -752,3 +1033,4 @@ FreshWidget.init("", {"queryString": "&widgetType=popup&helpdesk_ticket[group_id
 </body>
 
 </html>
+

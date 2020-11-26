@@ -2,74 +2,32 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www-test.ala.org.au/blogs-news/wednesday-climbing-fern/</loc>
-    <lastmod>2020-11-18T16:14:39+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/monday-corroboree-frog/</loc>
-    <lastmod>2020-11-16T17:48:33+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/monday-fly-agaric/</loc>
-    <lastmod>2020-11-16T15:10:46+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/monday-rainbow-lorikeet/</loc>
-    <lastmod>2020-11-16T12:14:35+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/monday-squid/</loc>
-    <lastmod>2020-11-16T10:56:10+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/in-news-just-to-hand-its-tuesday/</loc>
-    <lastmod>2020-11-10T13:00:05+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/its-monday/</loc>
-    <lastmod>2020-11-09T11:59:52+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/breaking-news-its-wednesday/</loc>
-    <lastmod>2020-11-04T10:19:48+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/a-shiny-new-blog-post/</loc>
-    <lastmod>2020-11-03T10:43:42+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/its-another-blog-post/</loc>
-    <lastmod>2020-10-27T15:15:54+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www-test.ala.org.au/blogs-news/its-a-blog-post/</loc>
-    <lastmod>2020-10-27T10:25:00+00:00</lastmod>
+    <loc>https://www-test.ala.org.au/blogs-news/monday-morning-squid/</loc>
+    <lastmod>2020-11-16T10:43:36+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www-test.ala.org.au/ala-cited-publications/</loc>
-    <lastmod>2020-11-17T01:44:16+00:00</lastmod>
+    <lastmod>2020-11-04T15:35:51+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www-test.ala.org.au/blogs-news/data-in-the-ala-bushfire-affected-areas-2019-2020-bushfire-season/</loc>
+    <lastmod>2020-09-30T10:09:12+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www-test.ala.org.au/blogs-news/national-science-week-2020/</loc>
+    <lastmod>2020-09-09T17:05:52+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www-test.ala.org.au/education-blogs-news/ala-helps-educators-learn-more-on-the-high-seas/</loc>
+    <lastmod>2020-08-07T09:37:20+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -99,7 +57,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/blogs-news/refreshing-our-spatial-services/</loc>
-    <lastmod>2020-09-10T11:17:13+00:00</lastmod>
+    <lastmod>2020-07-13T10:17:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -135,7 +93,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/ala-logo-and-identity/</loc>
-    <lastmod>2020-09-02T11:28:07+00:00</lastmod>
+    <lastmod>2020-11-02T10:30:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -201,7 +159,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/blogs-news/message-from-andre-zerger-atlas-of-living-australia-director/</loc>
-    <lastmod>2020-02-27T10:32:51+00:00</lastmod>
+    <lastmod>2020-09-09T13:04:30+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -219,7 +177,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/data-quality-project/</loc>
-    <lastmod>2020-05-07T16:05:13+00:00</lastmod>
+    <lastmod>2020-08-04T13:42:01+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -273,7 +231,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/blogs-news/indigenous-language-names-in-the-ala/</loc>
-    <lastmod>2019-10-29T12:37:27+00:00</lastmod>
+    <lastmod>2020-09-10T15:10:01+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -309,7 +267,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/govhack/</loc>
-    <lastmod>2019-08-22T10:47:33+00:00</lastmod>
+    <lastmod>2020-08-18T10:10:54+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -441,7 +399,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/sites-and-services/</loc>
-    <lastmod>2020-06-04T12:49:48+00:00</lastmod>
+    <lastmod>2020-09-09T12:57:12+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -555,7 +513,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/contact-us/</loc>
-    <lastmod>2020-09-25T15:19:30+00:00</lastmod>
+    <lastmod>2020-09-25T15:38:55+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -567,13 +525,13 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/indigenous-ecological-knowledge/</loc>
-    <lastmod>2020-04-08T13:49:39+00:00</lastmod>
+    <lastmod>2020-09-09T17:01:50+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www-test.ala.org.au/about-ala/</loc>
-    <lastmod>2020-09-17T11:44:47+00:00</lastmod>
+    <lastmod>2020-09-30T12:12:58+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -585,7 +543,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/publications/</loc>
-    <lastmod>2020-11-09T11:21:27+00:00</lastmod>
+    <lastmod>2020-11-10T13:37:17+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -597,7 +555,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/</loc>
-    <lastmod>2020-07-08T13:43:56+00:00</lastmod>
+    <lastmod>2020-11-02T11:33:29+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
@@ -645,7 +603,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/blogs-news/citizen-science-project-builds-on-award-winning-cross-cultural-collaboration-in-eastern-arnhem-land/</loc>
-    <lastmod>2019-07-18T12:50:32+00:00</lastmod>
+    <lastmod>2020-09-10T08:48:23+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -681,7 +639,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/blogs-news/another-way-to-find-citizen-science-projects/</loc>
-    <lastmod>2018-08-07T10:00:08+00:00</lastmod>
+    <lastmod>2020-09-14T14:45:42+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -885,7 +843,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/old-biocollect/biocollect-hubs/</loc>
-    <lastmod>2019-07-23T12:15:05+00:00</lastmod>
+    <lastmod>2020-09-15T11:33:42+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1515,7 +1473,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/south-australian-museum/</loc>
-    <lastmod>2015-04-28T14:21:03+00:00</lastmod>
+    <lastmod>2020-09-03T10:49:29+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1695,19 +1653,19 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/classroom-exercises/exercises-foundation-to-year-2/</loc>
-    <lastmod>2020-06-26T11:30:34+00:00</lastmod>
+    <lastmod>2020-09-10T10:17:06+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www-test.ala.org.au/education-resources/</loc>
-    <lastmod>2020-08-03T11:57:33+00:00</lastmod>
+    <lastmod>2020-09-09T13:12:37+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www-test.ala.org.au/classroom-exercises/</loc>
-    <lastmod>2020-03-03T11:56:47+00:00</lastmod>
+    <lastmod>2020-09-09T17:36:47+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1743,7 +1701,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/</loc>
-    <lastmod>2020-04-24T09:44:49+00:00</lastmod>
+    <lastmod>2020-09-09T13:02:06+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2481,7 +2439,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/terms-of-use/privacy-policy/</loc>
-    <lastmod>2011-10-27T12:53:50+00:00</lastmod>
+    <lastmod>2020-09-15T10:01:59+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2517,7 +2475,7 @@
   </url>
   <url>
     <loc>https://www-test.ala.org.au/terms-of-use/</loc>
-    <lastmod>2019-10-18T09:15:46+00:00</lastmod>
+    <lastmod>2020-09-09T11:09:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

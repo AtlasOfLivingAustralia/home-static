@@ -4,89 +4,337 @@
 	<meta charset="UTF-8">
 	<meta name="id" content="13891">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-	<title>Sharing data through the Atlas – Atlas of Living Australia</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<title>Sharing data through the Atlas &#8211; Atlas of Living Australia</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Atlas of Living Australia &raquo; Feed" href="https://www-test.ala.org.au/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Atlas of Living Australia &raquo; Comments Feed" href="https://www-test.ala.org.au/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/www-test.ala.org.au\/wp\/wp-includes\/js\/wp-emoji.js?ver=5.5.3","twemoji":"https:\/\/www-test.ala.org.au\/wp\/wp-includes\/js\/twemoji.js?ver=5.5.3"}};
+			/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
 
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="dns-prefetch" href="//s.w.org">
+( function( window, document, settings ) {
+	var src, ready, ii, tests;
 
+	// Create a canvas element for testing native browser support of emoji.
+	var canvas = document.createElement( 'canvas' );
+	var context = canvas.getContext && canvas.getContext( '2d' );
 
-<link rel="stylesheet" id="wp-block-library-css" href="https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="child-understrap-styles-css" href="https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&ver=5.5.3" type="text/css" media="all">
-<link rel="stylesheet" id="pvtl-recent-posts-widget-styles-css" href="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/css/widget.css" type="text/css" media="all">
-<link rel="stylesheet" id="tablepress-default-css" href="https://www-test.ala.org.au/app/plugins/tablepress/css/default.css" type="text/css" media="all">
-<script type="text/javascript" src="https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js" id="popper-scripts-js"></script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/plugins/pvtl-recent-posts/js/widget.js" id="pvtl-recent-posts-script-js"></script>
+	/**
+	 * Checks if two sets of Emoji characters render the same visually.
+	 *
+	 * @since 4.9.0
+	 *
+	 * @private
+	 *
+	 * @param {number[]} set1 Set of Emoji character codes.
+	 * @param {number[]} set2 Set of Emoji character codes.
+	 *
+	 * @return {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( set1, set2 ) {
+		var stringFromCharCode = String.fromCharCode;
 
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set1 ), 0, 0 );
+		var rendered1 = canvas.toDataURL();
 
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, canvas.width, canvas.height );
+		context.fillText( stringFromCharCode.apply( this, set2 ), 0, 0 );
+		var rendered2 = canvas.toDataURL();
 
+		return rendered1 === rendered2;
+	}
 
+	/**
+	 * Detects if the browser supports rendering emoji or flag emoji.
+	 *
+	 * Flag emoji are a single glyph made of two characters, so some browsers
+	 * (notably, Firefox OS X) don't support them.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @private
+	 *
+	 * @param {string} type Whether to test for support of "flag" or "emoji".
+	 *
+	 * @return {boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( type ) {
+		var isIdentical;
 
+		if ( ! context || ! context.fillText ) {
+			return false;
+		}
 
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
 
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for Transgender flag compatibility. This flag is shortlisted for the Emoji 13 spec,
+				 * but has landed in Twemoji early, so we can add support for it, too.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (white flag emoji + transgender symbol).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0x1F3F3, 0xFE0F, 0x200D, 0x26A7, 0xFE0F ],
+					[ 0x1F3F3, 0xFE0F, 0x200B, 0x26A7, 0xFE0F ]
+				);
 
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0xD83C, 0xDDFA, 0xD83C, 0xDDF3 ],
+					[ 0xD83C, 0xDDFA, 0x200B, 0xD83C, 0xDDF3 ]
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather an five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[ 0xD83C, 0xDFF4, 0xDB40, 0xDC67, 0xDB40, 0xDC62, 0xDB40, 0xDC65, 0xDB40, 0xDC6E, 0xDB40, 0xDC67, 0xDB40, 0xDC7F ],
+					[ 0xD83C, 0xDFF4, 0x200B, 0xDB40, 0xDC67, 0x200B, 0xDB40, 0xDC62, 0x200B, 0xDB40, 0xDC65, 0x200B, 0xDB40, 0xDC6E, 0x200B, 0xDB40, 0xDC67, 0x200B, 0xDB40, 0xDC7F ]
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * So easy, even a baby could do it!
+				 *
+				 *  To test for Emoji 13 support, try to render a new emoji: Man Feeding Baby.
+				 *
+				 * The Man Feeding Baby emoji is a ZWJ sequence combining 👨 Man, a Zero Width Joiner and 🍼 Baby Bottle.
+				 *
+				 * 0xD83D, 0xDC68 == Man emoji.
+				 * 0x200D == Zero-Width Joiner (ZWJ) that links the two code points for the new emoji or
+				 * 0x200B == Zero-Width Space (ZWS) that is rendered for clients not supporting the new emoji.
+				 * 0xD83C, 0xDF7C == Baby Bottle.
+				 *
+				 * When updating this test for future Emoji releases, ensure that individual emoji that make up the
+				 * sequence come from older emoji standards.
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					[0xD83D, 0xDC68, 0x200D, 0xD83C, 0xDF7C],
+					[0xD83D, 0xDC68, 0x200B, 0xD83C, 0xDF7C]
+				);
+
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Adds a script to the head of the document.
+	 *
+	 * @ignore
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param {Object} src The url where the script is located.
+	 * @return {void}
+	 */
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+
+		script.src = src;
+		script.defer = script.type = 'text/javascript';
+		document.getElementsByTagName( 'head' )[0].appendChild( script );
+	}
+
+	tests = Array( 'flag', 'emoji' );
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	/*
+	 * Tests the browser support for flag emojis and other emojis, and adjusts the
+	 * support settings accordingly.
+	 */
+	for( ii = 0; ii < tests.length; ii++ ) {
+		settings.supports[ tests[ ii ] ] = browserSupportsEmoji( tests[ ii ] );
+
+		settings.supports.everything = settings.supports.everything && settings.supports[ tests[ ii ] ];
+
+		if ( 'flag' !== tests[ ii ] ) {
+			settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && settings.supports[ tests[ ii ] ];
+		}
+	}
+
+	settings.supports.everythingExceptFlag = settings.supports.everythingExceptFlag && ! settings.supports.flag;
+
+	// Sets DOMReady to false and assigns a ready function to settings.
+	settings.DOMReady = false;
+	settings.readyCallback = function() {
+		settings.DOMReady = true;
+	};
+
+	// When the browser can not render everything we need to load a polyfill.
+	if ( ! settings.supports.everything ) {
+		ready = function() {
+			settings.readyCallback();
+		};
+
+		/*
+		 * Cross-browser version of adding a dom ready event.
+		 */
+		if ( document.addEventListener ) {
+			document.addEventListener( 'DOMContentLoaded', ready, false );
+			window.addEventListener( 'load', ready, false );
+		} else {
+			window.attachEvent( 'onload', ready );
+			document.attachEvent( 'onreadystatechange', function() {
+				if ( 'complete' === document.readyState ) {
+					settings.readyCallback();
+				}
+			} );
+		}
+
+		src = settings.source || {};
+
+		if ( src.concatemoji ) {
+			addScript( src.concatemoji );
+		} else if ( src.wpemoji && src.twemoji ) {
+			addScript( src.twemoji );
+			addScript( src.wpemoji );
+		}
+	}
+
+} )( window, document, window._wpemojiSettings );
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www-test.ala.org.au/wp/wp-includes/css/dist/block-library/style.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='child-understrap-styles-css'  href='https://www-test.ala.org.au/app/themes/pvtl/css/child-theme.min.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='//fonts.googleapis.com/css?family=Lato%3A700%7CRoboto%3A400%2C400i%2C500&#038;ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www-test.ala.org.au/app/plugins/tablepress/css/default.css?ver=1.12' type='text/css' media='all' />
+<script type='text/javascript' src='https://www-test.ala.org.au/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www-test.ala.org.au/app/themes/pvtl/js/popper.min.js?ver=5.5.3' id='popper-scripts-js'></script>
+<link rel="https://api.w.org/" href="https://www-test.ala.org.au/wp-json/" /><link rel="alternate" type="application/json" href="https://www-test.ala.org.au/wp-json/wp/v2/posts/13891" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www-test.ala.org.au/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www-test.ala.org.au/wp/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Data Request' href='https://www-test.ala.org.au/blogs-news/data-request/' />
+<link rel='next' title='TDWG &#8211; Biodiversity Information Standards' href='https://www-test.ala.org.au/blogs-news/tdwg-biodiversity-information-standards/' />
+<meta name="generator" content="WordPress 5.5.3" />
+<link rel='shortlink' href='https://www-test.ala.org.au/?p=13891' />
+<link rel="alternate" type="application/json+oembed" href="https://www-test.ala.org.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww-test.ala.org.au%2Fblogs-news%2Fsharing-data-through-the-atlas%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www-test.ala.org.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww-test.ala.org.au%2Fblogs-news%2Fsharing-data-through-the-atlas%2F&#038;format=xml" />
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-4355440-4', 'auto');
+			ga('set', 'forceSSL', true);
+			ga('send', 'pageview');
+		</script>
+
+	<link rel="canonical" href="https://www-test.ala.org.au/blogs-news/sharing-data-through-the-atlas/"/>
 
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Atlas of Living Australia - Open access to Australia’s biodiversity data">
-<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32">
-<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-180x180.png">
-<meta name="msapplication-TileImage" content="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-270x270.png">
+<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-270x270.png" />
 
-
- 
-  <meta property="og:locale" content="en_US">
-  <meta property="og:site_name" content="Atlas of Living Australia">
-  <meta property="og:title" content="Sharing data through the Atlas">
-  <meta property="og:url" content="https://www-test.ala.org.au/blogs-news/sharing-data-through-the-atlas/">
-  <meta property="og:type" content="article">
+<!-- START - Open Graph and Twitter Card Tags 2.3.3 -->
+ <!-- Facebook Open Graph -->
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Atlas of Living Australia"/>
+  <meta property="og:title" content="Sharing data through the Atlas"/>
+  <meta property="og:url" content="https://www-test.ala.org.au/blogs-news/sharing-data-through-the-atlas/"/>
+  <meta property="og:type" content="article"/>
   <meta property="og:description" content="This is a DRAFT - please send us your comments and suggestions.
 Background
-Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for di">
-  <meta property="article:published_time" content="2009-10-26T10:56:05+11:00">
-  <meta property="article:modified_time" content="2009-10-26T10:56:05+11:00">
-  <meta property="og:updated_time" content="2009-10-26T10:56:05+11:00">
-  <meta property="article:section" content="Data">
-  <meta property="article:section" content="Uncategorised">
-  <meta property="article:section" content="ALA Blog">
- 
-  <meta itemprop="name" content="Sharing data through the Atlas">
-  <meta itemprop="headline" content="Sharing data through the Atlas">
+Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for di"/>
+  <meta property="article:published_time" content="2009-10-26T10:56:05+11:00"/>
+  <meta property="article:modified_time" content="2009-10-26T10:56:05+11:00" />
+  <meta property="og:updated_time" content="2009-10-26T10:56:05+11:00" />
+  <meta property="article:section" content="Data"/>
+  <meta property="article:section" content="Uncategorised"/>
+  <meta property="article:section" content="ALA Blog"/>
+ <!-- Google+ / Schema.org -->
+  <meta itemprop="name" content="Sharing data through the Atlas"/>
+  <meta itemprop="headline" content="Sharing data through the Atlas"/>
   <meta itemprop="description" content="This is a DRAFT - please send us your comments and suggestions.
 Background
-Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for di">
-  <meta itemprop="datePublished" content="2009-10-26">
-  <meta itemprop="dateModified" content="2009-10-26T10:56:05+11:00">
-  <meta itemprop="author" content="Miles Nicholls">
-   
- 
-  <meta name="twitter:title" content="Sharing data through the Atlas">
-  <meta name="twitter:url" content="https://www-test.ala.org.au/blogs-news/sharing-data-through-the-atlas/">
+Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for di"/>
+  <meta itemprop="datePublished" content="2009-10-26"/>
+  <meta itemprop="dateModified" content="2009-10-26T10:56:05+11:00" />
+  <meta itemprop="author" content="Miles Nicholls"/>
+  <!--<meta itemprop="publisher" content="Atlas of Living Australia"/>--> <!-- To solve: The attribute publisher.itemtype has an invalid value -->
+ <!-- Twitter Cards -->
+  <meta name="twitter:title" content="Sharing data through the Atlas"/>
+  <meta name="twitter:url" content="https://www-test.ala.org.au/blogs-news/sharing-data-through-the-atlas/"/>
   <meta name="twitter:description" content="This is a DRAFT - please send us your comments and suggestions.
 Background
-Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for di">
-  <meta name="twitter:card" content="summary_large_image">
- 
- 
- 
-
+Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for di"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+ <!-- SEO -->
+ <!-- Misc. tags -->
+ <!-- is_singular -->
+<!-- END - Open Graph and Twitter Card Tags 2.3.3 -->
 	
 </head>
 
 <body class="post-template-default single single-post postid-13891 single-format-standard wp-custom-logo wp-embed-responsive group-blog">
 
 <div class="site" id="page">
-	
+	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 		<a class="skip-link sr-only sr-only-focusable" href="#content">Skip to content</a>
 
 		<nav class="navbar navbar-expand-lg navbar-dark">
 					<div class="container">
-						
-				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"> </a>				
+						<!-- Your site title as branding in the menu -->
+				<a href="https://www-test.ala.org.au/" class="custom-logo-link navbar-brand" rel="home" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px" /> </a>				<!-- end custom logo -->
 				<div class="outer-nav-wrapper">
 														<div class="top-bar d-flex header-search-toggled auth-buttons-visible">
 									
@@ -108,7 +356,7 @@ Different researchers and institutions capture and store data in the forms and c
 					
 					<div class="main-nav-wrapper">
 												<button data-toggle="collapse" data-target="#autocompleteSearchALA" id="headerSearchToggleButton" class="search-trigger hidden-xs hidden-sm collapsed collapse-trigger-button order-1 order-lg-3" title="search">
-													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 22 22">
+													<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22">
 								<defs>
 									<style>
 										.search-icon {
@@ -117,13 +365,13 @@ Different researchers and institutions capture and store data in the forms and c
 										}
 									</style>
 								</defs>
-								<path class="search-icon" d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z" transform="translate(-1516 -60)"></path>
+								<path class="search-icon" d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z" transform="translate(-1516 -60)"/>
 							</svg>
 							<span class="collapse visible-on-show" aria-hidden="true">×</span>
 							Search</button>
 															<div class="ala-auth-buttons-logged-in d-none">
 						<a href="https://auth-test.ala.org.au/userdetails/myprofile/" class="account-mobile order-2 d-lg-none" title="My Account">
-							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 37 41">
+							<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 37 41">
 								<defs>
 									<style>
 										.account-icon {
@@ -132,7 +380,7 @@ Different researchers and institutions capture and store data in the forms and c
 										}
 									</style>
 								</defs>
-								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"></path>
+								<path id="Account" class="account-icon" d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z" transform="translate(-596 -84)"/>
 							</svg>
 							Account</a>
 						<a href="https://auth-test.ala.org.au/cas/logout" class="account-mobile account-mobile-fa order-3 d-lg-none" title="Logout"><i class="fa fa-sign-out"></i></a>
@@ -145,11 +393,11 @@ Different researchers and institutions capture and store data in the forms and c
 						</a>
 
 						
-						
-						<div id="navbarNavDropdown" class="collapse navbar-collapse offcanvas-collapse"><ul id="main-menu" class="navbar-nav ml-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-22 nav-item"><a title="Search & analyse" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-22">Search & analyse</a>
+						<!-- The WordPress Menu goes here -->
+						<div id="navbarNavDropdown" class="collapse navbar-collapse offcanvas-collapse"><ul id="main-menu" class="navbar-nav ml-auto"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-22 nav-item"><a title="Search &amp; analyse" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-22">Search &#038; analyse</a>
 <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-22" role="menu">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41958" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41958 nav-item"><a title="Search species" href="https://bie.ala.org.au/" class="dropdown-item">Search species</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item"><a title="Search & download records" href="https://biocache.ala.org.au/search#tab_simpleSearch" class="dropdown-item">Search & download records</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-23" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23 nav-item"><a title="Search &amp; download records" href="https://biocache.ala.org.au/search#tab_simpleSearch" class="dropdown-item">Search &#038; download records</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28 nav-item"><a title="Search datasets" href="https://collections.ala.org.au/datasets" class="dropdown-item">Search datasets</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41967 nav-item"><hr class="menu-separator"></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-24" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24 nav-item"><a title="Spatial analysis (Spatial Portal)" href="https://spatial.ala.org.au/" class="dropdown-item">Spatial analysis (Spatial Portal)</a></li>
@@ -163,36 +411,36 @@ Different researchers and institutions capture and store data in the forms and c
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40728" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40728 nav-item"><a title="Upload species list" href="https://lists.ala.org.au/public/speciesLists" class="dropdown-item">Upload species list</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41968 nav-item"><hr class="menu-separator"></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43213 nav-item"><a title="Record a sighting" href="https://www-test.ala.org.au/home/record-a-sighting/" class="dropdown-item">Record a sighting</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 nav-item"><a title="Transcribe & digitise (DigiVol)" href="https://volunteer.ala.org.au/" class="dropdown-item">Transcribe & digitise (DigiVol)</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa?hub=ala-cs#isCitizenScience%3Dtrue%26isWorldWide%3Dfalse%26max%3D20%26sort%3DdateCreatedSort" class="dropdown-item">Discover citizen science projects</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-35" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-35 nav-item"><a title="Transcribe &amp; digitise (DigiVol)" href="https://volunteer.ala.org.au/" class="dropdown-item">Transcribe &#038; digitise (DigiVol)</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37 nav-item"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa" class="dropdown-item">Discover citizen science projects</a></li>
 </ul>
 </li>
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44273" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-44273 nav-item"><a title="Resources" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-44273">Resources</a>
-<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-44273" role="menu">
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-44408 nav-item"><a title="Resources" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-44408">Resources</a>
+<ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-44408" role="menu">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43476 nav-item"><a title="Brochures and reports" href="https://www-test.ala.org.au/publications/" class="dropdown-item">Brochures and reports</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44290" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44290 nav-item"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/" class="dropdown-item">ALA logo and identity</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44274 nav-item"><a title="ALA-cited publications" href="https://www-test.ala.org.au/ala-cited-publications/" class="dropdown-item">ALA-cited publications</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44410 nav-item"><a title="ALA-cited publications" href="https://www-test.ala.org.au/ala-cited-publications/" class="dropdown-item">ALA-cited publications</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-44409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44409 nav-item"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/" class="dropdown-item">ALA logo and identity</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40730" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40730 nav-item"><a title="Education resources" href="https://www-test.ala.org.au/education-resources/" class="dropdown-item">Education resources</a></li>
 </ul>
 </li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-178 nav-item"><a title="About" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-178">About</a>
 <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-178" role="menu">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179 nav-item"><a title="About us" href="https://www-test.ala.org.au/about-ala/" class="dropdown-item">About us</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40734" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-40734 nav-item"><a title="News & media" href="https://www-test.ala.org.au/blog/" class="dropdown-item">News & media</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40734" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-40734 nav-item"><a title="News &amp; media" href="https://www-test.ala.org.au/blog/" class="dropdown-item">News &#038; media</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175 nav-item"><a title="Contact us" href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41969 nav-item"><hr class="menu-separator"></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-43693" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-43693 nav-item"><a title="Current projects" href="https://www-test.ala.org.au/current-projects/" class="dropdown-item">Current projects</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40731 nav-item"><a title="International Living Atlases" href="https://living-atlases.gbif.org/" class="dropdown-item">International Living Atlases</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177 nav-item"><a title="Indigenous ecological knowledge" href="https://www-test.ala.org.au/indigenous-ecological-knowledge/" class="dropdown-item">Indigenous ecological knowledge</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41970 nav-item"><hr class="menu-separator"></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41796 nav-item"><a title="All sites, services & tools" href="https://www-test.ala.org.au/sites-and-services/" class="dropdown-item">All sites, services & tools</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41796 nav-item"><a title="All sites, services &#038; tools" href="https://www-test.ala.org.au/sites-and-services/" class="dropdown-item">All sites, services &#038; tools</a></li>
 </ul>
 </li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-41391 nav-item"><a title="Help" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-41391">Help</a>
 <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-41391" role="menu">
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41959 nav-item"><a title="Browse all articles (FAQs)" href="https://support.ala.org.au/support/home" class="dropdown-item">Browse all articles (FAQs)</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41960" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41960 nav-item"><a title="ALA Data help" href="https://support.ala.org.au/support/solutions/6000137994" class="dropdown-item">ALA Data help</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41961" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41961 nav-item"><a title="ALA Tools & Apps help" href="https://support.ala.org.au/support/solutions/6000138053" class="dropdown-item">ALA Tools & Apps help</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41961" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41961 nav-item"><a title="ALA Tools &amp; Apps help" href="https://support.ala.org.au/support/solutions/6000138053" class="dropdown-item">ALA Tools &#038; Apps help</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41962" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41962 nav-item"><a title="ALA Spatial Portal help" href="https://support.ala.org.au/support/solutions/6000138349" class="dropdown-item">ALA Spatial Portal help</a></li>
 	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-41963" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41963 nav-item"><a title="Contact us" href="/contact-us/" class="dropdown-item">Contact us</a></li>
 </ul>
@@ -202,14 +450,14 @@ Different researchers and institutions capture and store data in the forms and c
 				</div>
 
 	        	        </div>
-		    		</nav>
+		    		</nav><!-- .site-navigation -->
 			    <div id="autocompleteSearchALA" class="collapse">
 	    	<div class="container">
 		        <form method="get" action="https://bie.ala.org.au/search" class="search-form">
 		            <div class="d-flex justify-content-between">
-		                <input id="autocompleteHeader" type="text" name="q" placeholder="Search species, datasets, and more..." class="search-input autocompleteBIE" autocomplete="off">
+		                <input id="autocompleteHeader" type="text" name="q" placeholder="Search species, datasets, and more..." class="search-input autocompleteBIE" autocomplete="off"/>
 		                <button class="search-submit" title="submit">
-		                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewbox="0 0 22 22">
+		                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22">
 		                        <defs>
 		                            <style>
 		                                .search-icon {
@@ -218,7 +466,9 @@ Different researchers and institutions capture and store data in the forms and c
 		                                }
 		                            </style>
 		                        </defs>
-		                        <path class="search-icon" d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z" transform="translate(-1516 -60)"></path>
+		                        <path class="search-icon"
+		                              d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+		                              transform="translate(-1516 -60)"></path>
 		                    </svg>
 		                </button>
 		            </div>
@@ -226,7 +476,7 @@ Different researchers and institutions capture and store data in the forms and c
 		    </div>
 	    </div>
 	    	    	
-        	</div>
+        	</div><!-- #wrapper-navbar end -->
 
 
 <div class="featured-hero" role="banner" style="background-image: url(https://www-test.ala.org.au/app/uploads/2019/06/purple-coral-pea-banner-image-by-reiner-richter_default-banner-1920-x-720.jpg);">
@@ -249,7 +499,7 @@ Different researchers and institutions capture and store data in the forms and c
 
 				
 					
-
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c46ac35a988136c"></script>
 
 <article class="post-13891 post type-post status-publish format-standard hentry category-data category-uncategorised category-blogs-news" id="post-13891">
@@ -259,27 +509,27 @@ Different researchers and institutions capture and store data in the forms and c
 		<div class="entry-meta">
 
 			<span class="posted-on"><span class="sr-only">Posted on </span><time class="entry-date published updated" datetime="2009-10-26T10:56:05+11:00">26th October 2009</time></span>
-		</div>
+		</div><!-- .entry-meta -->
 
 		<div class="addthis_inline_share_toolbox"></div>
 
-	</header>
+	</header><!-- .entry-header -->
 
 	
-	<div class="entry-excerpt">This is a DRAFT – please send us your comments and suggestions. Background Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for different purposes, data providers need […]</div>
+	<div class="entry-excerpt">This is a DRAFT &#8211; please send us your comments and suggestions. Background Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for different purposes, data providers need [&hellip;]</div>
 	<div class="entry-content">
 
-		<p><em>This is a DRAFT – please <a href="mailto:atlasoflivingaustralia@csiro.au?subject=Comments:%20Sharing%20data%20through%20the%20ALA">send us your comments and suggestions</a>.</em></p>
+		<p><em>This is a DRAFT &#8211; please <a href="mailto:atlasoflivingaustralia@csiro.au?subject=Comments: Sharing data through the ALA">send us your comments and suggestions</a>.</em></p>
 <h2 id="background">Background</h2>
-<p>Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for different purposes, data providers need to consider the appropriate way to need to expose their data, using structures and terms which can be recognised by others. Once these decisions have been made, they need to ensure that their data are transformed (or “mapped”) into these standard forms, and that the data set is associated with a good description and additional information on the source and ownership of the data, again in a form which can be understood by other users.</p>
+<p>Different researchers and institutions capture and store data in the forms and combinations which best meet their needs. However, in order to make these data more widely accessible and to ensure that they can be reused for different purposes, data providers need to consider the appropriate way to need to expose their data, using structures and terms which can be recognised by others. Once these decisions have been made, they need to ensure that their data are transformed (or &#8220;mapped&#8221;) into these standard forms, and that the data set is associated with a good description and additional information on the source and ownership of the data, again in a form which can be understood by other users.</p>
 <p>Sharing data therefore depends on the consistent use of agreed standards. Many different standards exist for different purposes. This document identifies the standards which are being adopted by the <em>Atlas of Living Australia</em> and seeks to explain how they can be used to improve the reuse of Australian biodiversity data.</p>
-<p><a class="external" href="http://www.tdwg.org/" target="_blank">TDWG</a> produces an annual Technical Roadmap which provides recommendations for best practices in data sharing between biodiversity informatics projects. This document seeks to reflect these recommendations. The Technical Roadmap is available – <a class="external" href="http://wiki.tdwg.org/twiki/pub/TAG/RoadMap2008/TDWG_TAG_Roadmap_2008.pdf" target="_blank">PDF</a> (106KB).</p>
+<p><a class="external" href="http://www.tdwg.org/" target="_blank">TDWG</a> produces an annual Technical Roadmap which provides recommendations for best practices in data sharing between biodiversity informatics projects. This document seeks to reflect these recommendations. The Technical Roadmap is available &#8211; <a class="external" href="http://wiki.tdwg.org/twiki/pub/TAG/RoadMap2008/TDWG_TAG_Roadmap_2008.pdf" target="_blank">PDF</a> (106KB).</p>
 <h3 id="the-ala-and-data-standards">The ALA and data standards</h3>
 <p>The ALA aims to bring together data from many sources. To do this it will support a range of different data standards, many of which are already in use by various communities around Australia. The ALA aims to shield users from this complexity by providing services which handle these source data formats and offer consistent views of merged data.</p>
 <p>The ALA will therefore respond to developing needs and requirements by continuing to identify and support relevant data standards. This page provides a snapshot of the range of standards which are already recognised as important. Additional information will be added as it becomes available.</p>
 <p>The information on this page has been divided into three major topics, each with a number of sub-topics:</p>
 <ol>
-<li><a href="#Data">Data standards</a> – specific information on standards supported for sharing different types of data.
+<li><a href="#Data">Data standards</a> &#8211; specific information on standards supported for sharing different types of data.
 <ol type="a">
 <li><a href="#Occurrence">Species occurrence data (specimens and observations)</a></li>
 <li><a href="#Name">Names, classifications and checklist data</a></li>
@@ -288,7 +538,7 @@ Different researchers and institutions capture and store data in the forms and c
 <li><a href="#Images">Images and other multimedia</a></li>
 </ol>
 </li>
-<li><a href="#Protocols">Protocols</a> – general information on sharing data in ways that the ALA and end users can access.
+<li><a href="#Protocols">Protocols</a> &#8211; general information on sharing data in ways that the ALA and end users can access.
 <ol type="a">
 <li><a href="#TAPIR">TAPIR (and DiGIR and BioCASe)</a></li>
 <li><a href="#Delimited">Tab-delimited and comma-separated data</a></li>
@@ -297,20 +547,20 @@ Different researchers and institutions capture and store data in the forms and c
 <li><a href="#URL">Plain URL</a></li>
 </ol>
 </li>
-<li><a href="#Metadata">Metadata standards</a> – general information on describing data resources and registering them with the ALA.
+<li><a href="#Metadata">Metadata standards</a> &#8211; general information on describing data resources and registering them with the ALA.
 <ol type="a">
 <li><a href="#Dublin">Dublin Core</a></li>
 <li><a href="#EML">Ecological Metadata Language (EML)</a></li>
 </ol>
 </li>
 </ol>
-<p>The term, <em>“metadata”</em>, refers to the information a data provider supplies to describe a data set and to help users to access it. This may include descriptions of the contents of the data set, how the data were collected, information about the collectors and owners of the data and the uses they approve for the data, and technical details required to access or interpret the data.</p>
-<p>As a quick shorthand – when considering the task of sharing data – the specific <strong>data standards</strong> address the question of <em>what</em> information can be shared, the <strong>protocols</strong> address the question of <em>how</em> the information is to be shared and accessed, and the <strong>metadata standards</strong> address the question of <em>why</em> users should be interested in accessing the information. (This is an oversimplification, but may help to explain the significance of the following sections.)</p>
+<p>The term, <em>&#8220;metadata&#8221;</em>, refers to the information a data provider supplies to describe a data set and to help users to access it. This may include descriptions of the contents of the data set, how the data were collected, information about the collectors and owners of the data and the uses they approve for the data, and technical details required to access or interpret the data.</p>
+<p>As a quick shorthand &#8211; when considering the task of sharing data &#8211; the specific <strong>data standards</strong> address the question of <em>what</em> information can be shared, the <strong>protocols</strong> address the question of <em>how</em> the information is to be shared and accessed, and the <strong>metadata standards</strong> address the question of <em>why</em> users should be interested in accessing the information. (This is an oversimplification, but may help to explain the significance of the following sections.)</p>
 <p>The section on <strong>protocols</strong> includes some information on software packages which implement these standards.</p>
 <p>Please consider the question of copyright and usage restrictions when making data available. The ALA has developed some <a href="/wp-content/uploads/2010/07/ALABusinessPlan2007-2008_Attachment5_IPRPolicy.pdf">draft guidelines</a> on the subject and recommends the adoption of Creative Commons licences in most situations.</p>
 <p>Since the ALA deals with biodiversity data, the expectation is that all data items will include a label or data element identifying the species or other taxon covered by the resource. Where feasible data providers are encouraged to use scientific names found in the AFD or the APC or the <a class="external" href="http://www.catalogueoflife.org/" target="_blank">Catalogue of Life</a> (particularly for any taxa not found in AFD/APC). However it is recognised that some data sets (particularly historical collections and literature) use names which may not be currently accepted species names. In such situations data providers are advised to use the scientific names found in the original sources. The ALA will develop or use Taxonomic Services to attempt to map such data appropriately to current species concepts.</p>
 <p>Over the coming months, this document will be enhanced with examples for each of the standards identified.</p>
-<p>For more information on any of these recommendations, please <a href="mailto:data_management@ala.org.au?subject=Comments:%20Geospatial%20Data%20Harvesting">contact us</a>.</p>
+<p>For more information on any of these recommendations, please <a href="mailto:data_management@ala.org.au?subject=Comments: Geospatial Data Harvesting">contact us</a>.</p>
 <h3 id="Data">1. Data standards</h3>
 <p>The ALA aims to enable access to any type of biodiversity information. The following subsections provide guidelines for some major classes of data. These represent the classes of data on which the ALA particularly expects to focus in the earliest stages of its development. As the project proceeds, other classes will be handled in more detail.</p>
 <p>Many of the data standards below include a unique identifier for each record. The ALA strongly recommends that all data providers supply such identifiers. Some data objects will already have an appropriate globally unique identifier. Publications may be associated with a <a class="external" href="http://www.doi.org/" target="_blank">DOI</a>. Species characteristics and other terms from controlled vocabularies may be associated with stable HTTP URIs as identifiers. In other cases, the ALA follows the guidelines from TDWG and recommends the use of <a href="#LSID">Life Science Identifiers</a> (LSIDs) for this purpose. Constructing an LSID to serve as a record identifier gives a good guarantee of uniqueness and also allows the data provider to use LSID resolution as a means for users to be able directly to access the associated data.</p>
@@ -325,12 +575,12 @@ Different researchers and institutions capture and store data in the forms and c
 <p>Two families of data standards are in wide use around the world for exchanging data records for individual specimens in natural history collections and herbaria (including living collections such as culture collections and seed banks) and also for observations of living organisms in the field:</p>
 <ul>
 <li><strong>Darwin Core</strong> (<a class="external" href="https://web.archive.org/web/20170910135450/http://www.tdwg.org:80/activities/darwincore" target="_blank">http://www.tdwg.org/activities/darwincore/</a>) is a simple set of descriptive properties which can be used to describe the main data elements in any species occurrence database. Darwin Core itself is very simple and can easily be extended with additional properties, either from a set of standard Darwin Core Extensions or from any other data standard appropriate for describing an organism occurrence. It is particularly widely used for describing zoological specimens and in the oceanographic community. Darwin Core data can be shared with the ALA, <a class="external" href="http://www.ozcam.org.au/" target="_blank">OZCAM</a>, <a class="external" href="http://www.gbif.org/" target="_blank">GBIF</a>, <a class="external" href="http://www.iobis.org/" target="_blank">OBIS</a> and many other networks.</li>
-<li><strong>ABCD</strong> (Access to Biological Collections Data, <a class="external" href="https://web.archive.org/web/20170712130345/http://www.tdwg.org/activities/abcd/" target="_blank">http://www.tdwg.org/activities/abcd/</a>) is a complex structure for describing specimens and observations in great detail. It supports all of the information included in the Darwin Core and can also support more complex requirements (e.g. including a history of successive identifications for a single specimen). ABCD is widely used in botanical collections and in seed banks. ABCD data can be shared with the ALA, <a class="external" href="http://www.gbif.org/" target="_blank">GBIF</a>, <a class="external" href="http://www.bioversityinternational.org/" target="_blank">Bioversity International</a> and other networks. The <a class="external" href="https://github.com/hiscom/hispid" target="_blank">HISPID</a> standard developed by the <a class="external" href="http://avh.chah.org.au/" target="_blank">Australia’s Virtual Herbarium</a> (see <a class="external" href="https://github.com/hiscom/hispid" target="_blank">http://hiscom.chah.org.au/wiki/index.php/HISPID_Mapping_to_ABCD</a>) is an extension to ABCD 2.06 and HISPID is the preferred form for data sharing within the AVH.</li>
+<li><strong>ABCD</strong> (Access to Biological Collections Data, <a class="external" href="https://web.archive.org/web/20170712130345/http://www.tdwg.org/activities/abcd/" target="_blank">http://www.tdwg.org/activities/abcd/</a>) is a complex structure for describing specimens and observations in great detail. It supports all of the information included in the Darwin Core and can also support more complex requirements (e.g. including a history of successive identifications for a single specimen). ABCD is widely used in botanical collections and in seed banks. ABCD data can be shared with the ALA, <a class="external" href="http://www.gbif.org/" target="_blank">GBIF</a>, <a class="external" href="http://www.bioversityinternational.org/" target="_blank">Bioversity International</a> and other networks. The <a class="external" href="https://github.com/hiscom/hispid" target="_blank">HISPID</a> standard developed by the <a class="external" href="http://avh.chah.org.au/" target="_blank">Australia&#8217;s Virtual Herbarium</a> (see <a class="external" href="https://github.com/hiscom/hispid" target="_blank">http://hiscom.chah.org.au/wiki/index.php/HISPID_Mapping_to_ABCD</a>) is an extension to ABCD 2.06 and HISPID is the preferred form for data sharing within the AVH.</li>
 </ul>
 <p>Each of these standards has been used in several different versions. The ALA will support the same range of versions supported by GBIF (see <a class="external" href="https://web.archive.org/web/20110105162135/http://www.gbif.org/participation/participant-nodes/resources/how-to-establish-a-participant-node/" target="_blank">http://www.gbif.org/participation/participant-nodes/resources/how-to-establish-a-participant-node/</a>):</p>
 <ul>
 <li>Darwin Core 1.2</li>
-<li>Darwin Core 1.4 (sometimes known as “Darwin Core 2”)</li>
+<li>Darwin Core 1.4 (sometimes known as &#8220;Darwin Core 2&#8221;)</li>
 <li>The <a class="external" href="http://manisnet.org/" target="_blank">MaNIS</a> versions of Darwin Core</li>
 <li>The <a class="external" href="https://wayback.archive.org/web/20160722042554/http://www.iobis.org/data/schema-and-metadata" target="_blank">OBIS Schema</a> (an extension of Darwin Core 1.2)</li>
 <li>ABCD 1.20</li>
@@ -340,7 +590,7 @@ Different researchers and institutions capture and store data in the forms and c
 <li><a class="external" href="https://github.com/hiscom/hispid5" target="_blank">HISPID 5</a></li>
 </ul>
 <p>Both Darwin Core and ABCD were developed through the work of <a class="external" href="http://www.tdwg.org/" target="_blank">TDWG</a>, which has recently been reworking all of its data standards to make them more compatible and easier to use in a wide range of different situations. As part of this activity, TDWG has developed a <a class="external" href="https://web.archive.org/web/20150707013356/http://rs.tdwg.org:80/ontology/voc/TaxonOccurrence" target="_blank">TaxonOccurrence vocabulary</a> which will replace both Darwin Core and ABCD. As this standard is more widely adopted, the ALA will support and promote it as a preferred data model.</p>
-<p>It should be noted that Darwin Core, ABCD and the TaxonOccurrence vocabulary are all designed to handle the exchange of “presence” data, i.e. data sets which comprise records of the actual occurrence of different species. These data standards are inadequate to represent the full complexity of many ecological data sets. In particular they lack any standard mechanism for expressing level and standardisation of recording effort or for recording the absence of a species of interest. The TDWG <a class="external" href="https://web.archive.org/web/20170717140326/http://www.tdwg.org/activities/osr/" target="_blank">Observation and Specimen Records Interest Group</a> is exploring ways to represent this further level of information, and the ALA will participate in this process. In the mean time, the ALA encourages data providers to use one of these existing standards to share their data and to provide a text description of any underlying data collection methods in the metadata for the data set.</p>
+<p>It should be noted that Darwin Core, ABCD and the TaxonOccurrence vocabulary are all designed to handle the exchange of &#8220;presence&#8221; data, i.e. data sets which comprise records of the actual occurrence of different species. These data standards are inadequate to represent the full complexity of many ecological data sets. In particular they lack any standard mechanism for expressing level and standardisation of recording effort or for recording the absence of a species of interest. The TDWG <a class="external" href="https://web.archive.org/web/20170717140326/http://www.tdwg.org/activities/osr/" target="_blank">Observation and Specimen Records Interest Group</a> is exploring ways to represent this further level of information, and the ALA will participate in this process. In the mean time, the ALA encourages data providers to use one of these existing standards to share their data and to provide a text description of any underlying data collection methods in the metadata for the data set.</p>
 <p>Some data sets (particularly ecological data sets) will include data elements for which there is no corresponding property in Darwin Core or in the TaxonOccurrence vocabulary. In such cases data providers are recommended to use appropriate terms from other vocabularies to label these additional elements (see for example the range of vocabularies and ontologies listed by <a class="external" href="https://web.archive.org/web/20161220235638/https://marinemetadata.org/conventions/ontologies-thesauri" target="_blank">Marine Metadata Interoperability</a> or <a class="external" href="https://wayback.archive.org/web/20080918053009/http://spire.umbc.edu/ont/" target="_blank">SPIRE</a>). If these elements are of general importance to biodiversity projects, it is also recommended to initiate discussion with TDWG to make standard recommendations on their representation.</p>
 <h4 id="Name">1b. Names, classifications and checklist data</h4>
 <p><em><strong>Quick recommendations</strong></em></p>
@@ -353,13 +603,13 @@ Different researchers and institutions capture and store data in the forms and c
 <p>In addition, the hierarchical nature of classifications and checklists is handled in different ways in different databases. Some databases have a single table to accommodate taxa of all ranks, and rely on parent-child relationships and explicit taxon rank elements. Others flatten the hierarchy and assign different ranks to different database columns. There is similar variation in the way that different databases model the relationships between the names each database accepts for a species and the various synonyms identified in the database for the same species.</p>
 <p>All of this makes it hard to provide generic recommendations for sharing data of this kind. To simplify the problem slightly, we can distinguish data sets according to their primary purpose:</p>
 <ul>
-<li>Nomenclatural databases – resources dedicated to cataloguing the published names for a group of organisms (without addressing whether the name is regarded as the current name for a valid species). Examples include: <a class="external" href="http://www.cpbr.gov.au/apni/index.html" target="_blank">APNI</a>, <a class="external" href="http://www.ipni.org/" target="_blank">IPNI</a>, <a class="external" href="http://www.indexfungorum.org/Names/Names.asp" target="_blank">Index Fungorum</a> and <a class="external" href="http://www.zoobank.org/" target="_blank">ZooBank</a>. Such databases serve as foundations for taxonomic databases.</li>
-<li>Taxonomic databases – resources representing the views of an individual taxonomist or a community on the list of valid species (or taxa of other ranks) within a particular taxonomic group, the relationship between these species and the various names which have been applied to the group, and the classification of these species into a taxonomic hierarchy. Such data sets may provide a global view, as with the databases making up the <a class="external" href="http://www.catalogueoflife.org/" target="_blank">Catalogue of Life</a>, or a regional view, as with the <a class="external" href="http://www.anbg.gov.au/chah/apc/" target="_blank">APC</a> and <a class="external" href="http://www.environment.gov.au/biodiversity/abrs/online-resources/fauna/afd/" target="_blank">AFD</a>.</li>
-<li>Checklists – resources listing the species of relevance to a particular topic. Examples include checklists of organisms found in a region or protected area, lists of organisms protected under some legislation, etc. Such lists are usually based on one or more reference taxonomies but do not represent an authoritative attempt to define valid species. Their purpose is to inform users of some characteristics of the set of species included in the list (e.g. that they can all be found in the same region). This approach can also be used to communicate the set of species included within a web site.</li>
+<li>Nomenclatural databases &#8211; resources dedicated to cataloguing the published names for a group of organisms (without addressing whether the name is regarded as the current name for a valid species). Examples include: <a class="external" href="http://www.cpbr.gov.au/apni/index.html" target="_blank">APNI</a>, <a class="external" href="http://www.ipni.org/" target="_blank">IPNI</a>, <a class="external" href="http://www.indexfungorum.org/Names/Names.asp" target="_blank">Index Fungorum</a> and <a class="external" href="http://www.zoobank.org/" target="_blank">ZooBank</a>. Such databases serve as foundations for taxonomic databases.</li>
+<li>Taxonomic databases &#8211; resources representing the views of an individual taxonomist or a community on the list of valid species (or taxa of other ranks) within a particular taxonomic group, the relationship between these species and the various names which have been applied to the group, and the classification of these species into a taxonomic hierarchy. Such data sets may provide a global view, as with the databases making up the <a class="external" href="http://www.catalogueoflife.org/" target="_blank">Catalogue of Life</a>, or a regional view, as with the <a class="external" href="http://www.anbg.gov.au/chah/apc/" target="_blank">APC</a> and <a class="external" href="http://www.environment.gov.au/biodiversity/abrs/online-resources/fauna/afd/" target="_blank">AFD</a>.</li>
+<li>Checklists &#8211; resources listing the species of relevance to a particular topic. Examples include checklists of organisms found in a region or protected area, lists of organisms protected under some legislation, etc. Such lists are usually based on one or more reference taxonomies but do not represent an authoritative attempt to define valid species. Their purpose is to inform users of some characteristics of the set of species included in the list (e.g. that they can all be found in the same region). This approach can also be used to communicate the set of species included within a web site.</li>
 </ul>
 <p>There are several relevant data standards which have been used to share such data. The ALA will seek to support data shared using any of the following models:</p>
 <ul>
-<li>The <a class="external" href="http://www.catalogueoflife.org/" target="_blank">Catalogue of Life</a> has integrated data sets using the <a class="external" href="http://www.sp2000.org/index.php?option=com_content&task=view&id=38&Itemid=49" target="_blank">SPICE Common Data Model</a> (CDM). This is a very simple model particularly suited to sharing data using <a href="#Delimited">tab-delimited or comma-separated</a> data formats. Each record can contain a scientific name and a set of major taxonomic ranks associated with a species (kingdom, phylum/division, class, order, family, genus, species, infraspecific rank) and then makes an assertion as to whether it is an accepted name for a species or should be regarded as a synonym, in which case the record also contains the accepted species name and an associated set of major ranks. It is an efficient standard for sharing the key data elements used by the Catalogue of Life, and is associated with the <a class="external" href="http://www.sp2000.org/index.php?option=com_content&task=view&id=38&Itemid=49" target="_blank">SPICE Protocol</a>, which supports simple tree-walking operations through the checklist.</li>
+<li>The <a class="external" href="http://www.catalogueoflife.org/" target="_blank">Catalogue of Life</a> has integrated data sets using the <a class="external" href="http://www.sp2000.org/index.php?option=com_content&amp;task=view&amp;id=38&amp;Itemid=49" target="_blank">SPICE Common Data Model</a> (CDM). This is a very simple model particularly suited to sharing data using <a href="#Delimited">tab-delimited or comma-separated</a> data formats. Each record can contain a scientific name and a set of major taxonomic ranks associated with a species (kingdom, phylum/division, class, order, family, genus, species, infraspecific rank) and then makes an assertion as to whether it is an accepted name for a species or should be regarded as a synonym, in which case the record also contains the accepted species name and an associated set of major ranks. It is an efficient standard for sharing the key data elements used by the Catalogue of Life, and is associated with the <a class="external" href="http://www.sp2000.org/index.php?option=com_content&amp;task=view&amp;id=38&amp;Itemid=49" target="_blank">SPICE Protocol</a>, which supports simple tree-walking operations through the checklist.</li>
 <li>TDWG has developed the <a class="external" href="http://www.tdwg.org/standards/117/" target="_blank">Taxon Concept Schema</a> (TCS) as a richer model for representing information on taxon names, taxon concepts (i.e. judgments on valid species), taxonomic publications, type specimens and relationships asserted between different taxonomies. This standard provides a complete model for representing and exchanging all of this information, either as static documents or in response to database queries. It is however being superseded by the TDWG TaxonName and TaxonConcept vocabularies.</li>
 <li>As part of the reworking of all of its data standards, TDWG has reworked elements from TCS to supply two separate vocabularies for <a class="external" href="https://web.archive.org/web/20160304190213/http://rs.tdwg.org/ontology/voc/TaxonName" target="_blank">TaxonName</a> and <a class="external" href="https://web.archive.org/web/20150708141303/http://rs.tdwg.org:80/ontology/voc/TaxonConcept" target="_blank">TaxonConcept</a> records. These vocabularies are intended to be more flexible than TCS and to be used in a wider range of situations. They are already being used by IPNI and Index Fungorum and are being adopted for the APC and AFD web services currently under development.</li>
 </ul>
@@ -374,7 +624,7 @@ Different researchers and institutions capture and store data in the forms and c
 <p><em><strong>Detailed recommendations</strong></em></p>
 <p>Resources intended to assist users with identifying a set of organisms can be divided into two main categories:</p>
 <ul>
-<li>Structured data sets which express the relationships between a set of taxa or specimens and a set of descriptive characters. Such data sets allow software to reuse the information in many different contexts. The <a class="external" href="http://delta-intkey.com/" target="_blank">Delta</a> language is a rich model for encoding taxonomic descriptions and is supported by an extensive community and suite of tools. A number of other software applications, including <a class="external" href="http://www.lucidcentral.com/" target="_blank">Lucid</a>, provide environments for editing descriptive data and publishing such data as dynamic keys (either installed on a user’s computer or accessed via a web browser). The TDWG <a class="external" href="http://www.tdwg.org/standards/116/" target="_blank">Structured Descriptive Data</a> (SDD) standard is an XML data model for storing and exchanging structured descriptions. It is supported by Lucid as an output format.</li>
+<li>Structured data sets which express the relationships between a set of taxa or specimens and a set of descriptive characters. Such data sets allow software to reuse the information in many different contexts. The <a class="external" href="http://delta-intkey.com/" target="_blank">Delta</a> language is a rich model for encoding taxonomic descriptions and is supported by an extensive community and suite of tools. A number of other software applications, including <a class="external" href="http://www.lucidcentral.com/" target="_blank">Lucid</a>, provide environments for editing descriptive data and publishing such data as dynamic keys (either installed on a user&#8217;s computer or accessed via a web browser). The TDWG <a class="external" href="http://www.tdwg.org/standards/116/" target="_blank">Structured Descriptive Data</a> (SDD) standard is an XML data model for storing and exchanging structured descriptions. It is supported by Lucid as an output format.</li>
 <li>Unstructured resources which are not exposed using a machine-readable standard like Delta or SDD. Examples include word processor documents and PDFs of taxonomic treatments or dichotomous keys, or online dynamic keys accessible only through key playing software.</li>
 </ul>
 <p>The ALA is working with the <a class="external" href="http://www.taxonomy.org.au/" target="_blank">Taxonomic Resource Information Network</a> (TRIN), <a class="external" href="http://www.identifylife.org/" target="_blank">IdentifyLife</a>, the <a class="external" href="http://www.eol.org/" target="_blank">Encyclopedia of Life</a> (EOL), <a class="external" href="http://www.keytonature.eu/" target="_blank">Key To Nature</a> and others to explore ways to manage access to descriptive data and identification tools. For the present, the recommendation is to share data using Delta or SDD wherever possible, and to register other resources as URLs with associated metadata.</p>
@@ -391,7 +641,7 @@ Different researchers and institutions capture and store data in the forms and c
 <ul>
 <li>Serving as a primary categorisation for organising biodiversity data resources (Biology, Description, Behaviour, Conservation, Legislation, etc.)</li>
 <li>Allowing users to select relevant elements from a structured database of species information (e.g. selecting just descriptive data)</li>
-<li>Providing an XML envelope for transporting a range of different content relating to a given species – a Description element could contain SDD data, a Distribution element could contain RDF TaxonOccurrence data, and other elements could contain plain text</li>
+<li>Providing an XML envelope for transporting a range of different content relating to a given species &#8211; a Description element could contain SDD data, a Distribution element could contain RDF TaxonOccurrence data, and other elements could contain plain text</li>
 <li>Serving as a set of XHTML tags for marking sections within a species page.</li>
 </ul>
 <p>At present all of these uses are still being explored. The ALA would be interested to hear from any projects or researchers interested in trial use of SPM.</p>
@@ -409,14 +659,14 @@ Different researchers and institutions capture and store data in the forms and c
 <li>As HTML web pages displaying a multimedia object with associated information.</li>
 <li>As links to image viewer tools which provide additional functions (e.g. pan-and-zoom) and may restrict access to the original binary objects.</li>
 </ul>
-<p>This variation is a complication in the task of managing access to image resources. Any of these three approaches may meet a user’s needs to view images and other multimedia objects for a particular organism, but only the first approach easily supports display of alternate views (e.g. thumbnails). The ALA will allow data providers to specify in their metadata which of these three approaches relates to each data resource, either on a record-by-record basis or for an entire data set (see below).</p>
+<p>This variation is a complication in the task of managing access to image resources. Any of these three approaches may meet a user&#8217;s needs to view images and other multimedia objects for a particular organism, but only the first approach easily supports display of alternate views (e.g. thumbnails). The ALA will allow data providers to specify in their metadata which of these three approaches relates to each data resource, either on a record-by-record basis or for an entire data set (see below).</p>
 <p>The preferred approach to sharing metadata about images (including the actual links to the images) will be <a href="#OAI">OAI-PMH</a> using properties from the standard OAI <a class="external" href="http://dublincore.org/documents/dces/" target="_blank">Dublin Core</a> mapping (<a class="external" href="http://www.openarchives.org/OAI/openarchivesprotocol.html#dublincore" target="_blank">oai_dc</a>). Where this is not feasible, a set of metadata fields for every image in a collection can be shared as a <a href="#Delimited">tab-delimited or comma-separated</a> file. These metadata fields may include:</p>
 <ul>
-<li>Dublin Core Subject (mandatory) – the species (or most precise taxon) represented by the object.</li>
-<li>Dublin Core Identifier (mandatory) – the URL for accessing the resource.</li>
-<li>Dublin Core Title (recommended) – the text to be displayed as a label for the image – this should normally include both scientific and vernacular names where available, followed by collection and specimen identifiers where applicable. If Title is omitted, the Subject will be used in its place.</li>
-<li>Dublin Core Description (recommended) – the full description of the image.</li>
-<li>Dublin Core Type (recommended) – the type of multimedia object – StillImage is assumed by default. The following terms from the <a class="external" href="http://dublincore.org/documents/dcmi-type-vocabulary/" target="_blank">DCMI Type Vocabulary</a> are appropriate:
+<li>Dublin Core Subject (mandatory) &#8211; the species (or most precise taxon) represented by the object.</li>
+<li>Dublin Core Identifier (mandatory) &#8211; the URL for accessing the resource.</li>
+<li>Dublin Core Title (recommended) &#8211; the text to be displayed as a label for the image &#8211; this should normally include both scientific and vernacular names where available, followed by collection and specimen identifiers where applicable. If Title is omitted, the Subject will be used in its place.</li>
+<li>Dublin Core Description (recommended) &#8211; the full description of the image.</li>
+<li>Dublin Core Type (recommended) &#8211; the type of multimedia object &#8211; StillImage is assumed by default. The following terms from the <a class="external" href="http://dublincore.org/documents/dcmi-type-vocabulary/" target="_blank">DCMI Type Vocabulary</a> are appropriate:
 <ul>
 <li>For image binaries, use: <a class="external" href="http://purl.org/dc/dcmitype/StillImage" target="_blank">http://purl.org/dc/dcmitype/StillImage</a></li>
 <li>For movies, use: <a class="external" href="http://purl.org/dc/dcmitype/MovingImage" target="_blank">http://purl.org/dc/dcmitype/MovingImage</a></li>
@@ -425,10 +675,10 @@ Different researchers and institutions capture and store data in the forms and c
 <li>For image viewer tools, use: <a class="external" href="http://purl.org/dc/dcmitype/InteractiveResource" target="_blank">http://purl.org/dc/dcmitype/InteractiveResource</a></li>
 </ul>
 </li>
-<li>Dublin Core Format (recommended) – the MIME type for the multimedia object.</li>
-<li>Dublin Core Creator (recommended) – the photographer or recorder responsible for the multimedia object.</li>
-<li>Dublin Core Publisher (recommended) – the institution or other party holding copyright for the multimedia object.</li>
-<li>Dublin Core Rights (recommended) – information about property rights or reuse of the multimedia object.</li>
+<li>Dublin Core Format (recommended) &#8211; the MIME type for the multimedia object.</li>
+<li>Dublin Core Creator (recommended) &#8211; the photographer or recorder responsible for the multimedia object.</li>
+<li>Dublin Core Publisher (recommended) &#8211; the institution or other party holding copyright for the multimedia object.</li>
+<li>Dublin Core Rights (recommended) &#8211; information about property rights or reuse of the multimedia object.</li>
 </ul>
 <p>Subject and Identifier must be supplied for every record, but the other Dublin Core properties may be supplied on a record-by-record basis or as a set of default values within the metadata for the entire data set.</p>
 <p>The ALA will be able to use OAI-PMH or the tab-delimited/comma-separated data set to harvest basic metadata about the multimedia objects in a collection.</p>
@@ -442,11 +692,11 @@ Different researchers and institutions capture and store data in the forms and c
 <p>For example, a collection database, an ecological data set and a repository of biodiversity image metadata may all contain fields which represent the scientific name of an organism and the spatial coordinates and date associated with a particular occurrence of that organism. TAPIR allows all of these databases to advertise the fact that they have records containing fields which correspond to the ScientificName, EarliestDateCollected, Latitude and Longitude concepts from a model such as the <a href="#Occurrence">Darwin Core</a>. A client application can then send standard requests (as XML documents or a set of parameters encoded in a URL) to each of these resources and receive the results back as an XML response document. The format of the response document and the data elements to be inserted into this format can be defined by the client requesting the data. This makes it possible, for example, for the client to request the results as a <a class="external" href="http://code.google.com/apis/kml/documentation/" target="_blank">KML</a> file which can be displayed directly in <a class="external" href="http://earth.google.com/" target="_blank">Google Earth</a> or <a class="external" href="http://maps.google.com/" target="_blank">Google Maps</a>.</p>
 <p>TAPIR supports five types of request:</p>
 <ul>
-<li><strong>Metadata</strong> – get description and ownership details for a data set</li>
-<li><strong>Capabilities</strong> – get information on the technical aspects of the TAPIR instance and the concepts (properties) shared</li>
-<li><strong>Inventory</strong> – list distinct values (with record counts) for a supported concept (e.g. list all scientific names)</li>
-<li><strong>Search</strong> – search for records matching specified search criteria</li>
-<li><strong>Ping</strong> – verify that TAPIR instance is active</li>
+<li><strong>Metadata</strong> &#8211; get description and ownership details for a data set</li>
+<li><strong>Capabilities</strong> &#8211; get information on the technical aspects of the TAPIR instance and the concepts (properties) shared</li>
+<li><strong>Inventory</strong> &#8211; list distinct values (with record counts) for a supported concept (e.g. list all scientific names)</li>
+<li><strong>Search</strong> &#8211; search for records matching specified search criteria</li>
+<li><strong>Ping</strong> &#8211; verify that TAPIR instance is active</li>
 </ul>
 <p>Several implementations of the TAPIR protocol are available. The TAPIR server implementations all include configuration interfaces to assist data providers in mapping their relational databases to standards such as <a class="external" href="http://rs.tdwg.org/dwc/index.htm" target="_blank">Darwin Core</a>, <a class="external" href="https://wayback.archive.org/web/20150907161136/http://rs.tdwg.org/abcd/2.06/rddl-2007-10-18.html" target="_blank">ABCD</a> and the TDWG <a class="external" href="https://web.archive.org/web/20150707013356/http://rs.tdwg.org:80/ontology/voc/TaxonOccurrence" target="_blank">TaxonOccurrence</a> vocabulary. Available software includes:</p>
 <ul>
@@ -462,15 +712,15 @@ Different researchers and institutions capture and store data in the forms and c
 <ul>
 <li>TAPIR web site: <a class="external" href="https://web.archive.org/web/20170712131253/http://www.tdwg.org/activities/tapir/" target="_blank">http://www.tdwg.org/activities/tapir/</a></li>
 <li>TAPIR protocol specification: <a class="external" href="https://wayback.archive.org/web/20140512065222/http://www.tdwg.org/dav/subgroups/tapir/1.0/docs/tdwg_tapir_specification_2010-05-05.htm" target="_blank">http://www.tdwg.org/dav/subgroups/tapir/1.0/docs/tdwg_tapir_specification_2010-05-05.htm</a></li>
-<li>TAPIR Network Builders’ Guide: <a class="external" href="https://wayback.archive.org/web/20140512065222/http://www.tdwg.org/dav/subgroups/tapir/1.0/docs/tdwg_tapir_specification_2010-05-05.htm" target="_blank">http://www.tdwg.org/dav/subgroups/tapir/1.0/docs/TAPIRNetworkBuildersGuide_2010-05-05.html</a></li>
+<li>TAPIR Network Builders&#8217; Guide: <a class="external" href="https://wayback.archive.org/web/20140512065222/http://www.tdwg.org/dav/subgroups/tapir/1.0/docs/tdwg_tapir_specification_2010-05-05.htm" target="_blank">http://www.tdwg.org/dav/subgroups/tapir/1.0/docs/TAPIRNetworkBuildersGuide_2010-05-05.html</a></li>
 </ul>
 <h4 id="Delimited">2b. Tab-delimited and comma-separated data</h4>
 <p>TAPIR is a powerful tool for supporting remote access to a database but some data providers may not need the flexibility it offers, or may be unable to run the TAPIR software on a web server. In such circumstances it may be simpler to share a flat file representation of the data. The simplest approach, supported by database and spreadsheet software, is to export the content as tab-delimited or comma-separated data and then to register a URL from which the data file can be downloaded. This makes it possible to associate the data with any relevant descriptive metadata. Note that data should always be shared using <a class="external" href="http://en.wikipedia.org/wiki/UTF-8" target="_blank">UTF-8</a> as the character encoding.</p>
 <p>One possible weakness in such an approach is that it may be difficult for users to interpret the significance of the various columns in such a data set. The ALA makes the following recommendations to address this problem:</p>
 <ul>
 <li>Where columns correspond to <a class="external" href="http://dublincore.org/documents/dces/" target="_blank">Dublin Core</a> properties, the columns should be labeled with the appropriate Dublin Core element identifier.</li>
-<li>Where columns correspond to properties from the TDWG vocabularies, the columns should be labeled with the appropriate TDWG <a class="external" href="https://web.archive.org/web/20150707013356/http://rs.tdwg.org:80/ontology/voc/TaxonOccurrence" target="_blank">TaxonOccurrence</a>, <a class="external" href="https://web.archive.org/web/20150708141303/http://rs.tdwg.org:80/ontology/voc/TaxonConcept" target="_blank">TaxonConcept</a> or <a class="external" href="https://web.archive.org/web/20160304190213/http://rs.tdwg.org/ontology/voc/TaxonName" target="_blank">TaxonName</a> property identifiers.<br>
-Where applicable, and no ambiguity arises, terms from multiple vocabularies may be combined (e.g a TaxonOccurrence record may include<br>
+<li>Where columns correspond to properties from the TDWG vocabularies, the columns should be labeled with the appropriate TDWG <a class="external" href="https://web.archive.org/web/20150707013356/http://rs.tdwg.org:80/ontology/voc/TaxonOccurrence" target="_blank">TaxonOccurrence</a>, <a class="external" href="https://web.archive.org/web/20150708141303/http://rs.tdwg.org:80/ontology/voc/TaxonConcept" target="_blank">TaxonConcept</a> or <a class="external" href="https://web.archive.org/web/20160304190213/http://rs.tdwg.org/ontology/voc/TaxonName" target="_blank">TaxonName</a> property identifiers.<br />
+Where applicable, and no ambiguity arises, terms from multiple vocabularies may be combined (e.g a TaxonOccurrence record may include<br />
 properties from the TaxonConcept vocabulary), but note comments below on more complex data sets.</li>
 <li>Where columns do not correspond to any property in the TDWG vocabularies, the columns should be labeled with a URI identifying a suitable term from another ontology or vocabulary. If this is not possible a plain text column heading may be used.</li>
 </ul>
@@ -484,23 +734,23 @@ properties from the TaxonConcept vocabulary), but note comments below on more co
 </tr>
 <tr>
 <td><a class="external" href="http://dublincore.org/documents/dces/" target="_blank">Dublin Core</a></td>
-<td>Element URI (e.g. “<a class="external" href="http://purl.org/dc/elements/1.1/description" target="_blank">http://purl.org/dc/elements/1.1/description</a>“)</td>
-<td>Prefix property name with “dc:” (e.g. “dc:description”)</td>
+<td>Element URI (e.g. &#8220;<a class="external" href="http://purl.org/dc/elements/1.1/description" target="_blank">http://purl.org/dc/elements/1.1/description</a>&#8220;)</td>
+<td>Prefix property name with &#8220;dc:&#8221; (e.g. &#8220;dc:description&#8221;)</td>
 </tr>
 <tr>
 <td><a class="external" href="https://web.archive.org/web/20150707013356/http://rs.tdwg.org:80/ontology/voc/TaxonOccurrence" target="_blank">TaxonOccurrence</a></td>
-<td>Prefix property name with “http://rs.tdwg.org/ontology/voc/TaxonOccurrence#” (e.g. “http://rs.tdwg.org/ontology/voc/TaxonOccurrence#catalogueNumber”)</td>
-<td>Prefix property name with “to:” (e.g. “to:catalogueNumber”)</td>
+<td>Prefix property name with &#8220;http://rs.tdwg.org/ontology/voc/TaxonOccurrence#&#8221; (e.g. &#8220;http://rs.tdwg.org/ontology/voc/TaxonOccurrence#catalogueNumber&#8221;)</td>
+<td>Prefix property name with &#8220;to:&#8221; (e.g. &#8220;to:catalogueNumber&#8221;)</td>
 </tr>
 <tr>
 <td><a class="external" href="https://web.archive.org/web/20150708141303/http://rs.tdwg.org:80/ontology/voc/TaxonConcept" target="_blank">TaxonConcept</a></td>
-<td>Prefix property name with “http://rs.tdwg.org/ontology/voc/TaxonConcept#” (e.g. “http://rs.tdwg.org/ontology/voc/TaxonConcept#nameString”)</td>
-<td>Prefix property name with “tc:” (e.g. “tc:nameString”)</td>
+<td>Prefix property name with &#8220;http://rs.tdwg.org/ontology/voc/TaxonConcept#&#8221; (e.g. &#8220;http://rs.tdwg.org/ontology/voc/TaxonConcept#nameString&#8221;)</td>
+<td>Prefix property name with &#8220;tc:&#8221; (e.g. &#8220;tc:nameString&#8221;)</td>
 </tr>
 <tr>
 <td><a class="external" href="https://web.archive.org/web/20160304190213/http://rs.tdwg.org/ontology/voc/TaxonName" target="_blank">TaxonName</a></td>
-<td>Prefix property name with “http://rs.tdwg.org/ontology/voc/Taxonname#” (e.g. “http://rs.tdwg.org/ontology/voc/TaxonName#year”)</td>
-<td>Prefix property name with “tn:” (e.g. “tn:year”)</td>
+<td>Prefix property name with &#8220;http://rs.tdwg.org/ontology/voc/Taxonname#&#8221; (e.g. &#8220;http://rs.tdwg.org/ontology/voc/TaxonName#year&#8221;)</td>
+<td>Prefix property name with &#8220;tn:&#8221; (e.g. &#8220;tn:year&#8221;)</td>
 </tr>
 <tr>
 <td>Other vocabulary</td>
@@ -514,15 +764,15 @@ properties from the TaxonConcept vocabulary), but note comments below on more co
 </tr>
 </tbody>
 </table>
-<p>This approach will allow relatively simple (“flat”) database structures to be shared. It will however not accommodate all needs. Two particular issues need to be considered:</p>
+<p>This approach will allow relatively simple (&#8220;flat&#8221;) database structures to be shared. It will however not accommodate all needs. Two particular issues need to be considered:</p>
 <ul>
-<li><strong>Many-to-one joins</strong> – This issue does not relate to all database joins. The important question is which table in the database is the “root” table for the records to be exported. As an example, consider sharing TaxonOccurrence records from a database with just two separate tables, one for Specimens and one for Taxa. There will be a many-to-one relationship between these tables but the table to be considered as the “root” for TaxonOccurrence records is the Specimens table. Each record in the Specimens table is joined to a single record in the Taxa table and the whole database could be “flattened” with a single record for each TaxonOccurrence (whereas it could not be flattened with a single record for each TaxonConcept if those records are to include all the specimen data). There are situations in which the proper mapping of a database should include multiple nested subrecords (e.g. a history of consecutive identifications for a specimen, or a series of synonyms for an accepted species name). In such cases, it is not possible to share the data using a single tab-delimited/comma-separated file.</li>
-<li><strong>Ambiguity</strong> – In some cases, there may be several ways that different data objects may be connected. As an example a TaxonOccurrence record could be related to a named person as the person who collected a specimen or as the person who identified it. A database might contain detailed information for each of these roles (name, email address, title, etc.) and it might be appropriate to use another vocabulary (e.g. <a class="external" href="http://en.wikipedia.org/wiki/VCard" target="_target">vCard</a>) to share this detailed information. However a column labeled “vcard:email” would be ambiguous. Is this the email address for the collector or the identifier?</li>
+<li><strong>Many-to-one joins</strong> &#8211; This issue does not relate to all database joins. The important question is which table in the database is the &#8220;root&#8221; table for the records to be exported. As an example, consider sharing TaxonOccurrence records from a database with just two separate tables, one for Specimens and one for Taxa. There will be a many-to-one relationship between these tables but the table to be considered as the &#8220;root&#8221; for TaxonOccurrence records is the Specimens table. Each record in the Specimens table is joined to a single record in the Taxa table and the whole database could be &#8220;flattened&#8221; with a single record for each TaxonOccurrence (whereas it could not be flattened with a single record for each TaxonConcept if those records are to include all the specimen data). There are situations in which the proper mapping of a database should include multiple nested subrecords (e.g. a history of consecutive identifications for a specimen, or a series of synonyms for an accepted species name). In such cases, it is not possible to share the data using a single tab-delimited/comma-separated file.</li>
+<li><strong>Ambiguity</strong> &#8211; In some cases, there may be several ways that different data objects may be connected. As an example a TaxonOccurrence record could be related to a named person as the person who collected a specimen or as the person who identified it. A database might contain detailed information for each of these roles (name, email address, title, etc.) and it might be appropriate to use another vocabulary (e.g. <a class="external" href="http://en.wikipedia.org/wiki/VCard" target="_target">vCard</a>) to share this detailed information. However a column labeled &#8220;vcard:email&#8221; would be ambiguous. Is this the email address for the collector or the identifier?</li>
 </ul>
 <p>It would be possible for the ALA to develop more complex recommendations on ways to use tab-delimited/comma-separated formats to overcome these issues. At present the recommendation is to avoid the use of these formats for these more complex situations. In one special case, sharing of synonymised checklist data, the ALA recommends the use of the SPICE Common Data Model properties to supply column headings. This model includes separate sets of properties for the accepted name and for the synonym and therefore avoids the general problems described above.</p>
 <h4 id="LSID">2c. LSIDs and RDF data</h4>
 <p><a class="external" href="http://lsids.sourceforge.net/" target="_blank">Life Science Identifiers</a> (LSIDs) are globally unique identifiers which can be used both uniquely to identify a particular data object and also to assist users with retrieving associated metadata in a standard format.</p>
-<p>An LSID is a string with the following format: urn:lsid:<Authority>:<Namespace>:<ObjectID>[:<Version>]</p>
+<p>An LSID is a string with the following format: urn:lsid:&lt;Authority&gt;:&lt;Namespace&gt;:&lt;ObjectID&gt;[:&lt;Version&gt;]</p>
 <p>Where:</p>
 <ul>
 <li><strong>Authority</strong> is an identifier for the organisation issuing the identifier (usually the root DNS name for the organisation)</li>
@@ -532,8 +782,8 @@ properties from the TaxonConcept vocabulary), but note comments below on more co
 </ul>
 <p>Example LSIDs include:</p>
 <ul>
-<li><a class="external" href="http://lsid.tdwg.org/urn:lsid:indexfungorum.org:names:161267" target="_blank">urn:lsid:indexfungorum.org:names:161267</a> – <a class="external" href="http://www.indexfungorum.org/Names/Names.asp" target="_blank">IndexFungorum</a> record for the name <em>Amanita muscaria</em></li>
-<li><a class="external" href="http://lsid.tdwg.org/urn:lsid:biocol.org:col:32981" target="_blank">urn:lsid:biocol.org:col:32981</a> – <a class="external" href="https://web.archive.org/web/20130501063816/http://www.biodiversitycollectionsindex.org/static/index.html" target="_blank">BCI</a> record for the <a class="external" href="http://www.csiro.au/places/anic.html" target="_blank">Australian National Insect Collection</a></li>
+<li><a class="external" href="http://lsid.tdwg.org/urn:lsid:indexfungorum.org:names:161267" target="_blank">urn:lsid:indexfungorum.org:names:161267</a> &#8211; <a class="external" href="http://www.indexfungorum.org/Names/Names.asp" target="_blank">IndexFungorum</a> record for the name <em>Amanita muscaria</em></li>
+<li><a class="external" href="http://lsid.tdwg.org/urn:lsid:biocol.org:col:32981" target="_blank">urn:lsid:biocol.org:col:32981</a> &#8211; <a class="external" href="https://web.archive.org/web/20130501063816/http://www.biodiversitycollectionsindex.org/static/index.html" target="_blank">BCI</a> record for the <a class="external" href="http://www.csiro.au/places/anic.html" target="_blank">Australian National Insect Collection</a></li>
 </ul>
 <p>TDWG has adopted LSIDs as its recommended standard for assigning globally unique identifiers to data records and has developed a range of software components to assist data providers and users in exchanging data via LSIDs. This software is listed on the <a class="external" href="http://wiki.tdwg.org/twiki/bin/view/GUID/WebHome#LSID_Home_Page" target="_blank">TDWG wiki</a> and includes:</p>
 <ul>
@@ -557,12 +807,12 @@ properties from the TaxonConcept vocabulary), but note comments below on more co
 <h4 id="OAI">2d. OAI Protocol for Metadata Harvesting (OAI-PMH)</h4>
 <p>The <a class="external" href="http://www.openarchives.org/" target="_blank">Open Archives Initiative</a> (OAI) has developed a simple protocol for harvesting of metadata from web repsitories. <a class="external" href="http://www.openarchives.org/pmh/" target="_blank">OAI-PMH</a> is a set of six request types which allow clients to browse the contents of such a repository and, at a later date, to be able to discover more recent changes. These requests are:</p>
 <ul>
-<li><strong>GetRecord</strong> – retrieve an individual metadata record selected by its identifier</li>
-<li><strong>Identify</strong> – get information about the repository</li>
-<li><strong>ListIdentifiers</strong> – get header information for metadata records optionally filtered by a timestamp and/or a Set identifier (see ListSets)</li>
-<li><strong>ListMetadataFormats</strong> – get information on the response formats supported by the repository</li>
-<li><strong>ListRecords</strong> – get full information for metadata records optionally filtered by a timestamp and/or a Set identifier</li>
-<li><strong>ListSets</strong> – get information on the Sets which may be used to organise the contents of a repository into subcategories</li>
+<li><strong>GetRecord</strong> &#8211; retrieve an individual metadata record selected by its identifier</li>
+<li><strong>Identify</strong> &#8211; get information about the repository</li>
+<li><strong>ListIdentifiers</strong> &#8211; get header information for metadata records optionally filtered by a timestamp and/or a Set identifier (see ListSets)</li>
+<li><strong>ListMetadataFormats</strong> &#8211; get information on the response formats supported by the repository</li>
+<li><strong>ListRecords</strong> &#8211; get full information for metadata records optionally filtered by a timestamp and/or a Set identifier</li>
+<li><strong>ListSets</strong> &#8211; get information on the Sets which may be used to organise the contents of a repository into subcategories</li>
 </ul>
 <p>Essentially OAI-PMH can be seen as a more sophisticated and flexible version of <a class="external" href="http://en.wikipedia.org/wiki/RSS_(file_format)" target="_blank">RSS</a>. A data provider can advertise a set of resources via their metadata, and can optionally use Sets to subdivide these resources into categories of importance to users. Users can browse all metadata documents or the documents for a single Set and can limit requests to those metadata documents added, modified and even deleted since a specified date.</p>
 <p>OAI-PMH allows repositories to offer a range of metadata formats but mandates that the OAI <a class="external" href="http://dublincore.org/documents/dces/" target="_blank">Dublin Core</a> (<a class="external" href="http://www.openarchives.org/OAI/openarchivesprotocol.html#dublincore" target="_blank">oai_dc</a>) format must be supported.</p>
@@ -579,12 +829,12 @@ properties from the TaxonConcept vocabulary), but note comments below on more co
 <p>The ALA is developing a metadata repository for capturing information about data resources of relevance to Australian biodiversity. This is a work-in-progress and the following guidelines will be extended and perhaps modified in coming months.</p>
 <p>In general, metadata can solve several critical problems with managing data:</p>
 <ol>
-<li>Data access – providing the basic technical details on where data are stored and how to retrieve them</li>
-<li>Data discovery – enabling users to find data resources which match search criteria</li>
-<li>Data description – giving users the information needed to determine whether the resource contents are relevant and<br>
+<li>Data access &#8211; providing the basic technical details on where data are stored and how to retrieve them</li>
+<li>Data discovery &#8211; enabling users to find data resources which match search criteria</li>
+<li>Data description &#8211; giving users the information needed to determine whether the resource contents are relevant and<br />
 usable for their needs</li>
-<li>Data ownership – expressing information on the ownership and reuse of each data resource</li>
-<li>Data longevity – providing the information framework for managing long-term archival of data resources while ensuring that they remain discoverable and usable into the future</li>
+<li>Data ownership &#8211; expressing information on the ownership and reuse of each data resource</li>
+<li>Data longevity &#8211; providing the information framework for managing long-term archival of data resources while ensuring that they remain discoverable and usable into the future</li>
 </ol>
 <p>The goal of the ALA is to gather sufficient metadata from different sources to meet the following requirements:</p>
 <ul>
@@ -617,7 +867,7 @@ usable for their needs</li>
 <p><a class="external" href="https://knb.ecoinformatics.org/" target="_blank">Morpho</a> is a free standalone tool for editing EML documents. GBIF is working on an EML editor integrated into its data portal.</p>
 
 		
-	</div>
+	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 
@@ -626,67 +876,28 @@ usable for their needs</li>
 			<div class="addthis_inline_share_toolbox"></div>
 			<a href="https://www-test.ala.org.au/blog/" class="btn btn-outline-dark btn-lg"><i class="fal fa-lg fa-angle-left"></i> Back to Articles</a>
 		</div>
-	</footer>
+	</footer><!-- .entry-footer -->
 
-</article>
+</article><!-- #post-## -->
 
 					
 				
-			</main>
+			</main><!-- #main -->
 
 			</div>
 
-			
+			<!-- Do the right sidebar -->
 			
 <div class="col-md-3 widget-area" id="right-sidebar" role="complementary">
 
-<aside id="pvtl-recent-posts-2" class="widget pvtl-recent-posts-class">	<h3 class="widget-title">Latest Posts</h3>
-	<div class="post-list">
-					<article class="recent-post" id="post-44312">
-				<a href="https://www-test.ala.org.au/blogs-news/wednesday-climbing-fern/" rel="bookmark" title="Wednesday climbing fern">
-					<header class="recent-header">
-													<div class="recent-meta">
-								<span class="posted-on"><span class="sr-only">Posted on </span><time class="entry-date published updated" datetime="2020-11-18T16:14:36+11:00">18th November 2020</time></span>							</div>
-												<h2 class="recent-title">
-							Wednesday climbing fern						</h2>
-					</header>
-					<div class="recent-content">
-						It's Wednesday, so you deserve a climbing fern.					</div>
-				</a>
-			</article>
-					<article class="recent-post" id="post-44308">
-				<a href="https://www-test.ala.org.au/blogs-news/monday-corroboree-frog/" rel="bookmark" title="Monday Corroboree Frog">
-					<header class="recent-header">
-													<div class="recent-meta">
-								<span class="posted-on"><span class="sr-only">Posted on </span><time class="entry-date published updated" datetime="2020-11-16T17:48:25+11:00">16th November 2020</time></span>							</div>
-												<h2 class="recent-title">
-							Monday Corroboree Frog						</h2>
-					</header>
-					<div class="recent-content">
-						This excerpt tells you everything you need to know about a corroboree frog at a glance.					</div>
-				</a>
-			</article>
-					<article class="recent-post" id="post-44304">
-				<a href="https://www-test.ala.org.au/blogs-news/monday-fly-agaric/" rel="bookmark" title="Monday Fly Agaric">
-					<header class="recent-header">
-													<div class="recent-meta">
-								<span class="posted-on"><span class="sr-only">Posted on </span><time class="entry-date published updated" datetime="2020-11-16T15:10:37+11:00">16th November 2020</time></span>							</div>
-												<h2 class="recent-title">
-							Monday Fly Agaric						</h2>
-					</header>
-					<div class="recent-content">
-						Excerpt text would go here if there was some excerpt text.					</div>
-				</a>
-			</article>
-			</div>
-</aside>
-</div>
 
-		</div>
+</div><!-- #right-sidebar -->
 
-	</div>
+		</div><!-- .row -->
 
-</div>
+	</div><!-- #content -->
+
+</div><!-- #single-wrapper -->
 
 
 
@@ -706,7 +917,7 @@ usable for their needs</li>
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-md-12 col-lg-4 align-center logo-column">
-					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w,https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w,https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px"></a>
+					<a class="navbar-brand" rel="home" href="https://www-test.ala.org.au/" title="Atlas of Living Australia" itemprop="url"><img width="1005" height="150" src="https://www-test.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo" alt="Atlas of Living Australia" loading="lazy" itemprop="logo" srcset="https://www-test.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www-test.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www-test.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w" sizes="(max-width: 1005px) 100vw, 1005px" /></a>
 					<div class="account">
 													
 						<div class="ala-auth-buttons-logged-in d-none">
@@ -724,41 +935,41 @@ usable for their needs</li>
 					<li><a href="http://www.twitter.com/atlaslivingaust" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
-				</div>
+				</div><!--col end -->
 				<div class="col-md-6 col-lg-4 content-column">
 										<div class="d-flex">
 						<div class="image">
-							<img src="https://www-test.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg" alt="iNaturalist logo" id="inat-logo">
+							<img src="https://www-test.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg" alt="iNaturalist logo" id="inat-logo" />
 						</div>
 						<div class="content">
 							<h4><a href="https://www.ala.org.au/home/record-a-sighting/">Record a sighting</a></h4>
 <p>Upload your observations, identify species, and contribute to the ALA.</p>
 						</div>
 					</div>
-				</div>
+				</div><!--col end -->
 				<div class="col-md-6 col-lg-4 content-column">
 										<div class="d-flex">
 						<div class="image">
-							<img src="https://www-test.ala.org.au/app/uploads/2019/06/19-0078_ALA_ICON_IconSuite_Spatial-Portal-white.svg" alt="">
+							<img src="https://www-test.ala.org.au/app/uploads/2019/06/19-0078_ALA_ICON_IconSuite_Spatial-Portal-white.svg" alt="" />
 						</div>
 						<div class="content">
 							<h4><a href="https://spatial.ala.org.au/">Explore the Spatial Portal</a></h4>
 <p>Visualise and analyse relationships between species, location and environment.</p>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
+				</div><!--col end -->
+			</div><!-- row end -->
+		</div><!-- container end -->
 	</div>
 
 	<div class="footer-middle">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-lg-3">
-					<div class="footer-menu"><ul id="menu-search-analyse" class="menu"><li id="menu-item-208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Search & analyse" href="#">Search & analyse</a>
+					<div class="footer-menu"><ul id="menu-search-analyse" class="menu"><li id="menu-item-208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Search &amp; analyse" href="#">Search &#038; analyse</a>
 <ul class="sub-menu">
 	<li id="menu-item-41964" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search species" href="https://bie.ala.org.au/">Search species</a></li>
-	<li id="menu-item-209" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search & download records" href="https://biocache.ala.org.au/search#tab_simpleSearch">Search & download records</a></li>
+	<li id="menu-item-209" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search &amp; download records" href="https://biocache.ala.org.au/search#tab_simpleSearch">Search &#038; download records</a></li>
 	<li id="menu-item-210" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Search datasets" href="https://collections.ala.org.au/datasets">Search datasets</a></li>
 	<li id="menu-item-211" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Spatial analysis (Spatial Portal)" href="https://spatial.ala.org.au/">Spatial analysis (Spatial Portal)</a></li>
 	<li id="menu-item-215" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Explore your area" href="https://biocache.ala.org.au/explore/your-area">Explore your area</a></li>
@@ -768,26 +979,26 @@ usable for their needs</li>
 	<li id="menu-item-40716" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Browse specimen images" href="https://specimens.ala.org.au/">Browse specimen images</a></li>
 </ul>
 </li>
-</ul></div>				</div>
+</ul></div>				</div><!--col end -->
 				<div class="col-md-6 col-lg-3">
 					<div class="footer-menu"><ul id="menu-contribute" class="menu"><li id="menu-item-218" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Contribute" href="#">Contribute</a>
 <ul class="sub-menu">
 	<li id="menu-item-40774" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Share your dataset" href="https://support.ala.org.au/support/solutions/articles/6000195493-how-to-submit-a-data-set">Share your dataset</a></li>
 	<li id="menu-item-40718" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Upload species list" href="https://lists.ala.org.au/public/speciesLists">Upload species list</a></li>
 	<li id="menu-item-43212" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Record a sighting" href="https://www-test.ala.org.au/home/record-a-sighting/">Record a sighting</a></li>
-	<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Transcribe & digitise (DigiVol)" href="https://digivol.ala.org.au/">Transcribe & digitise (DigiVol)</a></li>
-	<li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa?hub=ala-cs#isCitizenScience%3Dtrue%26isWorldWide%3Dfalse%26max%3D20%26sort%3DdateCreatedSort">Discover citizen science projects</a></li>
+	<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Transcribe &amp; digitise (DigiVol)" href="https://digivol.ala.org.au/">Transcribe &#038; digitise (DigiVol)</a></li>
+	<li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Discover citizen science projects" href="https://biocollect.ala.org.au/acsa">Discover citizen science projects</a></li>
 	<li id="menu-item-222" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Download mobile apps" href="https://www.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/">Download mobile apps</a></li>
 </ul>
 </li>
 </ul></div>				</div>
 				<div class="col-md-6 col-lg-3">
-					<div class="footer-menu"><ul id="menu-resources" class="menu"><li id="menu-item-44281" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Resources" href="#">Resources</a>
+					<div class="footer-menu"><ul id="menu-resources" class="menu"><li id="menu-item-44402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Resources" href="#">Resources</a>
 <ul class="sub-menu">
-	<li id="menu-item-44283" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Brochures and reports" href="https://www-test.ala.org.au/publications/">Brochures and reports</a></li>
-	<li id="menu-item-44289" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/">ALA logo and identity</a></li>
-	<li id="menu-item-44282" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA-cited publications" href="https://www-test.ala.org.au/ala-cited-publications/">ALA-cited publications</a></li>
-	<li id="menu-item-44284" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Education Resources" href="https://www-test.ala.org.au/education-resources/">Education Resources</a></li>
+	<li id="menu-item-44398" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Brochures and reports" href="https://www-test.ala.org.au/publications/">Brochures and reports</a></li>
+	<li id="menu-item-44399" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA-cited publications" href="https://www-test.ala.org.au/ala-cited-publications/">ALA-cited publications</a></li>
+	<li id="menu-item-44401" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="ALA logo and identity" href="https://www-test.ala.org.au/ala-logo-and-identity/">ALA logo and identity</a></li>
+	<li id="menu-item-44400" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Education resources" href="https://www-test.ala.org.au/education-resources/">Education resources</a></li>
 </ul>
 </li>
 </ul></div>				</div>
@@ -795,12 +1006,12 @@ usable for their needs</li>
 					<div class="footer-menu"><ul id="menu-about" class="menu"><li id="menu-item-225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a title="About" href="https://www-test.ala.org.au/about-ala/">About</a>
 <ul class="sub-menu">
 	<li id="menu-item-40724" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="About us" href="https://www-test.ala.org.au/about-ala/">About us</a></li>
-	<li id="menu-item-41965" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="News & media" href="/blog/">News & media</a></li>
+	<li id="menu-item-41965" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="News &amp; media" href="/blog/">News &#038; media</a></li>
 	<li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Contact us" href="https://www-test.ala.org.au/contact-us/">Contact us</a></li>
 	<li id="menu-item-43694" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Current projects" href="https://www-test.ala.org.au/current-projects/">Current projects</a></li>
 	<li id="menu-item-40721" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="International Living Atlases" href="https://living-atlases.gbif.org/">International Living Atlases</a></li>
 	<li id="menu-item-229" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Indigenous ecological knowledge" href="https://www-test.ala.org.au/indigenous-ecological-knowledge/">Indigenous ecological knowledge</a></li>
-	<li id="menu-item-41966" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="All sites, services & tools" href="/sites-and-services/">All sites, services & tools</a></li>
+	<li id="menu-item-41966" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="All sites, services &amp; tools" href="/sites-and-services/">All sites, services &#038; tools</a></li>
 </ul>
 </li>
 </ul></div>				</div>
@@ -826,14 +1037,14 @@ usable for their needs</li>
 					<div class="footer-menu"><ul id="menu-community-hubs" class="menu"><li id="menu-item-41590" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Community hubs" href="#">Community hubs</a>
 <ul class="sub-menu">
 	<li id="menu-item-41591" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="AVH: Australasian Virtual Herbarium" href="https://avh.ala.org.au/">AVH: Australasian Virtual Herbarium</a></li>
-	<li id="menu-item-41592" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="OZCAM: Online Zoological Collections..." href="https://ozcam.ala.org.au/">OZCAM: Online Zoological Collections…</a></li>
+	<li id="menu-item-41592" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="OZCAM: Online Zoological Collections..." href="https://ozcam.ala.org.au/">OZCAM: Online Zoological Collections&#8230;</a></li>
 	<li id="menu-item-41593" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ASBP: Australian Seed Bank Partnership" href="https://asbp.ala.org.au/">ASBP: Australian Seed Bank Partnership</a></li>
 	<li id="menu-item-41594" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="MDBA: Murray-Darling Basin Authority" href="https://mdba.ala.org.au/">MDBA: Murray-Darling Basin Authority</a></li>
 </ul>
 </li>
 </ul></div>				</div>
 				<div class="col-md-6 col-lg-3">
-					<div class="footer-menu"><ul id="menu-ala-for" class="menu"><li id="menu-item-41868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="ALA for..." href="#">ALA for…</a>
+					<div class="footer-menu"><ul id="menu-ala-for" class="menu"><li id="menu-item-41868" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="ALA for..." href="#">ALA for&#8230;</a>
 <ul class="sub-menu">
 	<li id="menu-item-41867" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA for researchers" href="/ala-for-researchers">ALA for researchers</a></li>
 	<li id="menu-item-41866" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA for government and land managers" href="/ala-for-government-and-land-managers-2/">ALA for government and land managers</a></li>
@@ -842,24 +1053,23 @@ usable for their needs</li>
 </li>
 </ul></div>				</div>
 				<div class="col-md-6 col-lg-3">
-					<div class="footer-menu"><ul id="menu-help" class="menu"><li id="menu-item-44275" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Help" href="#">Help</a>
+					<div class="footer-menu"><ul id="menu-help" class="menu"><li id="menu-item-44403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a title="Help" href="#">Help</a>
 <ul class="sub-menu">
-	<li id="menu-item-44276" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Browse all articles (FAQs)" href="https://support.ala.org.au/support/home">Browse all articles (FAQs)</a></li>
-	<li id="menu-item-44277" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Data help" href="https://support.ala.org.au/support/solutions/6000137994">ALA Data help</a></li>
-	<li id="menu-item-44278" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Tools & Apps help" href="https://support.ala.org.au/support/solutions/6000138053">ALA Tools & Apps help</a></li>
-	<li id="menu-item-44279" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Spatial Portal help" href="https://support.ala.org.au/support/solutions/6000138349">ALA Spatial Portal help</a></li>
-	<li id="menu-item-44280" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Contact Us" href="https://www-test.ala.org.au/contact-us/">Contact Us</a></li>
+	<li id="menu-item-44404" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Data help" href="https://support.ala.org.au/support/solutions/6000137994">ALA Data help</a></li>
+	<li id="menu-item-44405" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Tools &amp; Apps help" href="https://support.ala.org.au/support/solutions/6000138053">ALA Tools &#038; Apps help</a></li>
+	<li id="menu-item-44406" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="ALA Spatial Portal help" href="https://support.ala.org.au/support/solutions/6000138349">ALA Spatial Portal help</a></li>
+	<li id="menu-item-44407" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="Contact Us" href="https://www-test.ala.org.au/contact-us/">Contact Us</a></li>
 </ul>
 </li>
 </ul></div>				</div>
 				<div class="col-md-12">
-					<div class="footer-menu-horizontal"><ul id="menu-other-links" class="menu horizontal"><li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a title="News & media" href="https://www-test.ala.org.au/blog/">News & media</a></li>
+					<div class="footer-menu-horizontal"><ul id="menu-other-links" class="menu horizontal"><li id="menu-item-231" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a title="News &amp; media" href="https://www-test.ala.org.au/blog/">News &#038; media</a></li>
 <li id="menu-item-232" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Help" href="https://support.ala.org.au/support/home">Help</a></li>
-<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Developer tools & documentation" href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer tools & documentation</a></li>
-<li id="menu-item-41795" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="All sites, services & tools" href="https://www-test.ala.org.au/sites-and-services/">All sites, services & tools</a></li>
+<li id="menu-item-234" class="menu-item menu-item-type-custom menu-item-object-custom"><a title="Developer tools &amp; documentation" href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer tools &#038; documentation</a></li>
+<li id="menu-item-41795" class="menu-item menu-item-type-post_type menu-item-object-page"><a title="All sites, services &#038; tools" href="https://www-test.ala.org.au/sites-and-services/">All sites, services &#038; tools</a></li>
 </ul></div>				</div>
-			</div>
-		</div>
+			</div><!-- row end -->
+		</div><!-- container end -->
 	</div>
 
 	<div class="footer-bottom">
@@ -867,14 +1077,14 @@ usable for their needs</li>
 			<div class="row">
 				<div class="col-md-6 content-column">
 					<h4>The ALA is made possible by contributions from its partners, is supported by <a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>, is hosted by <a href="https://csiro.au/">CSIRO</a>, and is the Australian node of <a href="https://www.gbif.org/en/">GBIF</a>.</h4>
-<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109"></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109"></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109"></a></p>
-				</div>
+<p><a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris"><img loading="lazy" class="alignnone wp-image-41895 size-thumbnail" src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg" alt="NCRIS logo" width="150" height="109" /></a>    <a href="https://csiro.au/"><img loading="lazy" class="alignnone wp-image-41909" src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png" alt="CSIRO logo" width="109" height="109" /></a> <a href="https://www.gbif.org/en/"><img loading="lazy" class="alignnone size-full wp-image-41898" src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png" alt="GBIF logo" width="207" height="109" /></a></p>
+				</div><!--col end -->
 				<div class="col-md-6 content-column">
 					<h4>Acknowledgement of Traditional Owners and Country</h4>
 <p>The Atlas of Living Australia acknowledges Australia’s Traditional Owners and pays respect to the past and present Elders of the nation’s Aboriginal and Torres Strait Islander communities. We honour and celebrate the spiritual, cultural and customary connections of Traditional Owners to country and the biodiversity that forms part of that country.</p>
-				</div>
-			</div>
-		</div>
+				</div><!--col end -->
+			</div><!-- row end -->
+		</div><!-- container end -->
 	</div>
 
 	<div class="footer-copyright">
@@ -884,28 +1094,36 @@ usable for their needs</li>
 					<p class="alert-text text-creativecommons">
 						This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative Commons Attribution 3.0 Australia License</a> <a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/"><img alt="Creative Commons License" style="border-width:0" src="/app/themes/pvtl/images/cc-by.png"></a>
 					</p>
-				</div>
+				</div><!--col end -->
 				<div class="col-md-12 col-lg-5 text-lg-right">
 					<ul class="menu horizontal">
 						<li><a href="/terms-of-use#cy">Copyright</a></li>
 						<li><a href="/terms-of-use">Terms of Use</a></li>
 						<li><a href="https://status.ala.org.au/">System Status</a></li>
 					</ul>
-				</div>
-			</div>
-		</div>
+				</div><!--col end -->
+			</div><!-- row end -->
+		</div><!-- container end -->
 	</div>
 
-</footer>
+</footer><!-- wrapper end -->
 
-</div>
+</div><!-- #page we need this extra closing tag here -->
 
-<div class="modal fade experience-modal" id="experience-modal" tabindex="-1" role="dialog" aria-labelledby="experience-modal" aria-hidden="true" data-backdrop="true">
+<div
+	class="modal fade experience-modal"
+	id="experience-modal"
+	tabindex="-1"
+	role="dialog"
+	aria-labelledby="experience-modal"
+	aria-hidden="true"
+	data-backdrop="true"
+>
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">×</span>
+					<span aria-hidden="true">&times;</span>
 				</button>
 			</div>
 
@@ -915,15 +1133,36 @@ usable for their needs</li>
 <p>Which group do you associate with most?</p>
 									<div class="experience-groups">
 													<div class="experience-group">
-							<button type="button" data-name="Researchers" class="group-btn group-btn-red group-btn-1" data-toggle="tooltip" data-placement="right" title="Researchers includes ecoscientists, taxonomists, collection owners, tertiary students and lecturers.">
+							<button
+                                        type="button"
+                                        data-name="Researchers"
+                                        class="group-btn group-btn-red group-btn-1"
+                                        data-toggle="tooltip"
+                                        data-placement="right"
+                                        title="Researchers includes ecoscientists, taxonomists, collection owners, tertiary students and lecturers."
+                                    >
                                         Researchers
                                     </button>							</div>
 													<div class="experience-group">
-							<button type="button" data-name="Government and land managers" class="group-btn group-btn-red group-btn-2" data-toggle="tooltip" data-placement="right" title="Government and land managers includes federal, state and local government departments, land managers, landowners, rangers, non-government organisations, and environmental consultants.">
+							<button
+                                        type="button"
+                                        data-name="Government and land managers"
+                                        class="group-btn group-btn-red group-btn-2"
+                                        data-toggle="tooltip"
+                                        data-placement="right"
+                                        title="Government and land managers includes federal, state and local government departments, land managers, landowners, rangers, non-government organisations, and environmental consultants."
+                                    >
                                         Government and land managers
                                     </button>							</div>
 													<div class="experience-group">
-							<button type="button" data-name="Community and schools" class="group-btn group-btn-red group-btn-3" data-toggle="tooltip" data-placement="right" title="Community and schools includes citizen scientists, community groups, school students and teachers, and the general public.">
+							<button
+                                        type="button"
+                                        data-name="Community and schools"
+                                        class="group-btn group-btn-red group-btn-3"
+                                        data-toggle="tooltip"
+                                        data-placement="right"
+                                        title="Community and schools includes citizen scientists, community groups, school students and teachers, and the general public."
+                                    >
                                         Community and schools
                                     </button>							</div>
 												<div class="experience-group">
@@ -938,14 +1177,15 @@ usable for their needs</li>
 		</div>
 	</div>
 </div>
-<script type="text/javascript" id="child-understrap-scripts-js-extra">
+<script type='text/javascript' id='child-understrap-scripts-js-extra'>
 /* <![CDATA[ */
 var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/admin-ajax.php"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js" id="child-understrap-scripts-js"></script>
+<script type='text/javascript' src='https://www-test.ala.org.au/app/themes/pvtl/js/child-theme.min.js?ver=1.0' id='child-understrap-scripts-js'></script>
+<script type='text/javascript' src='https://www-test.ala.org.au/wp/wp-includes/js/wp-embed.js?ver=5.5.3' id='wp-embed-js'></script>
 
-
+<!-- ALA self hosted analytics -->
 <script type="text/javascript">
   var _paq = window._paq || [];
   _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
@@ -961,8 +1201,8 @@ var wp_ajax_object = {"ajax_url":"https:\/\/www-test.ala.org.au\/wp\/wp-admin\/a
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'ash.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="https://ash.ala.org.au/ash.php?idsite=1&rec=1" style="border:0;" alt=""></p></noscript>
-
+<noscript><p><img src="https://ash.ala.org.au/ash.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End ALA self hosted analytics -->
 
 <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
 <script type="text/javascript">
@@ -972,3 +1212,4 @@ FreshWidget.init("", {"queryString": "&widgetType=popup&helpdesk_ticket[group_id
 </body>
 
 </html>
+
