@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www-test.ala.org.au/blogs-news/toadstool-tuesday/</loc>
+    <lastmod>2020-12-01T14:59:01+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www-test.ala.org.au/blogs-news/ala-newsletter-november-2020/</loc>
     <lastmod>2020-11-23T12:03:14+00:00</lastmod>
     <changefreq>monthly</changefreq>
