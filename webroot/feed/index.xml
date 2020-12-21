@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 15 Dec 2020 00:05:51 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 21 Dec 2020 22:13:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,51 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Data partners</title>
+		<link>https://www.ala.org.au/blogs-news/data-partners/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Thu, 17 Dec 2020 06:07:47 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44509</guid>
+
+					<description><![CDATA[As part of our celebrations to mark 10 years of the ALA, we would like to thank all our data partners for all their contributions over the decade. Our data partners are the backbone of the ALA, providing species occurrence data as well as authoritative data for species names and classification, geospatial references, and environmental [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>As part of our celebrations to mark 10 years of the ALA, we would like to thank all our data partners for all their contributions over the decade.</p>
+
+
+
+<p>Our data partners are the backbone of the ALA, providing species occurrence data as well as authoritative data for species names and classification, geospatial references, and environmental layers.</p>
+
+
+
+<p>We now have over 700 data partners across research, government and citizen science and over 91 million biodiversity records.</p>
+
+
+
+<p>Here are our top 10 data partners – in terms of number of occurrence records – in our plant, invertebrates, non-avian invertebrates and bird datasets.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-4.png" alt="" class="wp-image-44512" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-4.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-4-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-3.png" alt="" class="wp-image-44513" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-3.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-3-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-1.png" alt="" class="wp-image-44515" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-1.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-1-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2.png" alt="" class="wp-image-44514" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Bubble bum: Rare bee wee caught on camera</title>
 		<link>https://www.ala.org.au/blogs-news/bubble-bum-rare-bee-wee-caught-on-camera/</link>
 		
@@ -678,23 +723,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA newsletter July 2020</title>
-		<link>https://www.ala.org.au/blogs-news/ala-newsletter-july-2020/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Tue, 07 Jul 2020 02:53:34 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44165</guid>
-
-					<description><![CDATA[ALA newsletter July 2020]]></description>
-										<content:encoded><![CDATA[
-<p><a href="https://www.ala.org.au/app/uploads/2020/07/ALA-newsletter-July-2020.pdf">ALA newsletter July 2020</a></p>
 ]]></content:encoded>
 					
 		

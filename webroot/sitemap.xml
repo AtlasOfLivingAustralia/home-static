@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/blogs-news/data-partners/</loc>
+    <lastmod>2020-12-22T09:13:10+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/blogs-news/bubble-bum-rare-bee-wee-caught-on-camera/</loc>
     <lastmod>2020-12-15T11:05:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
