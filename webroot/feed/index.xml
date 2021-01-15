@@ -12,13 +12,13 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 21 Dec 2020 22:18:40 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 15 Jan 2021 10:10:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<generator>https://wordpress.org/?v=5.6</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -28,6 +28,80 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>DNA key to identifying eggs in museum collections</title>
+		<link>https://www.ala.org.au/blogs-news/dna-key-to-identifying-eggs-in-museum-collections/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Fri, 15 Jan 2021 10:10:30 +0000</pubDate>
+				<category><![CDATA[Collections]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44527</guid>
+
+					<description><![CDATA[A new study shows how the scientific value of collections can be improved by DNA technologies that provide high-confidence taxonomic identifications of specimens.]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-scaled.jpg" alt="" class="wp-image-44530" width="384" height="288" srcset="https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-scaled.jpg 2560w, https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-2048x1536.jpg 2048w, https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2021/01/Eggs-in-drawer-ANWC-CSIRO-edited-640x480.jpg 640w" sizes="(max-width: 384px) 100vw, 384px" /><figcaption>There are 24,000 clutches of bird eggs from more than 1,000 species in the Australian National Wildlife Collection (ANWC).  Here are the eggs used in this study. Image credit: ANWC, CSIRO.</figcaption></figure></div>
+
+
+
+<p>In 2019 researchers at the Australian National Wildlife Collection (ANWC) at CSIRO and the Trace and Environmental DNA Laboratory at Curtin University extracted and sequenced DNA from three 50-year-old eggshells from the ANWC avian egg collection. They used it to reconstruct near-complete mitochondrial genomes, a first using eggshells of non-ratite birds.</p>
+
+
+
+<p>Today, a team from ANWC and the Australian National University announced DNA can be extracted from very small eggshells held in museum collections without causing damage to the integrity or appearance of the specimen. The team demonstrated how their new sampling technique can be used to confirm the identity of unknown specimens.</p>
+
+
+
+<p>Around the world there are nearly 5 million eggshell specimens held in natural history collections. Many were collected by hobbyists in the past, before egg collecting was made illegal in most countries.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/01/Eggs-ANWC-CSIRO-1024x1007.png" alt="" class="wp-image-44538" width="309" height="304" srcset="https://www.ala.org.au/app/uploads/2021/01/Eggs-ANWC-CSIRO-1024x1007.png 1024w, https://www.ala.org.au/app/uploads/2021/01/Eggs-ANWC-CSIRO-300x295.png 300w, https://www.ala.org.au/app/uploads/2021/01/Eggs-ANWC-CSIRO-768x755.png 768w, https://www.ala.org.au/app/uploads/2021/01/Eggs-ANWC-CSIRO.png 1144w" sizes="(max-width: 309px) 100vw, 309px" /><figcaption>Eggs specimens shown before (left) and after (right) drilling to extract DNA for this study. Image credit: ANWC, CSIRO.</figcaption></figure></div>
+
+
+
+<p>“To be useful for scientific research, eggshells need to have accurate metadata, which includes information about when and where the specimen was collected and what species it belongs to. But bird eggshells often lack metadata because the eggs of different species can look very similar,” said lead author Alicia Grealy.</p>
+
+
+
+<p>“In this study we examined 45 different eggshell specimens from ANWC that lacked metadata. We compared different sampling methods, such as swabbing the surface of eggshells, but ultimately optimised a drilling technique to retrieve eggshell powder. This provided us with sufficient DNA to identify the species while keeping the specimen intact,” Alicia said.</p>
+
+
+
+<p>The team cross-checked the species IDs they generated by using the Atlas of Living Australia to compare the morphology of each egg specimen with published reference photographs of that taxon.</p>
+
+
+
+<p>“We then put the method to the test on a clutch of eggs in ANWC that purportedly were of the extinct Paradise Parrot,” Alicia said.</p>
+
+
+
+<p>The <a href="https://bie.ala.org.au/species/urn:lsid:biodiversity.org.au:afd.taxon:5cc6c8d2-50dc-4c9f-9b12-5423b6da6f18">Paradise Parrot (<em>Psephotellus pulcherrimus</em></a>) was listed as extinct in 1927. It lived in south-east Queensland and laid its nondescript white eggs inside termite mounds. Collected in 1967, the clutch of eggs had been identified as belonging to the Paradise Parrot and this has been contested for more than 50 years.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/01/Parrots_egg_ANWC-CSIRO.png" alt="" class="wp-image-44528" width="368" height="237"/><figcaption>Egg specimens are valuable records of where and when birds have bred in changing environments and can inform how their distributions are changing. This Paradise Parrot egg specimen was used in the study. Image credit: ANWC, CSIRO.</figcaption></figure></div>
+
+
+
+<p>“Our study confirmed that this clutch belonged to the common and far from extinct <a href="https://bie.ala.org.au/species/urn:lsid:biodiversity.org.au:afd.taxon:cb0bc816-19d5-4291-8f4f-006582bbdf50">Eastern Bluebonnet, <em>Northiella haematogaster</em></a>. Fraud and misidentifications like this can have serious implications for research that relies on accurate occurrence records for threatened and endangered species,” Alicia said.</p>
+
+
+
+<p>“We hope our research will help egg collections in museums worldwide be better utilised for research that supports biodiversity and conservation management,” Alicia said.</p>
+
+
+
+<p>For more information on this research:</p>
+
+
+
+<ul><li>Read the full published article <a href="https://www.nature.com/articles/s41598-020-79852-4">Genetic barcoding of museum eggshell improves data integrity of avian biological collections</a></li><li>Read <a href="https://blog.csiro.au/eggshell-forensics-solve-the-riddles-of-ancient-birds/">Eggshell forensics solve the riddles of ancient birds</a> on CSIROscope</li><li>Browse the <a href="https://collections.ala.org.au/public/show/co16">Australian National Wildlife Collection on the ALA</a></li></ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Data partners</title>
 		<link>https://www.ala.org.au/blogs-news/data-partners/</link>
 		
@@ -654,71 +728,6 @@
 
 
 <p></p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA helps educators learn more on the high seas</title>
-		<link>https://www.ala.org.au/education-blogs-news/ala-helps-educators-learn-more-on-the-high-seas/</link>
-		
-		<dc:creator><![CDATA[Taryn]]></dc:creator>
-		<pubDate>Thu, 06 Aug 2020 07:04:46 +0000</pubDate>
-				<category><![CDATA[Education]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=43988</guid>
-
-					<description><![CDATA[Teacher Thomas Coad participated in CSIRO's Educator on Board professional learning program, and used the ALA to help understand the species he saw while onboard.]]></description>
-										<content:encoded><![CDATA[
-<p>RV<em> Investigator</em> is a purpose-built research vessel with impressive scientific capabilities to support biological, oceanographic, geological and atmospheric research. Thomas Coad from Rose Bay High School in Tasmania participated in CSIRO’s Educator on Board program which offered berths for primary and secondary teachers to sail on board the state-of-the-art marine research vessel, for short voyages.</p>
-
-
-
-<hr class="wp-block-separator"/>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/07/blogrvi-1024x638.png" alt="" class="wp-image-44185" width="279" height="174" srcset="https://www.ala.org.au/app/uploads/2020/07/blogrvi-1024x638.png 1024w, https://www.ala.org.au/app/uploads/2020/07/blogrvi-300x187.png 300w, https://www.ala.org.au/app/uploads/2020/07/blogrvi-768x479.png 768w, https://www.ala.org.au/app/uploads/2020/07/blogrvi-1536x957.png 1536w, https://www.ala.org.au/app/uploads/2020/07/blogrvi.png 1873w" sizes="(max-width: 279px) 100vw, 279px" /><figcaption>CSIRO&#8217;s RV <em>Investigator</em>  (CSIRO 2020) </figcaption></figure></div>
-
-
-
-<p>On board, Thomas assisted scientists with marine research; enhanced his STEM content knowledge; ran outreach activities, including live video broadcasts; and developed curriculum-linked resources for his own classroom and to share with other teachers.</p>
-
-
-
-<p>Prior to his voyage, Thomas attended a variety of training and planning activities, including an Atlas of Living Australia (ALA) online workshop. The ALA workshop explained how to find information on the species he might observe on his voyage, and provided a working knowledge of the ALA’s analysis tools.&nbsp;</p>
-
-
-
-<p>A requirement for teachers participating in the Educator on Board program was to&nbsp;develop curriculum-linked lesson plans and resources based on the research and/or ship operations.</p>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/07/blogmap-1024x973.png" alt="" class="wp-image-44184" width="245" height="233" srcset="https://www.ala.org.au/app/uploads/2020/07/blogmap-1024x973.png 1024w, https://www.ala.org.au/app/uploads/2020/07/blogmap-300x285.png 300w, https://www.ala.org.au/app/uploads/2020/07/blogmap-768x729.png 768w, https://www.ala.org.au/app/uploads/2020/07/blogmap.png 1394w" sizes="(max-width: 245px) 100vw, 245px" /><figcaption>A map from the ALA showing seabird records.</figcaption></figure></div>
-
-
-
-<p>Thomas incorporated the use of the ALA in his Year 7 Science resource <a href="https://www.csiro.au/en/Education/Teachers/Educator-on-Board/Teacher-Developed-Resources/Taxonomic-Identification"><em>Taxonomic classification and species data collection</em></a>.</p>
-
-
-
-<p>The three-part lesson sequence features real voyage data collected during Thomas’ trip on RV <em>Investigator.</em> In the lesson, students learn about seabird species in different regions and compare the collected data to environmental overlays provided by the ALA. Layers of environmental factors such as temperature, rainfall or humidity are used to show the conditions favoured by particular species.</p>
-
-
-
-<p>For more information:</p>
-
-
-
-<ul><li><a href="https://www.csiro.au/en/Education/Teachers/Educator-on-Board/Teacher-Developed-Resources/Taxonomic-Identification">Read further details about Thomas’ resource <em>Taxonomic classification and species data collection</em></a></li></ul>
-
-
-
-<ul><li><a href="https://www.ala.org.au/education-resources/">Learn more about using the ALA in the classroom.</a></li></ul>
 
 
 

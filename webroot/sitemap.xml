@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/blogs-news/dna-key-to-identifying-eggs-in-museum-collections/</loc>
+    <lastmod>2021-01-15T21:10:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/blogs-news/data-partners/</loc>
     <lastmod>2020-12-22T09:18:40+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -657,7 +663,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/newsletter/ala-newsletter-september-2018-edition-4/</loc>
-    <lastmod>2019-07-18T12:56:07+00:00</lastmod>
+    <lastmod>2021-01-06T12:52:30+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -723,7 +729,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/newsletter/ala-newsletter-may-2018/</loc>
-    <lastmod>2019-07-18T13:06:03+00:00</lastmod>
+    <lastmod>2021-01-06T12:52:46+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -759,7 +765,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/newsletter/ala-newsletter-edition-2-february-2018/</loc>
-    <lastmod>2019-07-18T13:08:42+00:00</lastmod>
+    <lastmod>2021-01-06T12:52:59+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -777,7 +783,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/newsletter/ala-newsletter-first-edition-december-2017/</loc>
-    <lastmod>2018-02-26T11:48:58+00:00</lastmod>
+    <lastmod>2021-01-06T12:53:12+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
