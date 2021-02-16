@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/blogs-news/improving-access-to-sensitive-species-data/</loc>
+    <lastmod>2021-02-17T10:41:41+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/blogs-news/dna-key-to-identifying-eggs-in-museum-collections/</loc>
     <lastmod>2021-01-18T12:48:55+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -51,7 +57,7 @@
   </url>
   <url>
     <loc>https://www.ala.org.au/ala-cited-publications/</loc>
-    <lastmod>2021-01-29T17:01:35+00:00</lastmod>
+    <lastmod>2021-02-15T11:31:19+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
