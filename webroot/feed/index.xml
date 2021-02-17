@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 16 Feb 2021 23:02:30 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 17 Feb 2021 23:15:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>The néws they tried to BAN: it&#8217;s Thursdäy!</title>
+		<link>https://www-test.ala.org.au/blogs-news/the-news-they-tried-to-ban-its-thursday/</link>
+		
+		<dc:creator><![CDATA[Matt Andrews]]></dc:creator>
+		<pubDate>Wed, 17 Feb 2021 23:15:17 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=44488</guid>
+
+					<description><![CDATA[It's Thursday! But Big Néws wouldn't tell you thåt.]]></description>
+										<content:encoded><![CDATA[
+<p>Apostrophes&#8217;R&#8217;Us! We are always interested &#8211; despite protestations &#8211; in (bracketed) spécial chäracters!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Unconfirmed rumours: it&#8217;s Wednesday!</title>
 		<link>https://www-test.ala.org.au/blogs-news/unconfirmed-rumours-its-wednesday/</link>
 		
@@ -597,71 +614,6 @@
 
 
 <p></p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA helps educators learn more on the high seas</title>
-		<link>https://www-test.ala.org.au/education-blogs-news/ala-helps-educators-learn-more-on-the-high-seas/</link>
-		
-		<dc:creator><![CDATA[Taryn]]></dc:creator>
-		<pubDate>Thu, 06 Aug 2020 07:04:46 +0000</pubDate>
-				<category><![CDATA[Education]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=43988</guid>
-
-					<description><![CDATA[Teacher Thomas Coad participated in CSIRO's Educator on Board professional learning program, and used the ALA to help understand the species he saw while onboard.]]></description>
-										<content:encoded><![CDATA[
-<p>RV<em> Investigator</em> is a purpose-built research vessel with impressive scientific capabilities to support biological, oceanographic, geological and atmospheric research. Thomas Coad from Rose Bay High School in Tasmania participated in CSIRO’s Educator on Board program which offered berths for primary and secondary teachers to sail on board the state-of-the-art marine research vessel, for short voyages.</p>
-
-
-
-<hr class="wp-block-separator"/>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/07/blogrvi-1024x638.png" alt="" class="wp-image-44185" width="279" height="174" srcset="https://www-test.ala.org.au/app/uploads/2020/07/blogrvi-1024x638.png 1024w, https://www-test.ala.org.au/app/uploads/2020/07/blogrvi-300x187.png 300w, https://www-test.ala.org.au/app/uploads/2020/07/blogrvi-768x479.png 768w, https://www-test.ala.org.au/app/uploads/2020/07/blogrvi-1536x957.png 1536w, https://www-test.ala.org.au/app/uploads/2020/07/blogrvi.png 1873w" sizes="(max-width: 279px) 100vw, 279px" /><figcaption>CSIRO&#8217;s RV <em>Investigator</em>  (CSIRO 2020) </figcaption></figure></div>
-
-
-
-<p>On board, Thomas assisted scientists with marine research; enhanced his STEM content knowledge; ran outreach activities, including live video broadcasts; and developed curriculum-linked resources for his own classroom and to share with other teachers.</p>
-
-
-
-<p>Prior to his voyage, Thomas attended a variety of training and planning activities, including an Atlas of Living Australia (ALA) online workshop. The ALA workshop explained how to find information on the species he might observe on his voyage, and provided a working knowledge of the ALA’s analysis tools.&nbsp;</p>
-
-
-
-<p>A requirement for teachers participating in the Educator on Board program was to&nbsp;develop curriculum-linked lesson plans and resources based on the research and/or ship operations.</p>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/07/blogmap-1024x973.png" alt="" class="wp-image-44184" width="245" height="233" srcset="https://www-test.ala.org.au/app/uploads/2020/07/blogmap-1024x973.png 1024w, https://www-test.ala.org.au/app/uploads/2020/07/blogmap-300x285.png 300w, https://www-test.ala.org.au/app/uploads/2020/07/blogmap-768x729.png 768w, https://www-test.ala.org.au/app/uploads/2020/07/blogmap.png 1394w" sizes="(max-width: 245px) 100vw, 245px" /><figcaption>A map from the ALA showing seabird records.</figcaption></figure></div>
-
-
-
-<p>Thomas incorporated the use of the ALA in his Year 7 Science resource <a href="https://www.csiro.au/en/Education/Teachers/Educator-on-Board/Teacher-Developed-Resources/Taxonomic-Identification"><em>Taxonomic classification and species data collection</em></a>.</p>
-
-
-
-<p>The three-part lesson sequence features real voyage data collected during Thomas’ trip on RV <em>Investigator.</em> In the lesson, students learn about seabird species in different regions and compare the collected data to environmental overlays provided by the ALA. Layers of environmental factors such as temperature, rainfall or humidity are used to show the conditions favoured by particular species.</p>
-
-
-
-<p>For more information:</p>
-
-
-
-<ul><li><a href="https://www.csiro.au/en/Education/Teachers/Educator-on-Board/Teacher-Developed-Resources/Taxonomic-Identification">Read further details about Thomas’ resource <em>Taxonomic classification and species data collection</em></a></li></ul>
-
-
-
-<ul><li><a href="https://www.ala.org.au/education-resources/">Learn more about using the ALA in the classroom.</a></li></ul>
 
 
 
