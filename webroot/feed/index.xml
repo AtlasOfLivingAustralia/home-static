@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 17 Feb 2021 04:13:19 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 23 Feb 2021 22:14:31 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,197 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Helping you search and filter data in the ALA</title>
+		<link>https://www.ala.org.au/blogs-news/helping-you-search-and-filter-data-in-the-ala/</link>
+		
+		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
+		<pubDate>Tue, 23 Feb 2021 05:11:12 +0000</pubDate>
+				<category><![CDATA[Data]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44595</guid>
+
+					<description><![CDATA[Our new data quality filters, called Data Profiles, allow you to filter out incomplete or inconsistent records. This makes it easier to find the data you need. Since February 2020,&#160;we’ve been working with&#160;the ALA user community&#160;to identify&#160;data quality related issues and develop solutions.&#160; Thank you to everyone who completed our surveys,&#160;contributed to our understanding of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Our new data quality filters, called <strong><em>Data Profiles</em></strong>, allow you to filter out incomplete or inconsistent records. This makes it easier to find the data you need.</p>
+
+
+
+<p>Since February 2020,&nbsp;we’ve been working with&nbsp;the ALA user community&nbsp;to identify&nbsp;data quality related issues and develop solutions.&nbsp;</p>
+
+
+
+<p>Thank you to everyone who completed our surveys,&nbsp;contributed to our understanding of the baseline&nbsp;perceptions of data quality,&nbsp;helped to&nbsp;prioritise issues,&nbsp;and tested&nbsp;solutions.&nbsp;</p>
+
+
+
+<p><strong>Prioritisation survey results</strong>&nbsp;</p>
+
+
+
+<p>After establishing a baseline of <a href="https://www.ala.org.au/blogs-news/data-quality-project-baseline-survey-results/">data quality perceptions</a> we conducted a&nbsp;prioritisation&nbsp;survey to&nbsp;identify&nbsp;which&nbsp;issues&nbsp;the data quality project&nbsp;would&nbsp;address&nbsp;first. The top two issues identified&nbsp;were:&nbsp;</p>
+
+
+
+<ul><li>ALA users accessing data via the ALA without filtering out records that are not fit for their purpose.&nbsp;</li><li>Users did not&nbsp;know if records&nbsp;or datasets were suitable for&nbsp;their&nbsp;purpose because quality indicators were not visible. Additionally, many users didn’t understand what the indicators <a>information</a>&nbsp;meant.&nbsp;</li></ul>
+
+
+
+<p><strong>Improvements to data filters</strong>&nbsp;</p>
+
+
+
+<p>In response to these issues,&nbsp;the project developed a&nbsp;new&nbsp;capability&nbsp;to&nbsp;pre-filter search results so that lower quality records&nbsp;(e.g.&nbsp;incomplete or&nbsp;inconsistent)&nbsp;are not shown unless they are actively included.&nbsp;</p>
+
+
+
+<p>The filters, called <strong><em>Data Profiles</em></strong>, can be seen in a new&nbsp;user interface&nbsp;element at the top of the search results webpage.&nbsp;</p>
+
+
+
+<p>Data Profiles enable users to access quality data quickly. Filters can be switched on&nbsp;or&nbsp;off&nbsp;and managed as a group or individually.&nbsp;If you’d like more information about the fields and the data that contributes to them, you can mouse-over the text or&nbsp;click the info icons (<strong>i</strong>).</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="697" src="https://www.ala.org.au/app/uploads/2021/02/Data-quality.png" alt="" class="wp-image-44596" srcset="https://www.ala.org.au/app/uploads/2021/02/Data-quality.png 1024w, https://www.ala.org.au/app/uploads/2021/02/Data-quality-300x204.png 300w, https://www.ala.org.au/app/uploads/2021/02/Data-quality-768x523.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>ALA’s occurrence record search for <em>Acacia dealbata</em> records. The new data quality filters are highlighted by a red box.&nbsp;</figcaption></figure>
+
+
+
+<p><strong>Data Profiles in the ALA</strong></p>
+
+
+
+<p>Data Profiles provide a filtered view of data and give a curation capability not previously available to users of the ALA.</p>
+
+
+
+<p>“We developed the Data Profiles functionality in response to users identifying data quality as a high priority issue,” said Miles Nicholls, ALA’s Data Quality Project Lead.</p>
+
+
+
+<p>“Communities, jurisdictions, and expert groups will be able to develop and publish data profiles, making their expertise in data selection and curation available to the whole ALA user community. Ultimately this means better information will be available to support research, analysis and decision making as well as community engagement with the environment,” said Miles.</p>
+
+
+
+<p><strong>Find out more</strong></p>
+
+
+
+<p>For more information on the new data filter features, check out these support articles:&nbsp;</p>
+
+
+
+<ul><li><a href="https://support.ala.org.au/support/solutions/articles/6000240256-getting-started-with-the-data-profiles">Getting started with the data profiles</a></li><li><a href="https://support.ala.org.au/support/solutions/articles/6000241037-data-profiles-faqs">Data profiles FAQs&nbsp;</a></li><li><a href="https://support.ala.org.au/support/solutions/articles/6000241038-how-do-i-turnoff-or-modify-the-data-quality-filters-">How do I turn&nbsp;off or modify the data profile?&nbsp;</a></li><li><a href="https://support.ala.org.au/support/solutions/articles/6000241039-how-do-i-know-what-the-data-quality-filters-are-doing-">How do I know what the filters are doing?&nbsp;</a></li><li><a href="https://support.ala.org.au/support/solutions/articles/6000241055-what-do-i-do-about-my-records-being-filtered-out-">What do I do about my records being filtered out?</a>&nbsp;</li></ul>
+
+
+
+<p>For more information on the project itself,&nbsp;visit&nbsp;the&nbsp;<a href="mailto:Data%20Quality&nbsp;project%20page">Data Quality&nbsp;project page</a>&nbsp;or&nbsp;contact us at&nbsp;<a href="mailto:dataquality@ala.org.au" target="_blank" rel="noreferrer noopener">dataquality@ala.org.au</a>.&nbsp;</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>GBIF Young Researchers Award 2021 – Australian nominations</title>
+		<link>https://www.ala.org.au/blogs-news/gbif-young-researchers-award-2021-australian-nominations/</link>
+		
+		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
+		<pubDate>Tue, 23 Feb 2021 05:01:14 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44591</guid>
+
+					<description><![CDATA[Nominations are now open for the GBIF 2021 Young Researchers Award. ]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-image"><figure class="alignright size-large"><img loading="lazy" width="210" height="100" src="https://www.ala.org.au/app/uploads/2021/02/GBIF-logo-1.jpg" alt="" class="wp-image-44593"/></figure></div>
+
+
+
+<p>The GBIF Young Researchers Awards is an annual programme aimed at fostering innovative research and discovery in biodiversity informatics. The 2021 programme will provide a pair of prizes worth &nbsp;€5,000 (approx. AUD 7,700) each, recognising the work of two graduate students—preferably, one masters and one PhD candidate—nominated by&nbsp;<a rel="noreferrer noopener" href="https://www.gbif.org/the-gbif-network" target="_blank">GBIF Participant countries</a>.</p>
+
+
+
+<p>This year our team at the Atlas of Living Australia will coordinate the applications from Australian researchers. We will select two nominations to be assessed by the GBIF Science Committee.</p>
+
+
+
+<p>Applications are due by 31 May 2021.</p>
+
+
+
+<p><strong>How to submit a nomination (Australian applicants)</strong></p>
+
+
+
+<ol type="1"><li>Visit <a href="mailto:https://www.gbif.org/news/6SrTuANNJyRweO9c6lSx85/call-for-nominations-to-the-2021-gbif-young-researchers-award">the GBIF young researchers award website</a> and following the instructions.&nbsp;</li><li>Submit your nominations to&nbsp;<a href="mailto:martin.westgate@csiro.au">Martin Westgate, ALA’s Science Advisor,&nbsp;</a>with ‘GBIF Young Researcher’ in the subject line by&nbsp;<strong>31 May 2021.</strong>&nbsp;</li></ol>
+
+
+
+<p><strong>Nomination process</strong></p>
+
+
+
+<p>Two Australian nominations will be selected for submission to GBIF by the Australian GBIF Delegation in time for the GBIF submission deadline.&nbsp; Please contact&nbsp;<a href="mailto:support@ala.org.au">support@ala.org.au</a>&nbsp;for further information if required.</p>
+
+
+
+<p>A jury organised by&nbsp;<a href="https://www.gbif.org/contact-us/directory?group=scienceCommittee" target="_blank" rel="noreferrer noopener">GBIF Science Committee</a>&nbsp;will select the two award recipients from the pool of nominees received from the country delegation by the GBIF Secretariat. The winners will be announced in September/October 2021.</p>
+
+
+
+<p><strong>Further information</strong></p>
+
+
+
+<p>Full details, including how to nominate and eligibility criteria, can be found on the&nbsp;<a href="https://www.gbif.org/news/6SrTuANNJyRweO9c6lSx85/call-for-nominations-to-the-2021-gbif-young-researchers-award" target="_blank" rel="noreferrer noopener">GBIF website.</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Director&#8217;s update &#8211; February 2021</title>
+		<link>https://www.ala.org.au/blogs-news/directors-update-february-2021/</link>
+		
+		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
+		<pubDate>Tue, 23 Feb 2021 04:42:08 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44589</guid>
+
+					<description><![CDATA[Welcome to the first of our 2021 ALA newsletters.]]></description>
+										<content:encoded><![CDATA[
+<p>I’d like to welcome you to the first of our 2021 ALA newsletters by thanking everyone who helped make our ten-year celebrations such a success.  We were particularly buoyed with how our community engaged with our science impact webinars and thank our presenters who made that experience so rewarding. The lessons we learnt last year will be used to deliver more regular virtual events through 2021 with the first to be held on Wednesday 3 March 3 exploring <a href="https://events.csiro.au/Events/2021/February/18/Exploring-citizen-science-disaster-response-and-recovery">the role of citizen science in the context of disaster response and recovery</a>.</p>
+
+
+
+<p>2021 will be an important year for the ALA and our partners in the National Collaborative Research Infrastructure Strategy program as this year is a ‘road mapping’ year. The 2021 National Research Infrastructure Roadmap will map out Australia’s research infrastructure capability and future areas of need for the coming five to ten years. A roadmap process is completed every five years to ensure Australia maintains its excellent research, continues to support innovation and addresses emerging research challenges. The Department of Education, Skills and Employment will shortly announce the formation of an expert working group with membership agreed to by the Minister for Education and the Minister for Industry, Science and Technology with a planned delivery date of a draft towards the end of the 2021 calendar year. As the ALA we feel well prepared heading into a roadmap process given the 2019 completion of the <a href="https://www.ala.org.au/blogs-news/ala-future-directions-national-consultation-findings-report/">ALA Future Directions National Consultation</a>. However, we also operate in a very dynamic space driven by digital transformation so 2021 will provide the ALA and our partners an opportunity to engage and shape future priorities.</p>
+
+
+
+<p>Finally, 2021 also presents a rare opportunity to engage with an important commonwealth initiative focussed broadly on biodiversity data and information. Many in our sector will know that Professor Graeme Samuel recently released the final report of the <a href="https://epbcactreview.environment.gov.au/resources/final-report/foreword">Independent Review of the Environmental Protection and Biodiversity Conservation ACT 1999</a>. Importantly for the ALA, data, information and systems feature prominently in the review recommendations primarily with respect to developing improved data and information supply chains to support decision-making – Chapter 10 of the review is an important read if you have an interest in the criticality of data and information in supporting regulatory processes. Our recently announced partnership with the <a href="https://ardc.edu.au/news/improving-access-to-public-sector-data-strengthens-australian-research/">Australian Research Data Commons</a> and other partners around the Sensitive Species Data Pathways Project to develop the agreements, governance arrangements and frameworks to share sensitive species information further provides a unique opportunity to deliver a step-change in how Australia acquires, manages and delivers its biodiversity data.</p>
+
+
+
+<p>I hope you enjoy the February edition of our newsletter.</p>
+
+
+
+<p><strong>Andre Zerger</strong></p>
+
+
+
+<p><strong>Director, Atlas of Living Australia</strong></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Improving access to sensitive species data</title>
 		<link>https://www.ala.org.au/blogs-news/improving-access-to-sensitive-species-data/</link>
 		
@@ -462,188 +653,6 @@
 
 
 <p><strong>Professor Darren Crayn</strong><br>Director<br>Australian Tropical Herbarium</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Federal Budget announcement 2020</title>
-		<link>https://www.ala.org.au/blogs-news/federal-budget-announcement-2020/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Sun, 22 Nov 2020 22:17:24 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44437</guid>
-
-					<description><![CDATA[As an outcome from the recent Federal Budget, the National Collaborative Research Infrastructure Strategy (NCRIS) had positive news with $96 million secured for the 2022-23 financial year for current projects. $61 million was also provided for four new national research capabilities including Humanities, Arts and Social Sciences (HASS) and Indigenous eResearch data tools and platforms. [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large"><img src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px.jpg" alt="" class="wp-image-41895"/></figure></div>
-
-
-
-<p>As an outcome from the recent <a href="https://www.education.gov.au/2020-21-budget-research-package#:~:text=The%20%24157%20million%202020%20Investment,Research%20Infrastructure%20Strategy%20(NCRIS)">Federal Budget</a>, the National Collaborative Research Infrastructure Strategy (NCRIS) had positive news with $96 million secured for the 2022-23 financial year for current projects. $61 million was also provided for four new national research capabilities including <a href="https://ministers.dese.gov.au/tehan/improving-hass-and-indigenous-research-infrastructure">Humanities, Arts and Social Sciences (HASS) and Indigenous eResearch data tools and platforms</a>. This is a positive signal regarding the importance of the NCRIS program as a core capability supporting Australia’s research sector.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Celebrating 10 years of science impact</title>
-		<link>https://www.ala.org.au/blogs-news/celebrating-10-years-of-science-impact/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Mon, 16 Nov 2020 03:56:08 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44420</guid>
-
-					<description><![CDATA[In 2020, we’re celebrating 10 years of the Atlas of Living Australia and today we launch a new feature to showcase ALA research impact. Browse through our ALA-cited publications web page and see the many and varied ways researchers use big data for biodiversity.]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/11/20322-ALA-10-Stats-for-10-Years-Infographic-images-07-1024x1024.png" alt="Illustration showing research publications" class="wp-image-44421" width="293" height="293" srcset="https://www.ala.org.au/app/uploads/2020/11/20322-ALA-10-Stats-for-10-Years-Infographic-images-07-1024x1024.png 1024w, https://www.ala.org.au/app/uploads/2020/11/20322-ALA-10-Stats-for-10-Years-Infographic-images-07-300x300.png 300w, https://www.ala.org.au/app/uploads/2020/11/20322-ALA-10-Stats-for-10-Years-Infographic-images-07-150x150.png 150w, https://www.ala.org.au/app/uploads/2020/11/20322-ALA-10-Stats-for-10-Years-Infographic-images-07-768x768.png 768w, https://www.ala.org.au/app/uploads/2020/11/20322-ALA-10-Stats-for-10-Years-Infographic-images-07-1536x1536.png 1536w, https://www.ala.org.au/app/uploads/2020/11/20322-ALA-10-Stats-for-10-Years-Infographic-images-07-2048x2048.png 2048w, https://www.ala.org.au/app/uploads/2020/11/20322-ALA-10-Stats-for-10-Years-Infographic-images-07-1920x1919.png 1920w" sizes="(max-width: 293px) 100vw, 293px" /></figure></div>
-
-
-
-<p>The ALA brings together occurrence record data, taxonomic information, spatial and historical information on species distributions, and environmental data. These data are central to the research areas of ecology, conservation, environmental planning, Indigenous ecological management and sustainability.</p>
-
-
-
-<p>The ALA’s contribution to the research output in these fields has steadily increased over the last 10 years. Now over 2,300 scientific publications have referenced the ALA, providing novel contributions to a range of fields.</p>
-
-
-
-<p>Researchers have used data from ALA to show <a href="https://doi.org/10.1016/j.gecco.2019.e00720">changes in Platypus numbers over the last 150 years</a>, <a href="https://doi.org/10.1002/fee.2032">identify rare species that thrive in Australian towns and cities</a>, and <a href="http://dx.doi.org/10.1111/een.12856">understand complex migration behaviour in insects</a> that would otherwise go undetected. Images stored by the ALA have even been used to build apps that can <a href="https://doi.org/10.1109/ICIP.2019.8803746">automatically identify Australian insects</a> in the field.</p>
-
-
-
-<p>As our data holdings continue to grow, researchers continue finding new ways to draw on ALA in their research, bettering the understanding of Australia’s unique biodiversity. Now, you can search and browse some of this research through our new webpage, <a href="https://www.ala.org.au/ala-cited-publications/">ALA-cited publications</a>.</p>
-
-
-
-<p>If you are a researcher and use the ALA to access data or analytical tools, read <a href="https://support.ala.org.au/support/solutions/articles/6000195866-how-to-cite-the-ala">How to cite the ALA</a> for more detail on best practices for citing and acknowledging the ALA.</p>
-
-
-
-<p><strong>Ten years of the ALA</strong></p>
-
-
-
-<p>Ten years ago, Australian national collections, science organisations, and government agencies saw the opportunity for a national online and open data repository for biodiversity data. The Atlas of Living Australia (ALA) was established with funding from the Australian Government’s National Research Infrastructure Strategy (NCRIS) to fulfill this role and aggregate Australia’s biodiversity data.</p>
-
-
-
-<p>“The ALA has changed the way biodiversity research and environmental decision making occurs in Australia,” said ALA Director Dr Andre Zerger.</p>
-
-
-
-<p>“We now have over 90 million occurrence records and function as the most comprehensive dataset on Australian biodiversity. The ALA has over 78,000 registered users and access to 700 datasets from data partners across research, government and citizen science.” he said.</p>
-
-
-
-<p><strong>Built on partnerships</strong></p>
-
-
-
-<p>Central to the success of the ALA are the contributions from our data partners. They are the backbone of the ALA, providing authoritative data for species names and classification, geospatial reference data, environmental layers, and species occurrence data. </p>
-
-
-
-<p>“The work of the organisations and institutions that provide data, and manage, curate and update that data, underpins our success and we look forward to continuing and growing these partnerships over another ten years,” said Andre.</p>
-
-
-
-<p>The diverse datasets all contribute to the rich tapestries of data that are accessible via the ALA, and enable the ALA to perform like a window into the complex world of biodiversity science.</p>
-
-
-
-<p><strong>National and global reach</strong></p>
-
-
-
-<p>The ALA not only delivers Australia’s biodiversity data at a national level, it also contributes to the Global Biodiversity Information Facility (GBIF), an international network and data infrastructure funded by the world&#8217;s governments to provide open access to data about all types of life on Earth.</p>
-
-
-
-<p>“Through the GBIF living atlases community, the infrastructure our team first developed 10 years ago is now being used by 27 countries around the world to manage their biodiversity data,” said Andre.</p>
-
-
-
-<p>The ALA is the Australian node of GBIF and has significantly contributed to this global network for open biodiversity data access.</p>
-
-
-
-<p><strong>More information</strong></p>
-
-
-
-<ul><li>Visit <a href="https://www.ala.org.au/ala-cited-publications/">ALA-cited publications</a> to search and browse publications that reference the ALA.</li><li>Read <a href="https://support.ala.org.au/support/solutions/articles/6000195866-how-to-cite-the-ala">How to cite the ALA</a> for more detail on best practices for citing and acknowledging the ALA.</li></ul>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Data in the ALA: bushfire affected areas (2019-2020 bushfire season)</title>
-		<link>https://www.ala.org.au/blogs-news/data-in-the-ala-bushfire-affected-areas-2019-2020-bushfire-season/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Wed, 30 Sep 2020 00:09:11 +0000</pubDate>
-				<category><![CDATA[Bushfires]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44342</guid>
-
-					<description><![CDATA[The national dataset of bushfire affected areas for the 2019-20 bushfire season is accessible in the Atlas of Living Australia.]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/09/bushfire-image-by-Teresa-Bailey_iNaturalist_38114300.jpeg" alt="" class="wp-image-44343" width="350" height="234" srcset="https://www.ala.org.au/app/uploads/2020/09/bushfire-image-by-Teresa-Bailey_iNaturalist_38114300.jpeg 900w, https://www.ala.org.au/app/uploads/2020/09/bushfire-image-by-Teresa-Bailey_iNaturalist_38114300-300x201.jpeg 300w, https://www.ala.org.au/app/uploads/2020/09/bushfire-image-by-Teresa-Bailey_iNaturalist_38114300-768x514.jpeg 768w" sizes="(max-width: 350px) 100vw, 350px" /><figcaption>Image by Teresa Bealey (CC-BY-NC-4.0) submitted to the University of New South Wales&#8217; Environment Recovery Project: Australian Bushfires 2019-2020 on iNaturalist Australia.</figcaption></figure></div>
-
-
-
-<p>This dataset shows all areas of Australia affected by the 2019-2020 bushfires. You can use this data in the ALA to&nbsp;search for&nbsp;species that may have been affected by the 2019-20 bushfires, by mapping occurrence records that have been logged in those areas, both before and after the fires.</p>
-
-
-
-<p><strong>How to use the bushfire extent data in the ALA</strong></p>
-
-
-
-<p>For more information on how to use this data in the ALA, read our help article <a rel="noreferrer noopener" href="https://support.ala.org.au/support/solutions/articles/6000241564-using-the-national-indicative-aggregated-fire-extent-dataset-2019-20-in-the-ala" target="_blank">Using the National Indicative Aggregated Fire Extent Dataset 2019-20 in the ALA</a>.</p>
-
-
-
-<p><strong>The National Indicative Aggregated Fire Extent Dataset</strong></p>
-
-
-
-<p>The National Indicative Aggregated Fire Extent Dataset was developed by the Australian Department of Agriculture, Water and the Environment (DAWE) to help quantify the potential impacts of the 2019/20 bushfires on wildlife, plants and ecological communities, and identify appropriate response and recovery actions.</p>
-
-
-
-<p>The dataset is a reliable, agreed, fit-for-purpose and repeatable national dataset of burnt areas across Australia for the 2019/20 bushfire season.</p>
-
-
-
-<p><br>The National Indicative Aggregated Fire Extent Dataset includes:</p>
-
-
-
-<ul><li>data from the national Emergency Management Spatial Information Network Australia (<a href="https://www.emsina.org/">EMSINA</a>) data service, which is the official fire extent currently used by the Australian Government, and</li><li>supplementary data from other sources to form a cumulative national view of fire extent from 1 July 2019 to the 21 April 2020, these sources include NSW Rural Fire Service, Northern Australian Fire Information (NAFI), QLD Fire and Emergency Service, QLD Department of Environment and Science, SA Country Fire Service, SA Department for Environment and Water, Tasmanian Fire Service, TAS Department of Primary Industry, Parks, Water and Environment, VIC Department of Environment, Land, Water &amp; Planning, WA Department of Biodiversity, Conservation and Attractions.</li></ul>
-
-
-
-<p>The dataset is released on behalf of the Australian Government and endorsed by the National Burnt Area Dataset Working Group, convened by the <a href="https://www.bushfirerecovery.gov.au/">National Bushfire Recovery Agency</a>.</p>
-
-
-
-<p><strong>More information and links</strong></p>
-
-
-
-<ul><li>For more details about the dataset visit <a href="https://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7B9ACDCB09-0364-4FE8-9459-2A56C792C743%7D">National Indicative Aggregated Fire Extent Dataset v20200428</a>.</li><li>For help accessing and using the dataset in the ALA, please email &nbsp;<a href="mailto:support@ala.org.au">support@ala.org.au</a></li></ul>
 ]]></content:encoded>
 					
 		
