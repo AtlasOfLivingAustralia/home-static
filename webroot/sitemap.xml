@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/wp/app/plugins/google-sitemap-plugin/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.ala.org.au/blogs-news/ala-newsletter-february-2021/</loc>
+    <lastmod>2021-02-24T16:15:02+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.ala.org.au/blogs-news/helping-you-search-and-filter-data-in-the-ala/</loc>
     <lastmod>2021-02-24T12:26:00+00:00</lastmod>
     <changefreq>monthly</changefreq>

@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 24 Feb 2021 03:13:13 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 24 Feb 2021 05:15:02 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,27 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter February 2021</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-february-2021/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Wed, 24 Feb 2021 05:15:01 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44610</guid>
+
+					<description><![CDATA[Atlas of Living Australian Newsletter February 2021]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/02/Feb-2021-newsletter-thumbnail.png" alt="" class="wp-image-44611" width="275" height="418" srcset="https://www.ala.org.au/app/uploads/2021/02/Feb-2021-newsletter-thumbnail.png 461w, https://www.ala.org.au/app/uploads/2021/02/Feb-2021-newsletter-thumbnail-198x300.png 198w" sizes="(max-width: 275px) 100vw, 275px" /></figure>
+
+
+
+<p><a href="https://www.ala.org.au/app/uploads/2021/02/ALA-Newsletter-Feb-2021.pdf">Atlas of Living Australian Newsletter February 2021</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Helping you search and filter data in the ALA</title>
 		<link>https://www.ala.org.au/blogs-news/helping-you-search-and-filter-data-in-the-ala/</link>
 		
@@ -587,72 +608,6 @@
 
 
 <p>For more information on the&nbsp;data quality project please visit the&nbsp;<a rel="noreferrer noopener" href="https://www.ala.org.au/data-quality-project/" target="_blank">Data Quality&nbsp;project page</a>&nbsp;or&nbsp;contact us at&nbsp;<a rel="noreferrer noopener" href="mailto:dataquality@ala.org.au" target="_blank">dataquality@ala.org.au</a>.&nbsp;</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Guest editorial: ALA newsletter November 2020</title>
-		<link>https://www.ala.org.au/blogs-news/guest-editorial/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Sun, 22 Nov 2020 22:42:06 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44442</guid>
-
-					<description><![CDATA[It’s a pleasure to be invited to provide this guest editorial to help celebrate the Atlas of Living Australia’s 10th anniversary. The Atlas of Living Australia (ALA) was developed in 2010 to support the needs of the national and international research community for timely access to Australian biodiversity data. In this time, it has grown [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>It’s a pleasure to be invited to provide this guest editorial to help celebrate the Atlas of Living Australia’s 10<sup>th</sup> anniversary.</p>
-
-
-
-<p>The Atlas of Living Australia (ALA) was developed in 2010 to support the needs of the national and international research community for timely access to Australian biodiversity data. In this time, it has grown into one of the world’s foremost biodiversity infrastructures and leads Australia’s commitment to the Global Biodiversity Information Facility (<a href="https://www.gbif.org/">GBIF</a>).</p>
-
-
-
-<p>The Australian biodiversity information community, partnering with the Australian Government through the National Collaborative Research Infrastructure Strategy (<a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">NCRIS</a>), should be proud of our national and global achievements. One of many remarkable achievements is the <a href="https://living-atlases.gbif.org/">international Living Atlases</a> community. This now delivers science impact globally through 27 national atlases built on ALA-developed infrastructure, shared Australian capability and knowledge.</p>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/11/Australian-National-Herbarium-1024x682.jpg" alt="" class="wp-image-44450" width="380" height="253" srcset="https://www.ala.org.au/app/uploads/2020/11/Australian-National-Herbarium-1024x682.jpg 1024w, https://www.ala.org.au/app/uploads/2020/11/Australian-National-Herbarium-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2020/11/Australian-National-Herbarium-768x511.jpg 768w, https://www.ala.org.au/app/uploads/2020/11/Australian-National-Herbarium-1536x1022.jpg 1536w, https://www.ala.org.au/app/uploads/2020/11/Australian-National-Herbarium-2048x1363.jpg 2048w, https://www.ala.org.au/app/uploads/2020/11/Australian-National-Herbarium-1920x1278.jpg 1920w" sizes="(max-width: 380px) 100vw, 380px" /><figcaption>The museum and herbaria communities were fundamental to the origins of the Atlas of Living Australia. Image: Australian Tree Seed Centre CSIRO Canberra</figcaption></figure></div>
-
-
-
-<p>In this anniversary year, it’s timely to reflect on the history of the ALA. Its origins owe much to the vision, commitment and partnerships that were already in place in the museums, collections and herbaria sectors and we are proud to be part of this story. In the late 1990s, the peak body for herbaria in the region, the Council of Heads of Australasian Herbaria (CHAH) formed a consortium with the Australian Biological Resources Study (ABRS) to digitise and database specimens resulting in the Australasian Virtual Herbarium (<a href="https://avh.ala.org.au/">AVH</a>).</p>
-
-
-
-<p>The museum community has a similar story. The zoological collections formed the Council of Heads of Australian Faunal Collections (CHAFC) in 1992 with a national viewpoint on museum-held biodiversity data issues, an exchange of ideas and interactions with ABRS and Environmental Information Resources Network within what is now the Department of Agriculture, Water and Environment. Following the success of the AVH, CHAFC sought to improve the sharing of data through then newly evolving web technology. This resulted in the Online Zoological Collections of Australian Museums, or <a href="https://ozcam.org.au/">OZCAM</a> in 2002.</p>
-
-
-
-<p>The establishment of the ALA owes its foundation to the prior existence of AVH and OZCAM and this history runs deep in the architecture of the ALA. More importantly the strength of these existing networks, partnerships and governance models provided a sound foundation for accelerating the vision under the newly formed NCRIS program in 2007.</p>
-
-
-
-<p>From its origins in the collections sector, the ALA has astutely expanded its remit to broaden the portfolio of data and services it offers Australian science and decision-making. The inclusion of biodiversity data from state government agencies, major research programs and its support of the citizen sector has significantly improved our understanding of Australia’s biodiversity.</p>
-
-
-
-<p>The events we’ve witnessed in 2020 provide a timely reminder of the criticality of maintaining a comprehensive, representative and adequate national biodiversity infrastructure. It is fundamental to improving our understanding of the impact of current and future bushfires and other environmental threats, on biodiversity and supporting ensuing restoration efforts. It provides fundamental data to help understand the global behaviour of zoonotic diseases and their role in future pandemics, and it can position Australia to more effectively deal with biosecurity risks that impact our environment and economy.</p>
-
-
-
-<p>Reflecting on the strategic priorities for our sector – &nbsp;for example around higher throughput digitisation of our collections and the rapid growth in genomics-based methods in biodiversity sciences – &nbsp;we believe we are extremely well placed to grow and evolve to meet these challenges through our ongoing partnerships with the ALA.</p>
-
-
-
-<p>In closing, we acknowledge the significant vision and contribution made through the Australian Government’s NCRIS program in realising the ALA vision, and the partnerships that have been so fundamental to its success. This includes the thought leaders, the data partners and ALA’s institutional supporters that can rightfully be proud of what Australia has achieved.</p>
-
-
-
-<p><strong>Cameron Slatyer</strong><br>Branch Manager | Life and Geosciences<br>Australian Museum Research Institute, Science and Learning, Australian Museum&nbsp;</p>
-
-
-
-<p><strong>Professor Darren Crayn</strong><br>Director<br>Australian Tropical Herbarium</p>
 ]]></content:encoded>
 					
 		
