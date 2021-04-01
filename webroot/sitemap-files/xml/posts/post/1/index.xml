@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
+<url><loc>https://www.ala.org.au/blogs-news/inaturalist-australia-makes-huge-contribution-to-biodiversity-data/</loc><lastmod>2021-04-01T01:25:35+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-february-2021/</loc><lastmod>2021-02-24T05:15:02+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/helping-you-search-and-filter-data-in-the-ala/</loc><lastmod>2021-02-24T01:26:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/gbif-young-researchers-award-2021-australian-nominations/</loc><lastmod>2021-02-23T22:13:58+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -237,7 +238,7 @@
 <url><loc>https://www.ala.org.au/blogs-news/ala-gives-year-12-students-real-life-links-in-biology-class/</loc><lastmod>2014-07-21T02:36:19+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-director-raising-money-for-vinnies-ceo-sleepout/</loc><lastmod>2014-06-15T22:00:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/climatewatch-now-available-on-the-atlas-of-living-australia/</loc><lastmod>2014-05-01T04:50:02+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/citizen-scientists-track-gang%e2%80%90gangs-in-canberra/</loc><lastmod>2014-04-27T23:15:16+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/citizen-scientists-track-gang-gangs-in-canberra/</loc><lastmod>2021-03-18T00:13:24+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/join-the-panboola-bioblitz-april-11-12-2014/</loc><lastmod>2014-04-07T22:45:20+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/a-new-adventure-game-that-get-you-off-the-couch-and-into-the-wild/</loc><lastmod>2014-04-04T02:49:57+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/whos-living-on-my-land-citizen-science-project/</loc><lastmod>2014-04-01T04:49:08+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
