@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 13 Apr 2021 03:48:58 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 21 Apr 2021 21:59:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,111 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Past, present and future: looking back to look forward</title>
+		<link>https://www.ala.org.au/blogs-news/past-present-and-future-looking-back-to-look-forward/</link>
+		
+		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
+		<pubDate>Wed, 21 Apr 2021 21:59:26 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44661</guid>
+
+					<description><![CDATA[The Atlas of Living Australia has been aggregating biodiversity data for over 10 years. But how did we come to be, what have we delivered to date, and what challenges are we tackling next?]]></description>
+										<content:encoded><![CDATA[
+<p>A <a href="https://doi.org/10.3897/BDJ.9.e65023">new paper released today in Biodiversity Data Journal </a>written by Lee Belbin, Ely Wallis, Donald Hobern and Andre Zerger maps out the ALA’s past, present and future.</p>
+
+
+
+<p>“The ALA was really a front-runner in the biodiversity data space. Early and ongoing investment from the Australian Government National Collaborative Research Infrastructure Strategy was timely and has had a lasting impact on how biodiversity data are managed and accessed on a global scale.” says ALA Director Dr Andre Zerger.</p>
+
+
+
+<p>&nbsp;“We thought it was time to document this history and achievement and I believe this paper will become a critical reference for the international biodiversity data community.&#8221; </p>
+
+
+
+<p><strong>Looking back – our origin story</strong></p>
+
+
+
+<p>Let’s set the scene – it’s the late 1990s. You are a taxonomist&nbsp;trying to find specimen data for a research project. To find this information you must personally contact managers of collections, undertake formal loans of specimens from many museums, or travel across the country and internationally to get access to where specimens of interest have been recorded. After months of letters, emails and phone calls, you’re finally able to analyse the data and start your research.</p>
+
+
+
+<p>This is a process that was kept on repeat for decades. Finding and accessing biodiversity data was a major challenge, it wasn’t accessible or shared between organisations.</p>
+
+
+
+<p>By the mid-2000s, the research community saw opportunity in emerging digital technologies and significant collaborative initiatives were underway to start to share data. Cue the review of national research infrastructure. The findings of this review led to the Australian Government accepting the &nbsp;proposal of the natural history collections community &nbsp;– to build on the collaboration already well advanced to create a single online platform that would harmonises all existing databases.</p>
+
+
+
+<p>In May 2006, 25 representatives from across biological collections met at the Australian Museum in Sydney. Here, the group identified the significant benefits of an aggregated database and the Atlas of Living Australia was formed.</p>
+
+
+
+<p><strong>Here we are now – Australia’s national biodiversity database</strong></p>
+
+
+
+<p>Flash forward to the present day, we now successfully aggregate and harmonise biodiversity data from not only museum and herbarium collections, but &nbsp;government departments, research institutions, Indigenous knowledge holders, community groups, universities, and individuals.</p>
+
+
+
+<p>In 2020, we celebrated our 10 years of making biodiversity information accessible to all. Our celebrations were particularly focussed on thanking the founding partners and biodiversity data providers that helped us reach where we are today.</p>
+
+
+
+<p>In the 10 years since our launch, we have achieved many milestones and enabled impact across the globe. There are now more than 90 million occurrence records of 110,000 species, 5000 species lists, 2000 biodiversity-related projects, 500 environmental layers. We have also enabled a number of biodiversity data portals by making the underlying ALA code openly available.</p>
+
+
+
+<p>We have also taken a leadership role globally through the Living Atlases program. There are instances of ALA software delivering national biodiversity capabilities in 24 countries around the world.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="903" height="640" src="https://www.ala.org.au/app/uploads/2020/11/10-stats-for-10-years_image.png" alt="" class="wp-image-44393" srcset="https://www.ala.org.au/app/uploads/2020/11/10-stats-for-10-years_image.png 903w, https://www.ala.org.au/app/uploads/2020/11/10-stats-for-10-years_image-300x213.png 300w, https://www.ala.org.au/app/uploads/2020/11/10-stats-for-10-years_image-768x544.png 768w" sizes="(max-width: 903px) 100vw, 903px" /></figure>
+
+
+
+<p><strong>What does the future hold?</strong></p>
+
+
+
+<p>Following our Future Directions National Consultation process in 2019, we began to shift our focus to the new challenges ahead.</p>
+
+
+
+<p>The consultation process highlighted how far the ALA has come and the impact we have had on the way Australian biodiversity data are utilised. However, the consultation also highlighted some areas of improvement.</p>
+
+
+
+<p>To reach our full potential and continue delivering innovative data solutions, the ALA will have a future focus on projects that aim to:</p>
+
+
+
+<ul><li>increase data quality within the ALA</li><li>deliver a diverse range of data to support biodiversity reporting</li><li>harmonise industry data gathered through surveys with existing data available through museums, herbaria, and state data programmes</li><li>take a leadership role in facilitating cooperation and collaboration between institutions</li><li>integrate additional data streams, such as images, genomics, sounds recordings and environmental assessment data to paint a more extensive picture of Australian biodiversity.</li></ul>
+
+
+
+<p>We have already embarked on several projects to transform the way people access biodiversity data through the ALA. These include our recently released <a href="https://www.ala.org.au/data-quality-project/">data profiles functionality</a> and a <a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/">core infrastructure upgrade project</a> that is being delivered in close partnership with GBIF, which will improve alignment between ALA and GBIF systems and data.</p>
+
+
+
+<p>We are excited to see what the future holds and look forward to the continued relationship with our founding partners and others who have become part of the community along the way. These relationships allow us to tackle future challenges collaboratively, and to provide solutions with wide reaching benefit and impact.</p>
+
+
+
+<p>Further information:</p>
+
+
+
+<ul><li>Read the full article: <a href="https://bdj.pensoft.net/article/65023/">The Atlas of Living Australia: History, current state and future directions</a>. DOI: 10.3897/BDJ.9.e65023</li></ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Unlocking the mystery of the Regent Honeyeater</title>
 		<link>https://www.ala.org.au/blogs-news/unlocking-the-mystery-of-the-regent-honeyeater/</link>
 		
@@ -697,64 +802,6 @@
 
 
 <div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2.png" alt="" class="wp-image-44514" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Bubble bum: Rare bee wee caught on camera</title>
-		<link>https://www.ala.org.au/blogs-news/bubble-bum-rare-bee-wee-caught-on-camera/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Thu, 10 Dec 2020 05:34:37 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[Citizen science]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44478</guid>
-
-					<description><![CDATA[Amateur naturalist Liz Barratt caught this candid photo of a European Honey Bee on her property in Moffatdale, Queensland.]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/12/bee-by-lizbarratt_iNaturalist-866x1024.jpg" alt="" class="wp-image-44479" width="408" height="483" srcset="https://www.ala.org.au/app/uploads/2020/12/bee-by-lizbarratt_iNaturalist-866x1024.jpg 866w, https://www.ala.org.au/app/uploads/2020/12/bee-by-lizbarratt_iNaturalist-254x300.jpg 254w, https://www.ala.org.au/app/uploads/2020/12/bee-by-lizbarratt_iNaturalist-768x908.jpg 768w, https://www.ala.org.au/app/uploads/2020/12/bee-by-lizbarratt_iNaturalist.jpg 1116w" sizes="(max-width: 408px) 100vw, 408px" /><figcaption>European Honey Bee (<a href="https://inaturalist.ala.org.au/taxa/47219"><em>Apis mellifera</em></a>) caught on camera by Liz Barratt (All rights reserved © lizbarratt).</figcaption></figure></div>
-
-
-
-<p>“This was the first year I’d seen our bottlebrush in full bloom and it had a lot of bees around it so I got my camera out.&nbsp; I sat there for several hours over several days just happily snapping away and watching them,” Liz said.</p>
-
-
-
-<p>“When I downloaded the photos, I realised I had caught this shot and looked up ‘bee peeing’ on the internet. From there, I’ve been on this journey and found out more about bees than I ever expected!”&nbsp;</p>
-
-
-
-<p>In her quest for more information, Liz contacted Entomologist Juanita Rodriguez at CSIRO’s Australian National Insect Collection, who confirmed the sighting was pretty rare.</p>
-
-
-
-<p>“This is a rare event Liz captured and she took an excellent photo. &nbsp;Bees release liquid waste called uric acid, but they release it in such small amounts so it’s unusual to witness it – and images like this are rare,” said Juanita.</p>
-
-
-
-<p>Uric acid is a liquid waste that is formed in a bees malpighian tubules – the insect equivalent of kidneys. Here, it’s mixed with other waste products before it is expelled out of the body. The amount of uric acid that’s released is very small. This makes an image capturing this moment very rare.</p>
-
-
-
-<p>Because of this, Juanita encouraged Liz to upload the observation to iNaturalist Australia. This enabled the sighting to become a useful piece of biodiversity data accessible via the ALA. The <a href="https://inaturalist.ala.org.au/observations/65599556">observation</a>, known as an occurrence record, contains useful data such as location, date, time as well as information about the species.</p>
-
-
-
-<p>There are many different apps that feed data into the ALA. For a full list of apps and citizen science projects search the <a href="https://biocollect.ala.org.au/acsa#isCitizenScience%3Dtrue%26isWorldWide%3Dfalse%26max%3D20%26sort%3DdateCreatedSort">Australian Citizen Science Project Finder</a>.</p>
-
-
-
-<p>“I knew this was a rare photograph, and I thought there must be someone somewhere who can use this photo for bee education or similar. But I was at loss on where I could post it to share it properly,” said Liz.</p>
-
-
-
-<p>“I was really grateful to learn about iNaturalist and am really happy to share it with others who also may find it interesting. I love my little bee photo – I’ve called him Bubble Bum due to the bubble on his bum!” </p>
-
-
-
-<p>To upload your own observations, visit <a href="https://inaturalist.ala.org.au/">https://inaturalist.ala.org.au</a></p>
 ]]></content:encoded>
 					
 		

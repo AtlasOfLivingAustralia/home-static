@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
+<url><loc>https://www.ala.org.au/blogs-news/past-present-and-future-looking-back-to-look-forward/</loc><lastmod>2021-04-21T21:59:26+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/unlocking-the-mystery-of-the-regent-honeyeater/</loc><lastmod>2021-04-13T03:48:58+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/inaturalist-australia-makes-huge-contribution-to-biodiversity-data/</loc><lastmod>2021-04-01T01:57:32+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-february-2021/</loc><lastmod>2021-02-24T05:15:02+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -19,7 +20,7 @@
 <url><loc>https://www.ala.org.au/blogs-news/celebrating-10-years-of-science-impact/</loc><lastmod>2020-11-17T03:48:40+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/data-in-the-ala-bushfire-affected-areas-2019-2020-bushfire-season/</loc><lastmod>2020-09-30T00:09:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/national-science-week-2020/</loc><lastmod>2020-09-09T07:05:52+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-july-2020/</loc><lastmod>2020-07-07T02:53:34+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-july-2020/</loc><lastmod>2021-04-20T03:00:45+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/refreshing-our-spatial-services/</loc><lastmod>2020-07-13T00:17:22+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/message-from-andre-zerger-atlas-of-living-australia-director-2/</loc><lastmod>2020-07-07T00:03:50+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/data-quality-project-update/</loc><lastmod>2020-07-02T06:21:44+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -375,8 +376,8 @@
 <url><loc>https://www.ala.org.au/blogs-news/ala-continues-to-improve/</loc><lastmod>2011-04-01T00:47:59+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/museum-volunteers-help-with-rapid-digitisation/</loc><lastmod>2011-03-29T05:50:50+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/avh-ozcam/</loc><lastmod>2011-03-29T05:22:36+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/traditional-owners-welcome-first-victorian-bushblitz-2/</loc><lastmod>2011-03-29T01:55:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/queensland-museum-collections-safe-from-floods/</loc><lastmod>2011-03-23T03:57:52+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/traditional-owners-welcome-first-victorian-bushblitz-2/</loc><lastmod>2021-04-14T06:37:39+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/queensland-museum-collections-safe-from-floods/</loc><lastmod>2021-04-14T06:49:04+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/tim-appointed-kew-gardens/</loc><lastmod>2011-03-22T00:57:22+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/does-size-matter-in-diagnostic-imaging/</loc><lastmod>2011-03-25T00:44:47+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/identify-life-csiro-canberra-seminar/</loc><lastmod>2011-03-15T06:51:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
