@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 21 Apr 2021 21:59:26 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 13 May 2021 04:53:50 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -374,6 +374,8 @@
 		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
 		<pubDate>Wed, 24 Feb 2021 05:15:01 +0000</pubDate>
 				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=44610</guid>
 
 					<description><![CDATA[Atlas of Living Australian Newsletter February 2021]]></description>
@@ -515,7 +517,7 @@
 
 
 
-<ol type="1"><li>Visit <a href="mailto:https://www.gbif.org/news/6SrTuANNJyRweO9c6lSx85/call-for-nominations-to-the-2021-gbif-young-researchers-award">the GBIF young researchers award website</a> and following the instructions.&nbsp;</li><li>Submit your nominations to&nbsp;<a href="mailto:martin.westgate@csiro.au">Martin Westgate, ALA’s Science Advisor,&nbsp;</a>with ‘GBIF Young Researcher’ in the subject line by&nbsp;<strong>31 May 2021.</strong>&nbsp;</li></ol>
+<ol type="1"><li>Visit <a href="https://www.gbif.org/news/6SrTuANNJyRweO9c6lSx85/call-for-nominations-to-the-2021-gbif-young-researchers-award">the GBIF young researchers award website</a> and follow the instructions. </li><li>Submit your nominations to <a href="mailto:martin.westgate@csiro.au">Martin Westgate, ALA’s Science Advisor, </a>with ‘GBIF Young Researcher’ in the subject line by <strong>31 May 2021.</strong> </li></ol>
 
 
 
