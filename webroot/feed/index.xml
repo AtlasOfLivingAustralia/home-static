@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 28 Apr 2021 00:00:32 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 16 May 2021 23:28:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,59 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>International Living Atlases: Australian software used across the globe</title>
+		<link>https://www-test.ala.org.au/impact-stories/international-living-atlases-australian-software-used-across-the-globe/</link>
+		
+		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
+		<pubDate>Sun, 16 May 2021 23:27:10 +0000</pubDate>
+				<category><![CDATA[Impact stories]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=44546</guid>
+
+					<description><![CDATA[The Atlas of Living Australia is a world leader in biodiversity data infrastructure. Software code originally developed by our Australian team is now in use by countries around the world to help manage their national biodiversity databases.]]></description>
+										<content:encoded><![CDATA[
+<p>In 2010, the Atlas of Living Australia (ALA) was established by the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS) to provide researchers, decision makers and community groups a one-stop-shop for biodiversity data. There are now over 20 international Living Atlases based on the software platform originally developed by the ALA.</p>
+
+
+
+<h2 id="the-ala-goes-global">The ALA goes global</h2>
+
+
+
+<p>Within a few years of operation, the ALA rapidly established 100s of data partners across museums and herbaria, universities, government departments and community groups in Australia. Soon Australia’s biodiversity data were accessible online for ecoscience research, state and federal government environment and species conservation management programs. As the Australian node of GBIF – the Global Biodiversity Information Facility – the ALA supported the international community by sharing expertise and open software code.<br></p>
+
+
+
+<p>In 2015, the ALA hosted the first international Living Atlases community meeting to respond to requests from countries around the world. This helped form the collaborative global community that now supports developers implementing the open source platform. The software code has been used to set up 27 installations around the world for national biodiversity databases as well as thematic, regional and institutional instances.</p>
+
+
+
+<h2 id="the-international-living-atlases-community">The international Living Atlases community</h2>
+
+
+
+<p>The Living Atlases platform enables countries to aggregate biodiversity data from multiple sources and supports integrated access to other biological and environmental information such as temperature, habitat etc.<br></p>
+
+
+
+<p>Living Atlas community members continue to work collaboratively to share code and learn from experiences in establishing national biodiversity databases in their countries. They have organised technical training sessions and presented at numerous international meetings. As a result of these and other efforts, an increasing number of GBIF nodes and other organisations have implemented the platform. The Living Atlases community website offers full technical documentation, news from across the community and a current and complete list of participating countries.</p>
+
+
+
+<h2 id="for-more-information">For more information:</h2>
+
+
+
+<p><a href="https://living-atlases.gbif.org/">Living Atlases website</a></p>
+
+
+
+<p><a href="https://www-test.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheet-International-Living-Atlases-V3.pdf">View this impact story as a PDF</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Liquid from the sky</title>
 		<link>https://www-test.ala.org.au/blogs-news/liquid-from-the-sky/</link>
 		
@@ -377,69 +430,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Data in the ALA: bushfire affected areas (2019-2020 bushfire season)</title>
-		<link>https://www-test.ala.org.au/blogs-news/data-in-the-ala-bushfire-affected-areas-2019-2020-bushfire-season/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Wed, 30 Sep 2020 00:09:11 +0000</pubDate>
-				<category><![CDATA[Bushfires]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://edit.ala.org.au/?p=44342</guid>
-
-					<description><![CDATA[The national dataset of bushfire affected areas for the 2019-20 bushfire season is accessible in the Atlas of Living Australia.]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://edit.ala.org.au/app/uploads/2020/09/bushfire-image-by-Teresa-Bailey_iNaturalist_38114300.jpeg" alt="" class="wp-image-44343" width="350" height="234" srcset="https://www-test.ala.org.au/app/uploads/2020/09/bushfire-image-by-Teresa-Bailey_iNaturalist_38114300.jpeg 900w, https://www-test.ala.org.au/app/uploads/2020/09/bushfire-image-by-Teresa-Bailey_iNaturalist_38114300-300x201.jpeg 300w, https://www-test.ala.org.au/app/uploads/2020/09/bushfire-image-by-Teresa-Bailey_iNaturalist_38114300-768x514.jpeg 768w" sizes="(max-width: 350px) 100vw, 350px" /><figcaption>Image by Teresa Bealey (CC-BY-NC-4.0) submitted to the University of New South Wales&#8217; Environment Recovery Project: Australian Bushfires 2019-2020 on iNaturalist Australia.</figcaption></figure></div>
-
-
-
-<p>This dataset shows all areas of Australia affected by the 2019-2020 bushfires. You can use this data in the ALA to&nbsp;search for&nbsp;species that may have been affected by the 2019-20 bushfires, by mapping occurrence records that have been logged in those areas, both before and after the fires.</p>
-
-
-
-<p><strong>How to use the bushfire extent data in the ALA</strong></p>
-
-
-
-<p>For more information on how to use this data in the ALA, read our help article <a rel="noreferrer noopener" href="https://support.ala.org.au/support/solutions/articles/6000241564-using-the-national-indicative-aggregated-fire-extent-dataset-2019-20-in-the-ala" target="_blank">Using the National Indicative Aggregated Fire Extent Dataset 2019-20 in the ALA</a>.</p>
-
-
-
-<p><strong>The National Indicative Aggregated Fire Extent Dataset</strong></p>
-
-
-
-<p>The National Indicative Aggregated Fire Extent Dataset was developed by the Australian Department of Agriculture, Water and the Environment (DAWE) to help quantify the potential impacts of the 2019/20 bushfires on wildlife, plants and ecological communities, and identify appropriate response and recovery actions.</p>
-
-
-
-<p>The dataset is a reliable, agreed, fit-for-purpose and repeatable national dataset of burnt areas across Australia for the 2019/20 bushfire season.</p>
-
-
-
-<p><br>The National Indicative Aggregated Fire Extent Dataset includes:</p>
-
-
-
-<ul><li>data from the national Emergency Management Spatial Information Network Australia (<a href="https://www.emsina.org/">EMSINA</a>) data service, which is the official fire extent currently used by the Australian Government, and</li><li>supplementary data from other sources to form a cumulative national view of fire extent from 1 July 2019 to the 21 April 2020, these sources include NSW Rural Fire Service, Northern Australian Fire Information (NAFI), QLD Fire and Emergency Service, QLD Department of Environment and Science, SA Country Fire Service, SA Department for Environment and Water, Tasmanian Fire Service, TAS Department of Primary Industry, Parks, Water and Environment, VIC Department of Environment, Land, Water &amp; Planning, WA Department of Biodiversity, Conservation and Attractions.</li></ul>
-
-
-
-<p>The dataset is released on behalf of the Australian Government and endorsed by the National Burnt Area Dataset Working Group, convened by the <a href="https://www.bushfirerecovery.gov.au/">National Bushfire Recovery Agency</a>.</p>
-
-
-
-<p><strong>More information and links</strong></p>
-
-
-
-<ul><li>For more details about the dataset visit <a href="https://www.environment.gov.au/fed/catalog/search/resource/details.page?uuid=%7B9ACDCB09-0364-4FE8-9459-2A56C792C743%7D">National Indicative Aggregated Fire Extent Dataset v20200428</a>.</li><li>For help accessing and using the dataset in the ALA, please email &nbsp;<a href="mailto:support@ala.org.au">support@ala.org.au</a></li></ul>
 ]]></content:encoded>
 					
 		

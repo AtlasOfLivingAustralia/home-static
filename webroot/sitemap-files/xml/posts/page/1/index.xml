@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www-test.ala.org.au</loc><lastmod>2021-05-13T02:31:57+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www-test.ala.org.au</loc><lastmod>2021-05-16T23:28:33+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>https://www-test.ala.org.au/citizen-science-apps/</loc><lastmod>2021-03-25T00:50:32+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/newsletters/</loc><lastmod>2021-01-07T05:35:35+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/ala-cited-publications/</loc><lastmod>2020-11-22T22:01:44+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -61,7 +61,7 @@
 <url><loc>https://www-test.ala.org.au/classroom-exercises/</loc><lastmod>2020-09-09T07:36:47+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/education-resources/</loc><lastmod>2020-09-09T03:12:37+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/tasmanian-herbarium/</loc><lastmod>2014-10-08T06:10:12+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www-test.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/</loc><lastmod>2021-05-13T02:03:53+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/</loc><lastmod>2021-05-13T05:29:34+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/royal-botanic-gardens-melbourne-rbgm/</loc><lastmod>2014-06-18T23:50:33+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/</loc><lastmod>2020-06-02T01:05:36+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/the-council-of-heads-of-australian-faunal-collections-chafc/</loc><lastmod>2014-06-13T06:13:24+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
