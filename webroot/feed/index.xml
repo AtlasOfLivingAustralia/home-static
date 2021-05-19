@@ -12,13 +12,13 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 13 May 2021 04:53:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 19 May 2021 05:00:22 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7</generator>
+	<generator>https://wordpress.org/?v=5.7.2</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -28,6 +28,64 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>International Living Atlases: Australian software used across the globe</title>
+		<link>https://www.ala.org.au/blogs-news/international-living-atlases-australian-software-used-across-the-globe/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Wed, 19 May 2021 04:57:25 +0000</pubDate>
+				<category><![CDATA[Impact stories]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44677</guid>
+
+					<description><![CDATA[The Atlas of Living Australia is a world leader in biodiversity data infrastructure. Software code originally developed by our Australian team is now in use by countries around the world to help manage their national biodiversity databases.]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://www.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheet-International-Living-Atlases-V3-004.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/05/Living-Atlases-case-study-thumbnail-727x1024.png" alt="" class="wp-image-44678" width="306" height="431" srcset="https://www.ala.org.au/app/uploads/2021/05/Living-Atlases-case-study-thumbnail-727x1024.png 727w, https://www.ala.org.au/app/uploads/2021/05/Living-Atlases-case-study-thumbnail-213x300.png 213w, https://www.ala.org.au/app/uploads/2021/05/Living-Atlases-case-study-thumbnail-768x1082.png 768w, https://www.ala.org.au/app/uploads/2021/05/Living-Atlases-case-study-thumbnail-1090x1536.png 1090w, https://www.ala.org.au/app/uploads/2021/05/Living-Atlases-case-study-thumbnail.png 1349w" sizes="(max-width: 306px) 100vw, 306px" /></a><figcaption>View or print this impact story as a PDF</figcaption></figure></div>
+
+
+
+<p>In 2010, the Atlas of Living Australia (ALA) was established by the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS) to provide researchers, decision makers and community groups a one-stop-shop for biodiversity data. There are now over 20 international Living Atlases based on the software platform originally developed by the ALA.</p>
+
+
+
+<h2 id="the-ala-goes-global">The ALA goes global</h2>
+
+
+
+<p>Within a few years of operation, the ALA rapidly established 100s of data partners across museums and herbaria, universities, government departments and community groups in Australia. Soon Australia’s biodiversity data were accessible online for ecoscience research, state and federal government environment and species conservation management programs. As the Australian node of GBIF – the Global Biodiversity Information Facility – the ALA supported the international community by sharing expertise and open software code.</p>
+
+
+
+<p>In 2015, the ALA hosted the first international Living Atlases community meeting to respond to requests from countries around the world. This helped form the collaborative global community that now supports developers implementing the open source platform. The software code has been used to set up 27 installations around the world for national biodiversity databases as well as thematic, regional and institutional instances.</p>
+
+
+
+<h2 id="the-international-living-atlases-community">The international Living Atlases community</h2>
+
+
+
+<p>The Living Atlases platform enables countries to aggregate biodiversity data from multiple sources and supports integrated access to other biological and environmental information such as temperature, habitat etc.</p>
+
+
+
+<p>Living Atlas community members continue to work collaboratively to share code and learn from experiences in establishing national biodiversity databases in their countries. They have organised technical training sessions and presented at numerous international meetings. As a result of these and other efforts, an increasing number of GBIF nodes and other organisations have implemented the platform. The Living Atlases community website offers full technical documentation, news from across the community and a current and complete list of participating countries.</p>
+
+
+
+<h2 id="for-more-information">For more information:</h2>
+
+
+
+<p><a href="https://living-atlases.gbif.org/">Living Atlases website</a></p>
+
+
+
+<p><a href="https://www.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheet-International-Living-Atlases-V3-004.pdf">View or print this impact story as a PDF</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Past, present and future: looking back to look forward</title>
 		<link>https://www.ala.org.au/blogs-news/past-present-and-future-looking-back-to-look-forward/</link>
 		
@@ -759,51 +817,6 @@
 
 
 <ul><li>Read the full published article <a href="https://www.nature.com/articles/s41598-020-79852-4">Genetic barcoding of museum eggshell improves data integrity of avian biological collections</a></li><li>Read <a href="https://blog.csiro.au/eggshell-forensics-solve-the-riddles-of-ancient-birds/">Eggshell forensics solve the riddles of ancient birds</a> on CSIROscope</li><li>Browse the <a href="https://collections.ala.org.au/public/show/co16">Australian National Wildlife Collection on the ALA</a></li></ul>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Data partners</title>
-		<link>https://www.ala.org.au/blogs-news/data-partners/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Thu, 17 Dec 2020 06:07:47 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44509</guid>
-
-					<description><![CDATA[As part of our celebrations to mark 10 years of the ALA, we would like to thank all our data partners for all their contributions over the decade. Our data partners are the backbone of the ALA, providing species occurrence data as well as authoritative data for species names and classification, geospatial references, and environmental [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>As part of our celebrations to mark 10 years of the ALA, we would like to thank all our data partners for all their contributions over the decade.</p>
-
-
-
-<p>Our data partners are the backbone of the ALA, providing species occurrence data as well as authoritative data for species names and classification, geospatial references, and environmental layers.</p>
-
-
-
-<p>We now have over 700 data partners across research, government and citizen science and over 91 million biodiversity records.</p>
-
-
-
-<p>Here are our top 10 data partners – in terms of number of occurrence records – in our plant, invertebrates, non-avian invertebrates and bird datasets.</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-4.png" alt="" class="wp-image-44512" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-4.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-4-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-3.png" alt="" class="wp-image-44513" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-3.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-3-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-1.png" alt="" class="wp-image-44515" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-1.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-1-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="500" height="350" src="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2.png" alt="" class="wp-image-44514" srcset="https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2.png 500w, https://www.ala.org.au/app/uploads/2020/12/Top-10-ALA-data-partners-for-non-avian-vertebrates-2-300x210.png 300w" sizes="(max-width: 500px) 100vw, 500px" /></figure></div>
 ]]></content:encoded>
 					
 		
