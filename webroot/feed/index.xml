@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 24 May 2021 06:03:49 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 24 May 2021 23:11:44 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,85 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA helps to stop pests in their tracks</title>
+		<link>https://www.ala.org.au/blogs-news/ala-helps-to-stop-pests-in-their-tracks/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Mon, 24 May 2021 23:11:44 +0000</pubDate>
+				<category><![CDATA[Impact stories]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44697</guid>
+
+					<description><![CDATA[The Atlas of Living Australia and its large network of biodiversity data providers are helping our national
+Environmental Biosecurity Office  (EBO) in the Department of  Agriculture, Water and the  Environment (DAWE) to protect  Australia’s flora and fauna from  exotic biosecurity threats. ]]></description>
+										<content:encoded><![CDATA[
+<h3 id="ala-biosecurity-alert-system">ALA biosecurity alert system</h3>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://www.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheets-Biosecurity-V3-lowres.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/05/Biosecurity-thumbnail.png" alt="" class="wp-image-44709" width="333" height="471" srcset="https://www.ala.org.au/app/uploads/2021/05/Biosecurity-thumbnail.png 642w, https://www.ala.org.au/app/uploads/2021/05/Biosecurity-thumbnail-212x300.png 212w" sizes="(max-width: 333px) 100vw, 333px" /></a><figcaption><a href="https://www.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheets-Biosecurity-V3-lowres.pdf">View or print this impact story as a PDF</a></figcaption></figure></div>
+
+
+
+<p>Keeping track of environmental pests and weeds is an ongoing challenge. Government biosecurity efforts aim to prevent, respond to and assist recovery from pests and diseases, with particular focus on the invasive species that threaten our environment and the economy. Early detection of exotic and introduced pest species is crucial to managing and eradicating invasive pests. </p>
+
+
+
+<p>The EBO is charged with protecting Australia’s native flora, fauna and associated social amenity from the damaging effects of exotic pests, weeds and diseases that come  from overseas. One of their biggest challenges is knowing when pests and diseases first come into Australia and keeping track of their spread across the country. International border controls and quarantine measures are crucial elements for biosecurity control, but pests, weeds and diseases can still elude these controls. </p>
+
+
+
+<p>The Atlas of Living Australia (ALA) harnesses innovative solutions to complement existing methods of detection to further bolster biosecurity incursion surveillance. </p>
+
+
+
+<p>For over ten years, the ALA – our national biodiversity data infrastructure – has been aggregating occurrence records of plant, animals and fungi species from over 700 data partners. In 2020, the ALA worked closely with DAWE to establish automatic alerts for targeted species on the National Priority List of Exotic Environmental Pests, Weeds and Diseases that are considered the greatest biosecurity risks to Australia. Using this list, the ALA set up an alert system. Now, when observations of those target species are uploaded to the database, an alert is sent to the EBO.</p>
+
+
+
+<h3 id="ala-alert-provides-extra-layer-of-defence">ALA alert provides extra layer of defence</h3>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--1024x768.jpeg" alt="" class="wp-image-44698" width="408" height="305" srcset="https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer-.jpeg 2048w" sizes="(max-width: 408px) 100vw, 408px" /><figcaption>The Asian shore crab (Hemigrapsus sanguineus) is considered a biosecurity threat to Australia, and was detected in Victoria in 2020. Image credit: This image was taken in the USA and uploaded to iNaturalist by Chris Alice Kratzer (CC-BY-SA)</figcaption></figure></div>
+
+
+
+<p>The value of the alert system has already been demonstrated regarding incursion reports in Victoria. In early 2020, a suspected sighting of the Asian shore crab by a member of the public on Port Phillip Bay in Victoria. This sighting was uploaded as a report into the ALA and provided the earliest available alert of the incursions. Early awareness of incursions into Australia by exotic species such as the Asian shore crab provide the best scenario for implementing successful management and eradication programs. If left unchecked exotic species can spread rapidly and compete with our native flora and fauna. </p>
+
+
+
+<p>This episode demonstrated that the ALA notification system can provide over 9 months earlier warning of an incursion. Another example of the benefits of the ALA notification system, involving an exotic wasp, demonstrated that an incursion could be found 24-36 months earlier than the current reporting system. The notification system can also include a facility to validate and amend reports, which can be important for clarifying Australia’s pest status. Citizen science apps such as iNaturalist Australia, among many others, feed data into the ALA and directly contribute to the national biosecurity surveillance system.</p>
+
+
+
+<blockquote class="wp-block-quote"><p> <em>“The ALA alert system is simple and is proving to be an important asset to our operational capability,” </em>said Andrew Pearce, from DAWE’s Environmental Biosecurity Office<em>. </em></p></blockquote>
+
+
+
+<blockquote class="wp-block-quote"><p><em>“This is a layer of defence we haven’t had before and it has excellent potential for further development and expansion to deliver a low cost biosecurity surveillance and monitoring capability</em>.&#8221;</p></blockquote>
+
+
+
+<p>The national biosecurity alert system is an excellent example of how the ALA is able to provide trusted biodiversity data to support environmental biosecurity program managers and help deliver better outcomes for Australian ecosystems and environments.</p>
+
+
+
+<h3 id="for-more-information">For more information</h3>
+
+
+
+<ul><li>Visit <a href="https://www.ala.org.au/">ala.org.au </a>or contact<a href="mailto:support@ala.org.au"> support@ala.org.au</a></li><li><a href="https://www.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheets-Biosecurity-V3-lowres.pdf">View or print this impact story as a PDF</a></li></ul>
+
+
+
+<p><br></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Welcome Prof Stephen van Leeuwen to our ALA Advisory Board</title>
 		<link>https://www.ala.org.au/blogs-news/welcome-prof-stephen-van-leeuwen-to-our-ala-advisory-board/</link>
 		
@@ -759,44 +838,6 @@
 
 
 <p>Full details, including how to nominate and eligibility criteria, can be found on the&nbsp;<a href="https://www.gbif.org/news/6SrTuANNJyRweO9c6lSx85/call-for-nominations-to-the-2021-gbif-young-researchers-award" target="_blank" rel="noreferrer noopener">GBIF website.</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Director&#8217;s update &#8211; February 2021</title>
-		<link>https://www.ala.org.au/blogs-news/directors-update-february-2021/</link>
-		
-		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
-		<pubDate>Tue, 23 Feb 2021 04:42:08 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44589</guid>
-
-					<description><![CDATA[Welcome to the first of our 2021 ALA newsletters.]]></description>
-										<content:encoded><![CDATA[
-<p>I’d like to welcome you to the first of our 2021 ALA newsletters by thanking everyone who helped make our ten-year celebrations such a success.  We were particularly buoyed with how our community engaged with our science impact webinars and thank our presenters who made that experience so rewarding. The lessons we learnt last year will be used to deliver more regular virtual events through 2021 with the first to be held on Wednesday 3 March exploring <a href="https://events.csiro.au/Events/2021/February/18/Exploring-citizen-science-disaster-response-and-recovery">the role of citizen science in the context of disaster response and recovery</a>.</p>
-
-
-
-<p>2021 will be an important year for the ALA and our partners in the National Collaborative Research Infrastructure Strategy program as this year is a ‘road mapping’ year. The 2021 National Research Infrastructure Roadmap will map out Australia’s research infrastructure capability and future areas of need for the coming five to ten years. A roadmap process is completed every five years to ensure Australia maintains its excellent research infrastructure, continues to support innovation and addresses emerging research challenges. The Department of Education, Skills and Employment will shortly announce the formation of an expert working group with membership agreed to by the Minister for Education and the Minister for Industry, Science and Technology with a planned delivery date of a draft towards the end of the 2021 calendar year. We feel well prepared heading into a roadmap process given the 2019 completion of the <a href="https://www.ala.org.au/blogs-news/ala-future-directions-national-consultation-findings-report/">ALA Future Directions National Consultation</a>. However, we also operate in a very dynamic space driven by digital transformation so 2021 will provide the ALA and our partners an opportunity to engage and shape future priorities.</p>
-
-
-
-<p>Finally, 2021 also presents a rare opportunity to engage with an important commonwealth initiative focussed broadly on biodiversity data and information. Many in our sector will know that Professor Graeme Samuel recently released the final report of the <a href="https://epbcactreview.environment.gov.au/resources/final-report/foreword">Independent Review of the Environmental Protection and Biodiversity Conservation ACT 1999</a>. Importantly for the ALA, data, information and systems feature prominently in the review recommendations primarily with respect to developing improved data and information supply chains to support decision-making – Chapter 10 of the review is an important read if you have an interest in the criticality of data and information in supporting regulatory processes. Our recently announced partnership with the <a href="https://ardc.edu.au/news/improving-access-to-public-sector-data-strengthens-australian-research/">Australian Research Data Commons</a> and other partners around the Sensitive Species Data Pathways Project to develop the agreements, governance arrangements and frameworks to share sensitive species information further provides a unique opportunity to deliver a step-change in how Australia acquires, manages and delivers its biodiversity data.</p>
-
-
-
-<p>I hope you enjoy the February edition of our newsletter.</p>
-
-
-
-<p><strong>Andre Zerger</strong></p>
-
-
-
-<p><strong>Director, Atlas of Living Australia</strong></p>
 ]]></content:encoded>
 					
 		
