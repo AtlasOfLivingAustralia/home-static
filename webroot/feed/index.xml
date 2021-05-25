@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 25 May 2021 05:34:37 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 25 May 2021 06:34:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,67 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Director&#8217;s message &#8211; May 2021</title>
+		<link>https://www.ala.org.au/blogs-news/directors-message-may-2021/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Tue, 25 May 2021 06:34:46 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44748</guid>
+
+					<description><![CDATA[I’d like to welcome you to the May 2021 edition of our newsletter in which&#160;we profile a number of exciting developments&#160;in&#160;the ALA.&#160;&#160; First, it’s a&#160;pleasure&#160;to be releasing&#160;the&#160;ALA’s&#160;annual work&#160;plan&#160;for&#160;2021-22.&#160;Mid-last year we were excited to&#160;releas&#160;&#160;ALA Strategy 2020-25&#160;and the&#160;work&#160;plan provides an&#160;annual&#160;view into ALA priorities as articulated primarily through projects.&#160;&#160; The work&#160;plan is an&#160;outcome&#160;of&#160;multiple&#160;stakeholder conversations, the insight of the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2020/07/Andre-Zerger-portrait-2019-1-300x300-2.png" alt="" class="wp-image-44152" width="154" height="154" srcset="https://www.ala.org.au/app/uploads/2020/07/Andre-Zerger-portrait-2019-1-300x300-2.png 300w, https://www.ala.org.au/app/uploads/2020/07/Andre-Zerger-portrait-2019-1-300x300-2-150x150.png 150w" sizes="(max-width: 154px) 100vw, 154px" /></figure></div>
+
+
+
+<p>I’d like to welcome you to the May 2021 edition of our newsletter in which&nbsp;we profile a number of exciting developments&nbsp;in&nbsp;the ALA.&nbsp;&nbsp;</p>
+
+
+
+<p>First, it’s a&nbsp;pleasure&nbsp;to be releasing&nbsp;the&nbsp;ALA’s&nbsp;<a href="https://www.ala.org.au/app/uploads/2021/05/ALA-Workplan-2021-22_Final.pdf" target="_blank" rel="noreferrer noopener">annual work&nbsp;plan&nbsp;for&nbsp;2021-22</a>.&nbsp;Mid-last year we were excited to&nbsp;releas&nbsp;&nbsp;<a href="https://www.ala.org.au/app/uploads/2020/07/ALA-Strategy-2020-25-Public-June-6-2020.pdf" target="_blank" rel="noreferrer noopener">ALA Strategy 2020-25</a>&nbsp;and the&nbsp;work&nbsp;plan provides an&nbsp;annual&nbsp;view into ALA priorities as articulated primarily through projects.&nbsp;&nbsp;</p>
+
+
+
+<p>The work&nbsp;plan is an&nbsp;outcome&nbsp;of&nbsp;multiple&nbsp;stakeholder conversations, the insight of the ALA leadership team and&nbsp;guidance&nbsp;from the ALA Advisory Board. It details a range of projects including&nbsp;major activities such as:&nbsp;</p>
+
+
+
+<ul><li>an extension&nbsp;to our&nbsp;<a href="https://www.ala.org.au/blogs-news/ala-upgrade-on-its-way/" target="_blank" rel="noreferrer noopener">Core Infrastructure Upgrade&nbsp;Project</a>&nbsp;working&nbsp;with the Global Biodiversity Information Facility&nbsp;&#8211;&nbsp;a strategic shift to support more complex biodiversity data&nbsp;</li><li>our&nbsp;three&nbsp;Australian Research Data Commons&nbsp;partnership&nbsp;projects&nbsp;–&nbsp;<a href="https://ardc.edu.au/project/ecoassets/" target="_blank" rel="noreferrer noopener">EcoAssets</a>,&nbsp;<a href="https://www.ala.org.au/blogs-news/improving-access-to-sensitive-species-data/" target="_blank" rel="noreferrer noopener">Sensitive Species Data Pathways</a>,&nbsp;<a href="https://ardc.edu.au/project/ecocommons-australia/" target="_blank" rel="noreferrer noopener">EcoCommons&nbsp;Australia</a>, and&nbsp;</li><li>more tactical activities such as an uplift&nbsp;of&nbsp;the ALA’s&nbsp;R software&nbsp;suite&nbsp;and enhancements to our Biodiversity Information Explorer.&nbsp;&nbsp;</li></ul>
+
+
+
+<p>The ALA has historically focussed on harmonising Australia’s biodiversity data pertaining to native plants and animals, and providing related data products and services to our key users across research, government, industry and community. However, we are increasingly seeing the value of our infrastructure in supporting biosecurity-related applications.&nbsp;&nbsp;</p>
+
+
+
+<p>In this issue we highlight our partnership with the Department of Agriculture, Water and the Environment’s Chief Environmental Biosecurity Office, which has been able to leverage a decade of ALA data partnerships and robust infrastructure to support the development of a&nbsp;<a href="https://www.ala.org.au/blogs-news/ala-helps-to-stop-pests-in-their-tracks/" target="_blank" rel="noreferrer noopener">novel biosecurity alert capability</a>.&nbsp;&nbsp;</p>
+
+
+
+<p>There’s a pressing need for an improved national approach for dealing with biosecurity data.&nbsp;I was reminded of this earlier this week with the Government’s release of the&nbsp;<a href="https://www.environment.gov.au/biodiversity/threatened/publications/threatened-species-strategy-2021-2031" target="_blank" rel="noreferrer noopener">Threatened Species Strategy</a>&nbsp;where again we see the importance of understanding the distribution of invasive species, and the importance of&nbsp; knowledge and tools in supporting our mitigation programs.&nbsp;&nbsp;</p>
+
+
+
+<p>There’s a world of citizen science apps, biosecurity-related research programs, and government programs capturing data pertaining to species of biosecurity concern. Harmonising these data into a national data infrastructure will become an increasingly strategically important part of ALA’s work program.  </p>
+
+
+
+<p>It’s&nbsp;also&nbsp;been a&nbsp;tremendous few months&nbsp;with respect to team growth. We’ve welcomed two new data analysts to the ALA working under Dr Martin Westgate, and in coming weeks we’ll welcome an R-developer to work alongside our partner&nbsp;EcoCommons&nbsp;program.&nbsp;</p>
+
+
+
+<p>Our uplift in data analytics capability will provide improved ALA data support to external stakeholders, projects and partners. The new team members will complement our existing data management team responsible for liaising with our data partners to bring data into the ALA. They will provide customised data services to our partners and support the next partnership opportunity that arises.  </p>
+
+
+
+<p>I hope you enjoy the May&nbsp;2021&nbsp;edition of our&nbsp;newsletter.&nbsp;</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA upgrade on its way</title>
 		<link>https://www.ala.org.au/blogs-news/ala-upgrade-on-its-way/</link>
 		
@@ -36,7 +97,7 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=44736</guid>
 
-					<description><![CDATA[The Atlas of Living Australia (ALA) team has been busy working on our Core Infrastructure Upgrade Project to upgrade our systems and make them more robust and more efficient.  ]]></description>
+					<description><![CDATA[The Atlas of Living Australia (ALA) team has been busy working on our Core Infrastructure Upgrade Project to improve our systems and make them more robust and more efficient.  ]]></description>
 										<content:encoded><![CDATA[
 <div class="wp-block-image"><figure class="alignright size-large"><img loading="lazy" width="288" height="279" src="https://www.ala.org.au/app/uploads/2020/02/AcroRd32_2020-02-05_14-56-31.png" alt="ALA Infrastructure Upgrade Project icon" class="wp-image-43653"/></figure></div>
 
@@ -90,11 +151,11 @@
 
 
 
-<p>GBIF already manages 1.7 billion occurrence records and sees exponential year-on-year growth. By collaborating with GBIF, we greatly benefit from their experience with large data volumes. </p>
+<p>GBIF&nbsp;already&nbsp;manages 1.7 billion occurrence records and sees exponential year-on-year growth.&nbsp;By collaborating with GBIF, we&nbsp;greatly&nbsp;benefit&nbsp;from their experience with large data volumes.&nbsp;</p>
 
 
 
-<p>The new infrastructure will&nbsp;also enable&nbsp;us to&nbsp;join&nbsp;GBIF&nbsp;in&nbsp;adopting&nbsp;newer&nbsp;data types&nbsp;such as&nbsp;Sampling Events&nbsp;and other TDWG&nbsp;(Biodiversity Information Standards)&nbsp;extensions. It will&nbsp;open&nbsp;up&nbsp;opportunities&nbsp;to collaborate&nbsp;on&nbsp;new initiatives&nbsp;with GBIF’s&nbsp;development team and&nbsp;the&nbsp;international biodiversity data community.&nbsp;</p>
+<p>The new infrastructure will also enable us to join GBIF in adopting newer data types and other TDWG (Biodiversity Information Standards) extensions. It will open up opportunities to collaborate on new initiatives with GBIF’s development team and the international biodiversity data community. </p>
 
 
 
@@ -778,101 +839,6 @@ Environmental Biosecurity Office  (EBO) in the Department of  Agriculture, Water
 
 
 <p><a href="https://www.ala.org.au/app/uploads/2021/02/ALA-Newsletter-Feb-2021.pdf">Atlas of Living Australian Newsletter February 2021</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Helping you search and filter data in the ALA</title>
-		<link>https://www.ala.org.au/blogs-news/helping-you-search-and-filter-data-in-the-ala/</link>
-		
-		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
-		<pubDate>Tue, 23 Feb 2021 05:11:12 +0000</pubDate>
-				<category><![CDATA[Data]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44595</guid>
-
-					<description><![CDATA[Our new data quality filters, called Data Profiles, allow you to filter out incomplete or inconsistent records. This makes it easier to find the data you need. Since February 2020,&#160;we’ve been working with&#160;the ALA user community&#160;to identify&#160;data quality related issues and develop solutions.&#160; Thank you to everyone who completed our surveys,&#160;contributed to our understanding of [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Our new data quality filters, called <strong><em>Data Profiles</em></strong>, allow you to filter out incomplete or inconsistent records. This makes it easier to find the data you need.</p>
-
-
-
-<p>Since February 2020,&nbsp;we’ve been working with&nbsp;the ALA user community&nbsp;to identify&nbsp;data quality related issues and develop solutions.&nbsp;</p>
-
-
-
-<p>Thank you to everyone who completed our surveys,&nbsp;contributed to our understanding of the baseline&nbsp;perceptions of data quality,&nbsp;helped to&nbsp;prioritise issues,&nbsp;and tested&nbsp;solutions.&nbsp;</p>
-
-
-
-<p><strong>Prioritisation survey results</strong>&nbsp;</p>
-
-
-
-<p>After establishing a baseline of <a href="https://www.ala.org.au/blogs-news/data-quality-project-baseline-survey-results/">data quality perceptions</a> we conducted a&nbsp;prioritisation&nbsp;survey to&nbsp;identify&nbsp;which&nbsp;issues&nbsp;the data quality project&nbsp;would&nbsp;address&nbsp;first. The top two issues identified&nbsp;were:&nbsp;</p>
-
-
-
-<ul><li>ALA users accessing data via the ALA without filtering out records that are not fit for their purpose.&nbsp;</li><li>Users did not&nbsp;know if records&nbsp;or datasets were suitable for&nbsp;their&nbsp;purpose because quality indicators were not visible. Additionally, many users didn’t understand what the indicators <a>information</a>&nbsp;meant.&nbsp;</li></ul>
-
-
-
-<p><strong>Improvements to data filters</strong>&nbsp;</p>
-
-
-
-<p>In response to these issues,&nbsp;the project developed a&nbsp;new&nbsp;capability&nbsp;to&nbsp;pre-filter search results so that lower quality records&nbsp;(e.g.&nbsp;incomplete or&nbsp;inconsistent)&nbsp;are not shown unless they are actively included.&nbsp;</p>
-
-
-
-<p>The filters, called <strong><em>Data Profiles</em></strong>, can be seen in a new&nbsp;user interface&nbsp;element at the top of the search results webpage.&nbsp;</p>
-
-
-
-<p>Data Profiles enable users to access quality data quickly. Filters can be switched on&nbsp;or&nbsp;off&nbsp;and managed as a group or individually.&nbsp;If you’d like more information about the fields and the data that contributes to them, you can mouse-over the text or&nbsp;click the info icons (<strong>i</strong>).</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="697" src="https://www.ala.org.au/app/uploads/2021/02/Data-quality.png" alt="" class="wp-image-44596" srcset="https://www.ala.org.au/app/uploads/2021/02/Data-quality.png 1024w, https://www.ala.org.au/app/uploads/2021/02/Data-quality-300x204.png 300w, https://www.ala.org.au/app/uploads/2021/02/Data-quality-768x523.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>ALA’s occurrence record search for <em>Acacia dealbata</em> records. The new data quality filters are highlighted by a red box.&nbsp;</figcaption></figure>
-
-
-
-<p><strong>Data Profiles in the ALA</strong></p>
-
-
-
-<p>Data Profiles provide a filtered view of data and give a curation capability not previously available to users of the ALA.</p>
-
-
-
-<p>“We developed the Data Profiles functionality in response to users identifying data quality as a high priority issue,” said Miles Nicholls, ALA’s Data Quality Project Lead.</p>
-
-
-
-<p>“Communities, jurisdictions, and expert groups will be able to develop and publish data profiles, making their expertise in data selection and curation available to the whole ALA user community. Ultimately this means better information will be available to support research, analysis and decision making as well as community engagement with the environment,” said Miles.</p>
-
-
-
-<p><strong>Find out more</strong></p>
-
-
-
-<p>For more information on the new data filter features, check out these support articles:&nbsp;</p>
-
-
-
-<ul><li><a href="https://support.ala.org.au/support/solutions/articles/6000240256-getting-started-with-the-data-profiles">Getting started with the data profiles</a></li><li><a href="https://support.ala.org.au/support/solutions/articles/6000241037-data-profiles-faqs">Data profiles FAQs&nbsp;</a></li><li><a href="https://support.ala.org.au/support/solutions/articles/6000241038-how-do-i-turnoff-or-modify-the-data-quality-filters-">How do I turn&nbsp;off or modify the data profile?&nbsp;</a></li><li><a href="https://support.ala.org.au/support/solutions/articles/6000241039-how-do-i-know-what-the-data-quality-filters-are-doing-">How do I know what the filters are doing?&nbsp;</a></li><li><a href="https://support.ala.org.au/support/solutions/articles/6000241055-what-do-i-do-about-my-records-being-filtered-out-">What do I do about my records being filtered out?</a>&nbsp;</li></ul>
-
-
-
-<p>For more information on the project itself, visit the <a href="https://www.ala.org.au/data-quality-project/">Data Quality project page</a> or contact us at <a rel="noreferrer noopener" href="mailto:dataquality@ala.org.au" target="_blank">dataquality@ala.org.au</a>. </p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
