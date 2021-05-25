@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 25 May 2021 00:59:39 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 25 May 2021 04:03:41 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,99 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA upgrade on its way</title>
+		<link>https://www.ala.org.au/blogs-news/ala-upgrade-on-its-way/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Tue, 25 May 2021 04:03:41 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44736</guid>
+
+					<description><![CDATA[The Atlas of Living Australia (ALA) team has been busy working on our Core Infrastructure Upgrade Project to upgrade our systems and make them more robust and more efficient.  ]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-image"><figure class="alignright size-large"><img loading="lazy" width="288" height="279" src="https://www.ala.org.au/app/uploads/2020/02/AcroRd32_2020-02-05_14-56-31.png" alt="ALA Infrastructure Upgrade Project icon" class="wp-image-43653"/></figure></div>
+
+
+
+<p>The upgraded code base will replace the ALA’s species occurrence record ingestion systems and will be released soon (late June-July 2021).  </p>
+
+
+
+<p>Most of the work is happening behind the scenes, so hopefully&nbsp;you&nbsp;won’t&nbsp;notice&nbsp;any significant changes to your everyday use of the ALA.&nbsp;If&nbsp;you&nbsp;do&nbsp;see&nbsp;anything out of the&nbsp;ordinary&nbsp;please let us know on&nbsp;<a href="mailto:support@ala.org.au" target="_blank" rel="noreferrer noopener">support@ala.org.au</a>&nbsp;</p>
+
+
+
+<p>This is just the first stage of our three stage <a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/">Core Infrastructure Upgrade Project</a>. </p>
+
+
+
+<p><strong>The&nbsp;</strong><strong>Core Infrastructure Upgrade Project</strong><strong>&nbsp;–&nbsp;</strong><strong>our</strong><strong>&nbsp;</strong><strong>focus</strong><strong>&nbsp;for 2020-22</strong>&nbsp;</p>
+
+
+
+<p>The Core Infrastructure Upgrade Project is a major&nbsp;project&nbsp;on our ALA Work Plan&nbsp;2020-21 and&nbsp;will continue into the coming year.&nbsp;</p>
+
+
+
+<p>The project team has rewritten various components of the ALA species occurrence record ingestion system and it now shares a common code base with the Global Biodiversity Information Facility – <a href="https://www.gbif.org/">GBIF</a> – plus some adjustments for the ALA’s specific requirements.  </p>
+
+
+
+<p>The new infrastructure will be&nbsp;fit-for-purpose, more maintainable and able to adapt to our future needs as Australia’s national biodiversity&nbsp;data infrastructure.&nbsp;These&nbsp;improvements will enable the ALA to manage increases in data volume and different types&nbsp;of data. ​ &nbsp;</p>
+
+
+
+<p>The upgrade will also mean&nbsp;we&#8217;re&nbsp;better positioned to handle data load automation.&nbsp;Our data partners will be empowered to control the currency and quality of their data. &nbsp;</p>
+
+
+
+<p><strong>Why are we upgrading ALA’s core infrastructure?  </strong>&nbsp;</p>
+
+
+
+<p>After 10 years of active development, the ALA’s core data processing infrastructure is approaching ‘end of life’. The Core Infrastructure Upgrade Project will enable the ALA to adapt to changing data and user requirements heading into our next decade of operation. &nbsp;</p>
+
+
+
+<p><strong>Getting ready for more data and more complex data</strong>&nbsp;</p>
+
+
+
+<p>We are already seeing large volumes of new generation occurrence records coming from automated observations such as camera trapping, bioacoustics, animal tracking, and genetics including eDNA.&nbsp;Our current infrastructure is at&nbsp;capacity&nbsp;accommodating our&nbsp;occurrence&nbsp;record volume of just under 100m records.&nbsp;We&nbsp;need to&nbsp;be able to&nbsp;handle much larger data volumes.&nbsp;</p>
+
+
+
+<p>GBIF&nbsp;already&nbsp;manages 1.7 billion occurrence records and sees exponential year-on-year growth.&nbsp;By collaborating with GBIF, we&nbsp;greatly&nbsp;benefit&nbsp;from their experience with large data volumes.&nbsp;In test, the new code base&nbsp;is&nbsp;performing&nbsp;well;&nbsp;our daily complete index build&nbsp;will&nbsp;take&nbsp;one hour instead of six.&nbsp;</p>
+
+
+
+<p>The new infrastructure will also enable us to join GBIF in adopting newer data types such as Sampling Events and other TDWG (Biodiversity Information Standards) extensions. It will open up opportunities to collaborate on new initiatives with GBIF’s development team and the international biodiversity data community. </p>
+
+
+
+<p><strong>Partnering with&nbsp;</strong><strong>GBIF</strong><strong>&nbsp;and the international Living Atlases</strong>&nbsp;</p>
+
+
+
+<p>Throughout the Core Infrastructure Upgrade Project, we’ve been working closely with GBIF and collaborating on a shared codebase. We’re also communicating with our user and stakeholder communities and the <a href="https://living-atlases.gbif.org/">international Living Atlases community. </a> </p>
+
+
+
+<p>The Living Atlases is an international&nbsp;community of 26 biodiversity data infrastructures originally built on the&nbsp;ALA code base.&nbsp;It&nbsp;is a vibrant development community,&nbsp;sharing and&nbsp;contributing to a common code base. Most of the&nbsp;Living Atlas instances&nbsp;are nodes of GBIF&nbsp;and as such&nbsp;are stakeholders in the future of the infrastructure&nbsp;upgrade&nbsp;work. Throughout the project, the GBIF and ALA development teams have&nbsp;been&nbsp;keeping&nbsp;the&nbsp;Living Atlases community&nbsp;up-to-date and&nbsp;abreast&nbsp;of the changes.&nbsp;&nbsp;</p>
+
+
+
+<p><strong>For m</strong><strong>ore information</strong>&nbsp;</p>
+
+
+
+<ul><li>Email us at&nbsp;<a href="mailto:support@ala.org.au" target="_blank" rel="noreferrer noopener">support@ala.org.au</a>&nbsp;</li><li>Check out&nbsp;our&nbsp;<a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/" target="_blank" rel="noreferrer noopener">Core Infrastructure Upgrade Project page</a>&nbsp;</li></ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA helps to stop pests in their tracks</title>
 		<link>https://www.ala.org.au/blogs-news/ala-helps-to-stop-pests-in-their-tracks/</link>
 		
@@ -780,64 +873,6 @@ Environmental Biosecurity Office  (EBO) in the Department of  Agriculture, Water
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>GBIF Young Researchers Award 2021 – Australian nominations</title>
-		<link>https://www.ala.org.au/blogs-news/gbif-young-researchers-award-2021-australian-nominations/</link>
-		
-		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
-		<pubDate>Tue, 23 Feb 2021 05:01:14 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44591</guid>
-
-					<description><![CDATA[Nominations are now open for the GBIF 2021 Young Researchers Award. ]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large"><img loading="lazy" width="210" height="100" src="https://www.ala.org.au/app/uploads/2021/02/GBIF-logo-1.jpg" alt="" class="wp-image-44593"/></figure></div>
-
-
-
-<p>The GBIF Young Researchers Awards is an annual programme aimed at fostering innovative research and discovery in biodiversity informatics. The 2021 programme will provide a pair of prizes worth &nbsp;€5,000 (approx. AUD 7,700) each, recognising the work of two graduate students—preferably, one masters and one PhD candidate—nominated by&nbsp;<a rel="noreferrer noopener" href="https://www.gbif.org/the-gbif-network" target="_blank">GBIF Participant countries</a>.</p>
-
-
-
-<p>This year our team at the Atlas of Living Australia will coordinate the applications from Australian researchers. We will select two nominations to be assessed by the GBIF Science Committee.</p>
-
-
-
-<p>Applications are due by 31 May 2021.</p>
-
-
-
-<p><strong>How to submit a nomination (Australian applicants)</strong></p>
-
-
-
-<ol type="1"><li>Visit <a href="https://www.gbif.org/news/6SrTuANNJyRweO9c6lSx85/call-for-nominations-to-the-2021-gbif-young-researchers-award">the GBIF young researchers award website</a> and follow the instructions. </li><li>Submit your nominations to <a href="mailto:martin.westgate@csiro.au">Martin Westgate, ALA’s Science Advisor, </a>with ‘GBIF Young Researcher’ in the subject line by <strong>31 May 2021.</strong> </li></ol>
-
-
-
-<p><strong>Nomination process</strong></p>
-
-
-
-<p>Two Australian nominations will be selected for submission to GBIF by the Australian GBIF Delegation in time for the GBIF submission deadline.&nbsp; Please contact&nbsp;<a href="mailto:support@ala.org.au">support@ala.org.au</a>&nbsp;for further information if required.</p>
-
-
-
-<p>A jury organised by&nbsp;<a href="https://www.gbif.org/contact-us/directory?group=scienceCommittee" target="_blank" rel="noreferrer noopener">GBIF Science Committee</a>&nbsp;will select the two award recipients from the pool of nominees received from the country delegation by the GBIF Secretariat. The winners will be announced in September/October 2021.</p>
-
-
-
-<p><strong>Further information</strong></p>
-
-
-
-<p>Full details, including how to nominate and eligibility criteria, can be found on the&nbsp;<a href="https://www.gbif.org/news/6SrTuANNJyRweO9c6lSx85/call-for-nominations-to-the-2021-gbif-young-researchers-award" target="_blank" rel="noreferrer noopener">GBIF website.</a></p>
 ]]></content:encoded>
 					
 		

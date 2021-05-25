@@ -2,13 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www.ala.org.au</loc><lastmod>2021-05-25T01:51:35+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www.ala.org.au</loc><lastmod>2021-05-25T04:07:06+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>https://www.ala.org.au/ala-cited-publications/</loc><lastmod>2021-03-11T03:31:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/</loc><lastmod>2021-05-25T01:51:35+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/</loc><lastmod>2021-05-25T04:06:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-logo-and-identity/</loc><lastmod>2020-11-01T23:30:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/three-maps-activity/</loc><lastmod>2020-03-04T01:19:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/data-quality-project/</loc><lastmod>2021-02-11T03:30:51+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/current-projects/</loc><lastmod>2021-05-25T01:35:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/current-projects/</loc><lastmod>2021-05-25T04:07:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/govhack/</loc><lastmod>2020-08-18T00:10:54+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/collectory/</loc><lastmod>2019-08-05T01:09:50+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/bie/</loc><lastmod>2019-08-04T23:29:44+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -98,7 +98,7 @@
 <url><loc>https://www.ala.org.au/indigenous-ecological-knowledge/</loc><lastmod>2020-09-09T07:01:50+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/about-ala/</loc><lastmod>2020-12-03T01:27:57+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/how-to-work-with-data/</loc><lastmod>2019-01-29T03:31:35+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/publications/</loc><lastmod>2021-05-25T01:31:01+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/publications/</loc><lastmod>2021-05-25T04:04:05+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blog/</loc><lastmod>2019-07-18T03:13:59+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
 </urlset>
