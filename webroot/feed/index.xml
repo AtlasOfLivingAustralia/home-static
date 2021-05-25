@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 25 May 2021 04:03:41 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 25 May 2021 05:34:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -42,7 +42,7 @@
 
 
 
-<p>The upgraded code base will replace the ALA’s species occurrence record ingestion systems and will be released soon (late June-July 2021).  </p>
+<p>The&nbsp;upgraded code base&nbsp;will replace the&nbsp;ALA’s&nbsp;species&nbsp;occurrence&nbsp;record&nbsp;ingestion&nbsp;systems&nbsp;and&nbsp;will be released soon&nbsp;(late&nbsp;June-July 2021).&nbsp;&nbsp;</p>
 
 
 
@@ -50,7 +50,7 @@
 
 
 
-<p>This is just the first stage of our three stage <a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/">Core Infrastructure Upgrade Project</a>. </p>
+<p>This is just&nbsp;the first&nbsp;stage of our&nbsp;three stage&nbsp;<a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/">Core Infrastructure Upgrade Project</a>.&nbsp;</p>
 
 
 
@@ -62,7 +62,7 @@
 
 
 
-<p>The project team has rewritten various components of the ALA species occurrence record ingestion system and it now shares a common code base with the Global Biodiversity Information Facility – <a href="https://www.gbif.org/">GBIF</a> – plus some adjustments for the ALA’s specific requirements.  </p>
+<p>The project&nbsp;team&nbsp;has rewritten&nbsp;various components of the ALA&nbsp;species&nbsp;occurrence record&nbsp;ingestion&nbsp;system&nbsp;and&nbsp;it&nbsp;now shares a common code base with&nbsp;the&nbsp;Global Biodiversity Information Facility&nbsp;–&nbsp;<a href="https://www.gbif.org/">GBIF</a>&nbsp;–&nbsp;plus&nbsp;some adjustments&nbsp;for the ALA’s specific requirements. &nbsp;</p>
 
 
 
@@ -90,11 +90,11 @@
 
 
 
-<p>GBIF&nbsp;already&nbsp;manages 1.7 billion occurrence records and sees exponential year-on-year growth.&nbsp;By collaborating with GBIF, we&nbsp;greatly&nbsp;benefit&nbsp;from their experience with large data volumes.&nbsp;In test, the new code base&nbsp;is&nbsp;performing&nbsp;well;&nbsp;our daily complete index build&nbsp;will&nbsp;take&nbsp;one hour instead of six.&nbsp;</p>
+<p>GBIF already manages 1.7 billion occurrence records and sees exponential year-on-year growth. By collaborating with GBIF, we greatly benefit from their experience with large data volumes. </p>
 
 
 
-<p>The new infrastructure will also enable us to join GBIF in adopting newer data types such as Sampling Events and other TDWG (Biodiversity Information Standards) extensions. It will open up opportunities to collaborate on new initiatives with GBIF’s development team and the international biodiversity data community. </p>
+<p>The new infrastructure will&nbsp;also enable&nbsp;us to&nbsp;join&nbsp;GBIF&nbsp;in&nbsp;adopting&nbsp;newer&nbsp;data types&nbsp;such as&nbsp;Sampling Events&nbsp;and other TDWG&nbsp;(Biodiversity Information Standards)&nbsp;extensions. It will&nbsp;open&nbsp;up&nbsp;opportunities&nbsp;to collaborate&nbsp;on&nbsp;new initiatives&nbsp;with GBIF’s&nbsp;development team and&nbsp;the&nbsp;international biodiversity data community.&nbsp;</p>
 
 
 
@@ -102,7 +102,7 @@
 
 
 
-<p>Throughout the Core Infrastructure Upgrade Project, we’ve been working closely with GBIF and collaborating on a shared codebase. We’re also communicating with our user and stakeholder communities and the <a href="https://living-atlases.gbif.org/">international Living Atlases community. </a> </p>
+<p>Throughout the&nbsp;Core Infrastructure Upgrade&nbsp;Project,&nbsp;we’ve&nbsp;been&nbsp;working closely with GBIF&nbsp;and collaborating on&nbsp;a&nbsp;shared codebase. We’re&nbsp;also&nbsp;communicating&nbsp;with our user and stakeholder communities and the <a href="https://living-atlases.gbif.org/">international Living Atlases community. </a>&nbsp;</p>
 
 
 
