@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 26 May 2021 02:25:39 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 27 May 2021 00:11:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,28 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter May 2021</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-may-2021/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Thu, 27 May 2021 00:10:24 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44765</guid>
+
+					<description><![CDATA[ALA Newsletter May 2021: Next ALA webinar, ALA upgrade, data quality survey and more...]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large is-resized"><a href="https://www.ala.org.au/app/uploads/2021/05/ALA-Newsletter-May-2021_LR.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/05/ALA-newsletter-ay-2021-thumbnail.png" alt="" class="wp-image-44766" width="221" height="300" srcset="https://www.ala.org.au/app/uploads/2021/05/ALA-newsletter-ay-2021-thumbnail.png 490w, https://www.ala.org.au/app/uploads/2021/05/ALA-newsletter-ay-2021-thumbnail-221x300.png 221w" sizes="(max-width: 221px) 100vw, 221px" /></a></figure>
+
+
+
+<p>Atlas of Living Australia Newsletter May 2021</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s message &#8211; May 2021</title>
 		<link>https://www.ala.org.au/blogs-news/directors-message-may-2021/</link>
 		
@@ -816,29 +838,6 @@ Environmental Biosecurity Office  (EBO) in the Department of  Agriculture, Water
 
 
 <ul><li>Read Thomas’ full article <a href="https://www.publish.csiro.au/WR/fulltext/WR20154">An overview of the history, current contributions and future outlook of iNaturalist in Australia</a></li><li>Join <a href="https://inaturalist.ala.org.au/">iNaturalist Australia</a> and start recording your species observations today!</li></ul>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter February 2021</title>
-		<link>https://www.ala.org.au/blogs-news/ala-newsletter-february-2021/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Wed, 24 Feb 2021 05:15:01 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<category><![CDATA[Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44610</guid>
-
-					<description><![CDATA[Atlas of Living Australian Newsletter February 2021]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/02/Feb-2021-newsletter-thumbnail.png" alt="" class="wp-image-44611" width="275" height="418" srcset="https://www.ala.org.au/app/uploads/2021/02/Feb-2021-newsletter-thumbnail.png 461w, https://www.ala.org.au/app/uploads/2021/02/Feb-2021-newsletter-thumbnail-198x300.png 198w" sizes="(max-width: 275px) 100vw, 275px" /></figure>
-
-
-
-<p><a href="https://www.ala.org.au/app/uploads/2021/02/ALA-Newsletter-Feb-2021.pdf">Atlas of Living Australian Newsletter February 2021</a></p>
 ]]></content:encoded>
 					
 		
