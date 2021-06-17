@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 27 May 2021 00:11:07 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 17 Jun 2021 01:30:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,95 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>The path of the emu: mapping 6,000 years of emu movement</title>
+		<link>https://www.ala.org.au/blogs-news/the-path-of-the-emu-mapping-6000-years-of-emu-movement/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Thu, 17 Jun 2021 01:30:59 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44776</guid>
+
+					<description><![CDATA[By Julia Ryeland, Hawkesbury Institute for the Environment, Western Sydney University]]></description>
+										<content:encoded><![CDATA[
+<p>Emus are iconic. They join Kangaroos on the Australian coat of arms and are an essential part of any visit to the outback. They are also among the last of the Australia’s giant animals, or megafauna, giving us a window on Australia’s past giants. </p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/06/Emu-by-Julia-Ryeland-1024x683.jpg" alt="" class="wp-image-44778" width="521" height="346" srcset="https://www.ala.org.au/app/uploads/2021/06/Emu-by-Julia-Ryeland-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2021/06/Emu-by-Julia-Ryeland-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2021/06/Emu-by-Julia-Ryeland.jpg 1090w" sizes="(max-width: 521px) 100vw, 521px" /><figcaption>In a recent study by Julia Ryeland from Western Sydney University explored how Emus (<em>Dromaius novaehollandia)</em> have adapted to environmental changes in Australia.<em> </em> (c) Julia Ryeland.</figcaption></figure></div>
+
+
+
+<p>The emu is a member of a unique, ancient group of birds known as ‘ratites’ – flightless but widely distributed, spanning all southern hemisphere continents. This group includes species such as the ostrich, rhea, kiwi, cassowary and tinamou. The ratites are one of the most pre-historic groups of birds, in part because they are highly adaptable.</p>
+
+
+
+<p>Emus have persisted in Australia through thousands of years; but anecdotal evidence suggests they are less common than they used to be. Increasing urbanisation and the removal of emus from farming lands means this species isn’t as widespread as it once was.</p>
+
+
+
+<p>With populations condensing we begin to ask where will be the safe haven for emus in the future? It turns out answering this simple question is harder than you’d think.</p>
+
+
+
+<p>Every species has an area across which it can be found – a ‘geographic distribution’. Knowing exactly where this is helps us develop an understanding of the species, how it may adapt over time, and assist in decision making about conservation. For example, if a species only lives in a small area, it may be of larger concern compared to species that can be found all over the country, across a wide range of habitats and climates.</p>
+
+
+
+<p>Australia’s climate has changed over many thousands of years, and the species that live here have moved with it. The country has been subject to long periods where it was wetter or drier, and where sea levels were lower or higher. This begged a series of questions &#8211; how have emus adapted to these changes, being one of the most pre-historic species? What effect have these changes had on where emus can live? How will this change with further human impact on the environment?</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/06/Emu-study-figure-4.jpg" alt="" class="wp-image-44779" width="495" height="368" srcset="https://www.ala.org.au/app/uploads/2021/06/Emu-study-figure-4.jpg 657w, https://www.ala.org.au/app/uploads/2021/06/Emu-study-figure-4-300x223.jpg 300w" sizes="(max-width: 495px) 100vw, 495px" /><figcaption>Predicted distribution change from ensemble models, across Australia and the Great Dividing Range region, past to present and present to future. The figures were generated in R (version 3.6.0, <a href="https://www.r-project.org/">https://www.r-project.org/</a>).</figcaption></figure></div>
+
+
+
+<p>To answer these questions, we turned to a method called ‘species distribution modelling’ (SDM). SDMs take maps of where an animal has been seen and combines them with information about the environment at these locations, such as the climate (temperature and rainfall) and habitat (e.g. vegetation available and land uses). These combine to make a ‘prediction map’ of where a species can be found. The more sightings of a species there are, the more accurate these maps are likely to be.</p>
+
+
+
+<p>Fortunately, Emus are one of the most easily identified species and people love taking pictures of them! In fact, citizen scientists routinely record between 5,000 and 30,000 emu sightings every year across Australia. These sightings are collected and stored in a single place –the Atlas of Living Australia (<a href="https://www.ala.org.au">https://www.ala.org.au</a>). Here, they can be freely viewed and downloaded by anyone.</p>
+
+
+
+<p>With these data, we built a model that shows the climate and habitat that emus prefer today; where suitable climate was 6,000 years ago; and where it will be in 50 years’ time.</p>
+
+
+
+<p>We found that in the past 6,000 years, emus have made vast shifts inland across central Australia. These shifts have been driven mostly by climate, with emus minimally influenced by environmental factors such as habitat type, distance from water, land use types or fire frequency. These changes have greatly expanded the emu’s range and are predicted to remain stable over the next 50 years.</p>
+
+
+
+<p>At the same time, however, emus have progressively been lost from the east coast. Now on the edge of their climatically suitable range, east coast emus are likely to be more susceptible to other threats, such as poor reproductive success due to predation by feral animals on the eggs and chicks.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/06/emu-camera-trap-image-1024x574.jpg" alt="" class="wp-image-44780" width="444" height="250" srcset="https://www.ala.org.au/app/uploads/2021/06/emu-camera-trap-image-1024x574.jpg 1024w, https://www.ala.org.au/app/uploads/2021/06/emu-camera-trap-image-300x168.jpg 300w, https://www.ala.org.au/app/uploads/2021/06/emu-camera-trap-image-768x430.jpg 768w, https://www.ala.org.au/app/uploads/2021/06/emu-camera-trap-image.jpg 1099w" sizes="(max-width: 444px) 100vw, 444px" /><figcaption>Camera trap image of emu feeding from an east coast population. Image credit: Julia Ryeland</figcaption></figure></div>
+
+
+
+<p>Emu disappearance across the east coast is unlikely to make the species vulnerable to the threat of extinction, because of the stability of their overall expansive range. However, the local extinction of emu populations across the east coast could have ecosystem wide implications.</p>
+
+
+
+<p>Emus can travel up to 100km a year and move the seeds of native plants huge distances with them as they go. Without emus, many plant species will find it harder to disperse to new habitats or share genetic material between isolated plant communities. Combined with other threats such as habitat loss and predation by introduced species, our east coast plant communities could soon be in trouble.</p>
+
+
+
+<p>Just as poignant, though, is the importance of emus in Australian culture, both in European and Indigenous histories. The emu is a totem to many indigenous groups and is shown on the Australian coat of arms.</p>
+
+
+
+<p>Across the east coast where urbanisation is progressing rapidly, encountering a species such as the emu gives many Australian’s an important connection to nature that can help inspire conservation efforts for our lesser known, declining fauna.</p>
+
+
+
+<p>For more information, read the full journal article <a href="https://www.nature.com/articles/s41598-020-79551-0">Past and future potential range changes in one of the last large vertebrates of the Australian continent, the emu <em>Dromaius novaehollandiae</em></a> </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Newsletter May 2021</title>
 		<link>https://www.ala.org.au/blogs-news/ala-newsletter-may-2021/</link>
 		
@@ -732,112 +821,6 @@ Environmental Biosecurity Office  (EBO) in the Department of  Agriculture, Water
 
 
 <ul><li>Read the full research paper (open access): <a href="https://royalsocietypublishing.org/doi/10.1098/rspb.2021.0225">Loss of vocal culture and fitness costs in a critically endangered songbird</a></li><li>Read more about the <a href="https://www.difficultbirds.com/">Difficult Bird Research Group</a></li></ul>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>iNaturalist Australia makes huge contribution to biodiversity data</title>
-		<link>https://www.ala.org.au/blogs-news/inaturalist-australia-makes-huge-contribution-to-biodiversity-data/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Thu, 01 Apr 2021 01:25:35 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[Citizen science]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44628</guid>
-
-					<description><![CDATA[A recent review of iNaturalist Australia highlights its success since launch in 2019.]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/04/Thomas-mesaglio_3_image-credit-Kate-Mesaglio_cropped.jpg" alt="" class="wp-image-44635" width="466" height="451" srcset="https://www.ala.org.au/app/uploads/2021/04/Thomas-mesaglio_3_image-credit-Kate-Mesaglio_cropped.jpg 750w, https://www.ala.org.au/app/uploads/2021/04/Thomas-mesaglio_3_image-credit-Kate-Mesaglio_cropped-300x290.jpg 300w" sizes="(max-width: 466px) 100vw, 466px" /><figcaption>Thomas Mesaglio in action recording a species observation for iNaturalist Australia. Image credit: Kate Mesaglio</figcaption></figure></div>
-
-
-
-<p>Thomas Mesaglio, an environmental scientist from the Centre for Ecosystem Science at the University of New South Wales, has a keen interest in how citizen scientists across Australia are helping large scale ecological studies.</p>
-
-
-
-<p>In his recent review of iNaturalist Australia, Thomas measured a number of changes across the platform. He looked at the increase in the volume of data being uploaded, numbers of users and the different taxonomic and spatial data being recorded. He also showcased some applications of iNaturalist data for species conservation and monitoring.</p>
-
-
-
-<p>“iNaturalist is an excellent platform for recording observations of species and it has contributed enormously to our biodiversity data holdings in Australia,” said Thomas.</p>
-
-
-
-<p>“It’s a great platform to increase public participation in natural science.” he said.</p>
-
-
-
-<p>The data collected by citizen scientists through iNaturalist is made available online through the Atlas of Living Australia and becomes part of the ever-increasing Australian biodiversity data repository. Researchers and people in government working on environment policy use biodiversity data in the ALA to inform many research studies and government programs in ecology, land management, species conservation and biosecurity measures.</p>
-
-
-
-<p><strong>iNaturalist Australia in numbers</strong></p>
-
-
-
-<p>iNaturalist is one of the most popular biodiversity citizen science platforms globally, with more than 1.4 million users having contributed over 54 million observations. Australia contributes the most observations in the southern hemisphere, and is in the top four contributing nations globally. &nbsp;</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="949" height="534" src="https://www.ala.org.au/app/uploads/2021/04/iNat-infographic_2.png" alt="" class="wp-image-44638" srcset="https://www.ala.org.au/app/uploads/2021/04/iNat-infographic_2.png 949w, https://www.ala.org.au/app/uploads/2021/04/iNat-infographic_2-300x169.png 300w, https://www.ala.org.au/app/uploads/2021/04/iNat-infographic_2-768x432.png 768w" sizes="(max-width: 949px) 100vw, 949px" /></figure>
-
-
-
-<p>In 2019, the ALA collaborated with the global iNaturalist Network to set up iNaturalist Australia. In two years there has been a huge growth in the number of Australian users and in the number of species observations recorded through the platform.</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="638" height="424" src="https://www.ala.org.au/app/uploads/2021/04/Number-of-observers-and-species-iNat-since-2008.png" alt="" class="wp-image-44630" srcset="https://www.ala.org.au/app/uploads/2021/04/Number-of-observers-and-species-iNat-since-2008.png 638w, https://www.ala.org.au/app/uploads/2021/04/Number-of-observers-and-species-iNat-since-2008-300x199.png 300w" sizes="(max-width: 638px) 100vw, 638px" /><figcaption>The number of observers and observed species on iNaturalist Australia since 2008.</figcaption></figure></div>
-
-
-
-<p><strong>Helping to protect our threatened species and manage invasive species</strong></p>
-
-
-
-<p>Data collected through iNaturalist Australia is uploaded automatically to the ALA, where it is made accessible and usable by researchers and decision-makers. Citizen science data uploaded through iNaturalist (and other apps) are particularly useful for the monitoring and conservation of threatened species.</p>
-
-
-
-<p>Citizen science data are also used to help model the distribution of invasive species and assess their impact on our ecology and economy. Alongside other apps like FeralScan and MyPestGuide, iNaturalist is well positioned to provide data to help with pest surveillance for biosecurity programs.</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="667" height="543" src="https://www.ala.org.au/app/uploads/2021/04/Dwarf-spider-orchid-by-Reiner-Richter.gif" alt="" class="wp-image-44631"/><figcaption>A selection of species observations uploaded to iNaturalist Australia and featured in Thomas&#8217; recent paper <a href="https://www.publish.csiro.au/WR/fulltext/WR20154">An overview of the history, current contributions and future outlook of iNaturalist in Australia</a>. (<em>a</em>) Anthony Katon (@anthonykat); (<em>b</em>) Ákos Lumnitzer (@akoslumnitzer); (<em>c</em>) John Eichler (@johneichler); (<em>d</em>) Reiner Richter (@reiner)</figcaption></figure></div>
-
-
-
-<p><strong>Citizens are our data collection powerhouse</strong></p>
-
-
-
-<p>Thomas has used citizen science data in many of his research projects and sees wide ranging benefits of digital platforms such as iNaturalist Australia and national repositories like the ALA.</p>
-
-
-
-<p>“Citizen scientists are able to observe species in locations not covered by research or government surveys such as on private land,&#8221; said Thomas.</p>
-
-
-
-<p>“The combination of a willing workforce of citizen scientists and the digital platforms that enable their contributions to be shared and utilised is of huge benefit to ecology researchers and government conservation, land management and biosecurity programs.&#8221;</p>
-
-
-
-<p>Citizen science data are typically collected and verified at little or no cost. Thomas’ paper highlights that the iNaturalist model, where citizen science data is integrated with professional data collection, greatly reduces the costs of ecological monitoring and expedites scientific discoveries.</p>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large"><img loading="lazy" width="602" height="576" src="https://www.ala.org.au/app/uploads/2021/04/iNat-infographic-data-collection.gif" alt="" class="wp-image-44632"/><figcaption>As more taxonomic experts join iNaturalist, more observations will increase the quality of the data, providing more data for ecological and conservation research questions in Australia.</figcaption></figure></div>
-
-
-
-<p>To find out more:</p>
-
-
-
-<ul><li>Read Thomas’ full article <a href="https://www.publish.csiro.au/WR/fulltext/WR20154">An overview of the history, current contributions and future outlook of iNaturalist in Australia</a></li><li>Join <a href="https://inaturalist.ala.org.au/">iNaturalist Australia</a> and start recording your species observations today!</li></ul>
 ]]></content:encoded>
 					
 		
