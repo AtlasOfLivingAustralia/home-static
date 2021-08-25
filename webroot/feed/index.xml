@@ -12,13 +12,13 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 16 Aug 2021 02:38:07 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 25 Aug 2021 05:50:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.7.2</generator>
+	<generator>https://wordpress.org/?v=5.8</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -28,6 +28,135 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Global partnership paves way for ALA system upgrade</title>
+		<link>https://www.ala.org.au/blogs-news/global-partnership-paves-way-for-ala-system-upgrade/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Wed, 25 Aug 2021 05:48:12 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44907</guid>
+
+					<description><![CDATA[In June this year we upgraded our ALA systems to make them more reliable, more robust, and equipped to manage increasing amounts of biodiversity data. The major upgrade was possible due to our close partnership with GBIF – the Global Biodiversity Information Facility. The Atlas of Living Australia is the Australian node of GBIF, an [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/02/GBIF-logo-1.jpg" alt="" class="wp-image-44593" width="323" height="154"/></figure></div>
+
+
+
+<p>In June this year we upgraded our ALA systems to make them more reliable, more robust, and equipped to manage increasing amounts of biodiversity data. The major upgrade was possible due to our close partnership with GBIF – the Global Biodiversity Information Facility.</p>
+
+
+
+<p>The Atlas of Living Australia is the Australian node of GBIF, an international network and data infrastructure funded by the world&#8217;s governments and aimed at providing anyone, anywhere, open access to biodiversity data.</p>
+
+
+
+<h2 id="collaboration"><strong>Collaboration</strong></h2>
+
+
+
+<p>Our systems upgrade is the result of more than 12 months of collaborative work between teams based in Australia, UK and Denmark.</p>
+
+
+
+<p>The development teams established a software codebase shared by both teams and worked on a framework for genuinely open-source software development.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>“The ALA and GBIF development teams worked so well together. There’s a strong sense of trust and confidence in the skills of each team leading to individual contributions contributing to the larger whole.</p><p>Our teams know that accessible, high quality biodiversity data is improving research and environmental outcomes across the globe and that their efforts are integral to making this happen,” said Joe Miller, executive secretary of GBIF and former research group leader at the Centre for Australian National Biodiversity Research, CSIRO.</p></blockquote>
+
+
+
+<h2 id="major-upgrade-reaps-benefits-for-users"><strong>Major upgrade reaps benefits for users</strong></h2>
+
+
+
+<h3 id="efficiency-and-effectiveness"><strong>Efficiency and effectiveness</strong></h3>
+
+
+
+<p>The new infrastructure, using GBIF/ALA shared codebase, increases indexing speeds for the ALA, reduces its running costs, and reduces long-term technical debt. With the ALA&#8217;s infrastructure growing in excess of millions of biodiversity occurrence records annually, such efficiencies are critical. </p>
+
+
+
+<p>Javier Molina, ALA’s Core Infrastructure Upgrade Project Lead, was pleased to report that users have noticed the system is more responsive, particularly when searching species data, using map-based navigation, and using the Spatial Portal (ALA’s analytical tool).</p>
+
+
+
+<blockquote class="wp-block-quote"><p>“Prior to the upgrade, we were experiencing some unscheduled outages every month. Since the project went live in June, we haven’t received any reports of unscheduled outages. The system has also coped well with high peaks of utilisation,” said Javier.</p><p>“We recently ingested a dataset from eBird Australia of more than 20 million records, this went smoothy and without issue. A dataset that large would have created lots of headaches for us in the old system.”</p></blockquote>
+
+
+
+<h3 id="consistency-is-key"><strong>Consistency is key</strong></h3>
+
+
+
+<p>Consistency between the ALA, GBIF and other biodiversity infrastructures is another component of the recent upgrade.</p>
+
+
+
+<p>Many users of the ALA also frequently access data through GBIF. For these users, the benefits of a shared infrastructure are clear. Shared approaches to processing biodiversity data eliminate potential sources of confusion for users. For example, if there are consistent flags and interpretations, users become comfortable and proficient using multiple platforms.  </p>
+
+
+
+<h3 id="international-living-atlases-will-also-benefit-from-upgrade"><strong>International Living Atlases will also benefit from upgrade</strong></h3>
+
+
+
+<p>Software originally developed by the Atlas of Living Australia team is increasingly used across the GBIF network. There are now 27 installations around the world. Some of these are national biodiversity databases and some are thematic, regional or institutional instances. The International Living Atlases is a collaborative global community that supports developers who implement the open-source platform.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>“Our collaborative work with GBIF has built social capital in the global community, and it is an excellent entry point for the International Living Atlases community to jump onboard,” said Javier.<br><br>“Completion of this first phase now makes it possible for the international community to co-develop new features and work on other mutual areas of interest and concern, including a shared registry and improved handling of sampling-event datasets.”</p></blockquote>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/08/Core-infrastructure-upgrade-1.png" alt="" class="wp-image-44911" width="919" height="768"/></figure></div>
+
+
+
+<h2 id="technical-details"><strong>Technical details</strong></h2>
+
+
+
+<ul><li>AWS: virtual infrastructure from AWS performs better and is more affordable. The biggest impact on the infrastructure costs is by far the migration of storage for images from block storage (standard file system) to AWS S3.</li></ul>
+
+
+
+<ul><li>Solr search engine: By optimising our software stack with the Solr search engine we reduced the required server specifications compared to the previous infrastructure.</li><li>On day 1, the project went live on an infrastructure that was 43% more affordable than the old infrastructure. This represents a saving of A$79K per annum<a> (</a>comparison based on full on-demand price, production-only systems).</li></ul>
+
+
+
+<p>The savings on running a more stable system and co-maintaining an up-to-date codebase will be significant.</p>
+
+
+
+<h3 id="next-steps"><strong>Next steps</strong></h3>
+
+
+
+<p>The roll-out of the upgrade in June was the first of three stages in the project.</p>
+
+
+
+<p>Working from a shared codebase allows us to collaborate and innovate together, for example with respect to improving how we handle eDNA data, establishing common vocabularies, and simplifying the data ingestion process.</p>
+
+
+
+<p><br>For more details, visit our <a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/">Core Infrastructure Upgrade Project page</a>.</p>
+
+
+
+<hr class="wp-block-separator"/>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>National Science Week 13-21 August 2021</title>
 		<link>https://www.ala.org.au/blogs-news/national-science-week-13-21-august-2021/</link>
 		
@@ -655,85 +784,6 @@
 
 
 <ul><li>Email us at&nbsp;<a href="mailto:support@ala.org.au" target="_blank" rel="noreferrer noopener">support@ala.org.au</a>&nbsp;</li><li>Check out&nbsp;our&nbsp;<a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/" target="_blank" rel="noreferrer noopener">Core Infrastructure Upgrade Project page</a>&nbsp;</li></ul>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA helps to stop pests in their tracks</title>
-		<link>https://www.ala.org.au/blogs-news/ala-helps-to-stop-pests-in-their-tracks/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Mon, 24 May 2021 23:11:44 +0000</pubDate>
-				<category><![CDATA[Impact stories]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44697</guid>
-
-					<description><![CDATA[The Atlas of Living Australia and its large network of biodiversity data providers are helping our national
-Environmental Biosecurity Office  (EBO) in the Department of  Agriculture, Water and the  Environment (DAWE) to protect  Australia’s flora and fauna from  exotic biosecurity threats. ]]></description>
-										<content:encoded><![CDATA[
-<h3 id="ala-biosecurity-alert-system">ALA biosecurity alert system</h3>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://www.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheets-Biosecurity-V3-lowres.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/05/Biosecurity-thumbnail.png" alt="" class="wp-image-44709" width="333" height="471" srcset="https://www.ala.org.au/app/uploads/2021/05/Biosecurity-thumbnail.png 642w, https://www.ala.org.au/app/uploads/2021/05/Biosecurity-thumbnail-212x300.png 212w" sizes="(max-width: 333px) 100vw, 333px" /></a><figcaption><a href="https://www.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheets-Biosecurity-V3-lowres.pdf">View or print this impact story as a PDF</a></figcaption></figure></div>
-
-
-
-<p>Keeping track of environmental pests and weeds is an ongoing challenge. Government biosecurity efforts aim to prevent, respond to and assist recovery from pests and diseases, with particular focus on the invasive species that threaten our environment and the economy. Early detection of exotic and introduced pest species is crucial to managing and eradicating invasive pests. </p>
-
-
-
-<p>The EBO is charged with protecting Australia’s native flora, fauna and associated social amenity from the damaging effects of exotic pests, weeds and diseases that come  from overseas. One of their biggest challenges is knowing when pests and diseases first come into Australia and keeping track of their spread across the country. International border controls and quarantine measures are crucial elements for biosecurity control, but pests, weeds and diseases can still elude these controls. </p>
-
-
-
-<p>The Atlas of Living Australia (ALA) harnesses innovative solutions to complement existing methods of detection to further bolster biosecurity incursion surveillance. </p>
-
-
-
-<p>For over ten years, the ALA – our national biodiversity data infrastructure – has been aggregating occurrence records of plant, animals and fungi species from over 700 data partners. In 2020, the ALA worked closely with DAWE to establish automatic alerts for targeted species on the National Priority List of Exotic Environmental Pests, Weeds and Diseases that are considered the greatest biosecurity risks to Australia. Using this list, the ALA set up an alert system. Now, when observations of those target species are uploaded to the database, an alert is sent to the EBO.</p>
-
-
-
-<h3 id="ala-alert-provides-extra-layer-of-defence">ALA alert provides extra layer of defence</h3>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--1024x768.jpeg" alt="" class="wp-image-44698" width="408" height="305" srcset="https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer--640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2021/05/Asian-Shore-Crab-iNaturalist_USA_image-by-Chris-Alice-Kratzer-.jpeg 2048w" sizes="(max-width: 408px) 100vw, 408px" /><figcaption>The Asian shore crab (Hemigrapsus sanguineus) is considered a biosecurity threat to Australia, and was detected in Victoria in 2020. Image credit: This image was taken in the USA and uploaded to iNaturalist by Chris Alice Kratzer (CC-BY-SA)</figcaption></figure></div>
-
-
-
-<p>The value of the alert system has already been demonstrated regarding incursion reports in Victoria. In early 2020, a suspected sighting of the Asian shore crab by a member of the public on Port Phillip Bay in Victoria. This sighting was uploaded as a report into the ALA and provided the earliest available alert of the incursions. Early awareness of incursions into Australia by exotic species such as the Asian shore crab provide the best scenario for implementing successful management and eradication programs. If left unchecked exotic species can spread rapidly and compete with our native flora and fauna. </p>
-
-
-
-<p>This episode demonstrated that the ALA notification system can provide over 9 months earlier warning of an incursion. Another example of the benefits of the ALA notification system, involving an exotic wasp, demonstrated that an incursion could be found 24-36 months earlier than the current reporting system. The notification system can also include a facility to validate and amend reports, which can be important for clarifying Australia’s pest status. Citizen science apps such as iNaturalist Australia, among many others, feed data into the ALA and directly contribute to the national biosecurity surveillance system.</p>
-
-
-
-<blockquote class="wp-block-quote"><p> <em>“The ALA alert system is simple and is proving to be an important asset to our operational capability,” </em>said Andrew Pearce, from DAWE’s Environmental Biosecurity Office<em>. </em></p></blockquote>
-
-
-
-<blockquote class="wp-block-quote"><p><em>“This is a layer of defence we haven’t had before and it has excellent potential for further development and expansion to deliver a low cost biosecurity surveillance and monitoring capability</em>.&#8221;</p></blockquote>
-
-
-
-<p>The national biosecurity alert system is an excellent example of how the ALA is able to provide trusted biodiversity data to support environmental biosecurity program managers and help deliver better outcomes for Australian ecosystems and environments.</p>
-
-
-
-<h3 id="for-more-information">For more information</h3>
-
-
-
-<ul><li>Visit <a href="https://www.ala.org.au/">ala.org.au </a>or contact<a href="mailto:support@ala.org.au"> support@ala.org.au</a></li><li><a href="https://www.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheets-Biosecurity-V3-lowres.pdf">View or print this impact story as a PDF</a></li></ul>
-
-
-
-<p><br></p>
 ]]></content:encoded>
 					
 		
