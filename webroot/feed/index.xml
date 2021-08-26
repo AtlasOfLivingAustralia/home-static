@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 25 Aug 2021 05:50:47 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 26 Aug 2021 00:03:11 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,71 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>A new version of galah available now</title>
+		<link>https://www.ala.org.au/tools-apps/a-new-version-of-galah-available-now/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Thu, 26 Aug 2021 00:03:11 +0000</pubDate>
+				<category><![CDATA[Tools & Apps]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44916</guid>
+
+					<description><![CDATA[We’ve released an updated version of galah, our R package for acquiring data from the Atlas of Living Australia (ALA). ]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/07/21-00159_NCMI_BRAND_ALA-GalahHexSticker_FinalMockUp_210630.png" alt="" class="wp-image-44815" width="231" height="266" srcset="https://www.ala.org.au/app/uploads/2021/07/21-00159_NCMI_BRAND_ALA-GalahHexSticker_FinalMockUp_210630.png 434w, https://www.ala.org.au/app/uploads/2021/07/21-00159_NCMI_BRAND_ALA-GalahHexSticker_FinalMockUp_210630-260x300.png 260w" sizes="(max-width: 231px) 100vw, 231px" /></figure></div>
+
+
+
+<p><strong>galah </strong>makes it easier to find, download and analyse data on Australian biodiversity using R, an open-source coding software. Since its initial release in July, thousands of download requests have been made using <strong>galah</strong>.</p>
+
+
+
+<p>The new version (1.3.1) brings two exciting features to <strong>galah </strong>for the first time.</p>
+
+
+
+<h2 id="range-queries-now-possible"><strong>Range queries now possible</strong></h2>
+
+
+
+<p>First, this version supports ‘range queries’; that is, the capacity to state that you want values that are above or below a particular value. This makes it simple to state that you want all records after a particular year, or above a particular elevation. Combined with the ability to specify Boolean queries (such as AND, OR, NOT), this version of <strong>galah </strong>is a major upgrade. See the ‘<a href="https://atlasoflivingaustralia.github.io/galah/reference/select_filters.html">select_filters</a>’ page for more information.</p>
+
+
+
+<h2 id="search-taxonomic-data-stored-by-the-ala"><strong>Search taxonomic data stored by the ALA</strong></h2>
+
+
+
+<p>Second, and more importantly, version 1.3.1 introduces the <strong>ala_taxonomy() </strong>function. This function provides a new way to search through the taxonomic hierarchy within the ALA.</p>
+
+
+
+<p>Taxonomic information downloaded using <strong>ala_taxonomy()</strong> is now returned as a taxonomic tree. This capability enables users to search for which lower clades are contained within a specified taxon. For example, users can find all clades at the family rank that stem from the class “Mammalia”. They can also search down to a number of other less formal taxonomic sub-ranks.</p>
+
+
+
+<p>Taxonomic trees preserve ranks within their data structure, offering new opportunities to create data visualisations that harness this information. For a more detailed look at using <strong>ala_taxonomy()</strong>, see the <a href="https://atlasoflivingaustralia.github.io/galah/articles/taxonomic_information.html">Taxonomic Information page</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" width="872" height="872" src="https://www.ala.org.au/app/uploads/2021/08/galah-blog-new-release-1.3.1-taxonomic-visualisation.png" alt="" class="wp-image-44917" srcset="https://www.ala.org.au/app/uploads/2021/08/galah-blog-new-release-1.3.1-taxonomic-visualisation.png 872w, https://www.ala.org.au/app/uploads/2021/08/galah-blog-new-release-1.3.1-taxonomic-visualisation-300x300.png 300w, https://www.ala.org.au/app/uploads/2021/08/galah-blog-new-release-1.3.1-taxonomic-visualisation-150x150.png 150w, https://www.ala.org.au/app/uploads/2021/08/galah-blog-new-release-1.3.1-taxonomic-visualisation-768x768.png 768w" sizes="(max-width: 872px) 100vw, 872px" /><figcaption>This hierarchy diagram shows Taxonomic Orders within the Phylum Chordata as retrieved from the ALA using the <strong>ala_taxonomy() </strong>function in <strong>galah</strong>.</figcaption></figure>
+
+
+
+<h2 id="need-help-or-more-information"><strong>Need help or more information?</strong></h2>
+
+
+
+<p>We’ll keep working on ways to make <strong>galah </strong>better over the coming months, so if you have any questions, comments, or spot any bugs, <a href="mailto:support@ala.org.au">email us</a> or <a href="https://github.com/AtlasOfLivingAustralia/galah/issues">report an issue</a> on our github page.</p>
+
+
+
+<p>You can find more information on how to use <strong>galah </strong>on the <a href="https://atlasoflivingaustralia.github.io/galah/index.html">galah R package website</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Global partnership paves way for ALA system upgrade</title>
 		<link>https://www.ala.org.au/blogs-news/global-partnership-paves-way-for-ala-system-upgrade/</link>
 		
@@ -691,99 +756,6 @@
 
 
 <p>I hope you enjoy the May&nbsp;2021&nbsp;edition of our&nbsp;newsletter.&nbsp;</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA upgrade on its way</title>
-		<link>https://www.ala.org.au/blogs-news/ala-upgrade-on-its-way/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Tue, 25 May 2021 04:03:41 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44736</guid>
-
-					<description><![CDATA[The Atlas of Living Australia (ALA) team has been busy working on our Core Infrastructure Upgrade Project to improve our systems and make them more robust and more efficient.  ]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large"><img loading="lazy" width="288" height="279" src="https://www.ala.org.au/app/uploads/2020/02/AcroRd32_2020-02-05_14-56-31.png" alt="ALA Infrastructure Upgrade Project icon" class="wp-image-43653"/></figure></div>
-
-
-
-<p>The&nbsp;upgraded code base&nbsp;will replace the&nbsp;ALA’s&nbsp;species&nbsp;occurrence&nbsp;record&nbsp;ingestion&nbsp;systems&nbsp;and&nbsp;will be released soon&nbsp;(late&nbsp;June-July 2021).&nbsp;&nbsp;</p>
-
-
-
-<p>Most of the work is happening behind the scenes, so hopefully&nbsp;you&nbsp;won’t&nbsp;notice&nbsp;any significant changes to your everyday use of the ALA.&nbsp;If&nbsp;you&nbsp;do&nbsp;see&nbsp;anything out of the&nbsp;ordinary&nbsp;please let us know on&nbsp;<a href="mailto:support@ala.org.au" target="_blank" rel="noreferrer noopener">support@ala.org.au</a>&nbsp;</p>
-
-
-
-<p>This is just&nbsp;the first&nbsp;stage of our&nbsp;three stage&nbsp;<a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/">Core Infrastructure Upgrade Project</a>.&nbsp;</p>
-
-
-
-<p><strong>The&nbsp;</strong><strong>Core Infrastructure Upgrade Project</strong><strong>&nbsp;–&nbsp;</strong><strong>our</strong><strong>&nbsp;</strong><strong>focus</strong><strong>&nbsp;for 2020-22</strong>&nbsp;</p>
-
-
-
-<p>The Core Infrastructure Upgrade Project is a major&nbsp;project&nbsp;on our ALA Work Plan&nbsp;2020-21 and&nbsp;will continue into the coming year.&nbsp;</p>
-
-
-
-<p>The project&nbsp;team&nbsp;has rewritten&nbsp;various components of the ALA&nbsp;species&nbsp;occurrence record&nbsp;ingestion&nbsp;system&nbsp;and&nbsp;it&nbsp;now shares a common code base with&nbsp;the&nbsp;Global Biodiversity Information Facility&nbsp;–&nbsp;<a href="https://www.gbif.org/">GBIF</a>&nbsp;–&nbsp;plus&nbsp;some adjustments&nbsp;for the ALA’s specific requirements. &nbsp;</p>
-
-
-
-<p>The new infrastructure will be&nbsp;fit-for-purpose, more maintainable and able to adapt to our future needs as Australia’s national biodiversity&nbsp;data infrastructure.&nbsp;These&nbsp;improvements will enable the ALA to manage increases in data volume and different types&nbsp;of data. ​ &nbsp;</p>
-
-
-
-<p>The upgrade will also mean&nbsp;we&#8217;re&nbsp;better positioned to handle data load automation.&nbsp;Our data partners will be empowered to control the currency and quality of their data. &nbsp;</p>
-
-
-
-<p><strong>Why are we upgrading ALA’s core infrastructure?  </strong>&nbsp;</p>
-
-
-
-<p>After 10 years of active development, the ALA’s core data processing infrastructure is approaching ‘end of life’. The Core Infrastructure Upgrade Project will enable the ALA to adapt to changing data and user requirements heading into our next decade of operation. &nbsp;</p>
-
-
-
-<p><strong>Getting ready for more data and more complex data</strong>&nbsp;</p>
-
-
-
-<p>We are already seeing large volumes of new generation occurrence records coming from automated observations such as camera trapping, bioacoustics, animal tracking, and genetics including eDNA.&nbsp;Our current infrastructure is at&nbsp;capacity&nbsp;accommodating our&nbsp;occurrence&nbsp;record volume of just under 100m records.&nbsp;We&nbsp;need to&nbsp;be able to&nbsp;handle much larger data volumes.&nbsp;</p>
-
-
-
-<p>GBIF&nbsp;already&nbsp;manages 1.7 billion occurrence records and sees exponential year-on-year growth.&nbsp;By collaborating with GBIF, we&nbsp;greatly&nbsp;benefit&nbsp;from their experience with large data volumes.&nbsp;</p>
-
-
-
-<p>The new infrastructure will also enable us to join GBIF in adopting newer data types and other TDWG (Biodiversity Information Standards) extensions. It will open up opportunities to collaborate on new initiatives with GBIF’s development team and the international biodiversity data community. </p>
-
-
-
-<p><strong>Partnering with&nbsp;</strong><strong>GBIF</strong><strong>&nbsp;and the international Living Atlases</strong>&nbsp;</p>
-
-
-
-<p>Throughout the&nbsp;Core Infrastructure Upgrade&nbsp;Project,&nbsp;we’ve&nbsp;been&nbsp;working closely with GBIF&nbsp;and collaborating on&nbsp;a&nbsp;shared codebase. We’re&nbsp;also&nbsp;communicating&nbsp;with our user and stakeholder communities and the <a href="https://living-atlases.gbif.org/">international Living Atlases community. </a>&nbsp;</p>
-
-
-
-<p>The Living Atlases is an international&nbsp;community of 26 biodiversity data infrastructures originally built on the&nbsp;ALA code base.&nbsp;It&nbsp;is a vibrant development community,&nbsp;sharing and&nbsp;contributing to a common code base. Most of the&nbsp;Living Atlas instances&nbsp;are nodes of GBIF&nbsp;and as such&nbsp;are stakeholders in the future of the infrastructure&nbsp;upgrade&nbsp;work. Throughout the project, the GBIF and ALA development teams have&nbsp;been&nbsp;keeping&nbsp;the&nbsp;Living Atlases community&nbsp;up-to-date and&nbsp;abreast&nbsp;of the changes.&nbsp;&nbsp;</p>
-
-
-
-<p><strong>For m</strong><strong>ore information</strong>&nbsp;</p>
-
-
-
-<ul><li>Email us at&nbsp;<a href="mailto:support@ala.org.au" target="_blank" rel="noreferrer noopener">support@ala.org.au</a>&nbsp;</li><li>Check out&nbsp;our&nbsp;<a href="https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/" target="_blank" rel="noreferrer noopener">Core Infrastructure Upgrade Project page</a>&nbsp;</li></ul>
 ]]></content:encoded>
 					
 		
