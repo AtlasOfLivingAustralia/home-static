@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 07 Sep 2021 01:06:38 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Sep 2021 01:19:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,29 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter September 2021</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-september-2021/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Tue, 07 Sep 2021 01:19:37 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=44950</guid>
+
+					<description><![CDATA[Atlas of Living Australian Newsletter February 2021]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full is-resized"><a href="https://t.e2ma.net/webview/7ge6ui/635537b30eaa89ac8a1d0d9ef8258f67"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/09/newsletter-thumbnail.png" alt="" class="wp-image-44951" width="308" height="412" srcset="https://www.ala.org.au/app/uploads/2021/09/newsletter-thumbnail.png 486w, https://www.ala.org.au/app/uploads/2021/09/newsletter-thumbnail-224x300.png 224w" sizes="(max-width: 308px) 100vw, 308px" /></a></figure>
+
+
+
+<p><a href="https://www.ala.org.au/app/uploads/2021/02/ALA-Newsletter-Feb-2021.pdf">Atlas of Living Australian Newsletter February 2021</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Message from our Director &#8211; September 2021</title>
 		<link>https://www.ala.org.au/newsletter/message-from-our-director-september-2021/</link>
 		
@@ -750,28 +773,6 @@
 
 
 <p>For more information, read the full journal article <a href="https://www.nature.com/articles/s41598-020-79551-0">Past and future potential range changes in one of the last large vertebrates of the Australian continent, the emu <em>Dromaius novaehollandiae</em></a> </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter May 2021</title>
-		<link>https://www.ala.org.au/blogs-news/ala-newsletter-may-2021/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Thu, 27 May 2021 00:10:24 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44765</guid>
-
-					<description><![CDATA[ALA Newsletter May 2021: Next ALA webinar, ALA upgrade, data quality survey and more...]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large is-resized"><a href="https://www.ala.org.au/app/uploads/2021/05/ALA-Newsletter-May-2021_LR.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/05/ALA-newsletter-ay-2021-thumbnail.png" alt="" class="wp-image-44766" width="221" height="300" srcset="https://www.ala.org.au/app/uploads/2021/05/ALA-newsletter-ay-2021-thumbnail.png 490w, https://www.ala.org.au/app/uploads/2021/05/ALA-newsletter-ay-2021-thumbnail-221x300.png 221w" sizes="(max-width: 221px) 100vw, 221px" /></a></figure>
-
-
-
-<p>Atlas of Living Australia Newsletter May 2021</p>
 ]]></content:encoded>
 					
 		
