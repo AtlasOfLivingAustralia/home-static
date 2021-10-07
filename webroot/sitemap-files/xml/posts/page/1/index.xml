@@ -2,10 +2,16 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www-test.ala.org.au</loc><lastmod>2021-05-16T23:28:33+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-<url><loc>https://www-test.ala.org.au/citizen-science-apps/</loc><lastmod>2021-03-25T00:50:32+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au</loc><lastmod>2021-10-06T23:35:19+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www-test.ala.org.au/careers/careers-data-analyst-ecocommons/</loc><lastmod>2021-09-30T05:10:50+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/careers/careers-policy-and-analysis-officer/</loc><lastmod>2021-09-28T00:49:19+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/careers/careers-data-engineer/</loc><lastmod>2021-09-23T07:00:55+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/careers/careers-at-the-ala-data-analyst/</loc><lastmod>2021-09-23T07:49:10+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/careers/</loc><lastmod>2021-09-30T05:10:44+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/publications/atlas-of-living-australia-year-in-review-202021/</loc><lastmod>2021-09-16T00:51:34+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/citizen-science-apps/</loc><lastmod>2021-07-14T03:47:53+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/newsletters/</loc><lastmod>2021-01-07T05:35:35+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www-test.ala.org.au/ala-cited-publications/</loc><lastmod>2020-11-22T22:01:44+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/ala-cited-publications/</loc><lastmod>2021-09-16T01:45:38+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/current-projects/core-infrastructure-upgrade-project/</loc><lastmod>2020-07-07T01:58:27+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/ala-logo-and-identity/</loc><lastmod>2020-11-01T23:30:46+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/three-maps-activity/</loc><lastmod>2020-03-04T01:19:06+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -22,7 +28,7 @@
 <url><loc>https://www-test.ala.org.au/biocollect/</loc><lastmod>2019-10-11T00:46:42+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/lucid-key-for-weeds-of-the-southern-tablelands/</loc><lastmod>2019-06-11T02:46:46+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/environmentaldna/</loc><lastmod>2019-07-12T02:01:08+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www-test.ala.org.au/governance/</loc><lastmod>2020-01-24T03:16:04+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/governance/</loc><lastmod>2021-09-28T07:17:02+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/sites-and-services/</loc><lastmod>2020-11-12T23:42:43+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/home/record-a-sighting/</loc><lastmod>2021-05-13T02:31:57+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/ala-for-researchers/</loc><lastmod>2020-02-19T22:11:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -61,7 +67,7 @@
 <url><loc>https://www-test.ala.org.au/classroom-exercises/</loc><lastmod>2020-09-09T07:36:47+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/education-resources/</loc><lastmod>2020-09-09T03:12:37+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/tasmanian-herbarium/</loc><lastmod>2014-10-08T06:10:12+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www-test.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/</loc><lastmod>2021-05-13T05:29:34+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/</loc><lastmod>2021-05-20T05:49:43+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/royal-botanic-gardens-melbourne-rbgm/</loc><lastmod>2014-06-18T23:50:33+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/</loc><lastmod>2020-06-02T01:05:36+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/the-council-of-heads-of-australian-faunal-collections-chafc/</loc><lastmod>2014-06-13T06:13:24+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -97,10 +103,10 @@
 <url><loc>https://www-test.ala.org.au/support/</loc><lastmod>2019-01-15T00:35:37+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/contact-us/</loc><lastmod>2020-11-27T05:00:59+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/feedback/</loc><lastmod>2019-01-15T00:22:40+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www-test.ala.org.au/indigenous-ecological-knowledge/</loc><lastmod>2020-09-09T07:01:50+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/indigenous-ecological-knowledge/</loc><lastmod>2021-10-06T23:35:19+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/about-ala/</loc><lastmod>2020-09-30T02:12:58+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/how-to-work-with-data/</loc><lastmod>2019-01-29T03:31:35+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www-test.ala.org.au/publications/</loc><lastmod>2020-11-16T04:28:50+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/publications/</loc><lastmod>2021-09-15T02:05:38+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/blog/</loc><lastmod>2019-07-18T03:13:59+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 
 </urlset>
