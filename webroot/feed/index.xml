@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 05 Oct 2021 21:50:16 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 01 Nov 2021 01:39:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,116 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Echidna CSI: Using citizen science to track echidnas throughout Australia</title>
+		<link>https://www.ala.org.au/blogs-news/echidna-csi-using-citizen-science-to-track-echidnas-throughout-australia/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Mon, 01 Nov 2021 01:34:41 +0000</pubDate>
+				<category><![CDATA[Impact stories]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=45443</guid>
+
+					<description><![CDATA[Echidna CSI is a research project run by the University of Adelaide using data collected by citizen scientists to study echidnas. The project has had a huge impact on echidna research and conservation. Using a bespoke mobile app, (which uses the Atlas of Living Australia (ALA) BioCollect application as its database) and an army of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Echidna CSI is a research project run by the University of Adelaide using data collected by citizen scientists to study echidnas. The project has had a huge impact on echidna research and conservation.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><a href="https://www.ala.org.au/app/uploads/2021/11/echidna-csi-thumbnail.png"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/echidna-csi-thumbnail.png" alt="" class="wp-image-45444" width="314" height="440" srcset="https://www.ala.org.au/app/uploads/2021/11/echidna-csi-thumbnail.png 644w, https://www.ala.org.au/app/uploads/2021/11/echidna-csi-thumbnail-214x300.png 214w" sizes="(max-width: 314px) 100vw, 314px" /></a><figcaption><a href="https://www.ala.org.au/app/uploads/2021/11/echidna-csi-thumbnail.png">View or print this impact story as a pdf</a></figcaption></figure></div>
+
+
+
+<p>Using a bespoke mobile app, (which uses the Atlas of Living Australia (ALA) BioCollect application as its database) and an army of citizen scientists across the country, Echidna CSI has established an Australia-wide distribution map of Short-Beaked Echidnas (Tachyglossus  culeatus). The project has doubled the number of echidna records in the ALA and discovered new facts about echidna biology. Echidna CSI encourages the public to take photos of echidnas around Australia and collect their scats for DNA and hormone analysis. Over the past<br>three years, thousands of participants have recorded more than 12,000 echidna sightings. This is the largest dataset collected by any project for echidnas. The data is providing valuable information on wild populations’ habitat, diet and health including insights into the impact of  ushfires on echidna microbiomes.</p>
+
+
+
+<h3 id="study-the-shy-echidna-challenge-accepted">Study the shy Echidna? Challenge accepted</h3>
+
+
+
+<p>Echidnas are notoriously shy and difficult to see in the wild, and prior to Echidna CSI they were considered pretty difficult (and expensive) to  tudy. As a result, although echidnas are iconic  native species and threatened by feral animals, habitat loss and road collisions, many aspects of wild populations including their distribution, biology and population trends were largely unknown. The Echidna CSI project brought<br>together ecologists, molecular researchers and computer scientists from the University of Adelaide, the Atlas of Living Australia’s biodiversity data infrastructure, and Australia’s citizen science community to fill the gaps in our knowledge about echidnas. </p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/Echidna-CSI_image-by-Cecilia_webster-1024x794.jpg" alt="" class="wp-image-45447" width="561" height="435" srcset="https://www.ala.org.au/app/uploads/2021/11/Echidna-CSI_image-by-Cecilia_webster-1024x794.jpg 1024w, https://www.ala.org.au/app/uploads/2021/11/Echidna-CSI_image-by-Cecilia_webster-300x233.jpg 300w, https://www.ala.org.au/app/uploads/2021/11/Echidna-CSI_image-by-Cecilia_webster-768x595.jpg 768w, https://www.ala.org.au/app/uploads/2021/11/Echidna-CSI_image-by-Cecilia_webster-1536x1191.jpg 1536w, https://www.ala.org.au/app/uploads/2021/11/Echidna-CSI_image-by-Cecilia_webster-1920x1488.jpg 1920w, https://www.ala.org.au/app/uploads/2021/11/Echidna-CSI_image-by-Cecilia_webster.jpg 2015w" sizes="(max-width: 561px) 100vw, 561px" /><figcaption>Using Echidna CSI citizen scientists can upload sightings of Echidnas <br>from all over Australia. Image credit: Cecilia Webster</figcaption></figure>
+
+
+
+<h3 id="ala-tool-enables-scientists-to-tap-into-citizen-workforce">ALA tool enables scientists to tap into citizen workforce</h3>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/echidnaCSI_logo_yellow.png" alt="" class="wp-image-45446" width="248" height="246" srcset="https://www.ala.org.au/app/uploads/2021/11/echidnaCSI_logo_yellow.png 585w, https://www.ala.org.au/app/uploads/2021/11/echidnaCSI_logo_yellow-300x297.png 300w, https://www.ala.org.au/app/uploads/2021/11/echidnaCSI_logo_yellow-150x150.png 150w" sizes="(max-width: 248px) 100vw, 248px" /></figure></div>
+
+
+
+<p>The research team developed their own custom mobile application for the collection of data and linked this to the  ALA’s BioCollect field data collection tool as the backend database and data access/visualisation tool, to enable citizen scientists to record echidna observations. All observations flow automatically into the ALA. The project has robust quality assurance processes built into it to ensure all records are verified, research-grade data points.  The research team also have access to all citizen scientist echidna observations in the ALA uploaded via other applications such as iNaturalist. The Echidna CSI app is customised to the project and designed to guide users into collecting information that will be of most use. It also includes fun facts about echidnas so users can learn more about this iconic Australian species.</p>
+
+
+
+<h3 id="mobile-app-has-huge-impact-for-echidna-research-and-conservation">Mobile app has huge impact for echidna research and conservation</h3>
+
+
+
+<p>By combining novel science with citizen science, the Echidna CSI citizen science project has highlighted the extraordinary power of the citizen<br>science approach. More than 11,000 people have contributed to the Echidna CSI project. These citizen scientists have eyes on the ground in<br>many locations and have contributed sightings and genetic material from all states and territories including throughout protected areas and remote places. The research team could never have surveyed such a large area without the help of the Echidna CSI community contributors.</p>
+
+
+
+<p>ALA infrastructure has been crucial in advancing echidna research and making the data, and data visualisations, accessible and open. This has resulted in the ability to leverage translational research, such as examining the impact of fire on echidna populations and diet.</p>
+
+
+
+<h3 id="assessing-echidna-populations-after-the-2019-20-bushfires">Assessing echidna populations after the 2019-20 bushfires</h3>
+
+
+
+<p>All echidna records collected before the 2019-2020 bushfire season served as crucial baseline information to monitor and assess the health of echidna populations post fire. Echidna CSI has conducted some local scale research in fire impacted areas and is documenting a change in echidna microbiomes in areas such as Kangaroo Island in South Australia. This subspecies of echidnas is listed as endangered, so the more we can learn about their response to fire the better.</p>
+
+
+
+<h3 id="research-impact">Research impact</h3>
+
+
+
+<ul><li><a href="https://www.sciencedirect.com/science/article/pii/S2351989421001761">Echidna CSI – Improving monitoring of a cryptic species at continental scale using Citizen Science</a>. Alan Stenhouse et al, Ecology and Conservation, Vol 28, Aug 2021</li></ul>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/Headshot_Tahlia-1024x683.jpg" alt="" class="wp-image-45448" width="445" height="297" srcset="https://www.ala.org.au/app/uploads/2021/11/Headshot_Tahlia-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2021/11/Headshot_Tahlia-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2021/11/Headshot_Tahlia-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2021/11/Headshot_Tahlia-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2021/11/Headshot_Tahlia-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2021/11/Headshot_Tahlia-1920x1280.jpg 1920w" sizes="(max-width: 445px) 100vw, 445px" /><figcaption>Postdoctoral Researcher Dr Tahlia Perry from the University of Adelaide leads the Echidna CSI research project.</figcaption></figure></div>
+
+
+
+<h3 id="echidna-csi-in-numbers">Echidna CSI in numbers</h3>
+
+
+
+<ul><li>12,000 sightings</li><li>11,000 citizen scientists</li><li>700 scat samples</li><li>2017 Echidna CSI launched</li><li>7 states and territories</li><li>Doubled the number of echidna records in the ALA</li></ul>
+
+
+
+<h3 id="awards-and-recognition">Awards and recognition</h3>
+
+
+
+<ul><li>Finalist in the 2021 Department of Industry, Science, Energy and Resources Eureka Prize for Innovation in Citizen Science</li><li>Finalist for the 2021 South Australian Citizen Science Award</li><li>Finalist in the 2021 South Australian Science Excellence and Innovation for citizen science and PhD research excellence</li></ul>
+
+
+
+<h3 id="for-more-information">For more information</h3>
+
+
+
+<ul><li>Echidna CSI is available to download on both Android and Apple devices. </li><li>For more information on the ALA visit <a href="https://www.ala.org.au/">ala.org.au</a> or contact <a href="mailto:support@ala.org.au">support@ala.org.au</a></li></ul>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Advisory Board update</title>
 		<link>https://www.ala.org.au/blogs-news/ala-advisory-board-update/</link>
 		
@@ -802,60 +912,6 @@
 
 
 <p>We also welcome requests or suggestions for new features, as well as bug reports, on our <a href="https://github.com/AtlasOfLivingAustralia/galah/issues">issues page</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Creating a buzz for citizen science</title>
-		<link>https://www.ala.org.au/blogs-news/creating-a-buzz-for-citizen-science/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Thu, 01 Jul 2021 01:00:48 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[Citizen science]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44820</guid>
-
-					<description><![CDATA[by Erin Roger, ALA Citizen Science Programme Lead]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>On the coldest day in Sydney in 25 years, I was thrilled to attend the launch of the <a href="https://www.ps.org.au/bb-highway-about">B&amp;B Highway’s</a> citizen science component of their program. The B&amp;B Highway Program –  spearheaded by Dr Judy Friedlander of <a href="https://www.ps.org.au/">PlantingSeeds Projects</a>, aims to provide habitat for birds, bees, butterflies and biodiversity through native plantings and the installation of pollinator habitats such as native stingless beehives, nesting boxes and insect hotels. The program is now in more than 50 schools and community locations throughout NSW and is making inroads in other states throughout Australia.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="842" height="399" src="https://www.ala.org.au/app/uploads/2021/07/BB-highway_1.jpg" alt="" class="wp-image-44821" srcset="https://www.ala.org.au/app/uploads/2021/07/BB-highway_1.jpg 842w, https://www.ala.org.au/app/uploads/2021/07/BB-highway_1-300x142.jpg 300w, https://www.ala.org.au/app/uploads/2021/07/BB-highway_1-768x364.jpg 768w" sizes="(max-width: 842px) 100vw, 842px" /><figcaption><em>Schools learn more about pollinators and habitat through participation in the B&amp;B Highway Program which also offers indoor and outdoor, and theoretical and practical teachings about biodiversity.</em></figcaption></figure>
-
-
-
-<p></p>
-
-
-
-<p>The June launch celebrated the partnership of CSIRO’s Atlas of Living Australia (ALA), the Australian Citizen Science Association (ACSA) and the B&amp;B Highway in enabling citizen science data to flow from the program into the ALA. The aim for the program is to contribute valuable pollinator and plant data so the data is freely available for anyone to use. The program has been set up on <a href="https://www.inaturalist.org/projects/b-b-highway-nsw">iNaturalist</a> so that all participating schools can see their observations under the umbrella B&amp;B Highway Project.</p>
-
-
-
-<p>Despite the chill, the launch kicked off with a search of the garden at Ryde East Public School, where a number of young pollinator enthusiasts from different schools had been assembled. While we didn’t find many pollinators, it showed the importance of seasonal sampling for true indication of pollinator diversity. Speeches, snacks and celebrations then followed.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="840" height="630" src="https://www.ala.org.au/app/uploads/2021/07/BB-highway_2.jpg" alt="" class="wp-image-44822" srcset="https://www.ala.org.au/app/uploads/2021/07/BB-highway_2.jpg 840w, https://www.ala.org.au/app/uploads/2021/07/BB-highway_2-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2021/07/BB-highway_2-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2021/07/BB-highway_2-640x480.jpg 640w" sizes="(max-width: 840px) 100vw, 840px" /><figcaption><em>B&amp;B Highway participants looking for pollinators on a cold June day in Sydney</em></figcaption></figure>
-
-
-
-<h3 id="get-involved">Get involved</h3>
-
-
-
-<p>For anyone interested in finding out more about the B&amp;B Highway, and its educational resources, habitat constructions and the citizen science component <a href="https://www.ps.org.au/bb-highway-school-info">click here</a>. This article also provides an email link for further information on how to have your own school connected into the Highway. </p>
-
-
-
-<p>For participating schools interested in contributing to the citizen science initiative, email <a href="mailto:info@ps.org.au">info@ps.org.au</a>. PlantingSeeds can add your school to the B&amp;B Highway on iNaturalist/Atlas of Living Australia so you can contribute vital pollinator data to a national biobank. PlantingSeeds can also provide a user-friendly guide on how to join the citizen science initiative and upload information.</p>
 ]]></content:encoded>
 					
 		
