@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 16 Nov 2021 01:08:29 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 16 Nov 2021 03:05:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -36,7 +36,7 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=45549</guid>
 
-					<description><![CDATA[As we prepare for ESA2021 'Renewal', we share some insights from three ALA presenters: Jessica Fenker, Nat Raisbeck-Brown and Dax Kellie.]]></description>
+					<description><![CDATA[As we prepare for ESA2021 'Renewal', we share some insights from four ALA presenters: Jessica Fenker, Nat Raisbeck-Brown, Donald Hobern and Dax Kellie.]]></description>
 										<content:encoded><![CDATA[
 <div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
 
@@ -46,7 +46,7 @@
 
 
 
-<p>Several members of the ALA team will be presenting at the conference this year, and we couldn&#8217;t be prouder of their achievements! We can&#8217;t give away any spoilers from their presentations, so we decided to interview them instead. Here Jess, Nat and Dax share a little about their work and why they do what they do. </p>
+<p>Several members of the ALA team will be presenting at the conference this year, and we couldn&#8217;t be prouder of their achievements! We can&#8217;t give away any spoilers from their presentations, so we decided to interview them instead. Here Jess, Nat, Dax and Donald share a little about their work and why they do what they do. </p>
 
 
 
@@ -326,15 +326,87 @@
 
 
 
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/donald_hobern.webp" alt="Donald Hobern" class="wp-image-45695" width="200" height="200" srcset="https://www.ala.org.au/app/uploads/2021/11/donald_hobern.webp 300w, https://www.ala.org.au/app/uploads/2021/11/donald_hobern-150x150.webp 150w" sizes="(max-width: 200px) 100vw, 200px" /></figure></div>
+
+
+
+<h2 id="donald-hobern"><strong>Donald Hobern</strong></h2>
+
+
+
+<h3 id="ecoassets-research-data-for-environmental-indicators"><strong>EcoAssets: Research data for environmental indicators</strong></h3>
+
+
+
+<p>Presenting Tuesday, 23 November 2021. </p>
+
+
+
+<p><strong>How would you describe your work?</strong></p>
+
+
+
+<p>My work is all about trying to make it easier for anyone (researchers, citizen scientists, policy-makers, etc.) to find quality data on biodiversity in ways that make their lives easier, help them to answer the questions they care about, and contribute to a more sustainable world. See this paper for the big picture:&nbsp;<a href="https://doi.org/10.3897/BDJ.7.e33679" target="_blank" rel="noreferrer noopener">https://doi.org/10.3897/BDJ.7.e33679</a></p>
+
+
+
 <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
 
-<h2 id="dr-jessica-fenker-ala-ecocommons-dr-jenna-wraith-ala-ecocommons-presenting-with-dr-emilia-decker-ecocommons"><strong>Dr Jessica Fenker </strong>(ALA &amp;&nbsp;EcoCommons) &amp; <strong>Dr Jenna Wraith </strong>(ALA &amp;&nbsp;EcoCommons) presenting with <strong>Dr&nbsp;Emilia Decker </strong>(EcoCommons)<strong> </strong><br></h2>
+<p><strong>What made you pursue this kind of work?</strong></p>
 
 
 
-<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/ecocommons-logo.png" alt="" class="wp-image-45563" width="332" height="48" srcset="https://www.ala.org.au/app/uploads/2021/11/ecocommons-logo.png 760w, https://www.ala.org.au/app/uploads/2021/11/ecocommons-logo-300x43.png 300w" sizes="(max-width: 332px) 100vw, 332px" /></figure></div>
+<p>I was always passionate about natural history and would probably have drifted into zoology if I hadn&#8217;t dropped chemistry early because my teacher graded exclusively on neatness and handwriting&#8230; As it was, I ended up becoming a software engineer. In my mid-30s, the establishment of the Global Biodiversity Information Facility (<a href="https://www.gbif.org/" target="_blank" rel="noreferrer noopener">GBIF</a>) in Copenhagen gave me the chance to use my career skills to work with biodiversity data.</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>What is your role at the ALA, and what do you do?</strong></p>
+
+
+
+<p>My current role with the ALA is as leader for a partnership project with some of the ALA&#8217;s sister infrastructures (the Terrestrial Ecosystem Research Network, the Integrated Marine Observing System and the Australian Research Commons) to organise our data in ways that better support environmental assessment processes. We want our data to be easily accessible in ways that support indicators for tracking change.</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Is there something in particular at the ESA conference you’re looking forward to this year?&nbsp;</strong></p>
+
+
+
+<p>I&#8217;m looking forward to some of the big perspectives, particularly through the keynote presentations.</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>Could you please share one fun fact with our readers?&nbsp;&nbsp;</strong></p>
+
+
+
+<p>We are living on the brink of a new age for biodiversity monitoring – cheap cameras and computer hardware, open-source software, and machine learning will make automated field observations possible (<a href="https://amt.hobern.net/" target="_blank" rel="noreferrer noopener">https://amt.hobern.net/</a>) and cheap high-speed DNA sequencing will help us understand the distribution and interactions of all species (<a href="https://araba.hobern.net/" target="_blank" rel="noreferrer noopener">https://araba.hobern.net/</a>).&nbsp;</p>
+
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="jessica-fenker-ala-ecocommons-jenna-wraith-ala-ecocommons-presenting-with-emilia-decker-ecocommons"><strong>Jessica Fenker </strong>(ALA &amp;&nbsp;EcoCommons) &amp; <strong>Jenna Wraith </strong>(ALA &amp;&nbsp;EcoCommons) presenting with <strong>Emilia Decker </strong>(EcoCommons)<strong> </strong><br></h2>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/ecocommons-logo.png" alt="EcoCommons logo" class="wp-image-45563" width="332" height="48" srcset="https://www.ala.org.au/app/uploads/2021/11/ecocommons-logo.png 760w, https://www.ala.org.au/app/uploads/2021/11/ecocommons-logo-300x43.png 300w" sizes="(max-width: 332px) 100vw, 332px" /></figure></div>
 
 
 
