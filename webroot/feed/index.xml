@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 16 Nov 2021 03:33:09 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 17 Nov 2021 00:38:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -548,6 +548,7 @@
 		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
 		<pubDate>Mon, 15 Nov 2021 03:52:31 +0000</pubDate>
 				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[Citizen science]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=45629</guid>
 
 					<description><![CDATA[Renowned citizen science program CoralWatch launched their new database using the ALA's Biocollect field data collection platform.]]></description>
@@ -572,7 +573,7 @@
 
 
 
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1024x1024.png" alt="" class="wp-image-45631" width="389" height="389" srcset="https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1024x1024.png 1024w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-300x300.png 300w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-150x150.png 150w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-768x768.png 768w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1536x1536.png 1536w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002.png 1656w" sizes="(max-width: 389px) 100vw, 389px" /><figcaption>The CoralWatch Health Chart is a tool to help citizen scientists collect data about the colour and coral type.</figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1024x1024.png" alt="" class="wp-image-45631" width="254" height="254" srcset="https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1024x1024.png 1024w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-300x300.png 300w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-150x150.png 150w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-768x768.png 768w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1536x1536.png 1536w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002.png 1656w" sizes="(max-width: 254px) 100vw, 254px" /><figcaption>The CoralWatch Health Chart is a tool to help citizen scientists collect data about the colour and coral type.</figcaption></figure></div>
 
 
 
@@ -600,7 +601,15 @@
 
 
 
-<p>All historical data (almost 15,000 reef visits and more than 320,000 coral observations) was imported to BioCollect. The new database can support images and record verification. It will also be able to cope with the growing data storage needs of the CoralWatch project.&nbsp;</p>
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-1024x768.jpg" alt="" class="wp-image-45725" width="371" height="278" srcset="https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-2048x1536.jpg 2048w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-640x480.jpg 640w" sizes="(max-width: 371px) 100vw, 371px" /><figcaption>The CoralWatch Health Chart is used by citizen scientists around the world to collect data on the health of our reefs.</figcaption></figure></div>
+
+
+
+<p>All historical data (almost 15,000 reef visits and more than 320,000 coral observations) was imported to BioCollect. The new database can support images and record verification. It will also be able to cope with the growing data storage needs of the CoralWatch project. </p>
+
+
+
+<p>Since the launch of the database (28 September 2021), already 223 surveys have been entered by divers and snorkelers all over the world, including 109 surveys in Australia and 114 surveys from Thailand, Honduras, Taiwan, Northern Mariana Islands, Indonesia, and Egypt.</p>
 
 
 
