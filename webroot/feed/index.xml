@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 17 Nov 2021 05:15:02 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 18 Nov 2021 02:48:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,32 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter November 2021</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-november-2021/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Thu, 18 Nov 2021 02:46:31 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=45759</guid>
+
+					<description><![CDATA[ALA Newsletter November 2021]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large is-resized"><a href="https://www.ala.org.au/app/uploads/2021/11/ALA-Newsletter-November-2021.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/thumbnail-889x1024.png" alt="" class="wp-image-45760" width="405" height="467" srcset="https://www.ala.org.au/app/uploads/2021/11/thumbnail-889x1024.png 889w, https://www.ala.org.au/app/uploads/2021/11/thumbnail-260x300.png 260w, https://www.ala.org.au/app/uploads/2021/11/thumbnail-768x885.png 768w, https://www.ala.org.au/app/uploads/2021/11/thumbnail.png 1161w" sizes="(max-width: 405px) 100vw, 405px" /></a></figure>
+
+
+
+<p></p>
+
+
+
+<p>A<a href="https://www.ala.org.au/app/uploads/2021/11/ALA-Newsletter-November-2021.pdf">LA Newsletter November 2021</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Message from our Director &#8211; November 2021</title>
 		<link>https://www.ala.org.au/blogs-news/message-from-our-director-november-2021/</link>
 		
@@ -1134,29 +1160,6 @@
 
 
 <hr class="wp-block-separator"/>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter September 2021</title>
-		<link>https://www.ala.org.au/blogs-news/ala-newsletter-september-2021/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Tue, 07 Sep 2021 01:19:37 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<category><![CDATA[Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=44950</guid>
-
-					<description><![CDATA[Atlas of Living Australian Newsletter February 2021]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full is-resized"><a href="https://www.ala.org.au/app/uploads/2021/10/ALA-Newsletter-September-2021-.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/09/newsletter-thumbnail.png" alt="" class="wp-image-44951" width="308" height="412" srcset="https://www.ala.org.au/app/uploads/2021/09/newsletter-thumbnail.png 486w, https://www.ala.org.au/app/uploads/2021/09/newsletter-thumbnail-224x300.png 224w" sizes="(max-width: 308px) 100vw, 308px" /></a></figure>
-
-
-
-<p><a href="https://www.ala.org.au/app/uploads/2021/02/ALA-Newsletter-Feb-2021.pdf">Atlas of Living Australian Newsletter February 20</a><a href="https://www.ala.org.au/app/uploads/2021/10/ALA-Newsletter-September-2021-.pdf">21</a></p>
 ]]></content:encoded>
 					
 		
