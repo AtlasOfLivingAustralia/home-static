@@ -2,13 +2,13 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www.ala.org.au</loc><lastmod>2021-11-28T23:31:01+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www.ala.org.au</loc><lastmod>2021-11-30T04:45:11+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>https://www.ala.org.au/careers/careers-policy-and-analysis-officer/</loc><lastmod>2021-11-17T03:12:24+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/publications/ala-future-directions-national-consultation-findings-report/</loc><lastmod>2021-09-27T07:27:11+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/publications/ala-strategy-2020-2025/</loc><lastmod>2021-09-27T07:27:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/careers/</loc><lastmod>2021-11-17T03:15:25+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/publications/atlas-of-living-australia-year-in-review-202021/</loc><lastmod>2021-09-27T07:27:05+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/ala-cited-publications/</loc><lastmod>2021-11-28T14:44:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/ala-cited-publications/</loc><lastmod>2021-11-29T14:44:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/</loc><lastmod>2021-06-30T01:15:13+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-logo-and-identity/</loc><lastmod>2020-11-01T23:30:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/three-maps-activity/</loc><lastmod>2020-03-04T01:19:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -25,7 +25,7 @@
 <url><loc>https://www.ala.org.au/biocollect/</loc><lastmod>2021-04-28T23:16:19+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/lucid-key-for-weeds-of-the-southern-tablelands/</loc><lastmod>2019-06-11T02:46:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/environmentaldna/</loc><lastmod>2019-07-12T02:01:08+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/governance/</loc><lastmod>2021-11-28T23:31:01+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/governance/</loc><lastmod>2021-11-30T04:45:11+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/sites-and-services/</loc><lastmod>2020-11-12T23:42:43+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/home/record-a-sighting/</loc><lastmod>2020-05-05T01:56:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-for-researchers/</loc><lastmod>2020-02-19T22:11:40+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
