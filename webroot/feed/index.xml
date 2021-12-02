@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 30 Nov 2021 21:48:44 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 02 Dec 2021 03:24:27 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,131 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA webinar: Environmental data infrastructures – Data and technology trends</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-environmental-data-infrastructures-data-and-technology-trends/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Thu, 02 Dec 2021 03:18:53 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=45672</guid>
+
+					<description><![CDATA[Australia faces a range of challenges in how best to monitor and manage its unique and challenging environment. In this context, projects to collate and store environmental data, or convert that data to information that can inform decision-making, are critical to ensure improved outcomes for our land, water and biodiversity. However, the technological infrastructure that [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Australia faces a range of challenges in how best to monitor and manage its unique and challenging environment. In this context, projects to collate and store environmental data, or convert that data to information that can inform decision-making, are critical to ensure improved outcomes for our land, water and biodiversity. However, the technological infrastructure that delivers those benefits, and the novel innovations that power them, are often overlooked. Join us to hear from three speakers working to convert computational innovation into real outcomes for researchers &amp; decision-makers and find out more about where eInfrastructure is heading next.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="ALA webinar: Environmental Data Infrastructures – data and technology trends – 30 Nov, 2021" width="640" height="360" src="https://www.youtube.com/embed/-lOHhW3Wbgo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This webinar took place at 1.00pm AEDT, Tuesday 30 November 2021, with 186 live viewers in attendance.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="speakers">Speakers</h2>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 id="ana-belgun-data61">Ana Belgun | Data61</h3>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/AnaBelgun.png" alt="Ana Belgun" class="wp-image-45678"/></figure></div>
+
+
+
+<p>Ana works with the Engineering &amp; Design team in CSIRO Data61 to deliver projects and programs that create innovative data driven technologies, focusing recently on platforms powered by the TerriaJS software. She holds a major in Sociology from the University of Bucharest and a Master of Arts in Public Management from the University of York. Ana has managed the development of several platforms such as the Australian Renewable Mapping Infrastructure (AREMI), NationalMap, National DroughtMap, InvestorMap, State of Environment, Digital Twins and many more, servicing a total of more than 30,000 users per month.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 id="arve-solland-ecocommons">Arve Sølland | EcoCommons</h3>
+
+
+
+<div class="wp-block-image is-style-default"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/ArveSolland.png" alt="Arve Solland" class="wp-image-45679"/></figure></div>
+
+
+
+<p>Arve is technical lead and solutions architect for EcoCommons, a single, trusted platform for modelling and analysis of biodiversity, and is tasked with ensuring the platform is built on the best available technology and is interoperable with other systems. He has more than a decade of experience working across a range of national and international research projects within the eResearch sector as a senior software engineer and analyst.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 id="miles-nicholls-atlas-of-living-australia">Miles Nicholls | Atlas of Living Australia</h3>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-Miles.png" alt="Miles Nicholls" class="wp-image-45780"/></figure></div>
+
+
+
+<p>Miles leads the data quality project for the Atlas of Living Australia. With a background in data management for federal government and 10 years as the data manager for the ALA, Miles has been bringing data together to provide information for research, analysis and decision support for more than 15 years. Miles holds a bachelor of science and a bachelor of information technology from the ANU and is an enthusiastic proponent of agile development practices.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
+
+
+
+<h3 id="moderator-bio">Moderator bio</h3>
+
+
+
+<p>Martin Westgate is Science Advisor to the <a href="https://www.ala.org.au/">Atlas of Living Australia</a> and a visiting fellow at the <a href="https://fennerschool.anu.edu.au/">Fenner School of Environment &amp; Society</a> at the Australian National University. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
+
+
+
+<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 id="want-more">Want more?</h3>
+
+
+
+<p>All ALA webinars are available to view on <a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a> along with other video content.</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Delivering data to improve reporting on Australia&#8217;s environment</title>
 		<link>https://www.ala.org.au/blogs-news/delivering-data-to-improve-reporting-on-australias-environment/</link>
 		
@@ -126,7 +251,7 @@
 
 
 
-<blockquote class="wp-block-quote"><p><em>“One of the challenges in compiling State of the Environment Report chapters is that studies are often place-based, meaning that compiling a truly national picture requires integrating separate studies, often conducted using different methods, and with gaps between them. </em><br><br><em>EcoAssets will make it simpler to obtain national perspectives, with all of the underpinning data available for scrutiny or re-analysis, ensuring users can have confidence in the summary reports presented.”</em><br><br><em>Dr Dan Metcalfe, CSIRO and State of the Environment report 2016 &amp; 2021 chapter author</em></p></blockquote>
+<blockquote class="wp-block-quote"><p><em>“One of the challenges in compiling State of the Environment Report chapters is that studies are often place-based, meaning that compiling a truly national picture requires integrating separate studies, often conducted using different methods, and with gaps between them.&nbsp;</em><br><br><em>EcoAssets will make it simpler to obtain national perspectives, with all of the underpinning data available for scrutiny or re-analysis, ensuring users can have confidence in the summary reports presented.”</em><br><br><em>Dr Dan Metcalfe, CSIRO and State of the Environment report 2016 &amp; 2021 chapter author</em></p></blockquote>
 
 
 
@@ -146,7 +271,7 @@
 
 
 
-<ul><li>View the <a href="https://www.ala.org.au/app/uploads/2021/06/21331-ALA-EcoAssets-Info-Sheet-V5_final.pdf"><strong>EcoAssets brochure</strong></a></li><li>Discover ALA <a href="https://collections.ala.org.au/datasets"><strong>data collections</strong></a></li><li>Discover IMOS <a href="https://portal.aodn.org.au/"><strong>data collections</strong></a></li><li>Discover TERN <a href="https://www.tern.org.au/data/"><strong>data collections</strong></a></li><li>For reference, the full title of this project is “Ecosystem data integration to support national environmental reporting (State of the Environment)” (doi.org/10.47486/XN005)</li></ul>
+<ul><li>View the <a href="https://www.ala.org.au/app/uploads/2021/06/21331-ALA-EcoAssets-Info-Sheet-V5_final.pdf"><strong>EcoAssets brochure</strong></a></li><li>Discover ALA <a href="https://collections.ala.org.au/datasets"><strong>data collections</strong></a></li><li>Discover IMOS <a href="https://portal.aodn.org.au/"><strong>data collections</strong></a></li><li>Discover TERN <a href="https://www.tern.org.au/data/"><strong>data collections</strong></a></li><li>For reference, the full title of this project is “Ecosystem data integration to support national environmental reporting (State of the Environment)” (<a href="http://doi.org/10.47486/XN005">doi.org/10.47486/XN005</a>)</li></ul>
 
 
 
@@ -178,11 +303,7 @@
 
 
 
-<p><a href="http://ala.org.au">The Atlas of Living Australia</a> (ALA) harmonises occurrence records of Australian plant and animal species, bringing together data from labels on museum and herbaria specimens,</p>
-
-
-
-<p>field surveys, citizen science observations, molecular sequencing and literature.</p>
+<p><a href="http://ala.org.au">The Atlas of Living Australia</a> (ALA) harmonises occurrence records of Australian plant and animal species, bringing together data from labels on museum and herbaria specimens, field surveys, citizen science observations, molecular sequencing and literature.</p>
 
 
 
@@ -1148,91 +1269,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Advisory Board update</title>
-		<link>https://www.ala.org.au/blogs-news/ala-advisory-board-update/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Sun, 26 Sep 2021 23:40:56 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=45228</guid>
-
-					<description><![CDATA[Our Advisory Board is undergoing a reshuffle. We farewell and thank our Chair Dr Diana Day and welcome the new Chair, Dr Ian Cresswell, and a new member, Dr Manu Saunders, to guide us through the next few years. Welcome to Dr Ian Cresswell, Chair We are excited to announce that Dr Ian Cresswell will [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Our Advisory Board is undergoing a reshuffle. We farewell and thank our Chair Dr Diana Day and welcome the new Chair, Dr Ian Cresswell, and a new member, Dr Manu Saunders, to guide us through the next few years.</p>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/09/Photo-Ian-Cresswell_Cropped.jpg" alt="" class="wp-image-45234" width="318" height="285" srcset="https://www.ala.org.au/app/uploads/2021/09/Photo-Ian-Cresswell_Cropped.jpg 945w, https://www.ala.org.au/app/uploads/2021/09/Photo-Ian-Cresswell_Cropped-300x269.jpg 300w, https://www.ala.org.au/app/uploads/2021/09/Photo-Ian-Cresswell_Cropped-768x689.jpg 768w" sizes="(max-width: 318px) 100vw, 318px" /><figcaption>Dr Ian Cresswell</figcaption></figure></div>
-
-
-
-<h2 id="welcome-to-dr-ian-cresswell-chair"><strong>Welcome to Dr Ian Cresswell, Chair</strong></h2>
-
-
-
-<p>We are excited to announce that Dr Ian Cresswell will take on the role of Chair from our October 2021 meeting.</p>
-
-
-
-<p>Ian is well known to the ALA having played a significant role in the establishment of the ALA, and as a member of the Management Committee.</p>
-
-
-
-<p>His background in conservation planning, biodiversity science and deep networks into Government through his more recent role with the National State of the Environment Report will be an asset to the Board and the ALA.</p>
-
-
-
-<p>Ian has a long history of success in managing large scale, science-based government programs in natural resource management, with a strong focus on management to sustainably achieve economic, social and environmental benefits. He has extensive experience in providing high level advice to Government and Industry on environmental and sustainability issues. He brings national and international experience in protected areas spatial planning, fisheries and wildlife regulation, and biodiversity discovery/taxonomy. He has led major research programs in CSIRO in both terrestrial and marine domains, as well as Australian Government senior executive management roles in marine planning, sustainable fisheries, and wildlife management. Ian was the Director of the Australian Biological Resources Study and was instrumental in the development of Australia’s Virtual Herbarium and the Online Zoological Collections of Australian Museums.</p>
-
-
-
-<h2 id="welcome-dr-manu-saunders"><strong>Welcome Dr Manu Saunders</strong></h2>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/09/Manu-saunders_Cathedral-rock-edited.jpg" alt="" class="wp-image-45232" width="336" height="253" srcset="https://www.ala.org.au/app/uploads/2021/09/Manu-saunders_Cathedral-rock-edited.jpg 816w, https://www.ala.org.au/app/uploads/2021/09/Manu-saunders_Cathedral-rock-edited-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2021/09/Manu-saunders_Cathedral-rock-edited-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2021/09/Manu-saunders_Cathedral-rock-edited-640x480.jpg 640w" sizes="(max-width: 336px) 100vw, 336px" /><figcaption> Dr Manu Saunders is a popular and engaging ecological scientist and communicator. You can follow her on Twitter <a href="https://twitter.com/ManuSaunders">@ManuSaunders.</a> </figcaption></figure></div>
-
-
-
-<p>Manu Saunders is a Lecturer in Ecology at the University of New England, Armidale. Her research and teaching focus on community ecology and ecosystem function and services, particularly related to plant-insect interactions. Prior to studying ecology and embarking on a research career, she completed a degree in English and print journalism and worked in corporate communications.</p>
-
-
-
-<p>She is passionate about observing nature and ecological science communication. Manu has published her popular science blog <a href=":%20http:/ecologyisnotadirtyword.com/">Ecology is not a Dirty Word</a> for over 10 years and is an internationally-recognised expert on insect conservation and ecology. She also co-founded the Wild Pollinator Count, Australia’s national citizen science project engaging people with wild pollinator conservation and ecology.&nbsp;</p>
-
-
-
-<h2 id="farewell-to-our-current-chair-dr-diana-day"><strong>Farewell to our current Chair, Dr Diana Day</strong></h2>
-
-
-
-<p>We would like to sincerely thank Dr Diana Day for her contribution to the governance of the ALA. Diana has been instrumental in steering the board and the ALA through a challenging COVID period and preparing the ALA so effectively for its engagement with the National Research Infrastructure Roadmap process. Her role ensuring effective board oversight of some of ALAs recent significant transformations, including our cyber security review has been appreciated.</p>
-
-
-
-<h2 id="ala-advisory-board-membership-september-2021"><strong>ALA Advisory Board membership September 2021</strong></h2>
-
-
-
-<p>The ALA Advisory Board supports the high-level direction and delivery of the ALA by providing vision, advocacy and advice.</p>
-
-
-
-<ul><li>Chair: Dr Ian Cresswell, Adjunct Professor, School of Biological, Earth and Environmental Sciences, UNSW at UNSW</li><li>Dr Bek Christensen, Programs Director of the Peter Cullen Trust and President, Ecological Society of Australia</li><li>Mr Matthew Miles, Principal for Environmental Information, South Australian Department for Environment and Water</li><li>Mr Brant Smith, Assistant Secretary, Geospatial and Information Analytics, Department of Agriculture, Water and the Environment</li><li>Dr Stephen van Leeuwen, BHP/Curtin Indigenous Professor in Biodiversity &amp; Environmental Science, Curtin University</li><li>Dr Manu Saunders, Lecturer in Ecology and Biology, School of Environmental and Rural Science, University of New England</li><li>Professor David Cantrill (ex-officio), Executive Director Science, Royal Botanic Gardens Victoria</li><li>Ms Toni Moate (ex-officio), Director, National Collections and Marine Infrastructure, CSIRO</li><li>Dr Andre Zerger (ex-officio), Director, Atlas of Living Australia</li></ul>
-
-
-
-<h2 id="more-info">More info</h2>
-
-
-
-<p>For more information about the ALA and our Advisory Board, visit <a href="https://www.ala.org.au/governance/">About us</a>.</p>
 ]]></content:encoded>
 					
 		
