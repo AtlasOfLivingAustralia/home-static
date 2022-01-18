@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 11 Jan 2022 03:34:50 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 18 Jan 2022 22:53:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,151 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Australian Reference Genome Atlas (ARGA)</title>
+		<link>https://www.ala.org.au/blogs-news/australian-reference-genome-atlas-arga/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Tue, 18 Jan 2022 22:53:46 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=46225</guid>
+
+					<description><![CDATA[In an Australian first, our national research infrastructures are creating a new digital atlas to allow researchers to easily discover and work with genomic data.]]></description>
+										<content:encoded><![CDATA[
+<p class="has-background" style="background-color:#f2f2f2"><em>In an Australian first, our national research infrastructures are creating a new digital atlas to allow researchers to easily discover and work with genomic data.</em></p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>To consolidate Australia’s genomic data and make it available for researchers to use, the Atlas of Living Australia, Bioplatforms Australia, Australian BioCommons and Australian Research Data Commons (ARDC) funded via the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS) are collaborating on <strong>ARGA, the Australian Reference Genome Atlas</strong>.<br><br>The new genomic atlas will mean that researchers can easily discover and access genomic data for Australian species in one place.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="genomics-hidden-secrets-of-living-things"><strong>Genomics – hidden secrets of living things</strong>  </h2>
+
+
+
+<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/tassie-devil-c.jpg" alt="Tasmanian devil" class="wp-image-46244" width="386" height="355" srcset="https://www.ala.org.au/app/uploads/2022/01/tassie-devil-c.jpg 780w, https://www.ala.org.au/app/uploads/2022/01/tassie-devil-c-300x276.jpg 300w, https://www.ala.org.au/app/uploads/2022/01/tassie-devil-c-768x706.jpg 768w" sizes="(max-width: 386px) 100vw, 386px" /><figcaption>The endangered Tasmanian Devil (<em>Sarcophilus harrisii</em>). Image: Brett Vercoe (CC-BY-NC).</figcaption></figure></div>
+
+
+
+<p>Genomic data – the genome and DNA data of an organism – helps us to understand the core traits of species. It helps us work out why some species are more resilient and adaptive to environmental changes such as climate change, drought and bushfire.​<br><br>Information about how species respond to these pressures is critical to biodiversity research and agriculture. For example, genomic data is used in agriculture to develop crop and livestock species that are more resilient and better adapted to drought and climate change. In ecology, researchers use genomics to identify species for captive breeding programs and repopulation planting that are more likely to recover after significant environmental change, such as that caused by bushfires.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/PGtree.png" alt="tree of life diagram" class="wp-image-46235" width="409" height="473" srcset="https://www.ala.org.au/app/uploads/2022/01/PGtree.png 728w, https://www.ala.org.au/app/uploads/2022/01/PGtree-260x300.png 260w" sizes="(max-width: 409px) 100vw, 409px" /><figcaption>Tree of life, showing the diversity of life on earth. The branches indicate how organisms are related to one another. Genomic techniques help scientists refine their understanding of these relationships. Source: https://www.nature.com/articles/nmicrobiol201648</figcaption></figure></div>
+
+
+
+<h2 id="australian-genomic-data"><strong>Australian genomic data</strong></h2>
+
+
+
+<p>Australia is home to&nbsp;a large&nbsp;number of&nbsp;native species,&nbsp;including 157,000&nbsp;animals, plants and fungi, many of which are unique to the&nbsp;continent.​<br><br>With the growth of DNA sequencing capabilities, Australian researchers in universities, research organisations, as well as museums &amp; herbaria have generated huge amounts of genomic data.<br><br>There is huge appetite to delve into the data and find out what genomic secrets our native species hold. Genomic data science is a fast growing and exciting field of science, and researchers need simple and rapid access to genomic data.<br><br>At the moment Australia’s genomic data for our flora, fauna and fungi species can reside across numerous international data repositories, museums or research labs, making it difficult to find and access and compare genomic data on Australian species. Some genomics databases were generated and stored using old technology and the data is no longer accessible.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="a-national-atlas-for-australian-genomic-data"><strong>A national atlas for Australian genomic data</strong></h2>
+
+
+
+<p>The Australian Reference Genome Atlas will locate and aggregate descriptions of all relevant genomic data specific to Australian taxa in one place (e.g. genome assemblies, genome annotations, barcodes, raw data, other ‘omic’ data).</p>
+
+
+
+<p>It will enable scientists to search these data by organism. For example, by taxonomic group (e.g. genus, species, subspecies), as well as by functional classification (e.g. drought/salt/fire tolerance, conservation status), and by geographical classification (e.g. location, altitude).<br><br>ARGA will facilitate comparative analysis of genomic data. Researchers will be able to download data for offline analysis, or analyse data in cloud platforms.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="project-partners"><strong>Project Partners</strong></h2>
+
+
+
+<p>Leading NCRIS research infrastructures are collaborating to develop and operate ARGA. This exciting program will leverage the skills, combined knowledge, infrastructure, and extensive international scientific networks of the project collaborators.</p>
+
+
+
+<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/image-1.png" alt="" class="wp-image-46247" width="176" height="79"/></figure></div>
+
+
+
+<p><strong><a href="https://www.ala.org.au/" target="_blank" rel="noreferrer noopener">Atlas of Living Australia (ALA)</a></strong> is Australia’s largest national biodiversity data infrastructure funded by the National Collaborative Research Infrastructure Strategy (NCRIS) and hosted by CSIRO. The ALA is the Australian node of the Global Biodiversity Information Facility (GBIF).&nbsp;</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/image-3.png" alt="" class="wp-image-46249" width="176" height="53" srcset="https://www.ala.org.au/app/uploads/2022/01/image-3.png 640w, https://www.ala.org.au/app/uploads/2022/01/image-3-300x89.png 300w" sizes="(max-width: 176px) 100vw, 176px" /></figure></div>
+
+
+
+<p><a href="https://www.biocommons.org.au/" target="_blank" rel="noreferrer noopener"><strong>Australian</strong> <strong>BioCommons</strong></a> is enhancing Australia’s digital life science research through world-class collaborative distributed infrastructure. The BioCommons is supported by Bioplatforms Australia<strong>.</strong></p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/image-4.png" alt="" class="wp-image-46250" width="176" height="49"/></figure></div>
+
+
+
+<p><strong><a href="https://bioplatforms.com/" target="_blank" rel="noreferrer noopener">Bioplatforms Australia</a></strong> is a non-profit organisation that supports Australian Life science research by investing in state-of-the-art infrastructure and expertise in genomics, proteomics, metabolomics and bioinformatics. This is made possible through investment funding provided by the Commonwealth Government National Collaborative Research Infrastructure Strategy (NCRIS).</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/image-2.png" alt="" class="wp-image-46248" width="176" height="59"/></figure></div>
+
+
+
+<p><strong><a rel="noreferrer noopener" href="https://ardc.edu.au/" target="_blank">Australian Research Data Commons (ARDC)</a></strong> enables the Australian research community and industry access to nationally significant, data intensive digital research infrastructure, platforms, skills and collections of high quality data. As a national research infrastructure provider, the ARDC facilitates partnerships to develop a coherent research environment that enables researchers to find, access, contribute to and effectively use services to maximise research quality and impact.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>For more information, contact <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
+
+
+
+<hr class="wp-block-separator"/>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>DigiVol celebrates 10 years of Citizen Science</title>
 		<link>https://www.ala.org.au/blogs-news/digivol-celebrates-10-years-of-citizen-science/</link>
 		
@@ -1360,51 +1505,6 @@
 
 
 <ul><li>For more information on CoralWatch, visit <a href="https://coralwatch.org/">https://coralwatch.org/</a></li><li>For more details on our BioCollect data collection platform, <a href="https://www.youtube.com/watch?v=QEr6VULLZks">view our BioCollect video</a>.</li></ul>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Australian Plant Pest Database (APPD) update</title>
-		<link>https://www.ala.org.au/blogs-news/australian-plant-pest-database-appd-update/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Thu, 04 Nov 2021 03:02:10 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=45535</guid>
-
-					<description><![CDATA[The&#160;Australian&#160;Plant&#160;Pest&#160;Database (APPD) will be transitioning to a new site (www.appd.net.au) on Monday 8 November 2021. &#160; &#160; Existing users must register on the new site to gain access to APPD. This document provides detailed instructions that will assist you when requesting access and logging into the site for the first time:  How to access the Australian Plant Pest [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/Plant-Health-Australia.png" alt="" class="wp-image-45537" width="313" height="75"/></figure></div>
-
-
-
-<p>The&nbsp;Australian&nbsp;Plant&nbsp;Pest&nbsp;Database (APPD) will be transitioning to a new site (<a href="http://www.appd.net.au/">www.appd.net.au</a>) on Monday 8 November 2021. &nbsp; &nbsp;</p>
-
-
-
-<p>Existing users must register on the new site to gain access to APPD. This document provides detailed instructions that will assist you when requesting access and logging into the site for the first time: </p>
-
-
-
-<p><a href="https://www.ala.org.au/app/uploads/2021/11/Requesting-access-to-APPD.pdf">How to access the Australian Plant Pest Database</a></p>
-
-
-
-<p>To assist with using the site, a user guide is also provided on the <a href="http://www.appd.net.au/">APPD home page</a>. </p>
-
-
-
-<p>APPD collates information on vouchered pest and plant pathogen specimens from herbaria and insect collections from across Australia. The purpose of APPD is to support market access and inform government policy decision making. Sensitive data is housed in APPD and the data is not to be shared with others.</p>
-
-
-
-<p>If you have any queries about APPD, please email <a href="mailto:appd@phau.com.au?subject=APPD%20update">appd@phau.com.au</a>.</p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
