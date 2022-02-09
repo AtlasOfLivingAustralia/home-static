@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 20 Jan 2022 01:36:14 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 09 Feb 2022 00:00:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,275 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Celebrating Women in Science this #February11</title>
+		<link>https://www.ala.org.au/blogs-news/celebrating-women-in-science-this-february11/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 09 Feb 2022 00:00:39 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=46334</guid>
+
+					<description><![CDATA[#February11 is the International Day of Women and Girls in Science, a UN day declared in 2015 to empower, celebrate and champion women and girls in scientific disciplines. Despite the growth of women and gender-diverse people in STEM in recent years, a significant gender gap still remains. In Australia, less than one quarter of STEM [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>#February11 is the <a href="https://www.un.org/en/observances/women-and-girls-in-science-day" target="_blank" rel="noreferrer noopener">International Day of Women and Girls in Science</a>, a UN day declared in 2015 to empower, celebrate and champion women and girls in scientific disciplines. Despite the growth of women and gender-diverse people in STEM in recent years, a significant gender gap still remains.</p>
+
+
+
+<p>In Australia, less than one quarter of STEM students at university and VET level are women, and five years after graduation, men with STEM qualifications are almost twice as likely to be working in a STEM-qualified occupation. Across all STEM industries, only 28% of workers are women, and even fewer are managers – just 23% of management positions are held by women (source: <a rel="noreferrer noopener" href="https://www.industry.gov.au/news/second-national-data-report-on-girls-and-women-in-stem" target="_blank">STEM Equity Monitor 2021</a>).</p>
+
+
+
+<p>To celebrate #February11 in our own ALA way, we asked our team to share about a woman in science they find inspiring. Compiling the responses into a short blog was not an easy task! We discussed the work of so many brilliant women – sharing links, books, podcasts and research papers around the office. Here is a small selection.</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="karlie-noon"><strong>Karlie Noon</strong></h2>
+
+
+
+<p>By Olivia Torresan, Support Officer</p>
+
+
+
+<p>Karlie Noon is a Gamillaraay / Kamilaroi / Gomeroi woman from Tamworth, NSW. Her current research looks at investigating how the Milky Way galaxy finds new sources of hydrogen gas (which drives star formation). This research could potentially help inform us about the longevity of the galaxy we live within. In her spare time, Karlie has also contributed to researching Indigenous knowledge on moon halos – a light refraction phenomena that can aid in predicting rain events.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/karlie2.png" alt="&quot;&quot;" class="wp-image-46371" width="975" height="541" srcset="https://www.ala.org.au/app/uploads/2022/02/karlie2.png 700w, https://www.ala.org.au/app/uploads/2022/02/karlie2-300x166.png 300w" sizes="(max-width: 975px) 100vw, 975px" /><figcaption><meta charset="utf-8">Photo: ABC Me and SBS</figcaption></figure></div>
+
+
+
+<p>Karlie is the first Aboriginal woman to attain a double degree in mathematics and physics. She has since pursued a Masters of Astronomy (Advanced) and is currently undertaking a PhD at the Australian National University. She credits her drive to learn maths not to school, but to one of the many strong women in her life: her Aunty.</p>
+
+
+
+<p>I first came across Karlie in my early undergraduate years when studying a joint philosophy and maths unit in Cosmology. My undergraduate was a double degree in philosophy and environmental science. Though the class didn’t have an explicit focus on the connections between astronomy and ecology, I read about some of Karlie’s work (some which did just that) when doing some research. It fascinated me. It’s crazy to think that it wasn’t until I arrived at university that I felt I resonated with a female figure in STEM. Like Karlie, I’m a first-generation student. That said, I can only really imagine how further inspiring her work is for Indigenous women in STEM. She’s carried on from her elders; her family – who have thousands of years of intricate astronomical knowledge, precursing the likes of Galileo and Newton. That, of which, Western science still struggles to acknowledge.</p>
+
+
+
+<p>More information:</p>
+
+
+
+<ul><li><a href="https://www.sbs.com.au/topics/voices/culture/article/2020/11/05/astronomer-and-astrophysicist-karlie-noon-opening-educational-pathways-aboriginal" target="_blank" rel="noreferrer noopener">SBS Voices article</a> on Karlie and her work</li><li>A short <a href="https://youtu.be/buqMoaLrs0A" target="_blank" rel="noreferrer noopener">video about Karlie’s work</a> by the Australian Mathematical Sciences Institute</li><li><a href="https://rsaa.anu.edu.au/study/student-profiles/karlie-noon" target="_blank" rel="noreferrer noopener">Karlie’s ANU profile</a></li></ul>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="fernanda-werneck"><strong>Fernanda Werneck</strong></h2>
+
+
+
+<p>By Jessica Fenker Antunes, Data Analyst/R Programmer</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/fernanda-746x1024.jpeg" alt="&quot;&quot;" class="wp-image-46366" width="422" height="578" srcset="https://www.ala.org.au/app/uploads/2022/02/fernanda-746x1024.jpeg 746w, https://www.ala.org.au/app/uploads/2022/02/fernanda-218x300.jpeg 218w" sizes="(max-width: 422px) 100vw, 422px" /><figcaption><meta charset="utf-8">Photo: Werneck Lab</figcaption></figure></div>
+
+
+
+<p>Dr Fernanda Werneck works in the heart of the Amazon Forest (Instituto Nacional de Pesquisas Amazônicas, Brazil), investigating how climate change can affect biodiversity, and the implications for conservation. Besides that, Fernanda promotes and values Women in Science, having published many articles and presented at conferences about the feminine presence in biology. Fernanda is affiliated with the Brazilian Academy of Science, and a member of the “<a href="https://www.parentinscience.com/english">Parent in Science Brazil</a>” movement. In 2016 she won the “L’Oreal-Unesco-ABC prize for Woman in Science,” and the “L’Oreal-Unesco International Rising Talents For Women in Science” in the following year. One of Fernanda’s recent projects involves popularising the knowledge of the impact of climate change on Amazon biodiversity within Amazon communities.</p>
+
+
+
+<p>Personally, I find Fernanda inspiring as a Brazilian woman to reach a prestigious position while supporting many other women and girls to pursue the same. She is very approachable, and she loves what she does. I also find the work that she has been planning to do with local communities inspiring.&nbsp;</p>
+
+
+
+<p>More information:</p>
+
+
+
+<ul><li><a href="https://sites.google.com/site/fewerneck/research" target="_blank" rel="noreferrer noopener">Werneck Lab</a> website</li><li>Fernanda’s <a href="https://orcid.org/0000-0002-8779-2607" target="_blank" rel="noreferrer noopener">ORCID</a></li></ul>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="mibu-fischer"><strong>Mibu Fischer</strong></h2>
+
+
+
+<p>By Jenna Wraith, Training and Outreach Officer</p>
+
+
+
+<p>Mibu Fischer is a Quandamooka saltwater scientist&nbsp;and Marine Ethnoecologist at CSIRO. Her work aims to link Traditional Knowledge (science) with modern fishing practices. Mibu works on exciting projects that improve coastal conservation and management, for example, creating an interactive map to show fishing pressure on species.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/mibu.jpg" alt="Mibu beside a quote of hers &quot;I'm most proud of the fact that I am here, as a woman in a minority group and that I get to push the stereotypes of what a scientist is and that I continue to be here&quot;" class="wp-image-46345" width="1003" height="564" srcset="https://www.ala.org.au/app/uploads/2022/02/mibu.jpg 904w, https://www.ala.org.au/app/uploads/2022/02/mibu-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2022/02/mibu-768x432.jpg 768w" sizes="(max-width: 1003px) 100vw, 1003px" /><figcaption><meta charset="utf-8">Photo: That’s What I Call Science</figcaption></figure></div>
+
+
+
+<p>Her work strengthens the global Indigenous voice in marine research, especially on the impacts of climate change on coastal Indigenous communities. Mibu is also a mentor and advocate for Indigenous women in STEM.</p>
+
+
+
+<p>More information:</p>
+
+
+
+<ul><li>Read more about Mibu’s work on the <a href="https://blog.csiro.au/indigenous-saltwater-science-and-sea-country-research/" target="_blank" rel="noreferrer noopener">CSIRO blog</a></li><li>Mibu’s profile on <a href="https://people.csiro.au/F/M/Mibu-Fischer" target="_blank" rel="noreferrer noopener">CSIRO</a> and the <a href="https://marinesocioecology.org/team/mibu-fischer/" target="_blank" rel="noreferrer noopener">Centre for Marine Socioecology</a></li></ul>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/shelley-1.png" alt="&quot;&quot;" class="wp-image-46370" width="159" height="159"/><figcaption><meta charset="utf-8">Photo: Dr Shelley James</figcaption></figure></div>
+
+
+
+<h2 id="shelley-james"><strong>Shelley James</strong></h2>
+
+
+
+<p>By Ely Wallis, Collections Community Engagement Manager; Projects Team Lead</p>
+
+
+
+<p>Collection managers working in herbaria and museum natural history collections bring a breadth of scientific knowledge to their task – from a deep understanding of taxonomy to identification techniques and tools, from specimen preservation and documentation to international science policy, collecting permit requirements and ethics. Australia boasts outstanding, highly skilled and knowledgeable collection managers. One of them is Dr Shelley James of the Western Australian Herbarium.&nbsp;</p>
+
+
+
+<p>Shelley has been a botanical research scientist for more than two decades, studying and working in Australia and the USA. <em><a href="https://bionomia.net/0000-0003-1105-1850" target="_blank" rel="noreferrer noopener">Bionomia</a></em>, a website that gives scientists credit for their collections work, shows that Shelley has collected over 4,400 specimens from at least four countries and has identified over 4,100 specimens from over 26 countries.</p>
+
+
+
+<p>Not only does Shelley maintain an active research career but also gives back to the global community through her tireless efforts sitting on committees and volunteering her time to improve biodiversity science. Her service includes being the Oceania representative on the Biodiversity Information Standards (TDWG) executive, Member at Large for the Society for the Preservation of Natural History Collections, and Chair of the Managers of Australasian Herbarium Collections. Her recent work has focused on the expansion and improvement of herbarium collections and biodiversity data and ways to best analyse, contribute to, understand, and better our conservation efforts in Western Australia, Australia and around the world.</p>
+
+
+
+<p>More information:</p>
+
+
+
+<ul><li>You can read <a href="https://bionomia.net/0000-0003-1105-1850" target="_blank" rel="noreferrer noopener">Shelley’s profile in Bionomia</a>, or view her <a href="https://orcid.org/0000-0003-1105-1850" target="_blank" rel="noreferrer noopener">ORCID</a>.</li></ul>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="corrie-moreau"><strong>Corrie Moreau</strong></h2>
+
+
+
+<p>By Dax Kellie, Data Analyst</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/corrie-1.jpg" alt="&quot;&quot;" class="wp-image-46369" width="442" height="507" srcset="https://www.ala.org.au/app/uploads/2022/02/corrie-1.jpg 312w, https://www.ala.org.au/app/uploads/2022/02/corrie-1-261x300.jpg 261w" sizes="(max-width: 442px) 100vw, 442px" /><figcaption><meta charset="utf-8">Photo: Cornell University</figcaption></figure></div>
+
+
+
+<p>Dr Corrie Moreau is a Professor at Cornell University and the Director &amp; Curator of the Cornell University Insect Collection. She loves ants. She researches them and the symbiotic diversity of bacteria in their guts to understand broad evolutionary patterns of life.</p>
+
+
+
+<p>Over her PhD, Dr Moreau ambitiously undertook a massive project to use DNA sequencing to construct a family tree of all the major groups of ants in the world. Impressively, she did this work independently of several leading experts (who had just been funded millions of dollars to do the same) after she had asked permission to try to decode a small chunk of the tree and they turned her down. It was a gutsy move for a PhD candidate to take on a project that was eventually compared directly to that of leading experts, but when the two final phylogenies were compared, they “matched almost perfectly”! (quote from E. O. Wilson’s <em>Letters to a Young Scientist</em>)</p>
+
+
+
+<p>I was lucky enough to meet Dr Moreau when she gave an invited talk at UNSW, Sydney early on in my PhD. At the time, I had no idea who she was. I had just joined my centre’s social committee, and so I was responsible for organising events and attending to invitees. My own research had nothing to do with ants, gut bacteria, or phylogenomics. Yet Corrie was an enigmatic speaker and a friendly presence. She was especially warm to students and gave some of the best advice I have received to this day on how to advocate and support gender and cultural diversity in STEM. Importantly, she showed me that you don’t have to be a stereotypical academic scientist to succeed – one can still be exceptional while being fun, supportive, and very much themselves.</p>
+
+
+
+<p>Edward O. Wilson, Corrie’s PhD supervisor explains Corrie’s disposition perfectly in his book <em>Letters to a Young Scientist</em>:</p>
+
+
+
+<p>“There was no bravado in Corrie, no trace of overweening pride, no pretension. She was a quiet, serene enthusiast. As it turned out, she was also an open, helpful friend to fellow students and others around her.”</p>
+
+
+
+<p>Hilariously, I was reading this book when I met Corrie and told her about this amazing PhD student in the book who independently created a phylogeny of all the ants…not realising it was her!</p>
+
+
+
+<p>More information:</p>
+
+
+
+<ul><li>You can read Corrie’s profile on the <a href="https://www.moreaulab.entomology.cornell.edu/people/corrie-moreau/" target="_blank" rel="noreferrer noopener">Moreau Lab</a> website, and also on the <a href="https://ecologyandevolution.cornell.edu/corrie-moreau" target="_blank" rel="noreferrer noopener">Cornell</a> website.</li></ul>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="elinor-ostrom"><strong>Elinor Ostrom</strong></h2>
+
+
+
+<p>By Peggy Newman, Team Lead &amp; Data Manager</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/ostrom-15149-portrait-mini-2x-1.jpeg" alt="&quot;&quot;" class="wp-image-46367" width="436" height="656"/><figcaption><meta charset="utf-8">Photo: U. Montan, source: The Nobel Foundation</figcaption></figure></div>
+
+
+
+<p>My current STEM hero is Elinor Ostrom, the only woman to have ever won a Nobel Prize for Economic Sciences. I’m fascinated that her research delved into solutions for the “tragedy of the commons,” and found that there are ways communities can&nbsp;successfully care&nbsp;for common property like land and natural resources without exploiting&nbsp;and destroying&nbsp;them. She found a happy medium between privatisation and state&nbsp;regulation&nbsp;to effectively and efficiently manage natural resources, whereby the community that uses the resource manages it.&nbsp;</p>
+
+
+
+<p>I’m extremely moved by her work&nbsp;because the popular discourse of blaming our current environmental and social problems on human greed tends to point fingers at individuals without&nbsp;examining the systems that enable the problems. Through real examples, Ostrom’s work&nbsp;examines how those systems can work better through community governance. Coming from a family of primary producers who rely heavily on environmental resources, I am unbelievably excited about this. In 2012, Time magazine named her as one of the most 100 influential people in the world. Sure we’re not there yet, but Ostrom undoubtedly worked to make the world a better place.</p>
+
+
+
+<p>More information:</p>
+
+
+
+<ul><li><a href="https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/" target="_blank" rel="noreferrer noopener">Read more about Elinor’s work in detail, and watch one of her lectures</a></li><li>If you’re after a quick read, <a href="http://content.time.com/time/specials/packages/article/0,28804,2111975_2111976_2111960,00.html" target="_blank" rel="noreferrer noopener">Time</a> has a great page about Elinor</li></ul>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="spotlight-on-a-girls-in-stem-initiative-robogals"><strong>Spotlight on a girls in STEM initiative: Robogals</strong></h2>
+
+
+
+<p>Robogals is an international student-led organisation that hosts engineering and technology workshops in local communities, with a focus on girls in primary and secondary school. This fantastic initiative provides female role models for young girls and cultivates an interest in STEM. With a vision to inspire, engage and empower young women into STEM, Robogals has reached over 130,000 students globally, many here in Australia.</p>
+
+
+
+<p>This week, Robogals launched their global Science Challenge for 2022: an online STEM competition for girls and gender diverse students aged 5-15. The challenge prompts students to explore innovation and design through guided hands-on projects which can be completed with a friend, parent, or mentor.</p>
+
+
+
+<p>More information:</p>
+
+
+
+<ul><li><a href="https://robogals.org/" target="_blank" rel="noreferrer noopener">https://robogals.org/</a></li><li>To explore the Science Challenge: <a rel="noreferrer noopener" href="https://sciencechallenge.org.au/" target="_blank">https://sciencechallenge.org.au/</a></li></ul>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/robogals-412x1024.png" alt="Robogirls how to participate graphic - sign up, complete 2 minor challenges, complete major challenge, submit major challenge for judging" class="wp-image-46368" width="385" height="957" srcset="https://www.ala.org.au/app/uploads/2022/02/robogals-412x1024.png 412w, https://www.ala.org.au/app/uploads/2022/02/robogals-121x300.png 121w, https://www.ala.org.au/app/uploads/2022/02/robogals.png 528w" sizes="(max-width: 385px) 100vw, 385px" /></figure></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Australian Reference Genome Atlas (ARGA)</title>
 		<link>https://www.ala.org.au/blogs-news/australian-reference-genome-atlas-arga/</link>
 		
@@ -1423,88 +1692,6 @@
 
 
 <p>If you have any questions or would like more information please contact <a href="mailto:support@ala.org.au">support@ala.org.au</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>CoralWatch launches new database</title>
-		<link>https://www.ala.org.au/blogs-news/coralwatch-launches-new-database/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Mon, 15 Nov 2021 03:52:31 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[Citizen science]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=45629</guid>
-
-					<description><![CDATA[Renowned citizen science program CoralWatch launched their new database using the ALA's Biocollect field data collection platform.]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="321" height="157" src="https://www.ala.org.au/app/uploads/2021/11/Coral-watch-logo.jpg" alt="" class="wp-image-45630" srcset="https://www.ala.org.au/app/uploads/2021/11/Coral-watch-logo.jpg 321w, https://www.ala.org.au/app/uploads/2021/11/Coral-watch-logo-300x147.jpg 300w" sizes="(max-width: 321px) 100vw, 321px" /></figure></div>
-
-
-
-<p></p>
-
-
-
-<p>CoralWatch is a not-for-profit organisation based at The University of Queensland. It is a globally significant citizen science program that started in 2002. It aims to involve anyone (divers, students, scientists and tourists) in monitoring coral colour to help us understand more about coral health and bleaching events.</p>
-
-
-
-<p>CoralWatch creates simple and engaging tools to help citizen scientists monitor global coral health and raises awareness of our reefs via education and public outreach programs.</p>
-
-
-
-<h3 id="collecting-valuable-data-about-coral-health"><strong>Collecting valuable data about coral health</strong> </h3>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1024x1024.png" alt="" class="wp-image-45631" width="254" height="254" srcset="https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1024x1024.png 1024w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-300x300.png 300w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-150x150.png 150w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-768x768.png 768w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002-1536x1536.png 1536w, https://www.ala.org.au/app/uploads/2021/11/coral-health-chart-biocollect-and-ala-logos-002.png 1656w" sizes="(max-width: 254px) 100vw, 254px" /><figcaption>The CoralWatch Health Chart is a tool to help citizen scientists collect data about the colour and coral type.</figcaption></figure></div>
-
-
-
-<p>Through CoralWatch people help collect scientific data on coral bleaching by using the Coral Health Chart. The chart is an easy-to-use tool to quantify changes in coral colour associated with coral bleaching on our reefs.</p>
-
-
-
-<p>The colours on the Coral Health Chart are based on the actual colours of bleached and healthy corals. Each colour square corresponds to the concentration of symbiotic algae living in the coral tissue, which is directly linked to coral health. For more information, visit <a href="https://coralwatch.org/index.php/monitoring/using-the-chart/">Using the coral health chart</a></p>
-
-
-
-<p>The chart is used in the field and classroom, is available in 12 languages and data on more than 2,500 reefs in 81 countries is publicly accessible.</p>
-
-
-
-<h3 id="updating-the-coralwatch-database"><strong>Updating the CoralWatch database</strong></h3>
-
-
-
-<p>After almost 20 years of operation the CoralWatch team needed to update the global database and partnered with the <a href="https://www.qcif.edu.au/about-us/who-we-are/">Queensland Cyber Infrastructure Foundation (QCIF)</a> and the Atlas of Living Australia to find a solution.</p>
-
-
-
-<p>The BioCollect platform is a customisable field data collection tool and proved a good base to build the new CoralWatch database. The QCIF team developed new code to display graphs for the CoralWatch database and the ALA provided technical support and is hosting the database. The new graphs feature is now available to other users of the platform too.</p>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-1024x768.jpg" alt="" class="wp-image-45725" width="371" height="278" srcset="https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-2048x1536.jpg 2048w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2021/11/coral-watch-chart-in-water-640x480.jpg 640w" sizes="(max-width: 371px) 100vw, 371px" /><figcaption>The CoralWatch Health Chart is used by citizen scientists around the world to collect data on the health of our reefs.</figcaption></figure></div>
-
-
-
-<p>All historical data (almost 15,000 reef visits and more than 320,000 coral observations) was imported to BioCollect. The new database can support images and record verification. It will also be able to cope with the growing data storage needs of the CoralWatch project.&nbsp;</p>
-
-
-
-<p>Since the launch of the database (28 September 2021), already 223 surveys have been entered by divers and snorkelers all over the world, including 109 surveys in Australia and 114 surveys from Thailand, Honduras, Taiwan, Northern Mariana Islands, Indonesia, and Egypt.</p>
-
-
-
-<h3 id="more-information"><strong>More information</strong></h3>
-
-
-
-<ul><li>For more information on CoralWatch, visit <a href="https://coralwatch.org/">https://coralwatch.org/</a></li><li>For more details on our BioCollect data collection platform, <a href="https://www.youtube.com/watch?v=QEr6VULLZks">view our BioCollect video</a>.</li></ul>
 ]]></content:encoded>
 					
 		
