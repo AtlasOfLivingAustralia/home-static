@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 28 Feb 2022 03:47:51 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 28 Feb 2022 23:00:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,223 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>The ALA Australian Biodiversity Data Mobilisation Program</title>
+		<link>https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Mon, 28 Feb 2022 23:00:42 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=46498</guid>
+
+					<description><![CDATA[We're looking for institutions to give funding to, to help you digitise your historic biodiversity data. That way, it can be shared more widely and help conservation efforts and decision-making.]]></description>
+										<content:encoded><![CDATA[
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/3-1-edited-1.png" alt="shelves full of folders" class="wp-image-46507" width="321" height="392"/><figcaption>Image: Australian National Insect Collection (ANIC)</figcaption></figure></div>
+
+
+
+<p class="has-medium-font-size">Don’t let your biodiversity data go to waste!</p>
+
+
+
+<p class="has-medium-font-size">Do you have physical biodiversity records in your institution? </p>
+
+
+
+<p class="has-medium-font-size">…Like a cupboard full of handwritten field notes? </p>
+
+
+
+<p class="has-medium-font-size">Or a valuable collection of invertebrates in a store-room drawer? &nbsp;</p>
+
+
+
+<p class="has-medium-font-size"></p>
+
+
+
+<p class="has-medium-font-size">At the ALA, we love data, so we want to hear from you! &nbsp;</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>We’re looking for institutions to support to help you to digitise your historic physical records and provide them to the ALA as digital data. There’s no catch, as long as the records are biodiversity-related. This can be for any wild species in Australia – from koalas to cane toads, eucalypts to bioluminescent fungi, we want to know about it. </p>
+
+
+
+<p>The data might be in paper field notes, or species in physical collections. Whatever it is, we’ll be giving out grants to 6 institutions through both small ($20K) and large grants($50k).</p>
+
+
+
+<p>You might be wondering why! Well, available data = useful data – so by making historical data accessible, it can then be shared more widely and used by researchers, and to support biodiversity conservation efforts and decision-making. </p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/5-1024x576.png" alt="colourful specimens in an insect collection" class="wp-image-46503" width="1005" height="565" srcset="https://www.ala.org.au/app/uploads/2022/02/5-1024x576.png 1024w, https://www.ala.org.au/app/uploads/2022/02/5-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/02/5-768x432.png 768w, https://www.ala.org.au/app/uploads/2022/02/5-1536x864.png 1536w, https://www.ala.org.au/app/uploads/2022/02/5.png 1600w" sizes="(max-width: 1005px) 100vw, 1005px" /><figcaption><meta charset="utf-8">Image: Australian National Insect Collection (ANIC)</figcaption></figure></div>
+
+
+
+<h1 id="details-of-the-program"><strong>Details of the program</strong></h1>
+
+
+
+<h2 id="how-much-funding-can-i-apply-for">How much funding can I apply for? </h2>
+
+
+
+<p>There are two funding amounts on offer, including:</p>
+
+
+
+<ul><li>small grants up to $20,000</li><li>large grants up to $50,000</li></ul>
+
+
+
+<h2 id="who-can-apply">Who can apply?</h2>
+
+
+
+<p>This grant program is open to individuals or groups within an institution excluding existing partners who are already in receipt of ALA or National Collaborative Research Infrastructure Strategy support. </p>
+
+
+
+<h2 id="what-data-are-suitable-for-the-grant">What data are suitable for the grant?</h2>
+
+
+
+<ul id="block-72757bf6-1e52-42ba-81ff-c1d26286af64"><li>The program will target existing data. It cannot support new expeditions or field programs</li><li>Data mobilisation efforts should align to national priorities</li><li>Data should be in the form of biodiversity species occurrence records akin to what&#8217;s delivered through the ALA already</li><li>Emergent digital data must be mapped to the Darwin Core standard and able to be provided to the ALA as open data</li></ul>
+
+
+
+<h2 id="what-can-i-use-the-funding-for">What can I use the funding for?</h2>
+
+
+
+<p>Funding can be used to fund data mobilisation and/or infrastructure investments. </p>
+
+
+
+<p>Data mobilisation investment could include:</p>
+
+
+
+<ul><li>Staff time to digitise of specimens in physical collections including scanning</li><li>Conversion of existing analogue data, such as in field notes or other formats into the Darwin Core standard for provision to the ALA</li></ul>
+
+
+
+<p>Infrastructure investment could include:</p>
+
+
+
+<ul><li>Purchasing digital imaging equipment to create digital data from historic records</li><li>Purchasing software licences to improve the management and delivery of biodiversity data</li><li>Software development costs associated with the improve management and delivery of biodiversity data</li></ul>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/4-1024x576.png" alt="assistant photographing a specimen" class="wp-image-46504" width="737" height="414" srcset="https://www.ala.org.au/app/uploads/2022/02/4-1024x576.png 1024w, https://www.ala.org.au/app/uploads/2022/02/4-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/02/4-768x432.png 768w, https://www.ala.org.au/app/uploads/2022/02/4-1536x864.png 1536w, https://www.ala.org.au/app/uploads/2022/02/4.png 1600w" sizes="(max-width: 737px) 100vw, 737px" /><figcaption><meta charset="utf-8">Image: Australian National Insect Collection (ANIC)</figcaption></figure></div>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="selection-criteria">Selection criteria</h2>
+
+
+
+<p>Applications will be assessed using an online form, in a single round and selected by an independent program evaluation panel. The submission form will be available from the 14th of March. It will contain all questions and a guide to the length of answers our panel is looking for. </p>
+
+
+
+<p>Overall, we are looking to understand the details of the proposed activity, why it is important, and how you would allocate the funds if successful.</p>
+
+
+
+<h2 id="closing-date-for-applications">Closing date for applications</h2>
+
+
+
+<p>11th April 2022, 5pm AEST</p>
+
+
+
+<h2 id="how-to-apply">How to apply</h2>
+
+
+
+<p>The submission form will be available here from the 14th of March.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/1-1024x576.png" alt="&quot;&quot;" class="wp-image-46505" width="707" height="397" srcset="https://www.ala.org.au/app/uploads/2022/02/1-1024x576.png 1024w, https://www.ala.org.au/app/uploads/2022/02/1-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/02/1-768x432.png 768w, https://www.ala.org.au/app/uploads/2022/02/1-1536x864.png 1536w, https://www.ala.org.au/app/uploads/2022/02/1.png 1600w" sizes="(max-width: 707px) 100vw, 707px" /><figcaption><meta charset="utf-8">Image: Australian National Insect Collection (ANIC)</figcaption></figure>
+
+
+
+<h2 id="faqs">FAQ&#8217;s</h2>
+
+
+
+<p><strong>Q. I want to go out into the field <strong>to collect more data</strong>. Will you pay for that?</strong></p>
+
+
+
+<p>A. No, this program is for existing biodiversity species occurrence data only.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Q. If I receive a grant, can I use it to purchase equipment AND pay wages?</strong></p>
+
+
+
+<p>A. Yes, you can! For example, if you receive a grant for $20,000, you might budget to spend $10,000 on a camera, and $10,000 on wages for a research assistant to scan biodiversity speciments</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Q. Does my data have to be completely analogue, such as handwritten notes or specimens?</strong></p>
+
+
+
+<p>A. No, it can be stored on computer, but it must not have been shared with the ALA before. For example, if you have some records from fieldwork in a spreadsheet, as long as it hasn&#8217;t otherwise been shared before, this would qualify. In this case the work would entail conversion of the data to the ALA Darwin Core standard. </p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="any-other-questions">Any other questions?</h2>
+
+
+
+<p>Please <a href="mailto:outreach@ala.org.au">email us</a> with any questions you have about the program.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>GBIF Young Researchers Award 2022 – Call for Nominations</title>
 		<link>https://www.ala.org.au/blogs-news/gbif-young-researchers-award-2022-call-for-nominations/</link>
 		
@@ -1378,60 +1595,6 @@
 
 
 <p><a href="https://www.ala.org.au/app/uploads/2021/11/ALA-newsletter-November-2021_2.pdf">ALA Newsletter November 2021</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Message from our Director &#8211; November 2021</title>
-		<link>https://www.ala.org.au/blogs-news/message-from-our-director-november-2021/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Wed, 17 Nov 2021 22:30:00 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=45729</guid>
-
-					<description><![CDATA[Welcome to the November 2021 edition of our newsletter&#160; The importance of investing in fundamental research infrastructure&#160;such as the ALA&#160;to support unanticipated science and decision-making needs has been highlighted so effectively in a fantastic body of work led by the National Environmental Science Programme’s Threatened Species Recovery Hub&#160;in&#160;their report titled&#160;Assessment of the impacts of the [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Welcome to the November 2021 edition of our newsletter&nbsp;</p>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full is-resized"><a href="https://www.nespthreatenedspecies.edu.au/publications-and-tools/assessment-of-the-impacts-of-the-2019-20-wildfires-of-southern-and-eastern-australia-on-invertebrate-species-final-report"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/TSR-Hub-repoert-Oct-2021.png" alt="" class="wp-image-45730" width="224" height="183" srcset="https://www.ala.org.au/app/uploads/2021/11/TSR-Hub-repoert-Oct-2021.png 793w, https://www.ala.org.au/app/uploads/2021/11/TSR-Hub-repoert-Oct-2021-300x245.png 300w, https://www.ala.org.au/app/uploads/2021/11/TSR-Hub-repoert-Oct-2021-768x627.png 768w, https://www.ala.org.au/app/uploads/2021/11/TSR-Hub-repoert-Oct-2021-790x647.png 790w" sizes="(max-width: 224px) 100vw, 224px" /></a><figcaption>National Environmental Science Programme’s Threatened Species Recovery Hub report <em><a href="https://www.nespthreatenedspecies.edu.au/publications-and-tools/assessment-of-the-impacts-of-the-2019-20-wildfires-of-southern-and-eastern-australia-on-invertebrate-species-final-report">Assessment of the impacts of the 2019-20 wildfires of southern and eastern Australia on invertebrate species&nbsp;final report (Marsh et al 2021)</a></em></figcaption></figure></div>
-
-
-
-<p>The importance of investing in fundamental research infrastructure&nbsp;such as the ALA&nbsp;to support unanticipated science and decision-making needs has been highlighted so effectively in a fantastic body of work led by the National Environmental Science Programme’s Threatened Species Recovery Hub&nbsp;in&nbsp;their report titled&nbsp;<em>Assessment of the impacts of the 2019-20 wildfires of southern and eastern Australia on invertebrate species&nbsp;final report (Marsh et al 2021).</em></p>
-
-
-
-<p>Although the study identifies some&nbsp;notable&nbsp;data gaps with respect to our understanding of the occurrence and distribution of Australian invertebrates, it also&nbsp;effectively&nbsp;highlights the&nbsp;richness&nbsp;of analysis that is now possible&nbsp;at regional scales in Australia – this includes instant access to some of the world’s most comprehensive biodiversity data, combined with world-class ecological modelling capability, and deep science understanding with respect to species risk and conservation planning. The recommendations and future directions&nbsp;parts are&nbsp;a must read and&nbsp;have&nbsp;already started to shape some of our&nbsp;strategic thinking in the ALA.&nbsp;&nbsp;</p>
-
-
-
-<p>With that study in-mind we are excited to profile a new partnership the ALA has established with the Department of Agriculture, Water and the Environment (DAWE) around three innovative citizen science projects to enhance our understanding of how Australia’s biodiversity respond to fire, and ultimately to support species recovery from bushfire impacts. The project is supported by the Australian Government’s Bushfire Recovery Program for Wildlife and their Habitat. One project is engaging members of the public to help digitise data from CSIRO’s Australian National Insect Collection using DigiVol, the Australian Museum and ALA supported digitisation platform. Many of the specimens being digitised by volunteers have few or no occurrence records in the ALA thereby starting to address some of the data gaps identified in the NESP study.  </p>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full is-resized"><a href="https://www.ala.org.au/app/uploads/2021/11/21280-ALA-Case-Study-Fact-Sheets-Citizen-Science-V4.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/Bushifre-recovery-projects_thumbnail.png" alt="" class="wp-image-45496" width="210" height="290"/></a><figcaption><a href="https://www.ala.org.au/app/uploads/2021/11/21280-ALA-Case-Study-Fact-Sheets-Citizen-Science-V4.pdf">Download Bushfire recovery projects impact case study</a></figcaption></figure></div>
-
-
-
-<p>Why connect these two projects? Collectively they highlight that Australia does have the component parts to build a truly comprehensive, adequate and representative national biodiversity data capability. The combination of world class ecological science and taxonomic expertise, the passion and skill of volunteers and the infrastructure to support data mobilisation and integration through the ALA and DigiVol places Australia in a remarkable position to connect these elements in a more strategic manner. Improving these connections is indeed one of the frontiers we hope to explore further in coming years.  </p>
-
-
-
-<p>I hope you enjoy reading&nbsp;our November newsletter.&nbsp;&nbsp;</p>
-
-
-
-<p>Dr Andre&nbsp;Zerger&nbsp;</p>
-
-
-
-<p><strong>Citation</strong>: Marsh, J., Bal, P., Fraser, H., Umbers, K., Greenville, A.,&nbsp;Rumpff, L.,&nbsp;Woinarski, J., 2021. Assessment of the impacts of the 2019-20 wildfires of&nbsp;southern and eastern Australia on invertebrate species. NESP Threatened Species Recovery Hub Project 8.3.1 Final report, Brisbane.&nbsp;</p>
 ]]></content:encoded>
 					
 		
