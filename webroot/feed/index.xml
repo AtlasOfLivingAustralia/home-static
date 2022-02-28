@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 28 Feb 2022 03:35:58 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 28 Feb 2022 03:47:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -36,7 +36,7 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=46442</guid>
 
-					<description><![CDATA[Nominations are now open for the GBIF 2022 Young Researchers Award. This Award is an annual programme aimed at fostering and recognising innovative research and discovery in biodiversity informatics.]]></description>
+					<description><![CDATA[Nominations are now open for the GBIF 2022 Young Researchers Award. This award is an annual programme aimed at fostering and recognising innovative research and discovery in biodiversity informatics.]]></description>
 										<content:encoded><![CDATA[
 <p class="has-background" style="background-color:#e7e6ea">Nominations are now open for the GBIF 2022 Young Researchers Award. This award is an annual program aimed at fostering and recognising innovative research and discovery in biodiversity informatics. </p>
 
@@ -54,7 +54,7 @@
 
 
 
-<p>All applicants need to receive a formal nomination from the heads of delegation and node managers of <a href="https://www.gbif.org/the-gbif-network">GBIF Participant countries</a>. This year our team at the Atlas of Living Australia will coordinate the applications from Australian researchers. We will select two nominations to be assessed by the GBIF Science Committee.</p>
+<p>All applicants need to receive a formal nomination from the heads of delegation and node managers of&nbsp;<a href="https://www.gbif.org/the-gbif-network">GBIF Participant countries</a>. This year our team at the Atlas of Living Australia will coordinate the applications from Australian researchers. We will select two nominations to be assessed by the GBIF Science Committee.</p>
 
 
 
@@ -122,7 +122,7 @@
 
 
 
-<ol><li><strong>Research summary</strong> (<em>200 words</em>)<br><br></li><li><strong>Project description</strong> (<em>maximum 5 pages, 12-point Arial</em>) that describes<br>a. The need for the research and the question(s) it addresses.<br>b. <strong>The role of data accessed through GBIF in addressing these questions</strong>. Research proposals must clearly demonstrate how the study incorporates data mobilised through GBIF. Students with questions about GBIF-enabled data should work with academic advisors, their GBIF national node, the GBIF Secretariat or members of the Science Committee to increase their understanding.<br>c. The research scope, plan, methodologies, relevant literature citations and timetable.<br>d. If relevant, a description or an excerpt from a data management plan that outlines how data related to the research is published or will be prepared for publication through the GBIF network to GBIF.org.<br><br></li><li><strong>Curriculum vitae</strong> of the student applicant including full contact information at the home institution.<br><br></li><li><strong>Supporting documents</strong><br>a. An official letter from the student’s faculty mentor/supervisor certifying that the applicant is a student in good standing in the graduate programme of the university.<br>b. At least one, and no more than three, letters of support from established researchers active in a field that encompasses and incorporates biodiversity informatics (e.g., genetics, species composition and traits, biogeography, ecology, systematics, et al.)</li></ol>
+<ol><li><strong>Research summary</strong>&nbsp;(<em>200 words</em>)<br><br></li><li><strong>Project description</strong>&nbsp;(<em>maximum 5 pages, 12-point Arial</em>) that describes<br>a. The need for the research and the question(s) it addresses.<br>b.&nbsp;<strong>The role of data accessed through GBIF in addressing these questions</strong>. Research proposals must clearly demonstrate how the study incorporates data mobilised through GBIF. Students with questions about GBIF-enabled data should work with academic advisors, their GBIF national node, the GBIF Secretariat or members of the Science Committee to increase their understanding.<br>c. The research scope, plan, methodologies, relevant literature citations and timetable.<br>d. If relevant, a description or an excerpt from a data management plan that outlines how data related to the research is published or will be prepared for publication through the GBIF network to GBIF.org.<br><br></li><li><strong>Curriculum vitae</strong>&nbsp;of the student applicant including full contact information at the home institution.<br><br></li><li><strong>Supporting documents</strong><br>a. An official letter from the student’s faculty mentor/supervisor certifying that the applicant is a student in good standing in the graduate programme of the university.<br>b. At least one, and no more than three, letters of support from established researchers active in a field that encompasses and incorporates biodiversity informatics (e.g., genetics, species composition and traits, biogeography, ecology, systematics, et al.)</li></ol>
 
 
 
