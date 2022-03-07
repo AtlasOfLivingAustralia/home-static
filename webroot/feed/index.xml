@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 02 Mar 2022 04:56:16 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 07 Mar 2022 22:03:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,83 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Director&#8217;s message: ALA Newsletter March 2022</title>
+		<link>https://www.ala.org.au/blogs-news/directors-message-ala-newsletter-march-2022/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Mon, 07 Mar 2022 22:03:00 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=46554</guid>
+
+					<description><![CDATA[Launch of the ALA Australian Biodiversity Data Mobilisation Program Welcome to the March 2022 edition of our newsletter, in which we launch the ALA Australian Biodiversity Data Mobilisation Program. This new program will provide grants to institutions to mobilise their data to the ALA. This could include the transcription of historical field sheets, acquisition of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<h2 id="launch-of-the-ala-australian-biodiversity-data-mobilisation-program">Launch of the ALA Australian Biodiversity Data Mobilisation Program</h2>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-1024x576.png" alt="" class="wp-image-46572" width="413" height="232" srcset="https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-1024x576.png 1024w, https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-768x432.png 768w, https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-1536x864.png 1536w, https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo.png 1600w" sizes="(max-width: 413px) 100vw, 413px" /></figure></div>
+
+
+
+<p>Welcome to the March 2022 edition of our newsletter, in which we launch the <strong><a href="https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/">ALA Australian Biodiversity Data Mobilisation Program.</a></strong></p>
+
+
+
+<p>This new program will provide grants to institutions to mobilise their data to the ALA. This could include the transcription of historical field sheets, acquisition of contemporary digital scanning technology, or even the development or purchase of software to provide better approaches to biodiversity data management and delivery. The ‘how’ will be up to the successful grant recipients, hence the program will offer maximum flexibility for successful applicants. We plan to award 6 grants in the first year of the program across both small ($20K) and large grants ($50K).</p>
+
+
+
+<h3 id="why-were-creating-this-grant-program">Why we&#8217;re creating this grant program</h3>
+
+
+
+<p>The success of the ALA as Australia’s biodiversity data infrastructure rests so much on the contribution made by its data partners across multiple domains. Data in the ALA comes from biological collections, museum and herbaria, state government, major research programs, non-government organisations and increasingly citizen scientists.</p>
+
+
+
+<p>We partner with over 900 of these groups and individuals to harmonise Australia’s biodiversity data. Despite these partner contributions we remain acutely aware that for small institutions, or where historical data remains in analogue format, providing biodiversity data to the ALA remains a challenge, and we encourage you to apply for assistance through this new program.</p>
+
+
+
+<p>I’ve been reflecting on the ecological data I collected as a researcher working across the south west slopes of NSW and parts of Victoria some years ago. I spent a decade supporting the collection of fundamental data about Australia’s flora and fauna. Much of this made its way into digital databases, at the time in CSIRO and the University of Melbourne. However, the ALA did not exist so this record although digital, remains undiscoverable.&nbsp; I also saw first-hand the filing cabinets of paper field sheets from my predecessors that provide a fundamental record of our biodiversity and may never be digitised.</p>
+
+
+
+<p>With this context in mind, I am &nbsp;very excited to be launching the <strong><a href="https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/">ALA Australian Biodiversity Data Mobilisation Program</a>.</strong></p>
+
+
+
+<h3 id="program-details-application-and-assessment">Program details: application and assessment</h3>
+
+
+
+<p>Clearly there’s a massive amount of biodiversity data that remains un-digitised and the job of the evaluation panel will be to make informed assessments against defined criteria. Detailed guidelines will be published shortly on the <a href="https://www.ala.org.au/blog/">ALA blog</a> and on our ALA social media channels &#8211; <a href="https://twitter.com/atlaslivingaust">Twitter</a>, <a href="https://www.facebook.com/atlasoflivingaustralia">Facebook</a> and <a href="https://www.linkedin.com/company/1232460">LinkedIn</a>. Principles underpinning the program include alignment with national priorities and a focus on significant historical biodiversity information not currently available as FAIR data – findable, accessible, interoperable, reusable.</p>
+
+
+
+<p>The program will be evaluated by an independent panel Chaired by Dr David Cantrill, one of the ALA Advisory Board’s longest serving members.</p>
+
+
+
+<p>Our team is so excited by the opportunity this program will deliver Australia’s biodiversity community and already anticipates the legacy it will deliver. We look forward to seeing some fantastic applications.</p>
+
+
+
+<p>I hope you enjoy our March 2022 newsletter.</p>
+
+
+
+<p>Dr. Andre Zerger </p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>The ALA Australian Biodiversity Data Mobilisation Program</title>
 		<link>https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/</link>
 		
@@ -1577,32 +1654,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter November 2021</title>
-		<link>https://www.ala.org.au/blogs-news/ala-newsletter-november-2021/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Thu, 18 Nov 2021 02:46:31 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=45759</guid>
-
-					<description><![CDATA[ALA Newsletter November 2021]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large is-resized"><a href="https://www.ala.org.au/app/uploads/2021/11/ALA-newsletter-November-2021_2.pdf"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/11/thumbnail-889x1024.png" alt="" class="wp-image-45760" width="405" height="467" srcset="https://www.ala.org.au/app/uploads/2021/11/thumbnail-889x1024.png 889w, https://www.ala.org.au/app/uploads/2021/11/thumbnail-260x300.png 260w, https://www.ala.org.au/app/uploads/2021/11/thumbnail-768x885.png 768w, https://www.ala.org.au/app/uploads/2021/11/thumbnail.png 1161w" sizes="(max-width: 405px) 100vw, 405px" /></a></figure>
-
-
-
-<p></p>
-
-
-
-<p><a href="https://www.ala.org.au/app/uploads/2021/11/ALA-newsletter-November-2021_2.pdf">ALA Newsletter November 2021</a></p>
 ]]></content:encoded>
 					
 		
