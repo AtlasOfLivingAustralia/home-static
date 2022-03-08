@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 07 Mar 2022 22:03:00 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Mar 2022 01:55:45 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter March 2022</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-march-2022/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Tue, 08 Mar 2022 01:55:45 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=46580</guid>
+
+					<description><![CDATA[ALA Newsletter March 2022]]></description>
+										<content:encoded><![CDATA[
+<p><a href="https://www.ala.org.au/app/uploads/2022/03/ALA-Newsletter-March-2022.pdf">ALA Newsletter March 2022</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s message: ALA Newsletter March 2022</title>
 		<link>https://www.ala.org.au/blogs-news/directors-message-ala-newsletter-march-2022/</link>
 		
@@ -1469,191 +1486,6 @@
 
 
 <div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Delivering data to improve reporting on Australia&#8217;s environment</title>
-		<link>https://www.ala.org.au/blogs-news/delivering-data-to-improve-reporting-on-australias-environment/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Tue, 30 Nov 2021 21:48:44 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=45791</guid>
-
-					<description><![CDATA[Australia’s national research infrastructures are working together to streamline access to integrated data for State of the Environment reporting and other environmental assessments. The collaborative project is ensuring easy, open access to comparable, time-series datasets for key measures of the state of Australia’s environment and biodiversity.]]></description>
-										<content:encoded><![CDATA[
-<div style="height:24px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="alignright is-resized"><img loading="lazy" src="https://lh4.googleusercontent.com/_5DBOq9YB-io5hFIFp6nCV9Ko1Y6Jt8H0XrjKuSE6QfIRc-_QbfN_10bdXIsB8HbFK5KdD22hBrMXRyYwsEcKUJq8jMXaxHVFIOCOexaUQwVj0a-NevAgM1AoYjBPs7WRNVzzajO" alt="illustrated flowchart of observations to datasets" width="302" height="453"/></figure></div>
-
-
-
-<p>Every five years, the Australian Government delivers the State of the Environment (SoE) report, a review of how Australia’s environment is being affected by changing pressures on land and marine areas and how these changes will impact the economy and society.</p>
-
-
-
-<p>Australian research infrastructures and their data partners collect massive amounts of data each year on all aspects of the environment, but this information does not feed readily into the processes that support reporting at the national scale or in each State and Territory.</p>
-
-
-
-<p>To address this, four National Collaborative Research Infrastructure Strategy (NCRIS) research infrastructure projects are working with the Australian Government Department of Agriculture, Water and the Environment (DAWE) to deliver integrated data for future SoE reporting and other environmental assessments.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="comprehensive-environmental-monitoring-data">Comprehensive environmental monitoring data</h2>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>The Atlas of Living Australia (ALA), Integrated Marine Observing System (IMOS), and Terrestrial Ecosystem Research Network (TERN) collect and collate data on Australia’s environment and maintain metadata on environmental survey and monitoring activities.&nbsp;</p>
-
-
-
-<p>Through the new <a href="http://doi.org/10.47486/XN005">EcoAssets</a> project they are partnering with the Australian Research Data Commons (ARDC) to share these resources in standard formats as integrated data assets, making them directly available to SoE reporting through the ARDC’s data publishing service, <a href="https://researchdata.edu.au/">Research Data Australia</a>.</p>
-
-
-
-<p>EcoAssets is also identifying opportunities to increase alignment between data from all partners, in particular to simplify spatio-temporal analysis and to address differences in terminology and vocabularies.</p>
-
-
-
-<p>The research infrastructures will operationalise EcoAssets data pipelines so that each data asset developed by the project can be updated at regular intervals, ensuring that SoE reporting and similar processes will have access to comparable time series for key measures of the state of Australia’s environment and biodiversity.</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<blockquote class="wp-block-quote"><p><em>&#8220;Australia is home to many world-leading environmental researchers and ALA, ARDC, TERN and IMOS play important national roles in both helping their research through access to data and through providing their data to help our managers plan for the future.</em><br><br><em>The EcoAssets project will streamline the flow of data and knowledge from Australia’s national research infrastructures into SoE reporting by creating structured, automated data pathways and useful data products and visualisations.&nbsp;</em><br><br><em>Our vision is for SoE reporting to become more efficient and, most importantly, more accurate as we incorporate more and more of the nation&#8217;s environmental data. I am certain that this project lays the foundation for future SoE reports to benefit greatly from the ongoing digital updates resulting from the EcoAssets project.&#8221;</em><br><br><em>Dr Ian Cresswell, Co-Chief Author, 2021 National State of the Environment Report</em></p></blockquote>
-
-
-
-<figure class="wp-block-image"><img src="https://lh4.googleusercontent.com/P_UtH8CGeuV-ne9znHeuPu2PucFB9kYDS1Ekk95mq8M-Sh4FLCzzRFtTj1SN8kBgZ3_YmIFdB1MC3CdJxBL2bSkXrzyCT7MKG4AI666aHpRZakKv_nXVcRlleFswinfJFAwJz9yO" alt="map of Australia showing occurrence, monitoring and station locations (land and sea)"/><figcaption><em>Environmental survey and monitoring activities 2016-2020 from the Atlas of Living Australia, Integrated Marine Observing System and Terrestrial Ecosystem Research Network</em>.</figcaption></figure>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="integrated-datasets-for-better-reporting">Integrated datasets for better reporting&nbsp;</h2>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>EcoAssets will focus on two cross-infrastructure data assets.</p>
-
-
-
-<ol><li><strong>Integrated species distribution</strong> data asset updated regularly with new data collected by all three infrastructures. IMOS collects data on marine communities around Australia’s reefs and tracks individual animals via tags and acoustic telemetry. TERN conducts a wide range of site-based surveys from which species distribution data can be extracted. These will be combined with other sources of species distribution data aggregated by the ALA.</li></ol>
-
-
-
-<ol start="2"><li><strong>Integrated survey and monitoring activity</strong> data asset collating the survey effort applied towards understanding different aspects of the Australian environment. Combined, TERN and IMOS maintain a wide range of fixed and mobile monitoring infrastructure and collect data and metadata by undertaking time series site-based surveys. The ALA also collates data from standardised biodiversity surveys, including published project metadata. These sources will all be mapped and organised using a common vocabulary to facilitate comparison of survey effort across time and space.</li></ol>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<blockquote class="wp-block-quote"><p><em>“One of the challenges in compiling State of the Environment Report chapters is that studies are often place-based, meaning that compiling a truly national picture requires integrating separate studies, often conducted using different methods, and with gaps between them.&nbsp;</em><br><br><em>EcoAssets will make it simpler to obtain national perspectives, with all of the underpinning data available for scrutiny or re-analysis, ensuring users can have confidence in the summary reports presented.”</em><br><br><em>Dr Dan Metcalfe, CSIRO and State of the Environment report 2016 &amp; 2021 chapter author</em></p></blockquote>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>The EcoAssets data collection is intended as a launchpad for discovery and access to other nationally significant environmental data assets. Once the data collection pipelines for EcoAssets are created, they will be opened to other national environmental information holders, including national research infrastructures, state and federal agencies, non-governmental organisations and more.</p>
-
-
-
-<p>Bringing these resources into a common framework will encourage increased reuse and standardisation, as well as providing a valuable resource for researchers, government decision makers and evidence-based policy.</p>
-
-
-
-<h2 id="more-information">More information</h2>
-
-
-
-<ul><li>View the <a href="https://www.ala.org.au/app/uploads/2021/06/21331-ALA-EcoAssets-Info-Sheet-V5_final.pdf"><strong>EcoAssets brochure</strong></a></li><li>Discover ALA <a href="https://collections.ala.org.au/datasets"><strong>data collections</strong></a></li><li>Discover IMOS <a href="https://portal.aodn.org.au/"><strong>data collections</strong></a></li><li>Discover TERN <a href="https://www.tern.org.au/data/"><strong>data collections</strong></a></li><li>For reference, the full title of this project is “Ecosystem data integration to support national environmental reporting (State of the Environment)” (<a href="http://doi.org/10.47486/XN005">doi.org/10.47486/XN005</a>)</li></ul>
-
-
-
-<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p></p>
-
-
-
-<hr class="wp-block-separator"/>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="the-partners">The Partners&nbsp;</h2>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>In partnership with the Australian Research Data Commons (ARDC), the <a href="http://doi.org/10.47486/XN005">EcoAssets project</a> will build data linkages between three world-leading research infrastructures funded under Australia’s National Collaborative Research Infrastructure Strategy (NCRIS).</p>
-
-
-
-<p><a href="http://ala.org.au">The Atlas of Living Australia</a> (ALA) harmonises occurrence records of Australian plant and animal species, bringing together data from labels on museum and herbaria specimens, field surveys, citizen science observations, molecular sequencing and literature.</p>
-
-
-
-<p>The<a href="https://imos.org.au/"> Integrated Marine Observing System</a> (IMOS) collects observations and measurements of ocean conditions, species and habitats from the open ocean to coastal waters. These high-quality ocean observations help monitor marine ecosystems, define patterns and trends, and address challenges facing our marine estate.</p>
-
-
-
-<p><a href="https://www.tern.org.au/">The Terrestrial Ecosystem Research Network</a> (TERN) monitors changes over time in the biodiversity of Australia&#8217;s terrestrial ecosystems by consistently measuring essential biodiversity and climate variables at continental, regional and site scales.</p>
-
-
-
-<p>The <a href="https://ardc.edu.au/">Australian Research Data Commons</a> (ARDC) enables the Australian research community and industry access to nationally significant, data intensive digital research infrastructure, platforms, skills and collections of high quality data.</p>
-
-
-
-<p>These infrastructures are working with the Department of Agriculture, Water and the Environment (DAWE) to ensure that their data combine to meet the needs for future SoE and other national monitoring and assessment processes.</p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
