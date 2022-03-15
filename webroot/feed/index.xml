@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 15 Sep 2021 00:44:38 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 15 Mar 2022 00:41:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Tiws-day arrives again</title>
+		<link>https://www-test.ala.org.au/blogs-news/tiws-day-arrives-again/</link>
+		
+		<dc:creator><![CDATA[Matt Andrews]]></dc:creator>
+		<pubDate>Tue, 15 Mar 2022 00:41:17 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45394</guid>
+
+					<description><![CDATA[In breaking news, we have heard that the rumours of the imminent arrival of Tiws-day (known by the younger generation as Tuesday) have proven correct. Take cover!]]></description>
+										<content:encoded><![CDATA[
+<p>In breaking news, we have heard that the rumours of the imminent arrival of Tiws-day (known by the younger generation as Tuesday) have proven correct. Take cover!</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Message&#8230;.</title>
 		<link>https://www-test.ala.org.au/blogs-news/message/</link>
 		
@@ -435,72 +452,6 @@
 
 
 <p class="has-text-align-center"><a href="https://edit.ala.org.au/app/uploads/2020/11/ALA-Newsletter-November-2020.pdf">ALA Newsletter November 2020</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>New improvements to ALA data quality filters</title>
-		<link>https://www-test.ala.org.au/blogs-news/new-improvements-to-ala-data-quality-filters/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Sun, 22 Nov 2020 22:55:16 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://edit.ala.org.au/?p=44445</guid>
-
-					<description><![CDATA[The ALA Data Quality project has released its first product for beta testing. ]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://edit.ala.org.au/app/uploads/2020/02/AcroRd32_2020-02-05_14-55-47.png" alt="ALA Data Quality Project icon" class="wp-image-43643" width="204" height="194"/></figure></div>
-
-
-
-<p>Since the project launch in&nbsp;February this year the Data Quality project team has been working with&nbsp;the ALA user community&nbsp;to identify&nbsp;data quality related issues and develop solutions.&nbsp; Thank you to everyone who completed our surveys,&nbsp;contributed to our understanding of the baseline&nbsp;perceptions of data quality,&nbsp;helped to&nbsp;prioritise&nbsp;the issues,&nbsp;and tested&nbsp;solutions.&nbsp;</p>
-
-
-
-<p><strong>Prioritisation survey results</strong>&nbsp;</p>
-
-
-
-<p>After establishing a baseline for perceptions of data quality (<a href="https://www.ala.org.au/blogs-news/data-quality-project-baseline-survey-results/" target="_blank" rel="noreferrer noopener">see results</a>), we conducted a&nbsp;prioritisation&nbsp;survey to&nbsp;identify&nbsp;which&nbsp;issues&nbsp;the data quality project&nbsp;address&nbsp;first. The top two issues identified&nbsp;were:&nbsp;</p>
-
-
-
-<ul><li>Users of the ALA are using data accessed via the ALA without filtering out records that are not fit for purpose.&nbsp;</li><li>I don’t know whether to use particular records or datasets for my purpose because quality indicators are not visible, or I don&#8217;t understand what the information means.&nbsp;</li></ul>
-
-
-
-<p><strong>Data Quality project first release – improvements to data filters</strong><strong>&nbsp;</strong>&nbsp;</p>
-
-
-
-<p>In response to the issues above,&nbsp;the project developed a&nbsp;new&nbsp;capability&nbsp;to&nbsp;pre-filter search results so that lower quality records&nbsp;(such as&nbsp;those with incomplete or inconsistent data)&nbsp;are not shown unless they are actively included.&nbsp;</p>
-
-
-
-<p>The filters can be seen in a new&nbsp;Data Profile&nbsp;section&nbsp;above the&nbsp;search results.&nbsp;</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://edit.ala.org.au/app/uploads/2020/11/image.png" alt="" class="wp-image-44446" width="680" height="147" srcset="https://www-test.ala.org.au/app/uploads/2020/11/image.png 602w, https://www-test.ala.org.au/app/uploads/2020/11/image-300x65.png 300w" sizes="(max-width: 680px) 100vw, 680px" /></figure>
-
-
-
-<p>The new release enables users to switch filters on&nbsp;or&nbsp;off&nbsp;and manage&nbsp;them&nbsp;as a group or individually.&nbsp;Information is available on the&nbsp;fields and data that make up the filters&nbsp;through mouse-over text and&nbsp;clickable info icons (i).&nbsp;&nbsp;&nbsp;</p>
-
-
-
-<p>To get involved, <a href="https://biocache-dq-beta.ala.org.au/occurrences/search?q=">join beta testing of the new Data profiles</a> feature. &nbsp;</p>
-
-
-
-<p>To learn more about the&nbsp;new data filter features,&nbsp;read&nbsp;<a rel="noreferrer noopener" href="https://support.ala.org.au/support/solutions/articles/6000240256-getting-started-with-the-data-quality-filters" target="_blank">Getting started with the Data profiles</a>&nbsp;</p>
-
-
-
-<p>For more information on the&nbsp;data quality project please visit the&nbsp;<a rel="noreferrer noopener" href="https://www.ala.org.au/data-quality-project/" target="_blank">Data Quality&nbsp;project page</a>&nbsp;or&nbsp;contact us at&nbsp;<a rel="noreferrer noopener" href="mailto:dataquality@ala.org.au" target="_blank">dataquality@ala.org.au</a>.&nbsp;</p>
 ]]></content:encoded>
 					
 		

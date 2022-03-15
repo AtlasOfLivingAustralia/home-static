@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
+<url><loc>https://www-test.ala.org.au/blogs-news/tiws-day-arrives-again/</loc><lastmod>2022-03-15T00:41:17+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/blogs-news/ala-webinar-innovations-in-biodiversity-data-management/</loc><lastmod>2021-09-15T00:44:38+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/blogs-news/message/</loc><lastmod>2021-09-07T07:08:07+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/blogs-news/threatened-species-day/</loc><lastmod>2021-09-07T06:50:45+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
