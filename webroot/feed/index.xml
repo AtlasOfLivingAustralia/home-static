@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 16 Mar 2022 23:34:11 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 17 Mar 2022 01:10:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,122 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA webinar: New Data From Historic Collections</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-new-data-from-historic-collections/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Thu, 17 Mar 2022 01:10:07 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=46527</guid>
+
+					<description><![CDATA[Across Australia there are 60 million natural history specimens held at museums, universities, botanic gardens, herbaria, seed banks and at CSIRO. These collections are made up of whole organisms, skins, tissue samples, skeletons and DNA samples – plus data &#8230; a lot of data &#8230; even including data about that data (metadata). Collections metadata can [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Across Australia there are 60 million natural history specimens held at museums, universities, botanic gardens, herbaria, seed banks and at CSIRO. These collections are made up of whole organisms, skins, tissue samples, skeletons and DNA samples – plus data &#8230; a lot of data &#8230; even including data about that data (metadata).</p>
+
+
+
+<p>Collections metadata can describe from as little as what species the sample or organism is, to when and where they were collected; to site descriptions, species associations, and much more. There is immense hidden value in metadata, and researchers are continually discovering new things about our historic collections.</p>
+
+
+
+<p>In this webinar three researchers describe how they use the data &#8216;hidden&#8217; in our national collections.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="ALA Webinar: New Data from Historic Collections – 16 Mar, 2022" width="640" height="360" src="https://www.youtube.com/embed/8r3YLRcvnE8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p><br>This webinar took place at 1.00pm AEDT, Wednesday 16 March 2022, with 154 live viewers in attendance.</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="speakers">Speakers</h2>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img src="https://events.csiro.au/~/media/Images/Events/E-ALADHC-220316/RocioAguilar-135px.ashx?la=en&amp;hash=9C23ED7DBC59812F7486AA9C86D0412BACDE7F00" alt="Rocio Aguilar"/></figure></div>
+
+
+
+<h3 id="miles-nicholls-atlas-of-living-australia">Rocio Aguilar | Monash University</h3>
+
+
+
+<p>Rocío is an Argentinean herpetologist who has called Australia home for the past 12 years. She specialises in eco-physiology and morphology, thermal biology and CT scanning. She completed her Bachelor and Masters at Comahue National University (Argentina) on habitat use in geckos, and research at the National University of Cuyo (Argentina) on the thermal ecophysiology of iguanids. Rocío worked for 6 years as a Research Assistant with Mike Kearney (University of Melbourne) and Christy Hipsley (University of Melbourne/Museum Victoria) working on eco-physio-morphology and conservation of Australian lizards. As part of a Monash University ARC Linkage Project with Museums Victoria and other Australian Museums, she is currently CT scanning all Australian lizard species to understand the evolutionary morphology pathways that make Australia the most lizard-diverse country in the world!</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img src="https://events.csiro.au/~/media/Images/Events/E-ALADHC-220316/EmilyRoycroft-135px.ashx?la=en&amp;hash=25301C35B33F84634E9F1483BBADC82EF3A8C55E" alt="Dr Emily Roycroft"/></figure></div>
+
+
+
+<h3 id="arve-solland-ecocommons">Emily Roycroft | ANU</h3>
+
+
+
+<p>Emily Roycroft is an evolutionary biologist and postdoctoral researcher at the Australian National University. Her research applies genomic approaches to questions about the evolutionary history of species, primarily focusing on the spectacular diversity of native Australian mammals and reptiles. Emily is especially interested in the ways that museum collections can be used as a genomic resource for understanding recent biodiversity loss in Australia.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img src="https://events.csiro.au/~/media/Images/Events/E-ALADHC-220316/OllyBerry-135px.ashx?la=en&amp;hash=550A9B5CFB482C6E05F2EA641B67D7E1D907E545" alt="Olly Berry"/></figure></div>
+
+
+
+<h3 id="ana-belgun-data61">Olly Berry | CSIRO</h3>
+
+
+
+<p>Olly has a background in spatial ecology and genomics, but currently leads CSIRO’s Environomics Future Science Platform. This is an R&amp;D program whose brief is to find new ways to support environmental management with DNA technologies. It’s a field full of opportunities, and some of the most useful involve accessing information contained in natural history specimens.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
+
+
+
+<h3 id="moderator-bio">Moderator bio</h3>
+
+
+
+<p>Martin Westgate is Science Advisor to the <a href="https://www.ala.org.au/">Atlas of Living Australia</a> and a visiting fellow at the <a href="https://fennerschool.anu.edu.au/">Fenner School of Environment &amp; Society</a> at the Australian National University. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 id="want-more">Want more?</h3>
+
+
+
+<p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Newsletter March 2022</title>
 		<link>https://www.ala.org.au/blogs-news/ala-newsletter-march-2022/</link>
 		
@@ -1329,131 +1445,6 @@
 
 
 <ul><li>Shaina Russell – Postdoctoral Researcher, Macquarie University</li><li>Emilie Ens – Senior Lecturer, Macquarie University</li><li>Ngukurr Yangbala Rangers &#8211; A group of young Aboriginal people from the Ngukurr Community who worked on Natural and Cultural Resource Management projects in the SEAL IPA between 2016 and 2019, funded by The Nature Conservancy.</li></ul>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA webinar: Environmental data infrastructures – Data and technology trends</title>
-		<link>https://www.ala.org.au/blogs-news/ala-webinar-environmental-data-infrastructures-data-and-technology-trends/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Thu, 02 Dec 2021 03:18:53 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=45672</guid>
-
-					<description><![CDATA[Australia faces a range of challenges in how best to monitor and manage its unique and challenging environment. In this context, projects to collate and store environmental data, or convert that data to information that can inform decision-making, are critical to ensure improved outcomes for our land, water and biodiversity. However, the technological infrastructure that [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Australia faces a range of challenges in how best to monitor and manage its unique and challenging environment. In this context, projects to collate and store environmental data, or convert that data to information that can inform decision-making, are critical to ensure improved outcomes for our land, water and biodiversity. However, the technological infrastructure that delivers those benefits, and the novel innovations that power them, are often overlooked. Join us to hear from three speakers working to convert computational innovation into real outcomes for researchers &amp; decision-makers and find out more about where eInfrastructure is heading next.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA webinar: Environmental Data Infrastructures – data and technology trends – 30 Nov, 2021" width="640" height="360" src="https://www.youtube.com/embed/-lOHhW3Wbgo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>This webinar took place at 1.00pm AEDT, Tuesday 30 November 2021, with 186 live viewers in attendance.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="speakers">Speakers</h2>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="ana-belgun-data61">Ana Belgun | Data61</h3>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/AnaBelgun.png" alt="Ana Belgun" class="wp-image-45678"/></figure></div>
-
-
-
-<p>Ana works with the Engineering &amp; Design team in CSIRO Data61 to deliver projects and programs that create innovative data driven technologies, focusing recently on platforms powered by the TerriaJS software. She holds a major in Sociology from the University of Bucharest and a Master of Arts in Public Management from the University of York. Ana has managed the development of several platforms such as the Australian Renewable Mapping Infrastructure (AREMI), NationalMap, National DroughtMap, InvestorMap, State of Environment, Digital Twins and many more, servicing a total of more than 30,000 users per month.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="arve-solland-ecocommons">Arve Sølland | EcoCommons</h3>
-
-
-
-<div class="wp-block-image is-style-default"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/ArveSolland.png" alt="Arve Solland" class="wp-image-45679"/></figure></div>
-
-
-
-<p>Arve is technical lead and solutions architect for EcoCommons, a single, trusted platform for modelling and analysis of biodiversity, and is tasked with ensuring the platform is built on the best available technology and is interoperable with other systems. He has more than a decade of experience working across a range of national and international research projects within the eResearch sector as a senior software engineer and analyst.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="miles-nicholls-atlas-of-living-australia">Miles Nicholls | Atlas of Living Australia</h3>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-Miles.png" alt="Miles Nicholls" class="wp-image-45780"/></figure></div>
-
-
-
-<p>Miles leads the data quality project for the Atlas of Living Australia. With a background in data management for federal government and 10 years as the data manager for the ALA, Miles has been bringing data together to provide information for research, analysis and decision support for more than 15 years. Miles holds a bachelor of science and a bachelor of information technology from the ANU and is an enthusiastic proponent of agile development practices.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
-
-
-
-<h3 id="moderator-bio">Moderator bio</h3>
-
-
-
-<p>Martin Westgate is Science Advisor to the <a href="https://www.ala.org.au/">Atlas of Living Australia</a> and a visiting fellow at the <a href="https://fennerschool.anu.edu.au/">Fenner School of Environment &amp; Society</a> at the Australian National University. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
-
-
-
-<div style="height:60px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="want-more">Want more?</h3>
-
-
-
-<p>All ALA webinars are available to view on <a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a> along with other video content.</p>
-
-
-
-<hr class="wp-block-separator"/>
-
-
-
-<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
 ]]></content:encoded>
 					
 		
