@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.8.2</generator>
+	<generator>https://wordpress.org/?v=5.9.2</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -52,7 +52,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA Webinar: New Data from Historic Collections – 16 Mar, 2022" width="640" height="360" src="https://www.youtube.com/embed/8r3YLRcvnE8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="ALA Webinar: New Data from Historic Collections – 16 Mar, 2022" width="640" height="360" src="https://www.youtube.com/embed/8r3YLRcvnE8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
 
