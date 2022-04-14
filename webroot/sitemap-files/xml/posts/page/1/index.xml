@@ -2,17 +2,16 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www.ala.org.au</loc><lastmod>2022-04-11T23:06:31+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www.ala.org.au</loc><lastmod>2022-04-14T06:42:17+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>https://www.ala.org.au/abdmp-faq/</loc><lastmod>2022-03-16T05:27:26+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/abdmp/</loc><lastmod>2022-04-11T23:06:31+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/publications/ala-future-directions-national-consultation-findings-report/</loc><lastmod>2021-09-27T07:27:11+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/publications/ala-strategy-2020-2025/</loc><lastmod>2021-09-27T07:27:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/careers/</loc><lastmod>2022-04-10T23:04:33+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/publications/atlas-of-living-australia-year-in-review-202021/</loc><lastmod>2021-09-27T07:27:05+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/ala-cited-publications/</loc><lastmod>2022-04-11T15:44:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/ala-cited-publications/</loc><lastmod>2022-04-13T15:44:11+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/current-projects/core-infrastructure-upgrade-project/</loc><lastmod>2021-06-30T01:15:13+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-logo-and-identity/</loc><lastmod>2020-11-01T23:30:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/three-maps-activity/</loc><lastmod>2020-03-04T01:19:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/data-quality-project/</loc><lastmod>2021-02-11T03:30:51+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/current-projects/</loc><lastmod>2022-04-11T02:01:27+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/govhack/</loc><lastmod>2020-08-18T00:10:54+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -27,43 +26,28 @@
 <url><loc>https://www.ala.org.au/lucid-key-for-weeds-of-the-southern-tablelands/</loc><lastmod>2019-06-11T02:46:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/environmentaldna/</loc><lastmod>2019-07-12T02:01:08+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/governance/</loc><lastmod>2022-04-11T05:57:07+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/sites-and-services/</loc><lastmod>2021-12-13T03:39:51+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/sites-and-services/</loc><lastmod>2022-04-14T06:41:05+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/home/record-a-sighting/</loc><lastmod>2022-01-27T00:48:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-for-researchers/</loc><lastmod>2020-02-19T22:11:40+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-for-government-and-land-managers-2/</loc><lastmod>2020-02-19T22:12:55+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/ala-for-community-and-schools-2/</loc><lastmod>2019-09-30T03:00:26+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/ala-for-community-and-schools-2/</loc><lastmod>2022-04-14T06:42:17+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/biocache/</loc><lastmod>2019-08-04T23:30:05+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/old-biocollect/biocollect-hubs/</loc><lastmod>2020-09-15T01:33:42+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-knowledge-base/spatial-portal-help/</loc><lastmod>2017-06-08T00:09:39+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/how-to-use-ala/</loc><lastmod>2019-10-16T01:35:41+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/tasmanian-museum-and-art-gallery/</loc><lastmod>2016-11-28T03:54:58+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/museum-and-art-gallery-of-the-northern-territory/</loc><lastmod>2016-11-08T05:02:15+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/activity-4-data-collection-mapping-and-interpretation/</loc><lastmod>2020-03-03T01:59:02+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/activity-3-graphing-and-probability/</loc><lastmod>2020-01-08T01:09:50+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/activity-2-data-collection-and-mapping/</loc><lastmod>2020-03-03T02:00:24+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/activity-1-data-collection-and-graphing/</loc><lastmod>2016-09-20T01:36:01+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/terms-of-use-biocollect/</loc><lastmod>2015-11-04T06:46:38+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/museums-victoria/</loc><lastmod>2015-09-11T05:58:48+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/australian-museum/</loc><lastmod>2021-12-09T06:16:03+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/australian-national-fish-collection/</loc><lastmod>2015-05-22T00:14:02+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/western-australian-museum-2/</loc><lastmod>2015-05-19T01:09:16+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/south-australian-museum/</loc><lastmod>2020-09-03T00:49:29+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/associated-australian-curriculum-requirements-years-5-6/</loc><lastmod>2015-04-23T03:37:08+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/associated-australian-curriculum-requirements-years-3-4/</loc><lastmod>2015-04-23T03:35:49+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/associated-australian-curriculum-requirements-f-2/</loc><lastmod>2015-04-23T03:33:39+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/australian-national-insect-collection-anic/</loc><lastmod>2015-04-16T04:51:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/queensland-museum/</loc><lastmod>2015-04-15T03:23:42+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/australian-biological-resources-study-abrs/</loc><lastmod>2015-04-15T02:25:44+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/explore-phylogenetic-diversity/</loc><lastmod>2019-08-15T00:55:49+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/exercises-years-11-and-12/</loc><lastmod>2020-06-28T23:55:26+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/exercises-years-9-and-10/</loc><lastmod>2020-04-16T02:32:03+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/exercises-years-7-and-8/</loc><lastmod>2020-04-16T00:17:28+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/exercises-years-5-to-6/</loc><lastmod>2020-03-11T23:05:54+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/exercises-years-3-to-4/</loc><lastmod>2020-04-17T02:52:01+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/case-studies/</loc><lastmod>2014-12-03T05:43:18+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/exercises-foundation-to-year-2/</loc><lastmod>2020-09-10T00:17:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/classroom-exercises/</loc><lastmod>2020-09-09T07:36:47+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/education-resources/</loc><lastmod>2020-09-09T03:12:37+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/tasmanian-herbarium/</loc><lastmod>2014-10-08T06:10:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/downloadable-tools/ala-mobile-app/</loc><lastmod>2021-12-16T00:21:19+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/royal-botanic-gardens-melbourne-rbgm/</loc><lastmod>2014-06-18T23:50:33+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -104,7 +88,7 @@
 <url><loc>https://www.ala.org.au/indigenous-ecological-knowledge/</loc><lastmod>2022-01-11T05:53:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/about-ala/</loc><lastmod>2022-02-11T04:32:57+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/how-to-work-with-data/</loc><lastmod>2019-01-29T03:31:35+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/publications/</loc><lastmod>2022-03-30T01:08:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/publications/</loc><lastmod>2022-04-14T06:30:09+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blog/</loc><lastmod>2019-07-18T03:13:59+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
 </urlset>
