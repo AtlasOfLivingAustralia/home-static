@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 11 Apr 2022 23:03:55 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 04 May 2022 01:50:49 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,87 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Labs: new site offering technical solutions to scientific problems </title>
+		<link>https://www.ala.org.au/blogs-news/ala-labs-new-site-offering-technical-solutions-to-scientific-problems/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Wed, 04 May 2022 01:50:49 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=46796</guid>
+
+					<description><![CDATA[Do you conduct research using Australian biodiversity data? Do you analyse data or make data visualisations? ALA’s newest website, ALA Labs, is here to help. ALA Labs provides technical know-how and detailed solutions to specific scientific problems using data in the ALA. Learn how with ALA Labs posts The main showcase of ALA Labs is [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img src="https://www.ala.org.au/app/uploads/2022/05/chrome_2022-05-04_10-51-16.png" alt="" class="wp-image-46800" width="386" height="257" srcset="https://www.ala.org.au/app/uploads/2022/05/chrome_2022-05-04_10-51-16.png 783w, https://www.ala.org.au/app/uploads/2022/05/chrome_2022-05-04_10-51-16-300x200.png 300w, https://www.ala.org.au/app/uploads/2022/05/chrome_2022-05-04_10-51-16-768x511.png 768w" sizes="(max-width: 386px) 100vw, 386px" /></figure></div>
+
+
+
+<p>Do you conduct research using Australian biodiversity data? Do you analyse data or make data visualisations?</p>
+
+
+
+<p>ALA’s newest website, <a href="https://labs.ala.org.au/">ALA Labs</a>, is here to help. ALA Labs provides technical know-how and detailed solutions to specific scientific problems using data in the ALA.</p>
+
+
+
+<p><strong>Learn how with ALA Labs posts</strong></p>
+
+
+
+<p>The main showcase of ALA Labs is the <strong>Posts </strong>section. Posts are “how-to” articles on how to conduct specific statistical analyses or how to create data visualisations. Each post provides step-by-step commentary on how to do a specific task along with code so you can reproduce the analysis.</p>
+
+
+
+<p></p>
+
+
+
+<p>ALA Labs is managed by <a href="https://labs.ala.org.au/about.html">our Science and Decision Support team</a>. Team members will share solutions to common problems for users, including those that they have used in their own work.</p>
+
+
+
+<p>Solutions described in ALA Labs posts are not intended to be the “only” or “correct” way to solve a problem. Rather, each post offers one <em>possible</em> way to do or make something. The goal is to provide ALA users with working examples to implement in their own work, hopefully making everyone’s analyses and visualisations better!</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="630" src="https://www.ala.org.au/app/uploads/2022/05/ALA-labs-sunburst-plot-1024x630.png" alt="" class="wp-image-46797" srcset="https://www.ala.org.au/app/uploads/2022/05/ALA-labs-sunburst-plot-1024x630.png 1024w, https://www.ala.org.au/app/uploads/2022/05/ALA-labs-sunburst-plot-300x185.png 300w, https://www.ala.org.au/app/uploads/2022/05/ALA-labs-sunburst-plot-768x473.png 768w, https://www.ala.org.au/app/uploads/2022/05/ALA-labs-sunburst-plot.png 1248w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Sunburst plots for taxonomic data. <br>This visualisation of ALA’s taxonomy was created by Dr Martin Westgate in R using {galah} and {ggplot2}. The <a rel="noreferrer noopener" href="https://labs.ala.org.au/posts/2022-02-17_sunburst-plots-for-taxonomic-data/" target="_blank">full details of how to recreate this analysis and visualisation</a> are available on labs.ala.org.au. </figcaption></figure>
+
+
+
+<p>“I always love hearing about the problems people are trying to solve using the biodiversity data in the ALA. We made ALA Labs to be a community space for people to share and learn about detailed solutions to data-related problems. I can’t wait to see how it grows,” said Dr Dax Kellie, evolutionary biologist, data analyst, and ALA Labs author.</p>
+
+
+
+<p><strong>R – the language of ALA Labs</strong></p>
+
+
+
+<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/07/21-00159_NCMI_BRAND_ALA-GalahHexSticker_FinalMockUp_210630.png" alt="logo for galah, ALA's R package" class="wp-image-44815" width="220" height="254" srcset="https://www.ala.org.au/app/uploads/2021/07/21-00159_NCMI_BRAND_ALA-GalahHexSticker_FinalMockUp_210630.png 434w, https://www.ala.org.au/app/uploads/2021/07/21-00159_NCMI_BRAND_ALA-GalahHexSticker_FinalMockUp_210630-260x300.png 260w" sizes="(max-width: 220px) 100vw, 220px" /></figure></div>
+
+
+
+<p>So far, posts on ALA Labs offer coding solutions for users of <a href="https://www.r-project.org/">R</a> – a popular, free, open-access software for analysing and visualising data – and {<a href="https://atlasoflivingaustralia.github.io/galah/index.html">galah</a>} – the ALA’s R package to download information from the ALA. We intend to expand articles to explore other tools and coding languages in the near future.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>We want to hear from you</strong></p>
+
+
+
+<p>Is there a statistical analysis you are wondering how to do in R? Would you like to make a new visualisation or map? Are you looking to use the {galah} package to filter and download information?</p>
+
+
+
+<p>We would love to hear from you. Please send any suggestions for ALA Labs posts to <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA webinar: New Data From Historic Collections</title>
 		<link>https://www.ala.org.au/blogs-news/ala-webinar-new-data-from-historic-collections/</link>
 		
@@ -52,7 +133,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="ALA Webinar: New Data from Historic Collections – 16 Mar, 2022" width="640" height="360" src="https://www.youtube.com/embed/8r3YLRcvnE8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" title="ALA Webinar: New Data from Historic Collections – 16 Mar, 2022" width="640" height="360" src="https://www.youtube.com/embed/8r3YLRcvnE8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -1228,223 +1309,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Diving into Indigenous biocultural knowledge of freshwater turtles in South East Arnhem Land</title>
-		<link>https://www.ala.org.au/blogs-news/diving-into-indigenous-biocultural-knowledge-of-freshwater-turtles-in-south-east-arnhem-land/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Wed, 22 Dec 2021 03:25:03 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=46034</guid>
-
-					<description><![CDATA[Aboriginal Elders of south east Arnhem Land, are concerned about the impacts of pigs and buffalo on culturally important freshwater turtles (locally called 'freshwoda teduls' in Roper River Kriol). The local Ngukurr Yangbala (young people) Rangers worked with Elders to add data to the ALA and record knowledge about these species.]]></description>
-										<content:encoded><![CDATA[
-<p>By Shaina Russell, Emilie Ens and Ngukurr Yangbala Rangers</p>
-
-
-
-<p></p>
-
-
-
-<h3 id="gathering-local-knowledge-on-freshwoda-teduls"><strong>Gathering local knowledge on <em>freshwoda teduls</em></strong></h3>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/12/Shortneck-tedul-Emydura-subglobosa-worrelli-edited.jpg" alt="" class="wp-image-46037" width="233" height="233" srcset="https://www.ala.org.au/app/uploads/2021/12/Shortneck-tedul-Emydura-subglobosa-worrelli-edited.jpg 615w, https://www.ala.org.au/app/uploads/2021/12/Shortneck-tedul-Emydura-subglobosa-worrelli-edited-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2021/12/Shortneck-tedul-Emydura-subglobosa-worrelli-edited-150x150.jpg 150w" sizes="(max-width: 233px) 100vw, 233px" /><figcaption>Shortneck tedul (<em>Emydura subglobosa worelli</em>). Image credit: Yangbala Rangers. </figcaption></figure></div>
-
-
-
-<p>As part of a long term collaboration between the Ngukurr Yangbala Rangers, members of Ngukurr and Numbulwar communities (south east Arnhem Land) and Macquarie University ecologists, we sought to better understand the biocultural knowledge of freshwater turtles, locally known as <em>freshwoda teduls, </em>in the South East Arnhem Land Indigenous Protected Area (SEAL IPA). Human Research Ethics approval was grant by Macquarie University and free, prior informed consent was given by knowledge holders to publish this research.</p>
-
-
-
-<p>In 2018 and 2019, the team visited a total of 74 Indigenous Knowledge Holders in their homes (Ngukurr or Numbulwar) or took them out to billabongs. We conducted a series of mapping workshops and interviews to record local knowledge of the distribution, ecology, cultural significance and threats to <em>freshwoda teduls</em>.</p>
-
-
-
-<p></p>
-
-
-
-<blockquote class="wp-block-quote"><p>&#8220;Nowadays, people believe that there’s hardly anything [<em>teduls</em>] now… in the billabong, because of pigs and buffalos. A lot of them [feral pig and buffalo] in the swamps.&#8221;</p><cite>Senior Nunggubuyu knowledge holder, Jangu Nundhirribala described a decline in <em>freshwoda teduls </em>around Numbulwar due to feral ungulates.</cite></blockquote>
-
-
-
-<h3 id="filling-freshwater-turtle-knowledge-gaps-in-the-ala"><strong>Filling freshwater turtle knowledge gaps in the ALA</strong></h3>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2021/12/Longneck-tedul-Chelodina-rugosa.jpg" alt="" class="wp-image-46035" width="208" height="156" srcset="https://www.ala.org.au/app/uploads/2021/12/Longneck-tedul-Chelodina-rugosa.jpg 812w, https://www.ala.org.au/app/uploads/2021/12/Longneck-tedul-Chelodina-rugosa-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2021/12/Longneck-tedul-Chelodina-rugosa-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2021/12/Longneck-tedul-Chelodina-rugosa-640x480.jpg 640w" sizes="(max-width: 208px) 100vw, 208px" /><figcaption>Longneck tedul (<em>Chelodina rugosa</em>, previously <em>C. oblonga</em>). Image credit: Yangbala Rangers. <br><br> </figcaption></figure></div>
-
-
-
-<p>When we looked in the ALA for freshwater turtle species records there were only 12 in the SEAL IPA. To fill this knowledge gap, we mapped local Indigenous Knowledge Holder sightings of past <em>freshwoda teduls</em> and negotiated with the ALA to contribute this dataset to the national ALA species knowledge database. This was the first time Indigenous knowledge from the living memories of Indigenous Knowledge Holders was added to the ALA database alongside scientific species recordings.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2021/12/Ngukurr-Yangbala-Rangers-mapping-workshop-1024x768.jpg" alt="" class="wp-image-46038" srcset="https://www.ala.org.au/app/uploads/2021/12/Ngukurr-Yangbala-Rangers-mapping-workshop-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2021/12/Ngukurr-Yangbala-Rangers-mapping-workshop-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2021/12/Ngukurr-Yangbala-Rangers-mapping-workshop-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2021/12/Ngukurr-Yangbala-Rangers-mapping-workshop-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2021/12/Ngukurr-Yangbala-Rangers-mapping-workshop.jpg 1516w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Mapping workshop conducted by the Ngukurr Yangbala Rangers and Macquarie University researchers. Image credit: Yangbala Rangers.</figcaption></figure>
-
-
-
-<h3 id="adding-indigenous-knowledge-holder-sightings-of-freshwoda-teduls-to-the-ala"><strong>Adding Indigenous Knowledge Holder sightings of <em>freshwoda teduls</em> to the ALA</strong></h3>
-
-
-
-<p>Indigenous knowledge holders identified three different <em>freshwoda</em> <em>tedul</em> “types” that occurred<span class="has-inline-color has-black-color"> in the SEAL IPA:</span></p>
-
-
-
-<ul><li><em>longnek tedul </em>(Northern long-neck turtle, <em>Chelodina rugosa</em>)</li><li><em>jinggijinggi tedul</em> (Cann’s long-neck turtle, <em>Chelodina canni</em>) and</li><li><em>shotnek tedul</em> (Northern Snapping Turtle, <em>Elseya dentata </em>andWorrell’s Short-Necked Turtle,<em> Emydura subglobosa</em> <em>worrelli</em>)</li></ul>
-
-
-
-<p>The <em>longnek tedul</em> (436) was the most common species recorded followed by <em>shotnek tedul</em> (258) and <em>jinggijinggi tedul</em> (59). Most (695) occurrence points were inside the SEAL IPA; however, some (58) fell outside the SEAL IPA boundary (see Figure below). This knowledge greatly expanded the ALA freshwater turtle records for the SEAL IPA as previously there were only 12 (<em>C. rugosa </em>n = 10and <em>E. dentata </em>n = 2). The project added 753 records to the ALA: <em>Longnek tedul</em> (<em>Chelodina oblonga</em>; 436), <em>jinggijinggitedul</em> (<em>Chelodina canni</em>; 59) and <em>shotnek tedul</em> (<em>Elseya dentata, Emydura subglobosa</em>; 258).</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="724" src="https://www.ala.org.au/app/uploads/2021/12/maps-of-tedul-records-1024x724.png" alt="" class="wp-image-46039" srcset="https://www.ala.org.au/app/uploads/2021/12/maps-of-tedul-records-1024x724.png 1024w, https://www.ala.org.au/app/uploads/2021/12/maps-of-tedul-records-300x212.png 300w, https://www.ala.org.au/app/uploads/2021/12/maps-of-tedul-records-768x543.png 768w, https://www.ala.org.au/app/uploads/2021/12/maps-of-tedul-records.png 1169w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption><br><br>Indigenous knowledge of <em>freshwaoda teduls</em> in the South East Arnhem Land IPA.</figcaption></figure>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="550" src="https://www.ala.org.au/app/uploads/2021/12/Tedul-records-in-the-ALA-1024x550.png" alt="" class="wp-image-46040" srcset="https://www.ala.org.au/app/uploads/2021/12/Tedul-records-in-the-ALA-1024x550.png 1024w, https://www.ala.org.au/app/uploads/2021/12/Tedul-records-in-the-ALA-300x161.png 300w, https://www.ala.org.au/app/uploads/2021/12/Tedul-records-in-the-ALA-768x412.png 768w, https://www.ala.org.au/app/uploads/2021/12/Tedul-records-in-the-ALA.png 1367w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p></p>
-
-
-
-<h3 id="aboriginal-elders-contribute-valuable-knowledge-on-species-behaviour-and-diet-and-physiology"><strong>Aboriginal Elders contribute valuable knowledge on species behaviour and diet and physiology</strong></h3>
-
-
-
-<p>Knowledge holders contributed rich biocultural knowledge of <em>freshwoda</em> <em>teduls.</em> </p>
-
-
-
-<blockquote class="wp-block-quote"><p>“All over you get <em>longnek</em> and <em>shotnek</em> together, except on the floodplain you get all <em>longnek</em>.”Numbulwar Numbirindi Ranger Adam Manggurra, stated that the <em>jinggijinggi tedul</em> was present only in freshwater.&#8221;</p><cite>Ngandi Elder Heather Ponto (nee Thompson) described different <em>freshwoda</em> <em>tedul</em> habitat preferences.</cite></blockquote>
-
-
-
-<p>Knowledge holders described seasonal knowledge and indicators that related to <em>freshwoda</em> <em>tedul</em> hunting, behaviour, diet and physiology, including aestivation, fatness and breeding cycles. </p>
-
-
-
-<blockquote class="wp-block-quote"><p>“That cold weather time, when that wind blows cold, that’s the time we know [to hunt for <em>tedul</em>]”.</p><cite>Davis Daniels</cite></blockquote>
-
-
-
-<p>People said <em>teduls</em> were fat in the dry (cold) season and in the late dry season in places where the surface water dries up, <em>longnek</em> <em>teduls</em> are called <em>ngangga</em> which describes a period of dormancy (aestivation) where they bury themselves in the mud until the rain comes again. </p>
-
-
-
-<blockquote class="wp-block-quote"><p>“In the dry season people hunt for <em>ngangga</em> turtles by poking long sticks (or crowbars) into the dried mud and they listen for a tap sound. “</p><cite>Yangbala Ranger Kiefer Hall</cite></blockquote>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="769" src="https://www.ala.org.au/app/uploads/2021/12/Cooked-longneck-tedul-Chelodina-rugosa-1024x769.jpg" alt="" class="wp-image-46041" srcset="https://www.ala.org.au/app/uploads/2021/12/Cooked-longneck-tedul-Chelodina-rugosa-1024x769.jpg 1024w, https://www.ala.org.au/app/uploads/2021/12/Cooked-longneck-tedul-Chelodina-rugosa-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2021/12/Cooked-longneck-tedul-Chelodina-rugosa-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2021/12/Cooked-longneck-tedul-Chelodina-rugosa-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2021/12/Cooked-longneck-tedul-Chelodina-rugosa.jpg 1515w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>A cooked Longneck tedul <em>(Chelodina rugosa)</em>.  Image credit: Yangbala Rangers. </figcaption></figure>
-
-
-
-<h3 id="cultural-significance-of-freshwoda-teduls">Cultural significance of <em>freshwoda</em> <em>teduls</em></h3>
-
-
-
-<p><em>Freshwoda</em> <em>teduls</em> have widespread cultural significance to Indigenous people of the SEAL IPA. Knowledge holders discussed how <em>freshwoda</em> <em>teduls</em> are intimately woven through people’s cultural lives and ceremonies. Kevin Rogers explained that <em>freshwoda</em> <em>teduls</em> are connected through ceremony and certain people have roles as owners and caretakers according to the kinship system and these roles and responsibilities are maintained through ceremony. He described how all people and things are connected through songlines and how this forms people’s identity:</p>
-
-
-
-<blockquote class="wp-block-quote"><p>“We got two types of<em> freshwada</em> <em>tedul</em>, one is <em>longnek</em> and one is <em>shotnek</em>. We call that <em>shotnek</em>, <em>wini</em>, and that belongs to us mob. It’s part of our ceremony too, it’s in our songlines and even that <em>longnek tedul</em> belongs to us mob, Cherry’s mob. So they have a story, through our songlines and our ceremony. One is a <em>shotnek</em>… that other one is… <em>Longnek tedul</em>, and he&#8217;s the <em>junggayi</em> (points to Cherry&#8217;s son), they the main caretakers, <em>junggayi</em> we call him. So it’s a responsible name… we maintain that through our ceremonies… it’s still part of us, that’s what makes us who we are. Not only the <em>teduls</em>, the trees, the birds, stones, everything.” </p><cite>Senior Wubuy knowledge holder Galiliwa Nunggarrgalli whose totem is <em>longnek tedul</em>. He is the owner of <em>ḏalmaarrang</em> (<em>longnek tedul</em>) and his hair can be used to attract <em>tedul</em> while hunting.</cite></blockquote>
-
-
-
-<blockquote class="wp-block-quote"><p>“If you cut my hair and put it in the billabong, burn it and put it in the billabong, wait for couple of hours, maybe one or two hours…&nbsp; you can see lots of <em>teduls</em> looking at you.” </p></blockquote>
-
-
-
-<h3 id="threats-to-freshwoda-teduls"><a><span class="has-inline-color has-black-color">Threats to <em>freshwoda</em> <em>teduls</em></span></a></h3>
-
-
-
-<p>Some people talked about a significant decrease in <em>tedul</em> abundance:</p>
-
-
-
-<blockquote class="wp-block-quote"><p>“When we were kids, <em>tedul </em>was everywhere. These days you hardly find [them], even here walking at Roper River [Ngukurr] itself, [we used to] find <em>tedul</em> walking here at night, in town. ”</p><cite>Davis Daniels</cite></blockquote>
-
-
-
-<p>Group interviews revealed that the main threats to <em>freshwoda</em> <em>teduls </em>(all species combined) were natural predators (birds of prey (eagles and hawks), crocodiles, goannas and dingoes; n = 19), feral animals (n = 17) and climate change (n = 8). Four groups stated that there were no threats to <em>freshwoda</em> <em>teduls</em> in this region.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="397" src="https://www.ala.org.au/app/uploads/2021/12/Threats-to-tedal-populations-1024x397.png" alt="" class="wp-image-46044" srcset="https://www.ala.org.au/app/uploads/2021/12/Threats-to-tedal-populations-1024x397.png 1024w, https://www.ala.org.au/app/uploads/2021/12/Threats-to-tedal-populations-300x116.png 300w, https://www.ala.org.au/app/uploads/2021/12/Threats-to-tedal-populations-768x298.png 768w, https://www.ala.org.au/app/uploads/2021/12/Threats-to-tedal-populations.png 1332w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Number of interview groups that identified a) Threats to <em>feshwoda teduls</em> (n=30) and b) Different feral animals as a threat to <em>feshwoda teduls</em>  in the SEAL IPA (n=30).</figcaption></figure>
-
-
-
-<p>Of the feral animals, pigs (n=13) were most often mentioned as a threat to <em>freshwoda</em> <em>teduls</em>, followed by feral water buffalo (n=9), horse (n=4), donkey (n=3), cattle (n=3) and cane toads (n=3). As stated by several knowledge holders, pig and buffalo were considered the most damaging feral ungulates as they trample and eat aestivating <em>freshwoda</em> <em>teduls</em>. </p>
-
-
-
-<blockquote class="wp-block-quote"><p>“They get trampled by the buffalos and pigs… trample all over the billabong.” </p><cite>Cherry Daniels</cite></blockquote>
-
-
-
-<blockquote class="wp-block-quote"><p>“<em>Pigipigi</em> [pigs] too, they eat <em>ḏalmaarrang</em> [aestivating <em>longnek</em> <em>teduls</em>].”</p><cite>Rena Wayayun Guyula</cite></blockquote>
-
-
-
-<p>Changes in weather patterns were highlighted by Ngandi senior knowledge holder Hubert Rami as a threat to <em>freshwater</em> <em>tedul </em>populations:</p>
-
-
-
-<p>“Hardly had any rain at the moment. Get maybe two, three month’s rain in a year and that’s it. That’s all we get… <em>teduls </em>are dying maybe because of less rain. Because they live in [the] water all the time, water creatures. If there is no water, then everything dies. The <em>tedul </em>stays in the mud [aestivating]. Mud gets hard with no rain, then how the <em>tedul </em>going to get out?”</p>
-
-
-
-<p>The timing of pig invasion in south east Arnhem Land is estimated to be around the 1990s, which aligned with group interview discussions regarding timing of changes to Country, <em>freshwoda</em> <em>tedul </em>abundance and traditional hunting practices.</p>
-
-
-
-<blockquote class="wp-block-quote"><p>“Feral animals now, like when them pigs and buffalo walk on the wet soil, they leave them marks you know. New millennium. Everything been just change. Destruction of the land, hunting place.”</p><cite> <span style="font-size: revert; color: currentcolor;">Kara Daniels</span> </cite></blockquote>
-
-
-
-<h3 id="new-data-in-the-ala-personal-memories-of-species-observations"><strong>New data in the ALA: personal memories of species observations</strong></h3>
-
-
-
-<p>This was the first time Indigenous accounts of species occurrences were contributed as data points to the Atlas of Living Australia. With the consent of Indigenous Holders, Indigenous knowledge such as this has the potential to contribute valuable information to national databases, especially for culturally significant species that people have strong connections with. Although we’ve added hundreds of data points from Indigenous people’s memory of turtle hunting in their lifetimes, the accompanying biocultural knowledge shared by knowledge holders reinforces the global conservation concern of freshwater turtle decline.</p>
-
-
-
-<h3 id="acknowledgements"><strong>Acknowledgements</strong></h3>
-
-
-
-<p>The authors wish to acknowledge the Traditional Owners of the South East Arnhem Land IPA where this research was conducted, and The Nature Conservancy for funding. We also acknowledge that Rukshana Sultana contributed to this project through her Masters thesis (Macquarie University).</p>
-
-
-
-<p><strong>To view this data in the ALA, visit:</strong></p>
-
-
-
-<ul><li><a href="https://biocache.ala.org.au/occurrences/search?q=data_resource_uid:dr17780">Occurrence records for Mapimbat tedul proujek: Indigenous knowledge of freshwater turtle species occurrence in the South East Arnhem Land Indigenous Protected Area</a></li><li><a href="https://collections.ala.org.au/public/show/dr17780">The data resource page for Mapimbat tedul proujek</a></li></ul>
-
-
-
-<h3 id="information-about-the-authors"><strong>Information about the authors:</strong></h3>
-
-
-
-<ul><li>Shaina Russell – Postdoctoral Researcher, Macquarie University</li><li>Emilie Ens – Senior Lecturer, Macquarie University</li><li>Ngukurr Yangbala Rangers &#8211; A group of young Aboriginal people from the Ngukurr Community who worked on Natural and Cultural Resource Management projects in the SEAL IPA between 2016 and 2019, funded by The Nature Conservancy.</li></ul>
 ]]></content:encoded>
 					
 		
