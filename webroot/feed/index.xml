@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 16 May 2022 23:06:05 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 16 May 2022 23:26:54 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,85 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>BioCollect update: New look for our data collection tool</title>
+		<link>https://www.ala.org.au/blogs-news/biocollect-update-new-look-for-our-data-collection-tool/</link>
+		
+		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
+		<pubDate>Mon, 16 May 2022 23:26:53 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=46817</guid>
+
+					<description><![CDATA[The ALA’s field data collection system – BioCollect – is getting brand new look. &#160;&#160; The look and feel will be fresher, cleaner and more intuitive. You can still design your own data collection projects, collect data, share your project with partners, and make the data accessible via the ALA – all in a new [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The ALA’s field data collection system – BioCollect – is getting brand new look. &nbsp;&nbsp;</p>
+
+
+
+<p>The look and feel will be fresher, cleaner and more intuitive. You can still design your own data collection projects, collect data, share your project with partners, and make the data accessible via the ALA – all in a new design.&nbsp;&nbsp;The new design will be rolled out this May.</p>
+
+
+
+<p>Visit <a rel="noreferrer noopener" href="http://https/:biocollect.ala.org.au" target="_blank"><a rel="noreferrer noopener" href="https://biocollect.ala.org.au/biocollect-all" target="_blank">https://biocollect.ala.org.au/biocollect-all</a></a> to get started. </p>
+
+
+
+<p><strong>The BioCollect makeover – what’s new and what’s changed</strong>&nbsp;</p>
+
+
+
+<p>The user interface design for BioCollect has not changed since it’s launch, so it was time for an uplift.&nbsp;&nbsp;</p>
+
+
+
+<p>The update is mostly cosmetic, we simplified the interface without losing any of the great functionality. There are also some new features. You can now create projects in your own personal space and publish the project to the world only when you’re ready.&nbsp;&nbsp;</p>
+
+
+
+<p>There are also some improvements to the document search and view feature on the project resources page. Even more improvements will be coming in the near future too.&nbsp;</p>
+
+
+
+<p><strong>BioCollect – a flexible biodiversity data collection tool</strong>&nbsp;</p>
+
+
+
+<p>BioCollect can be used to meet the specific data collection needs of <a rel="noreferrer noopener" href="https://biocollect.ala.org.au/acsa" target="_blank">citizen science project</a>s, <a rel="noreferrer noopener" href="https://biocollect.ala.org.au/ecoscience" target="_blank">non-citizen science projects</a> or <a rel="noreferrer noopener" href="https://biocollect.ala.org.au/nrmworks" target="_blank">natural resource management projects</a>. It was first released in 2015, and is now widely used by researchers, industry ecologists, citizen scientists, non-government organisations and government organisations.&nbsp;</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="BioCollect: ALA data collection tool" width="640" height="360" src="https://www.youtube.com/embed/QEr6VULLZks?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p><strong>Echidna CSI – a BioCollect case study</strong>&nbsp;</p>
+
+
+
+<p>A research project run by Dr Tahlia Perry at the University of Adelaide uses data collected by citizen scientists to study echidnas. The project has had a huge impact on echidna research and conservation. The research team developed a bespoke mobile app using BioCollect as its database.&nbsp;&nbsp;</p>
+
+
+
+<p>The flexible data collection tool enabled the research team to ‘recruit’ an army of citizen scientists across the country and collect the data necessary to establish an Australia-wide distribution map of Short-Beaked Echidnas (<em>Tachyglossus culeatus</em>). The project has doubled the number of echidna records in the ALA and discovered new facts about echidna biology. <a href="https://www.ala.org.au/blogs-news/echidna-csi-using-citizen-science-to-track-echidnas-throughout-australia/" target="_blank" rel="noreferrer noopener">Read more about Echidna CSI.</a>&nbsp;</p>
+
+
+
+<p><strong>Collect, store, manage and share with BioCollect</strong>&nbsp;</p>
+
+
+
+<p>If you’re running a field data collection project, why not give BioCollect a try. You can collect data for your own project, store and manage the data, and, when you’re ready to share the data, it can go straight into the ALA automatically.&nbsp;</p>
+
+
+
+<p>Visit <a rel="noreferrer noopener" href="http://https/:biocollect.ala.org.au" target="_blank"><a rel="noreferrer noopener" href="https://biocollect.ala.org.au/biocollect-all" target="_blank">https://biocollect.ala.org.au/biocollect-all</a></a> to get started. </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s message May 2022</title>
 		<link>https://www.ala.org.au/blogs-news/directors-message-may-2022/</link>
 		
@@ -38,7 +117,7 @@
 
 					<description><![CDATA[Welcome to the May 2022 edition of our newsletter ]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://www.dese.gov.au/national-research-infrastructure/resources/2021-national-research-infrastructure-roadmap"><img src="https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail-719x1024.png" alt="" class="wp-image-46839" width="152" height="217" srcset="https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail-719x1024.png 719w, https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail-211x300.png 211w, https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail-768x1094.png 768w, https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail.png 790w" sizes="(max-width: 152px) 100vw, 152px" /></a><figcaption><a href="https://www.dese.gov.au/national-research-infrastructure/resources/2021-national-research-infrastructure-roadmap">View the Australian Government&#8217;s 2021 National Research Infrastructure Roadmap</a></figcaption></figure></div>
+<div class="wp-block-image"><figure class="alignright size-large is-resized"><a href="https://www.dese.gov.au/national-research-infrastructure/resources/2021-national-research-infrastructure-roadmap"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail-719x1024.png" alt="" class="wp-image-46839" width="152" height="217" srcset="https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail-719x1024.png 719w, https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail-211x300.png 211w, https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail-768x1094.png 768w, https://www.ala.org.au/app/uploads/2022/05/Roadmap-thumbnail.png 790w" sizes="(max-width: 152px) 100vw, 152px" /></a><figcaption><a href="https://www.dese.gov.au/national-research-infrastructure/resources/2021-national-research-infrastructure-roadmap">View the Australian Government&#8217;s 2021 National Research Infrastructure Roadmap</a></figcaption></figure></div>
 
 
 
@@ -1106,151 +1185,6 @@
 
 
 <div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/robogals-412x1024.png" alt="Robogirls how to participate graphic - sign up, complete 2 minor challenges, complete major challenge, submit major challenge for judging" class="wp-image-46368" width="385" height="957" srcset="https://www.ala.org.au/app/uploads/2022/02/robogals-412x1024.png 412w, https://www.ala.org.au/app/uploads/2022/02/robogals-121x300.png 121w, https://www.ala.org.au/app/uploads/2022/02/robogals.png 528w" sizes="(max-width: 385px) 100vw, 385px" /></figure></div>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Australian Reference Genome Atlas (ARGA)</title>
-		<link>https://www.ala.org.au/blogs-news/australian-reference-genome-atlas-arga/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Tue, 18 Jan 2022 22:53:46 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=46225</guid>
-
-					<description><![CDATA[In an Australian first, our national research infrastructures are creating a new digital atlas to allow researchers to easily discover and work with genomic data.]]></description>
-										<content:encoded><![CDATA[
-<p class="has-background" style="background-color:#f2f2f2"><em>In an Australian first, our national research infrastructures are creating a new digital atlas to allow researchers to easily discover and work with genomic data.</em></p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>To consolidate Australia’s genomic data and make it available for researchers to use, the Atlas of Living Australia, Bioplatforms Australia, Australian BioCommons and Australian Research Data Commons (ARDC) funded via the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS) are collaborating on <strong>ARGA, the Australian Reference Genome Atlas</strong>.<br><br>The new genomic atlas will mean that researchers can easily discover and access genomic data for Australian species in one place.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="genomics-hidden-secrets-of-living-things"><strong>Genomics – hidden secrets of living things</strong> &nbsp;</h2>
-
-
-
-<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/tassie-devil-c.jpg" alt="Tasmanian devil" class="wp-image-46244" width="386" height="355" srcset="https://www.ala.org.au/app/uploads/2022/01/tassie-devil-c.jpg 780w, https://www.ala.org.au/app/uploads/2022/01/tassie-devil-c-300x276.jpg 300w, https://www.ala.org.au/app/uploads/2022/01/tassie-devil-c-768x706.jpg 768w" sizes="(max-width: 386px) 100vw, 386px" /><figcaption>The endangered Tasmanian Devil (<em>Sarcophilus harrisii</em>). Image: Brett Vercoe (CC-BY-NC).</figcaption></figure></div>
-
-
-
-<p>Genomic data – the genome and DNA data of an organism – helps us to understand the core traits of&nbsp;species. It helps us work out why some species are more&nbsp;resilient and adaptive to&nbsp;environmental changes&nbsp;such as&nbsp;climate change, drought and&nbsp;bushfire.​<br><br>Information about how species respond to these pressures is critical to biodiversity research and agriculture. For example, genomic data is used in agriculture to develop crop and livestock species that are more resilient and better adapted to drought and climate change. In ecology, researchers use genomics to identify species for captive breeding programs and&nbsp;repopulation planting that are more likely to recover after significant environmental change, such as that caused by bushfires.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/PGtree.png" alt="tree of life diagram" class="wp-image-46235" width="409" height="473" srcset="https://www.ala.org.au/app/uploads/2022/01/PGtree.png 728w, https://www.ala.org.au/app/uploads/2022/01/PGtree-260x300.png 260w" sizes="(max-width: 409px) 100vw, 409px" /><figcaption>Tree of life, showing the diversity of life on earth. The branches indicate how organisms are related to one another. Genomic techniques help scientists refine their understanding of these relationships. Source: https://www.nature.com/articles/nmicrobiol201648</figcaption></figure></div>
-
-
-
-<h2 id="australian-genomic-data"><strong>Australian genomic data</strong></h2>
-
-
-
-<p>Australia is home to a large number of native species, including 157,000 animals, plants and fungi, many of which are unique to the continent.​<br><br>With the growth of DNA sequencing capabilities, Australian researchers in universities, research organisations, as well as museums &amp; herbaria have generated huge amounts of genomic data.<br><br>There is huge appetite to delve into the data and find out what genomic secrets our native species hold. Genomic data science is a fast growing and exciting field of science, and researchers need simple and rapid access to genomic data.<br><br>At the moment Australia’s genomic data for our flora, fauna and fungi species resides across numerous international data repositories, museums or research labs, making it difficult to find, access and compare genomic data on Australian species. Some genomics databases were generated and stored using old technology and the data is no longer accessible.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="a-national-atlas-for-australian-genomic-data"><strong>A national atlas for Australian genomic data</strong></h2>
-
-
-
-<p>The Australian Reference Genome Atlas will locate and aggregate descriptions of all relevant genomic data specific to Australian taxa in one place (e.g. genome assemblies, genome annotations, barcodes, raw data, other ‘omic’ data).</p>
-
-
-
-<p>It will enable scientists to search these data by organism. For example, by taxonomic group (e.g. genus, species, subspecies), as well as by functional classification (e.g. drought/salt/fire tolerance, conservation status), and by geographical classification (e.g. location, altitude).<br><br>ARGA will facilitate comparative analysis of genomic data. Researchers will be able to download data for offline analysis, or analyse data in cloud platforms.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="project-partners"><strong>Project Partners</strong></h2>
-
-
-
-<p>Leading NCRIS research infrastructures are collaborating to develop and operate ARGA. This exciting program will leverage the skills, combined knowledge, infrastructure, and extensive international scientific networks of the project collaborators.</p>
-
-
-
-<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/image-1.png" alt="" class="wp-image-46247" width="176" height="79"/></figure></div>
-
-
-
-<p><strong><a href="https://www.ala.org.au/" target="_blank" rel="noreferrer noopener">Atlas of Living Australia (ALA)</a></strong> is Australia’s largest national biodiversity data infrastructure funded by the National Collaborative Research Infrastructure Strategy (NCRIS) and hosted by CSIRO. The ALA is the Australian node of the Global Biodiversity Information Facility (GBIF).&nbsp;</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/image-3.png" alt="" class="wp-image-46249" width="176" height="53" srcset="https://www.ala.org.au/app/uploads/2022/01/image-3.png 640w, https://www.ala.org.au/app/uploads/2022/01/image-3-300x89.png 300w" sizes="(max-width: 176px) 100vw, 176px" /></figure></div>
-
-
-
-<p><a href="https://www.biocommons.org.au/" target="_blank" rel="noreferrer noopener"><strong>Australian</strong> <strong>BioCommons</strong></a> is enhancing Australia’s digital life science research through world-class collaborative distributed infrastructure. The BioCommons is supported by Bioplatforms Australia<strong>.</strong></p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/image-4.png" alt="" class="wp-image-46250" width="176" height="49"/></figure></div>
-
-
-
-<p><strong><a href="https://bioplatforms.com/" target="_blank" rel="noreferrer noopener">Bioplatforms Australia</a></strong> is a non-profit organisation that supports Australian Life science research by investing in state-of-the-art infrastructure and expertise in genomics, proteomics, metabolomics and bioinformatics. This is made possible through investment funding provided by the Commonwealth Government National Collaborative Research Infrastructure Strategy (NCRIS).</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="alignleft size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/01/image-2.png" alt="" class="wp-image-46248" width="176" height="59"/></figure></div>
-
-
-
-<p><strong><a rel="noreferrer noopener" href="https://ardc.edu.au/" target="_blank">Australian Research Data Commons (ARDC)</a></strong> enables the Australian research community and industry access to nationally significant, data intensive digital research infrastructure, platforms, skills and collections of high quality data. As a national research infrastructure provider, the ARDC facilitates partnerships to develop a coherent research environment that enables researchers to find, access, contribute to and effectively use services to maximise research quality and impact.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>For more information, contact <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
-
-
-
-<hr class="wp-block-separator"/>
 ]]></content:encoded>
 					
 		
