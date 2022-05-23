@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-may-2022/</loc><lastmod>2022-05-23T01:34:53+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-may-2022/</loc><lastmod>2022-05-23T07:27:57+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/directors-message-may-2022/</loc><lastmod>2022-05-23T01:36:26+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/biocollect-update-new-look-for-our-data-collection-tool/</loc><lastmod>2022-05-18T23:11:25+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-labs-new-site-offering-technical-solutions-to-scientific-problems/</loc><lastmod>2022-05-18T06:29:30+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-march-2022/</loc><lastmod>2022-05-18T05:44:29+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-march-2022/</loc><lastmod>2022-05-23T07:28:13+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/directors-message-ala-newsletter-march-2022/</loc><lastmod>2022-03-07T22:03:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-webinar-new-data-from-historic-collections/</loc><lastmod>2022-03-17T01:23:59+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/</loc><lastmod>2022-04-11T23:03:55+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -17,7 +17,7 @@
 <url><loc>https://www.ala.org.au/blogs-news/digivol-celebrates-10-years-of-citizen-science/</loc><lastmod>2021-12-23T00:51:56+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/diving-into-indigenous-biocultural-knowledge-of-freshwater-turtles-in-south-east-arnhem-land/</loc><lastmod>2022-01-11T03:34:50+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/delivering-data-to-improve-reporting-on-australias-environment/</loc><lastmod>2021-12-01T00:17:41+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-november-2021/</loc><lastmod>2021-11-24T00:57:43+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-november-2021/</loc><lastmod>2022-05-23T07:28:22+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/message-from-our-director-november-2021/</loc><lastmod>2021-11-17T05:10:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-webinar-environmental-data-infrastructures-data-and-technology-trends/</loc><lastmod>2021-12-02T03:24:27+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-update-getting-to-know-you-better/</loc><lastmod>2021-11-15T05:00:12+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -42,7 +42,7 @@
 <url><loc>https://www.ala.org.au/blogs-news/galah-takes-flight-alas-new-r-package-now-available/</loc><lastmod>2021-07-01T01:16:01+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-upgrade/</loc><lastmod>2021-06-23T23:02:22+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/the-path-of-the-emu-mapping-6000-years-of-emu-movement/</loc><lastmod>2021-06-17T01:30:59+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-may-2021/</loc><lastmod>2021-05-27T00:11:07+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-may-2021/</loc><lastmod>2022-05-23T07:28:30+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/directors-message-may-2021/</loc><lastmod>2021-05-26T02:17:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-upgrade-on-its-way/</loc><lastmod>2021-05-25T06:25:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/welcome-prof-stephen-van-leeuwen-to-our-ala-advisory-board/</loc><lastmod>2021-05-25T23:31:04+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
