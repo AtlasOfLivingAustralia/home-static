@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 18 May 2022 23:11:25 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 May 2022 01:36:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,11 +29,12 @@
 </image> 
 	<item>
 		<title>ALA Newsletter May 2022</title>
-		<link>https://www.ala.org.au/newsletter/ala-newsletter-may-2022/</link>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-may-2022/</link>
 		
 		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
 		<pubDate>Wed, 18 May 2022 05:57:05 +0000</pubDate>
-				<category><![CDATA[ALA Newsletter]]></category>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=46864</guid>
 
 					<description><![CDATA[ALA Newsletter May 2022]]></description>
