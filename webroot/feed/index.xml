@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 27 May 2022 03:54:01 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 27 May 2022 04:01:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,7 +29,7 @@
 </image> 
 	<item>
 		<title>ALA webinar: Protecting Australia&#8217;s ecosystems: novel approaches to biosecurity management￼</title>
-		<link>https://www.ala.org.au/blogs-news/ala-webinar-protecting-australias-ecosystems-novel-approaches-to-biosecurity-management%ef%bf%bc/</link>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-protecting-australias-ecosystems/</link>
 		
 		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
 		<pubDate>Fri, 27 May 2022 03:33:39 +0000</pubDate>
