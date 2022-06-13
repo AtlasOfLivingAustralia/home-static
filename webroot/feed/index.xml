@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 31 May 2022 06:33:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 13 Jun 2022 23:05:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -29,12 +29,12 @@
 </image> 
 	<item>
 		<title>ALA webinar: Protecting Australia&#8217;s ecosystems: novel approaches to biosecurity management￼</title>
-		<link>https://www.ala.org.au/blogs-news/ala-webinar-protecting-australias-ecosystems/</link>
+		<link>https://www.ala.org.au/newsletter/ala-webinar-protecting-australias-ecosystems/</link>
 		
 		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
 		<pubDate>Fri, 27 May 2022 03:33:39 +0000</pubDate>
 				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=46819</guid>
 
 					<description><![CDATA[Australia is home to a vast number of species, many of which occur nowhere else. Unfortunately, however, the high uniqueness of our plants and animals makes our ecosystems unusually vulnerable to invasive species. In this webinar, three presenters will talk about their efforts to predict, locate, and eradicate high-impact invasive species before they become established, [&#8230;]]]></description>
@@ -60,9 +60,8 @@
 <h2 id="speakers">Speakers</h2>
 
 
-
-<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/AI-app.png" alt="" class="wp-image-46897"/></figure></div>
-
+<div class="wp-block-image">
+<figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/AI-app.png" alt="" class="wp-image-46897"/></figure></div>
 
 
 <h3 id="miles-nicholls-atlas-of-living-australia">Alexander Schmidt-Lebuhn | CSIRO</h3>
@@ -76,9 +75,8 @@
 <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-
-<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/fire-ant.png" alt="" class="wp-image-46898"/></figure></div>
-
+<div class="wp-block-image">
+<figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/fire-ant.png" alt="" class="wp-image-46898"/></figure></div>
 
 
 <h3 id="arve-solland-ecocommons">Andrew Turley | QLD Department of Agriculture and Fisheries</h3>
@@ -92,9 +90,8 @@
 <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-
-<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/biosecurity-commons.png" alt="" class="wp-image-46899"/></figure></div>
-
+<div class="wp-block-image">
+<figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/biosecurity-commons.png" alt="" class="wp-image-46899"/></figure></div>
 
 
 <h3 id="ana-belgun-data61">Paul Tudman | BioSecurity Commons</h3>
@@ -108,9 +105,8 @@
 <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
-
-<div class="wp-block-image"><figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/ALA-moderator-Erin-Roger.png" alt="" class="wp-image-46891"/></figure></div>
-
+<div class="wp-block-image">
+<figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/ALA-moderator-Erin-Roger.png" alt="" class="wp-image-46891"/></figure></div>
 
 
 <h3 id="moderator-bio">Moderator bio</h3>
@@ -137,7 +133,7 @@
 
 
 
-<p>A. Andrew Turley: Yes, there are restrictions on the movement of fire ant carriers regulated through the <em>Biosecurity Act 2014. </em>However, many materials can be moved safely if appropriate mitigation measures are taken. <a rel="noreferrer noopener" href="https://www.fireants.org.au/treat/business-and-industry/movement-controls" target="_blank">The National Fire Ant Eradication Program website</a> is the best source of information about this. Restricting movement relies heavily on advertising, community engagement and cooperation, though we do have a compliance team that routinely checks businesses and respond to community reports of illegal movements too. </p>
+<p>A. Andrew Turley: Yes, there are restrictions on the movement of fire ant carriers regulated through the&nbsp;<em>Biosecurity Act 2014.&nbsp;</em>However, many materials can be moved safely if appropriate mitigation measures are taken. <a rel="noreferrer noopener" href="https://www.fireants.org.au/treat/business-and-industry/movement-controls" target="_blank">The National Fire Ant Eradication Program website</a> is the best source of information about this. Restricting movement relies heavily on advertising, community engagement and cooperation, though we do have a compliance team that routinely checks businesses and respond to community reports of illegal movements too.&nbsp;</p>
 
 
 
@@ -145,7 +141,7 @@
 
 
 
-<p>A. Andrew Turley: Yes. Fire ants originate from the Amazon floodplains, and whole colonies can form large rafts and float during flooding events (see this recent media <a href="https://www.theguardian.com/australia-news/2022/apr/12/the-ants-go-rafting-invasive-fire-ants-take-to-australian-flood-waters-to-colonise-new-areas" target="_blank" rel="noreferrer noopener">article from The Guardian</a> discussing this). In SEQ, we&#8217;re lucky that all fire ants are east of the great dividing range and the rivers/creeks flow eastward back into the infested area. As such, the impact of flooding on fire ant eradication efforts is minimal at this time.  </p>
+<p>A. Andrew Turley: Yes. Fire ants originate from the Amazon floodplains, and whole colonies can form large rafts and float during flooding events (see this recent media <a href="https://www.theguardian.com/australia-news/2022/apr/12/the-ants-go-rafting-invasive-fire-ants-take-to-australian-flood-waters-to-colonise-new-areas" target="_blank" rel="noreferrer noopener">article from The Guardian</a> discussing this). In SEQ, we&#8217;re lucky that all fire ants are east of the great dividing range and the rivers/creeks flow eastward back into the infested area. As such, the impact of flooding on fire ant eradication efforts is minimal at this time.&nbsp;&nbsp;</p>
 
 
 
