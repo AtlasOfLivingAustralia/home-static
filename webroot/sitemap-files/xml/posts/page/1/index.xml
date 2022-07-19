@@ -2,7 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www-test.ala.org.au</loc><lastmod>2022-06-01T15:52:19+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www-test.ala.org.au</loc><lastmod>2022-07-18T15:52:15+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www-test.ala.org.au/survey-test967836692/</loc><lastmod>2022-06-27T02:59:12+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/45594-2/</loc><lastmod>2022-06-24T05:25:09+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/austraits-definitions/</loc><lastmod>2022-06-09T03:27:43+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/australian-biodiversity-data-mobilisation-program/</loc><lastmod>2022-02-23T02:07:44+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/careers/careers-data-analyst-ecocommons/</loc><lastmod>2021-09-30T05:10:50+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/careers/careers-policy-and-analysis-officer/</loc><lastmod>2021-09-28T00:49:19+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
@@ -10,9 +13,9 @@
 <url><loc>https://www-test.ala.org.au/careers/careers-at-the-ala-data-analyst/</loc><lastmod>2021-09-23T07:49:10+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/careers/</loc><lastmod>2021-10-11T00:11:13+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/publications/atlas-of-living-australia-year-in-review-202021/</loc><lastmod>2021-09-16T00:51:34+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www-test.ala.org.au/citizen-science-apps/</loc><lastmod>2021-07-14T03:47:53+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/citizen-science-apps/</loc><lastmod>2022-06-22T03:57:54+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/newsletters/</loc><lastmod>2021-01-07T05:35:35+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www-test.ala.org.au/ala-cited-publications/</loc><lastmod>2022-06-01T15:52:19+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/ala-cited-publications/</loc><lastmod>2022-07-18T15:52:15+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/current-projects/core-infrastructure-upgrade-project/</loc><lastmod>2020-07-07T01:58:27+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/ala-logo-and-identity/</loc><lastmod>2020-11-01T23:30:46+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/three-maps-activity/</loc><lastmod>2020-03-04T01:19:06+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
