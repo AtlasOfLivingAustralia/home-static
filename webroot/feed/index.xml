@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 20 Jul 2022 23:03:30 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 03 Aug 2022 03:26:51 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,159 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Annual User Satisfaction Survey: 2022 Results</title>
+		<link>https://www.ala.org.au/blogs-news/ala-annual-user-satisfaction-survey-2022-results/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 03 Aug 2022 03:26:51 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47120</guid>
+
+					<description><![CDATA[We asked and you answered! Many thanks to all our users who responded to our User Satisfaction Survey in May 2022. All responses received, including comments and suggestions for improvements to the ALA, help us shape the work we do and will inform improvements to the ALA.]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p><a href="https://www.ala.org.au/app/uploads/2022/08/ALA-annual-user-satisfaction-survey-results-2022.docx" target="_blank" rel="noreferrer noopener">Access a text (.docx) version of the results</a></p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img src="https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2.png" alt="Tall narrow format infographic with orange background.
+Full description and text included in text document. " class="wp-image-47123" width="600" height="1950" srcset="https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2.png 800w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-92x300.png 92w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-315x1024.png 315w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-768x2496.png 768w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-473x1536.png 473w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-630x2048.png 630w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ALA Update: Name matching service &#038; what it means  </title>
+		<link>https://www.ala.org.au/blogs-news/ala-update-name-matching-service/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 03 Aug 2022 02:46:11 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47082</guid>
+
+					<description><![CDATA[We recently released a significant update to our name-matching index, to ensure the ALA taxonomy (names and classification of species) is as up-to-date as possible. Many changes occurred behind the scenes, and some may be more noticeable.
+
+Read on to find out more about the ALA taxonomy update, why we did it, and how it might impact your use of the ALA.]]></description>
+										<content:encoded><![CDATA[
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="taxonomy-is-a-moveable-feast"><strong>Taxonomy is a moveable feast&nbsp;</strong>&nbsp;</h2>
+
+
+
+<p>Like most fields of study, taxonomy is not static. As new species are discovered, and others are reclassified, it’s important to stay on top of what belongs in which group. Adding to this challenge is the fact that different taxonomists and organisations can also disagree on certain points. For example, one source might classify a species as part of one family, but another source will classify them in a completely different family. </p>
+
+
+
+<div style="height:14px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="449" src="https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-1024x449.png" alt="" class="wp-image-47095" srcset="https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-1024x449.png 1024w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-300x132.png 300w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-768x337.png 768w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-1536x673.png 1536w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-2048x898.png 2048w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-1920x842.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Taxonomic trees help to illustrate how living things are categorized and named. Illustration by ALA project manager, Margot Schneider.</figcaption></figure>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="taxonomy-is-the-backbone-of-the-ala"><strong>Taxonomy is the backbone of the ALA</strong>&nbsp;</h2>
+
+
+
+<p>Because we hold information relating to species, the ALA relies on a taxonomic ‘backbone’ to sort and arrange all of the data we receive. While we recognise that there can be some disagreement within the field, ultimately we need to select a way of classifying species in order to present the data. We do this using several sources.&nbsp;&nbsp;</p>
+
+
+
+<p>For plants, we primarily rely on the <a rel="noreferrer noopener" href="https://biodiversity.org.au/nsl/services/search/names" target="_blank">Australian Plant Name Index</a> (APNI)/<a rel="noreferrer noopener" href="https://www.anbg.gov.au/cpbr/program/hc/hc-APC.html" target="_blank">Australian Plant Census</a> (APC), whereas for animals we refer to the <a rel="noreferrer noopener" href="https://biodiversity.org.au/afd/home" target="_blank">Australian Faunal Directory</a> (AFD). Fungi is covered by <a rel="noreferrer noopener" href="https://fungi.biodiversity.org.au/nsl/services/" target="_blank">AusFungi</a>, and mosses, by <a rel="noreferrer noopener" href="https://moss.biodiversity.org.au/nsl/services/" target="_blank">AusMoss</a>. Our friends across the Tasman aren’t forgotten either, with the <a rel="noreferrer noopener" href="https://www.nzor.org.nz/" target="_blank">New Zealand Organisms Register</a> (NZOR).&nbsp;</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="changes-that-have-happened-behind-the-scenes"><strong>Changes that have happened behind the scenes</strong>&nbsp;</h2>
+
+
+
+<p>Our taxonomic backbone sits in the background of ALA. When it’s accurate and up to date, it’s not too noticeable, but when it’s inaccurate, that’s when issues arise. Below are the key updates we’ve made to the back end of the system:&nbsp;&nbsp;</p>
+
+
+
+<ul><li>Refreshed the main sources: AFD, APNI/APC, AusFungi, AusMoss, NZOR </li><li>Updated source information for sources such as <a href="https://www.cmar.csiro.au/data/caab/" target="_blank" rel="noreferrer noopener">Codes for Australian Aquatic Biota</a> (CAAB) </li></ul>
+
+
+
+<p>The recent updates mean that the ALA taxonomy is now in line with the most up-to-date information available.&nbsp;</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="changes-you-might-notice"><strong>Changes you might notice</strong>&nbsp;</h2>
+
+
+
+<ul><li>The identifiers that we use for some species have changed. In some cases, this is because the species has been moved to a different position in the taxonomic tree. In other cases, particularly animals, the type of identifier supplied by the source has changed. </li><li>The changes above will flow through to individual species, so you may notice changes in how particular species, as well as higher taxonomic groups, are now classified </li><li>Sensitive species information and conservation data were revised for all states and territories, as were the lists of invasive and pest species. You may notice changes in names, with some new additions to these lists (and some removals) </li><li>More Indigenous language names for species were added (read more about our <a rel="noreferrer noopener" href="https://www.ala.org.au/indigenous-ecological-knowledge/" target="_blank">Indigenous Ecological Knowledge</a> (IEK) projects) </li><li>Lichens from the <a href="https://lichen.biodiversity.org.au/nsl/services/search/taxonomy" target="_blank" rel="noreferrer noopener">National Species Lists</a> (NSL) were added </li><li>Single-celled organisms such as Chromista and Protozoa had previously been classified under parallel ‘trees’ in the ALA back end, due to information feeding from different sources. We’ve now unified the sources, so these organisms are placed where they belong.  </li></ul>
+
+
+
+<div style="height:14px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-full is-resized"><a href="https://biocache.ala.org.au/occurrences/5ec23b18-7903-4005-9aae-f06950028b71" target="_blank" rel="noreferrer noopener"><img src="https://www.ala.org.au/app/uploads/2022/08/cc-slime-mould-cc-by-nc-sa-edited.jpeg" alt="" class="wp-image-47092" width="924" srcset="https://www.ala.org.au/app/uploads/2022/08/cc-slime-mould-cc-by-nc-sa-edited.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/08/cc-slime-mould-cc-by-nc-sa-edited-300x169.jpeg 300w, https://www.ala.org.au/app/uploads/2022/08/cc-slime-mould-cc-by-nc-sa-edited-768x432.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption>Carnival Candy Slime Mold (<em>Arcyria denudata</em>), of kingdom Protista. Image: sypster (CC-BY-NC-SA)</figcaption></figure>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="why-weve-updated-and-what-it-means-for-you-our-users"><strong>Why we’ve updated, and what it means for you, our users</strong> </h2>
+
+
+
+<p>These updates have been made to improve the accuracy of our data, and your experience using them. There are now fewer anomalies in our taxonomy, with more accurate classifications of some species. The ALA now has greater alignment with more recent versions of our source data.&nbsp;&nbsp;</p>
+
+
+
+<p>The field of taxonomy can change quickly, so by refreshing the ALA sources we keep data in the ALA as up-to-date as possible. &nbsp;</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="more-information"><strong>More information</strong>&nbsp;</h2>
+
+
+
+<ul><li>If you have any further questions about the ALA taxonomy, email us at <a rel="noreferrer noopener" href="mailto:support@ala.org.au" target="_blank">support@ala.org.au</a>.&nbsp;</li></ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>EcoAssets launched: access streamlined data for environmental reporting￼</title>
 		<link>https://www.ala.org.au/blogs-news/ecoassets-launched/</link>
 		
@@ -44,7 +197,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://ecoassets.org.au/" target="_blank" rel="noreferrer noopener"><img width="1024" height="242" src="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-1024x242.png" alt="Dark green banner image for EcoAssets. Text reads: building data linkages for environmental reporting" class="wp-image-47038" srcset="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-1024x242.png 1024w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-300x71.png 300w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-768x181.png 768w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1.png 1304w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://ecoassets.org.au/" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="242" src="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-1024x242.png" alt="Dark green banner image for EcoAssets. Text reads: building data linkages for environmental reporting" class="wp-image-47038" srcset="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-1024x242.png 1024w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-300x71.png 300w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-768x181.png 768w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1.png 1304w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -678,280 +831,6 @@
 					<description><![CDATA[ALA Newsletter March 2022]]></description>
 										<content:encoded><![CDATA[
 <p><a href="https://www.ala.org.au/app/uploads/2022/03/ALA-Newsletter-March-2022.pdf">ALA Newsletter March 2022</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Director&#8217;s message: ALA Newsletter March 2022</title>
-		<link>https://www.ala.org.au/blogs-news/directors-message-ala-newsletter-march-2022/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Mon, 07 Mar 2022 22:03:00 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=46554</guid>
-
-					<description><![CDATA[Launch of the ALA Australian Biodiversity Data Mobilisation Program Welcome to the March 2022 edition of our newsletter, in which we launch the ALA Australian Biodiversity Data Mobilisation Program. This new program will provide grants to institutions to mobilise their data to the ALA. This could include the transcription of historical field sheets, acquisition of [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<h2 id="launch-of-the-ala-australian-biodiversity-data-mobilisation-program">Launch of the ALA Australian Biodiversity Data Mobilisation Program</h2>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-1024x576.png" alt="" class="wp-image-46572" width="413" height="232" srcset="https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-1024x576.png 1024w, https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-768x432.png 768w, https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo-1536x864.png 1536w, https://www.ala.org.au/app/uploads/2022/03/ABDMP_logo.png 1600w" sizes="(max-width: 413px) 100vw, 413px" /></figure></div>
-
-
-
-<p>Welcome to the March 2022 edition of our newsletter, in which we launch the <strong><a href="https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/">ALA Australian Biodiversity Data Mobilisation Program.</a></strong></p>
-
-
-
-<p>This new program will provide grants to institutions to mobilise their data to the ALA. This could include the transcription of historical field sheets, acquisition of contemporary digital scanning technology, or even the development or purchase of software to provide better approaches to biodiversity data management and delivery. The ‘how’ will be up to the successful grant recipients, hence the program will offer maximum flexibility for successful applicants. We plan to award 6 grants in the first year of the program across both small ($20K) and large grants ($50K).</p>
-
-
-
-<h3 id="why-were-creating-this-grant-program">Why we&#8217;re creating this grant program</h3>
-
-
-
-<p>The success of the ALA as Australia’s biodiversity data infrastructure rests so much on the contribution made by its data partners across multiple domains. Data in the ALA comes from biological collections, museum and herbaria, state government, major research programs, non-government organisations and increasingly citizen scientists.</p>
-
-
-
-<p>We partner with over 900 of these groups and individuals to harmonise Australia’s biodiversity data. Despite these partner contributions we remain acutely aware that for small institutions, or where historical data remains in analogue format, providing biodiversity data to the ALA remains a challenge, and we encourage you to apply for assistance through this new program.</p>
-
-
-
-<p>I’ve been reflecting on the ecological data I collected as a researcher working across the south west slopes of NSW and parts of Victoria some years ago. I spent a decade supporting the collection of fundamental data about Australia’s flora and fauna. Much of this made its way into digital databases, at the time in CSIRO and the University of Melbourne. However, the ALA did not exist so this record although digital, remains undiscoverable.&nbsp; I also saw first-hand the filing cabinets of paper field sheets from my predecessors that provide a fundamental record of our biodiversity and may never be digitised.</p>
-
-
-
-<p>With this context in mind, I am &nbsp;very excited to be launching the <strong><a href="https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/">ALA Australian Biodiversity Data Mobilisation Program</a>.</strong></p>
-
-
-
-<h3 id="program-details-application-and-assessment">Program details: application and assessment</h3>
-
-
-
-<p>Clearly there’s a massive amount of biodiversity data that remains un-digitised and the job of the evaluation panel will be to make informed assessments against defined criteria. Detailed guidelines will be published shortly on the <a href="https://www.ala.org.au/blog/">ALA blog</a> and on our ALA social media channels &#8211; <a href="https://twitter.com/atlaslivingaust">Twitter</a>, <a href="https://www.facebook.com/atlasoflivingaustralia">Facebook</a> and <a href="https://www.linkedin.com/company/1232460">LinkedIn</a>. Principles underpinning the program include alignment with national priorities and a focus on significant historical biodiversity information not currently available as FAIR data – findable, accessible, interoperable, reusable.</p>
-
-
-
-<p>The program will be evaluated by an independent panel Chaired by Dr David Cantrill, one of the ALA Advisory Board’s longest serving members.</p>
-
-
-
-<p>Our team is so excited by the opportunity this program will deliver Australia’s biodiversity community and already anticipates the legacy it will deliver. We look forward to seeing some fantastic applications.</p>
-
-
-
-<p>I hope you enjoy our March 2022 newsletter.</p>
-
-
-
-<p>Dr. Andre Zerger </p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>The ALA Australian Biodiversity Data Mobilisation Program</title>
-		<link>https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Mon, 28 Feb 2022 23:00:42 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=46498</guid>
-
-					<description><![CDATA[Do you work in an institution with historic biodiversity data? Our new grant program is designed to help you digitise, mobilise and share your biodiversity data via the Atlas of Living Australia. ]]></description>
-										<content:encoded><![CDATA[
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/3-1-edited-1.png" alt="shelves full of folders" class="wp-image-46507" width="321" height="392"/><figcaption>Image: Australian National Insect Collection (ANIC)</figcaption></figure></div>
-
-
-
-<p class="has-medium-font-size"></p>
-
-
-
-<p class="has-medium-font-size">The <a href="https://ala.org.au/abdmp/">ALA Australian Biodiversity Data Mobilisation Program</a> is a grant program to support people and institutions make their biodiversity data more accessible.</p>
-
-
-
-<h3 id="accessible-data-is-better-data"><strong>Accessible data is better data</strong></h3>
-
-
-
-<p>Making your data open and accessible makes it more valuable. FAIR data – findable, accessible, interoperable, reusable &#8211; can be shared with other researchers and people working in biodiversity policy.</p>
-
-
-
-<p>High quality and accessible biodiversity data helps conservation efforts and informs decision-making and solutions for environmental challenges.</p>
-
-
-
-<h3 id="funding-to-support-your-digitisation-efforts"><strong>Funding to support your digitisation efforts</strong></h3>
-
-
-
-<p>We know that organising, standardising, and digitising data takes time and effort. The ALA Australian Biodiversity Data Mobilisation Program is here to help. The grant program will award small (up to $20k) and large (up to $50k) grants to biodiversity data owners to support purchasing equipment (e.g. camera, scanner) or employing staff in order to mobilise data.</p>
-
-
-
-<p>Applications for the 2022 round of the program have now closed.</p>
-
-
-
-<h3 id="who-can-apply"><strong>Who can apply?</strong></h3>
-
-
-
-<p>We’re looking for institutions or biodiversity researchers who need help digitising historic physical records and mobilising data into the ALA.</p>
-
-
-
-<p>There’s no catch, as long as the records are biodiversity-related. This can be for any wild species in Australia – from koalas to cane toads, eucalypts to bioluminescent fungi, we want to know about it.&nbsp;</p>
-
-
-
-<p>The data might be in paper field notes, or species in physical collections. Whatever it is, we’ll be giving out grants to 6 institutions through both small ($20K) and large grants($50k).</p>
-
-
-
-<p>You might be wondering why! Well, available data = useful data – so by making historical data accessible, it can be shared more widely and used by researchers to support biodiversity conservation efforts and decision-making.&nbsp;</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/5-1024x576.png" alt="colourful specimens in an insect collection" class="wp-image-46503" width="1005" height="565" srcset="https://www.ala.org.au/app/uploads/2022/02/5-1024x576.png 1024w, https://www.ala.org.au/app/uploads/2022/02/5-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/02/5-768x432.png 768w, https://www.ala.org.au/app/uploads/2022/02/5-1536x864.png 1536w, https://www.ala.org.au/app/uploads/2022/02/5.png 1600w" sizes="(max-width: 1005px) 100vw, 1005px" /><figcaption><meta charset="utf-8">Image: Australian National Insect Collection (ANIC)</figcaption></figure></div>
-
-
-
-<h1 id="details-of-the-program"><strong>Details of the program</strong></h1>
-
-
-
-<h3 id="how-to-apply">How to apply</h3>
-
-
-
-<p>All applications must be sent using the program submission form. </p>
-
-
-
-<h3 id="closing-date-for-applications">Closing date for applications</h3>
-
-
-
-<p>Applications for 2022 have now closed.</p>
-
-
-
-<h3 id="how-much-funding-can-i-apply-for">How much funding can I apply for? </h3>
-
-
-
-<p>There are two funding amounts on offer, including:</p>
-
-
-
-<ul><li>small grants up to $20,000</li><li>large grants up to $50,000</li></ul>
-
-
-
-<h3 id="who-can-apply">Who can apply?</h3>
-
-
-
-<p>This grant program is open to individuals or groups within an institution, excluding existing partners who already receive ALA or National Collaborative Research Infrastructure Strategy support. </p>
-
-
-
-<h3 id="what-data-are-suitable-for-the-grant">What data are suitable for the grant?</h3>
-
-
-
-<ul id="block-72757bf6-1e52-42ba-81ff-c1d26286af64"><li>The program will target existing data. It cannot support new expeditions or field programs</li><li>Data mobilisation efforts should align to national priorities</li><li>Data should be in the form of biodiversity species occurrence records akin to what&#8217;s delivered through the ALA already</li><li>Emergent digital data must be mapped to the Darwin Core standard and able to be provided to the ALA as open data</li></ul>
-
-
-
-<h3 id="what-can-i-use-the-funding-for">What can I use the funding for?</h3>
-
-
-
-<p>Funding can be used to fund data mobilisation and/or infrastructure investments. </p>
-
-
-
-<p>Data mobilisation investment could include:</p>
-
-
-
-<ul><li>Staff time to digitise of specimens in physical collections including scanning</li><li>Conversion of existing analogue data, such as in field notes or other formats into the Darwin Core standard for provision to the ALA</li></ul>
-
-
-
-<p>Infrastructure investment could include:</p>
-
-
-
-<ul><li>Purchasing digital imaging equipment to create digital data from historic records</li><li>Purchasing software licences to improve the management and delivery of biodiversity data</li><li>Software development costs associated with the improve management and delivery of biodiversity data</li></ul>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/4-1024x576.png" alt="assistant photographing a specimen" class="wp-image-46504" width="737" height="414" srcset="https://www.ala.org.au/app/uploads/2022/02/4-1024x576.png 1024w, https://www.ala.org.au/app/uploads/2022/02/4-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/02/4-768x432.png 768w, https://www.ala.org.au/app/uploads/2022/02/4-1536x864.png 1536w, https://www.ala.org.au/app/uploads/2022/02/4.png 1600w" sizes="(max-width: 737px) 100vw, 737px" /><figcaption><meta charset="utf-8">Image: Australian National Insect Collection (ANIC)</figcaption></figure></div>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="selection-criteria">Selection criteria</h3>
-
-
-
-<p>Applications will be assessed using an online form, in a single round and selected by an independent program evaluation panel. The submission form will be available from the 14th of March. It will contain all questions and a guide to the length of answers our panel is looking for. </p>
-
-
-
-<p>Overall, we are looking to understand the details of the proposed activity, why it is important, and how you would allocate the funds if successful.</p>
-
-
-
-<div class="wp-block-image"><figure class="alignright size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/02/1-1024x576.png" alt="&quot;&quot;" class="wp-image-46505" width="455" height="255" srcset="https://www.ala.org.au/app/uploads/2022/02/1-1024x576.png 1024w, https://www.ala.org.au/app/uploads/2022/02/1-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/02/1-768x432.png 768w, https://www.ala.org.au/app/uploads/2022/02/1-1536x864.png 1536w, https://www.ala.org.au/app/uploads/2022/02/1.png 1600w" sizes="(max-width: 455px) 100vw, 455px" /><figcaption><meta charset="utf-8">Image: Australian National Insect Collection (ANIC)</figcaption></figure></div>
-
-
-
-<h3 id="more-information">More information</h3>
-
-
-
-<ul><li><a href="https://ala.org.au/abdmp/">About the program</a> </li><li><a href="https://www.ala.org.au/abdmp-faq/">FAQ&#8217;s page</a></li></ul>
-
-
-
-<h3 id="any-other-questions">Any other questions?</h3>
-
-
-
-<p>Please <a href="mailto:outreach@ala.org.au">email us</a> with any questions you have about the program.</p>
 ]]></content:encoded>
 					
 		
