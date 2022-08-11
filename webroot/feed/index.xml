@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 15 Mar 2022 00:41:17 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 10 Aug 2022 23:58:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Test Blog post</title>
+		<link>https://www-test.ala.org.au/blogs-news/test-blog-post/</link>
+		
+		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
+		<pubDate>Wed, 10 Aug 2022 23:58:37 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45626</guid>
+
+					<description><![CDATA[Test post please ignore.]]></description>
+										<content:encoded><![CDATA[
+<p>Test post please ignore. </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Tiws-day arrives again</title>
 		<link>https://www-test.ala.org.au/blogs-news/tiws-day-arrives-again/</link>
 		
@@ -429,29 +446,6 @@
 
 
 <figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="875" src="https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-1024x875.jpg" alt="Bug." class="wp-image-44256" srcset="https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-1024x875.jpg 1024w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-300x256.jpg 300w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-768x656.jpg 768w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-1536x1312.jpg 1536w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-1920x1640.jpg 1920w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Green Vegetable Bug (Nezara viridula) by Reiner Richter (CC-BY-4.0) </figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter November 2020</title>
-		<link>https://www-test.ala.org.au/blogs-news/ala-newsletter-november-2020/</link>
-		
-		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
-		<pubDate>Mon, 23 Nov 2020 01:03:14 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<category><![CDATA[Newsletter]]></category>
-		<guid isPermaLink="false">https://edit.ala.org.au/?p=44459</guid>
-
-					<description><![CDATA[ALA Newsletter November 2020]]></description>
-										<content:encoded><![CDATA[
-<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><a href="https://edit.ala.org.au/app/uploads/2020/11/ALA-Newsletter-November-2020.pdf"><img loading="lazy" src="https://edit.ala.org.au/app/uploads/2020/11/Newsletter-Nov-2020_image-748x1024.png" alt="" class="wp-image-44460" width="216" height="295" srcset="https://www-test.ala.org.au/app/uploads/2020/11/Newsletter-Nov-2020_image-748x1024.png 748w, https://www-test.ala.org.au/app/uploads/2020/11/Newsletter-Nov-2020_image-219x300.png 219w, https://www-test.ala.org.au/app/uploads/2020/11/Newsletter-Nov-2020_image-768x1052.png 768w, https://www-test.ala.org.au/app/uploads/2020/11/Newsletter-Nov-2020_image.png 891w" sizes="(max-width: 216px) 100vw, 216px" /></a></figure></div>
-
-
-
-<p class="has-text-align-center"><a href="https://edit.ala.org.au/app/uploads/2020/11/ALA-Newsletter-November-2020.pdf">ALA Newsletter November 2020</a></p>
 ]]></content:encoded>
 					
 		
