@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 10 Aug 2022 23:58:37 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 11 Aug 2022 00:13:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,21 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>TEst post 2.</title>
+		<link>https://www-test.ala.org.au/blogs-news/test-post-2/</link>
+		
+		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
+		<pubDate>Thu, 11 Aug 2022 00:13:00 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45628</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Test Blog post</title>
 		<link>https://www-test.ala.org.au/blogs-news/test-blog-post/</link>
 		
@@ -421,31 +436,6 @@
 
 
 <p>Our reporters were unable to confirm the allegations.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Confirming that it is Monday.</title>
-		<link>https://www-test.ala.org.au/blogs-news/confirming-that-it-is-monday/</link>
-		
-		<dc:creator><![CDATA[Matt Andrews]]></dc:creator>
-		<pubDate>Mon, 15 Feb 2021 01:40:17 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=44484</guid>
-
-					<description><![CDATA[We have confirmation that today is Monday.]]></description>
-										<content:encoded><![CDATA[
-<p>This just in: we have official confirmation that today is Monday the 15th of February.</p>
-
-
-
-<p>Just thought you&#8217;d like to know. Here&#8217;s a picture:</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="875" src="https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-1024x875.jpg" alt="Bug." class="wp-image-44256" srcset="https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-1024x875.jpg 1024w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-300x256.jpg 300w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-768x656.jpg 768w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-1536x1312.jpg 1536w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295-1920x1640.jpg 1920w, https://www-test.ala.org.au/app/uploads/2020/08/Nezara-viridula-Green-Vegetable-Bug-by-Reiner-Richter-CC-BY-4.0-observations_32203295.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Green Vegetable Bug (Nezara viridula) by Reiner Richter (CC-BY-4.0) </figcaption></figure>
 ]]></content:encoded>
 					
 		
