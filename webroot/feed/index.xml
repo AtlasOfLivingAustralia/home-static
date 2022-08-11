@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 11 Aug 2022 01:13:13 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 11 Aug 2022 01:46:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Test blog 4. please ignore.</title>
+		<link>https://www-test.ala.org.au/blogs-news/test-blog-4-please-ignore/</link>
+		
+		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
+		<pubDate>Thu, 11 Aug 2022 01:46:26 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45632</guid>
+
+					<description><![CDATA[Test blog 4. please ignore.]]></description>
+										<content:encoded><![CDATA[
+<p>Test blog 4. please ignore. </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Test Blog 3</title>
 		<link>https://www-test.ala.org.au/blogs-news/test-blog-3/</link>
 		
@@ -417,27 +434,6 @@
 					<description><![CDATA[It's Thursday! But Big Néws wouldn't tell you thåt.]]></description>
 										<content:encoded><![CDATA[
 <p>Apostrophes&#8217;R&#8217;Us! We are always interested &#8211; despite protestations &#8211; in (bracketed) spécial chäracters!</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Unconfirmed rumours: it&#8217;s Wednesday!</title>
-		<link>https://www-test.ala.org.au/blogs-news/unconfirmed-rumours-its-wednesday/</link>
-		
-		<dc:creator><![CDATA[Matt Andrews]]></dc:creator>
-		<pubDate>Tue, 16 Feb 2021 23:02:29 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=44486</guid>
-
-					<description><![CDATA[Anonymous sources have revealed that, contrary to expectations, today might be Wednesday.]]></description>
-										<content:encoded><![CDATA[
-<p>Anonymous sources have revealed that, contrary to expectations, today might be Wednesday.</p>
-
-
-
-<p>Our reporters were unable to confirm the allegations.</p>
 ]]></content:encoded>
 					
 		
