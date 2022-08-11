@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 11 Aug 2022 00:13:01 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 11 Aug 2022 01:13:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,16 +28,18 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>TEst post 2.</title>
-		<link>https://www-test.ala.org.au/blogs-news/test-post-2/</link>
+		<title>Test Blog 3</title>
+		<link>https://www-test.ala.org.au/blogs-news/test-blog-3/</link>
 		
 		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
-		<pubDate>Thu, 11 Aug 2022 00:13:00 +0000</pubDate>
+		<pubDate>Thu, 11 Aug 2022 01:13:13 +0000</pubDate>
 				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45628</guid>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45630</guid>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
+					<description><![CDATA[This is a test blog]]></description>
+										<content:encoded><![CDATA[
+<p>This is a test blog</p>
+]]></content:encoded>
 					
 		
 		
