@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 08 Aug 2022 23:11:27 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 19 Aug 2022 06:10:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -33,14 +33,21 @@
 		
 		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
 		<pubDate>Mon, 08 Aug 2022 23:11:27 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=47166</guid>
 
-					<description><![CDATA[Kicking-off 15th August 2022 the ALA is celebrating <a rel="noreferrer noopener" href="https://www.scienceweek.net.au/" target="_blank">National Science Week</a>! We’re excited to share, discuss and celebrate science with you with a series of three online events throughout the week.
-
-Hear from ALA and Industry experts discussing careers in STEM, learn how to use the ALA R-package <em>galah</em> and come along for an introductory how-to beginner’s guide to the ALA. We can’t wait to see you there!]]></description>
+					<description><![CDATA[Kicking-off 15th August 2022 the ALA celebrated National Science Week! It was exciting to share, discuss and celebrate science with you over a series of three online events throughout the week. Hear from ALA and Industry experts discussing careers in STEM, learn how to use the ALA R-package galah and follow along for an introductory [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p></p>
+
+
+
+<p>Kicking-off 15th August 2022 the ALA celebrated <a rel="noreferrer noopener" href="https://www.scienceweek.net.au/" target="_blank">National Science Week</a>! It was exciting to share, discuss and celebrate science with you over a series of three online events throughout the week.</p>
+
+
+
+<p>Hear from ALA and Industry experts discussing careers in STEM, learn how to use the ALA R-package <em>galah</em> and follow along for an introductory how-to beginner’s guide to the ALA.</p>
 
 
 
@@ -56,7 +63,9 @@ Hear from ALA and Industry experts discussing careers in STEM, learn how to use 
 
 
 
-<figure class="wp-block-image size-full is-resized"><a href="https://events.csiro.au/Events/2022/August/3/STEM-Career-Stories" target="_blank" rel="noreferrer noopener"><img src="https://www.ala.org.au/app/uploads/2022/08/webinar-promo-STEM.png" alt="" class="wp-image-47170" width="560" height="469" srcset="https://www.ala.org.au/app/uploads/2022/08/webinar-promo-STEM.png 940w, https://www.ala.org.au/app/uploads/2022/08/webinar-promo-STEM-300x251.png 300w, https://www.ala.org.au/app/uploads/2022/08/webinar-promo-STEM-768x644.png 768w" sizes="(max-width: 560px) 100vw, 560px" /></a></figure>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA webinar: STEM Career Stories – 16 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/5EnctbSAUHo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
 
 
 
@@ -76,10 +85,6 @@ Hear from ALA and Industry experts discussing careers in STEM, learn how to use 
 
 
 
-<ul><li><a rel="noreferrer noopener" href="https://events.csiro.au/Events/2022/August/3/STEM-Career-Stories" target="_blank"><strong>Register now</strong></a></li></ul>
-
-
-
 <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
@@ -88,7 +93,9 @@ Hear from ALA and Industry experts discussing careers in STEM, learn how to use 
 
 
 
-<figure class="wp-block-image size-full is-resized"><a href="https://events.csiro.au/Events/2022/August/3/Intro-to-Galah" target="_blank" rel="noreferrer noopener"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/how-to-promo-galah.png" alt="" class="wp-image-47171" width="560" height="470" srcset="https://www.ala.org.au/app/uploads/2022/08/how-to-promo-galah.png 940w, https://www.ala.org.au/app/uploads/2022/08/how-to-promo-galah-300x251.png 300w, https://www.ala.org.au/app/uploads/2022/08/how-to-promo-galah-768x644.png 768w" sizes="(max-width: 560px) 100vw, 560px" /></a></figure>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="ALA How to session: Intro to {galah} – 17 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/VsyMh9RCY1c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
 
 
 
@@ -116,10 +123,6 @@ Hear from ALA and Industry experts discussing careers in STEM, learn how to use 
 
 
 
-<ul><li><a rel="noreferrer noopener" href="https://events.csiro.au/Events/2022/August/3/Intro-to-Galah" target="_blank"><strong>Register now</strong></a></li></ul>
-
-
-
 <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
@@ -128,7 +131,9 @@ Hear from ALA and Industry experts discussing careers in STEM, learn how to use 
 
 
 
-<figure class="wp-block-image size-full is-resized"><a href="https://events.csiro.au/Events/2022/August/3/Beginners-guide-to-using-the-ALA" target="_blank" rel="noreferrer noopener"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/how-to-promo-beginners.png" alt="" class="wp-image-47172" width="560" height="471" srcset="https://www.ala.org.au/app/uploads/2022/08/how-to-promo-beginners-300x251.png 300w, https://www.ala.org.au/app/uploads/2022/08/how-to-promo-beginners-768x644.png 768w" sizes="(max-width: 560px) 100vw, 560px" /></a></figure>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="ALA How-to session: Beginner&#039;s guide to using the ALA – 18 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/dwtKaqlJOss?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
 
 
 
@@ -149,10 +154,6 @@ Hear from ALA and Industry experts discussing careers in STEM, learn how to use 
 
 
 <p>Follow along as we share tips and tricks for getting the most out of the ALA. We’ll cover how to look up information about your favourite species, how to find out which species have been recorded in your local area, plus much more! Beginner friendly.</p>
-
-
-
-<ul><li><a rel="noreferrer noopener" href="https://events.csiro.au/Events/2022/August/3/Beginners-guide-to-using-the-ALA" target="_blank"><strong>Register now</strong></a></li></ul>
 
 
 
