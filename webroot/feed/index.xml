@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 19 Aug 2022 06:10:23 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 19 Aug 2022 06:29:50 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -32,18 +32,18 @@
 		<link>https://www.ala.org.au/blogs-news/national-science-week-2022/</link>
 		
 		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Mon, 08 Aug 2022 23:11:27 +0000</pubDate>
+		<pubDate>Thu, 18 Aug 2022 23:11:00 +0000</pubDate>
 				<category><![CDATA[Webinars]]></category>
 		<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=47166</guid>
 
-					<description><![CDATA[Kicking-off 15th August 2022 the ALA celebrated National Science Week! It was exciting to share, discuss and celebrate science with you over a series of three online events throughout the week. Hear from ALA and Industry experts discussing careers in STEM, learn how to use the ALA R-package galah and follow along for an introductory [&#8230;]]]></description>
+					<description><![CDATA[In August 2022 the ALA celebrated National Science Week! It was exciting to share, discuss and celebrate science with you over a series of three online events throughout the week. Hear from ALA and Industry experts discussing careers in STEM, learn how to use the ALA R-package galah and follow along for an introductory how-to [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p></p>
 
 
 
-<p>Kicking-off 15th August 2022 the ALA celebrated <a rel="noreferrer noopener" href="https://www.scienceweek.net.au/" target="_blank">National Science Week</a>! It was exciting to share, discuss and celebrate science with you over a series of three online events throughout the week.</p>
+<p>In August 2022 the ALA celebrated <a rel="noreferrer noopener" href="https://www.scienceweek.net.au/" target="_blank">National Science Week</a>! It was exciting to share, discuss and celebrate science with you over a series of three online events throughout the week.</p>
 
 
 
@@ -64,7 +64,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="ALA webinar: STEM Career Stories – 16 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/5EnctbSAUHo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/5EnctbSAUHo
 </div></figure>
 
 
@@ -94,7 +94,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA How to session: Intro to {galah} – 17 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/VsyMh9RCY1c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="ALA How to session: Intro to {galah} – 17 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/VsyMh9RCY1c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
 
