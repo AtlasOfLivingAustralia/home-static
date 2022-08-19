@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 19 Aug 2022 06:29:50 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 19 Aug 2022 06:58:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -55,7 +55,7 @@
 
 
 
-<h2 id="ala-events">ALA events:</h2>
+<h2 id="ala-events">ALA events</h2>
 
 
 
@@ -64,7 +64,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://youtu.be/5EnctbSAUHo
+<iframe title="ALA webinar: STEM Career Stories – 16 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/5EnctbSAUHo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -94,7 +94,7 @@ https://youtu.be/5EnctbSAUHo
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="ALA How to session: Intro to {galah} – 17 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/VsyMh9RCY1c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" title="ALA How to session: Intro to {galah} – 17 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/VsyMh9RCY1c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
 
