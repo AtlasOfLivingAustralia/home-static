@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 23 Aug 2022 06:37:14 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 23 Aug 2022 06:58:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,21 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Test blog Tuesday &#8211;  2</title>
+		<link>https://www-test.ala.org.au/blogs-news/test-blog-tuesday-2/</link>
+		
+		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
+		<pubDate>Tue, 23 Aug 2022 06:58:09 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45644</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Test Blog  &#8211; Tuesday</title>
 		<link>https://www-test.ala.org.au/blogs-news/test-blog-tuesday/</link>
 		
@@ -283,118 +298,6 @@
 
 
 <p> </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA webinar: Innovations in biodiversity data management</title>
-		<link>https://www-test.ala.org.au/blogs-news/ala-webinar-innovations-in-biodiversity-data-management/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Tue, 08 Jun 2021 23:00:00 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=44588</guid>
-
-					<description><![CDATA[It is now easier than ever to capture biodiversity information, with innovations in smartphones, digitisation and data storage driving massive growth in datasets describing the natural world. This torrent of data brings new opportunities, but also new challenges for organsations that collect, store, and share that information. In this webinar, hear from speakers working to [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>It is now easier than ever to capture biodiversity information, with innovations in smartphones, digitisation and data storage driving massive growth in datasets describing the natural world. This torrent of data brings new opportunities, but also new challenges for organsations that collect, store, and share that information. In this webinar, hear from speakers working to expand the scale and richness of biodiversity information available in Australia, and to understand what new opportunities are just over the horizon.</p>
-
-
-
-<p>text</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA webinar: Innovations in biodiversity data management June 8 2021" width="640" height="360" src="https://www.youtube.com/embed/1KG39INT7vQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p>Moderator bio</p>
-
-
-
-<p></p>
-
-
-
-<p>Presenter bio 1</p>
-
-
-
-<p></p>
-
-
-
-<p>Presenter bio 2</p>
-
-
-
-<p></p>
-
-
-
-<p>Presenter bio 3</p>
-
-
-
-<p></p>
-
-
-
-<p>Metrics</p>
-
-
-
-<p>i.e. watched by x viewers.</p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p>Q &amp; A from the webinar. We received more great questions than we had time to cover, please see below for answers to these. </p>
-
-
-
-<p>Q (example)</p>
-
-
-
-<p>A (example)</p>
-
-
-
-<p></p>
-
-
-
-<p>Q (example)</p>
-
-
-
-<p>A (example)</p>
 ]]></content:encoded>
 					
 		
