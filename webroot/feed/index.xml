@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 22 Aug 2022 07:13:59 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 23 Aug 2022 06:37:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,21 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Test Blog  &#8211; Tuesday</title>
+		<link>https://www-test.ala.org.au/blogs-news/test-blog-tuesday/</link>
+		
+		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
+		<pubDate>Tue, 23 Aug 2022 06:37:14 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45640</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Test blog – Monday</title>
 		<link>https://www-test.ala.org.au/blogs-news/test-blog-monday/</link>
 		
@@ -380,59 +395,6 @@
 
 
 <p>A (example)</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>International Living Atlases: Australian software used across the globe</title>
-		<link>https://www-test.ala.org.au/impact-stories/international-living-atlases-australian-software-used-across-the-globe/</link>
-		
-		<dc:creator><![CDATA[Alex Horvat]]></dc:creator>
-		<pubDate>Sun, 16 May 2021 23:27:10 +0000</pubDate>
-				<category><![CDATA[Impact stories]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=44546</guid>
-
-					<description><![CDATA[The Atlas of Living Australia is a world leader in biodiversity data infrastructure. Software code originally developed by our Australian team is now in use by countries around the world to help manage their national biodiversity databases.]]></description>
-										<content:encoded><![CDATA[
-<p>In 2010, the Atlas of Living Australia (ALA) was established by the Australian Government’s National Collaborative Research Infrastructure Strategy (NCRIS) to provide researchers, decision makers and community groups a one-stop-shop for biodiversity data. There are now over 20 international Living Atlases based on the software platform originally developed by the ALA.</p>
-
-
-
-<h2 id="the-ala-goes-global">The ALA goes global</h2>
-
-
-
-<p>Within a few years of operation, the ALA rapidly established 100s of data partners across museums and herbaria, universities, government departments and community groups in Australia. Soon Australia’s biodiversity data were accessible online for ecoscience research, state and federal government environment and species conservation management programs. As the Australian node of GBIF – the Global Biodiversity Information Facility – the ALA supported the international community by sharing expertise and open software code.<br></p>
-
-
-
-<p>In 2015, the ALA hosted the first international Living Atlases community meeting to respond to requests from countries around the world. This helped form the collaborative global community that now supports developers implementing the open source platform. The software code has been used to set up 27 installations around the world for national biodiversity databases as well as thematic, regional and institutional instances.</p>
-
-
-
-<h2 id="the-international-living-atlases-community">The international Living Atlases community</h2>
-
-
-
-<p>The Living Atlases platform enables countries to aggregate biodiversity data from multiple sources and supports integrated access to other biological and environmental information such as temperature, habitat etc.<br></p>
-
-
-
-<p>Living Atlas community members continue to work collaboratively to share code and learn from experiences in establishing national biodiversity databases in their countries. They have organised technical training sessions and presented at numerous international meetings. As a result of these and other efforts, an increasing number of GBIF nodes and other organisations have implemented the platform. The Living Atlases community website offers full technical documentation, news from across the community and a current and complete list of participating countries.</p>
-
-
-
-<h2 id="for-more-information">For more information:</h2>
-
-
-
-<p><a href="https://living-atlases.gbif.org/">Living Atlases website</a></p>
-
-
-
-<p><a href="https://www-test.ala.org.au/app/uploads/2021/05/21280-ALA-Case-Study-Fact-Sheet-International-Living-Atlases-V3.pdf">View this impact story as a PDF</a></p>
 ]]></content:encoded>
 					
 		
