@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 31 Oct 2022 23:27:42 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 01 Nov 2022 05:55:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,147 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Sneak peek of our new API portal</title>
+		<link>https://www.ala.org.au/blogs-news/sneak-peek-of-our-new-api-portal/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Tue, 01 Nov 2022 05:55:57 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47573</guid>
+
+					<description><![CDATA[We’ve just released a new API gateway to access our APIs: docs.ala.org.au! Over 130 API endpoints have been migrated across to Swagger in a beta release, and we’re working on making more available very soon. ALA is passionate about empowering and supporting great research, so we’ve released APIs which were only used internally in the [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>We’ve just released a new API gateway to access our APIs: <a href="https://docs.ala.org.au/">docs.ala.org.au</a>! Over 130 API endpoints have been migrated across to Swagger in a beta release, and we’re working on making more available very soon.</p>
+
+
+
+<p>ALA is passionate about empowering and supporting great research, so we’ve released APIs which were only used internally in the past. You can now use these in your work to access our open-source data more easily and feed into downstream analyses using your own system. We can’t wait for you to try them out and let us know what you think!</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img src="https://www.ala.org.au/app/uploads/2022/10/API-portal.png" alt="software developer coding at a computer" class="wp-image-47544" width="597" height="499" srcset="https://www.ala.org.au/app/uploads/2022/10/API-portal.png 940w, https://www.ala.org.au/app/uploads/2022/10/API-portal-300x251.png 300w" sizes="(max-width: 597px) 100vw, 597px" /></figure>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 id="faqs"><strong>FAQs</strong></h3>
+
+
+
+<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4 id="what-about-security"><strong>What about security?</strong></h4>
+
+
+
+<p>The new portal will increase security for both ALA and you, our user. By moving to JSON Web Tokens (JWT), we’re able to open up access to previously unreleased APIs.</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4 id="jwt-tokens-but-isnt-ala-providing-access-to-open-data"><strong>JWT tokens? But isn’t ALA providing access to open data?</strong></h4>
+
+
+
+<p>Yes, we still are! (And we’re still free to use too).</p>
+
+
+
+<p>Most of our APIs&nbsp;<strong>do not</strong>&nbsp;require authentication and can be accessed freely as documented in the relevant Swagger specifications found at&nbsp;<a href="https://docs.ala.org.au/">docs.ala.org.au</a>.&nbsp;</p>
+
+
+
+<p>For the protected APIs (such as sensitive or private data), you’ll need a&nbsp;JWT, which can be generated via a Client ID and Client Secret&nbsp;– let us know if you require this and we can assist.</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4 id="whats-happening-to-the-existing-api-portal"><strong>What’s happening to the existing API portal?</strong></h4>
+
+
+
+<p>While we are in the process of migrating more APIs across, the <a href="https://api.ala.org.au/">existing ALA API portal</a> will still be fully available and everything will be backwards compatible.</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4 id="still-have-questions"><strong>Still have questions?</strong></h4>
+
+
+
+<p>See our updated support article: <a href="https://support.ala.org.au/support/solutions/articles/6000261502-ala-for-developers-how-to-access-ala-apis">ALA for developers, how to access ALA APIs</a> for technical tips on working with the new portal.</p>
+
+
+
+<p>Finally, we’d love to hear from you! If you come across any issues, need help, or have questions or feedback about the new portal, feel free to reach out to us on <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 id="the-tl-dr-summary"><strong>The TL; DR summary:</strong></h3>
+
+
+
+<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4 id="whats-changed"><strong>What’s changed?</strong></h4>
+
+
+
+<ul><li>New ALA API portal with a new URL: <a href="https://docs.ala.org.au/">docs.ala.org.au</a></li><li>More API endpoints now available, and more coming soon</li><li>Increased security</li><li><a href="mailto:support@ala.org.au">Contact us</a> for an authorisation key</li></ul>
+
+
+
+<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4 id="what-hasnt-changed"><strong>What hasn’t changed?</strong></h4>
+
+
+
+<ul><li>ALA and our APIs are still <em>open-source</em> and <em>free </em>to use</li><li>The <a href="https://api.ala.org.au/">existing API portal</a> will still be available while we complete the migration</li><li>We’re still here to help if you need assistance: <a href="mailto:support@ala.org.au">support@ala.org.au</a></li></ul>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-full is-resized"><a href="https://docs.ala.org.au/"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen.png" alt="screenshot of the new ALA API docs portal" class="wp-image-47564" width="682" height="710" srcset="https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen.png 820w, https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen-288x300.png 288w, https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen-768x800.png 768w" sizes="(max-width: 682px) 100vw, 682px" /></a></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Are you sitting on camera trap data?</title>
 		<link>https://www.ala.org.au/blogs-news/are-you-sitting-on-camera-trap-data/</link>
 		
@@ -38,7 +179,7 @@
 
 					<description><![CDATA[WildObs would like to hear about your camera trap work!]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img width="1024" height="202" src="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png" alt="green banner reading &quot;WildObs Australia&quot; with a picture of a dingo, a wallaby, a kangaroo and a cassowary. " class="wp-image-47427" srcset="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png 1024w, https://www.ala.org.au/app/uploads/2022/10/WildObs-300x59.png 300w, https://www.ala.org.au/app/uploads/2022/10/WildObs-768x152.png 768w, https://www.ala.org.au/app/uploads/2022/10/WildObs-1536x303.png 1536w, https://www.ala.org.au/app/uploads/2022/10/WildObs.png 1752w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>WildObs banner (TERN)</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="202" src="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png" alt="green banner reading &quot;WildObs Australia&quot; with a picture of a dingo, a wallaby, a kangaroo and a cassowary. " class="wp-image-47427" srcset="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png 1024w, https://www.ala.org.au/app/uploads/2022/10/WildObs-300x59.png 300w, https://www.ala.org.au/app/uploads/2022/10/WildObs-768x152.png 768w, https://www.ala.org.au/app/uploads/2022/10/WildObs-1536x303.png 1536w, https://www.ala.org.au/app/uploads/2022/10/WildObs.png 1752w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>WildObs banner (TERN)</figcaption></figure>
 
 
 
@@ -895,147 +1036,6 @@ Read on to find out more about the ALA taxonomy update, why we did it, and how i
 
 
 <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA webinar: Protecting Australia&#8217;s ecosystems: novel approaches to biosecurity management￼</title>
-		<link>https://www.ala.org.au/blogs-news/ala-webinar-protecting-australias-ecosystems/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Fri, 27 May 2022 03:33:39 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=46819</guid>
-
-					<description><![CDATA[Australia is home to a vast number of species, many of which occur nowhere else. Unfortunately, however, the high uniqueness of our plants and animals makes our ecosystems unusually vulnerable to invasive species. In this webinar, three presenters will talk about their efforts to predict, locate, and eradicate high-impact invasive species before they become established, [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Australia is home to a vast number of species, many of which occur nowhere else. Unfortunately, however, the high uniqueness of our plants and animals makes our ecosystems unusually vulnerable to invasive species. In this webinar, three presenters will talk about their efforts to predict, locate, and eradicate high-impact invasive species before they become established, a crucial step in protecting our precious ecosystems.</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA webinar: Protecting Australia&#039;s ecosystems: novel approaches to biosecurity management 24 May 22" width="640" height="360" src="https://www.youtube.com/embed/bMZcDFs3dwk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>This webinar took place at 1.00pm AEST, Tuesday 24 May 2022, with 238 live viewers in attendance.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="speakers">Speakers</h2>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/AI-app.png" alt="" class="wp-image-46897"/></figure></div>
-
-
-<h3 id="miles-nicholls-atlas-of-living-australia">Alexander Schmidt-Lebuhn | CSIRO</h3>
-
-
-
-<p>Alexander is a CSIRO scientist at the Australian National Herbarium in Canberra, where he leads the Plant Systematics and Population Genetics team. His research interests include phylogenetics, taxonomy, and biogeography in particular of Asteraceae (daisy family) and the application of computer vision to species identification and collection science. Alexander&#8217;s work mobilises collection specimens and their DNA and label data to understand the evolution of Australia&#8217;s biodiversity, to produce identification tools, and to support conservation, biosecurity, and biological control research.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/fire-ant.png" alt="" class="wp-image-46898"/></figure></div>
-
-
-<h3 id="arve-solland-ecocommons">Andrew Turley | QLD Department of Agriculture and Fisheries</h3>
-
-
-
-<p>Andrew leads the Strategy directorate for the National Red Imported Fire Ant Eradication Program, within the Queensland Department of Agriculture and Fisheries. Having joined the program in 2019, Andrew leads the development of program strategies, the implementation of its science, policy, systems and intelligence, and communications and engagement functions. Prior to joining the fire ant program, Andrew led Project DIG at the Queensland Museum Network, and multiple projects for the World Mosquito Program within Australia and abroad. &nbsp;</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/biosecurity-commons.png" alt="" class="wp-image-46899"/></figure></div>
-
-
-<h3 id="ana-belgun-data61">Paul Tudman | BioSecurity Commons</h3>
-
-
-
-<p>Set to launch in April 2023, Biosecurity Commons will deliver a cloud-based decision-support platform for modelling and analysing biosecurity risk and response. Paul is a data and analytics specialist with over 20 years of experience working on large-scale projects for state and federal governments, and academia. As the Project Manager for Biosecurity Commons, Paul is responsible for leading a highly-skilled team of software developers, scientists and communicators to build powerful decision-support tools for biosecurity using cloud-based technology.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/05/ALA-moderator-Erin-Roger.png" alt="" class="wp-image-46891"/></figure></div>
-
-
-<h3 id="moderator-bio">Moderator bio</h3>
-
-
-
-<p>Erin Roger is the Biosecurity Lead for the Atlas of Living Australia. The program aims to strengthen biosecurity practices and partnerships for Australia, improving outcomes for our native species and industry. Erin is also the former Chair of the Australian Citizen Science Association. Prior to her work in these spaces, Erin worked in climate change adaptation and has a PhD in Terrestrial Ecology.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="qa">Q&amp;A</h2>
-
-
-
-<p>We had so many wonderful questions. Please see below for answers to the questions we didn&#8217;t quite get to:</p>
-
-
-
-<p><strong>Q. Are there laws around the movement of dirt (fill) in fire ant areas? It is common practice in my area to seek fill. How do you discourage the community from seeking out fill and raise awareness around the risks associated with moving dirt?</strong></p>
-
-
-
-<p>A. Andrew Turley: Yes, there are restrictions on the movement of fire ant carriers regulated through the&nbsp;<em>Biosecurity Act 2014.&nbsp;</em>However, many materials can be moved safely if appropriate mitigation measures are taken. <a rel="noreferrer noopener" href="https://www.fireants.org.au/treat/business-and-industry/movement-controls" target="_blank">The National Fire Ant Eradication Program website</a> is the best source of information about this. Restricting movement relies heavily on advertising, community engagement and cooperation, though we do have a compliance team that routinely checks businesses and respond to community reports of illegal movements too.&nbsp;</p>
-
-
-
-<p><strong>Q. Do events like flooding risk larger-scale movements of ants, or other species?</strong></p>
-
-
-
-<p>A. Andrew Turley: Yes. Fire ants originate from the Amazon floodplains, and whole colonies can form large rafts and float during flooding events (see this recent media <a href="https://www.theguardian.com/australia-news/2022/apr/12/the-ants-go-rafting-invasive-fire-ants-take-to-australian-flood-waters-to-colonise-new-areas" target="_blank" rel="noreferrer noopener">article from The Guardian</a> discussing this). In SEQ, we&#8217;re lucky that all fire ants are east of the great dividing range and the rivers/creeks flow eastward back into the infested area. As such, the impact of flooding on fire ant eradication efforts is minimal at this time.&nbsp;&nbsp;</p>
-
-
-
-<p><strong>Q. How do you deal with taxonomic inconsistency? For invasive species, the ALA, GBIF, and CABI are not consistent. Is there an expert input process?</strong></p>
-
-
-
-<p>A. Paul Tudman: The Biosecurity Commons platform will provide a suite of online tools for analysing data and provide easy access to online data repositories through a data catalogue. However, assessing the quality of the data that is used in any analysis will fall on the shoulders of the practitioner. We may investigate the challenge of taxonomic inconsistency between repositories in future versions of the platform but that is currently out of scope for the proof-of-concept stage of the project.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="want-more">Want more?</h2>
-
-
-
-<p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
 ]]></content:encoded>
 					
 		
