@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 01 Nov 2022 05:55:57 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Nov 2022 03:44:01 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,39 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Welcome to the November 2022 edition of our newsletter</title>
+		<link>https://www.ala.org.au/blogs-news/welcome-to-the-november-2022-edition-of-our-newsletter/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Wed, 02 Nov 2022 03:44:01 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47517</guid>
+
+					<description><![CDATA[Welcome to our November newsletter]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-thumbnail is-style-rounded"><img width="150" height="150" src="https://www.ala.org.au/app/uploads/2022/10/A57I6674-150x150.jpg" alt="" class="wp-image-47518"/><figcaption>Dr. Andre Zerger &#8211; Atlas of Living Australia Director</figcaption></figure>
+
+
+
+<p>In this issue, we are pleased to present you with our Year in Review for 2021-22. Our Year in Review showcases ALA’s highlights, and reflects on the fundamental contribution made by our partners in supporting our mission. 2021-22 was an important year for the ALA, highlighted by some innovative new capability releases including <a href="https://labs.ala.org.au/">ALA Labs</a>, our work with partner NCRIS facilities to establish and launch <a href="https://ecoassets.org.au/">EcoAssets</a>, and the inaugural launch of the <a href="https://www.ala.org.au/abdmp/">ALA Australian Biodiversity Data Mobilisation Program</a>. Last year was also a time of significant team growth for the ALA and we now have staff in six  capital cities working with our partners, our projects and supporting our applications and systems. Having a national team has been a welcome by-product of some of the constraints imposed upon us over the past few years. Finally, doing justice to the breadth of research we enable in any year is always a challenge, but we’ve showcased four stellar examples of how a national biodiversity data infrastructure enables Australian science. We hope you enjoy reading our 2021-22 story as much as we’ve enjoyed building it.</p>
+
+
+
+<p>I was recently privileged to represent the Australian delegation at the Governing Board meeting of the Global Biodiversity Information Facility (GBIF) held for the first time in person in three years in Brussels, but also supporting a hybrid model. It was a great opportunity to connect with people we only ever see virtually. It&#8217;s nice to see the shared challenges, understand where our partners are heading strategically and benchmark ALA’s approach both technically and strategically. The global context is different to ours but nevertheless, we run a federated data infrastructure built on strong relationships across many sectors, so we learn so much at these events. An additional highlight for me was attending a one-day symposium hosted by GBIF and the European Biodiversa+ program called Data Beyond Borders that explored the role data infrastructure can play in supporting major national research and policy programs. This is clearly one of the next frontiers for capabilities such as ALA, and our partners in the NCRIS program.</p>
+
+
+
+<p>The GBIF experience has affirmed the importance of ALA’s international role, and the opportunities this affords moving forward. Our delegation concluded the meeting with a successful nomination to host the 2023 Governing Board Meeting in Canberra – it’s been almost 20 years since Australia played this role and we are excited to welcome our international partners in 2023.</p>
+
+
+
+<p>It&#8217;s been some years since we’ve all travelled and engaged in person, but our team have been re-energised by this year’s conference season. This has included our recent participation in eResearch Australasia in Brisbane, remote participation in the TDWG international meeting, GBIF in Europe, and in-person participation at the Ecological Society of Australia conference in Wollongong in November. I’d like to conclude by acknowledging the groups and individuals that do such an amazing job designing, coordinating, and running conferences to support our sector.&nbsp; We appreciate the work you do! We hope you enjoy our November edition.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Sneak peek of our new API portal</title>
 		<link>https://www.ala.org.au/blogs-news/sneak-peek-of-our-new-api-portal/</link>
 		
@@ -50,7 +83,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img src="https://www.ala.org.au/app/uploads/2022/10/API-portal.png" alt="software developer coding at a computer" class="wp-image-47544" width="597" height="499" srcset="https://www.ala.org.au/app/uploads/2022/10/API-portal.png 940w, https://www.ala.org.au/app/uploads/2022/10/API-portal-300x251.png 300w" sizes="(max-width: 597px) 100vw, 597px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/API-portal.png" alt="software developer coding at a computer" class="wp-image-47544" width="597" height="499" srcset="https://www.ala.org.au/app/uploads/2022/10/API-portal.png 940w, https://www.ala.org.au/app/uploads/2022/10/API-portal-300x251.png 300w" sizes="(max-width: 597px) 100vw, 597px" /></figure>
 
 
 
@@ -926,112 +959,6 @@ Read on to find out more about the ALA taxonomy update, why we did it, and how i
 
 
 <p><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b">Back to ALA Newsletter August 2022</a></p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>EcoAssets launched: access streamlined data for environmental reporting￼</title>
-		<link>https://www.ala.org.au/blogs-news/ecoassets-launched/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Wed, 20 Jul 2022 22:53:41 +0000</pubDate>
-				<category><![CDATA[Impact stories]]></category>
-		<category><![CDATA[Data]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47018</guid>
-
-					<description><![CDATA[ Through EcoAssets, the Atlas of Living Australia (ALA), Integrated Marine Observing System (IMOS) and Terrestrial Ecosystem Research Network (TERN) are delivering open, integrated data to support national environmental reporting and assessment needs.]]></description>
-										<content:encoded><![CDATA[
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://ecoassets.org.au/" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="1024" height="242" src="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-1024x242.png" alt="Dark green banner image for EcoAssets. Text reads: building data linkages for environmental reporting" class="wp-image-47038" srcset="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-1024x242.png 1024w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-300x71.png 300w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1-768x181.png 768w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-header-1.png 1304w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<div style="height:26px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="ecoassets-is-now-live"><strong>EcoAssets is now live!</strong></h2>
-
-
-
-<p>Through EcoAssets, the Atlas of Living Australia (ALA), Integrated Marine Observing System (IMOS) and Terrestrial Ecosystem Research Network (TERN) are delivering open, integrated data to support national environmental reporting and assessment needs.</p>
-
-
-
-<p>Having access to quality data with a broad reach is critical to this kind of national reporting, such as the recently released State of the Environment Report.</p>
-
-
-
-<p>Until recently, the data required for environmental assessment have only been available through separate data systems. Datasets historically have not been well integrated to support environmental reporting, especially at national, state and territory levels. By making it simpler and faster to obtain integrated data, EcoAssets will enhance reporting efforts and support improved environmental decision-making.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="381" src="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-collage-1024x381.png" alt="Three nature images. left: close up of kangaroo grass, middle: a humpback whale breaching, right: a colourful lizard (painted dragon) in the desert" class="wp-image-47055" srcset="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-collage-1024x381.png 1024w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-collage-300x112.png 300w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-collage-768x285.png 768w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-collage-1536x571.png 1536w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-collage.png 1582w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Left: Kangaroo Grass (<em>Themeda triandra</em>) image: Kylier (CC-BY-NC); Centre: Humpback Whale (<em>Megaptera novaeangliae</em>) image: NOAA National Ocean Service (CC-BY); Right: Painted Dragon (<em>Ctenophorus pictus</em>) image: Sgorta (CC-BY-NC)</figcaption></figure>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="streamlined-data-to-increase-reporting-capabilities"><strong>Streamlined data to increase reporting capabilities</strong></h2>
-
-
-
-<p><a rel="noreferrer noopener" href="https://ecoassets.org.au/data/" target="_blank">Seven datasets</a> are now publicly and freely available for biodiversity reporting and assessment. The primary biodiversity data asset offered by EcoAssets is the&nbsp;aggregated <a href="https://ecoassets.org.au/data/aggregated-data-australian-species-occurrences/" target="_blank" rel="noreferrer noopener">Australian species occurrence data</a> asset, which enables users to explore the data by threatened species status, bioregion, protected area category, and more. This provides coverage for Australian terrestrial and marine systems. A future release will include an environmental monitoring and observation summary dataset.</p>
-
-
-
-<p>By increasing alignment between data, the research infrastructures have created not only these first release datasets, but also data pipelines to ensure each data asset can be updated at regular intervals – speeding up reporting and assessment efforts in the future.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="aligncenter size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-diagram-772x1024.png" alt="EcoAssets flowchart. Data from various sources, an arrow pointing to  streamlined, aggregated, aligned and maintained, two arrows pointing to data assets" class="wp-image-47028" width="578" height="765" srcset="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-diagram-226x300.png 226w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-diagram-768x1018.png 768w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-diagram.png 807w" sizes="(max-width: 578px) 100vw, 578px" /></figure></div>
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="partnerships"><strong>Partnerships</strong></h2>
-
-
-
-<p>EcoAssets is made possible through partnerships between three <a href="https://www.dese.gov.au/ncris" target="_blank" rel="noreferrer noopener">National Collaborative Research Infrastructure Strategy</a> (NCRIS) projects including the <a rel="noreferrer noopener" href="http://ala.org.au" target="_blank">Atlas of Living Australia</a> (ALA), <a rel="noreferrer noopener" href="http://tern.org.au" target="_blank">Terrestrial Ecosystem Research Network</a> (TERN) and <a rel="noreferrer noopener" href="http://imos.org.au" target="_blank">Integrated Marine Observing System</a> (IMOS). This is in partnership with the <a rel="noreferrer noopener" href="https://www.dcceew.gov.au/" target="_blank">Australian Government</a> and with support from <a rel="noreferrer noopener" href="https://ardc.edu.au/" target="_blank">Australian Research Data Commons</a> (ARDC).</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="156" src="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-partners-for-blog-1-1024x156.png" alt="logos of the partner organisations" class="wp-image-47046" srcset="https://www.ala.org.au/app/uploads/2022/07/EcoAssets-partners-for-blog-1-1024x156.png 1024w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-partners-for-blog-1-300x46.png 300w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-partners-for-blog-1-768x117.png 768w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-partners-for-blog-1-1536x234.png 1536w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-partners-for-blog-1-2048x312.png 2048w, https://www.ala.org.au/app/uploads/2022/07/EcoAssets-partners-for-blog-1-1920x293.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<div style="height:16px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="more-information"><strong>More information</strong></h2>
-
-
-
-<p>You may like to <a href="https://ecoassets.org.au/data-assets-for-australian-biodiversity/" target="_blank" rel="noreferrer noopener">read more about the datasets</a>, and explore the <a href="http://ecoassets.org.au/" target="_blank" rel="noreferrer noopener">EcoAssets website</a>.</p>
 
 
 
