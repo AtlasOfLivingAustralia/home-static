@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 02 Nov 2022 03:44:01 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Nov 2022 23:52:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -691,6 +691,8 @@
 		<dc:creator><![CDATA[ALA Communications]]></dc:creator>
 		<pubDate>Thu, 04 Aug 2022 02:16:19 +0000</pubDate>
 				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=47148</guid>
 
 					<description><![CDATA[]]></description>
