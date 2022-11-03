@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 02 Nov 2022 23:52:47 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Nov 2022 05:00:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,29 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter November 2022</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-november-2022/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Thu, 03 Nov 2022 05:00:38 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47624</guid>
+
+					<description><![CDATA[ALA Newsletter November 2022]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large is-resized"><a href="https://t.e2ma.net/webview/fv24jl/202ad5d9fa1b5d465f11542bf8d2f1f1"><img src="https://www.ala.org.au/app/uploads/2022/11/newsletter-nov22-807x1024.png" alt="" class="wp-image-47627" width="438" height="554"/></a></figure>
+
+
+
+<p>    <a href="https://t.e2ma.net/webview/fv24jl/202ad5d9fa1b5d465f11542bf8d2f1f1">ALA Newsletter November 2022</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Welcome to the November 2022 edition of our newsletter</title>
 		<link>https://www.ala.org.au/blogs-news/welcome-to-the-november-2022-edition-of-our-newsletter/</link>
 		
@@ -38,7 +61,7 @@
 
 					<description><![CDATA[Welcome to our November newsletter]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-thumbnail is-style-rounded"><img width="150" height="150" src="https://www.ala.org.au/app/uploads/2022/10/A57I6674-150x150.jpg" alt="" class="wp-image-47518"/><figcaption>Dr. Andre Zerger &#8211; Atlas of Living Australia Director</figcaption></figure>
+<figure class="wp-block-image size-thumbnail is-style-rounded"><img loading="lazy" width="150" height="150" src="https://www.ala.org.au/app/uploads/2022/10/A57I6674-150x150.jpg" alt="" class="wp-image-47518"/><figcaption>Dr. Andre Zerger &#8211; Atlas of Living Australia Director</figcaption></figure>
 
 
 
@@ -834,137 +857,6 @@ Full description and text included in text document. " class="wp-image-47123" wi
 
 
 <p><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b">Back to ALA Newsletter August 2022</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Update: Name matching service &#038; what it means  </title>
-		<link>https://www.ala.org.au/blogs-news/ala-update-name-matching-service/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Wed, 03 Aug 2022 02:46:11 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47082</guid>
-
-					<description><![CDATA[We recently released a significant update to our name-matching index, to ensure the ALA taxonomy (names and classification of species) is as up-to-date as possible. Many changes occurred behind the scenes, and some may be more noticeable.
-
-Read on to find out more about the ALA taxonomy update, why we did it, and how it might impact your use of the ALA.]]></description>
-										<content:encoded><![CDATA[
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="taxonomy-is-a-moveable-feast"><strong>Taxonomy is a moveable feast&nbsp;</strong>&nbsp;</h2>
-
-
-
-<p>Like most fields of study, taxonomy is not static. As new species are discovered, and others are reclassified, it’s important to stay on top of what belongs in which group. Adding to this challenge is the fact that different taxonomists and organisations can also disagree on certain points. For example, one source might classify a species as part of one family, but another source will classify them in a completely different family.&nbsp;</p>
-
-
-
-<div style="height:14px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="449" src="https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-1024x449.png" alt="" class="wp-image-47095" srcset="https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-1024x449.png 1024w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-300x132.png 300w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-768x337.png 768w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-1536x673.png 1536w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-2048x898.png 2048w, https://www.ala.org.au/app/uploads/2022/08/taxonomy.phylogenetic-1920x842.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Taxonomic trees help to illustrate how living things are categorized and named. Illustration by ALA project manager, Margot Schneider.</figcaption></figure>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="taxonomy-is-the-backbone-of-the-ala"><strong>Taxonomy is the backbone of the ALA</strong>&nbsp;</h2>
-
-
-
-<p>Because we hold information relating to species, the ALA relies on a taxonomic ‘backbone’ to sort and arrange all of the data we receive. While we recognise that there can be some disagreement within the field, ultimately we need to select a way of classifying species in order to present the data. We do this using several sources.&nbsp;&nbsp;</p>
-
-
-
-<p>For plants, we primarily rely on the <a rel="noreferrer noopener" href="https://biodiversity.org.au/nsl/services/search/names" target="_blank">Australian Plant Name Index</a> (APNI)/<a rel="noreferrer noopener" href="https://www.anbg.gov.au/cpbr/program/hc/hc-APC.html" target="_blank">Australian Plant Census</a> (APC), whereas for animals we refer to the <a rel="noreferrer noopener" href="https://biodiversity.org.au/afd/home" target="_blank">Australian Faunal Directory</a> (AFD). Fungi is covered by <a rel="noreferrer noopener" href="https://fungi.biodiversity.org.au/nsl/services/" target="_blank">AusFungi</a>, and mosses, by <a rel="noreferrer noopener" href="https://moss.biodiversity.org.au/nsl/services/" target="_blank">AusMoss</a>. Our friends across the Tasman aren’t forgotten either, with the <a rel="noreferrer noopener" href="https://www.nzor.org.nz/" target="_blank">New Zealand Organisms Register</a> (NZOR).&nbsp;</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="changes-that-have-happened-behind-the-scenes"><strong>Changes that have happened behind the scenes</strong>&nbsp;</h2>
-
-
-
-<p>Our taxonomic backbone sits in the background of ALA. When it’s accurate and up to date, it’s not too noticeable, but when it’s inaccurate, that’s when issues arise. Below are the key updates we’ve made to the back end of the system:&nbsp;&nbsp;</p>
-
-
-
-<ul><li>Refreshed the main sources: AFD, APNI/APC, AusFungi, AusMoss, NZOR&nbsp;</li><li>Updated source information for sources such as <a href="https://www.cmar.csiro.au/data/caab/" target="_blank" rel="noreferrer noopener">Codes for Australian Aquatic Biota</a> (CAAB)&nbsp;</li></ul>
-
-
-
-<p>The recent updates mean that the ALA taxonomy is now in line with the most up-to-date information available.&nbsp;</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="changes-you-might-notice"><strong>Changes you might notice</strong>&nbsp;</h2>
-
-
-
-<ul><li>The identifiers that we use for some species have changed. In some cases, this is because the species has been moved to a different position in the taxonomic tree. In other cases, particularly animals, the type of identifier supplied by the source has changed.&nbsp;</li><li>The changes above will flow through to individual species, so you may notice changes in how particular species, as well as higher taxonomic groups, are now classified&nbsp;</li><li>Sensitive species information and conservation data were revised for all states and territories, as were the lists of invasive and pest species. You may notice changes in names, with some new additions to these lists (and some removals)&nbsp;</li><li>More Indigenous language names for species were added (read more about our <a rel="noreferrer noopener" href="https://www.ala.org.au/indigenous-ecological-knowledge/" target="_blank">Indigenous Ecological Knowledge</a> (IEK) projects)&nbsp;</li><li>Lichens from the <a href="https://lichen.biodiversity.org.au/nsl/services/search/taxonomy" target="_blank" rel="noreferrer noopener">National Species Lists</a> (NSL) were added&nbsp;</li><li>Single-celled organisms such as Chromista and Protozoa had previously been classified under parallel ‘trees’ in the ALA back end, due to information feeding from different sources. We’ve now unified the sources, so these organisms are placed where they belong. &nbsp;</li></ul>
-
-
-
-<div style="height:14px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-full is-resized"><a href="https://biocache.ala.org.au/occurrences/5ec23b18-7903-4005-9aae-f06950028b71" target="_blank" rel="noreferrer noopener"><img src="https://www.ala.org.au/app/uploads/2022/08/cc-slime-mould-cc-by-nc-sa-edited.jpeg" alt="" class="wp-image-47092" width="924" srcset="https://www.ala.org.au/app/uploads/2022/08/cc-slime-mould-cc-by-nc-sa-edited.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/08/cc-slime-mould-cc-by-nc-sa-edited-300x169.jpeg 300w, https://www.ala.org.au/app/uploads/2022/08/cc-slime-mould-cc-by-nc-sa-edited-768x432.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption>Carnival Candy Slime Mold (<em>Arcyria denudata</em>), of kingdom Protista. Image: sypster (CC-BY-NC-SA)</figcaption></figure>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="why-weve-updated-and-what-it-means-for-you-our-users"><strong>Why we’ve updated, and what it means for you, our users</strong>&nbsp;</h2>
-
-
-
-<p>These updates have been made to improve the accuracy of our data, and your experience using them. There are now fewer anomalies in our taxonomy, with more accurate classifications of some species. The ALA now has greater alignment with more recent versions of our source data.&nbsp;&nbsp;</p>
-
-
-
-<p>The field of taxonomy can change quickly, so by refreshing the ALA sources we keep data in the ALA as up-to-date as possible. &nbsp;</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="more-information"><strong>More information</strong>&nbsp;</h2>
-
-
-
-<ul><li>If you have any further questions about the ALA taxonomy, email us at <a rel="noreferrer noopener" href="mailto:support@ala.org.au" target="_blank">support@ala.org.au</a>.&nbsp;</li></ul>
-
-
-
-<p></p>
-
-
-
-<p><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b">Back to ALA Newsletter August 2022</a></p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 ]]></content:encoded>
 					
 		
