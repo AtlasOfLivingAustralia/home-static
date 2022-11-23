@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=6.1</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -40,7 +40,7 @@
 
 					<description><![CDATA[ALA Newsletter November 2022]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large is-resized"><a href="https://t.e2ma.net/webview/fv24jl/202ad5d9fa1b5d465f11542bf8d2f1f1"><img src="https://www.ala.org.au/app/uploads/2022/11/newsletter-nov22-807x1024.png" alt="" class="wp-image-47627" width="438" height="554"/></a></figure>
+<figure class="wp-block-image size-large is-resized"><a href="https://t.e2ma.net/webview/fv24jl/202ad5d9fa1b5d465f11542bf8d2f1f1"><img decoding="async" src="https://www.ala.org.au/app/uploads/2022/11/newsletter-nov22-807x1024.png" alt="" class="wp-image-47627" width="438" height="554"/></a></figure>
 
 
 
@@ -61,7 +61,7 @@
 
 					<description><![CDATA[Welcome to our November newsletter]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-thumbnail is-style-rounded"><img loading="lazy" width="150" height="150" src="https://www.ala.org.au/app/uploads/2022/10/A57I6674-150x150.jpg" alt="" class="wp-image-47518"/><figcaption>Dr. Andre Zerger &#8211; Atlas of Living Australia Director</figcaption></figure>
+<figure class="wp-block-image size-thumbnail is-style-rounded"><img decoding="async" loading="lazy" width="150" height="150" src="https://www.ala.org.au/app/uploads/2022/10/A57I6674-150x150.jpg" alt="" class="wp-image-47518"/><figcaption>Dr. Andre Zerger &#8211; Atlas of Living Australia Director</figcaption></figure>
 
 
 
@@ -106,7 +106,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/API-portal.png" alt="software developer coding at a computer" class="wp-image-47544" width="597" height="499" srcset="https://www.ala.org.au/app/uploads/2022/10/API-portal.png 940w, https://www.ala.org.au/app/uploads/2022/10/API-portal-300x251.png 300w" sizes="(max-width: 597px) 100vw, 597px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/API-portal.png" alt="software developer coding at a computer" class="wp-image-47544" width="597" height="499" srcset="https://www.ala.org.au/app/uploads/2022/10/API-portal.png 940w, https://www.ala.org.au/app/uploads/2022/10/API-portal-300x251.png 300w" sizes="(max-width: 597px) 100vw, 597px" /></figure>
 
 
 
@@ -214,7 +214,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><a href="https://docs.ala.org.au/"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen.png" alt="screenshot of the new ALA API docs portal" class="wp-image-47564" width="682" height="710" srcset="https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen.png 820w, https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen-288x300.png 288w, https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen-768x800.png 768w" sizes="(max-width: 682px) 100vw, 682px" /></a></figure>
+<figure class="wp-block-image size-full is-resized"><a href="https://docs.ala.org.au/"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen.png" alt="screenshot of the new ALA API docs portal" class="wp-image-47564" width="682" height="710" srcset="https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen.png 820w, https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen-288x300.png 288w, https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen-768x800.png 768w" sizes="(max-width: 682px) 100vw, 682px" /></a></figure>
 
 
 
@@ -235,7 +235,7 @@
 
 					<description><![CDATA[WildObs would like to hear about your camera trap work!]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="202" src="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png" alt="green banner reading &quot;WildObs Australia&quot; with a picture of a dingo, a wallaby, a kangaroo and a cassowary. " class="wp-image-47427" srcset="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png 1024w, https://www.ala.org.au/app/uploads/2022/10/WildObs-300x59.png 300w, https://www.ala.org.au/app/uploads/2022/10/WildObs-768x152.png 768w, https://www.ala.org.au/app/uploads/2022/10/WildObs-1536x303.png 1536w, https://www.ala.org.au/app/uploads/2022/10/WildObs.png 1752w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>WildObs banner (TERN)</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="202" src="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png" alt="green banner reading &quot;WildObs Australia&quot; with a picture of a dingo, a wallaby, a kangaroo and a cassowary. " class="wp-image-47427" srcset="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png 1024w, https://www.ala.org.au/app/uploads/2022/10/WildObs-300x59.png 300w, https://www.ala.org.au/app/uploads/2022/10/WildObs-768x152.png 768w, https://www.ala.org.au/app/uploads/2022/10/WildObs-1536x303.png 1536w, https://www.ala.org.au/app/uploads/2022/10/WildObs.png 1752w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>WildObs banner (TERN)</figcaption></figure>
 
 
 
@@ -251,7 +251,7 @@
 
 
 
-<figure class="wp-block-image size-medium"><a href="http://www.tern.org.au/" target="_blank" rel="noreferrer noopener"><img loading="lazy" width="300" height="77" src="https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1-300x77.png" alt="TERN logo with map of Australia" class="wp-image-47433" srcset="https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1-300x77.png 300w, https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
+<figure class="wp-block-image size-medium"><a href="http://www.tern.org.au/" target="_blank" rel="noreferrer noopener"><img decoding="async" loading="lazy" width="300" height="77" src="https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1-300x77.png" alt="TERN logo with map of Australia" class="wp-image-47433" srcset="https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1-300x77.png 300w, https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
 ]]></content:encoded>
 					
 		
@@ -280,7 +280,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img loading="lazy" width="1009" height="541" src="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg" alt="" class="wp-image-47481" srcset="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg 1009w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-300x161.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-768x412.jpg 768w" sizes="(max-width: 1009px) 100vw, 1009px" /><figcaption>Goblin Shark (<em>Mitsukurina owstoni</em>) Museums Victoria CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1009" height="541" src="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg" alt="" class="wp-image-47481" srcset="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg 1009w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-300x161.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-768x412.jpg 768w" sizes="(max-width: 1009px) 100vw, 1009px" /><figcaption>Goblin Shark (<em>Mitsukurina owstoni</em>) Museums Victoria CC BY NC</figcaption></figure>
 
 
 
@@ -296,7 +296,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47480" srcset="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Bronze Orange Bug (<em>Musgraveia sulciventris</em>) Erin Roger CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47480" srcset="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Bronze Orange Bug (<em>Musgraveia sulciventris</em>) Erin Roger CC BY NC</figcaption></figure>
 
 
 
@@ -312,7 +312,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47482" srcset="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Jimsonweed (<em>Datura stramonium)</em> Ecocentric_Consultulting CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47482" srcset="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Jimsonweed (<em>Datura stramonium)</em> Ecocentric_Consultulting CC BY NC</figcaption></figure>
 
 
 
@@ -332,7 +332,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-1024x683.jpeg" alt="" class="wp-image-47478" srcset="https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau.jpeg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Spectacled Flying Fox (<em>Pteropus conspicillatus</em>) Kcomeau CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-1024x683.jpeg" alt="" class="wp-image-47478" srcset="https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau.jpeg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Spectacled Flying Fox (<em>Pteropus conspicillatus</em>) Kcomeau CC BY NC</figcaption></figure>
 
 
 
@@ -348,7 +348,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1024x682.jpg" alt="" class="wp-image-47479" width="1000" height="666" srcset="https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1024x682.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1536x1023.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC.jpg 1560w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption>Far Eastern Curlew (<em>Numenius madagascariensis</em>) Mark Ayres CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1024x682.jpg" alt="" class="wp-image-47479" width="1000" height="666" srcset="https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1024x682.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1536x1023.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC.jpg 1560w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption>Far Eastern Curlew (<em>Numenius madagascariensis</em>) Mark Ayres CC BY NC</figcaption></figure>
 
 
 
@@ -368,7 +368,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="608" src="https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1024x608.jpg" alt="" class="wp-image-47477" srcset="https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1024x608.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-300x178.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-768x456.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1536x911.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1920x1139.jpg 1920w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Speckled Orbweaver (<em>Araneus circulissparsus)</em> Jackie Lien CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="608" src="https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1024x608.jpg" alt="" class="wp-image-47477" srcset="https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1024x608.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-300x178.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-768x456.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1536x911.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1920x1139.jpg 1920w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Speckled Orbweaver (<em>Araneus circulissparsus)</em> Jackie Lien CC BY NC</figcaption></figure>
 
 
 
@@ -388,7 +388,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1024x683.jpg" alt="" class="wp-image-47526" srcset="https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1920x1280.jpg 1920w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Ghost Fungus (<em>Omphalotus nidiformis</em>) Monica Knipler CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1024x683.jpg" alt="" class="wp-image-47526" srcset="https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1920x1280.jpg 1920w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Ghost Fungus (<em>Omphalotus nidiformis</em>) Monica Knipler CC BY NC</figcaption></figure>
 
 
 
@@ -433,7 +433,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1024x577.png" alt="&quot;&quot;" class="wp-image-47414" srcset="https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-768x433.png 768w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Events across October to December 2022 where ALA will be present</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1024x577.png" alt="&quot;&quot;" class="wp-image-47414" srcset="https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-768x433.png 768w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Events across October to December 2022 where ALA will be present</figcaption></figure>
 
 
 
@@ -465,7 +465,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="292" src="https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1024x292.jpg" alt="Blue background that reads eResearch Australasia 2022 Conference" class="wp-image-47401" srcset="https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1024x292.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-300x86.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-768x219.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1536x439.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-2048x585.jpg 2048w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1920x548.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>eResearch Australasia 2022 Conference banner</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="292" src="https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1024x292.jpg" alt="Blue background that reads eResearch Australasia 2022 Conference" class="wp-image-47401" srcset="https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1024x292.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-300x86.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-768x219.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1536x439.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-2048x585.jpg 2048w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1920x548.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>eResearch Australasia 2022 Conference banner</figcaption></figure>
 
 
 
@@ -525,7 +525,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700.jpg" alt="Black banner with a picture of a building on the left side that reads Biodiversity Information Standards TDWG 2022 Bulgaria" class="wp-image-47404" width="1001" height="564" srcset="https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700.jpg 900w, https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700-768x432.jpg 768w" sizes="(max-width: 1001px) 100vw, 1001px" /><figcaption>Biodiversity Information Standards TDWG 2022  banner</figcaption></figure>
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700.jpg" alt="Black banner with a picture of a building on the left side that reads Biodiversity Information Standards TDWG 2022 Bulgaria" class="wp-image-47404" width="1001" height="564" srcset="https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700.jpg 900w, https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700-768x432.jpg 768w" sizes="(max-width: 1001px) 100vw, 1001px" /><figcaption>Biodiversity Information Standards TDWG 2022  banner</figcaption></figure>
 
 
 
@@ -561,7 +561,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-1024x134.jpg" alt="White banner with threee stripes on right hand side that reads ESA - SCBO 2022 28 November - 2 December 2022 Wollongong NSW" class="wp-image-47403" width="998" height="130" srcset="https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-1024x134.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-300x39.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-768x101.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO.jpg 1512w" sizes="(max-width: 998px) 100vw, 998px" /><figcaption>ESA &#8211; SCBO 2022 banner</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-1024x134.jpg" alt="White banner with threee stripes on right hand side that reads ESA - SCBO 2022 28 November - 2 December 2022 Wollongong NSW" class="wp-image-47403" width="998" height="130" srcset="https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-1024x134.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-300x39.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-768x101.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO.jpg 1512w" sizes="(max-width: 998px) 100vw, 998px" /><figcaption>ESA &#8211; SCBO 2022 banner</figcaption></figure>
 ]]></content:encoded>
 					
 		
@@ -724,7 +724,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/thumbnail-Aug-2022.png" alt="" class="wp-image-47149" width="470" height="513"/></a><figcaption><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b">Atlas of Living Australia Newsletter August 2022</a></figcaption></figure>
+<figure class="wp-block-image size-full is-resized"><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/thumbnail-Aug-2022.png" alt="" class="wp-image-47149" width="470" height="513"/></a><figcaption><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b">Atlas of Living Australia Newsletter August 2022</a></figcaption></figure>
 ]]></content:encoded>
 					
 		
@@ -754,7 +754,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1024x768.jpg" alt="Multiple participants at the 2022 BioBlitz event outdoors" class="wp-image-47101" srcset="https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-2048x1536.jpg 2048w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-640x480.jpg 640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>2022 BioBlitz Event Participants</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1024x768.jpg" alt="Multiple participants at the 2022 BioBlitz event outdoors" class="wp-image-47101" srcset="https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-2048x1536.jpg 2048w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-640x480.jpg 640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>2022 BioBlitz Event Participants</figcaption></figure>
 
 
 
@@ -762,7 +762,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/019A0910-1024x683.jpg" alt="hand taking photo with red camera of a banksia " class="wp-image-47102" width="947" height="631" srcset="https://www.ala.org.au/app/uploads/2022/08/019A0910-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2022/08/019A0910-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/019A0910-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/08/019A0910-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2022/08/019A0910-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2022/08/019A0910-1920x1280.jpg 1920w" sizes="(max-width: 947px) 100vw, 947px" /><figcaption>115 Observers &amp; 479 Identifiers were involved in the BioBlitz 2022</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/019A0910-1024x683.jpg" alt="hand taking photo with red camera of a banksia " class="wp-image-47102" width="947" height="631" srcset="https://www.ala.org.au/app/uploads/2022/08/019A0910-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2022/08/019A0910-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/019A0910-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/08/019A0910-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2022/08/019A0910-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2022/08/019A0910-1920x1280.jpg 1920w" sizes="(max-width: 947px) 100vw, 947px" /><figcaption>115 Observers &amp; 479 Identifiers were involved in the BioBlitz 2022</figcaption></figure>
 
 
 
@@ -774,7 +774,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats.jpg" alt="" class="wp-image-47130" width="948" height="938" srcset="https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats.jpg 838w, https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats-300x296.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats-768x759.jpg 768w" sizes="(max-width: 948px) 100vw, 948px" /><figcaption>Breakdown of the number of different species identified in the 2022 BioBlitz event</figcaption></figure>
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats.jpg" alt="" class="wp-image-47130" width="948" height="938" srcset="https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats.jpg 838w, https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats-300x296.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats-768x759.jpg 768w" sizes="(max-width: 948px) 100vw, 948px" /><figcaption>Breakdown of the number of different species identified in the 2022 BioBlitz event</figcaption></figure>
 
 
 
@@ -794,7 +794,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/BioBLitz-1.png" alt="4 images of the different species found in 2022 BioBlitz including Glossy Black Cockatoo, Scrub Turpentine, Green &amp; Gold Bell Frog and Greater Glider" class="wp-image-47105" width="951" height="999"/><figcaption><em>Selection of species found across the 2022 BioBlitz events</em>, collected by multiple participants</figcaption></figure>
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/BioBLitz-1.png" alt="4 images of the different species found in 2022 BioBlitz including Glossy Black Cockatoo, Scrub Turpentine, Green &amp; Gold Bell Frog and Greater Glider" class="wp-image-47105" width="951" height="999"/><figcaption><em>Selection of species found across the 2022 BioBlitz events</em>, collected by multiple participants</figcaption></figure>
 
 
 
@@ -847,7 +847,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2.png" alt="Tall narrow format infographic with orange background.
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2.png" alt="Tall narrow format infographic with orange background.
 Full description and text included in text document. " class="wp-image-47123" width="600" height="1950" srcset="https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2.png 800w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-92x300.png 92w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-315x1024.png 315w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-768x2496.png 768w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-473x1536.png 473w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-630x2048.png 630w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
 
 
