@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 03 Nov 2022 05:00:38 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 01 Dec 2022 00:44:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,106 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA webinar: Advances in Biodiversity Modelling</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-advances-in-biodiversity-modelling/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Thu, 01 Dec 2022 00:44:24 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47644</guid>
+
+					<description><![CDATA[Advancements in scientific modelling have enabled improvements in key decision-making. When it comes to biodiversity this work is crucial, especially in our changing environment. Hear from our distinguished speakers about their work in this space, including the applications of modelling to conservation prioritisation, and sustainable land use.]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA webinar: Advances in Biodiversity Modelling – 23 Nov 2022" width="640" height="360" src="https://www.youtube.com/embed/-vuDDO-Dt-k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This webinar took place at 1.00pm AEDT, Wednesday 23 November 2022, with 201 live viewers in attendance.</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="speakers">Speakers</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/12/s.ferrier-speaker.png" alt="Simon Ferrier" class="wp-image-47647"/></figure></div>
+
+
+<h3 id="miles-nicholls-atlas-of-living-australia">Simon Ferrier | CSIRO Land &amp; Water</h3>
+
+
+
+<p>Simon Ferrier is a Chief Research Scientist with CSIRO Land and Water, an Honorary Professor at the Australian National University, and an Honorary Fellow at the United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC). Simon and his CSIRO colleagues have been developing a new generation of macroecological approaches to biodiversity modelling and scenario analysis, focused on assessing past-to-present change in the status of biodiversity, projecting impacts of future scenarios of climate and land-use change. Prior to this, Simon spent over 20 years working with state-government agencies, including pioneering the development of species- and community-level biodiversity modelling.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/12/c.archibald-speaker.png" alt="Carla Archibald" class="wp-image-47651"/></figure></div>
+
+
+<h3 id="arve-solland-ecocommons">Carla Archibald | Centre for Integrative Ecology, Deakin University</h3>
+
+
+
+<p>Dr Carla Archibald is a Research Fellow at Deakin University under the Land Use Future project. This Land Use Future project is led by Prof. Brett Bryan and Climateworks in collaboration with CSIRO. This project aims to further develop the LUTO model and to provide pathways towards sustainable environmental and food futures for the Australian agricultural landscape. In this Advances in Biodiversity Modelling talk, Carla will share some of the biodiversity modelling which she conducted as a part of the Land Use Future project. This involved working with the CliMAS team at JCU to update MaxEnt models with CMIP6 climate data and scenarios. The outcome of this modelling has resulted in the construction of specific-level data to use with the LUTO2.0 as both input data, as well as in the environmental accounts.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/12/p.bal_.png" alt="Payal Bal" class="wp-image-47653"/></figure></div>
+
+
+<h3 id="ana-belgun-data61">Payal Bal | University of Melbourne</h3>
+
+
+
+<p>Payal Bal is currently based at the Quantitative and Applied Ecology Group at The University of Melbourne, where she works on developing models to assess the global impacts of socioeconomic trends on biodiversity and on assessing the national-level impacts of bushfires on Australian invertebrate species. During her doctoral research at The University of Queensland, she applied decision analysis and structured decision-making approaches to evaluate monitoring strategies for conservation. She has previously worked on modelling spatial vegetation patterns to develop indicators of ecosystem collapse; on developing methods of abundance estimation for biodiversity from distance sampling; and on studying the human–elephant conflict in India.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
+
+
+<h3 id="moderator-bio">Moderator bio</h3>
+
+
+
+<p>Martin Westgate leads the Science and Decision Support team at the Atlas of Living Australia. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="want-more">Want more?</h2>
+
+
+
+<p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Newsletter November 2022</title>
 		<link>https://www.ala.org.au/blogs-news/ala-newsletter-november-2022/</link>
 		
@@ -40,7 +140,7 @@
 
 					<description><![CDATA[ALA Newsletter November 2022]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large is-resized"><a href="https://t.e2ma.net/webview/fv24jl/202ad5d9fa1b5d465f11542bf8d2f1f1"><img decoding="async" src="https://www.ala.org.au/app/uploads/2022/11/newsletter-nov22-807x1024.png" alt="" class="wp-image-47627" width="438" height="554"/></a></figure>
+<figure class="wp-block-image size-large is-resized"><a href="https://t.e2ma.net/webview/fv24jl/202ad5d9fa1b5d465f11542bf8d2f1f1"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/11/newsletter-nov22-807x1024.png" alt="" class="wp-image-47627" width="438" height="554"/></a></figure>
 
 
 
@@ -815,40 +915,6 @@
 
 
 <p>The BioBlitzes were coordinated by the <a href="https://www.ala.org.au/#tab_pane-B">Atlas of Living Australia</a>, in collaboration with the&nbsp;<a href="https://www.unsw.edu.au/research/ecosystem">University of New South Wales (UNSW)&nbsp;Centre for Ecosystem Science</a>,&nbsp;<a href="https://www.minderoo.org/fire-and-flood-resilience/">Minderoo Foundation’s Fire and Flood Resilience Initiative</a>, the former&nbsp;<a href="https://www.dcceew.gov.au/">Department of Agriculture, Water and the Environment</a>, and the&nbsp;<a href="https://citizenscience.org.au/">Australian Citizen Science Association</a>.</p>
-
-
-
-<p></p>
-
-
-
-<p><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b">Back to ALA Newsletter August 2022</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Annual User Satisfaction Survey: 2022 Results</title>
-		<link>https://www.ala.org.au/blogs-news/ala-annual-user-satisfaction-survey-2022-results/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Wed, 03 Aug 2022 03:26:51 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47120</guid>
-
-					<description><![CDATA[We asked and you answered! Many thanks to all our users who responded to our User Satisfaction Survey in May 2022. All responses received, including comments and suggestions for improvements to the ALA, help us shape the work we do and will inform improvements to the ALA.]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p><a href="https://www.ala.org.au/app/uploads/2022/08/ALA-annual-user-satisfaction-survey-results-2022.docx" target="_blank" rel="noreferrer noopener">Access a text (.docx) version of the results</a></p>
-
-
-
-<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2.png" alt="Tall narrow format infographic with orange background.
-Full description and text included in text document. " class="wp-image-47123" width="600" height="1950" srcset="https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2.png 800w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-92x300.png 92w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-315x1024.png 315w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-768x2496.png 768w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-473x1536.png 473w, https://www.ala.org.au/app/uploads/2022/08/user-survey-2022-infographic-v2-630x2048.png 630w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
 
 
 
