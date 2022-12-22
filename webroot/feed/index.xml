@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 01 Dec 2022 00:44:40 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 22 Dec 2022 04:09:13 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,208 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Our ALA interns dive into data</title>
+		<link>https://www.ala.org.au/blogs-news/our-ala-interns-dive-into-data/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Thu, 22 Dec 2022 04:09:13 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47728</guid>
+
+					<description><![CDATA[The Atlas of Living Australia was delighted to host three undergraduate students from the University of New South Wales (UNSW) as part of a 12-week internship program across spring – summer 2022. Our interns were spread across two streams: a Data Science Internship, which offered students the opportunity to apply their Python or R skills [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>The <a href="https://www.ala.org.au/#tab_pane-B">Atlas of Living Australia</a> was delighted to host three undergraduate students from the <a href="https://www.unsw.edu.au/">University of New South Wales</a> (UNSW) as part of a 12-week internship program across spring – summer 2022. Our interns were spread across two streams: a Data Science Internship, which offered students the opportunity to apply their Python or R skills to biodiversity problem solving, and a Data Visualisation for Communication Internship, which used ALA’s R package, <a href="https://galah.ala.org.au/">{galah}</a>, to create visualisations that are reproducible and scientifically transparent.</p>
+
+
+
+<p>We chatted with our students, Steph, Elijah and Thai, to find out more about their ALA internship experience and what they’ve learned throughout the process.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-medium is-resized"><img decoding="async" src="https://www.ala.org.au/app/uploads/2022/12/Steph-Wooley-2022-ALA-intern-300x290.jpg" alt="" class="wp-image-47730" width="370" height="361"/><figcaption class="wp-element-caption">Steph Woolley &#8211; Data Visualisation intern</figcaption></figure></div>
+
+
+<p><strong><u>Steph is studying a Bachelor of Advanced Science majoring in Marine &amp; Coastal Science.</u></strong></p>
+
+
+
+<p>Q) What made you apply for the 2022 ALA Internship program?</p>
+
+
+
+<p><em>A) Throughout my studies, I had always seen these amazing ways of displaying data and communicating science. When this internship appeared through an email by UNSW, I thought it was the perfect opportunity to develop my skills and to try to create one of the visualisations I had always seen in my courses.</em></p>
+
+
+
+<p>Q) What did your ALA internship project focus on?</p>
+
+
+
+<p><em>A) My internship was a data visualisation and analysis project. I spent my time analysing ALA data and developing a visualisation from the data that I had chosen to look at.</em></p>
+
+
+
+<p>Q) What was a new skill you learned through the program that you’re proud of?</p>
+
+
+
+<p>A)&nbsp;<em>I’m most proud of how my coding skills have developed over the internship. When I look back to the knowledge I had when I started this internship compared to what I have now, there’s a really big difference. I’m proud of how much I’ve learnt and the skills I’ve been able to build upon over the last 12 weeks.</em>&nbsp;</p>
+
+
+
+<p>Q) What was the biggest challenge you encountered during the program?</p>
+
+
+
+<p>A)&nbsp;<em>The biggest challenge for me across the 12 weeks has been time management and trusting the process. Throughout my university experience, I haven’t really had any experiences like this where we are working towards one main goal for such a long period of time. I think the process of making little steps each week towards the main goal has been a really big learning experience and it was definitely a challenge to get used to trying to achieve smaller tasks on a weekly basis rather than a larger main goal.</em></p>
+
+
+
+<p>Q) What was your highlight from the internship program?</p>
+
+
+
+<p>A)&nbsp;<em>The main highlight of the internship program was having the opportunity to develop my coding skills and being able and develop this skill with help and feedback from my supervisor. Having the opportunity to spend a long period of time working on a project that you have come up with, and that you find interesting, was also a big highlight.</em></p>
+
+
+
+<p><em>The best individual moment though was definitely the day I finally got my visualisation and model to work and I could see the project coming together!</em></p>
+
+
+
+<p>See what Steph created below:</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="800" height="600" src="https://www.ala.org.au/app/uploads/2022/12/Animation-of-nudibranch-species-distribution-model-across-the-year-1.gif" alt="" class="wp-image-47737"/></figure>
+
+
+
+<div class="wp-block-file"><a id="wp-block-file--media-d6436e48-4eff-46ff-b33b-1043425fef2d" href="https://www.ala.org.au/app/uploads/2022/12/Animation-of-nudibranch-species-distribution-model-across-the-year.gif">Animation-of-nudibranch-species-distribution-model-across-the-year</a><a href="https://www.ala.org.au/app/uploads/2022/12/Animation-of-nudibranch-species-distribution-model-across-the-year.gif" class="wp-block-file__button wp-element-button" download aria-describedby="wp-block-file--media-d6436e48-4eff-46ff-b33b-1043425fef2d">Download</a></div>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="633" src="https://www.ala.org.au/app/uploads/2022/12/Species-Distribution-Model-of-Nudibranch-occurences-across-all-of-Australia-1024x633.png" alt="" class="wp-image-47736" srcset="https://www.ala.org.au/app/uploads/2022/12/Species-Distribution-Model-of-Nudibranch-occurences-across-all-of-Australia-1024x633.png 1024w, https://www.ala.org.au/app/uploads/2022/12/Species-Distribution-Model-of-Nudibranch-occurences-across-all-of-Australia-300x185.png 300w, https://www.ala.org.au/app/uploads/2022/12/Species-Distribution-Model-of-Nudibranch-occurences-across-all-of-Australia-768x475.png 768w, https://www.ala.org.au/app/uploads/2022/12/Species-Distribution-Model-of-Nudibranch-occurences-across-all-of-Australia.png 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Species Distribution Model of Nudibranch occurrences across Australia.</figcaption></figure>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-medium is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/12/Elijah-Magistrado-2022-UNSW-intern-300x282.jpg" alt="" class="wp-image-47729" width="322" height="303" srcset="https://www.ala.org.au/app/uploads/2022/12/Elijah-Magistrado-2022-UNSW-intern-300x282.jpg 300w, https://www.ala.org.au/app/uploads/2022/12/Elijah-Magistrado-2022-UNSW-intern-768x723.jpg 768w, https://www.ala.org.au/app/uploads/2022/12/Elijah-Magistrado-2022-UNSW-intern.jpg 981w" sizes="(max-width: 322px) 100vw, 322px" /><figcaption class="wp-element-caption">Elijah Magistrado &#8211; Data Science intern</figcaption></figure></div>
+
+
+<p><strong><u>Elijah is studying a Bachelor of Advanced Science majoring in Ecology</u></strong></p>
+
+
+
+<p>Q) What made you apply for the 2022 ALA Internship program?</p>
+
+
+
+<p>A)&nbsp;<em> I had wanted to do an internship position before I started my honours project in February and thought it was a great opportunity to gain real-world experience and further develop my skills in data science.</em></p>
+
+
+
+<p>Q) What did your ALA internship project focus on?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p><em>A) My internship focused on standardising expert distribution maps. These are maps that represent where species can be found in Australia. These datasets are sent through to the ALA in different formats and layouts which need to be managed. My task was to convert all of the datasets into the format of existing expert distribution maps in the ALA and upload them so everyone can see the new maps.</em></p>
+
+
+
+<p>Q) What was a new skill you learned through the program that you’re proud of?</p>
+
+
+
+<p><em>A) I am proud to say that I can now program in Python! I have attempted to learn Python prior to the internship but having a project to work on makes motivation much easier. I am very pleased to have learned this skill as it helps broaden my study and career choices in the future.</em></p>
+
+
+
+<p>Q) What was the biggest challenge you encountered during the program?</p>
+
+
+
+<p><em>A) Learning how to manage my time properly was definitely my biggest challenge. I hadn’t realised how exhausting it was to balance study, work, and learning Python. However, creating a structured routine has helped significantly with managing my time. It was great to have this opportunity to further develop time-management skills ahead of my honours project.&nbsp;&nbsp;</em></p>
+
+
+
+<p>Q) What was your highlight of the internship program?</p>
+
+
+
+<p><em>A) The highlight of my internship program was seeing the maps load properly on the test server. Initially, I had many issues that had caused the maps I uploaded to not show up. Once I had figured out what I had done wrong, fixed the issues, and tried uploading again, I felt very relieved to see that the maps were loading properly. After the issues were ironed out, the rest of the datasets were straight-forward.</em></p>
+
+
+
+<p>See what Elijah created below:</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1015" height="980" src="https://www.ala.org.au/app/uploads/2022/12/Elijah-Lorikeet-Map.png" alt="" class="wp-image-47738" srcset="https://www.ala.org.au/app/uploads/2022/12/Elijah-Lorikeet-Map.png 1015w, https://www.ala.org.au/app/uploads/2022/12/Elijah-Lorikeet-Map-300x290.png 300w, https://www.ala.org.au/app/uploads/2022/12/Elijah-Lorikeet-Map-768x742.png 768w" sizes="(max-width: 1015px) 100vw, 1015px" /><figcaption class="wp-element-caption">Occurrence records of Rainbow Lorikeets <em>(Trichoglossus moluccanus</em>) from 2020 onwards against its expert distribution map provided by BirdLife Australia.</figcaption></figure>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-medium is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/12/Thai-2022-intern-ALA-300x300.jpg" alt="" class="wp-image-47731" width="383" height="385"/><figcaption class="wp-element-caption">Thai Rushbrook &#8211;  Data Visualisation intern</figcaption></figure></div>
+
+
+<p><strong><u>Thai is studying a Bachelor of Fine Arts and Science majoring in Photography &amp; Ecology.</u></strong></p>
+
+
+
+<p>Q) What made you apply for the 2022 ALA Internship program?</p>
+
+
+
+<p>A)<em>&nbsp;My university posted a list of internship positions available, and the ALA was on there! I’d heard of the ALA before and thought the data analysis/visualization combination suited my interests really well.</em></p>
+
+
+
+<p>Q) What did your ALA internship project focus on?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p>A<em>) My project focused on the number of ducks recorded in greater Melbourne in the COVID-19 lockdown periods of 2020-2021. I was comparing them to ‘normal’ years, 2017-2019, to see if there was any difference.</em></p>
+
+
+
+<p>Q) What was a new skill you learned through the program that you’re proud of?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p>A)&nbsp;<em>I started the term with very basic R-Studio skills, so I learnt a lot about R by organising data, transforming it, and creating the actual visualisations. I think I learnt more R-Studio tricks in this one term than the rest of my degree to date!</em></p>
+
+
+
+<p>Q) What was the biggest challenge you encountered during the program?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+
+
+<p>A)<em> Initially I was so nervous I didn’t have the skills needed to make a great project, so it took me a while to get started. Once I gained a little confidence, I was able to get creative and I’m very happy with the results.</em></p>
+
+
+
+<p>Q) What was your highlight of the internship program?&nbsp;&nbsp;</p>
+
+
+
+<p>A<em>) Coming together with the other interns at the end of the term to see what they had been working on was amazing. I loved seeing the different paths we took given a similar brief.</em></p>
+
+
+
+<p>See what Thai created below:</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="936" height="542" src="https://www.ala.org.au/app/uploads/2022/12/Visualisation-of-the-number-of-duck-records-submitted-to-the-ALA-2020-21-compared-to-2017-19-with-Covid-19-periods-highlighted-in-yellow.jpg" alt="" class="wp-image-47739" srcset="https://www.ala.org.au/app/uploads/2022/12/Visualisation-of-the-number-of-duck-records-submitted-to-the-ALA-2020-21-compared-to-2017-19-with-Covid-19-periods-highlighted-in-yellow.jpg 936w, https://www.ala.org.au/app/uploads/2022/12/Visualisation-of-the-number-of-duck-records-submitted-to-the-ALA-2020-21-compared-to-2017-19-with-Covid-19-periods-highlighted-in-yellow-300x174.jpg 300w, https://www.ala.org.au/app/uploads/2022/12/Visualisation-of-the-number-of-duck-records-submitted-to-the-ALA-2020-21-compared-to-2017-19-with-Covid-19-periods-highlighted-in-yellow-768x445.jpg 768w" sizes="(max-width: 936px) 100vw, 936px" /><figcaption class="wp-element-caption">Visualisation of the number of duck records submitted to the ALA &#8211; 2020-21 compared to 2017-19 &#8211; with COVID-19 periods highlighted in yellow.</figcaption></figure>
+
+
+
+<p>If you would like to know more about ALA internship opportunities, contact us <a href="https://www.ala.org.au/contact-us/" data-type="URL">he</a><a href="communications@ala.org.au">r</a><a href="https://www.ala.org.au/contact-us/">e</a>. </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA webinar: Advances in Biodiversity Modelling</title>
 		<link>https://www.ala.org.au/blogs-news/ala-webinar-advances-in-biodiversity-modelling/</link>
 		
@@ -40,7 +242,7 @@
 					<description><![CDATA[Advancements in scientific modelling have enabled improvements in key decision-making. When it comes to biodiversity this work is crucial, especially in our changing environment. Hear from our distinguished speakers about their work in this space, including the applications of modelling to conservation prioritisation, and sustainable land use.]]></description>
 										<content:encoded><![CDATA[
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="ALA webinar: Advances in Biodiversity Modelling – 23 Nov 2022" width="640" height="360" src="https://www.youtube.com/embed/-vuDDO-Dt-k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe loading="lazy" title="ALA webinar: Advances in Biodiversity Modelling – 23 Nov 2022" width="640" height="360" src="https://www.youtube.com/embed/-vuDDO-Dt-k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -825,104 +1027,6 @@
 
 
 <figure class="wp-block-image size-full is-resized"><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/thumbnail-Aug-2022.png" alt="" class="wp-image-47149" width="470" height="513"/></a><figcaption><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b">Atlas of Living Australia Newsletter August 2022</a></figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>2022 Big Bushfire BioBlitz: Results</title>
-		<link>https://www.ala.org.au/blogs-news/strong2022-big-bushfire-bioblitz-results-strong/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Wed, 03 Aug 2022 05:41:46 +0000</pubDate>
-				<category><![CDATA[Bushfires]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[Citizen science]]></category>
-		<category><![CDATA[Atlas of Living Australia]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47100</guid>
-
-					<description><![CDATA[<!-- wp:paragraph -->
-<p>The 2019/20 bushfires across Australia had devastating impacts for humans and the environment. However, these bushfire events also elicited strong community interest in aiding the recovery efforts to rehabilitate the natural environment. The Multi Regional Citizen Science Bushfire Recovery Projects were designed to identify and bridge gaps between scientists and communities by increasing understanding of environmental recovery and increasing community awareness and involvement in bushfire recovery monitoring.</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>One of these projects was The Big Bushfire BioBlitz.</p>
-<!-- /wp:paragraph -->]]></description>
-										<content:encoded><![CDATA[
-<h2 id=""></h2>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1024x768.jpg" alt="Multiple participants at the 2022 BioBlitz event outdoors" class="wp-image-47101" srcset="https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-2048x1536.jpg 2048w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2022/08/IMG20220313125612-640x480.jpg 640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>2022 BioBlitz Event Participants</figcaption></figure>
-
-
-
-<p>The Big Bushfire BioBlitz included three weekend events in Summer and Autumn 2022 across the&nbsp;Mid North Coast of NSW with surveys in Crowdy Bay and Dooragan National Parks, the Blue Mountains World Heritage Area, and Murramarang National Park on the south coast of NSW. BioBlitzes were chosen as the survey method because they are community events with “a focused effort to record as many species as possible in a defined location within a limited period of time,” Thomas Mesaglio, iNaturalist curator and PhD candidate at the UNSW Evolution &amp; Ecology Research Centre. &nbsp;</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/019A0910-1024x683.jpg" alt="hand taking photo with red camera of a banksia " class="wp-image-47102" width="947" height="631" srcset="https://www.ala.org.au/app/uploads/2022/08/019A0910-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2022/08/019A0910-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/019A0910-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/08/019A0910-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2022/08/019A0910-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2022/08/019A0910-1920x1280.jpg 1920w" sizes="(max-width: 947px) 100vw, 947px" /><figcaption>115 Observers &amp; 479 Identifiers were involved in the BioBlitz 2022</figcaption></figure>
-
-
-
-<h4 id="the-results-are-in-how-did-we-do"><strong>The Results are in: How did we do?</strong></h4>
-
-
-
-<p>The 2022 Big Bushfire BioBlitz delivered incredible results with 7,955 observations, 1,768 species recorded, 115 observers and 479 identifiers! See below for a species-specific breakdown. As part of the BioBlitz activities, burnt versus un-burnt areas were surveyed and compared. While results are still being analysed, a quick comparison of burnt and unburnt areas for the Mid-North Coast found that burnt areas contained 30 bird species while unburnt areas contained 70 bird species. I Information such as this helps to map species distribution, abundance and changes as the result of bushfire activity.</p>
-
-
-
-<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats.jpg" alt="" class="wp-image-47130" width="948" height="938" srcset="https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats.jpg 838w, https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats-300x296.jpg 300w, https://www.ala.org.au/app/uploads/2022/08/BioBlitz-2022-Species-Stats-768x759.jpg 768w" sizes="(max-width: 948px) 100vw, 948px" /><figcaption>Breakdown of the number of different species identified in the 2022 BioBlitz event</figcaption></figure>
-
-
-
-<h4 id="whats-the-value-of-a-bioblitz"><strong>What’s the value of a BioBlitz?</strong></h4>
-
-
-
-<p>BioBlitz initiatives provide an opportunity for wide-spread community involvement and opportunity for new data records at a point in time to be captured, ingested and verified by experts to inform monitoring and research. From the Autumn Big Bushfire BioBlitz, all records have been fed through into the ALA via iNaturalist.</p>
-
-
-
-<p>BioBlitzes also offer a hands-on educational experience with the aim to inspire increased environmental stewardship.</p>
-
-
-
-<p><em>“Citizen science events such as bioblitzes provide an invaluable opportunity to maximise the amount of data collection, intensely focusing on particular areas, as well allowing people of all skill levels to be involved. Participants get to interact with and learn from experts, and also offer their own local expertise and insights to the experts, so it’s a fantastic two-way transfer of knowledge.”</em> Thomas Mesaglio, iNaturalist curator and PhD candidate at the UNSW Evolution &amp; Ecology Research Centre. &nbsp;</p>
-
-
-
-<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/08/BioBLitz-1.png" alt="4 images of the different species found in 2022 BioBlitz including Glossy Black Cockatoo, Scrub Turpentine, Green &amp; Gold Bell Frog and Greater Glider" class="wp-image-47105" width="951" height="999"/><figcaption><em>Selection of species found across the 2022 BioBlitz events</em>, collected by multiple participants</figcaption></figure>
-
-
-
-<h4 id="where-to-from-here"><strong>Where to from here?</strong></h4>
-
-
-
-<p>From the 2022 Big Bushfire BioBlitz, the ALA in collaboration with our partners intend to create a guide for local governments and community groups on how to run other small-scale BioBlitz initiatives. &nbsp;</p>
-
-
-
-<h4 id="partnerships"><strong>Partnerships:</strong></h4>
-
-
-
-<p>This work was supported by the Australian Government’s $200 million Bushfire Recovery Program for Wildlife and their Habitat.</p>
-
-
-
-<p>The BioBlitzes were coordinated by the <a href="https://www.ala.org.au/#tab_pane-B">Atlas of Living Australia</a>, in collaboration with the&nbsp;<a href="https://www.unsw.edu.au/research/ecosystem">University of New South Wales (UNSW)&nbsp;Centre for Ecosystem Science</a>,&nbsp;<a href="https://www.minderoo.org/fire-and-flood-resilience/">Minderoo Foundation’s Fire and Flood Resilience Initiative</a>, the former&nbsp;<a href="https://www.dcceew.gov.au/">Department of Agriculture, Water and the Environment</a>, and the&nbsp;<a href="https://citizenscience.org.au/">Australian Citizen Science Association</a>.</p>
-
-
-
-<p></p>
-
-
-
-<p><a href="https://t.e2ma.net/webview/3dtksk/efe665d23a4621d1d54af0d16ba76b8b">Back to ALA Newsletter August 2022</a></p>
 ]]></content:encoded>
 					
 		
