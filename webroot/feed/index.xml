@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 25 Jan 2023 02:38:23 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 05 Feb 2023 22:41:14 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,93 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Protecting Australian biodiversity with data</title>
+		<link>https://www.ala.org.au/blogs-news/protecting-australian-biodiversity-with-data/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Sun, 05 Feb 2023 22:41:14 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47966</guid>
+
+					<description><![CDATA[Meet our 2022 Australian Biodiversity Data Mobilisation Program winners As Australia is home to unique biodiversity and ecosystems, it’s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species. While biodiversity data such as physical specimens in collections, or data from field programs are used [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Meet our 2022 Australian Biodiversity Data Mobilisation Program winners</strong></p>
+
+
+
+<p>As Australia is home to unique biodiversity and ecosystems, it’s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species.</p>
+
+
+
+<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
+
+
+
+<p>To improve data accessibility the Atlas of Living Australia (ALA) launched the <a href="https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/">Australian Biodiversity Data Mobilisation Program</a>. This program is designed to support Australian museums, biological collections, herbaria, and research teams to digitise their data, and making it available through the ALA, and internationally through the Global Biodiversity Information Facility (GBIF).</p>
+
+
+
+<p>Through a nationally competitive application process, six projects were awarded grants to digitise their priority biodiversity data. The output from this program will enable data on rare and unique species to become open and accessible through the ALA. Using FAIR principles (findable, accessible, interoperable, reusable), this data will support research, decision making and conservation efforts to better protect Australian biodiversity.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1024x577.jpg" alt="" class="wp-image-47994" srcset="https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1024x577.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-768x433.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1536x865.jpg 1536w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old.jpg 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Biodiversity Mobilisation Program 2022 Projects banner</figcaption></figure>
+
+
+
+<p><strong>The successful projects:</strong></p>
+
+
+
+<p>In the 2022 round of the program, applicants were able to apply for either a small grant of $20,000 or a large grant of $50,000 to support activities to digitise existing biodiversity data. Four small grants and two large grants were awarded in 2022 with data from these projects expected to be made available through the ALA by July 2023.</p>
+
+
+
+<p>The successful 2022 projects include the following:</p>
+
+
+
+<ol type="1" start="1">
+<li>New South Wales Department of Primary Industries, NSW – mobilising plant pest and disease data from the NSW Biosecurity Collections (~600,000 records).</li>
+
+
+
+<li>South Australia Museum (SAM), SA– mobilise the SAM’s Australian Biological Tissues Collection of 39 donated frozen tissue collections of Australian freshwater fishes (around 90% of all known species and ~46,000 records).</li>
+
+
+
+<li>Queensland Museum Network, QLD – mobilising and enhance data from the Cribb Australian Fish Trematode Collection (&gt;20,000 records of &gt;1,000 fish species).</li>
+
+
+
+<li>Tasmanian Museum and Art Gallery, TAS – mobilising wildlife molecular and tissue data (&gt; 8,500 sample vials and 1,650 formalin fixed specimens in the histology collection).</li>
+
+
+
+<li>Edith Cowan University, WA – mobilising plant and fungi data from the Robert Brown Herbarium.</li>
+
+
+
+<li>Botanic Gardens and Parks Authority, WA – mobilising data in the Kings Park and Botanic Garden Herbarium collection (18,200 specimens).</li>
+</ol>
+
+
+
+<p>Congratulations to the successful projects, we look forward to working with them to make their data available nationally. We’d like to also acknowledge the applications that were not successful as they were universally excellent making our assessment process very challenging. We are also grateful to the independent review panel chaired by Professor David Cantrill for their work in reviewing proposals and selecting a fantastic suite of final recipients.</p>
+
+
+
+<figure class="wp-block-image size-medium"><img decoding="async" loading="lazy" width="200" height="300" src="https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-200x300.jpg" alt="" class="wp-image-47969" srcset="https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-200x300.jpg 200w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-683x1024.jpg 683w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-768x1152.jpg 768w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1.jpg 800w" sizes="(max-width: 200px) 100vw, 200px" /><figcaption class="wp-element-caption">Leanne Wheaton working on collections specimens at South Australia Museum, Photo Credit Denis Smith, South Australia Museum. </figcaption></figure>
+
+
+
+<p>The 2023 grant round for the Australian Biodiversity Data Mobilisation Program will open for applications in&nbsp;<strong>March 2023</strong>. Keep an eye on the ALA website, social media and blogs for more information shortly.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA user experience (UX) project: Call for expressions of interest</title>
 		<link>https://www.ala.org.au/blogs-news/ala-user-experience-ux-project-call-for-expressions-of-interest/</link>
 		
@@ -66,7 +153,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="369" src="https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1024x369.png" alt="Five screenshots of the ALA home page from left to right: 2011, 2013, 2017, 2019, 2023. Dotted line and year labels are also shown left to right. Background is yellow with a tech/system motif of lines, circles and arrows" class="wp-image-47955" srcset="https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1024x369.png 1024w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-300x108.png 300w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-768x276.png 768w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1536x553.png 1536w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-2048x737.png 2048w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1920x691.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>ALA homepage over the years</em></figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="369" src="https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1024x369.png" alt="Five screenshots of the ALA home page from left to right: 2011, 2013, 2017, 2019, 2023. Dotted line and year labels are also shown left to right. Background is yellow with a tech/system motif of lines, circles and arrows" class="wp-image-47955" srcset="https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1024x369.png 1024w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-300x108.png 300w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-768x276.png 768w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1536x553.png 1536w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-2048x737.png 2048w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1920x691.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>ALA homepage over the years</em></figcaption></figure>
 
 
 
@@ -1019,146 +1106,6 @@
 
 
 <figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-1024x134.jpg" alt="White banner with threee stripes on right hand side that reads ESA - SCBO 2022 28 November - 2 December 2022 Wollongong NSW" class="wp-image-47403" width="998" height="130" srcset="https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-1024x134.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-300x39.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-768x101.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO.jpg 1512w" sizes="(max-width: 998px) 100vw, 998px" /><figcaption>ESA &#8211; SCBO 2022 banner</figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>National Science Week 2022</title>
-		<link>https://www.ala.org.au/blogs-news/national-science-week-2022/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Thu, 18 Aug 2022 23:11:00 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47166</guid>
-
-					<description><![CDATA[In August 2022 the ALA celebrated National Science Week! It was exciting to share, discuss and celebrate science with you over a series of three online events throughout the week. Hear from ALA and Industry experts discussing careers in STEM, learn how to use the ALA R-package galah and follow along for an introductory how-to [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>In August 2022 the ALA celebrated <a rel="noreferrer noopener" href="https://www.scienceweek.net.au/" target="_blank">National Science Week</a>! It was exciting to share, discuss and celebrate science with you over a series of three online events throughout the week.</p>
-
-
-
-<p>Hear from ALA and Industry experts discussing careers in STEM, learn how to use the ALA R-package <em>galah</em> and follow along for an introductory how-to beginner’s guide to the ALA.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="ala-events">ALA events</h2>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="stem-career-stories">ALA Webinar: STEM Career Stories</h3>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA webinar: STEM Career Stories – 16 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/5EnctbSAUHo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p><strong>Tuesday 16 August, 2022</strong></p>
-
-
-
-<p>As Australia’s national biodiversity database, the Atlas of Living Australia delivers trusted data services for Australia, supporting world-class biodiversity research and decision-making. Our data are used by a range of professionals from different fields, such as research, government, museums &amp; herbaria, and industry, just to name a few. As diverse as these fields are, they all share something in common, and that’s the potential for an exciting career in STEM. In this webinar, hear from three speakers who have followed their passions to forge unique and rewarding career paths in STEM.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="intro-to-galah">ALA How-to Session: Intro to {galah}</h3>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA How to session: Intro to {galah} – 17 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/VsyMh9RCY1c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p><strong>Wednesday 17 August, 2022</strong></p>
-
-
-
-<p>At the ALA, we store biodiversity data in a way that is open and accessible, but the ALA website is not the only way to access them!</p>
-
-
-
-<p>Our R package {galah} gives you the tools to query the ALA directly and work with data in your preferred way. Join us for a step-by-step guide to getting started in {galah}.</p>
-
-
-
-<p>Please note: some basic familiarity with RStudio is recommended.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="beginners-guide-to-ALA">ALA How-to Session: Beginner&#8217;s guide to using the ALA</h3>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA How-to session: Beginner&#039;s guide to using the ALA – 18 Aug, 2022" width="640" height="360" src="https://www.youtube.com/embed/dwtKaqlJOss?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p><strong>Thursday 18 August 2022</strong></p>
-
-
-
-<p>The Atlas of Living Australia aggregates biodiversity data and stores them in a way that is open and accessible. But what does this actually mean, and what can you use the ALA for? Find out in this interactive workshop!</p>
-
-
-
-<p>Follow along as we share tips and tricks for getting the most out of the ALA. We’ll cover how to look up information about your favourite species, how to find out which species have been recorded in your local area, plus much more! Beginner friendly.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
 ]]></content:encoded>
 					
 		
