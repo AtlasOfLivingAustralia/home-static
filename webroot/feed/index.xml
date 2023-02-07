@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Sun, 05 Feb 2023 22:41:14 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 07 Feb 2023 22:39:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,117 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Call for applications &#8211; GBIF 2023 Graduate Researchers Award</title>
+		<link>https://www.ala.org.au/blogs-news/call-for-applications-gbif-2023-graduate-researchers-award/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Tue, 07 Feb 2023 22:39:55 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47986</guid>
+
+					<description><![CDATA[Nominations are open for the GBIF 2023 Graduate Researchers Award! This award is an annual program aimed at fostering and recognising innovative research and discovery in biodiversity informatics at the Masters and PhD student level. ]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img decoding="async" width="1151" height="414" src="https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF.jpg" alt="" class="wp-image-47988" srcset="https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF.jpg 1151w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-300x108.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-1024x368.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-768x276.jpg 768w" sizes="(max-width: 1151px) 100vw, 1151px" /><figcaption class="wp-element-caption">Illustration of&nbsp;<em>Macrolepiota procera</em>&nbsp;(Scop.) Gray, from&nbsp;<a href="http://biodiversitylibrary.org/page/1266181"><em>Führer für Pilzfreunde</em></a>&nbsp;(1821) via&nbsp;<a href="https://www.flickr.com/photos/biodivlibrary/8509418243/in/album-72157632865665228/">Biodiversity Heritage Library</a>, no rights reserved under&nbsp;<a href="https://creativecommons.org/publicdomain/mark/1.0/">CC0</a>.</figcaption></figure>
+
+
+
+<p>The 2023 programme will provide two €5,000 prizes (approx. AUD $7,700) recognising the work of two early-career researchers. Nominations are open to Masters and PhD students conducting innovative research using biodiversity data available through the <a rel="noreferrer noopener" href="https://www.gbif.org/" target="_blank">Global Biodiversity Information Facility</a> (GBIF). The Atlas of Living Australia is the Australian node of GBIF, meaning all data in the ALA are also accessible via GBIF.</p>
+
+
+
+<p>All applicants need to receive a formal nomination from the heads of delegation and node managers of&nbsp;<a href="https://www.gbif.org/the-gbif-network">GBIF Participant countries</a>. This year our team at the Atlas of Living Australia will coordinate the applications from Australian researchers. We will select two nominations to be assessed by the GBIF Science Committee.</p>
+
+
+
+<p class="has-red-color has-text-color has-medium-font-size" style="text-decoration:underline"><strong><em><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-red-color">Australian applications to the ALA are due by 31st May 2023.</mark></em></strong></p>
+
+
+
+<p><strong>Nomination process</strong></p>
+
+
+
+<p>Two Australian nominations will be selected for submission to GBIF by the Australian GBIF Delegation in time for the GBIF submission deadline. Please contact&nbsp;<a href="mailto:ala@csiro.au">ala@csiro.au</a> if you require further information.</p>
+
+
+
+<p>A jury organised by&nbsp;<a href="https://www.gbif.org/contact-us/directory?group=scienceCommittee" target="_blank" rel="noreferrer noopener">GBIF Science Committee</a>&nbsp;will select the two award recipients from the pool of nominees received from the country delegation by the GBIF Secretariat. The winners will be announced in September/October 2023.</p>
+
+
+
+<p>Note: Awardees are expected to acknowledge GBIF support when disseminating research results via peer-reviewed publications, presentations at professional meetings, and other media.</p>
+
+
+
+<p><strong>Award nomination packet</strong></p>
+
+
+
+<p>Candidates should prepare their proposal and nomination packets to include:</p>
+
+
+
+<ol type="1" start="1">
+<li><strong>Research summary</strong>&nbsp;(<em>200 words</em>)</li>
+
+
+
+<li><strong>Project description</strong> (<em>maximum 5 pages, 12-point Arial</em>) that describes:<br>a. How the research advances biodiversity informatics and/or the conservation of biological diversity.<br>b. <strong>The role of data accessed through GBIF in addressing these questions</strong>. Research proposals must clearly demonstrate how the study incorporates data mobilised through GBIF. Students with questions about GBIF-enabled data should work with academic advisors, their GBIF national node, the GBIF Secretariat or members of the Science Committee to increase their understanding.<br>c. The research scope, plan, methodologies, relevant literature citations and timetable.<br>d. If relevant, a description or an excerpt from a data management plan that outlines how data related to the research is published or will be prepared for publication through the GBIF network to GBIF.org.</li>
+
+
+
+<li><strong>Curriculum vitae</strong>&nbsp;of the student applicant including full contact information at the home institution.</li>
+
+
+
+<li><strong>Supporting documents</strong><br>a. An official letter from the student’s faculty mentor/supervisor certifying that the applicant is a student in good standing in the graduate program of the university.<br>b. At least one, and no more than three, letters of support from established researchers active in a field that encompasses and incorporates biodiversity informatics (e.g., genetics, species composition and traits, biogeography, ecology, systematics, et al.)</li>
+</ol>
+
+
+
+<p><strong>How to submit an application to the ALA (Australian applicants)</strong></p>
+
+
+
+<ol type="1" start="1">
+<li>Visit the <a href="https://www.gbif.org/news/6gyLOum00YsYc4OtVGK33Y/call-for-nominations-to-the-2023-gbif-graduate-researchers-award">GBIF 2023 Graduate Researchers Award</a> page&nbsp;and follow the instructions.&nbsp;<br><br></li>
+
+
+
+<li>Submit your nominations to&nbsp;<a href="mailto:ala@csiro.au">ala@csiro.au</a>, with ‘2023 GBIF Graduate Researchers Application _YOUR NAME’ in the subject line by&nbsp;<strong>31st May 2023.</strong></li>
+</ol>
+
+
+
+<p>The criteria for the awards include:</p>
+
+
+
+<ul>
+<li>Originality and innovation</li>
+
+
+
+<li>Use of and strategic significance for data accessed through GBIF</li>
+
+
+
+<li>Measurable effectiveness and impact in advancing biodiversity informatics and/or the conservation of biological diversity</li>
+</ul>
+
+
+
+<p><strong>Further information</strong></p>
+
+
+
+<p>Full details, including how to nominate and eligibility criteria, can be found on the <a href="https://www.gbif.org/news/6gyLOum00YsYc4OtVGK33Y/call-for-nominations-to-the-2023-gbif-graduate-researchers-award">GBIF</a> website.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Protecting Australian biodiversity with data</title>
 		<link>https://www.ala.org.au/blogs-news/protecting-australian-biodiversity-with-data/</link>
 		
@@ -58,7 +169,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1024x577.jpg" alt="" class="wp-image-47994" srcset="https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1024x577.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-768x433.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1536x865.jpg 1536w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old.jpg 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Biodiversity Mobilisation Program 2022 Projects banner</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1024x577.jpg" alt="" class="wp-image-47994" srcset="https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1024x577.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-768x433.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1536x865.jpg 1536w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old.jpg 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Biodiversity Mobilisation Program 2022 Projects banner</figcaption></figure>
 
 
 
@@ -953,159 +1064,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Q4 Conferences – Where to find ALA</title>
-		<link>https://www.ala.org.au/blogs-news/q4-conferences-where-to-find-ala/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Fri, 14 Oct 2022 01:49:25 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47410</guid>
-
-					<description><![CDATA[Across October – December 2022 you’ll find ALA at a number of in-person and virtual events. These events offer a fantastic opportunity to network, share knowledge and connect. See below for where to find the ALA. eResearch Australasia Conference 2022 &#8211; Brisbane &#160;17-20 October 2022 ALA will have a booth at this event. Come by [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Across October – December 2022 you’ll find ALA at a number of in-person and virtual events. These events offer a fantastic opportunity to network, share knowledge and connect. </p>
-
-
-
-<p>See below for where to find the ALA.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1024x577.png" alt="&quot;&quot;" class="wp-image-47414" srcset="https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-300x169.png 300w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-768x433.png 768w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2022/10/ALA-Q4-Upcoming-Conferences-3.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Events across October to December 2022 where ALA will be present</figcaption></figure>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="eresearch-australasia-conference-2022-brisbane-17-20-october-2022"><strong>eResearch Australasia Conference 2022 &#8211; Brisbane &nbsp;17-20 October 2022</strong></h2>
-
-
-
-<p>ALA will have a booth at this event. Come by and say hello!</p>
-
-
-
-<p><em>Tuesday 18<sup>th</sup> October </em></p>
-
-
-
-<p><strong>Presenter: Amanda Buyan</strong> &#8211; <a rel="noreferrer noopener" href="https://conference.eresearch.edu.au/2022/08/ecocommons-providing-reputable-high-quality-data-to-protect-a-high-quality-planet/" target="_blank">EcoCommons: providing reputable, high-quality data to protect a high-quality planet</a></p>
-
-
-
-<p><em>Wednesday 19<sup>th</sup> October </em></p>
-
-
-
-<p><strong>Presenter: Kathryn Hall </strong>&#8211; <a rel="noreferrer noopener" href="https://conference.eresearch.edu.au/2022/08/a-fairer-future-for-genomics-research-in-australia-creating-an-australian-genome-reference-atlas/" target="_blank">A FAIRer future for genomics research in Australia: creating an Australian Genome Reference Atlas</a></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="292" src="https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1024x292.jpg" alt="Blue background that reads eResearch Australasia 2022 Conference" class="wp-image-47401" srcset="https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1024x292.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-300x86.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-768x219.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1536x439.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-2048x585.jpg 2048w, https://www.ala.org.au/app/uploads/2022/10/eResearch-2022-1920x548.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>eResearch Australasia 2022 Conference banner</figcaption></figure>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="biodiversity-information-standards-taxonomic-databases-working-group-tdwg-2022-sofia-bulgaria-online-17-21-october-2022"><strong>Biodiversity Information Standards Taxonomic Databases Working Group (TDWG) 2022 &#8211; Sofia, Bulgaria &amp; online</strong> <strong>17 &#8211; 21 October 2022</strong></h2>
-
-
-
-<p><em>Monday 17<sup>th </sup>October</em></p>
-
-
-
-<p><strong>Presenter: Nicole Kearney </strong>&#8211; Supplying the Missing Links: Providing immediate access to the taxonomic literature from our taxonomic databases. By Nicole Kearney and Roderic Page <a href="https://doi.org/10.3897/biss.6.91104">https://doi.org/10.3897/biss.6.91104</a></p>
-
-
-
-<p><strong>Presenter: Mahmoud Sadeghi </strong>&#8211; A Pre-ingestion Framework for Darwin Core Archives. By Mahmoud Sadeghi, Patricia Koh, Peggy Newman <a href="https://doi.org/10.3897/biss.6.93853">https://doi.org/10.3897/biss.6.93853</a></p>
-
-
-
-<p><em>Tuesday 18<sup>th </sup>October</em></p>
-
-
-
-<p><strong>Presenter: Lee Belbin</strong> &#8211; It Takes Years for a Good Wine to Mature: Task Group 2 &#8211; data quality tests and assertions. By Lee Belbin, Arthur Chapman, Paul J. Morris, John Richard Wieczorek <a href="https://doi.org/10.3897/biss.6.91078">https://doi.org/10.3897/biss.6.91078</a></p>
-
-
-
-<p><strong>Presenter: Arthur Chapman</strong> &#8211; Formulaic Unpublished Names: The need for a TDWG standard and for the inclusion of such names in apps such as iNaturalist. By Arthur D Chapman, Thomas Mesaglio, Guy Taseski <a href="https://doi.org/10.3897/biss.6.91062">https://doi.org/10.3897/biss.6.91062</a></p>
-
-
-
-<p><em>Thursday 20<sup>th </sup>October</em></p>
-
-
-
-<p><strong>Presenter: Javier Molina</strong> &#8211; A Practical Approach to Publishing and Using Event-based Biodiversity Data. By Javier Molina, Federico Mendez, Dax Kelly, David Martin, Doug Palmer <a href="https://doi.org/10.3897/biss.6.91512">https://doi.org/10.3897/biss.6.91512</a></p>
-
-
-
-<p><strong>Presenter: Peggy Newman</strong> &#8211; Growth and Collaboration in the Atlas of Living Australia. By Peggy Newman, Hamish Holewa, Elycia Wallis <a href="https://doi.org/10.3897/biss.6.93854">https://doi.org/10.3897/biss.6.93854</a></p>
-
-
-
-<p><em>Friday 21<sup>st </sup>October</em></p>
-
-
-
-<p><strong>Presenter: Kathryn Hall</strong> &#8211; Building an Australian Reference Genome Atlas. By Nicholas J dos Remedios, Sarah Richmond, Jeff Christiansen, Nigel Ward, Hamish Holewa, Kathryn A Hall <a href="https://doi.org/10.3897/biss.6.91415">https://doi.org/10.3897/biss.6.91415</a></p>
-
-
-
-<p><strong>Presenter: Doug Palmer</strong> &#8211; The Large Taxon Collider: Building the Atlas of Living Australia&#8217;s taxonomic backbone. By Doug Palmer, Peggy Newman <a href="https://doi.org/10.3897/biss.6.95102">https://doi.org/10.3897/biss.6.95102</a></p>
-
-
-
-<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700.jpg" alt="Black banner with a picture of a building on the left side that reads Biodiversity Information Standards TDWG 2022 Bulgaria" class="wp-image-47404" width="1001" height="564" srcset="https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700.jpg 900w, https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/tdwg-2022-cover-e1652452236700-768x432.jpg 768w" sizes="(max-width: 1001px) 100vw, 1001px" /><figcaption>Biodiversity Information Standards TDWG 2022  banner</figcaption></figure>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="ecological-society-of-australia-esa-society-for-conservation-biology-oceania-scbo-joint-conference-wollongong-28-november-2-december"><strong>Ecological Society of Australia (ESA) &amp; Society for Conservation Biology Oceania (SCBO) Joint Conference &nbsp;– Wollongong 28 November &#8211; 2 December</strong></h2>
-
-
-
-<p>ALA will have a booth at this event. Come by and say hello! </p>
-
-
-
-<p><em>Friday 2<sup>nd</sup> December</em> </p>
-
-
-
-<p>Full agenda <a href="https://kaigi.eventsair.com/QuickEventWebsitePortal/esa-scb-2022/esascboinfo/Agenda" data-type="URL" data-id="https://kaigi.eventsair.com/QuickEventWebsitePortal/esa-scb-2022/esascboinfo/Agenda">here</a>.</p>
-
-
-
-<p>Workshop: A Beginner’s Guide to Data Analysis and Visualisation in Python for Ecologists &amp; Conservation Scientists using EcoCommons’ Coding Cloud<br>Facilitated by:&nbsp;<strong>Dr Amanda Buyan, Data Analyst, CSIRO The Atlas of Living Australia &amp; EcoCommons Australia, Dr Rob Clemens, Change &amp; Communications Manager, EcoCommons Australia, Griffith University, Dr Emilia Decker, Support and Training Officer, EcoCommons Australia, Griffith University &amp; Dr Jessica Fenker, R</strong> <strong>Programmer, EcoCommons Australia, CSIRO The Atlas of Living Australia</strong></p>
-
-
-
-<p>Workshop: Using the EcoCommons’ Point-and-click Dashboards to run Species Distribution Models, make Climate Projections and carry out Biosecurity Risk Mapping<br>Facilitated by:&nbsp;<strong>Dr Rob Clemens, Change &amp; Communications Manager, EcoCommons Australia, Griffith University, Dr Emilia Decker, Support and Training Officer, EcoCommons Australia, Griffith University, Dr Jessica Fenker, R Programmer, EcoCommons Australia, The Atlas of Living Australia, Dr Peter D. Wilson, Adjunct Fellow, Macquarie University &amp; Dr Sean Haythorne, Research Software Engineer, Centre of Excellence for Biosecurity Risk Analysis, University of Melbourne</strong></p>
-
-
-
-<p>Workshop: Running Species Distribution Models in the EcoCommons’ R environment<br>Facilitated by:&nbsp;<strong>Dr Rob Clemens, Change &amp; Communications Manager, EcoCommons Australia, Griffith University, Abhimanyu Raj Singh, Functional Analyst, EcoCommons Australia, Griffith University &amp; Dr Jessica Fenker, R Programmer, EcoCommons Australia, The Atlas of Living Australia</strong></p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-1024x134.jpg" alt="White banner with threee stripes on right hand side that reads ESA - SCBO 2022 28 November - 2 December 2022 Wollongong NSW" class="wp-image-47403" width="998" height="130" srcset="https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-1024x134.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-300x39.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO-768x101.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/ESA-SCBO.jpg 1512w" sizes="(max-width: 998px) 100vw, 998px" /><figcaption>ESA &#8211; SCBO 2022 banner</figcaption></figure>
 ]]></content:encoded>
 					
 		
