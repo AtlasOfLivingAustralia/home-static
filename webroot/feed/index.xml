@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 07 Feb 2023 22:39:55 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 10 Feb 2023 06:32:50 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,98 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Meet Caitlin &#8211; An ALA Indigenous Internship student with a flare for coding</title>
+		<link>https://www.ala.org.au/blogs-news/meet-caitlin-an-ala-indigenous-internship-student-with-a-flare-for-coding/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Fri, 10 Feb 2023 06:32:50 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48091</guid>
+
+					<description><![CDATA[Across summer 2022-23, the ALA hosted two Indigenous Internship students as part of the National Collections and Marine Infrastructure (NCMI) Indigenous Scholarship Program. Celebrating International Women and Girls in Science Day, we&#8217;re profiling Caitlin Ramsay! Caitlin joined the ALA Science and Decision Support team during her internship, where she investigated the distribution of invasive species [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Across summer 2022-23, the ALA hosted two Indigenous Internship students as part of the National Collections and Marine Infrastructure (NCMI) Indigenous Scholarship Program. Celebrating International Women and Girls in Science Day, we&#8217;re profiling Caitlin Ramsay! Caitlin joined the ALA Science and Decision Support team during her internship, where she investigated the distribution of invasive species across Australia over time. </p>
+
+
+
+<p>We chatted with Caitlin to find out more about her project through the Atlas of Living Australia.</p>
+
+
+
+<p></p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-medium"><img decoding="async" width="300" height="297" src="https://www.ala.org.au/app/uploads/2023/02/IMG_0852-300x297.jpg" alt="" class="wp-image-48094" srcset="https://www.ala.org.au/app/uploads/2023/02/IMG_0852-300x297.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1024x1012.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-768x759.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1536x1519.jpg 1536w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-2048x2025.jpg 2048w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1920x1898.jpg 1920w" sizes="(max-width: 300px) 100vw, 300px" /><figcaption class="wp-element-caption">Caitlin Ramsay, ALA Indigenous Internship student</figcaption></figure></div>
+
+
+<p>Q: What degree are you currently studying, and what made you study science? </p>
+
+
+
+<p><em>I’m in my last term studying a double degree of Bioinformatics Engineering and Ecology at UNSW. At first, I wanted to go straight into work once I finished my undergraduate degree, but now, I’m considering completing either a Masters or PhD in something related to environmental science. I’ve always had a strong connection to the land and ocean as well as a curiosity for the natural world. It became clearer to me as I got older that an environmental science degree would foster these values of mine and potentially let me make an impact.</em></p>
+
+
+
+<p>Q: What made you apply for the Indigenous Studentship Internship program?</p>
+
+
+
+<p><em>I heard about ALA internships from some friends at UNSW who participated in another internship program. From there I investigated whether the ALA offered internships over the summer and stumbled upon the Indigenous Studentship program. I applied because I wanted to see what it was like to apply the skills I’ve learned at university in industry.</em></p>
+
+
+
+<p><br>Q: What did your ALA internship project focus on?<br><em>My project focused on invasive species and how they have moved around over time. At first, I was interested in species&#8217; ranges shifting as a way to cope with climate change. This then led into this idea of changing species distributions and how quickly invasive species can spread within Australia. I also helped with the galah python package development which involved writing tests, finding bugs and helping to design its website.</em><br></p>
+
+
+
+<p>Q: What was a new skill that that you learned through the program that you’re proud of and what were some challenges that you faced during your project?</p>
+
+
+
+<p><em>Coming into this internship I had never really done any data visualisation before. Now I feel like I have a pretty good grasp on how to code figures in Python and have been able to produce some aesthetic plots that I’m super proud of.  While coding my data visualisations, I ran into a lot of bugs which is always challenging as sometimes it would take an entire day to try fix. I also was using Python to make data visualisations while the rest of the team predominantly used R. This meant I had to figure out a lot of the bugs on my own which was challenging but also a useful skill to develop.</em><br></p>
+
+
+
+<p>Q: Tell us about your highlight of the internship program? </p>
+
+
+
+<p><em>The highlight of the internship for me would definitely have to be the people I worked with. They were all so amazing and friendly and just made my experience here so fun that I’m a bit sad to be leaving</em>!</p>
+
+
+
+<p></p>
+
+
+
+<p>Congratulations Caitlin on successfully completing your project with the ALA! Check out some of the incredible data visualisations Caitlin produced through her project using the ALA galah Python package.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1024x768.png" alt="" class="wp-image-48092" srcset="https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1024x768.png 1024w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-300x225.png 300w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-768x576.png 768w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1536x1152.png 1536w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-2048x1536.png 2048w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1920x1440.png 1920w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-640x480.png 640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Cane toads <em>(Rhinella marina)</em> were introduced to far north Queensland in the 1930s and since then have multiplied quickly and spread far across northern Australia. This figure shows where cane toads were distributed in Australia each decade since their introduction.</figcaption></figure>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2023/02/p-undulatum-bioregions-final-1024x768.png" alt="" class="wp-image-48093" srcset="https://www.ala.org.au/app/uploads/2023/02/p-undulatum-bioregions-final-1024x768.png 1024w, https://www.ala.org.au/app/uploads/2023/02/p-undulatum-bioregions-final-300x225.png 300w, https://www.ala.org.au/app/uploads/2023/02/p-undulatum-bioregions-final-768x576.png 768w, https://www.ala.org.au/app/uploads/2023/02/p-undulatum-bioregions-final-1536x1152.png 1536w, https://www.ala.org.au/app/uploads/2023/02/p-undulatum-bioregions-final-2048x1536.png 2048w, https://www.ala.org.au/app/uploads/2023/02/p-undulatum-bioregions-final-1920x1440.png 1920w, https://www.ala.org.au/app/uploads/2023/02/p-undulatum-bioregions-final-640x480.png 640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Invasive species are not always non-native and even some Australian native species can become invasive. (<em>Pittosporum undulatum)</em> trees are one example of this as they have been transported outside of their known native range where it acts as a weed and is changing ecosystem structure. This figure shows the Australian bioregions that <em>P. undulatum</em> is native to and the ones it has been introduced to.</figcaption></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Call for applications &#8211; GBIF 2023 Graduate Researchers Award</title>
 		<link>https://www.ala.org.au/blogs-news/call-for-applications-gbif-2023-graduate-researchers-award/</link>
 		
@@ -38,7 +130,7 @@
 
 					<description><![CDATA[Nominations are open for the GBIF 2023 Graduate Researchers Award! This award is an annual program aimed at fostering and recognising innovative research and discovery in biodiversity informatics at the Masters and PhD student level. ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1151" height="414" src="https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF.jpg" alt="" class="wp-image-47988" srcset="https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF.jpg 1151w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-300x108.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-1024x368.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-768x276.jpg 768w" sizes="(max-width: 1151px) 100vw, 1151px" /><figcaption class="wp-element-caption">Illustration of&nbsp;<em>Macrolepiota procera</em>&nbsp;(Scop.) Gray, from&nbsp;<a href="http://biodiversitylibrary.org/page/1266181"><em>Führer für Pilzfreunde</em></a>&nbsp;(1821) via&nbsp;<a href="https://www.flickr.com/photos/biodivlibrary/8509418243/in/album-72157632865665228/">Biodiversity Heritage Library</a>, no rights reserved under&nbsp;<a href="https://creativecommons.org/publicdomain/mark/1.0/">CC0</a>.</figcaption></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1151" height="414" src="https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF.jpg" alt="" class="wp-image-47988" srcset="https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF.jpg 1151w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-300x108.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-1024x368.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/grad-researcher-award-2023-GBIF-768x276.jpg 768w" sizes="(max-width: 1151px) 100vw, 1151px" /><figcaption class="wp-element-caption">Illustration of&nbsp;<em>Macrolepiota procera</em>&nbsp;(Scop.) Gray, from&nbsp;<a href="http://biodiversitylibrary.org/page/1266181"><em>Führer für Pilzfreunde</em></a>&nbsp;(1821) via&nbsp;<a href="https://www.flickr.com/photos/biodivlibrary/8509418243/in/album-72157632865665228/">Biodiversity Heritage Library</a>, no rights reserved under&nbsp;<a href="https://creativecommons.org/publicdomain/mark/1.0/">CC0</a>.</figcaption></figure>
 
 
 
@@ -907,163 +999,6 @@
 
 
 <figure class="wp-block-image size-medium"><a href="http://www.tern.org.au/" target="_blank" rel="noreferrer noopener"><img decoding="async" loading="lazy" width="300" height="77" src="https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1-300x77.png" alt="TERN logo with map of Australia" class="wp-image-47433" srcset="https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1-300x77.png 300w, https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Spooky Species</title>
-		<link>https://www.ala.org.au/blogs-news/spooky-species/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Sun, 30 Oct 2022 22:05:15 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47475</guid>
-
-					<description><![CDATA[Does it croak or growl, have fangs or howl? Does it scream at night or give you a fright? 🎃 Many iconic living (or dead) things that are seen around Halloween are inspired by species in the natural world! Check out some of the most spook-tacular Aussie species! Goblin Shark (Mitsukurina owstoni) Talk about a [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>Does it croak or growl, have fangs or howl? Does it scream at night or give you a fright? <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f383.png" alt="🎃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>Many iconic living (or dead) things that are seen around Halloween are inspired by species in the natural world! Check out some of the most spook-tacular Aussie species!</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1009" height="541" src="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg" alt="" class="wp-image-47481" srcset="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg 1009w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-300x161.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-768x412.jpg 768w" sizes="(max-width: 1009px) 100vw, 1009px" /><figcaption>Goblin Shark (<em>Mitsukurina owstoni</em>) Museums Victoria CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/b1b5f1e3-1efa-4d18-b8f7-d26731b964cc#overview">Goblin Shark (<em>Mitsukurina owstoni</em></a>)</strong></p>
-
-
-
-<p>Talk about a creature from nightmares, the Goblin Shark is one of the most illusive deep-sea sharks known to scientists with a distinctive blade-like snout and pink skin. Specimens have been found along continental slopes at distances up to 1.3 km deep, measuring 3-4 metres in length. The Goblin Shark has distinctive mouthparts, specialised for rapid projection as their jaws can extend and retract to catch prey.</p>
-
-
-
-<p>They are the only extant member of the&nbsp;<em>Mitsukurina</em>&nbsp;genus, often called a ‘living fossil’ as this genus traces back 125 million years. These sharks are incredibly illusive, with limited specimens recorded around NSW, Victoria and Tasmania in Australia, as well as Portugal and Japan. Not much is known about the reproductive life cycle of this species as a pregnant Goblin Shark has never been recorded.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47480" srcset="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Bronze Orange Bug (<em>Musgraveia sulciventris</em>) Erin Roger CC BY NC</figcaption></figure>
-
-
-
-<p><strong><u><a href="https://www.inaturalist.org/taxa/201952">Bronze Orange Bug</a>&nbsp;(<a href="https://www.inaturalist.org/taxa/201952"><em>Musgraveia sulciventris</em></a>)</u></strong></p>
-
-
-
-<p>If the pumpkin-orange colour doesn’t scare you off, maybe its stench will! This stinkbug produces a rotten-smelling spray from the chemical ‘cimicine.’ This spray doesn’t just pack a pungent punch, its main function is to be a defensive mechanism against predators – most commonly other arthropods and birds – which can be lethal to these species. To humans, the spray can cause significant irritation. This is a classic case of ‘look but don’t touch’, no matter your species!</p>
-
-
-
-<p>As eggs and nymphs, Bronze Orange Bugs are green in colour but as they mature through their five instar stages of development, they acquire their distinctive orange colour to resemble citrus leaves. They are considered pests in commercial citrus orchards across eastern Australia.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47482" srcset="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Jimsonweed (<em>Datura stramonium)</em> Ecocentric_Consultulting CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://www.inaturalist.org/taxa/55854">Jimsonweed</a>&nbsp;(<a href="https://www.inaturalist.org/taxa/55854"><em>Datura stramonium</em></a>)</strong></p>
-
-
-
-<p>It’s not just it’s physical appearance that’s scary, this plant’s impact on biosecurity is equally terrifying.</p>
-
-
-
-<p>Also known as the ‘cemetery flower’ or ‘common thorn apple’, this plant is one of the most invasive noxious weeds around the world, including in Australia. It has been known to poison humans and animals, reduce pasture productivity and compete with native flora.</p>
-
-
-
-<p>A member of the nightshade family, Jimsonweed was originally introduced in Australia in the 1800s for medicinal and ornamental purposes. The most toxic part of the plant are its black seeds which disperse through water, contaminated hay and mud stuck to vehicles.&nbsp;The spiny seed capsule is as aggressive as it looks and will injure those who dare to touch…</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-1024x683.jpeg" alt="" class="wp-image-47478" srcset="https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau.jpeg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Spectacled Flying Fox (<em>Pteropus conspicillatus</em>) Kcomeau CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/27d443cb-290b-4d53-8010-5e230f840d67">Spectacled Flying Fox (<em>Pteropus conspicillatus</em></a><a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5ff29bca-f02f-468f-9f96-9ae956015e01">)</a></strong></p>
-
-
-
-<p>Australia is home to more than 90 species of bats including both mega bats and micro bats. Although some bat species around the world do feed on blood (and are most likely the inspiration for Halloween stories), the Spectacled Flying Fox is more likely bring you joy rather than terror!</p>
-
-
-
-<p>These endangered fruit bats live in the northern tropics and feed on native fruits, flowers, and myrtle plants. They play a pivotal role in rainforest ecosystems as seed dispersers and pollinators. Aptly named, the Spectacled Flying Fox has light yellow fur around its eyes and snout giving the appearance that its wearing glasses. They typically live to be around 12 -15 years old in the wild but have been known to live up to 30 years old in captivity.</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1024x682.jpg" alt="" class="wp-image-47479" width="1000" height="666" srcset="https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1024x682.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1536x1023.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC.jpg 1560w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption>Far Eastern Curlew (<em>Numenius madagascariensis</em>) Mark Ayres CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://www.inaturalist.org/taxa/3898">Far Eastern Curlew</a>&nbsp;(<a href="https://www.inaturalist.org/taxa/3898"><em>Numenius madagascariensis</em></a>)</strong></p>
-
-
-
-<p>A shriek in the night, a blood curdling scream, you investigate the source only to find…a Far Eastern Curlew?</p>
-
-
-
-<p>Known for making exceptionally long migratory travels to breed between northern and southern hemispheres, Far Eastern Curlews are also iconic for their scream-like vocalisation calls.&nbsp;They use their hauntingly beautiful calls as part of mating displays and to assert dominance over their territory.</p>
-
-
-
-<p>With a long scimitar-shaped beak which can be more than 50% the length of their body and dark-streaked plumage, the Far Eastern Curlew is the largest shorebird in the world. This species is reliant on mudflats and mangrove swamps for feeding and breeding. Unfortunately, this species is listed as ‘endangered’ due to loss of habitat, causing population decline across their ranges.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="608" src="https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1024x608.jpg" alt="" class="wp-image-47477" srcset="https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1024x608.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-300x178.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-768x456.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1536x911.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1920x1139.jpg 1920w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Speckled Orbweaver (<em>Araneus circulissparsus)</em> Jackie Lien CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://www.inaturalist.org/taxa/487451">Speckled Orbweaver</a>&nbsp;(<a href="https://www.inaturalist.org/taxa/487451"><em>Araneus circulissparsus</em></a>)</strong></p>
-
-
-
-<p>Hairy, spotty and slime green! Could this spider be the ultimate creature for Halloween?</p>
-
-
-
-<p>Orbweaver spiders are common across Australia, known for making intricate, sticky webs at night to catch prey. Orbweavers occupy crevices and leaves during the day, and if they feel significantly threatened, they will drop to the ground and ‘play dead.’</p>
-
-
-
-<p>The Speckled Orbweaver prefers to occupy green foliage, to blend in with the surroundings. As with many spider species, females are larger than males at approximately 6mm in length, with males 3mm in length.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1024x683.jpg" alt="" class="wp-image-47526" srcset="https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1920x1280.jpg 1920w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Ghost Fungus (<em>Omphalotus nidiformis</em>) Monica Knipler CC BY NC</figcaption></figure>
-
-
-
-<p><strong><u><a href="https://bie.ala.org.au/species/https:/id.biodiversity.org.au/node/fungi/60094367">Ghost Fungus <em>(Omphalotus nidiformis</em></a></u></strong>)</p>
-
-
-
-<p>Like something out of a fairy-tale, Ghost Fungi glow through their gills with a green-tinged light. They emit ‘cold light’ where less than 20% of light emitted is capable of radiating heat. Ghost Fungi, and other bioluminescent creatures, fluoresce using a compound called ‘luciferin’. They grow on dead or decaying wood and are commonly found across Australia in temperate areas. The exact reason this species uses bioluminescence is not known, however a theory is that by glowing the fungi attracts insects which disperse its spores.</p>
-
-
-
-<p>Ghost Fungi are poisonous if consumed, however are often mistaken for Oyster Mushrooms due to their similar fan-like appearance and milky-white colouration in the daytime.</p>
-
-
-
-<p>To learn how to upload species records and contribute to the Atlas of Living Australia, check our this <a href="https://www.ala.org.au/home/record-a-sighting/">link</a>.</p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
