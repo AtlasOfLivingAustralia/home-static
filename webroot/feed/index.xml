@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 10 Feb 2023 06:32:50 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 16 Feb 2023 03:53:41 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -893,7 +893,7 @@
 
 
 
-<p>For the protected APIs (such as sensitive or private data), you’ll need a&nbsp;JWT, which can be generated via a Client ID and Client Secret&nbsp;– let us know if you require this and we can assist.</p>
+<p>For the protected APIs (such as sensitive or private data), you’ll need a JWT, which can be generated via a Client ID and Client Secret – see <a href="http://tokens.ala.org.au" target="_blank" rel="noreferrer noopener">tokens.ala.org.au</a> to register for these.</p>
 
 
 
@@ -905,7 +905,7 @@
 
 
 
-<p>While we are in the process of migrating more APIs across, the <a href="https://api.ala.org.au/">existing ALA API portal</a> will still be fully available and everything will be backwards compatible.</p>
+<p>While we are in the process of migrating more APIs across, the <a href="https://api-legacy.ala.org.au/">legacy ALA API portal</a> will still be fully available and everything will be backwards compatible.</p>
 
 
 
@@ -917,7 +917,7 @@
 
 
 
-<p>See our updated support article: <a href="https://support.ala.org.au/support/solutions/articles/6000261502-ala-for-developers-how-to-access-ala-apis">ALA for developers, how to access ALA APIs</a> for technical tips on working with the new portal.</p>
+<p>See our updated support article: <a href="https://support.ala.org.au/support/solutions/articles/6000261502-how-to-access-ala-apis">How to access ALA APIs</a> for technical tips on working with the new portal.</p>
 
 
 
@@ -941,7 +941,21 @@
 
 
 
-<ul><li>New ALA API portal with a new URL: <a href="https://docs.ala.org.au/">docs.ala.org.au</a></li><li>More API endpoints now available, and more coming soon</li><li>Increased security</li><li><a href="mailto:support@ala.org.au">Contact us</a> for an authorisation key</li></ul>
+<ul>
+<li>New ALA API portal with a new URL: <a href="https://docs.ala.org.au/">docs.ala.org.au</a></li>
+
+
+
+<li>More API endpoints now available, and more coming soon</li>
+
+
+
+<li>Increased security</li>
+
+
+
+<li>See our <a href="http://tokens.ala.org.au">Tokens portal</a> for authorisation credentials</li>
+</ul>
 
 
 
@@ -953,7 +967,17 @@
 
 
 
-<ul><li>ALA and our APIs are still <em>open-source</em> and <em>free </em>to use</li><li>The <a href="https://api.ala.org.au/">existing API portal</a> will still be available while we complete the migration</li><li>We’re still here to help if you need assistance: <a href="mailto:support@ala.org.au">support@ala.org.au</a></li></ul>
+<ul>
+<li>ALA and our APIs are still <em>open-source</em> and <em>free </em>to use</li>
+
+
+
+<li>The <a href="https://api-legacy.ala.org.au/">legacy API portal</a> will still be available while we complete the migration</li>
+
+
+
+<li>We’re still here to help if you need assistance: <a href="mailto:support@ala.org.au">support@ala.org.au</a></li>
+</ul>
 
 
 
