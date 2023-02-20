@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 16 Feb 2023 21:22:59 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 20 Feb 2023 22:48:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,74 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Diving into Dingo data with Amos Smith</title>
+		<link>https://www.ala.org.au/blogs-news/diving-into-dingo-data-with-amos-smith/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Mon, 20 Feb 2023 22:48:55 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48148</guid>
+
+					<description><![CDATA[We sat down with Amos Smith, one of Atlas of Living Australia&#8217;s (ALA) Indigenous Interns. Amos recently completed his Internship with the ALA as part of CSIRO’s Indigenous Scholarship Program over summer 22-23. Read more about Amos and his project below. Q: What are you currently studying? I’m in my final year studying conservation biology [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>We sat down with Amos Smith, one of Atlas of Living Australia&#8217;s (ALA) Indigenous Interns. Amos recently completed his Internship with the ALA as part of CSIRO’s Indigenous Scholarship Program over summer 22-23. Read more about Amos and his project below.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-medium"><img decoding="async" width="215" height="300" src="https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-215x300.jpg" alt="" class="wp-image-48149" srcset="https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-215x300.jpg 215w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-732x1024.jpg 732w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-768x1074.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1098x1536.jpg 1098w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1464x2048.jpg 1464w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1920x2685.jpg 1920w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-scaled.jpg 1830w" sizes="(max-width: 215px) 100vw, 215px" /><figcaption class="wp-element-caption">Amos Smith, ALA Indigenous Intern</figcaption></figure></div>
+
+
+<p>Q: What are you currently studying?</p>
+
+
+
+<p><em>I’m in my final year studying conservation biology at the </em><a href="https://www.uwa.edu.au/"><em>University of Western Australia</em></a><em>. Once I finish my undergraduate degree, I would like to aim for postgraduate studies and possibly undertake a research project in the future.</em></p>
+
+
+
+<p><br>Q: What did your ALA Internship project focus on? What factors led you to choose this topic?</p>
+
+
+
+<p><em>I focused on investigating</em><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/c2056f1b-fcde-45b9-904b-1cab280368d1#overview"><em>&nbsp;</em></a><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/c2056f1b-fcde-45b9-904b-1cab280368d1#overview"><em>Dingo (Canis familiaris</em>)</a>&nbsp;<em>data within the ALA using R Studio. I had no clue what species to choose and happened to have a dream about dingoes during this time, so I just took it as a sign. I then realised that we have a serious ecological problem with the removal of dingoes as an apex predator from the Australian landscape. Investigating what the data can tell us in the ALA about dingoes may lead to better conservation for the species in the future.</em></p>
+
+
+
+<p><br>Q: What’s a new skill that that you learned through the program?</p>
+
+
+
+<p><em>How to code using R Studio as well as the process of investigating data.</em></p>
+
+
+
+<p><br>Q: What was the biggest challenge you encountered during the program?</p>
+
+
+
+<p><em>Hitting points where I just keep getting errors in the code and trying to figure out what’s wrong.</em></p>
+
+
+
+<p><br>Q: What was the highlight of your internship experience?</p>
+
+
+
+<p><em>Going to Canberra and meeting the team with such a positive and supportive work environment. Also travelling down to Esperance, WA and meeting the Tjaltjraak Indigenous Rangers and introducing them to the ALA. I loved learning from them, and really appreciated them showing me their Country and how they are caring for it. It’s always really motivating being surrounded by people who have the drive to make positive change.</em></p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/02/Amos-Data-Viz.jpg" alt="" class="wp-image-48150" width="657" height="519" srcset="https://www.ala.org.au/app/uploads/2023/02/Amos-Data-Viz.jpg 657w, https://www.ala.org.au/app/uploads/2023/02/Amos-Data-Viz-300x237.jpg 300w" sizes="(max-width: 657px) 100vw, 657px" /><figcaption class="wp-element-caption">Dingo <em>(Canis familiaris</em>) species occurrence records and dingo fencing plotted across Nationally Protected Areas (NPA) in NT and SA, Amos Smith.  Amos selected to plot data against NPAs as this is where dingoes have the most protection by legislation.</figcaption></figure>
+
+
+
+<p>Congratulations Amos on completing your Internship with the ALA! </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Meet Caitlin &#8211; An ALA Indigenous Internship student with a flare for coding</title>
 		<link>https://www.ala.org.au/blogs-news/meet-caitlin-an-ala-indigenous-internship-student-with-a-flare-for-coding/</link>
 		
@@ -54,7 +122,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignleft size-medium"><img decoding="async" width="300" height="297" src="https://www.ala.org.au/app/uploads/2023/02/IMG_0852-300x297.jpg" alt="" class="wp-image-48094" srcset="https://www.ala.org.au/app/uploads/2023/02/IMG_0852-300x297.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1024x1012.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-768x759.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1536x1519.jpg 1536w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-2048x2025.jpg 2048w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1920x1898.jpg 1920w" sizes="(max-width: 300px) 100vw, 300px" /><figcaption class="wp-element-caption">Caitlin Ramsay, ALA Indigenous Internship student</figcaption></figure></div>
+<figure class="alignleft size-medium"><img decoding="async" loading="lazy" width="300" height="297" src="https://www.ala.org.au/app/uploads/2023/02/IMG_0852-300x297.jpg" alt="" class="wp-image-48094" srcset="https://www.ala.org.au/app/uploads/2023/02/IMG_0852-300x297.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1024x1012.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-768x759.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1536x1519.jpg 1536w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-2048x2025.jpg 2048w, https://www.ala.org.au/app/uploads/2023/02/IMG_0852-1920x1898.jpg 1920w" sizes="(max-width: 300px) 100vw, 300px" /><figcaption class="wp-element-caption">Caitlin Ramsay, ALA Indigenous Internship student</figcaption></figure></div>
 
 
 <p>Q: What degree are you currently studying, and what made you study science? </p>
@@ -990,39 +1058,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Are you sitting on camera trap data?</title>
-		<link>https://www.ala.org.au/blogs-news/are-you-sitting-on-camera-trap-data/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Mon, 31 Oct 2022 23:27:42 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47426</guid>
-
-					<description><![CDATA[WildObs would like to hear about your camera trap work!]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="202" src="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png" alt="green banner reading &quot;WildObs Australia&quot; with a picture of a dingo, a wallaby, a kangaroo and a cassowary. " class="wp-image-47427" srcset="https://www.ala.org.au/app/uploads/2022/10/WildObs-1024x202.png 1024w, https://www.ala.org.au/app/uploads/2022/10/WildObs-300x59.png 300w, https://www.ala.org.au/app/uploads/2022/10/WildObs-768x152.png 768w, https://www.ala.org.au/app/uploads/2022/10/WildObs-1536x303.png 1536w, https://www.ala.org.au/app/uploads/2022/10/WildObs.png 1752w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>WildObs banner (TERN)</figcaption></figure>
-
-
-
-<p></p>
-
-
-
-<p>Our friends at <a rel="noreferrer noopener" href="http://www.tern.org.au/wildobs/" target="_blank">WildObs</a> are conducting a review of camera trapping in Australia. This review will help establish a useful synthesis centre devoted to curating vertebrate data. The team are seeking metadata from camera trapping surveys to assist in the project and are offering co-authorship upon receipt of data.</p>
-
-
-
-<p>The aim of the project is to generate a modern snapshot of<em> where</em>, <em>how </em>and <em>who</em> is carrying out surveys, including habitats, target species and methods (both deployment and analysis). The project and participant information sheets are below, with a deadline of <strong><span style="text-decoration: underline;">15 November 2022</span></strong> for data submissions.<br><br>To participate, please see the below three actions:<br>&nbsp;1) <a rel="noreferrer noopener" href="https://tinyurl.com/3bu89jta" target="_blank">Complete the questionnaire</a>, including the consent form on the first page.&nbsp;<br>&nbsp;2) <a rel="noreferrer noopener" href="https://tinyurl.com/457cc6cm" target="_blank">Add basic metadata</a> from your camera trapping surveys<br>&nbsp;3) <a rel="noreferrer noopener" href="https://tinyurl.com/32r5m6c6" target="_blank">Enter your name and affiliation</a> for co-authorship<br><br>For more information, contact Tom Bruce (<a href="mailto:tom.bruce@uq.edu.au">tom.bruce@uq.edu.au</a>) or Matthew Luskin (<a href="mailto:mluskin@uq.edu.au">mluskin@uq.edu.au</a>).<br></p>
-
-
-
-<figure class="wp-block-image size-medium"><a href="http://www.tern.org.au/" target="_blank" rel="noreferrer noopener"><img decoding="async" loading="lazy" width="300" height="77" src="https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1-300x77.png" alt="TERN logo with map of Australia" class="wp-image-47433" srcset="https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1-300x77.png 300w, https://www.ala.org.au/app/uploads/2022/10/TERN-logo-1.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a></figure>
 ]]></content:encoded>
 					
 		
