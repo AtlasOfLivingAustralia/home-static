@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 20 Feb 2023 22:48:55 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 27 Feb 2023 23:39:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,59 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>From little things, NatureMapr grows</title>
+		<link>https://www.ala.org.au/blogs-news/from-little-things-naturemapr-grows/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Mon, 27 Feb 2023 23:39:48 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48194</guid>
+
+					<description><![CDATA[NatureMapr is a data partner of the ALA, contributing verified citizen scientist biodiversity records to support the awareness and knowledge of species in local areas. ]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Have you ever been mountain biking and discovered that you were inches away from one of Australia’s most endangered orchard species? This was the basis for how <a href="https://naturemapr.org/home">NatureMapr</a> came to life!</p>
+
+
+
+<p>NatureMapr is a citizen science data partner of the ALA. It has evolved from a humble sighting of a <a href="https://bie.ala.org.au/species/https:/id.biodiversity.org.au/taxon/apni/51398755">Canberra Spider Orchard (Caladenia&nbsp;actensis</a>) into an innovative and robust data platform underpinned by a community of keen users and expert moderators.</p>
+
+
+
+<p>The tool is a repository to record sightings of species, with the data and image gallery used to inform both the public, and government bodies for planning and scientific research. Information from NatureMapr is used to support on-ground environmental outcomes such as the protection of sensitive species, informing of development decisions and guiding prescribed burns.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="785" height="585" src="https://www.ala.org.au/app/uploads/2023/02/Graphium-macleayanum-Photo-credit-MichaelMulvaney-NatureMapr.jpg" alt="" class="wp-image-48196" srcset="https://www.ala.org.au/app/uploads/2023/02/Graphium-macleayanum-Photo-credit-MichaelMulvaney-NatureMapr.jpg 785w, https://www.ala.org.au/app/uploads/2023/02/Graphium-macleayanum-Photo-credit-MichaelMulvaney-NatureMapr-300x224.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/Graphium-macleayanum-Photo-credit-MichaelMulvaney-NatureMapr-768x572.jpg 768w" sizes="(max-width: 785px) 100vw, 785px" /><figcaption class="wp-element-caption">Macleay&#8217;s Swallowtail <em>(Graphium macleayanum) </em>Photo credit MichaelMulvaney, NatureMapr</figcaption></figure>
+
+
+
+<p class="has-medium-font-size"><strong>How does NatureMapr work with the ALA?</strong></p>
+
+
+
+<p>Any citizen scientist can record a species sighting to contribute to the database, along with uploading other critical information like GPS locations, audio recordings and images to support the data record. The platform supports both ad-hoc species occurrence records as well as structured citizen science-led surveys (bioblitzes and photographic competitions). Data submissions can be made in less than a minute using the NatureMapr App (available through mobile app for <a href="https://apps.apple.com/au/app/naturemapr/id1042299523">iOS</a> or <a href="https://play.google.com/store/apps/details?id=naturemapr.mobile.droid&amp;hl=en_AU&amp;gl=US">Android</a>) or through the NatureMapr website.</p>
+
+
+
+<p>NatureMapr’s AI based non-human moderator works together with its community of expert human moderators to quickly provide expert identification of submissions to users. From there, verified data is automatically passed through to the ALA as well as respective state and local government biodiversity databases as open data. The work of data partners like NatureMapr helps to bridge the gap between citizen science observations and driving on-ground research to allow easy discoverability and visibility of Australian biodiversity data.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="400" height="100" src="https://www.ala.org.au/app/uploads/2023/02/Naturemapr-logo.png" alt="" class="wp-image-48195" srcset="https://www.ala.org.au/app/uploads/2023/02/Naturemapr-logo.png 400w, https://www.ala.org.au/app/uploads/2023/02/Naturemapr-logo-300x75.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Diving into Dingo data with Amos Smith</title>
 		<link>https://www.ala.org.au/blogs-news/diving-into-dingo-data-with-amos-smith/</link>
 		
@@ -42,7 +95,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignleft size-medium"><img decoding="async" width="215" height="300" src="https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-215x300.jpg" alt="" class="wp-image-48149" srcset="https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-215x300.jpg 215w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-732x1024.jpg 732w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-768x1074.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1098x1536.jpg 1098w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1464x2048.jpg 1464w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1920x2685.jpg 1920w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-scaled.jpg 1830w" sizes="(max-width: 215px) 100vw, 215px" /><figcaption class="wp-element-caption">Amos Smith, ALA Indigenous Intern</figcaption></figure></div>
+<figure class="alignleft size-medium"><img decoding="async" loading="lazy" width="215" height="300" src="https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-215x300.jpg" alt="" class="wp-image-48149" srcset="https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-215x300.jpg 215w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-732x1024.jpg 732w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-768x1074.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1098x1536.jpg 1098w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1464x2048.jpg 1464w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-1920x2685.jpg 1920w, https://www.ala.org.au/app/uploads/2023/02/Amos-Smith-scaled.jpg 1830w" sizes="(max-width: 215px) 100vw, 215px" /><figcaption class="wp-element-caption">Amos Smith, ALA Indigenous Intern</figcaption></figure></div>
 
 
 <p>Q: What are you currently studying?</p>
@@ -893,171 +946,6 @@
 
 
 <p>It&#8217;s been some years since we’ve all travelled and engaged in person, but our team have been re-energised by this year’s conference season. This has included our recent participation in eResearch Australasia in Brisbane, remote participation in the TDWG international meeting, GBIF in Europe, and in-person participation at the Ecological Society of Australia conference in Wollongong in November. I’d like to conclude by acknowledging the groups and individuals that do such an amazing job designing, coordinating, and running conferences to support our sector.&nbsp; We appreciate the work you do! We hope you enjoy our November edition.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Sneak peek of our new API portal</title>
-		<link>https://www.ala.org.au/blogs-news/sneak-peek-of-our-new-api-portal/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Tue, 01 Nov 2022 05:55:57 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47573</guid>
-
-					<description><![CDATA[We’ve just released a new API gateway to access our APIs: docs.ala.org.au! Over 130 API endpoints have been migrated across to Swagger in a beta release, and we’re working on making more available very soon. ALA is passionate about empowering and supporting great research, so we’ve released APIs which were only used internally in the [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>We’ve just released a new API gateway to access our APIs: <a href="https://docs.ala.org.au/">docs.ala.org.au</a>! Over 130 API endpoints have been migrated across to Swagger in a beta release, and we’re working on making more available very soon.</p>
-
-
-
-<p>ALA is passionate about empowering and supporting great research, so we’ve released APIs which were only used internally in the past. You can now use these in your work to access our open-source data more easily and feed into downstream analyses using your own system. We can’t wait for you to try them out and let us know what you think!</p>
-
-
-
-<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/API-portal.png" alt="software developer coding at a computer" class="wp-image-47544" width="597" height="499" srcset="https://www.ala.org.au/app/uploads/2022/10/API-portal.png 940w, https://www.ala.org.au/app/uploads/2022/10/API-portal-300x251.png 300w" sizes="(max-width: 597px) 100vw, 597px" /></figure>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="faqs"><strong>FAQs</strong></h3>
-
-
-
-<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h4 id="what-about-security"><strong>What about security?</strong></h4>
-
-
-
-<p>The new portal will increase security for both ALA and you, our user. By moving to JSON Web Tokens (JWT), we’re able to open up access to previously unreleased APIs.</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h4 id="jwt-tokens-but-isnt-ala-providing-access-to-open-data"><strong>JWT tokens? But isn’t ALA providing access to open data?</strong></h4>
-
-
-
-<p>Yes, we still are! (And we’re still free to use too).</p>
-
-
-
-<p>Most of our APIs&nbsp;<strong>do not</strong>&nbsp;require authentication and can be accessed freely as documented in the relevant Swagger specifications found at&nbsp;<a href="https://docs.ala.org.au/">docs.ala.org.au</a>.&nbsp;</p>
-
-
-
-<p>For the protected APIs (such as sensitive or private data), you’ll need a JWT, which can be generated via a Client ID and Client Secret – see <a href="http://tokens.ala.org.au" target="_blank" rel="noreferrer noopener">tokens.ala.org.au</a> to register for these.</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h4 id="whats-happening-to-the-existing-api-portal"><strong>What’s happening to the existing API portal?</strong></h4>
-
-
-
-<p>While we are in the process of migrating more APIs across, the <a href="https://api-legacy.ala.org.au/">legacy ALA API portal</a> will still be fully available and everything will be backwards compatible.</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h4 id="still-have-questions"><strong>Still have questions?</strong></h4>
-
-
-
-<p>See our updated support article: <a href="https://support.ala.org.au/support/solutions/articles/6000261502-how-to-access-ala-apis">How to access ALA APIs</a> for technical tips on working with the new portal.</p>
-
-
-
-<p>Finally, we’d love to hear from you! If you come across any issues, need help, or have questions or feedback about the new portal, feel free to reach out to us on <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 id="the-tl-dr-summary"><strong>The TL; DR summary:</strong></h3>
-
-
-
-<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h4 id="whats-changed"><strong>What’s changed?</strong></h4>
-
-
-
-<ul>
-<li>New ALA API portal with a new URL: <a href="https://docs.ala.org.au/">docs.ala.org.au</a></li>
-
-
-
-<li>More API endpoints now available, and more coming soon</li>
-
-
-
-<li>Increased security</li>
-
-
-
-<li>See our <a href="http://tokens.ala.org.au">Tokens portal</a> for authorisation credentials</li>
-</ul>
-
-
-
-<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h4 id="what-hasnt-changed"><strong>What hasn’t changed?</strong></h4>
-
-
-
-<ul>
-<li>ALA and our APIs are still <em>open-source</em> and <em>free </em>to use</li>
-
-
-
-<li>The <a href="https://api-legacy.ala.org.au/">legacy API portal</a> will still be available while we complete the migration</li>
-
-
-
-<li>We’re still here to help if you need assistance: <a href="mailto:support@ala.org.au">support@ala.org.au</a></li>
-</ul>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-full is-resized"><a href="https://docs.ala.org.au/"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen.png" alt="screenshot of the new ALA API docs portal" class="wp-image-47564" width="682" height="710" srcset="https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen.png 820w, https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen-288x300.png 288w, https://www.ala.org.au/app/uploads/2022/10/docs-portal-screen-768x800.png 768w" sizes="(max-width: 682px) 100vw, 682px" /></a></figure>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
