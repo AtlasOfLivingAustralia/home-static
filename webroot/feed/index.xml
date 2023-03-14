@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 07 Mar 2023 21:40:15 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 Mar 2023 04:36:15 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,42 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Director&#8217;s message &#8211; March 2023</title>
+		<link>https://www.ala.org.au/blogs-news/directors-message-march-2023/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Tue, 14 Mar 2023 04:36:15 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48177</guid>
+
+					<description><![CDATA[Welcome to the March 2023 edition of our newsletter.]]></description>
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="alignleft size-medium is-resized"><img decoding="async" src="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg" alt="" class="wp-image-48178" width="218" height="300" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg 218w, https://www.ala.org.au/app/uploads/2023/02/Andre-cropped.jpg 608w" sizes="(max-width: 218px) 100vw, 218px" /><figcaption class="wp-element-caption">Dr Andre Zerger, ALA Director</figcaption></figure></div>
+
+
+<p>2023 will be an exciting year for the Atlas of Living Australia (ALA) and our partners in the biodiversity data sector with Australia hosting two major international events later this year. </p>
+
+
+
+<p>First, in partnership with CSIRO’s National Research Collections Australia we are excited to bring the <a href="https://www.tdwg.org/conferences/2023/">Biodiversity Information Standards TDWG</a> (Taxonomic Data Working Group) conference to Hobart from 9 &#8211; 13 October. TDWG sets and evolves international standards such as <a href="https://dwc.tdwg.org/">Darwin Core</a> that make the work that ALA and our partners do possible. In addition to TDWG’s focus on biodiversity informatics, science applications of biodiversity data will feature prominently at the conference, so we warmly invite you to get involved – who doesn’t enjoy a major science event on the Hobart waterfront?&nbsp;</p>
+
+
+
+<p>Second, the ALA has been proud of its ongoing partnership with the Global Biodiversity Information Facility (<a rel="noreferrer noopener" href="https://www.gbif.org/" target="_blank">GBIF</a>) where we’ve gained enormous value from relationships with the international GBIF network. At last year’s GBIF Governing Board meeting in Brussels, the ALA and our biological collections partners in CSIRO successfully bid to host the 2023 meeting of the Governing Board in Australia. The meeting will follow directly from the TDWG event and will be hosted in Canberra in mid-October. It’s been 20 years since Australia hosted a meeting of the Governing Board and we are excited to welcome our international partners. </p>
+
+
+
+<p>Finally, I’d like to reflect on a remarkable experience our team had over recent months hosting two Indigenous Internship students. We welcomed <a href="https://www.ala.org.au/blogs-news/meet-caitlin-an-ala-indigenous-internship-student-with-a-flare-for-coding/">Caitlin Ramsay </a>(University of New South Wales) and <a href="https://www.ala.org.au/blogs-news/diving-into-dingo-data-with-amos-smith/">Amos Smith</a> (University of Western Australia) who partnered with our Science and Decision Support team over the summer period on two applied projects. As a team, we gained so much from their involvement in our work, and it was rewarding to provide them with some insight into the role of national research infrastructure in Australia’s science and innovation system. For me, it highlighted the value of bringing diversity and new ideas into a team, and the responsibility more established institutions such as the ALA have in supporting our upcoming research infrastructure specialists.&nbsp;</p>
+
+
+
+<p>We hope you enjoy our March newsletter. </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Celebrating ALA women in STEM</title>
 		<link>https://www.ala.org.au/blogs-news/celebrating-ala-women-in-stem/</link>
 		
@@ -46,7 +82,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignleft size-medium"><img decoding="async" width="222" height="300" src="https://www.ala.org.au/app/uploads/2023/02/Nat-Raisbeck-Brown-222x300.jpg" alt="" class="wp-image-48128" srcset="https://www.ala.org.au/app/uploads/2023/02/Nat-Raisbeck-Brown-222x300.jpg 222w, https://www.ala.org.au/app/uploads/2023/02/Nat-Raisbeck-Brown.jpg 644w" sizes="(max-width: 222px) 100vw, 222px" /><figcaption class="wp-element-caption">Nat Raisbeck-Brown, Churchill Fellowship Award recipient</figcaption></figure></div>
+<figure class="alignleft size-medium"><img decoding="async" loading="lazy" width="222" height="300" src="https://www.ala.org.au/app/uploads/2023/02/Nat-Raisbeck-Brown-222x300.jpg" alt="" class="wp-image-48128" srcset="https://www.ala.org.au/app/uploads/2023/02/Nat-Raisbeck-Brown-222x300.jpg 222w, https://www.ala.org.au/app/uploads/2023/02/Nat-Raisbeck-Brown.jpg 644w" sizes="(max-width: 222px) 100vw, 222px" /><figcaption class="wp-element-caption">Nat Raisbeck-Brown, Churchill Fellowship Award recipient</figcaption></figure></div>
 
 
 <p>Q: What is your role within the ALA and some of your ALA highlights?</p>
@@ -1036,29 +1072,6 @@
 
 
 <p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter November 2022</title>
-		<link>https://www.ala.org.au/blogs-news/ala-newsletter-november-2022/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Thu, 03 Nov 2022 05:00:38 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<category><![CDATA[Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47624</guid>
-
-					<description><![CDATA[ALA Newsletter November 2022]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large is-resized"><a href="https://t.e2ma.net/webview/fv24jl/202ad5d9fa1b5d465f11542bf8d2f1f1"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2022/11/newsletter-nov22-807x1024.png" alt="" class="wp-image-47627" width="438" height="554"/></a></figure>
-
-
-
-<p>    <a href="https://t.e2ma.net/webview/fv24jl/202ad5d9fa1b5d465f11542bf8d2f1f1">ALA Newsletter November 2022</a></p>
 ]]></content:encoded>
 					
 		
