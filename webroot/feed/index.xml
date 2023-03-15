@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 15 Mar 2023 01:53:34 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Mar 2023 02:35:54 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -34,6 +34,7 @@
 		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
 		<pubDate>Wed, 15 Mar 2023 01:53:34 +0000</pubDate>
 				<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=48326</guid>
 
 					<description><![CDATA[Check out our the ALA March 2023 Newsletter here.]]></description>
