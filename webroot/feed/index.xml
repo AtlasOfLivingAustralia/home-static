@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 14 Mar 2023 04:36:15 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Mar 2023 01:53:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,27 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA March 2023 Newsletter</title>
+		<link>https://www.ala.org.au/newsletter/ala-march-2023-newsletter/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Wed, 15 Mar 2023 01:53:34 +0000</pubDate>
+				<category><![CDATA[ALA Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48326</guid>
+
+					<description><![CDATA[Check out our the ALA March 2023 Newsletter here.]]></description>
+										<content:encoded><![CDATA[
+<p>Check out our the ALA March 2023 Newsletter <a href="https://mailchi.mp/ala/march-2023-newsletter">here</a>.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://mailchi.mp/ala/march-2023-newsletter"><img decoding="async" width="602" height="1024" src="https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-602x1024.png" alt="Spider and fox images with newsletter text in between" class="wp-image-48327" srcset="https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-602x1024.png 602w, https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-176x300.png 176w, https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm.png 657w" sizes="(max-width: 602px) 100vw, 602px" /></a></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s message &#8211; March 2023</title>
 		<link>https://www.ala.org.au/blogs-news/directors-message-march-2023/</link>
 		
@@ -38,7 +59,7 @@
 
 					<description><![CDATA[Welcome to the March 2023 edition of our newsletter.]]></description>
 										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="alignleft size-medium is-resized"><img decoding="async" src="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg" alt="" class="wp-image-48178" width="218" height="300" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg 218w, https://www.ala.org.au/app/uploads/2023/02/Andre-cropped.jpg 608w" sizes="(max-width: 218px) 100vw, 218px" /><figcaption class="wp-element-caption">Dr Andre Zerger, ALA Director</figcaption></figure></div>
+<figure class="alignleft size-medium is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg" alt="" class="wp-image-48178" width="218" height="300" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg 218w, https://www.ala.org.au/app/uploads/2023/02/Andre-cropped.jpg 608w" sizes="(max-width: 218px) 100vw, 218px" /><figcaption class="wp-element-caption">Dr Andre Zerger, ALA Director</figcaption></figure></div>
 
 
 <p>2023 will be an exciting year for the Atlas of Living Australia (ALA) and our partners in the biodiversity data sector with Australia hosting two major international events later this year. </p>
@@ -972,106 +993,6 @@
 
 
 <p>If you would like to know more about ALA internship opportunities, contact us <a href="https://www.ala.org.au/contact-us/" data-type="URL">he</a><a href="communications@ala.org.au">r</a><a href="https://www.ala.org.au/contact-us/">e</a>. </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA webinar: Advances in Biodiversity Modelling</title>
-		<link>https://www.ala.org.au/blogs-news/ala-webinar-advances-in-biodiversity-modelling/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Thu, 01 Dec 2022 00:44:24 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47644</guid>
-
-					<description><![CDATA[Advancements in scientific modelling have enabled improvements in key decision-making. When it comes to biodiversity this work is crucial, especially in our changing environment. Hear from our distinguished speakers about their work in this space, including the applications of modelling to conservation prioritisation, and sustainable land use.]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA webinar: Advances in Biodiversity Modelling – 23 Nov 2022" width="640" height="360" src="https://www.youtube.com/embed/-vuDDO-Dt-k?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>This webinar took place at 1.00pm AEDT, Wednesday 23 November 2022, with 201 live viewers in attendance.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="speakers">Speakers</h2>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/12/s.ferrier-speaker.png" alt="Simon Ferrier" class="wp-image-47647"/></figure></div>
-
-
-<h3 id="miles-nicholls-atlas-of-living-australia">Simon Ferrier | CSIRO Land &amp; Water</h3>
-
-
-
-<p>Simon Ferrier is a Chief Research Scientist with CSIRO Land and Water, an Honorary Professor at the Australian National University, and an Honorary Fellow at the United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC). Simon and his CSIRO colleagues have been developing a new generation of macroecological approaches to biodiversity modelling and scenario analysis, focused on assessing past-to-present change in the status of biodiversity, projecting impacts of future scenarios of climate and land-use change. Prior to this, Simon spent over 20 years working with state-government agencies, including pioneering the development of species- and community-level biodiversity modelling.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/12/c.archibald-speaker.png" alt="Carla Archibald" class="wp-image-47651"/></figure></div>
-
-
-<h3 id="arve-solland-ecocommons">Carla Archibald | Centre for Integrative Ecology, Deakin University</h3>
-
-
-
-<p>Dr Carla Archibald is a Research Fellow at Deakin University under the Land Use Future project. This Land Use Future project is led by Prof. Brett Bryan and Climateworks in collaboration with CSIRO. This project aims to further develop the LUTO model and to provide pathways towards sustainable environmental and food futures for the Australian agricultural landscape. In this Advances in Biodiversity Modelling talk, Carla will share some of the biodiversity modelling which she conducted as a part of the Land Use Future project. This involved working with the CliMAS team at JCU to update MaxEnt models with CMIP6 climate data and scenarios. The outcome of this modelling has resulted in the construction of specific-level data to use with the LUTO2.0 as both input data, as well as in the environmental accounts.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2022/12/p.bal_.png" alt="Payal Bal" class="wp-image-47653"/></figure></div>
-
-
-<h3 id="ana-belgun-data61">Payal Bal | University of Melbourne</h3>
-
-
-
-<p>Payal Bal is currently based at the Quantitative and Applied Ecology Group at The University of Melbourne, where she works on developing models to assess the global impacts of socioeconomic trends on biodiversity and on assessing the national-level impacts of bushfires on Australian invertebrate species. During her doctoral research at The University of Queensland, she applied decision analysis and structured decision-making approaches to evaluate monitoring strategies for conservation. She has previously worked on modelling spatial vegetation patterns to develop indicators of ecosystem collapse; on developing methods of abundance estimation for biodiversity from distance sampling; and on studying the human–elephant conflict in India.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
-
-
-<h3 id="moderator-bio">Moderator bio</h3>
-
-
-
-<p>Martin Westgate leads the Science and Decision Support team at the Atlas of Living Australia. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 id="want-more">Want more?</h2>
-
-
-
-<p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
 ]]></content:encoded>
 					
 		
