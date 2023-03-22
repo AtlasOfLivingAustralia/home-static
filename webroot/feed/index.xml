@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Sun, 19 Mar 2023 22:34:38 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 22 Mar 2023 22:05:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,97 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Introducing the ALA’s Biosecurity Hub</title>
+		<link>https://www.ala.org.au/blogs-news/introducing-the-alas-biosecurity-hub/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Wed, 22 Mar 2023 22:05:55 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47699</guid>
+
+					<description><![CDATA[The one stop-shop for Australian biosecurity data, project, and partner information.]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>With over 7.6 million hectares of land and 60,000 km of coastline, Australia is vulnerable to the introduction of new biosecurity threats every day. As an island nation, much of the biodiversity found in Australia is unique, therefore introduced species encroaching on our ecosystems can have devastating effects on native flora and fauna.</p>
+
+
+
+<p>It is estimated that there are now more introduced species in Australia than native species, but until recently, data to support this has been elusive. <a href="https://www.ala.org.au/#tab_pane-B">The Atlas of Living Australia</a> (ALA) aggregates biodiversity data from native and introduced species found in Australia, making species occurrence information available to governments, land holders, policymakers, researchers and the public, for open-access use.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-1024x683.jpeg" alt="" class="wp-image-47715" srcset="https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1.jpeg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Invasive fungal disease &#8211; Myrtle Rust (<em>Austropuccinia psidii) </em>Photo Credit Pete Woodall CC BY NC</figcaption></figure>
+
+
+
+<p>The ALA currently holds information on more than 2,383 exotic species and 1.9 million occurrences of pests, weeds, and diseases. Through the automated aggregation of data from more than 900 data partners, and the development of the ALA Biosecurity Hub, the ALA aims to connect people and systems to create a wholistic and informed picture of biosecurity in Australia.</p>
+
+
+
+<p>The <a href="https://www.ala.org.au/biosecurity/">ALA Biosecurity Hub</a> is a one-stop-shop for biosecurity records, projects and information that leverages ALA’s existing biodiversity infrastructure. It makes biosecurity data more findable and accessible to the biosecurity sector and aggregates several ALA biosecurity tools including:</p>
+
+
+
+<ul>
+<li>ALA Biosecurity Alerts System</li>
+
+
+
+<li>Invasive Species Taxonomy</li>
+
+
+
+<li><a href="https://lists.ala.org.au/public/speciesLists?&amp;max=25&amp;sort=listName&amp;order=asc&amp;isInvasive=eq:true">Invasive Species Lists</a>.</li>
+</ul>
+
+
+
+<p>Additionally, the <a href="https://www.ala.org.au/biosecurity/">ALA Biosecurity Hub</a> aggregates information across ALA partnered projects such as <a href="https://www.biosecuritycommons.org.au/">Biosecurity Commons</a> and <a href="https://biocollect.ala.org.au/biocontrolhub">Australian Biocontrol Hub</a> in one place.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2022/12/Red-Fox-Vulpes-vulpes-iNaturalist-KHarrison42-91932867.jpg" alt="" class="wp-image-47706" srcset="https://www.ala.org.au/app/uploads/2022/12/Red-Fox-Vulpes-vulpes-iNaturalist-KHarrison42-91932867.jpg 1024w, https://www.ala.org.au/app/uploads/2022/12/Red-Fox-Vulpes-vulpes-iNaturalist-KHarrison42-91932867-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2022/12/Red-Fox-Vulpes-vulpes-iNaturalist-KHarrison42-91932867-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2022/12/Red-Fox-Vulpes-vulpes-iNaturalist-KHarrison42-91932867-768x768.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Invasive carnivore species &#8211; Red Fox <em>(Vulpes vulpes</em>). Photo Credit KHarrison42 CC BY NC</figcaption></figure>
+
+
+
+<p>ALA Biosecurity Data Analyst Andrew Turley said the development of the <a href="https://www.ala.org.au/biosecurity/">ALA Biosecurity Hub</a> would be critical in supporting Australia’s Border Force to detect pests early and act.</p>
+
+
+
+<p>“Biosecurity affects us every day &#8211; from the way we care for the environment, to protection measures governments implement to manage livestock, plants, and food safety from an economic and health perspective,” Dr Turley said.</p>
+
+
+
+<p>“Not only does the <a href="https://www.ala.org.au/biosecurity/">ALA Biosecurity Hub </a>allow for early notification and detection of pests, it’ll make data more accessible so governments, researchers and industries can implement measures to better protect Australia’s biodiversity.”</p>
+
+
+
+<p>Museums Victoria Senior Curator Dr Ken Walker agreed, acknowledging the value of consolidated biosecurity resources in defending against and responding to threats.</p>
+
+
+
+<p>“It is important to have a resource that is not only accessible by government and researcher sectors, but also by citizen scientists to be able to better identify emerging threats before their impact becomes widespread,” Dr Walker said. &nbsp;</p>
+
+
+
+<p>Recently, data aggregated in the <a href="https://www.ala.org.au/biosecurity/">ALA Biosecurity Hub</a> has been used in Australia’s State of the Environment reports. These data were used to quantify the trend of increasing diversity and abundance of invasive species across Australia, with invasive species also identified as the most common pressure on threatened species in Australia.</p>
+
+
+
+<p>Check out the ALA Biosecurity hub <a href="https://www.ala.org.au/biosecurity/">here</a>, or if you would like to discuss biosecurity data and impacts further, you can contact us <a href="https://www.ala.org.au/contact-us/">here</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="960" height="640" src="https://www.ala.org.au/app/uploads/2022/12/Corn-Snake-Pantherophis-guttatus-Photo-Credit-Phila-Goldman-CC-BY-NC.jpg" alt="" class="wp-image-47700" srcset="https://www.ala.org.au/app/uploads/2022/12/Corn-Snake-Pantherophis-guttatus-Photo-Credit-Phila-Goldman-CC-BY-NC.jpg 960w, https://www.ala.org.au/app/uploads/2022/12/Corn-Snake-Pantherophis-guttatus-Photo-Credit-Phila-Goldman-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/12/Corn-Snake-Pantherophis-guttatus-Photo-Credit-Phila-Goldman-CC-BY-NC-768x512.jpg 768w" sizes="(max-width: 960px) 100vw, 960px" /><figcaption class="wp-element-caption">Invasive reptile species &#8211; Corn Snake <em>(Pantherophis guttatus).</em> Photo Credit Phila Goldman CC BY NC</figcaption></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Taxonomist Appreciation Day</title>
 		<link>https://www.ala.org.au/blogs-news/taxonomist-appreciation-day/</link>
 		
@@ -46,7 +137,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="769" src="https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1024x769.jpeg" alt="Photo of Ely Wallis" class="wp-image-48339" srcset="https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1024x769.jpeg 1024w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-768x577.jpeg 768w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1536x1154.jpeg 1536w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1920x1442.jpeg 1920w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022.jpeg 2046w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>ALA Engagement Team Lead Dr Ely Wallis</em>.</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="769" src="https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1024x769.jpeg" alt="Photo of Ely Wallis" class="wp-image-48339" srcset="https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1024x769.jpeg 1024w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-768x577.jpeg 768w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1536x1154.jpeg 1536w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1920x1442.jpeg 1920w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022.jpeg 2046w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>ALA Engagement Team Lead Dr Ely Wallis</em>.</figcaption></figure>
 
 
 
@@ -726,161 +817,6 @@
 
 
 <p>The 2023 grant round for the Australian Biodiversity Data Mobilisation Program will open for applications in&nbsp;<strong>March 2023</strong>. Keep an eye on the ALA website, social media and blogs for more information shortly.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA user experience (UX) project: Call for expressions of interest</title>
-		<link>https://www.ala.org.au/blogs-news/ala-user-experience-ux-project-call-for-expressions-of-interest/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Wed, 25 Jan 2023 02:27:50 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47953</guid>
-
-					<description><![CDATA[Want to help us improve the ALA? We’re reviewing our website and need your feedback! ALA is looking for volunteers to help us improve the usability, look and feel of our website. If you’re interested in shaping the future of the ALA, we’d love to hear from you! The ALA has undertaken several user satisfaction [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 style="font-size:25px" style="font-size:25px" id="want-to-help-us-improve-the-ala-were-reviewing-our-website-and-need-your-feedback"><strong>Want to help us improve the ALA? We’re reviewing our website and need your feedback!</strong></h2>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>ALA is looking for volunteers to help us improve the usability, look and feel of our website. If you’re interested in shaping the future of the ALA, we’d love to hear from you!</p>
-
-
-
-<p>The ALA has undertaken several user satisfaction surveys since launching in 2010. As a response to your feedback, we’ve implemented many of the comments and suggestions raised. We also have more exciting improvements in our pipeline. &nbsp;</p>
-
-
-
-<p>Since web technologies and styles are constantly changing, we are looking to undertake a review of our website and we need your input.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="369" src="https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1024x369.png" alt="Five screenshots of the ALA home page from left to right: 2011, 2013, 2017, 2019, 2023. Dotted line and year labels are also shown left to right. Background is yellow with a tech/system motif of lines, circles and arrows" class="wp-image-47955" srcset="https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1024x369.png 1024w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-300x108.png 300w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-768x276.png 768w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1536x553.png 1536w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-2048x737.png 2048w, https://www.ala.org.au/app/uploads/2023/01/ala-then-and-now-1920x691.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>ALA homepage over the years</em></figcaption></figure>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>We are looking for volunteers to help us by undertaking a series of tasks. These would include a face-to-face interview (via video conference), reviewing mockups, and testing prototypes. Essentially, we’d like to hear your feedback on the site as it currently is and continue hearing your input as we develop new designs.</p>
-
-
-
-<p>We appreciate your time and feedback, and your input will help shape the ALA.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="has-medium-font-size" class="has-medium-font-size" id="who-can-participate"><strong>Who can participate?</strong></h2>
-
-
-
-<ul>
-<li>Any ALA user over 18 may volunteer</li>
-
-
-
-<li>You may be a new user or have been using the ALA for years</li>
-
-
-
-<li>We are <em>mostly</em> looking for Australian-based users, but international users are welcome too</li>
-
-
-
-<li><a>Whether you’re a researcher, government assessor, collections curator, citizen scientist, university student, community group member or otherwise use the ALA on a regular basis, you’re welcome to participate.</a></li>
-</ul>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="has-medium-font-size" class="has-medium-font-size" id="whats-involved"><strong>What’s involved?</strong></h2>
-
-
-
-<p>Participating in our user experience testing will involve a series of tasks including a face-to-face (online) interview, reviewing mockup designs and testing prototypes. All up, these activities would take just 3-4 hours of your time over the next 12 months, starting from late February 2023.</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="has-medium-font-size" class="has-medium-font-size" id="when-do-registrations-close"><strong>When do registrations close?</strong></h2>
-
-
-
-<p>If you are interested in participating, please let us know by Friday, 10 February 2023.</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="has-medium-font-size" class="has-medium-font-size" id="how-do-i-register"><strong>How do I register?</strong></h2>
-
-
-
-<p class="has-text-color has-medium-font-size" style="color:#f26649"><strong><a href="https://www.surveymonkey.com/r/HZG8XJW" target="_blank" rel="noreferrer noopener">Register my interest</a></strong></p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="has-medium-font-size" class="has-medium-font-size" id="next-steps"><strong>Next steps</strong></h2>
-
-
-
-<p>In late February we’ll select a representative user group, and email those users to organise the first activities.</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="has-medium-font-size" class="has-medium-font-size" id="any-questions"><strong>Any questions?</strong></h2>
-
-
-
-<p>Please email us at <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/01/ux-image-only-1024x586.png" alt="A group of four people sitting around a table, having a conversation. They have laptops and coffee mugs." class="wp-image-47956" width="1000" height="566"/></figure>
 ]]></content:encoded>
 					
 		
