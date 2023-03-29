@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 22 Mar 2023 22:05:55 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 29 Mar 2023 23:43:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,137 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Webinar: Advances in Genomics and Biological Collections</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-advances-in-genomics-and-biological-collections/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 29 Mar 2023 23:43:42 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48348</guid>
+
+					<description><![CDATA[Collections specimens are valuable resources in genomics as they provide a historical record of the diversity of life on earth. By analysing the DNA and other biological markers from these specimens, researchers can gain important insights into this diversity and inform conservation efforts to protect our species. When these kinds of data are aggregated from [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Collections specimens are valuable resources in genomics as they provide a historical record of the diversity of life on earth. By analysing the DNA and other biological markers from these specimens, researchers can gain important insights into this diversity and inform conservation efforts to protect our species. When these kinds of data are aggregated from multiple sources, researchers can pool their knowledge, compare results, and build on one another&#8217;s work – essential for driving innovation and advancing our understanding of the natural world.</p>
+
+
+
+<p>This webinar brings together experts from three projects to discuss their work in this space. It is ideal for researchers, practitioners, and anyone interested in the latest developments in genomics and biological collections, and the mobilisation of these data.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA webinar: Advances in Genomics and Biological Collections" width="640" height="360" src="https://www.youtube.com/embed/YLaBiSQkOlM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This webinar took place at 1.00pm AEDT, Tuesday 28 March 2023, with 170 live viewers in attendance.</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="speakers">Speakers</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/erin-hahn.png" alt="&quot;&quot;" class="wp-image-48351"/></figure></div>
+
+
+<h3 id="arve-solland-ecocommons">Erin Hahn | Australian National Wildlife Collection (CSIRO)</h3>
+
+
+
+<p>Dr Hahn is a postdoctoral fellow and conservation geneticist at the Australian National Wildlife Collection at CSIRO. She is working to enable whole genome sequencing and characterisation of gene expression from formalin-preserved museum tissues. Her research will deliver new data streams with which to study how species have historically responded to our changing environment. Erin received her PhD from the University of Arizona in Tucson, Arizona, USA. Her doctoral work on endangered Sonoran pronghorn enabled wildlife managers to identify appropriate captive individuals for mating and release and was the first study characterising population epigenetics in an endangered species.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/jessica-fenker.png" alt="&quot;&quot;" class="wp-image-48352"/></figure></div>
+
+
+<h3 id="miles-nicholls-atlas-of-living-australia">Jéssica Fenker | Museums Victoria</h3>
+
+
+
+<p>Jess is a Research Fellow at Museums Victoria, working in Jane Melville’s lab on how Quaternary changes affected past and recent reptile communities, using rich fossil data. She is also associated with the Australian National University (ANU), collaborating with the Moritz and Cardillo labs. Jess has previously worked as a data analyst for the ALA and EcoCommons, in relocations for the Australian National Wildlife Collection (CSIRO), and as a postdoc at the University of Michigan. Prior to this, Jess completed her PhD at ANU, working on macroecological questions and landscape genomics related to lizards in savanna environments, mostly in Australia and Brazil.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/kathryn-hall.png" alt="&quot;&quot;" class="wp-image-48353"/></figure></div>
+
+
+<h3 id="ana-belgun-data61">Kathryn Hall | Australian Reference Genome Atlas (ARGA)</h3>
+
+
+
+<p>Kathryn leads an innovative multidisciplinary team as the Product Champion for the Australian Reference Genome Atlas (ARGA). She has extensive experience in taxonomy, genomics and the eResearch space, having created the SpongeMaps website, worked at the Queensland Museum on sponge taxonomy, and the Australian Museum investigating polychaete systematics using DNA data. Prior to this, Kathryn held a postdoc role working on digenean and monogenean parasites in aquaculture fishes in Japan. Kathryn completed her PhD at the University of Queensland, where she specialised in the taxonomy and systematics of a family of parasitic worms in fishes.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/keeva-connolly.png" alt="&quot;&quot;" class="wp-image-48354"/></figure></div>
+
+
+<h3 id="ana-belgun-data61">Keeva Connolly | ARGA, Australian BioCommons</h3>
+
+
+
+<p>Keeva is a scientific business analyst for the Australian BioCommons, a digital infrastructure platform providing tools, methods and training to extend national research capacity in the life sciences. Before starting at the Australian BioCommons, she studied a Bachelor of Genetics (Hons) at the Australian National University and worked for the Department of Agriculture, Water and the Environment (now DCCEEW) in plant biosecurity. In her spare time, she enjoys reading, cooking and visiting libraries.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
+
+
+<h3 id="moderator-bio">Moderator bio</h3>
+
+
+
+<p>Martin&nbsp;Westgate leads the Science and Decision Support team at the&nbsp;Atlas of Living Australia. His research focuses on how scientific&nbsp;information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin&nbsp;is also a scientific software developer and occasional frog-watcher.</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 id="want-more">Want more?</h2>
+
+
+
+<p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Introducing the ALA’s Biosecurity Hub</title>
 		<link>https://www.ala.org.au/blogs-news/introducing-the-alas-biosecurity-hub/</link>
 		
@@ -50,7 +181,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-1024x683.jpeg" alt="" class="wp-image-47715" srcset="https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1.jpeg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Invasive fungal disease &#8211; Myrtle Rust (<em>Austropuccinia psidii) </em>Photo Credit Pete Woodall CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-1024x683.jpeg" alt="" class="wp-image-47715" srcset="https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2022/12/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-1.jpeg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Invasive fungal disease &#8211; Myrtle Rust (<em>Austropuccinia psidii) </em>Photo Credit Pete Woodall CC BY NC</figcaption></figure>
 
 
 
@@ -730,93 +861,6 @@
 
 
 <p>Full details, including how to nominate and eligibility criteria, can be found on the <a href="https://www.gbif.org/news/6gyLOum00YsYc4OtVGK33Y/call-for-nominations-to-the-2023-gbif-graduate-researchers-award">GBIF</a> website.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Protecting Australian biodiversity with data</title>
-		<link>https://www.ala.org.au/blogs-news/protecting-australian-biodiversity-with-data/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Sun, 05 Feb 2023 22:41:14 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47966</guid>
-
-					<description><![CDATA[Meet our 2022 Australian Biodiversity Data Mobilisation Program winners As Australia is home to unique biodiversity and ecosystems, it’s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species. While biodiversity data such as physical specimens in collections, or data from field programs are used [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Meet our 2022 Australian Biodiversity Data Mobilisation Program winners</strong></p>
-
-
-
-<p>As Australia is home to unique biodiversity and ecosystems, it’s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species.</p>
-
-
-
-<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
-
-
-
-<p>To improve data accessibility the Atlas of Living Australia (ALA) launched the <a href="https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/">Australian Biodiversity Data Mobilisation Program</a>. This program is designed to support Australian museums, biological collections, herbaria, and research teams to digitise their data, and making it available through the ALA, and internationally through the Global Biodiversity Information Facility (GBIF).</p>
-
-
-
-<p>Through a nationally competitive application process, six projects were awarded grants to digitise their priority biodiversity data. The output from this program will enable data on rare and unique species to become open and accessible through the ALA. Using FAIR principles (findable, accessible, interoperable, reusable), this data will support research, decision making and conservation efforts to better protect Australian biodiversity.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1024x577.jpg" alt="" class="wp-image-47994" srcset="https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1024x577.jpg 1024w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-768x433.jpg 768w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old-1536x865.jpg 1536w, https://www.ala.org.au/app/uploads/2023/02/Copy-of-ALA-Facebook-Cover-old.jpg 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Biodiversity Mobilisation Program 2022 Projects banner</figcaption></figure>
-
-
-
-<p><strong>The successful projects:</strong></p>
-
-
-
-<p>In the 2022 round of the program, applicants were able to apply for either a small grant of $20,000 or a large grant of $50,000 to support activities to digitise existing biodiversity data. Four small grants and two large grants were awarded in 2022 with data from these projects expected to be made available through the ALA by July 2023.</p>
-
-
-
-<p>The successful 2022 projects include the following:</p>
-
-
-
-<ol type="1" start="1">
-<li>New South Wales Department of Primary Industries, NSW – mobilising plant pest and disease data from the NSW Biosecurity Collections (~600,000 records).</li>
-
-
-
-<li>South Australia Museum (SAM), SA– mobilise the SAM’s Australian Biological Tissues Collection of 39 donated frozen tissue collections of Australian freshwater fishes (around 90% of all known species and ~46,000 records).</li>
-
-
-
-<li>Queensland Museum Network, QLD – mobilising and enhance data from the Cribb Australian Fish Trematode Collection (&gt;20,000 records of &gt;1,000 fish species).</li>
-
-
-
-<li>Tasmanian Museum and Art Gallery, TAS – mobilising wildlife molecular and tissue data (&gt; 8,500 sample vials and 1,650 formalin fixed specimens in the histology collection).</li>
-
-
-
-<li>Edith Cowan University, WA – mobilising plant and fungi data from the Robert Brown Herbarium.</li>
-
-
-
-<li>Botanic Gardens and Parks Authority, WA – mobilising data in the Kings Park and Botanic Garden Herbarium collection (18,200 specimens).</li>
-</ol>
-
-
-
-<p>Congratulations to the successful projects, we look forward to working with them to make their data available nationally. We’d like to also acknowledge the applications that were not successful as they were universally excellent making our assessment process very challenging. We are also grateful to the independent review panel chaired by Professor David Cantrill for their work in reviewing proposals and selecting a fantastic suite of final recipients.</p>
-
-
-
-<figure class="wp-block-image size-medium"><img decoding="async" loading="lazy" width="200" height="300" src="https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-200x300.jpg" alt="" class="wp-image-47969" srcset="https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-200x300.jpg 200w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-683x1024.jpg 683w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-768x1152.jpg 768w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1.jpg 800w" sizes="(max-width: 200px) 100vw, 200px" /><figcaption class="wp-element-caption">Leanne Wheaton working on collections specimens at South Australia Museum, Photo Credit Denis Smith, South Australia Museum. </figcaption></figure>
-
-
-
-<p>The 2023 grant round for the Australian Biodiversity Data Mobilisation Program will open for applications in&nbsp;<strong>March 2023</strong>. Keep an eye on the ALA website, social media and blogs for more information shortly.</p>
 ]]></content:encoded>
 					
 		
