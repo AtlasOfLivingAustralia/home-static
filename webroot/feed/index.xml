@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<generator>https://wordpress.org/?v=6.2</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -69,14 +69,14 @@
 
 
 
-<h2 id="speakers">Speakers</h2>
+<h2 class="wp-block-heading" id="speakers">Speakers</h2>
 
 
 <div class="wp-block-image">
 <figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/erin-hahn.png" alt="&quot;&quot;" class="wp-image-48351"/></figure></div>
 
 
-<h3 id="arve-solland-ecocommons">Erin Hahn | Australian National Wildlife Collection (CSIRO)</h3>
+<h3 class="wp-block-heading" id="arve-solland-ecocommons">Erin Hahn | Australian National Wildlife Collection (CSIRO)</h3>
 
 
 
@@ -91,7 +91,7 @@
 <figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/jessica-fenker.png" alt="&quot;&quot;" class="wp-image-48352"/></figure></div>
 
 
-<h3 id="miles-nicholls-atlas-of-living-australia">Jéssica Fenker | Museums Victoria</h3>
+<h3 class="wp-block-heading" id="miles-nicholls-atlas-of-living-australia">Jéssica Fenker | Museums Victoria</h3>
 
 
 
@@ -106,7 +106,7 @@
 <figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/kathryn-hall.png" alt="&quot;&quot;" class="wp-image-48353"/></figure></div>
 
 
-<h3 id="ana-belgun-data61">Kathryn Hall | Australian Reference Genome Atlas (ARGA)</h3>
+<h3 class="wp-block-heading" id="ana-belgun-data61">Kathryn Hall | Australian Reference Genome Atlas (ARGA)</h3>
 
 
 
@@ -121,7 +121,7 @@
 <figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/keeva-connolly.png" alt="&quot;&quot;" class="wp-image-48354"/></figure></div>
 
 
-<h3 id="ana-belgun-data61">Keeva Connolly | ARGA, Australian BioCommons</h3>
+<h3 class="wp-block-heading" id="ana-belgun-data61">Keeva Connolly | ARGA, Australian BioCommons</h3>
 
 
 
@@ -136,7 +136,7 @@
 <figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
 
 
-<h3 id="moderator-bio">Moderator bio</h3>
+<h3 class="wp-block-heading" id="moderator-bio">Moderator bio</h3>
 
 
 
@@ -148,7 +148,7 @@
 
 
 
-<h2 id="want-more">Want more?</h2>
+<h2 class="wp-block-heading" id="want-more">Want more?</h2>
 
 
 
