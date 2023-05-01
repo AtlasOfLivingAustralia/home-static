@@ -2,7 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www.ala.org.au/blogs-news/theres-a-snake-in-my-code-introducing-alas-galah-python-extension/</loc><lastmod>2023-05-01T02:04:17+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-webinar-advances-in-genomics-and-biological-collections/</loc><lastmod>2023-03-30T01:19:47+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/taxonomist-appreciation-day/</loc><lastmod>2023-03-19T22:34:38+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/newsletter/ala-march-2023-newsletter/</loc><lastmod>2023-03-15T02:35:54+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
