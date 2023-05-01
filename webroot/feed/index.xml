@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 01 May 2023 01:53:56 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 01 May 2023 02:04:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -36,7 +36,7 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=48392</guid>
 
-					<description><![CDATA[We’ve just launched an open-access Python extension for the Atlas of Living Australia’s {galah} tool to help you better access to our species data.]]></description>
+					<description><![CDATA[We’ve just launched an open-access Python extension for the Atlas of Living Australia’s {galah} tool to help you better access our species data.]]></description>
 										<content:encoded><![CDATA[
 <figure class="wp-block-image size-large is-resized"><img decoding="async" src="https://www.ala.org.au/app/uploads/2023/04/Fungi-Friday-20-1024x577.png" alt="" class="wp-image-48394" width="1000" height="563" srcset="https://www.ala.org.au/app/uploads/2023/04/Fungi-Friday-20-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/04/Fungi-Friday-20-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/04/Fungi-Friday-20-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/04/Fungi-Friday-20-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/04/Fungi-Friday-20.png 1640w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Galah <em>(Eolophus roseicapilla)</em> drinking from a river</figcaption></figure>
 
