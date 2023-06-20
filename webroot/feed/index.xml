@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 16 Jun 2023 00:55:21 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 20 Jun 2023 04:42:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,159 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>National Science Week 2023</title>
+		<link>https://www.ala.org.au/blogs-news/national-science-week-2023/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Tue, 20 Jun 2023 04:42:43 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48527</guid>
+
+					<description><![CDATA[We’re gearing up for National Science Week (12-20 August 2023). The Atlas of Living Australia (ALA) is proud to be hosting three free virtual events! Hear from STEM leaders about the importance of open science and how we practise this in the ALA, learn the basics of how to use ALA’s {galah} tool with demonstrations [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-43-1024x577.png" alt="Grey banner with a graphic of a person using AR. Text reads register for our ALA events with the ALA and National Science Wek logos." class="wp-image-48528" srcset="https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-43-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-43-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-43-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-43-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-43.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>We’re gearing up for National Science Week (12-20 August 2023). The Atlas of Living Australia (ALA) is proud to be hosting three <strong>free</strong> virtual events!</p>
+
+
+
+<p>Hear from STEM leaders about the importance of open science and how we practise this in the ALA, learn the basics of how to use ALA’s {galah} tool with demonstrations of both the R-Studio and Python versions, and find out how to collect better metadata through citizen science!</p>
+
+
+
+<p><strong>Make sure you register for the events and submit your questions ahead of time to make the most out of each session.</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2023/06/19-1024x1024.png" alt="Green and white text with a graphic of a person with a pigeon on their head that reads galah 101 beginners guide. " class="wp-image-48534" srcset="https://www.ala.org.au/app/uploads/2023/06/19-1024x1024.png 1024w, https://www.ala.org.au/app/uploads/2023/06/19-300x300.png 300w, https://www.ala.org.au/app/uploads/2023/06/19-150x150.png 150w, https://www.ala.org.au/app/uploads/2023/06/19-768x768.png 768w, https://www.ala.org.au/app/uploads/2023/06/19.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><a href="https://events.csiro.au/Events/2023/June/16/ALA-NSW-galah-101-Beginners-guide"><strong>Webinar<strong> </strong>Event: ALA National Science Week: {galah} 101 – Beginner’s guide</strong> </a></p>
+
+
+
+<p><strong>Tuesday 15th August 2023, 1-2PM AEST</strong></p>
+
+
+
+<p>Are you interested in getting more out of data in the ALA? We’ve developed the ALA {galah} tool to&nbsp;enable users to deep-dive and transform species occurrence information. Whether you want to locate and download species records, investigate taxonomic information and associated media such as images or sounds, or restrict queries to certain taxa or locations, {galah} can do it all! This tool has been developed for both the R-Studio and Python coding languages.</p>
+
+
+
+<p>At this beginner-friendly workshop, Dax Kellie and Amanda Buyan will take you through a step-by-step introduction to using both {galah} for R-Studio and Python.</p>
+
+
+
+<p>If you’re already an advanced coder or have a specific question, you can submit your questions ahead of time for the Q&amp;A at the end of the session.</p>
+
+
+
+<p>*Please note we strongly recommend that you download&nbsp;<a href="https://posit.co/download/rstudio-desktop/">R-Studio</a>&nbsp;(from this link) and/or&nbsp;<a href="https://sparkbyexamples.com/python/install-anaconda-jupyter-notebook/">Python</a>&nbsp;(following the instructions below) ahead of this session.</p>
+
+
+
+<p><strong>ALA {galah} Python Package download instructions:</strong></p>
+
+
+
+<ul>
+<li>Download&nbsp;<a href="https://sparkbyexamples.com/python/install-anaconda-jupyter-notebook/">Jupyter Notebook</a>,&nbsp;which allows you access to Anaconda.</li>
+
+
+
+<li>Launch &amp; locate “Anaconda Navigator”.</li>
+
+
+
+<li>From the main screen of Anaconda Navigator, locate “Environments”.</li>
+
+
+
+<li>Click the “Create” button to create a new environment, selecting Python as the software.</li>
+
+
+
+<li>Click the “play” button and then click “open with terminal”.</li>
+
+
+
+<li>Run command “pip install galah-python.&#8221;</li>
+</ul>
+
+
+
+<p><strong>Submit your questions ahead of time to&nbsp;</strong><a href="mailto:communications@ala.org.au"><strong>communications@ala.org.au</strong></a>.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2023/06/All-is-FAIR-in-open-science-and-data-1024x1024.png" alt="blue and white graphic with a person holding a plant that reads all is fair in open science and data" class="wp-image-48530" srcset="https://www.ala.org.au/app/uploads/2023/06/All-is-FAIR-in-open-science-and-data-1024x1024.png 1024w, https://www.ala.org.au/app/uploads/2023/06/All-is-FAIR-in-open-science-and-data-300x300.png 300w, https://www.ala.org.au/app/uploads/2023/06/All-is-FAIR-in-open-science-and-data-150x150.png 150w, https://www.ala.org.au/app/uploads/2023/06/All-is-FAIR-in-open-science-and-data-768x768.png 768w, https://www.ala.org.au/app/uploads/2023/06/All-is-FAIR-in-open-science-and-data.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><strong><a href="https://events.csiro.au/Events/2023/June/16/ALA-NSW-All-is-FAIR">Webinar Event: ALA National Science Week: All is F.A.I.R in open science &amp; data</a></strong></p>
+
+
+
+<p><strong>Wednesday 16th August 2023, 1-2PM AEST</strong></p>
+
+
+
+<p>Open science is the practice of making scientific knowledge, research and information accessible. As Australia’s national biodiversity data aggregator, we explore why open science is so important to delivering strong biodiversity outcomes.</p>
+
+
+
+<p>Hear ALA team members Ely Wallis, Peggy Newman and Dax Kellie discuss:</p>
+
+
+
+<ul>
+<li>How the F.A.I.R. (findable, accessible, interoperable and reusable) principles are used through copyright and licencing in the ALA</li>
+
+
+
+<li>How the ALA supports open science through its data infrastructure and services</li>
+
+
+
+<li>How open science facilitates transparent, robust research.</li>
+</ul>
+
+
+
+<p><strong>Submit your questions ahead of time to&nbsp;<a href="mailto:communications@ala.org.au"><strong>communications@ala.org.au</strong></a></strong>.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-Instagram-Post-Square-16-1024x1024.png" alt="Burnt orange and white graphic of a person diving with an octopus that reads maximising your metadata for citizen science" class="wp-image-48531" srcset="https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-Instagram-Post-Square-16-1024x1024.png 1024w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-Instagram-Post-Square-16-300x300.png 300w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-Instagram-Post-Square-16-150x150.png 150w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-Instagram-Post-Square-16-768x768.png 768w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-Instagram-Post-Square-16.png 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><strong><a href="https://events.csiro.au/Events/2023/June/16/ALA-NSW-Maximising-your-metadata">Webinar Event: ALA National Science Week: Maximising your metadata for citizen science</a></strong> </p>
+
+
+
+<p><strong>Thursday 17th August 2023, 1-2PM AEST</strong></p>
+
+
+
+<p>Citizen science is an accessible gateway for anybody to engage in science regardless of age, location or demographic. Integrated citizen science apps take in millions of species occurrence records each year, which are then verified before being fed through to the ALA to become open and accessible data.</p>
+
+
+
+<p>In this workshop, learn from industry experts about what makes a great species observation record, and learn tips and tricks for collecting the best quality metadata  – data about data. Higher quality metadata (attributes like location, images, date of collection, etc.) helps to paint a more detailed picture of Australia’s biodiversity. More accurate metadata also helps to identify native vs. invasive species more readily for better biosecurity monitoring. </p>
+
+
+
+<p><strong>Submit your questions ahead of time to&nbsp;<a href="mailto:communications@ala.org.au"><strong>communications@ala.org.au</strong></a></strong>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Where to find the Atlas of Living Australia this year</title>
 		<link>https://www.ala.org.au/blogs-news/where-to-find-the-atlas-of-living-australia-this-year/</link>
 		
@@ -38,7 +191,7 @@
 
 					<description><![CDATA[With so many events happening in 2023, here's a list of where you'll find the Atlas of Living Australia!]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-1024x577.png" alt="white spider sitting on purple flowers" class="wp-image-48512" srcset="https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-1024x577.png" alt="white spider sitting on purple flowers" class="wp-image-48512" srcset="https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/06/Fungi-Friday-39.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -812,59 +965,6 @@
 
 
 <p><em>It’s important to put the ladder down so to speak. Wherever people are in their career, there are opportunities to give a hand up. If you see amazing women doing a great job, tell them and, equally important, tell others. Word about talent spreads quickly. The more people that see women in a diversity of positions the easier it is to pursue a career in science.</em></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>From little things, NatureMapr grows</title>
-		<link>https://www.ala.org.au/blogs-news/from-little-things-naturemapr-grows/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Mon, 27 Feb 2023 23:39:48 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48194</guid>
-
-					<description><![CDATA[NatureMapr is a data partner of the ALA, contributing verified citizen scientist biodiversity records to support the awareness and knowledge of species in local areas. ]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>Have you ever been mountain biking and discovered that you were inches away from one of Australia’s most endangered orchard species? This was the basis for how <a href="https://naturemapr.org/home">NatureMapr</a> came to life!</p>
-
-
-
-<p>NatureMapr is a citizen science data partner of the ALA. It has evolved from a humble sighting of a <a href="https://bie.ala.org.au/species/https:/id.biodiversity.org.au/taxon/apni/51398755">Canberra Spider Orchid (Caladenia actensis</a>) into an innovative and robust data platform underpinned by a community of keen users and expert moderators.</p>
-
-
-
-<p>The tool is a repository to record sightings of species, with the data and image gallery used to inform both the public, and government bodies for planning and scientific research. Information from NatureMapr is used to support on-ground environmental outcomes such as the protection of sensitive species, informing of development decisions and guiding prescribed burns.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="785" height="585" src="https://www.ala.org.au/app/uploads/2023/02/Graphium-macleayanum-Photo-credit-MichaelMulvaney-NatureMapr.jpg" alt="" class="wp-image-48196" srcset="https://www.ala.org.au/app/uploads/2023/02/Graphium-macleayanum-Photo-credit-MichaelMulvaney-NatureMapr.jpg 785w, https://www.ala.org.au/app/uploads/2023/02/Graphium-macleayanum-Photo-credit-MichaelMulvaney-NatureMapr-300x224.jpg 300w, https://www.ala.org.au/app/uploads/2023/02/Graphium-macleayanum-Photo-credit-MichaelMulvaney-NatureMapr-768x572.jpg 768w" sizes="(max-width: 785px) 100vw, 785px" /><figcaption class="wp-element-caption">Macleay&#8217;s Swallowtail <em>(Graphium macleayanum) </em>Photo credit MichaelMulvaney, NatureMapr</figcaption></figure>
-
-
-
-<p class="has-medium-font-size"><strong>How does NatureMapr work with the ALA?</strong></p>
-
-
-
-<p>Any citizen scientist can record a species sighting to contribute to the database, along with uploading other critical information like GPS locations, audio recordings and images to support the data record. The platform supports both ad-hoc species occurrence records as well as structured citizen science-led surveys (bioblitzes and photographic competitions). Data submissions can be made in less than a minute using the NatureMapr App (available through mobile app for <a href="https://apps.apple.com/au/app/naturemapr/id1042299523">iOS</a> or <a href="https://play.google.com/store/apps/details?id=naturemapr.mobile.droid&amp;hl=en_AU&amp;gl=US">Android</a>) or through the NatureMapr website.</p>
-
-
-
-<p>NatureMapr’s AI based non-human moderator works together with its community of expert human moderators to quickly provide expert identification of submissions to users. From there, verified data is automatically passed through to the ALA as well as respective state and local government biodiversity databases as open data. The work of data partners like NatureMapr helps to bridge the gap between citizen science observations and driving on-ground research to allow easy discoverability and visibility of Australian biodiversity data.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="400" height="100" src="https://www.ala.org.au/app/uploads/2023/02/Naturemapr-logo.png" alt="" class="wp-image-48195" srcset="https://www.ala.org.au/app/uploads/2023/02/Naturemapr-logo.png 400w, https://www.ala.org.au/app/uploads/2023/02/Naturemapr-logo-300x75.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></figure>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
