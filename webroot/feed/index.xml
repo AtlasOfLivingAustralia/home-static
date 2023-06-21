@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 20 Jun 2023 05:13:57 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 21 Jun 2023 05:08:04 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,93 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Protecting Australia’s restricted access plants and animals through better data access </title>
+		<link>https://www.ala.org.au/blogs-news/protecting-australias-restricted-access-plants-and-animals-through-better-data-access/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Wed, 21 Jun 2023 05:08:04 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48408</guid>
+
+					<description><![CDATA[Launching the National Framework for the Sharing of Restricted Access Species Data and the Restricted Access Species Data Service for Australia]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>The <a href="https://www.rasd.org.au/" target="_blank" rel="noreferrer noopener">National Framework for the Sharing of Restricted Access Species Data</a> provides a best practice guide for the custodians and users of species data that is restricted.</p>
+
+
+
+<p>The development of the National Framework streamlines the process of accessing, sharing and managing restricted access species data across Australia, leading to better environmental management and improved species outcomes.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/04/image-1024x577.png" alt="" class="wp-image-48409" srcset="https://www.ala.org.au/app/uploads/2023/04/image-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/04/image-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/04/image-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/04/image.png 1377w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><em>Caption: Sensitive species Australian Atlas Moth (Attacus wardi), photo credit James P. Tuttle CC BY NC&nbsp;</em>&nbsp;</p>
+
+
+
+<p>Historically, the difficulty of accessing restricted data on species has created barriers for research, environmental <a>assessmen</a>t and conservation. Data on species has been modified, withheld or shared based on inconsistent organisational polices. The <a>National Framework </a>is the first of its kind, jointly developed by the Atlas of Living Australia, the Australian Research Data Commons, all the government environmental agencies in Australia, herbaria, fauna collections, EcoCommons Australia and the Western Australian Biodiversity Science Institute.</p>
+
+
+
+<p>Sharing the precise locations of restricted<a> access </a>species potentially risks disturbance, harm or exploitation. Therefore, access to some species information is limited, accessible only to data custodians and approved data users.</p>
+
+
+
+<p>The National Framework outlines the principles to guide data custodians and users in the sharing of restricted access species data responsibly and appropriately. By adopting a nationally consistent evidence-based approach to managing restricted access species data, the National Framework aim to:</p>
+
+
+
+<ul>
+<li>promote responsible data-sharing practices</li>
+
+
+
+<li>give data custodians the confidence to safely share restricted access species data</li>
+
+
+
+<li>assist data custodians to maintain the consistency and quality of data.</li>
+</ul>
+
+
+
+<p><em>“BirdLife Australia has long upheld a restricted access policy for sensitive species data as a basis for our citizen science work. This gives contributors the confidence that sharing their data will not put species at risk, while still allowing for its use in conservation. We are excited to now have a nationally consistent framework for sensitive species data sharing, which will massively increase the use and impact of bird and other species data in science and conservation” said</em> Dr Golo Maurer, BirdLife Citizen Science Program Leader.</p>
+
+
+
+<p><strong>A Restricted Access Species Data Service (RASDS) for Australia</strong></p>
+
+
+
+<p>The new RASDS allows researchers and other trusted data users to request restricted access species data from all participating data custodians in Australia via a central point. &nbsp;The service allows data custodians a way of managing and storing request workflows.</p>
+
+
+
+<p><em>“RASDS seeks to remove a major barrier to the flow of species data by standardising the way we describe and exchange sensitive species data</em>” said Ron Avery, STL Biodiversity Information Systems Science, Economics and Insight Division, NSW Dept&nbsp;of Planning and Environment.</p>
+
+
+
+<p><strong>Partners:</strong></p>
+
+
+
+<p>These products were developed as part of a collaborative project between the <a href="https://www.ala.org.au/#tab_pane-C">Atlas of Living Australia</a>, <a href="https://ardc.edu.au">Australian Research Data Commons</a> (ARDC), the Australian Government, state and territory governments, conservation agencies, museums, and herbaria, <a href="https://www.ecocommons.org.au/">EcoCommons</a> and the <a href="https://wabsi.org.au/">Western Australian Biodiversity Science Institute</a>.</p>
+
+
+
+<p>To find out more, visit the <a href="https://www.rasd.org.au/" target="_blank" rel="noreferrer noopener">RASD webpage</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s Update &#8211; June 2023</title>
 		<link>https://www.ala.org.au/blogs-news/directors-update-june-2023/</link>
 		
@@ -38,7 +125,7 @@
 
 					<description><![CDATA[Hear about the latest ALA news and events.]]></description>
 										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="alignleft size-medium is-resized"><img decoding="async" src="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg" alt="Profile shot of Andre Zerger" class="wp-image-48178" width="225" height="318"/><figcaption class="wp-element-caption">Dr Andre Zerger, ALA Director</figcaption></figure></div>
+<figure class="alignleft size-medium is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg" alt="Profile shot of Andre Zerger" class="wp-image-48178" width="225" height="318"/><figcaption class="wp-element-caption">Dr Andre Zerger, ALA Director</figcaption></figure></div>
 
 
 <p>Welcome to the June 2023 edition of our ALA newsletter.</p>
@@ -819,42 +906,6 @@
 
 
 <figure class="wp-block-image size-large"><a href="https://mailchi.mp/ala/march-2023-newsletter"><img decoding="async" loading="lazy" width="602" height="1024" src="https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-602x1024.png" alt="Spider and fox images with newsletter text in between" class="wp-image-48327" srcset="https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-602x1024.png 602w, https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-176x300.png 176w, https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm.png 657w" sizes="(max-width: 602px) 100vw, 602px" /></a></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Director&#8217;s message &#8211; March 2023</title>
-		<link>https://www.ala.org.au/blogs-news/directors-message-march-2023/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Tue, 14 Mar 2023 04:36:15 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48177</guid>
-
-					<description><![CDATA[Welcome to the March 2023 edition of our newsletter.]]></description>
-										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="alignleft size-medium is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg" alt="" class="wp-image-48178" width="218" height="300" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-cropped-218x300.jpg 218w, https://www.ala.org.au/app/uploads/2023/02/Andre-cropped.jpg 608w" sizes="(max-width: 218px) 100vw, 218px" /><figcaption class="wp-element-caption">Dr Andre Zerger, ALA Director</figcaption></figure></div>
-
-
-<p>2023 will be an exciting year for the Atlas of Living Australia (ALA) and our partners in the biodiversity data sector with Australia hosting two major international events later this year. </p>
-
-
-
-<p>First, in partnership with CSIRO’s National Research Collections Australia we are excited to bring the <a href="https://www.tdwg.org/conferences/2023/">Biodiversity Information Standards TDWG</a> (Taxonomic Data Working Group) conference to Hobart from 9 &#8211; 13 October. TDWG sets and evolves international standards such as <a href="https://dwc.tdwg.org/">Darwin Core</a> that make the work that ALA and our partners do possible. In addition to TDWG’s focus on biodiversity informatics, science applications of biodiversity data will feature prominently at the conference, so we warmly invite you to get involved – who doesn’t enjoy a major science event on the Hobart waterfront?&nbsp;</p>
-
-
-
-<p>Second, the ALA has been proud of its ongoing partnership with the Global Biodiversity Information Facility (<a rel="noreferrer noopener" href="https://www.gbif.org/" target="_blank">GBIF</a>) where we’ve gained enormous value from relationships with the international GBIF network. At last year’s GBIF Governing Board meeting in Brussels, the ALA and our biological collections partners in CSIRO successfully bid to host the 2023 meeting of the Governing Board in Australia. The meeting will follow directly from the TDWG event and will be hosted in Canberra in mid-October. It’s been 20 years since Australia hosted a meeting of the Governing Board and we are excited to welcome our international partners. </p>
-
-
-
-<p>Finally, I’d like to reflect on a remarkable experience our team had over recent months hosting two Indigenous Internship students. We welcomed <a href="https://www.ala.org.au/blogs-news/meet-caitlin-an-ala-indigenous-internship-student-with-a-flare-for-coding/">Caitlin Ramsay </a>(University of New South Wales) and <a href="https://www.ala.org.au/blogs-news/diving-into-dingo-data-with-amos-smith/">Amos Smith</a> (University of Western Australia) who partnered with our Science and Decision Support team over the summer period on two applied projects. As a team, we gained so much from their involvement in our work, and it was rewarding to provide them with some insight into the role of national research infrastructure in Australia’s science and innovation system. For me, it highlighted the value of bringing diversity and new ideas into a team, and the responsibility more established institutions such as the ALA have in supporting our upcoming research infrastructure specialists.&nbsp;</p>
-
-
-
-<p>We hope you enjoy our March newsletter. </p>
 ]]></content:encoded>
 					
 		
