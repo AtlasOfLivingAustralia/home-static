@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 22 Jun 2023 01:15:45 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 22 Jun 2023 01:25:18 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,28 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter June 2023</title>
+		<link>https://www.ala.org.au/newsletter/ala-newsletter-june-2023/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Thu, 22 Jun 2023 01:25:18 +0000</pubDate>
+				<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48573</guid>
+
+					<description><![CDATA[Check out the ALA June 2023 Newsletter.]]></description>
+										<content:encoded><![CDATA[
+<p id="block-e6556f64-c2e0-49e7-b903-7825bd5b688f">Check out the ALA <a href="http://mailchi.mp/ala/june-2023-newsletter" target="_blank" rel="noreferrer noopener">June 2023 Newsletter</a>.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="http://mailchi.mp/ala/june-2023-newsletter" target="_blank" rel="noreferrer noopener"><img decoding="async" width="602" height="1024" src="https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-602x1024.png" alt="ALA's June newsletter - header includes the ALA logo next to a yellow frog. Below that includes the heading 'June 2023 Newsletter' with a welcome message." class="wp-image-48575" srcset="https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-602x1024.png 602w, https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-176x300.png 176w, https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023.png 658w" sizes="(max-width: 602px) 100vw, 602px" /></a></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Protecting Australia’s restricted access plants and animals through better data access </title>
 		<link>https://www.ala.org.au/blogs-news/protecting-australias-restricted-access-plants-and-animals-through-better-data-access/</link>
 		
@@ -51,7 +73,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="578" src="https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1024x578.png" alt="Green caterpillar on a blue background with the ALA, ARDC and NCRIS logos" class="wp-image-48569" srcset="https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1024x578.png 1024w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-768x434.png 768w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1536x867.png 1536w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="578" src="https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1024x578.png" alt="Green caterpillar on a blue background with the ALA, ARDC and NCRIS logos" class="wp-image-48569" srcset="https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1024x578.png 1024w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-768x434.png 768w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1536x867.png 1536w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -885,28 +907,6 @@
 
 
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="616" height="844" src="https://www.ala.org.au/app/uploads/2023/03/Birubius-wallisae.jpg" alt="Scientific drawing of the Amphipod named after Ely" class="wp-image-48331" srcset="https://www.ala.org.au/app/uploads/2023/03/Birubius-wallisae.jpg 616w, https://www.ala.org.au/app/uploads/2023/03/Birubius-wallisae-219x300.jpg 219w" sizes="(max-width: 616px) 100vw, 616px" /><figcaption class="wp-element-caption"><em>Amphipod species (Birubius wallisae) described by Dr Joanne Taylor in honour of Dr Ely Wallis.</em></figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter March 2023</title>
-		<link>https://www.ala.org.au/newsletter/ala-march-2023-newsletter/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Wed, 15 Mar 2023 01:53:34 +0000</pubDate>
-				<category><![CDATA[ALA Newsletter]]></category>
-		<category><![CDATA[Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48326</guid>
-
-					<description><![CDATA[Check out the ALA March 2023 Newsletter here.]]></description>
-										<content:encoded><![CDATA[
-<p>Check out the ALA March 2023 Newsletter <a href="https://mailchi.mp/ala/march-2023-newsletter">here</a>.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://mailchi.mp/ala/march-2023-newsletter"><img decoding="async" loading="lazy" width="602" height="1024" src="https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-602x1024.png" alt="Spider and fox images with newsletter text in between" class="wp-image-48327" srcset="https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-602x1024.png 602w, https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm-176x300.png 176w, https://www.ala.org.au/app/uploads/2023/03/Screen-Shot-2023-03-15-at-12.45.53-pm.png 657w" sizes="(max-width: 602px) 100vw, 602px" /></a></figure>
 ]]></content:encoded>
 					
 		
