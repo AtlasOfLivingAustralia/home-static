@@ -12,13 +12,13 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 22 Jun 2023 01:25:18 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Jun 2023 02:44:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2</generator>
+	<generator>https://wordpress.org/?v=6.2.2</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -361,7 +361,7 @@
 
 
 
-<p>The ALA will be hosting a booth on the conference floor in collaboration with BioCommons Australia, as well as launching the Australian Reference Genome Atlas (ARGA) portal at this event.</p>
+<p>The ALA will be attending this event and team members will be available at the Australian BioCommons booth.  We will be introducing the Australian Reference Genome Atlas data app via a scientific poster and demonstrations of an early release of a demonstration product.</p>
 
 
 
