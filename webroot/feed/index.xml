@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 23 Jun 2023 02:44:42 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 07 Jul 2023 03:00:34 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,137 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Webinar: Safeguarding Sensitive Species</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-safeguarding-sensitive-species/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Fri, 07 Jul 2023 03:00:34 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48630</guid>
+
+					<description><![CDATA[Hosted by the Atlas of Living Australia (ALA), this webinar brings together expert speakers from three organisations to explore the challenges, management strategies, and data sensitivities used to protect Australia’s rarest and most vulnerable species. Restricted Access Species Data &#8211; often known as ‘sensitive species data’ – is information about biodiversity with features that mean [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Hosted by the Atlas of Living Australia (ALA), this webinar brings together expert speakers from three organisations to explore the challenges, management strategies, and data sensitivities used to protect Australia’s rarest and most vulnerable species. </p>
+
+
+
+<p>Restricted Access Species Data &#8211; often known as ‘sensitive species data’ – is information about biodiversity with features that mean there are reasons for withholding the data from public view or modifying it before it is made public. An example of why obscuring species information may be necessary is because exposing a species’ exact location could risk harm, exploitation, or poaching. Restricted Access Species Data are needed for conservation management, decision-making, and research to implement strategies to best protect ‘sensitive species.’</p>
+
+
+
+<div style="height:11px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA Webinar: Safeguarding Sensitive Species – 5 July 2023" width="640" height="360" src="https://www.youtube.com/embed/tdqYFDEXkLw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This webinar took place at 1.00pm AEST, Wednesday 5 July 2023, with 195 live viewers in attendance.</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" id="speakers">Speakers</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/07/philip-gleeson.png" alt="&quot;&quot;" class="wp-image-48634"/></figure></div>
+
+
+<h3 class="wp-block-heading" id="arve-solland-ecocommons">Philip Gleeson | NSW Department of Planning &amp; Environment</h3>
+
+
+
+<p>Philip Gleeson is Senior Wildlife Data Officer for the NSW Department of Planning and Environment. Philip has worked on BioNet Atlas, the NSW government’s primary repository of biodiversity data since 2001. He was part of the development team that turned it from an internal database to a website providing public and secure login access to external clients in 2011. It was through that development that the department was able to implement its Sensitive Species Data Policy which had been developed following 5 years of internal discussion and negotiation. In order to maintain his understanding of the biodiversity data he manages, Philip has participated in a range of survey programs across the department and is currently involved in the survey and mapping of two cliff-dwelling endemic plants of the Blue Mountains where he now resides.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/07/rachel-swain.png" alt="&quot;&quot;" class="wp-image-48635"/></figure></div>
+
+
+<h3 class="wp-block-heading" id="miles-nicholls-atlas-of-living-australia">Rachel Swain | BirdLife Australia</h3>
+
+
+
+<p>Rachel Swain is the Citizen Science Engagement Manager at BirdLife Australia and has a background in data analysis, engineering and acoustic monitoring. As a strong advocate for citizen science, Rachel is committed to ensuring the Birdata community is an exciting and inclusive space that delivers the best conservation impact for Australian birds. When not working with the Birdata community, Rachel can usually be found trekking through the great outdoors, whether on foot or by bike, trying to spot as many birds as she can along the way. </p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/07/golo-maurer.png" alt="&quot;&quot;" class="wp-image-48636"/></figure></div>
+
+
+<h3 class="wp-block-heading" id="ana-belgun-data61">Golo Maurer | BirdLife Australia</h3>
+
+
+
+<p>Golo Maurer has been involved in ecological research and conservation for over 20 years both in Australia and overseas with over 50 peer-reviewed publications. He joined BirdLife Australia in 2010 and now leads BirdLife&#8217;s Citizen Science Program and BirdLife&#8217;s Indigenous engagement work. In his role, Golo helps ensure that the 22 million bird records in Birdata work for conservation and that Birdata empowers and inspires thousands of citizen scientists across Australia to make their birding count. When Golo does not watch birds or work to save them, he sleeps, compiling a dream list with 363 species recorded to date in this most challenging realm of birding.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/07/helen-eniskat.png" alt="&quot;&quot;" class="wp-image-48637"/></figure></div>
+
+
+<h3 class="wp-block-heading" id="ana-belgun-data61">Helen Eniskat | WA Department of Biodiversity, Conservation and Attractions</h3>
+
+
+
+<p>Helen is the manager of Western Australia’s Biodiversity Information Office, hosted within the Department of Biodiversity, Conservation and Attractions. She has a background in public sector data policy, evaluation, and regulation, and has been involved in the development of Western Australia’s Open Data Policy, and forthcoming Privacy and Responsible Information Sharing reforms. She and her team at BIO are working to make curated biodiversity data from all environment-related sectors more discoverable, accessible, and useful.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
+
+
+<h3 class="wp-block-heading" id="moderator-bio">Moderator bio</h3>
+
+
+
+<p>Martin&nbsp;Westgate leads the Science and Decision Support team at the&nbsp;Atlas of Living Australia. His research focuses on how scientific&nbsp;information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin&nbsp;is also a scientific software developer and occasional frog-watcher.</p>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" id="want-more">Want more?</h2>
+
+
+
+<p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Newsletter June 2023</title>
 		<link>https://www.ala.org.au/newsletter/ala-newsletter-june-2023/</link>
 		
@@ -43,7 +174,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="http://mailchi.mp/ala/june-2023-newsletter" target="_blank" rel="noreferrer noopener"><img decoding="async" width="602" height="1024" src="https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-602x1024.png" alt="ALA's June newsletter - header includes the ALA logo next to a yellow frog. Below that includes the heading 'June 2023 Newsletter' with a welcome message." class="wp-image-48575" srcset="https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-602x1024.png 602w, https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-176x300.png 176w, https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023.png 658w" sizes="(max-width: 602px) 100vw, 602px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="http://mailchi.mp/ala/june-2023-newsletter" target="_blank" rel="noreferrer noopener"><img decoding="async" loading="lazy" width="602" height="1024" src="https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-602x1024.png" alt="ALA's June newsletter - header includes the ALA logo next to a yellow frog. Below that includes the heading 'June 2023 Newsletter' with a welcome message." class="wp-image-48575" srcset="https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-602x1024.png 602w, https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-176x300.png 176w, https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023.png 658w" sizes="(max-width: 602px) 100vw, 602px" /></a></figure>
 ]]></content:encoded>
 					
 		
@@ -818,95 +949,6 @@
 
 
 <figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="960" height="640" src="https://www.ala.org.au/app/uploads/2022/12/Corn-Snake-Pantherophis-guttatus-Photo-Credit-Phila-Goldman-CC-BY-NC.jpg" alt="" class="wp-image-47700" srcset="https://www.ala.org.au/app/uploads/2022/12/Corn-Snake-Pantherophis-guttatus-Photo-Credit-Phila-Goldman-CC-BY-NC.jpg 960w, https://www.ala.org.au/app/uploads/2022/12/Corn-Snake-Pantherophis-guttatus-Photo-Credit-Phila-Goldman-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/12/Corn-Snake-Pantherophis-guttatus-Photo-Credit-Phila-Goldman-CC-BY-NC-768x512.jpg 768w" sizes="(max-width: 960px) 100vw, 960px" /><figcaption class="wp-element-caption">Invasive reptile species &#8211; Corn Snake <em>(Pantherophis guttatus).</em> Photo Credit Phila Goldman CC BY NC</figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Taxonomist Appreciation Day</title>
-		<link>https://www.ala.org.au/blogs-news/taxonomist-appreciation-day/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Sun, 19 Mar 2023 22:34:38 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48330</guid>
-
-					<description><![CDATA[Taxonomists work in the field of biological classification, and their work is critical to ensuring we can understand and protect Australian species into the future. To celebrate Taxonomist Appreciation Day on 19 March, we sat down with the Atlas of Living Australia’s (ALA) Engagement Team Lead Dr Ely Wallis to find out more about her [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Taxonomists work in the field of biological classification, and their work is critical to ensuring we can understand and protect Australian species into the future.</p>
-
-
-
-<p>To celebrate Taxonomist Appreciation Day on 19 March, we sat down with the Atlas of Living Australia’s (ALA) Engagement Team Lead Dr Ely Wallis to find out more about her career and taxonomy experience.<em> </em><em></em></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="769" src="https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1024x769.jpeg" alt="Photo of Ely Wallis" class="wp-image-48339" srcset="https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1024x769.jpeg 1024w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-768x577.jpeg 768w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1536x1154.jpeg 1536w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-1920x1442.jpeg 1920w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2023/03/Ely-Sept2022.jpeg 2046w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>ALA Engagement Team Lead Dr Ely Wallis</em>.</figcaption></figure>
-
-
-
-<p><strong>1. Why is the field of taxonomy so important to the ALA’s work?</strong></p>
-
-
-
-<p><em>Taxonomy provides the mechanism to identify and classify organisms. It’s vital to the ALA because the name of the species observed is one of the three core pieces of information (with location and date) that is required to create a species occurrence record. It’s estimated that only about a third of the +700,000 species found in Australia have been given a scientific name.</em></p>
-
-
-
-<p><em>Aggregating species data is reliant on the records being accurately identified at the lowest resolution of the taxonomic hierarchy possible. Identifying organisms in a particular place is important to making decisions about natural resource management and understanding changing climates.</em></p>
-
-
-
-<p><em>Taxonomy provides a way to both get data into the ALA and to search for data. All incoming data points are matched to the ‘taxonomic backbone’ or placed into the classification hierarchy in the ALA infrastructure.</em></p>
-
-
-
-<p><em>It’s important to be aware that taxonomic names are not static and are continually being revised. This is because researchers learn more (through techniques such as genetic analysis) to better understand how to delineate species. The ALA is on a constant journey to update our taxonomic backbone, to ensure our structure is as current and accurate as possible.</em></p>
-
-
-
-<p><strong>2. Tell us about taxonomy in your career?</strong></p>
-
-
-
-<p><em>I wouldn’t call myself a taxonomist, both my honours and PhD projects were in zoophysiology rather than taxonomy, but I have been around taxonomy since I started working at Museums Victoria after my PhD in 1995. Earlier than that, I’ve had an interest in collecting biological things since I was a child. I would collect shells at the beach, sorting, identifying, and labelling them. Even as a nine-year-old, I would pack a bag full of books alongside my beach towel, so that I could identify my finds. I had a logbook for recording what I collected each year, so I guess that’s where it started!</em></p>
-
-
-
-<p><em>I think that for many people, wanting to know what an animal or plant is called is their first interaction with taxonomy – even if they wouldn’t put it that way. At Museums Victoria, I led a fantastic team to develop&nbsp;</em><a href="https://museumsvictoria.com.au/apps/national-field-guide-apps/"><em>The National Field Guide</em></a><em>&nbsp;apps project. It was a collaborative project with museums around Australia to write species descriptions, gather photographs and sounds to allow anyone to identify common species near them.</em></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="805" src="https://www.ala.org.au/app/uploads/2023/03/National-Field-guide-app-Museums-Victoria-1024x805.jpg" alt="Image of the Museums Victoria Field Guide app" class="wp-image-48336" srcset="https://www.ala.org.au/app/uploads/2023/03/National-Field-guide-app-Museums-Victoria-1024x805.jpg 1024w, https://www.ala.org.au/app/uploads/2023/03/National-Field-guide-app-Museums-Victoria-300x236.jpg 300w, https://www.ala.org.au/app/uploads/2023/03/National-Field-guide-app-Museums-Victoria-768x603.jpg 768w, https://www.ala.org.au/app/uploads/2023/03/National-Field-guide-app-Museums-Victoria.jpg 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>National Field Guide App for Victoria. Development of this app was led by Ely’s team in Museums Victoria.</em></figcaption></figure>
-
-
-
-<p><em>Scientific literature is vital to taxonomy. Another project that supports taxonomy that I am involved with is the&nbsp;</em><a href="https://www.biodiversitylibrary.org/collection/bhlau"><em>Biodiversity Heritage Library</em></a><em>&nbsp;(BHL). This global project digitises and makes scientific literature freely accessible to anyone. The Australian BHL supports over forty publishers to digitise Australian published literature. This project also assigns DOIs so that articles can have a persistent and resolvable identifier so researchers can find those papers. I was very proud to start the BHL project in Australia and am lucky to have travelled all over the world with literature.</em></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="657" src="https://www.ala.org.au/app/uploads/2023/03/BHL-The-Mammals-of-Australia-scan-by-the-Biodiversity-Heritage-Library-n117-w1150-26679138504-1024x657.jpg" alt="Illustration of a ring-tailed possum" class="wp-image-48337" srcset="https://www.ala.org.au/app/uploads/2023/03/BHL-The-Mammals-of-Australia-scan-by-the-Biodiversity-Heritage-Library-n117-w1150-26679138504-1024x657.jpg 1024w, https://www.ala.org.au/app/uploads/2023/03/BHL-The-Mammals-of-Australia-scan-by-the-Biodiversity-Heritage-Library-n117-w1150-26679138504-300x193.jpg 300w, https://www.ala.org.au/app/uploads/2023/03/BHL-The-Mammals-of-Australia-scan-by-the-Biodiversity-Heritage-Library-n117-w1150-26679138504-768x493.jpg 768w, https://www.ala.org.au/app/uploads/2023/03/BHL-The-Mammals-of-Australia-scan-by-the-Biodiversity-Heritage-Library-n117-w1150-26679138504-1536x986.jpg 1536w, https://www.ala.org.au/app/uploads/2023/03/BHL-The-Mammals-of-Australia-scan-by-the-Biodiversity-Heritage-Library-n117-w1150-26679138504-2048x1314.jpg 2048w, https://www.ala.org.au/app/uploads/2023/03/BHL-The-Mammals-of-Australia-scan-by-the-Biodiversity-Heritage-Library-n117-w1150-26679138504-1920x1232.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>From the Australian Biodiversity Heritage Library, The Mammals of Australia, London, Printed by Taylor and Francis, pub. by the author,1863.</em></figcaption></figure>
-
-
-
-<p><em>I am the current Chair of the international organisation called Biodiversity Information Standards (</em><a href="https://www.tdwg.org/"><em>TDWG</em></a><em>) which develops and maintains the standard for&nbsp;</em><a href="https://dwc.tdwg.org/"><em>Darwin Core</em></a><em>&nbsp;(the international standard for sharing biological data). I also sit on the steering committee for&nbsp;</em><a href="https://www.taxonomyaustralia.org.au/"><em>Taxonomy Australia</em></a><em>.</em></p>
-
-
-
-<p><em>In the ALA we also collaborate with communities on Country to document and share Indigenous language names for plants and animals through the&nbsp;</em><a href="https://www.ala.org.au/indigenous-ecological-knowledge/"><em>Indigenous Ecological Knowledge</em></a><em>&nbsp;program. Language words and descriptions of species are published, with consent, on the ALA website and I am proud to be able to play a small part in that project.</em></p>
-
-
-
-<p><strong>3. Tell us about the species named after you!</strong></p>
-
-
-
-<p><em>The species named after me (Birubius wallisae) is a type of crustacean, an amphipod. Amphipods are small creatures (less than a centimetre) and common in marine environments. The amphipod named after me is found around Moreton Bay in Queensland. It’s about 5mm long so you need a good microscope to look at it. It was named after me by my good friend Dr Joanne Taylor at Museums Victoria. Jo named the&nbsp;species after me in appreciation of the support I was able to give her while she was completing her PhD. The literature publication (which is required to recognise a validly named species) for Birubius wallisae is open-access and can be found&nbsp;</em><a href="http://doi.org/10.24199/j.mmv.2001.58.15"><em>here</em></a><em>.</em></p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="616" height="844" src="https://www.ala.org.au/app/uploads/2023/03/Birubius-wallisae.jpg" alt="Scientific drawing of the Amphipod named after Ely" class="wp-image-48331" srcset="https://www.ala.org.au/app/uploads/2023/03/Birubius-wallisae.jpg 616w, https://www.ala.org.au/app/uploads/2023/03/Birubius-wallisae-219x300.jpg 219w" sizes="(max-width: 616px) 100vw, 616px" /><figcaption class="wp-element-caption"><em>Amphipod species (Birubius wallisae) described by Dr Joanne Taylor in honour of Dr Ely Wallis.</em></figcaption></figure>
 ]]></content:encoded>
 					
 		
