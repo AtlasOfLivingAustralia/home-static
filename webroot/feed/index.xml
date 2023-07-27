@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 23 Aug 2022 06:58:10 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 27 Jul 2023 21:51:08 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Test blog &#8211; Friday</title>
+		<link>https://www-test.ala.org.au/blogs-news/test-blog-friday/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Thu, 27 Jul 2023 21:51:07 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45737</guid>
+
+					<description><![CDATA[Test]]></description>
+										<content:encoded><![CDATA[
+<p>Test</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Test blog Tuesday &#8211;  2</title>
 		<link>https://www-test.ala.org.au/blogs-news/test-blog-tuesday-2/</link>
 		
@@ -194,110 +211,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Threatened Species Day</title>
-		<link>https://www-test.ala.org.au/blogs-news/threatened-species-day/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Tue, 07 Sep 2021 03:04:06 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[endangered]]></category>
-		<category><![CDATA[threatened species]]></category>
-		<category><![CDATA[Plants]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=44573</guid>
-
-					<description><![CDATA[Today is Threatened Species Day, so here is a photo of a Wollemi pine (Wollemia nobilis). And here is a link to the ALA species page for this plant. PDF]]></description>
-										<content:encoded><![CDATA[
-<p>Today is Threatened Species Day, so here is a photo of a Wollemi pine (<em>Wollemia nobilis</em>).</p>
-
-
-
-<div class="wp-block-image"><figure class="alignleft size-large"><img decoding="async" loading="lazy" width="422" height="562" src="https://www-test.ala.org.au/app/uploads/2021/09/pine-edited.jpg" alt="" class="wp-image-44575" srcset="https://www-test.ala.org.au/app/uploads/2021/09/pine-edited.jpg 422w, https://www-test.ala.org.au/app/uploads/2021/09/pine-edited-225x300.jpg 225w" sizes="(max-width: 422px) 100vw, 422px" /><figcaption>Above: Photo from the <a href="https://www.rbgsyd.nsw.gov.au/">RBG</a>.</figcaption></figure></div>
-
-
-
-<p></p>
-
-
-
-<p>And here is a link to the <a href="https://www.ala.org.au/">ALA species page for this plant</a>.</p>
-
-
-
-<p><a href="https://edit.ala.org.au/app/uploads/2020/11/ALA-Newsletter-November-2020.pdf">PDF</a></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p> </p>
 ]]></content:encoded>
 					
 		
