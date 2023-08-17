@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.2.2</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -38,7 +38,7 @@
 
 					<description><![CDATA[Help raise the profile of Australia’s most threatened biodiversity]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="341" src="https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-1024x341.png" alt="Blue tiles that reads threatened species bake off 2023 with a picture of a velvet worm, a cake of a phasmid and a green mushroom" class="wp-image-48689" srcset="https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-1024x341.png 1024w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-300x100.png 300w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-768x256.png 768w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" fetchpriority="high" width="1024" height="341" src="https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-1024x341.png" alt="Blue tiles that reads threatened species bake off 2023 with a picture of a velvet worm, a cake of a phasmid and a green mushroom" class="wp-image-48689" srcset="https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-1024x341.png 1024w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-300x100.png 300w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-768x256.png 768w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -54,7 +54,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1024x577.png" alt="" class="wp-image-48656" width="1000" height="563" srcset="https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1.png 1640w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Entries from previous years include: &nbsp;‘Moss, lichens, fungi &amp; Gippsland Giant Earthworm’ (credit Holly) and ‘Margaret River Burrowing Crayfish&nbsp;<em>(Engaewa pseudoreducta)’</em>&nbsp;(credit Linette).</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1024x577.png" alt="" class="wp-image-48656" width="1000" height="563" srcset="https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1.png 1640w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Entries from previous years include: &nbsp;‘Moss, lichens, fungi &amp; Gippsland Giant Earthworm’ (credit Holly) and ‘Margaret River Burrowing Crayfish&nbsp;<em>(Engaewa pseudoreducta)’</em>&nbsp;(credit Linette).</figcaption></figure>
 
 
 
@@ -87,8 +87,6 @@
 <p>You can further help threatened species in Australia by engaging in citizen science to help fill the gaps in species records across the country. One of the most effective tools for protecting our native biodiversity is having access to information that shows where species are and how their populations are changing over time. Taxonomic groups like invertebrates, fungi and plants are underrepresented in species occurrence records, therefore the number of identified threatened species from these groups is thought to be much higher than current reported figures. Click the link to learn more about <a href="https://support.ala.org.au/support/solutions/articles/6000261577-citizen-science">submitting citizen science species occurrence records</a> to support Australian biodiversity sciences.</p>
 
 
-
-<figure class="wp-block-image"><img alt=""/></figure>
 ]]></content:encoded>
 					
 		
@@ -123,7 +121,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA Webinar: Safeguarding Sensitive Species – 5 July 2023" width="640" height="360" src="https://www.youtube.com/embed/tdqYFDEXkLw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe title="ALA Webinar: Safeguarding Sensitive Species – 5 July 2023" width="640" height="360" src="https://www.youtube.com/embed/tdqYFDEXkLw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -792,8 +790,6 @@
 <figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1024x768.png" alt="" class="wp-image-48092" width="1000" height="750" srcset="https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1024x768.png 1024w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-300x225.png 300w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-768x576.png 768w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1536x1152.png 1536w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-2048x1536.png 2048w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1920x1440.png 1920w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-640x480.png 640w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Map created by Caitlin Ramsay using the ALA Python extension of {galah}, showing Cane Toad&nbsp;<em>(Rhinella marina)</em> distribution across Australia each decade since their introduction.</figcaption></figure>
 
 
-
-<figure class="wp-block-image"><img alt=""/></figure>
 ]]></content:encoded>
 					
 		
