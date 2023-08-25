@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 03 Aug 2023 06:36:56 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 25 Aug 2023 00:42:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,120 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA National Science Week 2023 recordings</title>
+		<link>https://www.ala.org.au/blogs-news/ala-national-science-week-2023-recordings/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Fri, 25 Aug 2023 00:42:56 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48740</guid>
+
+					<description><![CDATA[To celebrate National Science Week 2023, the Atlas of Living Australia (ALA) hosted three free virtual events. Our events aimed to ignite curiosity, foster learning, and deepen connection with biological sciences and the environment. Whether you were able to join us on the day and want to catch-up on the content, or if you weren&#8217;t [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>To celebrate National Science Week 2023, the Atlas of Living Australia (ALA) hosted three free virtual events. Our events aimed to ignite curiosity, foster learning, and deepen connection with biological sciences and the environment.</p>
+
+
+
+<p>Whether you were able to join us on the day and want to catch-up on the content, or if you weren&#8217;t able to make it, we&#8217;ve got you covered with recordings of our three events.</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>15th August 2023 &#8211; {galah} 101 Beginners guide</strong></p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA Workshop: galah 101 Beginner&#039;s guide – National Science Week – 15 Aug 2023" width="640" height="360" src="https://www.youtube.com/embed/8YY63sqKfEM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Check out the slides from Dr Dax Kellie and Dr Amanda Buyan <a href="https://acbuyan.quarto.pub/galah-101-beginners-guide/">here</a></p>
+
+
+
+<p>Are you interested in getting the most out of data in the ALA? We’ve developed the ALA {galah} tool to&nbsp;enable users to deep-dive and transform species occurrence information. Whether you want to locate and download species records, investigate taxonomic information and associated media such as images or sounds, or restrict queries to certain taxa or locations, {galah} can do it all! This tool has been developed for both the R-Studio and Python coding languages.</p>
+
+
+
+<p>Our beginner-friendly workshop introduces a step-by-step introduction to using both {galah} for R-Studio and Python</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>16th August 2023 &#8211; All is F.A.I.R. in open science and data</strong></p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA Webinar: All is F.A.I.R in open science &amp; data – National Science Week – 16 Aug 2023" width="640" height="360" src="https://www.youtube.com/embed/Dp_jF8Zxyxc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Open science is the practice of making scientific knowledge, research and information accessible. As Australia’s national biodiversity data aggregator, we explore why open science is so important to delivering strong biodiversity outcomes.</p>
+
+
+
+<p>Hear ALA team members Ely Wallis, Peggy Newman and Dax Kellie discuss:</p>
+
+
+
+<ul>
+<li>How the F.A.I.R. (findable, accessible, interoperable and reusable) principles are used through copyright and licencing in the ALA</li>
+</ul>
+
+
+
+<ul>
+<li>How the ALA supports open science through its data infrastructure and services</li>
+</ul>
+
+
+
+<ul>
+<li>How open science facilitates transparent, robust research.</li>
+</ul>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p><strong>17th August 2023 &#8211; Maximising your metadata for citizen science</strong></p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA Webinar – Maximising your metadata for citizen science – National Science Week – 17 Aug 2023" width="640" height="360" src="https://www.youtube.com/embed/XU-62h4Q-Zs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Citizen science is an accessible gateway for anybody to engage in science regardless of age, location or demographic. Integrated citizen science apps take in millions of species occurrence records each year, which are then verified before being fed through to the ALA to become open and accessible data.</p>
+
+
+
+<p>Hear from Dr Erin Roger and Cam Slatyer from the ALA, Thomas Mesaglio from iNaturalist and Dr Jasmin Packer from the FungiMap Project discuss what makes a great species observation record, and learn tips and tricks for collecting the best quality metadata – data about data. Higher quality metadata (attributes like location, images, date of collection, etc.) helps to paint a more detailed picture of Australia’s biodiversity. More accurate metadata also helps to identify native vs. invasive species more readily for better biosecurity monitoring. </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Get involved in the Threatened Species Bake Off 2023!</title>
 		<link>https://www.ala.org.au/blogs-news/get-involved-in-the-threatened-species-bake-off-2023/</link>
 		
@@ -38,7 +152,7 @@
 
 					<description><![CDATA[Help raise the profile of Australia’s most threatened biodiversity]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img decoding="async" fetchpriority="high" width="1024" height="341" src="https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-1024x341.png" alt="Blue tiles that reads threatened species bake off 2023 with a picture of a velvet worm, a cake of a phasmid and a green mushroom" class="wp-image-48689" srcset="https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-1024x341.png 1024w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-300x100.png 300w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-768x256.png 768w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="341" src="https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-1024x341.png" alt="Blue tiles that reads threatened species bake off 2023 with a picture of a velvet worm, a cake of a phasmid and a green mushroom" class="wp-image-48689" srcset="https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-1024x341.png 1024w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-300x100.png 300w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1-768x256.png 768w, https://www.ala.org.au/app/uploads/2023/08/Landscape-banner-headings-1.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -54,7 +168,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img decoding="async" src="https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1024x577.png" alt="" class="wp-image-48656" width="1000" height="563" srcset="https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1.png 1640w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Entries from previous years include: &nbsp;‘Moss, lichens, fungi &amp; Gippsland Giant Earthworm’ (credit Holly) and ‘Margaret River Burrowing Crayfish&nbsp;<em>(Engaewa pseudoreducta)’</em>&nbsp;(credit Linette).</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1024x577.png" alt="" class="wp-image-48656" width="1000" height="563" srcset="https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/07/Fungi-Friday-1.png 1640w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Entries from previous years include: &nbsp;‘Moss, lichens, fungi &amp; Gippsland Giant Earthworm’ (credit Holly) and ‘Margaret River Burrowing Crayfish&nbsp;<em>(Engaewa pseudoreducta)’</em>&nbsp;(credit Linette).</figcaption></figure>
 
 
 
@@ -121,7 +235,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="ALA Webinar: Safeguarding Sensitive Species – 5 July 2023" width="640" height="360" src="https://www.youtube.com/embed/tdqYFDEXkLw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe loading="lazy" title="ALA Webinar: Safeguarding Sensitive Species – 5 July 2023" width="640" height="360" src="https://www.youtube.com/embed/tdqYFDEXkLw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -790,137 +904,6 @@
 <figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1024x768.png" alt="" class="wp-image-48092" width="1000" height="750" srcset="https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1024x768.png 1024w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-300x225.png 300w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-768x576.png 768w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1536x1152.png 1536w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-2048x1536.png 2048w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1920x1440.png 1920w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-640x480.png 640w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Map created by Caitlin Ramsay using the ALA Python extension of {galah}, showing Cane Toad&nbsp;<em>(Rhinella marina)</em> distribution across Australia each decade since their introduction.</figcaption></figure>
 
 
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Webinar: Advances in Genomics and Biological Collections</title>
-		<link>https://www.ala.org.au/blogs-news/ala-webinar-advances-in-genomics-and-biological-collections/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Wed, 29 Mar 2023 23:43:42 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48348</guid>
-
-					<description><![CDATA[Collections specimens are valuable resources in genomics as they provide a historical record of the diversity of life on earth. By analysing the DNA and other biological markers from these specimens, researchers can gain important insights into this diversity and inform conservation efforts to protect our species. When these kinds of data are aggregated from [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>Collections specimens are valuable resources in genomics as they provide a historical record of the diversity of life on earth. By analysing the DNA and other biological markers from these specimens, researchers can gain important insights into this diversity and inform conservation efforts to protect our species. When these kinds of data are aggregated from multiple sources, researchers can pool their knowledge, compare results, and build on one another&#8217;s work – essential for driving innovation and advancing our understanding of the natural world.</p>
-
-
-
-<p>This webinar brings together experts from three projects to discuss their work in this space. It is ideal for researchers, practitioners, and anyone interested in the latest developments in genomics and biological collections, and the mobilisation of these data.</p>
-
-
-
-<p></p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA webinar: Advances in Genomics and Biological Collections" width="640" height="360" src="https://www.youtube.com/embed/YLaBiSQkOlM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>This webinar took place at 1.00pm AEDT, Tuesday 28 March 2023, with 170 live viewers in attendance.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" id="speakers">Speakers</h2>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/erin-hahn.png" alt="&quot;&quot;" class="wp-image-48351"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="arve-solland-ecocommons">Erin Hahn | Australian National Wildlife Collection (CSIRO)</h3>
-
-
-
-<p>Dr Hahn is a postdoctoral fellow and conservation geneticist at the Australian National Wildlife Collection at CSIRO. She is working to enable whole genome sequencing and characterisation of gene expression from formalin-preserved museum tissues. Her research will deliver new data streams with which to study how species have historically responded to our changing environment. Erin received her PhD from the University of Arizona in Tucson, Arizona, USA. Her doctoral work on endangered Sonoran pronghorn enabled wildlife managers to identify appropriate captive individuals for mating and release and was the first study characterising population epigenetics in an endangered species.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/jessica-fenker.png" alt="&quot;&quot;" class="wp-image-48352"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="miles-nicholls-atlas-of-living-australia">Jéssica Fenker | Museums Victoria</h3>
-
-
-
-<p>Jess is a Research Fellow at Museums Victoria, working in Jane Melville’s lab on how Quaternary changes affected past and recent reptile communities, using rich fossil data. She is also associated with the Australian National University (ANU), collaborating with the Moritz and Cardillo labs. Jess has previously worked as a data analyst for the ALA and EcoCommons, in relocations for the Australian National Wildlife Collection (CSIRO), and as a postdoc at the University of Michigan. Prior to this, Jess completed her PhD at ANU, working on macroecological questions and landscape genomics related to lizards in savanna environments, mostly in Australia and Brazil.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/kathryn-hall.png" alt="&quot;&quot;" class="wp-image-48353"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="ana-belgun-data61">Kathryn Hall | Australian Reference Genome Atlas (ARGA)</h3>
-
-
-
-<p>Kathryn leads an innovative multidisciplinary team as the Product Champion for the Australian Reference Genome Atlas (ARGA). She has extensive experience in taxonomy, genomics and the eResearch space, having created the SpongeMaps website, worked at the Queensland Museum on sponge taxonomy, and the Australian Museum investigating polychaete systematics using DNA data. Prior to this, Kathryn held a postdoc role working on digenean and monogenean parasites in aquaculture fishes in Japan. Kathryn completed her PhD at the University of Queensland, where she specialised in the taxonomy and systematics of a family of parasitic worms in fishes.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/03/keeva-connolly.png" alt="&quot;&quot;" class="wp-image-48354"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="ana-belgun-data61">Keeva Connolly | ARGA, Australian BioCommons</h3>
-
-
-
-<p>Keeva is a scientific business analyst for the Australian BioCommons, a digital infrastructure platform providing tools, methods and training to extend national research capacity in the life sciences. Before starting at the Australian BioCommons, she studied a Bachelor of Genetics (Hons) at the Australian National University and worked for the Department of Agriculture, Water and the Environment (now DCCEEW) in plant biosecurity. In her spare time, she enjoys reading, cooking and visiting libraries.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="moderator-bio">Moderator bio</h3>
-
-
-
-<p>Martin&nbsp;Westgate leads the Science and Decision Support team at the&nbsp;Atlas of Living Australia. His research focuses on how scientific&nbsp;information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin&nbsp;is also a scientific software developer and occasional frog-watcher.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" id="want-more">Want more?</h2>
-
-
-
-<p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
 ]]></content:encoded>
 					
 		
