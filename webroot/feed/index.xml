@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 04 Oct 2023 21:39:41 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 23 Oct 2023 04:17:42 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,145 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Elevating ALA’s Data Security with OpenID Connect</title>
+		<link>https://www.ala.org.au/blogs-news/elevating-alas-data-security-with-openid-connect/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Mon, 23 Oct 2023 04:17:42 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48865</guid>
+
+					<description><![CDATA[As Australia’s national biodiversity data infrastructure, the Atlas of Living Australia (ALA) is committed to providing reliable and secure data access to our users. In line with this commitment, we are excited to announce our transition to OpenID Connect (OIDC) authentication, which will help to streamline the process for accessing data within the ALA across [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" fetchpriority="high" width="1024" height="223" src="https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-1024x223.png" alt="&quot;&quot;" class="wp-image-48871" srcset="https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-1024x223.png 1024w, https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-300x65.png 300w, https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-768x167.png 768w, https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-1536x335.png 1536w, https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner.png 1867w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>As Australia’s national biodiversity data infrastructure, the Atlas of Living Australia (ALA) is committed to providing reliable and secure data access to our users. In line with this commitment, we are excited to announce our transition to OpenID Connect (OIDC) authentication, which will help to streamline the process for accessing data within the ALA across multiple platforms.</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="what-is-oidc">What is OIDC?</h2>
+
+
+
+<p>With OIDC, you can log in to multiple platforms using a single set of sign-in credentials while ensuring that your personal information is secure and private.</p>
+
+
+
+<p>OIDC is an identity layer built on top of the <a rel="noreferrer noopener" href="https://oauth.net/2/" target="_blank">OAuth 2.0</a> protocol. It&#8217;s designed to facilitate secure authentication and single sign-on (SSO) across different applications and services. If you’d like to read more about how OIDC works with OAuth 2.0, see OpenID Foundation&#8217;s article on <a rel="noreferrer noopener" href="https://openid.net/developers/how-connect-works/" target="_blank">how OpenID Connect works</a><a rel="noreferrer noopener" href="https://openid.net/developers/how-connect-works/" target="_blank">.</a></p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1024x858.png" alt="the layers of how OIDC works. when a HTTP request is sent, OAuth2.0 checks for authorisation access permissions, and OIDC checks for user identity" class="wp-image-48868" style="width:633px;height:531px" width="633" height="531" srcset="https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1024x858.png 1024w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-300x251.png 300w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-768x644.png 768w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1536x1288.png 1536w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1.png 1880w" sizes="(max-width: 633px) 100vw, 633px" /></figure>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="why-oidc">Why OIDC?</h2>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading" class="wp-block-heading" id="enhanced-security"><strong>Enhanced Security</strong></h3>
+
+
+
+<p>One of the key drivers behind ALA&#8217;s adoption of OpenID Connect (OIDC) is its ability to enhance data security.</p>
+
+
+
+<p>OIDC operates by employing secure tokens in the background to validate a user&#8217;s identity. These tokens are designed to be short-lived and encrypted, ensuring that your credentials remain protected and reducing the potential for unauthorised access or data breaches.</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading" class="wp-block-heading" id="seamless-user-experience"><strong>Seamless User Experience</strong></h3>
+
+
+
+<p>We’re committed to improving your experience across the ALA site; while this includes features like navigation, readability and look and feel, it also relates to login experience and performance. OIDC enhances our current SSO capabilities, allowing you to log in once to access multiple services without repeatedly entering your credentials.</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading" class="wp-block-heading" id="federated-sign-in"><strong>Federated sign-in</strong></h3>
+
+
+
+<p>OIDC also enhances federated identity services. This means that you can continue to leverage your existing accounts from trusted identity providers such as the <a href="https://aaf.edu.au/">Australian Access Federation</a> (AAF), eliminating the need to create another username and password – making it quicker and easier to access the ALA for existing AAF users.</p>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading" class="wp-block-heading" id="scalability-and-integration"><strong>Scalability and Integration</strong></h3>
+
+
+
+<p>As the number of records in the ALA grows, we ensure that our systems are flexible and scalable. OIDC allows us to integrate with a variety of web applications and evolve alongside other technical advancements.</p>
+
+
+
+<p>Collaboration is also a big part of what we do at the ALA, so we can continue to make even more data findable and accessible. With the growing adoption of OIDC, integration is made easier with our data partners and other collaborators. For example, we are working with <a href="https://www.tern.org.au/">TERN</a> to integrate OIDC, making it quicker and easier for our <a href="https://fieldcapture.ala.org.au/">MERIT</a> users to sign in and submit data to the MERIT system using the TERN Monitor application.</p>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="summary">Summary</h2>
+
+
+
+<p>The adoption of OIDC authentication represents a significant milestone in the ALA’s ongoing commitment to data security, performance, and user experience. We remain dedicated to staying at the forefront of technology to do so, and we look forward to continued growth and collaboration with our user community. The ALA has more exciting infrastructure and technology changes coming soon – watch this space!</p>
+
+
+
+<p>If you would like to know more about how OIDC benefits your data access experience, please reach out at <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA adopts OpenID Connect (OIDC)" width="640" height="360" src="https://www.youtube.com/embed/rIpy_f1pHtM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>This is one bird to be cass-o-wary of!</title>
 		<link>https://www.ala.org.au/blogs-news/this-is-one-bird-to-be-cass-o-wary-of/</link>
 		
@@ -46,7 +185,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img decoding="async" fetchpriority="high" src="https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-Tom-Hunt-CC-BY-NC-819x1024.jpg" alt="" class="wp-image-48810" style="width:1000px;height:1024px" width="1000" height="1024"/><figcaption class="wp-element-caption">Southern Cassowary (<em>Casuarius casuarius</em>) adult. Photo Credit Tom Hunt CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-Tom-Hunt-CC-BY-NC-819x1024.jpg" alt="" class="wp-image-48810" style="width:1000px;height:1024px" width="1000" height="1024"/><figcaption class="wp-element-caption">Southern Cassowary (<em>Casuarius casuarius</em>) adult. Photo Credit Tom Hunt CC BY NC</figcaption></figure>
 
 
 
@@ -58,7 +197,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="967" height="649" src="https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-DHFischer-CC-BY-NC.jpg" alt="" class="wp-image-48811" srcset="https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-DHFischer-CC-BY-NC.jpg 967w, https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-DHFischer-CC-BY-NC-300x201.jpg 300w, https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-DHFischer-CC-BY-NC-768x515.jpg 768w" sizes="(max-width: 967px) 100vw, 967px" /><figcaption class="wp-element-caption">Southern Cassowary (<em>Casuarius casuarius</em>) chick. Photo Credit DHFischer CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="967" height="649" src="https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-DHFischer-CC-BY-NC.jpg" alt="" class="wp-image-48811" srcset="https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-DHFischer-CC-BY-NC.jpg 967w, https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-DHFischer-CC-BY-NC-300x201.jpg 300w, https://www.ala.org.au/app/uploads/2023/09/Southern-Cassowary-Casuarius-casuarius-Photo-Credit-DHFischer-CC-BY-NC-768x515.jpg 768w" sizes="(max-width: 967px) 100vw, 967px" /><figcaption class="wp-element-caption">Southern Cassowary (<em>Casuarius casuarius</em>) chick. Photo Credit DHFischer CC BY NC</figcaption></figure>
 
 
 
@@ -86,7 +225,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://cjwaite23.shinyapps.io/cassowary_app/"><img decoding="async" width="1024" height="534" src="https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-1024x534.jpg" alt="" class="wp-image-48855" srcset="https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-1024x534.jpg 1024w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-300x156.jpg 300w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-768x400.jpg 768w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-1536x801.jpg 1536w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-2048x1068.jpg 2048w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-1920x1001.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://cjwaite23.shinyapps.io/cassowary_app/"><img decoding="async" loading="lazy" width="1024" height="534" src="https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-1024x534.jpg" alt="" class="wp-image-48855" srcset="https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-1024x534.jpg 1024w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-300x156.jpg 300w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-768x400.jpg 768w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-1536x801.jpg 1536w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-2048x1068.jpg 2048w, https://www.ala.org.au/app/uploads/2023/09/Cassowary-day-1920x1001.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -929,127 +1068,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Celebrating International Day for Biological Diversity with the AU Biodiversity Heritage Library</title>
-		<link>https://www.ala.org.au/blogs-news/celebrating-international-day-for-biological-diversity-with-the-au-biodiversity-heritage-library/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Mon, 22 May 2023 05:32:08 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48478</guid>
-
-					<description><![CDATA[How would you look up information on species and natural history? Would you do a Google search or visit your local library? How about checking out the Biodiversity Heritage Library (BHL)! It’s the world’s largest virtual library of biodiversity heritage literature and archival materials and contains materials published as far back as the 1400s! This incredible resource [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>How would you look up information on species and natural history? Would you do a Google search or visit your local library? How about checking out the <a href="https://www.biodiversitylibrary.org/">Biodiversity Heritage Library</a> (BHL)! It’s the world’s largest virtual library of biodiversity heritage literature and archival materials and contains materials published as far back as the 1400s! This incredible resource contains information on millions of the world’s species. This information – the foundation of our understanding of biodiversity – is freely accessible online for everyone.</p>
-
-
-
-<p>The <a href="https://www.ala.org.au/">Atlas of Living Australia</a> in collaboration with Museums Victoria launched the Australian branch of the BHL in 2010. Since 2010, <a href="https://www.biodiversitylibrary.org/collection/bhlau">BHL Australia</a> has grown from a single contributing organisation to 42, representing every state and territory across the country. Museums Victoria continues to host the project today BHL Australia staff and volunteers have now digitised over 500,000 pages of Australia’s biodiversity literature.</p>
-
-
-
-<p>The knowledge in the BHL digitised pages includes scientific descriptions of Australia’s plants and animals and provides details of past distribution and abundance, allowing us to track changes across time. This information is invaluable to modern researchers, policy makers and educators.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="491" src="https://www.ala.org.au/app/uploads/2023/05/BHL-William-Dampier-1024x491.jpg" alt="" class="wp-image-48482" srcset="https://www.ala.org.au/app/uploads/2023/05/BHL-William-Dampier-1024x491.jpg 1024w, https://www.ala.org.au/app/uploads/2023/05/BHL-William-Dampier-300x144.jpg 300w, https://www.ala.org.au/app/uploads/2023/05/BHL-William-Dampier-768x368.jpg 768w, https://www.ala.org.au/app/uploads/2023/05/BHL-William-Dampier.jpg 1105w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><em>Caption: The oldest book in the BHL Australia collection is <a href="https://www.biodiversitylibrary.org/item/203199#page/10/mode/2up">A voyage to New Holland in the year 1699</a> by William Dampier <a href="https://doi.org/10.5962/bhl.title.117049">https://doi.org/10.5962/bhl.title.117049</a></em></p>
-
-
-
-<p>One of the most significant publications made available on the BHL website is George Shaw’s <a href="https://www.biodiversitylibrary.org/bibliography/79941"><em>The Naturalist’s Miscellany</em></a>, from Museums Victoria’s Rare Book Collection. Shaw was an English naturalist and zoologist. His ground-breaking publication, <em>The Naturalist’s Miscellany,</em> consists of 24 volumes published in monthly instalments (fascicles) between 1789 and 1813. It contains scientific descriptions (in both English and Latin) of over 1000 species that were sent to London from around the world in the late 1700s and early 1800s. It covers an impressive range of species, including birds, mammals, reptiles, amphibians, insects, spiders, shells, and other marine organisms. Each description is accompanied by a spectacular illustration by Frederick Polydore Nodder, or, in the later volumes, his son Richard. Unprecedented in its scope and depth, <em>The Naturalist’s Miscellany</em> aimed to educate readers while highlighting the magnificence and diversity of nature.</p>
-
-
-
-<p>Due to the timing of this significant work, <em>The Naturalist’s Miscellany</em> contains the first published scientific descriptions of many iconic Australian species, including (in 1790), the first scientific description of any species of kangaroo. At this time, the study of natural history was an esteemed academic pursuit backed by scientific rigour. George Shaw’s descriptions contain obvious awe and sometimes scepticism as he struggles fit Australia’s bizarre creatures into the current understanding of the natural world.</p>
-
-
-
-<p>In Shaw&#8217;s description of the kangaroo, he notes the female is “furnished with a ventral pouch”. And his wonder just builds from here. He says:</p>
-
-
-
-<p><em>The Kanguroo is a very anomalous and extraordinary quadruped…It is a creature of surprising agility, and springs forwards, by leaping to so uncommon a height, and to so great a distance, as to outstrip the fleetest pursuit; the swiftest greyhound being easily and soon distanced by this wonderful quadruped.</em></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="897" src="https://www.ala.org.au/app/uploads/2023/05/BHL-2-1024x897.png" alt="" class="wp-image-48483" srcset="https://www.ala.org.au/app/uploads/2023/05/BHL-2-1024x897.png 1024w, https://www.ala.org.au/app/uploads/2023/05/BHL-2-300x263.png 300w, https://www.ala.org.au/app/uploads/2023/05/BHL-2-768x673.png 768w, https://www.ala.org.au/app/uploads/2023/05/BHL-2.png 1233w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><em>Caption: The Great Kanguroo, </em>(Macropus giganteus)<em> [Pl. 33] in Shaw, George (1790) The Naturalist&#8217;s Miscellany (vol. 1) <a href="https://doi.org/10.5962/p.310685">https://doi.org/10.5962/p.310685</a></em></p>
-
-
-
-<p>In 1792, Shaw introduced the echidna (the Porcupine Ant-Eater) to the wider world. He writes:</p>
-
-
-
-<p><em>This extraordinary animal may well be considered amongst the most curious and interesting quadrupeds yet discovered …since it is not only an absolutely new and hitherto unknown species …but is also a most striking instance of that beautiful gradation, so frequently observed in the animal kingdom, by which creatures of one tribe or genus approach to those of a very different one.&nbsp;</em></p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="870" src="https://www.ala.org.au/app/uploads/2023/05/BHL-3-1024x870.png" alt="" class="wp-image-48484" srcset="https://www.ala.org.au/app/uploads/2023/05/BHL-3-1024x870.png 1024w, https://www.ala.org.au/app/uploads/2023/05/BHL-3-300x255.png 300w, https://www.ala.org.au/app/uploads/2023/05/BHL-3-768x652.png 768w, https://www.ala.org.au/app/uploads/2023/05/BHL-3-790x670.png 790w, https://www.ala.org.au/app/uploads/2023/05/BHL-3.png 1354w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><em>Caption: The Porcupine Ant-Eater, </em>(Myrmecophaga aculeata) <em>[Pl. 109] in Shaw, George (1792) The Naturalist&#8217;s Miscellany (vol. 3)</em></p>
-
-
-
-<p>In 1799, George delivered the platypus’s international debut:</p>
-
-
-
-<p><em>Of all the Mammalia yet known it seems the most extraordinary… the perfect resemblance of the beak of a duck engrafted onto the head of a quadruped…it naturally excites the idea</em> <em>of some deceptive preparation by artificial means.</em></p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="818" height="835" src="https://www.ala.org.au/app/uploads/2023/05/BHL-3.jpg" alt="" class="wp-image-48485" srcset="https://www.ala.org.au/app/uploads/2023/05/BHL-3.jpg 818w, https://www.ala.org.au/app/uploads/2023/05/BHL-3-294x300.jpg 294w, https://www.ala.org.au/app/uploads/2023/05/BHL-3-768x784.jpg 768w" sizes="(max-width: 818px) 100vw, 818px" /></figure>
-
-
-
-<p><em>Caption: The Duck-Billed Platypus, </em>(Platypus anatinus) <em>[Pl. 385-386] in Shaw, George (1799) The Naturalist&#8217;s Miscellany (vol. 10) <a href="https://doi.org/10.5962/p.304567">https://doi.org/10.5962/p.304567</a></em></p>
-
-
-
-<p>So bizarre was this creature that Shaw questions whether it is indeed a real animal. The specimen Shaw based his description on is in Natural History Museum in London. If you were to examine this specimen, you would see the cuts around the bill made by Shaw in his efforts to find stitches. He was convinced the specimen was a hoax; that the bill of a duck had been sewn onto the body of something like a water rat. Shaw’s description of the platypus is one of only a few out of the 1000 that is accompanied by two plates. It seems that addition illustration – or perhaps proof – was required for those species that were truly perplexing. &nbsp;</p>
-
-
-
-<p><em>The Naturalist&#8217;s Miscellany</em> left an indelible legacy on the field of natural history. It played a vital role in the development of zoology as a discipline, providing an extensive compilation of species, many of which had not been previously documented. Shaw&#8217;s meticulous observations, combined with the detailed illustrations, enabled future naturalists and scientists to study and identify species with greater precision.</p>
-
-
-
-<p>As we commemorate the International Day for Biological Diversity, the significance of this publication, and the historic literature as a whole, resonates deeply. The world is currently facing an unprecedented loss of species due to various factors, including habitat destruction, climate change, and other human activities. Some of the species described in <em>The Naturalist&#8217;s Miscellany</em>, such as the Great Auk and the Dodo, are now extinct.</p>
-
-
-
-<figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="302" height="471" src="https://www.ala.org.au/app/uploads/2023/05/BHL-4.jpg" alt="" class="wp-image-48486" srcset="https://www.ala.org.au/app/uploads/2023/05/BHL-4.jpg 302w, https://www.ala.org.au/app/uploads/2023/05/BHL-4-192x300.jpg 192w" sizes="(max-width: 302px) 100vw, 302px" /></figure>
-
-
-
-<p><em>Caption: The Dodo,</em> (Didus ineptus)<em> [Pl. 123] in Shaw, George (1799) The Naturalist&#8217;s Miscellany (vol. 4) <a href="https://www.biodiversitylibrary.org/page/44515507">https://www.biodiversitylibrary.org/page/44515507</a></em></p>
-
-
-
-<p>These examples serve as reminders of the irreversible loss that can occur when species are not adequately protected and conserved. They emphasise the importance of ongoing efforts to preserve and restore biodiversity to prevent further extinctions and maintain the delicate balance of ecosystems.</p>
-
-
-
-<p><em>The Naturalist&#8217;s Miscellany</em> is just one of the 180,000+ titles (60 million+ pages) made freely available on the BHL website by the 550+ contributing organisations across the world. What better way to spend International Day for Biological Diversity (May 22) than by exploring this invaluable resource.</p>
-
-
-
-<p><em>BHL Australia acknowledges the traditional custodians of the land upon which we work: </em><em>the Boon Wurrung and Woiwurrung peoples of the Eastern Kulin Nation. We would also like to acknowledge the First Peoples of every part of Australia because that acknowledgement is generally missing from the material we work with. The publications discussed in this article </em><em>contain no acknowledgement that there were already people on these lands who had an extensive knowledge of both the biology and behaviour of these species.</em></p>
 ]]></content:encoded>
 					
 		
