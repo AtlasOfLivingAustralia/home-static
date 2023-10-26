@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
+<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-october-2023/</loc><lastmod>2023-10-26T03:45:01+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/directors-update-october-2023/</loc><lastmod>2023-10-25T00:02:23+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/elevating-alas-data-security-with-openid-connect/</loc><lastmod>2023-10-23T04:50:56+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/this-is-one-bird-to-be-cass-o-wary-of/</loc><lastmod>2023-09-26T00:41:40+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -96,7 +97,7 @@
 <url><loc>https://www.ala.org.au/blogs-news/helping-you-search-and-filter-data-in-the-ala/</loc><lastmod>2021-02-24T01:26:00+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/gbif-young-researchers-award-2021-australian-nominations/</loc><lastmod>2021-05-13T04:53:50+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/directors-update-february-2021/</loc><lastmod>2021-02-24T03:13:13+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/improving-access-to-sensitive-species-data/</loc><lastmod>2023-01-20T01:58:10+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/improving-access-to-sensitive-species-data/</loc><lastmod>2023-10-26T03:06:32+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/dna-key-to-identifying-eggs-in-museum-collections/</loc><lastmod>2021-01-18T01:48:55+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/data-partners/</loc><lastmod>2020-12-21T22:18:40+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/bubble-bum-rare-bee-wee-caught-on-camera/</loc><lastmod>2020-12-15T00:05:51+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
