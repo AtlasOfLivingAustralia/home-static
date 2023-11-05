@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 30 Oct 2023 23:02:46 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 05 Nov 2023 22:39:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,47 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Australian Virtual Seed Bank</title>
+		<link>https://www.ala.org.au/blogs-news/australian-virtual-seed-bank/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Sun, 05 Nov 2023 22:39:07 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48936</guid>
+
+					<description><![CDATA[In 2023, the Atlas of Living Australia (ALA) and the Australian Seed Bank Partnership (ASBP) collaborated to launch a new version of the Australian Seed Bank Online, the Australian Virtual Seed Bank (AVSB).  The AVSB shares sustainable seed collecting and banking practices and provides open-access information about both seed collections and the germination protocols used across [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>In 2023, the Atlas of Living Australia (ALA) and the <a>Australian Seed Bank Partnership </a>(ASBP) collaborated to launch a new version of the Australian Seed Bank Online, the <a href="https://seedbank.ala.org.au/">Australian Virtual Seed Bank</a> (AVSB).  The AVSB shares sustainable seed collecting and banking practices and provides open-access information about both seed collections and the germination protocols used across seed banks in Australia. Primarily used by seed curators, collectors, research community members, students, industry and government, the AVSB is an essential resource for preserving critical plant information on Australian plant biodiversity and is hosted by the ALA.</p>
+
+
+
+<p>The ALA team has worked in <a>close collaboration</a> with the ASBP to develop this capability, bringing together subject matter experts and software developers to produce a world-class innovative digital platform. The AVSB is a refreshed digital open-access resource that has been designed to increase the accessibility and usability of information about Australian plants. It links seed bank data with images, taxonomic and occurrence data in the ALA and collection, trait and genomic data from other sources to be accessible via a single online platform. The AVSB is the first ALA application to implement a <a href="https://ala.org.au/current-projects/extended-data-model-project/">new </a><a>type of ALA database</a> which allows for complex relationships between different types of data and seed bank activities to be accurately represented and navigated. The AVSB was developed over two years, as part of an iterative process, continually testing and seeking feedback from the broader seed bank community.<a id="_msocom_1"></a></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" fetchpriority="high" width="1024" height="788" src="https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-1200-×-924px-15-1024x788.png" alt="Golden wattle with the ALA and ASBP logos" class="wp-image-48937" srcset="https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-1200-×-924px-15-1024x788.png 1024w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-1200-×-924px-15-300x231.png 300w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-1200-×-924px-15-768x591.png 768w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-1200-×-924px-15.png 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p><em>‘The Australian Seed Bank Partnership is an alliance of 14 organisations, bringing together expertise from Australia’s leading botanic gardens, state environment agencies and NGOs. Developing and sharing knowledge is a high priority for us and working with the ALA on the new ASBO portal allows partners to share significantly more data than we have in the past. We can’t wait to share the portal with the conservation community’ </em>said Dr Ameila Martyn Yenson A/g National Coordinator Australian Seed Bank Partnership.</p>
+
+
+
+<p>The AVSB&#8217;s user-friendly format offers a unique opportunity to deep-dive into the world of ex-situ collections across Australia and shares hundreds of years of collective experience from seed experts across the topics of seed collection, storage, research, ecology, germination, and more. Access the AVSB here: <a href="https://www.seedpartnership.org.au/initiatives/australian-virtual-seed-bank/">https://www.seedpartnership.org.au/initiatives/australian-virtual-seed-bank/</a>.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="772" src="https://www.ala.org.au/app/uploads/2023/11/AVSB-1024x772.jpg" alt="" class="wp-image-49009" srcset="https://www.ala.org.au/app/uploads/2023/11/AVSB-1024x772.jpg 1024w, https://www.ala.org.au/app/uploads/2023/11/AVSB-300x226.jpg 300w, https://www.ala.org.au/app/uploads/2023/11/AVSB-768x579.jpg 768w, https://www.ala.org.au/app/uploads/2023/11/AVSB.jpg 1218w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Virtual Seed Bank online portal.</figcaption></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Spooky Species</title>
 		<link>https://www.ala.org.au/blogs-news/spooky-species/</link>
 		
@@ -50,7 +91,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" fetchpriority="high" width="1009" height="541" src="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg" alt="" class="wp-image-47481" srcset="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg 1009w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-300x161.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-768x412.jpg 768w" sizes="(max-width: 1009px) 100vw, 1009px" /><figcaption class="wp-element-caption">Goblin Shark (<em>Mitsukurina owstoni</em>) Museums Victoria CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-full"><img decoding="async" width="1009" height="541" src="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg" alt="" class="wp-image-47481" srcset="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg 1009w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-300x161.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-768x412.jpg 768w" sizes="(max-width: 1009px) 100vw, 1009px" /><figcaption class="wp-element-caption">Goblin Shark (<em>Mitsukurina owstoni</em>) Museums Victoria CC BY NC</figcaption></figure>
 
 
 
@@ -66,7 +107,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47480" srcset="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Bronze Orange Bug (<em>Musgraveia sulciventris</em>) Erin Roger CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47480" srcset="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Bronze Orange Bug (<em>Musgraveia sulciventris</em>) Erin Roger CC BY NC</figcaption></figure>
 
 
 
@@ -82,7 +123,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47482" srcset="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Jimsonweed (<em>Datura stramonium)</em> Ecocentric_Consultulting CC BY NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47482" srcset="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Jimsonweed (<em>Datura stramonium)</em> Ecocentric_Consultulting CC BY NC</figcaption></figure>
 
 
 
@@ -783,94 +824,6 @@
 
 
 <figure class="wp-block-image size-large"><a href="http://mailchi.mp/ala/june-2023-newsletter" target="_blank" rel="noreferrer noopener"><img decoding="async" loading="lazy" width="602" height="1024" src="https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-602x1024.png" alt="ALA's June newsletter - header includes the ALA logo next to a yellow frog. Below that includes the heading 'June 2023 Newsletter' with a welcome message." class="wp-image-48575" srcset="https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-602x1024.png 602w, https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023-176x300.png 176w, https://www.ala.org.au/app/uploads/2023/06/ALA-newsletter-june-2023.png 658w" sizes="(max-width: 602px) 100vw, 602px" /></a></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Protecting Australia’s restricted access plants and animals through better data access </title>
-		<link>https://www.ala.org.au/blogs-news/protecting-australias-restricted-access-plants-and-animals-through-better-data-access/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Wed, 21 Jun 2023 05:08:04 +0000</pubDate>
-				<category><![CDATA[Impact stories]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48408</guid>
-
-					<description><![CDATA[Launching the National Framework for the Sharing of Restricted Access Species Data and the Restricted Access Species Data Service for Australia]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>The <a href="https://www.rasd.org.au/" target="_blank" rel="noreferrer noopener">National Framework for the Sharing of Restricted Access Species Data</a> provides a best practice guide for the custodians and users of species data that is restricted.</p>
-
-
-
-<p>The development of the National Framework streamlines the process of accessing, sharing and managing restricted access species data across Australia, leading to better environmental management and improved species outcomes.</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="578" src="https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1024x578.png" alt="Green caterpillar on a blue background with the ALA, ARDC and NCRIS logos" class="wp-image-48569" srcset="https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1024x578.png 1024w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-768x434.png 768w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21-1536x867.png 1536w, https://www.ala.org.au/app/uploads/2023/06/RASD_Headline-Image-v21.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><em>Caption: Sensitive species Australian Atlas Moth (Attacus wardi), photo credit James P. Tuttle CC BY NC&nbsp;</em>&nbsp;</p>
-
-
-
-<p>Historically, the difficulty of accessing restricted data on species has created barriers for research, environmental <a>assessmen</a>t and conservation. Data on species has been modified, withheld or shared based on inconsistent organisational polices. The <a>National Framework </a>is the first of its kind, jointly developed by the Atlas of Living Australia, the Australian Research Data Commons, all the government environmental agencies in Australia, herbaria, fauna collections, EcoCommons Australia and the Western Australian Biodiversity Science Institute.</p>
-
-
-
-<p>Sharing the precise locations of restricted<a> access </a>species potentially risks disturbance, harm or exploitation. Therefore, access to some species information is limited, accessible only to data custodians and approved data users.</p>
-
-
-
-<p>The National Framework outlines the principles to guide data custodians and users in the sharing of restricted access species data responsibly and appropriately. By adopting a nationally consistent evidence-based approach to managing restricted access species data, the National Framework aim to:</p>
-
-
-
-<ul>
-<li>promote responsible data-sharing practices</li>
-
-
-
-<li>give data custodians the confidence to safely share restricted access species data</li>
-
-
-
-<li>assist data custodians to maintain the consistency and quality of data.</li>
-</ul>
-
-
-
-<p><em>“BirdLife Australia has long upheld a restricted access policy for sensitive species data as a basis for our citizen science work. This gives contributors the confidence that sharing their data will not put species at risk, while still allowing for its use in conservation. We are excited to now have a nationally consistent framework for sensitive species data sharing, which will massively increase the use and impact of bird and other species data in science and conservation” said</em> Dr Golo Maurer, BirdLife Citizen Science Program Leader.</p>
-
-
-
-<p><strong>A Restricted Access Species Data Service (RASDS) for Australia</strong></p>
-
-
-
-<p>The new RASDS allows researchers and other trusted data users to request restricted access species data from all participating data custodians in Australia via a central point. &nbsp;The service allows data custodians a way of managing and storing request workflows.</p>
-
-
-
-<p><em>“RASDS seeks to remove a major barrier to the flow of species data by standardising the way we describe and exchange sensitive species data</em>” said Ron Avery, STL Biodiversity Information Systems Science, Economics and Insight Division, NSW Dept&nbsp;of Planning and Environment.</p>
-
-
-
-<p><strong>Partners:</strong></p>
-
-
-
-<p>These products were developed as part of a collaborative project between the <a href="https://www.ala.org.au/#tab_pane-C">Atlas of Living Australia</a>, <a href="https://ardc.edu.au">Australian Research Data Commons</a> (ARDC), the Australian Government, state and territory governments, conservation agencies, museums, and herbaria, <a href="https://www.ecocommons.org.au/">EcoCommons</a> and the <a href="https://wabsi.org.au/">Western Australian Biodiversity Science Institute</a>.</p>
-
-
-
-<p>To find out more, visit the <a href="https://www.rasd.org.au/" target="_blank" rel="noreferrer noopener">RASD webpage</a>.</p>
 ]]></content:encoded>
 					
 		
