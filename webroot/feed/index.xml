@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 13 Nov 2023 22:00:00 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 27 Nov 2023 02:38:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -461,7 +461,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1024x858.png" alt="the layers of how OIDC works. when a HTTP request is sent, OAuth2.0 checks for authorisation access permissions, and OIDC checks for user identity" class="wp-image-48868" style="object-fit:contain;width:633px;height:531px" width="633" height="531" srcset="https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1024x858.png 1024w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-300x251.png 300w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-768x644.png 768w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1536x1288.png 1536w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1.png 1880w" sizes="(max-width: 633px) 100vw, 633px" /></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" width="1024" height="858" src="https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1024x858.png" alt="the layers of how OIDC works. when a HTTP request is sent, OAuth2.0 checks for authorisation access permissions, and OIDC checks for user identity" class="wp-image-48868" style="object-fit:contain;width:633px;height:531px" srcset="https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1024x858.png 1024w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-300x251.png 300w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-768x644.png 768w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1536x1288.png 1536w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1.png 1880w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
