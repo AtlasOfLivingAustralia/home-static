@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 27 Nov 2023 02:38:17 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 14 Jan 2024 22:03:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,119 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Protecting Australian biodiversity with data</title>
+		<link>https://www.ala.org.au/blogs-news/protecting-australian-biodiversity-with-data/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Sun, 14 Jan 2024 22:03:39 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=47966</guid>
+
+					<description><![CDATA[Meet our ALA Australian Biodiversity Data Mobilisation Program winners As Australia is home to unique biodiversity and ecosystems, it’s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species. While biodiversity data such as physical specimens in collections, or data from field programs are used [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Meet our ALA Australian Biodiversity Data Mobilisation Program winners</strong></p>
+
+
+
+<p>As Australia is home to unique biodiversity and ecosystems, it’s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species.</p>
+
+
+
+<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
+
+
+
+<p>To improve data accessibility the Atlas of Living Australia (ALA) launched the&nbsp;<a href="https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/">Australian Biodiversity Data Mobilisation Program</a> in 2022. This program is designed to support Australian museums, biological collections, herbaria, and research teams to digitise their data, and making it available through the ALA, and internationally through the Global Biodiversity Information Facility (GBIF).</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" fetchpriority="high" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1024x577.png" alt="" class="wp-image-49179" srcset="https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-300x169.png 300w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-768x433.png 768w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Biodiversity Data Mobilisation Program banner.</figcaption></figure>
+
+
+
+<p class="has-text-align-left">Through a nationally competitive application process, projects were awarded grants to digitise their priority biodiversity data. The output from this program will enable data on rare and unique species to become open and accessible through the ALA. Using FAIR principles (findable, accessible, interoperable, reusable), this data will support research, decision-making and conservation efforts to better protect Australian biodiversity.</p>
+
+
+
+<p><strong>Funded projects:</strong></p>
+
+
+
+<p><strong>2022 projects</strong>:</p>
+
+
+
+<ul type="1">
+<li>New South Wales Department of Primary Industries, NSW – mobilising plant pest and disease data from the NSW Biosecurity Collections (~600,000 records).</li>
+
+
+
+<li>South Australia Museum (SAM), SA– mobilise the SAM’s Australian Biological Tissues Collection of 39 donated frozen tissue collections of Australian freshwater fishes (around 90% of all known species and ~46,000 records).</li>
+
+
+
+<li>Queensland Museum Network, QLD – mobilising and enhancing data from the Cribb Australian Fish Trematode Collection (&gt;20,000 records of &gt;1,000 fish species).</li>
+
+
+
+<li>Tasmanian Museum and Art Gallery, TAS – mobilising wildlife molecular and tissue data (&gt; 8,500 sample vials and 1,650 formalin-fixed specimens in the histology collection).</li>
+
+
+
+<li>Edith Cowan University, WA – mobilising plant and fungi data from the Robert Brown Herbarium.</li>
+
+
+
+<li>Botanic Gardens and Parks Authority, WA – mobilising data in the Kings Park and Botanic Garden Herbarium collection (18,200 specimens).</li>
+</ul>
+
+
+
+<p><strong>2023 projects:</strong></p>
+
+
+
+<ul type="1">
+<li>National Herbarium of Victoria, Royal Botanic Gardens of Victoria – mobilising more than 5,000 specimen-based occurrence data records from Australian macroalgae.</li>
+
+
+
+<li>Western Australian Museum – mobilising thousands of native bee data records from physical specimens collected southwestern WA, representing more than 200 bee species.</li>
+
+
+
+<li>Botanic Gardens and State Herbarium, South Australia – making &gt;30,000 bryophyte and &gt;6,000 lichen records available to the ALA through digitisation of physical collection labels.</li>
+
+
+
+<li>D’Estrees Entomology and Science Services – delivery of 7,000 -10,000 insect occurrence records from Kangaroo Island, focused on underrepresented taxa.</li>
+
+
+
+<li>Tasmanian Museum and Art Gallery – mobilising more than 15,000 invertebrate species records representing Tasmanian spiders, echinoderms, cnidarians and annelids.</li>
+</ul>
+
+
+
+<p>Congratulations to the successful projects, we look forward to working with them to make their data available nationally. We’d like to also acknowledge the applications that were not successful as they were universally excellent making our assessment process very challenging. We are also grateful to the independent review panel for their work in reviewing proposals and selecting a fantastic suite of final recipients.</p>
+
+
+
+<figure class="wp-block-image size-medium"><img decoding="async" width="200" height="300" src="https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-200x300.jpg" alt="" class="wp-image-47969" srcset="https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-200x300.jpg 200w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-683x1024.jpg 683w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-768x1152.jpg 768w, https://www.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1.jpg 800w" sizes="(max-width: 200px) 100vw, 200px" /><figcaption class="wp-element-caption">Leanne Wheaton working on collections specimens at South Australia Museum, Photo Credit Denis Smith, South Australia Museum. </figcaption></figure>
+
+
+
+<p>The 2024 grant round for the Australian Biodiversity Data Mobilisation Program will open for applications in&nbsp;<strong>late autumn 2024</strong>. Keep an eye on the ALA website, social media channels and blogs for more information shortly.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA’s International Biodiversity Engagements</title>
 		<link>https://www.ala.org.au/blogs-news/alas-international-biodiversity-engagements/</link>
 		
@@ -42,7 +155,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" fetchpriority="high" width="1024" height="452" src="https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient-1024x452.jpg" alt="" class="wp-image-48506" srcset="https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient-1024x452.jpg 1024w, https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient-300x132.jpg 300w, https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient-768x339.jpg 768w, https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient.jpg 1478w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">TDWG 2023 logo</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="452" src="https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient-1024x452.jpg" alt="" class="wp-image-48506" srcset="https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient-1024x452.jpg 1024w, https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient-300x132.jpg 300w, https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient-768x339.jpg 768w, https://www.ala.org.au/app/uploads/2023/06/BIS-TDWG-Logo-CMYK-Gradient.jpg 1478w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">TDWG 2023 logo</figcaption></figure>
 
 
 
@@ -88,7 +201,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-1024x577.png" alt="Collage of Australian animals on a cream coloured background" class="wp-image-48982" srcset="https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-1024x577.png" alt="Collage of Australian animals on a cream coloured background" class="wp-image-48982" srcset="https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-300x169.png 300w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-768x433.png 768w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2023/10/Fungi-Friday-15.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -154,7 +267,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="540" src="https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-1024x540.jpg" alt="" class="wp-image-48983" srcset="https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-1024x540.jpg 1024w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-300x158.jpg 300w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-768x405.jpg 768w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-1536x810.jpg 1536w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-2048x1080.jpg 2048w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-1920x1012.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="1024" height="540" src="https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-1024x540.jpg" alt="" class="wp-image-48983" srcset="https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-1024x540.jpg 1024w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-300x158.jpg 300w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-768x405.jpg 768w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-1536x810.jpg 1536w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-2048x1080.jpg 2048w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1-1920x1012.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -808,137 +921,6 @@
 <p>You can further help threatened species in Australia by engaging in citizen science to help fill the gaps in species records across the country. One of the most effective tools for protecting our native biodiversity is having access to information that shows where species are and how their populations are changing over time. Taxonomic groups like invertebrates, fungi and plants are underrepresented in species occurrence records, therefore the number of identified threatened species from these groups is thought to be much higher than current reported figures. Click the link to learn more about <a href="https://support.ala.org.au/support/solutions/articles/6000261577-citizen-science">submitting citizen science species occurrence records</a> to support Australian biodiversity sciences.</p>
 
 
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Webinar: Safeguarding Sensitive Species</title>
-		<link>https://www.ala.org.au/blogs-news/ala-webinar-safeguarding-sensitive-species/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Fri, 07 Jul 2023 03:00:34 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48630</guid>
-
-					<description><![CDATA[Hosted by the Atlas of Living Australia (ALA), this webinar brings together expert speakers from three organisations to explore the challenges, management strategies, and data sensitivities used to protect Australia’s rarest and most vulnerable species. Restricted Access Species Data &#8211; often known as ‘sensitive species data’ – is information about biodiversity with features that mean [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>Hosted by the Atlas of Living Australia (ALA), this webinar brings together expert speakers from three organisations to explore the challenges, management strategies, and data sensitivities used to protect Australia’s rarest and most vulnerable species. </p>
-
-
-
-<p>Restricted Access Species Data &#8211; often known as ‘sensitive species data’ – is information about biodiversity with features that mean there are reasons for withholding the data from public view or modifying it before it is made public. An example of why obscuring species information may be necessary is because exposing a species’ exact location could risk harm, exploitation, or poaching. Restricted Access Species Data are needed for conservation management, decision-making, and research to implement strategies to best protect ‘sensitive species.’</p>
-
-
-
-<div style="height:11px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA Webinar: Safeguarding Sensitive Species – 5 July 2023" width="640" height="360" src="https://www.youtube.com/embed/tdqYFDEXkLw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>This webinar took place at 1.00pm AEST, Wednesday 5 July 2023, with 195 live viewers in attendance.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" id="speakers">Speakers</h2>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/07/philip-gleeson.png" alt="&quot;&quot;" class="wp-image-48634"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="arve-solland-ecocommons">Philip Gleeson | NSW Department of Planning &amp; Environment</h3>
-
-
-
-<p>Philip Gleeson is Senior Wildlife Data Officer for the NSW Department of Planning and Environment. Philip has worked on BioNet Atlas, the NSW government’s primary repository of biodiversity data since 2001. He was part of the development team that turned it from an internal database to a website providing public and secure login access to external clients in 2011. It was through that development that the department was able to implement its Sensitive Species Data Policy which had been developed following 5 years of internal discussion and negotiation. In order to maintain his understanding of the biodiversity data he manages, Philip has participated in a range of survey programs across the department and is currently involved in the survey and mapping of two cliff-dwelling endemic plants of the Blue Mountains where he now resides.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/07/rachel-swain.png" alt="&quot;&quot;" class="wp-image-48635"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="miles-nicholls-atlas-of-living-australia">Rachel Swain | BirdLife Australia</h3>
-
-
-
-<p>Rachel Swain is the Citizen Science Engagement Manager at BirdLife Australia and has a background in data analysis, engineering and acoustic monitoring. As a strong advocate for citizen science, Rachel is committed to ensuring the Birdata community is an exciting and inclusive space that delivers the best conservation impact for Australian birds. When not working with the Birdata community, Rachel can usually be found trekking through the great outdoors, whether on foot or by bike, trying to spot as many birds as she can along the way.&nbsp;</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/07/golo-maurer.png" alt="&quot;&quot;" class="wp-image-48636"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="ana-belgun-data61">Golo Maurer | BirdLife Australia</h3>
-
-
-
-<p>Golo Maurer has been involved in ecological research and conservation for over 20 years both in Australia and overseas with over 50 peer-reviewed publications. He joined BirdLife Australia in 2010 and now leads BirdLife&#8217;s Citizen Science Program and BirdLife&#8217;s Indigenous engagement work. In his role, Golo helps ensure that the 22 million bird records in Birdata work for conservation and that Birdata empowers and inspires thousands of citizen scientists across Australia to make their birding count. When Golo does not watch birds or work to save them, he sleeps, compiling a dream list with 363 species recorded to date in this most challenging realm of birding.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2023/07/helen-eniskat.png" alt="&quot;&quot;" class="wp-image-48637"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="ana-belgun-data61">Helen Ensikat | WA Department of Biodiversity, Conservation and Attractions</h3>
-
-
-
-<p>Helen is the manager of Western Australia’s Biodiversity Information Office, hosted within the Department of Biodiversity, Conservation and Attractions. She has a background in public sector data policy, evaluation, and regulation, and has been involved in the development of Western Australia’s Open Data Policy, and forthcoming Privacy and Responsible Information Sharing reforms. She and her team at BIO are working to make curated biodiversity data from all environment-related sectors more discoverable, accessible, and useful.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" loading="lazy" width="135" height="180" src="https://www.ala.org.au/app/uploads/2021/11/Webinar-moderator-Martin.png" alt="Martin Westgate" class="wp-image-45781"/></figure></div>
-
-
-<h3 class="wp-block-heading" id="moderator-bio">Moderator bio</h3>
-
-
-
-<p>Martin&nbsp;Westgate leads the Science and Decision Support team at the&nbsp;Atlas of Living Australia. His research focuses on how scientific&nbsp;information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin&nbsp;is also a scientific software developer and occasional frog-watcher.</p>
-
-
-
-<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" id="want-more">Want more?</h2>
-
-
-
-<p>All ALA webinars are available to view on&nbsp;<a href="https://www.youtube.com/channel/UC7PfG5Y80SwAP3dtW8Zkc-g/featured">our YouTube channel</a>&nbsp;along with other video content.</p>
 ]]></content:encoded>
 					
 		
