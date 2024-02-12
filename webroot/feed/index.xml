@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 09 Feb 2024 01:48:14 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 12 Feb 2024 22:15:41 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,123 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Call for applications – GBIF 2024 Graduate Researchers Award</title>
+		<link>https://www.ala.org.au/blogs-news/call-for-applications-gbif-2024-graduate-researchers-award/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Mon, 12 Feb 2024 22:15:40 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49206</guid>
+
+					<description><![CDATA[Nominations are open for the GBIF 2024 Graduate Researchers Award! This award is an annual program aimed at fostering and recognising innovative research and discovery in biodiversity informatics at the Masters and PhD student level.]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="320" src="https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1024x320.png" alt="" class="wp-image-49207" srcset="https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1024x320.png 1024w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-300x94.png 300w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-768x240.png 768w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1536x480.png 1536w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1920x600.png 1920w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>The 2024 programme will provide two €5,000 prizes (approx. AUD $8,200) recognising the work of two early-career researchers. Nominations are open to Masters and PhD students conducting innovative research using biodiversity data available through the <a href="https://www.gbif.org/" target="_blank" rel="noreferrer noopener">Global Biodiversity Information Facility</a> (GBIF). The Atlas of Living Australia is the Australian node of GBIF, meaning all data in the ALA are also accessible via GBIF.</p>
+
+
+
+<p>All applicants need to receive a formal nomination from the heads of delegation and node managers of&nbsp;<a href="https://www.gbif.org/the-gbif-network">GBIF Participant countries</a>. This year our team at the Atlas of Living Australia will coordinate the applications from Australian researchers. We will select two nominations to be assessed by the GBIF Science Committee.</p>
+
+
+
+<p><strong><em><mark>Australian applications to the ALA are due by 31st May 2024.</mark></em></strong></p>
+
+
+
+<p><strong>Nomination process</strong></p>
+
+
+
+<p>Two Australian nominations will be selected for submission to GBIF by the Australian GBIF Delegation in time for the GBIF submission deadline. Please contact&nbsp;<a href="mailto:outreach@ala.org.au">outreach@ala.org.au</a>&nbsp;if you require further information.</p>
+
+
+
+<p>A jury organised by <a href="https://www.gbif.org/contact-us/directory?group=scienceCommittee" target="_blank" rel="noreferrer noopener">GBIF Science Committee</a> will select the two award recipients from the pool of nominees received from the country delegation by the GBIF Secretariat.</p>
+
+
+
+<p>Note: Awardees are expected to acknowledge GBIF support when disseminating research results via peer-reviewed publications, presentations at professional meetings, and other media.</p>
+
+
+
+<p><strong>Award nomination packet</strong></p>
+
+
+
+<p>Candidates should prepare their proposal and nomination packets to include:</p>
+
+
+
+<ol start="1">
+<li><strong>Research summary</strong>&nbsp;(<em>200 words</em>)</li>
+
+
+
+<li><strong>Project description</strong> (<em>maximum 5 pages, 12-point Arial</em> <em>font</em>) that describes:<br>a. How the research advances biodiversity informatics and/or the conservation of biological diversity.<br>b. <strong>The role of data accessed through GBIF in addressing these questions</strong>. Research proposals must clearly demonstrate how the study incorporates data mobilised through GBIF. Students with questions about GBIF-enabled data should work with academic advisors, their GBIF national node, the GBIF Secretariat or members of the Science Committee to increase their understanding.<br>c. The research scope, plan, methodologies, relevant literature citations and timetable.<br>d. If relevant, a description or an excerpt from a data management plan that outlines how data related to the research is published or will be prepared for publication through the GBIF network to GBIF.org.</li>
+
+
+
+<li><strong>Curriculum vitae</strong>&nbsp;of the student applicant including full contact information at the home institution.</li>
+
+
+
+<li><strong>Supporting documents</strong><br>a. An official letter from the student’s faculty mentor/supervisor certifying that the applicant is a student in good standing in the graduate program of the university.<br>b. At least one, and no more than three, letters of support from established researchers active in a field that encompasses and incorporates biodiversity informatics (e.g., genetics, species composition and traits, biogeography, ecology, systematics, et al.)</li>
+</ol>
+
+
+
+<p><strong>How to submit an application to the ALA (Australian applicants)</strong></p>
+
+
+
+<ol start="1">
+<li>Visit the <a href="https://www.gbif.org/news/0YedTUAf3Nk14JKZqBn0a/call-opens-for-nominations-to-2024-gbif-graduate-researchers-award#_national-deadlines-for-2024">GBIF 2024 Graduate Researchers Award</a> page and follow the instructions. <br></li>
+
+
+
+<li>Submit your nominations to <a href="mailto:outreach@ala.org.au">outreach@ala.org.au</a> with ‘2024 GBIF Graduate Researchers Application _YOUR NAME’ in the subject line by <strong>31st May 2024.</strong></li>
+</ol>
+
+
+
+<p>The criteria for the awards include:</p>
+
+
+
+<ul>
+<li>Originality and innovation</li>
+
+
+
+<li>Use of and strategic significance for data accessed through GBIF</li>
+
+
+
+<li>Measurable effectiveness and impact in advancing biodiversity informatics and/or the conservation of biological diversity</li>
+</ul>
+
+
+
+<p><strong>Further information</strong></p>
+
+
+
+<p>Full details, including how to nominate and eligibility criteria, can be found on the <a href="https://www.gbif.org/news/0YedTUAf3Nk14JKZqBn0a/call-opens-for-nominations-to-2024-gbif-graduate-researchers-award#_national-deadlines-for-2024">GBIF</a> website.</p>
+
+
+
+<p><a href="https://www.ala.org.au/blog/">&nbsp;Back to Articles</a></p>
+
+
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>International Day of Women and Girls in Science</title>
 		<link>https://www.ala.org.au/blogs-news/international-day-of-women-and-girls-in-science/</link>
 		
@@ -46,7 +163,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg" alt="" class="wp-image-49213" style="width:365px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-2048x2048.jpg 2048w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1920x1920.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Clara Peers Tejero</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg" alt="" class="wp-image-49213" style="width:365px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-2048x2048.jpg 2048w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1920x1920.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Clara Peers Tejero</figcaption></figure>
 
 
 
@@ -123,7 +240,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1024x577.png" alt="" class="wp-image-49179" srcset="https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-300x169.png 300w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-768x433.png 768w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Biodiversity Data Mobilisation Program banner.</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1024x577.png" alt="" class="wp-image-49179" srcset="https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-300x169.png 300w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-768x433.png 768w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2024/01/Fungi-Friday-24.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Biodiversity Data Mobilisation Program banner.</figcaption></figure>
 
 
 
@@ -811,120 +928,6 @@
 
 
 <p>#WorldCassowaryDay</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA National Science Week 2023 recordings</title>
-		<link>https://www.ala.org.au/blogs-news/ala-national-science-week-2023-recordings/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Fri, 25 Aug 2023 00:42:56 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48740</guid>
-
-					<description><![CDATA[To celebrate National Science Week 2023, the Atlas of Living Australia (ALA) hosted three free virtual events. Our events aimed to ignite curiosity, foster learning, and deepen connection with biological sciences and the environment. Whether you were able to join us on the day and want to catch-up on the content, or if you weren&#8217;t [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>To celebrate National Science Week 2023, the Atlas of Living Australia (ALA) hosted three free virtual events. Our events aimed to ignite curiosity, foster learning, and deepen connection with biological sciences and the environment.</p>
-
-
-
-<p>Whether you were able to join us on the day and want to catch-up on the content, or if you weren&#8217;t able to make it, we&#8217;ve got you covered with recordings of our three events.</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p><strong>15th August 2023 &#8211; {galah} 101 Beginners guide</strong></p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA Workshop: galah 101 Beginner&#039;s guide – National Science Week – 15 Aug 2023" width="640" height="360" src="https://www.youtube.com/embed/8YY63sqKfEM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>Check out the slides from Dr Dax Kellie and Dr Amanda Buyan <a href="https://acbuyan.quarto.pub/galah-101-beginners-guide/">here</a></p>
-
-
-
-<p>Are you interested in getting the most out of data in the ALA? We’ve developed the ALA {galah} tool to&nbsp;enable users to deep-dive and transform species occurrence information. Whether you want to locate and download species records, investigate taxonomic information and associated media such as images or sounds, or restrict queries to certain taxa or locations, {galah} can do it all! This tool has been developed for both the R-Studio and Python coding languages.</p>
-
-
-
-<p>Our beginner-friendly workshop introduces a step-by-step introduction to using both {galah} for R-Studio and Python</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p><strong>16th August 2023 &#8211; All is F.A.I.R. in open science and data</strong></p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA Webinar: All is F.A.I.R in open science &amp; data – National Science Week – 16 Aug 2023" width="640" height="360" src="https://www.youtube.com/embed/Dp_jF8Zxyxc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>Open science is the practice of making scientific knowledge, research and information accessible. As Australia’s national biodiversity data aggregator, we explore why open science is so important to delivering strong biodiversity outcomes.</p>
-
-
-
-<p>Hear ALA team members Ely Wallis, Peggy Newman and Dax Kellie discuss:</p>
-
-
-
-<ul>
-<li>How the F.A.I.R. (findable, accessible, interoperable and reusable) principles are used through copyright and licencing in the ALA</li>
-</ul>
-
-
-
-<ul>
-<li>How the ALA supports open science through its data infrastructure and services</li>
-</ul>
-
-
-
-<ul>
-<li>How open science facilitates transparent, robust research.</li>
-</ul>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p><strong>17th August 2023 &#8211; Maximising your metadata for citizen science</strong></p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA Webinar – Maximising your metadata for citizen science – National Science Week – 17 Aug 2023" width="640" height="360" src="https://www.youtube.com/embed/XU-62h4Q-Zs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>Citizen science is an accessible gateway for anybody to engage in science regardless of age, location or demographic. Integrated citizen science apps take in millions of species occurrence records each year, which are then verified before being fed through to the ALA to become open and accessible data.</p>
-
-
-
-<p>Hear from Dr Erin Roger and Cam Slatyer from the ALA, Thomas Mesaglio from iNaturalist and Dr Jasmin Packer from the FungiMap Project discuss what makes a great species observation record, and learn tips and tricks for collecting the best quality metadata – data about data. Higher quality metadata (attributes like location, images, date of collection, etc.) helps to paint a more detailed picture of Australia’s biodiversity. More accurate metadata also helps to identify native vs. invasive species more readily for better biosecurity monitoring. </p>
 ]]></content:encoded>
 					
 		
