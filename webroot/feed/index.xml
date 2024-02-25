@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 27 Jul 2023 21:51:08 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 25 Feb 2024 23:46:28 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,23 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>International Day of Women and Girls in Science</title>
+		<link>https://www-test.ala.org.au/blogs-news/international-day-of-women-and-girls-in-science/</link>
+		
+		<dc:creator><![CDATA[Matt Andrews]]></dc:creator>
+		<pubDate>Sun, 25 Feb 2024 23:46:27 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45949</guid>
+
+					<description><![CDATA[February 11th 2024 is the United Nations International Day of Women and Girls in Science. It’s an opportunity to celebrate the achievements of women and girls in science, technology, engineering and mathematics (STEM), whilst acknowledging the persistent gaps in representation and equality in these fields.]]></description>
+										<content:encoded><![CDATA[
+<p id="block-ba076711-c44c-4edc-8dcc-1f8122d81987">February 11th 2024 is the <a href="https://www.un.org/en/observances/women-and-girls-in-science-day">United Nations International Day of Women and Girls in Science</a>. It’s an opportunity to celebrate the achievements of women and girls in science, technology, engineering and mathematics (STEM), whilst acknowledging the persistent gaps in representation and equality in these fields.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Test blog &#8211; Friday</title>
 		<link>https://www-test.ala.org.au/blogs-news/test-blog-friday/</link>
 		
@@ -170,47 +187,6 @@
 					<description><![CDATA[In breaking news, we have heard that the rumours of the imminent arrival of Tiws-day (known by the younger generation as Tuesday) have proven correct. Take cover!]]></description>
 										<content:encoded><![CDATA[
 <p>In breaking news, we have heard that the rumours of the imminent arrival of Tiws-day (known by the younger generation as Tuesday) have proven correct. Take cover!</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Message&#8230;.</title>
-		<link>https://www-test.ala.org.au/blogs-news/message/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Tue, 07 Sep 2021 07:06:47 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=44582</guid>
-
-					<description><![CDATA[With this context in mind, in this issue of our newsletter we reflect on ALA’s fundamental role with the release of our first Year-in-Review 2020-21.&#160; The year-in-review showcases our last year and reflects on the fundamental contribution made by our partners in supporting the mission of the ALA.]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p>With this context in mind, in this issue of our newsletter we reflect on ALA’s fundamental role with the release of <a href="https://www-test.ala.org.au/app/uploads/2021/09/ALA_Year_in_Review_2020-21_web5MB.pdf">our first Year-in-Review 2020-21</a>.&nbsp; The year-in-review showcases our last year and reflects on the fundamental contribution made by our partners in supporting the mission of the ALA.</p>
-
-
-
-<figure class="wp-block-image size-full is-resized"><a href="https://www-test.ala.org.au/app/uploads/2021/09/ALA_Year_in_Review_2020-21_web5MB.pdf"><img fetchpriority="high" decoding="async" src="https://www-test.ala.org.au/app/uploads/2021/09/ALA-Year-in-Review-thumbnail.png" alt="" class="wp-image-44584" width="245" height="246" srcset="https://www-test.ala.org.au/app/uploads/2021/09/ALA-Year-in-Review-thumbnail.png 710w, https://www-test.ala.org.au/app/uploads/2021/09/ALA-Year-in-Review-thumbnail-300x300.png 300w, https://www-test.ala.org.au/app/uploads/2021/09/ALA-Year-in-Review-thumbnail-150x150.png 150w" sizes="(max-width: 245px) 100vw, 245px" /></a><figcaption>Our<a href="https://www-test.ala.org.au/app/uploads/2021/09/ALA_Year_in_Review_2020-21_web5MB.pdf"> ALA Year in Review 2020-21</a> highlights our achievements over the past year and the fundamental contributions from our data partners.</figcaption></figure>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
