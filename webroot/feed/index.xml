@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 21 Feb 2024 00:31:51 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 29 Feb 2024 05:59:54 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,125 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Combating myrtle rust with citizen science</title>
+		<link>https://www.ala.org.au/blogs-news/combating-myrtle-rust-with-citizen-science/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Thu, 29 Feb 2024 05:55:57 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49194</guid>
+
+					<description><![CDATA[Tackling invasive species with data]]></description>
+										<content:encoded><![CDATA[
+<p>Exotic species are reaching Australian shores at&nbsp;<a href="https://www.csiro.au/en/news/All/News/2023/September/Expert-Commentary-Invasive-Alien-Species">unprecedented rates</a>, due to increased human movement and trade. Each introduction of an invasive species poses a potential threat to Australia’s unique biodiversity and ecological communities. Invasive species monitoring is therefore essential to understanding their spread, range and abundance in Australia. &nbsp;</p>
+
+
+
+<p>The Atlas of Living Australia’s (ALA)&nbsp;<a href="https://www.ala.org.au/biosecurity/">Biosecurity Hub</a>&nbsp;is a one-stop-shop for biosecurity records, projects and information. The ALA currently holds information on more than 2,383 exotic species and 1.9 million occurrences of pests, weeds, and diseases. Although this information has helped to inform&nbsp;<a href="https://ala.org.au/app/uploads/2024/01/ALA-Case-Study-Biosecurity-Alerts-Fact-Sheet-Jan-2024.pdf">current biosecurity responses</a>, continuous data collection is required to create the most detailed picture of Australia’s invasive species landscape.&nbsp;</p>
+
+
+
+<p>Citizen scientists play a crucial role in invasive species monitoring by reporting observations at a local level. These reports help to inform early detection and long-term management of biosecurity threats. The ALA works with more than 850 data partners to aggregate native and invasive records, making this information easily accessible through open data. As an example, the ALA has a weekly data integration feed with the citizen science platform&nbsp;<a href="https://inaturalist.ala.org.au/">iNaturalist</a>, enabling rapid discovery of recent citizen science data, as well as supporting data users and providers such as&nbsp;the&nbsp;<a href="https://www.anpc.asn.au/">Australian Network for Plant Conservation</a> and the&nbsp;<a href="https://www.inaturalist.org/projects/gum-tree-guardians">Gum Tree Guardians</a>&nbsp;through facilitating open access to aggregated biodiversity records.</p>
+
+
+
+<p><strong>One threat among many: The invasive myrtle rust fungus</strong></p>
+
+
+
+<p>If you’ve visited the east coast of Australia in spring or autumn since 2010, you may have noticed plants developing bright yellow spores due to myrtle rust infection. Myrtle rust is an invasive fungus that infects plants in the&nbsp;<a href="https://bie.ala.org.au/species/https:/id.biodiversity.org.au/taxon/apni/51376810"><em>Myrtaceae</em>&nbsp;family</a>, including more than 1,500 species of Australian native trees and shrubs such as&nbsp;tea trees, bottlebrushes, paperbarks, and lily-pillies. Non-native <em>Myrtaceae, </em>which are often grown in gardens or urban forests, are also affected and contribute to the spread of myrtle rust. </p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1024x683.jpg" alt="" class="wp-image-49195" style="width:699px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1920x1280.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Myrtle rust on Beach cherry/Bay cherry (<em>Eugenia reinwardtiana)</em> foliage – Photo Credit Geoff Pegg, Queensland Department of Agriculture and Fisheries.</figcaption></figure>
+
+
+
+<p>In the short time since its introduction, myrtle rust has had devastating impacts on plant communities. Senior Principal Forest Pathologist Dr Geoff Pegg at Queensland Department of Agriculture and Fisheries has said that since myrtle rust was first detected in Australia, it has been a significant contributor to the decline in some of our most iconic native trees like the native guava and scrub turpentine, which were previously common across Queensland and New South Wales.</p>
+
+
+
+<p><em>“People often think that biosecurity starts and stops at the border, but what happens post-border is just as important. Managing these threats in native ecosystems is challenging. I’ve seen first-hand the devastating effects that invasive diseases like myrtle rust have on our biodiversity. Areas of outstanding natural beauty and ecological significance, such as the Daintree and the United Nations Educational, Scientific and Cultural Organisation</em>&nbsp;(<em>UNESCO) World Heritage Gondwana Rainforests, are now threatened due to the rapid spread of myrtle rust.”</em><strong></strong></p>
+
+
+
+<p><strong>How to spot myrtle rust infection</strong></p>
+
+
+
+<p>Myrtle rust affects seedlings, saplings and old established trees.&nbsp;The most distinct symptom of myrtle rust is bright yellow spores on new leaves, stems, flowers, or fruit. Leaves can become deformed and in severe cases, may die and appear scorched. Repeated infections can reduce plant vigour, cause significant defoliation, killing more susceptible trees and preventing flowering and fruiting on others, thereby interfering with reproduction and reducing the food resources for many native animals.&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img decoding="async" width="786" height="1024" src="https://www.ala.org.au/app/uploads/2024/01/Austromyrtus-dulcis-fruit5-786x1024.jpg" alt="" class="wp-image-49196" style="width:446px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/01/Austromyrtus-dulcis-fruit5-786x1024.jpg 786w, https://www.ala.org.au/app/uploads/2024/01/Austromyrtus-dulcis-fruit5-230x300.jpg 230w, https://www.ala.org.au/app/uploads/2024/01/Austromyrtus-dulcis-fruit5-768x1000.jpg 768w, https://www.ala.org.au/app/uploads/2024/01/Austromyrtus-dulcis-fruit5-1179x1536.jpg 1179w, https://www.ala.org.au/app/uploads/2024/01/Austromyrtus-dulcis-fruit5.jpg 1448w" sizes="(max-width: 786px) 100vw, 786px" /><figcaption class="wp-element-caption">Myrtle rust on <a>Midgen berr</a>ies (<em>Austromyrtus dulcis)</em> &#8211; Photo Credit Geoff Pegg, Queensland Department of Agriculture and Fisheries.</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="628" height="942" src="https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg.jpg" alt="" class="wp-image-49197" style="width:446px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg.jpg 628w, https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg-200x300.jpg 200w" sizes="(max-width: 628px) 100vw, 628px" /><figcaption class="wp-element-caption">Repeated myrtle rust infection has almost killed this 100-year-old Sour cherry tree (<em>Syzygium corynanthum</em>) in the Tallebudgera Valley <a>&#8211; Photo Credit Geoff Pegg</a>, Queensland Department of Agriculture and Fisheries.</figcaption></figure>
+
+
+
+<p><strong>Help provide up-to-date myrtle rust data</strong></p>
+
+
+
+<p>To combat the threat of myrtle rust, current data is required to inform researchers, policymakers, landholders and decision-makers about how myrtle rust spreads&nbsp;and impacts different plant communities. Members of the public across Australia can play a vital role by reporting possible myrtle rust infections through citizen science, providing data that helps to protect Australia’s high-risk species. Data from citizen science contributes to a more complete record of the abundance and impacts of invasive species.</p>
+
+
+
+<p>Alyssa Martino, a PhD student at the University of Sydney who is studying myrtle rust infection and leads the iNaturalist Gum Tree Guardians project says that,</p>
+
+
+
+<p><em>“People submit myrtle rust reports from their gardens or out in the bush – places that are hard for professional researchers to monitor. When people report these myrtle rust sightings, we get a broader understanding of the extent of the disease which gives us a chance to fight back against the spread.”&nbsp;</em></p>
+
+
+
+<p>The myrtle rust data from citizen scientists are then aggregated in the ALA with data collected from other sources, such as professional scientists, industry and government agencies, to be open and accessible data points.</p>
+
+
+
+<p><strong>How to report myrtle rust sightings</strong></p>
+
+
+
+<p>By collecting myrtle rust data, you’re helping to paint a more detailed picture of Australia’s invasive species.</p>
+
+
+
+<ol>
+<li>Install a citizen science app such as&nbsp;<a href="https://inaturalist.ala.org.au/pages/getting+started">iNaturalist</a>&nbsp;or&nbsp;<a href="https://naturemapr.org/content/how-to">NatureMapr</a>.</li>
+
+
+
+<li>Use the <strong><a href="https://ala.org.au/app/uploads/2024/02/ALA-Myrtle-Rust-Reporting-Guide.pdf">ALA Myrtle Rust Reporting Guide</a></strong> to help you identify and capture the critical information to report possible myrtle rust sightings.</li>
+
+
+
+<li><strong>Don’t touch!</strong>&nbsp;Follow&nbsp;<a href="https://www.dcceew.gov.au/environment/invasive-species/diseases-fungi-and-parasites/myrtle-rust">best practices</a>&nbsp;to avoid accidentally spreading pathogens like myrtle rust!</li>
+
+
+
+<li>Check out citizen science projects like the&nbsp;<a href="https://www.inaturalist.org/projects/gum-tree-guardians">iNaturalist project Gum Tree Guardians</a>&nbsp;to connect with experts and learn more about myrtle rust in Australia.</li>
+</ol>
+
+
+
+<p>For more information, visit the&nbsp;<a href="https://www.ala.org.au/biosecurity/">ALA Biosecurity Hub</a>&nbsp;or contact us&nbsp;<a href="https://www.ala.org.au/contact-us/">here</a>.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><a href="https://www.inaturalist.org/projects/gum-tree-guardians"><img loading="lazy" decoding="async" width="717" height="253" src="https://www.ala.org.au/app/uploads/2024/01/Gum-tree-guardians.png" alt="" class="wp-image-49198" style="width:278px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/01/Gum-tree-guardians.png 717w, https://www.ala.org.au/app/uploads/2024/01/Gum-tree-guardians-300x106.png 300w" sizes="(max-width: 717px) 100vw, 717px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large is-resized"><a href="https://www.anpc.asn.au/"><img loading="lazy" decoding="async" width="1024" height="300" src="https://www.ala.org.au/app/uploads/2024/02/ANPC_inline_col-1024x300.png" alt="" class="wp-image-49271" style="width:283px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/02/ANPC_inline_col-1024x300.png 1024w, https://www.ala.org.au/app/uploads/2024/02/ANPC_inline_col-300x88.png 300w, https://www.ala.org.au/app/uploads/2024/02/ANPC_inline_col-768x225.png 768w, https://www.ala.org.au/app/uploads/2024/02/ANPC_inline_col.png 1210w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Webinar: Transforming Australia’s biological collections to open data</title>
 		<link>https://www.ala.org.au/blogs-news/ala-webinar-transforming-australias-biological-collections-to-open-data/</link>
 		
@@ -52,7 +171,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="Atlas of Living Australia Webinar Transforming Australia’s biological collections to open data   Web" width="640" height="360" src="https://www.youtube.com/embed/G7GIp7LTryk?start=111&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe loading="lazy" title="Atlas of Living Australia Webinar Transforming Australia’s biological collections to open data   Web" width="640" height="360" src="https://www.youtube.com/embed/G7GIp7LTryk?start=111&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div><figcaption class="wp-element-caption">Weblink to recording: <a href="https://www.youtube.com/watch?v=G7GIp7LTryk&amp;t=111s" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=G7GIp7LTryk&amp;t=111s</a>. The event was hosted on 20 Feb 2024 at 11AM AEDT. It was attended by more than 400 live viewers on the day. </figcaption></figure>
 
 
@@ -134,7 +253,7 @@
 
 					<description><![CDATA[Nominations are open for the GBIF 2024 Graduate Researchers Award! This award is an annual program aimed at fostering and recognising innovative research and discovery in biodiversity informatics at the Masters and PhD student level.]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="320" src="https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1024x320.png" alt="" class="wp-image-49207" srcset="https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1024x320.png 1024w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-300x94.png 300w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-768x240.png 768w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1536x480.png 1536w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1920x600.png 1920w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="320" src="https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1024x320.png" alt="" class="wp-image-49207" srcset="https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1024x320.png 1024w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-300x94.png 300w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-768x240.png 768w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1536x480.png 1536w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15-1920x600.png 1920w, https://www.ala.org.au/app/uploads/2024/01/GRA-2024-hero4-15.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -259,7 +378,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg" alt="" class="wp-image-49213" style="width:365px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-2048x2048.jpg 2048w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1920x1920.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Clara Peers Tejero</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg" alt="" class="wp-image-49213" style="width:365px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-2048x2048.jpg 2048w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1920x1920.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Clara Peers Tejero</figcaption></figure>
 
 
 
@@ -808,149 +927,6 @@
 
 
 <figure class="wp-block-image size-large"><a href="https://minister.dcceew.gov.au/plibersek/speeches/speech-global-diversity-information-facility-gala-dinner"><img loading="lazy" decoding="async" width="1024" height="660" src="https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-1024x660.jpg" alt="Hon Tanya Plibersek giving her speech" class="wp-image-48961" srcset="https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-1024x660.jpg 1024w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-300x193.jpg 300w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-768x495.jpg 768w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-1536x989.jpg 1536w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-1920x1237.jpg 1920w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Minister for the Environment and Water Hon Tanya Plibersek, giving her speech at the GBIF gala dinner. </figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Elevating ALA’s Data Security with OpenID Connect</title>
-		<link>https://www.ala.org.au/blogs-news/elevating-alas-data-security-with-openid-connect/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Mon, 23 Oct 2023 04:17:42 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48865</guid>
-
-					<description><![CDATA[As Australia’s national biodiversity data infrastructure, the Atlas of Living Australia (ALA) is committed to providing reliable and secure data access to our users. In line with this commitment, we are excited to announce our transition to OpenID Connect (OIDC) authentication, which will help to streamline the process for accessing data within the ALA across [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="223" src="https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-1024x223.png" alt="&quot;&quot;" class="wp-image-48871" srcset="https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-1024x223.png 1024w, https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-300x65.png 300w, https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-768x167.png 768w, https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner-1536x335.png 1536w, https://www.ala.org.au/app/uploads/2023/09/infrastructure-update-banner.png 1867w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<p>As Australia’s national biodiversity data infrastructure, the Atlas of Living Australia (ALA) is committed to providing reliable and secure data access to our users. In line with this commitment, we are excited to announce our transition to OpenID Connect (OIDC) authentication, which will help to streamline the process for accessing data within the ALA across multiple platforms.</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="what-is-oidc">What is OIDC?</h2>
-
-
-
-<p>With OIDC, you can log in to multiple platforms using a single set of sign-in credentials while ensuring that your personal information is secure and private.</p>
-
-
-
-<p>OIDC is an identity layer built on top of the <a rel="noreferrer noopener" href="https://oauth.net/2/" target="_blank">OAuth 2.0</a> protocol. It&#8217;s designed to facilitate secure authentication and single sign-on (SSO) across different applications and services. If you’d like to read more about how OIDC works with OAuth 2.0, see OpenID Foundation&#8217;s article on <a rel="noreferrer noopener" href="https://openid.net/developers/how-connect-works/" target="_blank">how OpenID Connect works</a><a rel="noreferrer noopener" href="https://openid.net/developers/how-connect-works/" target="_blank">.</a></p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="858" src="https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1024x858.png" alt="the layers of how OIDC works. when a HTTP request is sent, OAuth2.0 checks for authorisation access permissions, and OIDC checks for user identity" class="wp-image-48868" style="object-fit:contain;width:633px;height:531px" srcset="https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1024x858.png 1024w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-300x251.png 300w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-768x644.png 768w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1-1536x1288.png 1536w, https://www.ala.org.au/app/uploads/2023/09/OIDC-1.png 1880w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="why-oidc">Why OIDC?</h2>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 class="wp-block-heading" class="wp-block-heading" id="enhanced-security"><strong>Enhanced Security</strong></h3>
-
-
-
-<p>One of the key drivers behind ALA&#8217;s adoption of OpenID Connect (OIDC) is its ability to enhance data security.</p>
-
-
-
-<p>OIDC operates by employing secure tokens in the background to validate a user&#8217;s identity. These tokens are designed to be short-lived and encrypted, ensuring that your credentials remain protected and reducing the potential for unauthorised access or data breaches.</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 class="wp-block-heading" class="wp-block-heading" id="seamless-user-experience"><strong>Seamless User Experience</strong></h3>
-
-
-
-<p>We’re committed to improving your experience across the ALA site; while this includes features like navigation, readability and look and feel, it also relates to login experience and performance. OIDC enhances our current SSO capabilities, allowing you to log in once to access multiple services without repeatedly entering your credentials.</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 class="wp-block-heading" class="wp-block-heading" id="federated-sign-in"><strong>Federated sign-in</strong></h3>
-
-
-
-<p>OIDC also enhances federated identity services. This means that you can continue to leverage your existing accounts from trusted identity providers such as the <a href="https://aaf.edu.au/">Australian Access Federation</a> (AAF), eliminating the need to create another username and password – making it quicker and easier to access the ALA for existing AAF users.</p>
-
-
-
-<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h3 class="wp-block-heading" class="wp-block-heading" id="scalability-and-integration"><strong>Scalability and Integration</strong></h3>
-
-
-
-<p>As the number of records in the ALA grows, we ensure that our systems are flexible and scalable. OIDC allows us to integrate with a variety of web applications and evolve alongside other technical advancements.</p>
-
-
-
-<p>Collaboration is also a big part of what we do at the ALA, so we can continue to make even more data findable and accessible. With the growing adoption of OIDC, integration is made easier with our data partners and other collaborators. For example, we are working with <a href="https://www.tern.org.au/">TERN</a> to integrate OIDC, making it quicker and easier for our <a href="https://fieldcapture.ala.org.au/">MERIT</a> users to sign in and submit data to the MERIT system using the TERN Monitor application.</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="summary">Summary</h2>
-
-
-
-<p>The adoption of OIDC authentication represents a significant milestone in the ALA’s ongoing commitment to data security, performance, and user experience. We remain dedicated to staying at the forefront of technology to do so, and we look forward to continued growth and collaboration with our user community. The ALA has more exciting infrastructure and technology changes coming soon – watch this space!</p>
-
-
-
-<p>If you would like to know more about how OIDC benefits your data access experience, please reach out at <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
-
-
-
-<div style="height:17px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA adopts OpenID Connect (OIDC)" width="640" height="360" src="https://www.youtube.com/embed/rIpy_f1pHtM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<div style="height:41px" aria-hidden="true" class="wp-block-spacer"></div>
 ]]></content:encoded>
 					
 		
