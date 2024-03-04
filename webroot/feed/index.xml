@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 29 Feb 2024 06:09:16 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 04 Mar 2024 06:14:00 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,43 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Australia’s most unwanted: Tackling invasives with The ALA Biosecurity Alerts Service</title>
+		<link>https://www.ala.org.au/blogs-news/australias-most-unwanted-tackling-invasives-with-the-ala-biosecurity-alerts-service/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Mon, 04 Mar 2024 06:13:59 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=48781</guid>
+
+					<description><![CDATA[Helping to protect our biodiversity from the threats of invasive species.]]></description>
+										<content:encoded><![CDATA[
+<p>The <a href="http://ala.org.au/">Atlas of Living Australia</a> (ALA) is Australia’s largest open-source biodiversity data infrastructure. Home to more than 132 million species occurrence records of native and introduced species, the ALA is often the first platform where invasive species incursions are publicly recorded. Invasive species – like pests, weeds, and diseases – are a major driver of biodiversity loss and pose significant threats to both the economy and our community. To ensure management authorities are notified of new incursions, the ALA has partnered with the <a href="https://www.agriculture.gov.au/">Commonwealth Department of Agriculture, Fisheries and Forestry</a> and <a href="https://www.csiro.au/">CSIRO</a> through the <a href="https://www.csiro.au/en/about/challenges-missions/biosecurity">Catalysing Australia’s Biosecurity</a> initiative to develop the Biosecurity Alerts Service.</p>
+
+
+
+<p>The ALA’s Biosecurity Alerts Service provides weekly email notifications of occurrences of invasive species to management authorities. These occurrences are aggregated from more than 850 data suppliers, including <a href="https://www.inaturalist.org/">iNaturalist</a> and <a href="https://www.feralscan.org.au/">FeralScan</a>. The Biosecurity Alerts Service reports the species name, observation location, images, data provider and provides direct links to the ALA occurrence record. Up until the end of 2023, 1,441 occurrences of invasive species had triggered a biosecurity alert, which included reports of highly invasive species, such as red imported fire ants (<em>Solenopsis invicta)</em>, Asian sho<a>re crabs (<em>Hemigrapsus sanguineus</em>), m</a>yrtle rust and <em>Opuntia </em>cacti. Land management agencies who receive the alerts are using the information in many ways, including verifying reports, undertaking management actions and <a>correcting false identifications.</a></p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-1024x683.jpg" alt="" class="wp-image-48782" srcset="https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-1536x1025.jpg 1536w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-1920x1281.jpg 1920w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">The ALA&#8217;s Biosecurity Alerts are on the lookout for Spotted Lanternflies <em>(Lycorma delicatula</em>), a highly invasive planthopper on Australia’s most unwanted list<em>s</em>. Photo credit Solomon Hendrix CC BY NC</figcaption></figure>
+
+
+
+<p>“There is no doubt that the biosecurity alert system has improved our statewide surveillance capability [in Queensland]. While we have only been using it for a short period we have already recorded several significant detections. I’ve been promoting the system at every opportunity,” said Steve Csurhes, Biosecurity Queensland, Queensland Department of Agriculture and Fisheries.</p>
+
+
+
+<p>Recently, the ALA has developed new <a>spatial filtering features </a>within the Biosecurity Alerts Service. This has allowed users to limit alerts to within state/territory or local government boundaries (including marine boundaries) or provide a custom spatial boundary (shapefile) for alerts within a user-defined area. This has improved the utility of biosecurity alerts, allowing them to be used more readily for reporting within National Parks boundaries or outside of biosecurity containment zones.</p>
+
+
+
+<p>The ALA is currently delivering Phase 1 of the Biosecurity Alert Service, which includes roll out of the Service to Commonwealth, State and Territory biosecurity managers. Phase 2 will begin in mid-2024 with operational enhancements allowing the service to scale nationally better, and the inclusion of interested local government areas, natural resource managers, non-government organisations and others within the biosecurity sector. You can read more about this project in our <a href="https://ala.org.au/app/uploads/2024/01/ALA-Case-Study-Biosecurity-Alerts-Fact-Sheet-Jan-2024.pdf">Impact Case Study</a> or <a href="https://www.ala.org.au/contact-us/">contact us</a> if you’d like to learn more about ALA’s services to support biosecurity.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Combating myrtle rust with citizen science</title>
 		<link>https://www.ala.org.au/blogs-news/combating-myrtle-rust-with-citizen-science/</link>
 		
@@ -58,7 +95,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1024x683.jpg" alt="" class="wp-image-49195" style="width:699px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1920x1280.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Myrtle rust on Beach cherry/Bay cherry (<em>Eugenia reinwardtiana)</em> foliage – Photo Credit Geoff Pegg, Queensland Department of Agriculture and Fisheries.</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1024x683.jpg" alt="" class="wp-image-49195" style="width:699px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2024/01/Eugenia-reinwardtiana-foliage-2-Noosaville-1920x1280.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Myrtle rust on Beach cherry/Bay cherry (<em>Eugenia reinwardtiana)</em> foliage – Photo Credit Geoff Pegg, Queensland Department of Agriculture and Fisheries.</figcaption></figure>
 
 
 
@@ -82,7 +119,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img decoding="async" width="628" height="942" src="https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg.jpg" alt="" class="wp-image-49197" style="width:446px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg.jpg 628w, https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg-200x300.jpg 200w" sizes="(max-width: 628px) 100vw, 628px" /><figcaption class="wp-element-caption">Repeated myrtle rust infection has almost killed this 100-year-old Sour cherry tree (<em>Syzygium corynanthum</em>) in the Tallebudgera Valley <a>&#8211; Photo Credit Geoff Pegg</a>, Queensland Department of Agriculture and Fisheries.</figcaption></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="628" height="942" src="https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg.jpg" alt="" class="wp-image-49197" style="width:446px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg.jpg 628w, https://www.ala.org.au/app/uploads/2024/01/Geoff-Pgg-200x300.jpg 200w" sizes="(max-width: 628px) 100vw, 628px" /><figcaption class="wp-element-caption">Repeated myrtle rust infection has almost killed this 100-year-old Sour cherry tree (<em>Syzygium corynanthum</em>) in the Tallebudgera Valley <a>&#8211; Photo Credit Geoff Pegg</a>, Queensland Department of Agriculture and Fisheries.</figcaption></figure>
 
 
 
@@ -898,35 +935,6 @@
 
 
 <figure class="wp-block-image size-full"><a href="https://us14.campaign-archive.com/?u=b238aea31bbd4bd103ff7368c&amp;id=63540c5ced" target="_blank" rel="noreferrer noopener"><img loading="lazy" decoding="async" width="657" height="1021" src="https://www.ala.org.au/app/uploads/2023/10/newsletter-oct23.png" alt="" class="wp-image-48990" srcset="https://www.ala.org.au/app/uploads/2023/10/newsletter-oct23.png 657w, https://www.ala.org.au/app/uploads/2023/10/newsletter-oct23-193x300.png 193w" sizes="(max-width: 657px) 100vw, 657px" /></a></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Director&#8217;s Update &#8211; October 2023</title>
-		<link>https://www.ala.org.au/blogs-news/directors-update-october-2023/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Mon, 23 Oct 2023 22:44:40 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48911</guid>
-
-					<description><![CDATA[Welcome to the October 2023 edition of our ALA newsletter.]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-table"><table><tbody><tr><td>It’s been an exciting month for the Atlas of Living Australia (ALA), CSIRO and our national partners as we welcomed the world’s biodiversity data community to Hobart and Canberra for a series of conferences, meetings and symposia. Our journey began by hosting this year’s annual meeting of the biodiversity data standards group <a href="https://tdwg2023.zohobackstage.com.au/TDWG2023">TDWG</a> in Hobart from October 9<sup>th</sup> to 13<sup>th</sup>. The event welcomed 166 participants from 26 countries (with 143 joining virtually) to present, learn and connect. We are grateful to those who continue the work of TDWG and biodiversity data standards. The TDWG-maintained Darwin Core standard has underpinned so many of the world&#8217;s biodiversity data systems, including the ALA, and ensures interoperable biodiversity data can move freely across platforms and borders. Events such as the TDWG annual meeting are fundamental in supporting the evolution of the standard and learning about the biodiversity science and applications it enables. <br><br>TDWG was a timely precursor to our next series of events hosted in Canberra and framed around the two-day Governing Board meeting of the <a href="https://gb30.gbif.org/">Global Biodiversity Information Facility (GBIF).</a> Australia last hosted the fourth Governing Board meeting (GB04) in 2002 at the National Academy of Sciences and then welcomed 18 countries to Canberra. 21 years later, we hosted 45 people from 30 countries at the National Portrait Gallery and CSIRO (with a further 28 participants joining online from 12 countries) to govern, support and grow the GBIF network. We were pleased to be joined by the Honourable Minister for the Environment and Water Tanya Plibersek at the gala dinner hosted at the National Museum of Australia. <a href="https://minister.dcceew.gov.au/plibersek/speeches/speech-global-diversity-information-facility-gala-dinner" data-type="link" data-id="https://minister.dcceew.gov.au/plibersek/speeches/speech-global-diversity-information-facility-gala-dinner">The Minister&#8217;s address</a> affirmed the importance of data in supporting national and international biodiversity policy priorities and the ALA looks forward to working with our international and national partners to support these. <br><br>Hosting this series of international meetings highlights the leadership role that Australia plays, and the ALA is grateful to the individuals and teams that have put such a strong foundation in place over more than a decade. These partnerships also highlight the importance of international collaboration in improving the national biodiversity data landscape, and ultimately our ability to understand, conserve and enhance the world’s biodiversity. I’m grateful to our team and our fellow CSIRO colleagues who played such an important role in hosting and welcoming our international guests to Australia.</td></tr></tbody></table></figure>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2023/10/20231013_085534-1-1024x768.jpg" alt="group of 11 people standing in front of a TDWG banner in a conference room" class="wp-image-48959" srcset="https://www.ala.org.au/app/uploads/2023/10/20231013_085534-1-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2023/10/20231013_085534-1-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2023/10/20231013_085534-1-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2023/10/20231013_085534-1-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2023/10/20231013_085534-1-2048x1536.jpg 2048w, https://www.ala.org.au/app/uploads/2023/10/20231013_085534-1-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2023/10/20231013_085534-1-640x480.jpg 640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">The ALA&#8217;s delegation at the TDWG conference in Hobart.</figcaption></figure>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="https://www.ala.org.au/app/uploads/2023/10/R62_0079-1024x540.jpg" alt="Large group of people in front of the National Portrait Gallery" class="wp-image-48960" style="width:836px;height:441px" width="836" height="441" srcset="https://www.ala.org.au/app/uploads/2023/10/R62_0079-1024x540.jpg 1024w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-300x158.jpg 300w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-768x405.jpg 768w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1536x810.jpg 1536w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-2048x1080.jpg 2048w, https://www.ala.org.au/app/uploads/2023/10/R62_0079-1920x1012.jpg 1920w" sizes="(max-width: 836px) 100vw, 836px" /><figcaption class="wp-element-caption">Global Biodiversity Information Facility Governing Board international delegation at the National Portrait Gallery.</figcaption></figure>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://minister.dcceew.gov.au/plibersek/speeches/speech-global-diversity-information-facility-gala-dinner"><img loading="lazy" decoding="async" width="1024" height="660" src="https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-1024x660.jpg" alt="Hon Tanya Plibersek giving her speech" class="wp-image-48961" srcset="https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-1024x660.jpg 1024w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-300x193.jpg 300w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-768x495.jpg 768w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-1536x989.jpg 1536w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR-1920x1237.jpg 1920w, https://www.ala.org.au/app/uploads/2023/10/R62_9968-Enhanced-NR.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><figcaption class="wp-element-caption">Minister for the Environment and Water Hon Tanya Plibersek, giving her speech at the GBIF gala dinner. </figcaption></figure>
 ]]></content:encoded>
 					
 		
