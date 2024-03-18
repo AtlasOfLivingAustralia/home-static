@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 12 Mar 2024 04:32:51 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 18 Mar 2024 21:16:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,75 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Taxonomist Appreciation Day</title>
+		<link>https://www.ala.org.au/blogs-news/taxonomist-appreciation-day-2/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Mon, 18 Mar 2024 21:16:43 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49299</guid>
+
+					<description><![CDATA[19th March is the perfect day to celebrate and share some facts about tax(onomy) in the Atlas of Living Australia (ALA)! We sat down with Cam Slatyer who is a Project Manager in the ALA to chat about his extensive experience and incredible stories working across taxonomy throughout his career. Q: How is taxonomy evolving [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>19<sup>th</sup> March is the perfect day to celebrate and share some facts about tax(onomy) in the Atlas of Living Australia (ALA)!  We sat down with Cam Slatyer who is a Project Manager in the ALA to chat about his extensive experience and incredible stories working across taxonomy throughout his career. </p>
+
+
+
+<p><strong>Q: How is taxonomy evolving in the ALA and what’s your role in this project?</strong></p>
+
+
+
+<p>A: The ALA has a fascinating challenge with taxonomy. We bring together data from Australia and the world, historic and new. Taxonomy is a living, evolving science where names are proposed by scientists as theories, some are accepted, and some aren’t. Names change over time.&nbsp; Take the Platypus, which has the scientific name (<em>Ornithorhynchus anatinus). </em>When it was first described by science, it was called <em>(Platypus anatinus</em>), but someone discovered that the name was already being used for a group of beetles (and still is). You can’t have that in taxonomy. The International Codes of Nomenclature (which definitely aren’t like the Pirate Code in <em>Pirates of the Caribbean</em>) try to stop that sort of thing. It’s like not having two people in the same friendship with the same name: they end up getting called Cam 1 and Cam 2 or Blue because one has red hair. This has meant that the poor old Platypus has a scientific name that means duck-like bird-snout&#8230; which is a pretty good description really.</p>
+
+
+
+<p>In the ALA, we need to cope with all names,  for everything from viruses to mountain ash to make sure that data end up under the best available name. That has been a challenge ever since the ALA first started, but now with more than 135 million records, it is vast. My job with my colleagues, is to improve it. We rely heavily on the Australian Government’s Australian Biological Resources Study, who have spent the last few years putting together a National Species List, as well as the Australian Plant Census, run by all the herbaria in Australia, to get our names. We also take names from the New Zealand Organism Register and the International Catalogue of Life to make names match. So our job for the next year or so, is removing things like duplicates, adding missing names and improving name matching. One of our biggest challenges is the differences between Australia and New Zealand. It isn’t just the All Blacks we need to keep an eye on! There are important scientific reasons why Australia and New Zealand have different names for the same things, but we are trying to make sure the New Zealand species have New Zealand names and the Australian species have Australian names.</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-1024x683.jpg" alt="" class="wp-image-49300" srcset="https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC.jpg 1740w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Platypus (<em>Ornithorhynchus anatinus) </em>Photo Credit adamrichardt CC BY NC.</figcaption></figure>
+
+
+
+<p><strong>Q: Tell us about your experience working in taxonomy!</strong></p>
+
+
+
+<p>A: I’m not a taxonomist, but I’ve been lucky enough to work alongside taxonomists for many years. I’ve seen an amazing array of new species and been privileged enough to have three species named after me. My favourite experience was working on heritage listing mound springs, which are incredibly important and unique freshwater springs in Queensland and South Australia, having species that are often found nowhere else on Earth. I was accompanying a freshwater snail taxonomist, looking for new species and checking on existing ones. We’d been through dozens of springs and hadn’t found any new species, which was enormously frustrating. I was looking for frogs while my colleagues were sieving for snails (mound spring snails are tiny). I found these little black dots on some leaves and showed them to the scientist. Turns out it was the only new species of the trip, were described and then immediately identified as endangered. Not bad for a frog person!</p>
+
+
+
+<p><strong>Q: What are some current challenges in the field of taxonomy?</strong></p>
+
+
+
+<p>A: Sadly, the biggest challenge is the same as when I first started working with taxonomists in the late 1990s. We are running out of taxonomists, which is frightening given they are essential for identifying threats such as the recent Varroa mite incursion, or understanding the status of threatened species. Over a third of the taxonomists in Australia are voluntary – retirees or people doing taxonomy in their spare time. Government funding for taxonomy hasn’t been increased since 1974 and museums and herbaria are the mainstay of our capacity. For example, one museum recently announced publicly that its taxonomists cannot compete for scientific grants unless those grants cover their salaries (noting that no science grant funding program in Australia permits this).</p>
+
+
+
+<p><strong>Q: Do you have a favourite species?</strong></p>
+
+
+
+<p>A: Australia has around 154,000 named species. I think I have new favourites as I learn about them. But most of my regular favourites are frogs, including the stuttering frog (<em>Mixophyes balbus</em>) or bats like the golden-tipped bat (<em>Phoniscus papuensis</em>)!</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-1024x683.jpeg" alt="" class="wp-image-49301" srcset="https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-1536x1024.jpeg 1536w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-1920x1280.jpeg 1920w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Stuttering Frog (<em>Mixophyes balbus)</em> Photo Credit Daniel CC BY NC.</figcaption></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1024x768.jpeg" alt="" class="wp-image-49302" srcset="https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Golden-tipped Bat (<em>Phoniscus papuensis</em>) Photo Credit donnamarietomkinson CC BY NC.</figcaption></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>What’s in a Name? Refreshing the ALA taxonomy</title>
 		<link>https://www.ala.org.au/blogs-news/whats-in-a-name-refreshing-the-ala-taxonomy/</link>
 		
@@ -46,7 +115,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1024x577.png" alt="two different owls, one is grey with mottled brown wings (northern Australian masked owl) and the other is yellow-brown all over (Tasmanian masked owl) " class="wp-image-49249" srcset="https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-300x169.png 300w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-768x433.png 768w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Northern Australian Masked Owl <em>(Tyto novaehollandiae ssp. kimberli</em>) and Tasmanian Masked Owl (<em>Tyto novaehollandiae castanops</em>).</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1024x577.png" alt="two different owls, one is grey with mottled brown wings (northern Australian masked owl) and the other is yellow-brown all over (Tasmanian masked owl) " class="wp-image-49249" srcset="https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-300x169.png 300w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-768x433.png 768w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Northern Australian Masked Owl <em>(Tyto novaehollandiae ssp. kimberli</em>) and Tasmanian Masked Owl (<em>Tyto novaehollandiae castanops</em>).</figcaption></figure>
 
 
 
@@ -100,7 +169,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="737" src="https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-1024x737.jpg" alt="the taxonomic classification of the masked owl, shown in the form of a hierarchy" class="wp-image-49250" srcset="https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-1024x737.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-300x216.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-768x552.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala.jpg 1297w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Example of classifying species in a hierarchy on the ALA.</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="737" src="https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-1024x737.jpg" alt="the taxonomic classification of the masked owl, shown in the form of a hierarchy" class="wp-image-49250" srcset="https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-1024x737.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-300x216.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-768x552.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala.jpg 1297w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Example of classifying species in a hierarchy on the ALA.</figcaption></figure>
 
 
 
@@ -120,7 +189,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1024x1024.jpg" alt="a small green frog" class="wp-image-49252" srcset="https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1920x1920.jpg 1920w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Green Tree Frog (<em>Litoria caerulea</em>) Photo Credit aleckarcz CC BY NC.</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1024x1024.jpg" alt="a small green frog" class="wp-image-49252" srcset="https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1920x1920.jpg 1920w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Green Tree Frog (<em>Litoria caerulea</em>) Photo Credit aleckarcz CC BY NC.</figcaption></figure>
 ]]></content:encoded>
 					
 		
@@ -850,163 +919,6 @@
 
 
 <figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="772" src="https://www.ala.org.au/app/uploads/2023/11/AVSB-1024x772.jpg" alt="Black web interface with a picture of a watering can and pot plant. text reads open access to Australia's seed data." class="wp-image-49009" srcset="https://www.ala.org.au/app/uploads/2023/11/AVSB-1024x772.jpg 1024w, https://www.ala.org.au/app/uploads/2023/11/AVSB-300x226.jpg 300w, https://www.ala.org.au/app/uploads/2023/11/AVSB-768x579.jpg 768w, https://www.ala.org.au/app/uploads/2023/11/AVSB.jpg 1218w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Virtual Seed Bank online portal.</figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Spooky Species</title>
-		<link>https://www.ala.org.au/blogs-news/spooky-species/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Mon, 30 Oct 2023 22:05:15 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=47475</guid>
-
-					<description><![CDATA[Does it croak or growl, have fangs or howl? Does it scream at night or give you a fright? 🎃 Many iconic living (or dead) things that are seen around Halloween are inspired by species in the natural world! Check out some of the most spook-tacular Aussie species! Goblin Shark (Mitsukurina owstoni) Talk about a [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>Does it croak or growl, have fangs or howl? Does it scream at night or give you a fright? <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f383.png" alt="🎃" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p>Many iconic living (or dead) things that are seen around Halloween are inspired by species in the natural world! Check out some of the most spook-tacular Aussie species!</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1009" height="541" src="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg" alt="" class="wp-image-47481" srcset="https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC.jpg 1009w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-300x161.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Goblin-Shark-Mitsukurina-owstoni-Museums-Victoria-CC-BY-NC-768x412.jpg 768w" sizes="(max-width: 1009px) 100vw, 1009px" /><figcaption class="wp-element-caption">Goblin Shark (<em>Mitsukurina owstoni</em>) Museums Victoria CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/b1b5f1e3-1efa-4d18-b8f7-d26731b964cc#overview">Goblin Shark (<em>Mitsukurina owstoni</em></a>)</strong></p>
-
-
-
-<p>Talk about a creature from nightmares, the Goblin Shark is one of the most illusive deep-sea sharks known to scientists with a distinctive blade-like snout and pink skin. Specimens have been found along continental slopes at distances up to 1.3 km deep, measuring 3-4 metres in length. The Goblin Shark has distinctive mouthparts, specialised for rapid projection as their jaws can extend and retract to catch prey.</p>
-
-
-
-<p>They are the only extant member of the&nbsp;<em>Mitsukurina</em>&nbsp;genus, often called a ‘living fossil’ as this genus traces back 125 million years. These sharks are incredibly illusive, with limited specimens recorded around NSW, Victoria and Tasmania in Australia, as well as Portugal and Japan. Not much is known about the reproductive life cycle of this species as a pregnant Goblin Shark has never been recorded.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47480" srcset="https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Bronze-Orange-Bug-Musgraveia-sulciventris-eRoger-via-iNaturalist-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Bronze Orange Bug (<em>Musgraveia sulciventris</em>) Erin Roger CC BY NC</figcaption></figure>
-
-
-
-<p><strong><u><a href="https://www.inaturalist.org/taxa/201952">Bronze Orange Bug</a>&nbsp;(<a href="https://www.inaturalist.org/taxa/201952"><em>Musgraveia sulciventris</em></a>)</u></strong></p>
-
-
-
-<p>If the pumpkin-orange colour doesn’t scare you off, maybe its stench will! This stinkbug produces a rotten-smelling spray from the chemical ‘cimicine.’ This spray doesn’t just pack a pungent punch, its main function is to be a defensive mechanism against predators – most commonly other arthropods and birds – which can be lethal to these species. To humans, the spray can cause significant irritation. This is a classic case of ‘look but don’t touch’, no matter your species!</p>
-
-
-
-<p>As eggs and nymphs, Bronze Orange Bugs are green in colour but as they mature through their five instar stages of development, they acquire their distinctive orange colour to resemble citrus leaves. They are considered pests in commercial citrus orchards across eastern Australia.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg" alt="" class="wp-image-47482" srcset="https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2022/10/Jimsonweed-Datura-stramonium-Ecocentric_Consultulting-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Jimsonweed (<em>Datura stramonium)</em> Ecocentric_Consultulting CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://www.inaturalist.org/taxa/55854">Jimsonweed</a>&nbsp;(<a href="https://www.inaturalist.org/taxa/55854"><em>Datura stramonium</em></a>)</strong></p>
-
-
-
-<p>It’s not just it’s physical appearance that’s scary, this plant’s impact on biosecurity is equally terrifying.</p>
-
-
-
-<p>Also known as the ‘cemetery flower’ or ‘common thorn apple’, this plant is one of the most invasive noxious weeds around the world, including in Australia. It has been known to poison humans and animals, reduce pasture productivity and compete with native flora.</p>
-
-
-
-<p>A member of the nightshade family, Jimsonweed was originally introduced in Australia in the 1800s for medicinal and ornamental purposes. The most toxic part of the plant are its black seeds which disperse through water, contaminated hay and mud stuck to vehicles.&nbsp;The spiny seed capsule is as aggressive as it looks and will injure those who dare to touch…</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-1024x683.jpeg" alt="" class="wp-image-47478" srcset="https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2022/10/Spectacled-Flying-Fox-Pteropus-conspicillatus-via-iNaturalist-credit-kcomeau.jpeg 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Spectacled Flying Fox (<em>Pteropus conspicillatus</em>) Kcomeau CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/27d443cb-290b-4d53-8010-5e230f840d67">Spectacled Flying Fox (<em>Pteropus conspicillatus</em></a><a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5ff29bca-f02f-468f-9f96-9ae956015e01">)</a></strong></p>
-
-
-
-<p>Australia is home to more than 90 species of bats including both mega bats and micro bats. Although some bat species around the world do feed on blood (and are most likely the inspiration for Halloween stories), the Spectacled Flying Fox is more likely bring you joy rather than terror!</p>
-
-
-
-<p>These endangered fruit bats live in the northern tropics and feed on native fruits, flowers, and myrtle plants. They play a pivotal role in rainforest ecosystems as seed dispersers and pollinators. Aptly named, the Spectacled Flying Fox has light yellow fur around its eyes and snout giving the appearance that its wearing glasses. They typically live to be around 12 -15 years old in the wild but have been known to live up to 30 years old in captivity.</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1024x682.jpg" alt="" class="wp-image-47479" style="width:1000px;height:666px" width="1000" height="666" srcset="https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1024x682.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC-1536x1023.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Far-Eastern-Curlew-Numenius-madagascariensis-Mark-Ayres-CC-BY-NC.jpg 1560w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Far Eastern Curlew (<em>Numenius madagascariensis</em>) Mark Ayres CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://www.inaturalist.org/taxa/3898">Far Eastern Curlew</a>&nbsp;(<a href="https://www.inaturalist.org/taxa/3898"><em>Numenius madagascariensis</em></a>)</strong></p>
-
-
-
-<p>A shriek in the night, a blood curdling scream, you investigate the source only to find…a Far Eastern Curlew?</p>
-
-
-
-<p>Known for making exceptionally long migratory travels to breed between northern and southern hemispheres, Far Eastern Curlews are also iconic for their scream-like vocalisation calls.&nbsp;They use their hauntingly beautiful calls as part of mating displays and to assert dominance over their territory.</p>
-
-
-
-<p>With a long scimitar-shaped beak which can be more than 50% the length of their body and dark-streaked plumage, the Far Eastern Curlew is the largest shorebird in the world. This species is reliant on mudflats and mangrove swamps for feeding and breeding. Unfortunately, this species is listed as ‘endangered’ due to loss of habitat, causing population decline across their ranges.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="608" src="https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1024x608.jpg" alt="" class="wp-image-47477" srcset="https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1024x608.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-300x178.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-768x456.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1536x911.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC-1920x1139.jpg 1920w, https://www.ala.org.au/app/uploads/2022/10/Speckled-Orbweaver-Araneus-circulissparsus-Jackie-Lien-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Speckled Orbweaver (<em>Araneus circulissparsus)</em> Jackie Lien CC BY NC</figcaption></figure>
-
-
-
-<p><strong><a href="https://www.inaturalist.org/taxa/487451">Speckled Orbweaver</a>&nbsp;(<a href="https://www.inaturalist.org/taxa/487451"><em>Araneus circulissparsus</em></a>)</strong></p>
-
-
-
-<p>Hairy, spotty and slime green! Could this spider be the ultimate creature for Halloween?</p>
-
-
-
-<p>Orbweaver spiders are common across Australia, known for making intricate, sticky webs at night to catch prey. Orbweavers occupy crevices and leaves during the day, and if they feel significantly threatened, they will drop to the ground and ‘play dead.’</p>
-
-
-
-<p>The Speckled Orbweaver prefers to occupy green foliage, to blend in with the surroundings. As with many spider species, females are larger than males at approximately 6mm in length, with males 3mm in length.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1024x683.jpg" alt="" class="wp-image-47526" srcset="https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC-1920x1280.jpg 1920w, https://www.ala.org.au/app/uploads/2022/10/Ghost-Fungus-Omphalotus-nidiformis-credit-Monica-knipler-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Ghost Fungus (<em>Omphalotus nidiformis</em>) Monica Knipler CC BY NC</figcaption></figure>
-
-
-
-<p><strong><u><a href="https://bie.ala.org.au/species/https:/id.biodiversity.org.au/node/fungi/60094367">Ghost Fungus <em>(Omphalotus nidiformis</em></a></u></strong>)</p>
-
-
-
-<p>Like something out of a fairy-tale, Ghost Fungi glow through their gills with a green-tinged light. They emit ‘cold light’ where less than 20% of light emitted is capable of radiating heat. Ghost Fungi, and other bioluminescent creatures, fluoresce using a compound called ‘luciferin’. They grow on dead or decaying wood and are commonly found across Australia in temperate areas. The exact reason this species uses bioluminescence is not known, however a theory is that by glowing the fungi attracts insects which disperse its spores.</p>
-
-
-
-<p>Ghost Fungi are poisonous if consumed, however are often mistaken for Oyster Mushrooms due to their similar fan-like appearance and milky-white colouration in the daytime.</p>
-
-
-
-<p>To learn how to upload species records and contribute to the Atlas of Living Australia, check our this <a href="https://www.ala.org.au/home/record-a-sighting/">link</a>.</p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
