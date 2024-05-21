@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.4.3</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -428,7 +428,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Atlas of Living Australia Webinar Transforming Australia’s biological collections to open data   Web" width="640" height="360" src="https://www.youtube.com/embed/G7GIp7LTryk?start=111&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe loading="lazy" title="Atlas of Living Australia Webinar Transforming Australia’s biological collections to open data" width="640" height="360" src="https://www.youtube.com/embed/G7GIp7LTryk?start=111&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div><figcaption class="wp-element-caption">Weblink to recording: <a href="https://www.youtube.com/watch?v=G7GIp7LTryk&amp;t=111s" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=G7GIp7LTryk&amp;t=111s</a>. The event was hosted on 20 Feb 2024 at 11AM AEDT. It was attended by more than 400 live viewers on the day. </figcaption></figure>
 
 
