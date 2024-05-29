@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 22 May 2024 22:06:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 29 May 2024 21:53:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,75 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Fostering next-gen talent &#8211; life after a CSIRO internship with Caitlin</title>
+		<link>https://www.ala.org.au/blogs-news/fostering-next-gen-talent-life-after-a-csiro-internship-with-caitlin/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Wed, 29 May 2024 21:53:16 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49483</guid>
+
+					<description><![CDATA[Caitlin Ramsay completed the CSIRO National Collections and Marine Infrastructure Indigenous Scholarship Program (NISP) in 2022-23. In that time Caitlin worked with the Atlas of Living Australia&#8217;s (ALA) Science and Decision Support team on a project focused on mapping invasive species and how they have moved across Australia over time. Since then, Caitlin has come [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Caitlin Ramsay completed the <a href="https://www.csiro.au/en/">CSIRO </a>National Collections and Marine Infrastructure Indigenous Scholarship Program (NISP) in 2022-23. In that time Caitlin worked with the Atlas of Living Australia&#8217;s (ALA) Science and Decision Support team on a project focused on mapping invasive species and how they have moved across Australia over time. Since then, Caitlin has come full circle, joining the <a href="https://arga.org.au/">Australian Reference Genome Atlas</a> (ARGA) team hosted by the ALA.  </p>
+
+
+
+<p>We chatted with Caitlin to learn more about her experiences in participating in the NISP internship program and what she&#8217;s working on today.</p>
+
+
+
+<p><strong>What initially drew you to participate in the CSIRO NISP program?</strong></p>
+
+
+
+<p>When I first stumbled upon the CSIRO NISP program, I was studying a dual degree of bioinformatics engineering and ecology and up until that time had only very basic exposure to using my data analysis skills on environmental data. The description of the CSIRO NISP program through the ALA promoted using data analysis and producing data visualisations using biodiversity data and I immediately thought this would be the perfect opportunity to combine my two passions and learn how to make some cool graphs.</p>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1024x768.png" alt="" class="wp-image-48092" srcset="https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1024x768.png 1024w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-300x225.png 300w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-768x576.png 768w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1536x1152.png 1536w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-2048x1536.png 2048w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-1920x1440.png 1920w, https://www.ala.org.au/app/uploads/2023/02/cane-toads-final-640x480.png 640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Data visualisation produced by Caitlin in her NISP internship with the ALA using galah-python. </figcaption></figure>
+
+
+
+<p><strong>How did participating in the program help prepare you for your current role within the ARGA team? What are you currently working on?</strong></p>
+
+
+
+<p>Currently I’m working with the ARGA team to help design and implement the user interface of the app’s website. Although this is quite different to the work that I was originally carrying out in the NISP program, learning how to work collaboratively in a team environment and achieve various goals under the guidance and support of my supervisors proved valuable in preparing me for my current role. I was also able to work on a few different tasks for the duration of the NISP program such as assisting in the development of <a href="https://galah.ala.org.au/Python/">galah-python</a> which improved upon my software development skills. The NISP program also allowed me to become more confident in my skillset and learn how to approach and solve novel problems, which are all useful in helping me to complete my day-to-day tasks within the ARGA team.</p>
+
+
+
+<p><strong>What made you want to come back to CSIRO as a full-time employee after your internship?</strong></p>
+
+
+
+<p>I had an absolute deadly time during my internship mainly due to the stimulating and rewarding work I was undertaking but even more so because of the friendly and welcoming people I got to work with. The culture that the ALA and CSIRO foster is unmatched, and I definitely grew to miss the company of the people I worked alongside which is why I reached out to see if there were any opportunities available after I had graduated!</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/05/Square-posts-59-1024x1024.jpg" alt="" class="wp-image-49485" style="width:496px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/05/Square-posts-59-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/05/Square-posts-59-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/05/Square-posts-59-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/05/Square-posts-59-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/05/Square-posts-59.jpg 1080w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>Caitlin after graduating from her double degree from UNSW.</em></figcaption></figure>
+
+
+
+<p><strong>What advice would you give to other students considering undertaking a CSIRO NISP internship?</strong></p>
+
+
+
+<p>If you’re thinking about applying, just do it! I almost didn’t apply because I didn’t believe I had enough experience, or a developed enough skillset but I’m so glad that I ended up applying in the end. It’s such an amazing learning opportunity and super cool experience being able to work alongside experts and hone your skills; so why try it out!</p>
+
+
+
+<p>Applications for the 2024-25 CSIRO NISP program will open in August. Keep an eye out on <a href="https://www.ala.org.au/internships/">ALA Internship Opportunities page</a> for further details and updates. </p>
+
+
+
+<p>For more information, contact <a href="mailto:outreach@ala.org.au">outreach@ala.org.au</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Shell Yeah! Citizen Science Saves Turtles with the 1 Million Turtles Project</title>
 		<link>https://www.ala.org.au/blogs-news/shell-yeah-citizen-science-saves-turtles-with-the-1-million-turtles-project/</link>
 		
@@ -50,7 +119,7 @@
 
 
 
-<figure class="wp-block-image size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1024x768.jpg" alt="" class="wp-image-49463" style="width:1001px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Bellinger River Snapping Turtle (<em>Myuchelys georgesi)</em> Photo Credit Darren Fielder CC BY NC.</figcaption></figure>
+<figure class="wp-block-image size-large is-resized"><img decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1024x768.jpg" alt="" class="wp-image-49463" style="width:1001px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Bellinger River Snapping Turtle (<em>Myuchelys georgesi)</em> Photo Credit Darren Fielder CC BY NC.</figcaption></figure>
 
 
 
@@ -74,7 +143,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="392" height="839" src="https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb.png" alt="" class="wp-image-49477" srcset="https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb.png 392w, https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb-140x300.png 140w" sizes="(max-width: 392px) 100vw, 392px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="392" height="839" src="https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb.png" alt="" class="wp-image-49477" srcset="https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb.png 392w, https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb-140x300.png 140w" sizes="(max-width: 392px) 100vw, 392px" /></figure>
 
 
 
@@ -114,7 +183,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="842" src="https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1024x842.jpg" alt="" class="wp-image-49465" srcset="https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1024x842.jpg 1024w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--300x247.jpg 300w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--768x632.jpg 768w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1536x1263.jpg 1536w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1920x1579.jpg 1920w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown-.jpg 2004w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Northern Snake Necked Turtle <em>(Chelodina oblonga) </em>Photo Credit Grover J Brown CC BY NC.</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="842" src="https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1024x842.jpg" alt="" class="wp-image-49465" srcset="https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1024x842.jpg 1024w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--300x247.jpg 300w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--768x632.jpg 768w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1536x1263.jpg 1536w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1920x1579.jpg 1920w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown-.jpg 2004w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Northern Snake Necked Turtle <em>(Chelodina oblonga) </em>Photo Credit Grover J Brown CC BY NC.</figcaption></figure>
 ]]></content:encoded>
 					
 		
@@ -704,75 +773,6 @@
 <p><a href="https://www.ala.org.au/blog/">&nbsp;Back to Articles</a></p>
 
 
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>International Day of Women and Girls in Science</title>
-		<link>https://www.ala.org.au/blogs-news/international-day-of-women-and-girls-in-science/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Fri, 09 Feb 2024 01:45:16 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49212</guid>
-
-					<description><![CDATA[February 11th 2024 is the United Nations International Day of Women and Girls in Science. It’s an opportunity to celebrate the achievements of women and girls in science, technology, engineering and mathematics (STEM), whilst acknowledging the persistent gaps in representation and equality in these fields. We spoke to one of the Atlas of Living Australia’s [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>February 11th 2024 is the <a href="https://www.un.org/en/observances/women-and-girls-in-science-day">United Nations International Day of Women and Girls in Science</a>. It’s an opportunity to celebrate the achievements of women and girls in science, technology, engineering and mathematics (STEM), whilst acknowledging the persistent gaps in representation and equality in these fields.</p>
-
-
-
-<p>We spoke to one of the Atlas of Living Australia’s (ALA) current internship students Clara Peers Tejero about what motivated her to pursue higher education in STEM.</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg" alt="" class="wp-image-49213" style="width:365px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-2048x2048.jpg 2048w, https://www.ala.org.au/app/uploads/2024/02/Clara-profile-pic-1920x1920.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Clara Peers Tejero</figcaption></figure>
-
-
-
-<p><strong>Q: What degree are you currently studying?</strong></p>
-
-
-
-<p>I’m currently studying at <a href="https://www.unsw.edu.au/">UNSW</a> and finishing a double degree in Bioinformatic Engineering and Science (Genetics).</p>
-
-
-
-<p><strong>Q: What made you decide to study science?</strong></p>
-
-
-
-<p>I decided to study science because it’s a way to learn more about how the world works. I love it because I’m constantly learning new things. Science gives us a much deeper understanding about <strong>everything</strong>: from the mechanisms of genomics and personalised medicine to the wonders of exoplanet exploration, and from the complexities of neuroscience and brain plasticity to the delicate balance of Earth&#8217;s biodiversity and the strategies for its conservation. The more you learn, the more amazed you are!</p>
-
-
-
-<p><strong>Q: What’s your internship project at the ALA focused on?</strong></p>
-
-
-
-<p>My project is focused on <a href="https://ecoassets.org.au/">EcoAssets</a> which combines environmental data collected from three national research infrastructures – the <a href="https://www.ala.org.au/">ALA</a>, the Integrated Marine Observing System (<a href="https://imos.org.au/">IMOS</a>) and the Terrestrial Ecosystem Research Network (<a href="https://www.tern.org.au/">TERN</a>). I’m looking at ways to improve how people interact with this data, by revamping the website and exploring how to communicate the data. I have been learning so much about data visualisation and how to make it more interesting and interactive for users.</p>
-
-
-
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="943" height="911" src="https://www.ala.org.au/app/uploads/2024/02/Clara_EcoAssetsDataVizExample.png" alt="" class="wp-image-49214" style="width:499px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/02/Clara_EcoAssetsDataVizExample.png 943w, https://www.ala.org.au/app/uploads/2024/02/Clara_EcoAssetsDataVizExample-300x290.png 300w, https://www.ala.org.au/app/uploads/2024/02/Clara_EcoAssetsDataVizExample-768x742.png 768w" sizes="(max-width: 943px) 100vw, 943px" /><figcaption class="wp-element-caption">Data visualisation created by Clara Peers Tejero using ALA&#8217;s galah coding package. </figcaption></figure>
-
-
-
-<p><strong>Q: Do you have any advice that you would give to somebody considering studying science?</strong></p>
-
-
-
-<p>I would say: go for it! There are so many different fields of study in science that I would suggest exploring your areas of interest. Stay up to date on the latest breakthroughs and research happening and seek inspiration from scientists who are doing exciting work in that area.</p>
-
-
-
-<p>And make sure to learn some basic coding/programming skills! This will be so useful (even essential) no matter what you end up studying or working in.</p>
-
-
-
-<p><strong>Where to find Clara:</strong> <a href="https://www.linkedin.com/in/clara-peers-tejero-7b7b30158/">LinkedIn</a>.</p>
 ]]></content:encoded>
 					
 		
