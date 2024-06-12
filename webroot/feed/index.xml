@@ -12,13 +12,13 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 18 Mar 2024 02:02:09 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 12 Jun 2024 00:05:36 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.4.3</generator>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
 
 <image>
 	<url>https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -28,6 +28,41 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA webinar (test blog)</title>
+		<link>https://www-test.ala.org.au/blogs-news/ala-webinar-test-blog/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 12 Jun 2024 00:05:36 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45993</guid>
+
+					<description><![CDATA[As a mega-diverse continent, Australia is home to hundreds of thousands of species, with more being discovered every year. Despite this, Australia faces one of the highest species extinction rates, meaning that innovative methods to detect and understand our biodiversity are becoming increasingly important. Advancing technologies like genomics, advanced imaging and machine learning are changing [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>As a mega-diverse continent, Australia is home to hundreds of thousands of species, with more being discovered every year. Despite this, Australia faces one of the highest species extinction rates, meaning that innovative methods to detect and understand our biodiversity are becoming increasingly important.</p>
+
+
+
+<p>Advancing technologies like genomics, advanced imaging and machine learning are changing the way that researchers and policymakers respond to climate risks, species conservation and protection, biosecurity and decision-making.</p>
+
+
+
+<p>In this webinar hosted by the&nbsp;<a href="https://ala.us14.list-manage.com/track/click?u=b238aea31bbd4bd103ff7368c&amp;id=43167d8001&amp;e=3629824322" target="_blank" rel="noreferrer noopener">Atlas of Living Australia,</a>&nbsp;hear from three of our partners to explore how they’ve applied next-generation technology to support Australian biodiversity research.</p>
+
+
+
+<p>The ALA receives support from the Australian Government through the <a href="https://www.education.gov.au/ncris">National Collaborative Research Infrastructure Strategy</a> (NCRIS) and is hosted by&nbsp;<a href="https://www.csiro.au/">CSIRO</a>.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Atlas of Living Australia Webinar: Understanding Australian Biodiversity with Technology" width="640" height="360" src="https://www.youtube.com/embed/1mU1bUfR5xE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>International Day of Women and Girls in Science</title>
 		<link>https://www-test.ala.org.au/blogs-news/international-day-of-women-and-girls-in-science/</link>
 		
@@ -314,7 +349,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="Atlas of Living Australia Webinar Transforming Australia’s biological collections to open data" width="640" height="360" src="https://www.youtube.com/embed/G7GIp7LTryk?start=111&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe title="Atlas of Living Australia Webinar Transforming Australia’s biological collections to open data" width="640" height="360" src="https://www.youtube.com/embed/G7GIp7LTryk?start=111&#038;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div><figcaption class="wp-element-caption">Weblink to recording: <a href="https://www.youtube.com/watch?v=G7GIp7LTryk&amp;t=111s" target="_blank" rel="noreferrer noopener">https://www.youtube.com/watch?v=G7GIp7LTryk&amp;t=111s</a>. The event was hosted on 20 Feb 2024 at 11AM AEDT. It was attended by more than 400 live viewers on the day. </figcaption></figure>
 
 
@@ -521,23 +556,6 @@
 					<description><![CDATA[Test post please ignore.]]></description>
 										<content:encoded><![CDATA[
 <p>Test post please ignore. </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Tiws-day arrives again</title>
-		<link>https://www-test.ala.org.au/blogs-news/tiws-day-arrives-again/</link>
-		
-		<dc:creator><![CDATA[Matt Andrews]]></dc:creator>
-		<pubDate>Tue, 15 Mar 2022 00:41:17 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45394</guid>
-
-					<description><![CDATA[In breaking news, we have heard that the rumours of the imminent arrival of Tiws-day (known by the younger generation as Tuesday) have proven correct. Take cover!]]></description>
-										<content:encoded><![CDATA[
-<p>In breaking news, we have heard that the rumours of the imminent arrival of Tiws-day (known by the younger generation as Tuesday) have proven correct. Take cover!</p>
 ]]></content:encoded>
 					
 		
