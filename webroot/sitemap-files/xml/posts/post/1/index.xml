@@ -2,7 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www-test.ala.org.au/blogs-news/ala-webinar-test-blog/</loc><lastmod>2024-06-12T00:05:36+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/blogs-news/beyond-australias-cityscapes-how-a-new-tool-values-urban-wetlands/</loc><lastmod>2024-06-26T06:33:56+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www-test.ala.org.au/blogs-news/ala-webinar-test-blog/</loc><lastmod>2024-06-24T23:44:41+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/blogs-news/international-day-of-women-and-girls-in-science/</loc><lastmod>2024-03-18T02:02:09+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/blogs-news/test-blog-friday/</loc><lastmod>2024-02-27T21:48:15+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/blogs-news/test-blog-tuesday-2/</loc><lastmod>2024-02-27T21:51:17+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>

@@ -12,13 +12,13 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 12 Jun 2024 00:05:36 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 26 Jun 2024 06:33:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<generator>https://wordpress.org/?v=6.5.4</generator>
 
 <image>
 	<url>https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -28,7 +28,36 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>ALA webinar (test blog)</title>
+		<title>Beyond Australia&#8217;s Cityscapes: How a New Tool Values Urban Wetlands</title>
+		<link>https://www-test.ala.org.au/blogs-news/beyond-australias-cityscapes-how-a-new-tool-values-urban-wetlands/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 26 Jun 2024 06:33:55 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46007</guid>
+
+					<description><![CDATA[Did you know that small bodies of water in your city, like ponds or retention basins, play a crucial role in the environment? These urban wetlands are vital for supporting clean water, healthy ecosystems, and even bird migration. However, urban wetlands are often highly modified or constructed bodies of water, and are therefore seen as [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Did you know that small bodies of water in your city, like ponds or retention basins, play a crucial role in the environment? These urban wetlands are vital for supporting clean water, healthy ecosystems, and even bird migration. However, urban wetlands are often highly modified or constructed bodies of water, and are therefore seen as less “valuable” from an urban planning lens in terms of biodiversity conservation and ecosystem outcomes.&nbsp;</p>
+
+
+
+<p>In a partnership between the Atlas of Living Australia (ALA), the&nbsp;<a href="https://aurin.org.au/">Australian Urban Research Infrastructure Network (AURIN)</a>,&nbsp;<a href="https://birdlife.org.au/">BirdLife Australia</a>&nbsp;and&nbsp;<a href="https://federation.edu.au/">Federation University</a>, a tool was created to raise awareness of the importance of wetlands in urban environments. The team used open-source citizen-science data to quantify the values of urban wetlands across Victoria, including those that have previously been overlooked. This information was collated into a publicly available online mapping tool, ‘<ins><a href="https://www.valuingurbanwetlands.org.au/">Valuing Urban Wetlands</a></ins>’.</p>
+
+
+
+<p><strong>The online tool</strong></p>
+
+
+
+<p>The tool integrates waterbird and landscape data through an online portal called ‘<a href="https://www.valuingurbanwetlands.org.au/"><em>Valuing Urban Wetlands</em></a><em>.</em>’ Waterbird data collected through citizen science and professional science was accessed via the ALA,&nbsp;<a href="https://birdlife.org.au/">BirdLife Australia</a>&nbsp;and&nbsp;<a href="https://ebird.org/region/AU">eBird</a>&nbsp;and overlayed with open landscape data to create metrics for assessing wetland health and importance. The tool focuses on the Greater Melbourne region, but the methodology can be applied to other regions in the future</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>ALA Webinar: Understanding Australia Biodiversity with Technology</title>
 		<link>https://www-test.ala.org.au/blogs-news/ala-webinar-test-blog/</link>
 		
 		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
@@ -539,23 +568,6 @@
 					<description><![CDATA[This is a test blog]]></description>
 										<content:encoded><![CDATA[
 <p>This is a test blog</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Test Blog post</title>
-		<link>https://www-test.ala.org.au/blogs-news/test-blog-post/</link>
-		
-		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
-		<pubDate>Wed, 10 Aug 2022 23:58:37 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45626</guid>
-
-					<description><![CDATA[Test post please ignore.]]></description>
-										<content:encoded><![CDATA[
-<p>Test post please ignore. </p>
 ]]></content:encoded>
 					
 		
