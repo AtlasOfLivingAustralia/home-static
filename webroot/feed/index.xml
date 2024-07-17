@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 11 Jul 2024 00:51:42 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 17 Jul 2024 02:16:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,53 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>New ALA data mobilisation projects</title>
+		<link>https://www.ala.org.au/blogs-news/new-ala-data-mobilisation-projects/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Wed, 17 Jul 2024 02:16:07 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49618</guid>
+
+					<description><![CDATA[The ALA Australian Biodiversity Data Mobilisation Program (ABDMP) was developed to promote and improve the scientific understanding of Australia’s rare and remarkable biodiversity. In our third year of the program, the ABDMP was expanded to include both a ‘general’ funding stream and a ‘biosecurity-specific’ funding stream. Through a competitive application process, we are pleased to [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="341" src="https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-1024x341.png" alt="Banner with invasive Mediterranean Rye Grass and the ALA logo" class="wp-image-49622" srcset="https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-1024x341.png 1024w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-300x100.png 300w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-768x256.png 768w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>The <a href="https://www.ala.org.au/abdmp/">ALA Australian Biodiversity Data Mobilisation Program</a> (ABDMP) was developed to promote and improve the scientific understanding of Australia’s rare and remarkable biodiversity. In our third year of the program, the ABDMP was expanded to include both a ‘general’ funding stream and a ‘biosecurity-specific’ funding stream. Through a competitive application process, we are pleased to announce the successful biosecurity projects for 2024. The general round of projects will be announced shortly.</p>
+
+
+
+<p><strong>Successful Biosecurity Projects:</strong></p>
+
+
+
+<ul>
+<li><strong><a href="https://nre.tas.gov.au/biosecurity-tasmania">Biosecurity Tasmania</a>:</strong> This project will mobilise more than 73,000 invertebrate specimen records from the Tasmanian Agriculture Invertebrate Collection (TAIC). This includes more than 450 type specimens and unique records from Macquarie Island.  Cumulatively these records will provide a significant increase in spatial areas of many Tasmanian species not currently represented in the ALA, accelerating the documentation of Australia’s invertebrate fauna.</li>
+</ul>
+
+
+
+<ul>
+<li><a href="https://www.dbca.wa.gov.au/science/research-tools-and-repositories/western-australian-herbarium"><strong>Western Australian Herbarium –</strong> <strong>Department of Biodiversity, Conservation and Attractions</strong></a><strong>.</strong> To improve the detection of invasive plants across Western Australia, this project will capture high-resolution images of herbarium specimens and mobilise this information to the ALA.  These images, along with existing data for 36,700 specimens and an additional 800 to be digitised, will be made publicly available. This will greatly improve the ability of land managers and biosecurity groups to identify and manage invasive species.</li>
+</ul>
+
+
+
+<ul>
+<li><strong><a href="https://pir.sa.gov.au/research">Primary Industries and Regions South Australia- South Australia Research and Development Institute (SARDI)- Aquatic and Livestock Sciences</a>.</strong> SARDI holds valuable data on invasive, introduced, and native marine species collected in South Australia and beyond. Currently, these records (particularly those for invasive species) are inaccessible to the public. This project will mobilise this data by extracting it from SARDI databases, ensuring quality control, and making it open access through the ALA.</li>
+</ul>
+
+
+
+<p>We congratulate the successful biosecurity projects for 2024 and thank our review panel for their time and expertise in evaluating many high-calibre applications for this funding stream.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Where to find the ALA</title>
 		<link>https://www.ala.org.au/blogs-news/where-to-find-the-ala/</link>
 		
@@ -42,7 +89,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://avpc.net.au/"><img fetchpriority="high" decoding="async" width="1024" height="353" src="https://www.ala.org.au/app/uploads/2024/06/AVPC_2-1024x353.jpg" alt="" class="wp-image-49603" srcset="https://www.ala.org.au/app/uploads/2024/06/AVPC_2-1024x353.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2-300x103.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2-768x265.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2.jpg 1372w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://avpc.net.au/"><img decoding="async" width="1024" height="353" src="https://www.ala.org.au/app/uploads/2024/06/AVPC_2-1024x353.jpg" alt="" class="wp-image-49603" srcset="https://www.ala.org.au/app/uploads/2024/06/AVPC_2-1024x353.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2-300x103.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2-768x265.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2.jpg 1372w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -66,7 +113,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://www.biosym.com.au/"><img decoding="async" width="1024" height="299" src="https://www.ala.org.au/app/uploads/2024/06/BioSym-1024x299.jpg" alt="" class="wp-image-49597" srcset="https://www.ala.org.au/app/uploads/2024/06/BioSym-1024x299.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/BioSym-300x88.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/BioSym-768x224.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/BioSym.jpg 1124w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://www.biosym.com.au/"><img loading="lazy" decoding="async" width="1024" height="299" src="https://www.ala.org.au/app/uploads/2024/06/BioSym-1024x299.jpg" alt="" class="wp-image-49597" srcset="https://www.ala.org.au/app/uploads/2024/06/BioSym-1024x299.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/BioSym-300x88.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/BioSym-768x224.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/BioSym.jpg 1124w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -737,43 +784,6 @@
 
 
 <figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1024x1024.jpg" alt="a small green frog" class="wp-image-49252" srcset="https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1920x1920.jpg 1920w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Green Tree Frog (<em>Litoria caerulea</em>) Photo Credit aleckarcz CC BY NC.</figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Australia’s most unwanted: Tackling invasives with The ALA Biosecurity Alerts Service</title>
-		<link>https://www.ala.org.au/blogs-news/australias-most-unwanted-tackling-invasives-with-the-ala-biosecurity-alerts-service/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Mon, 04 Mar 2024 06:13:59 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=48781</guid>
-
-					<description><![CDATA[Helping to protect our biodiversity from the threats of invasive species.]]></description>
-										<content:encoded><![CDATA[
-<p>The <a href="http://ala.org.au/">Atlas of Living Australia</a> (ALA) is Australia’s largest open-source biodiversity data infrastructure. Home to more than 132 million species occurrence records of native and introduced species, the ALA is often the first platform where invasive species incursions are publicly recorded. Invasive species – like pests, weeds, and diseases – are a major driver of biodiversity loss and pose significant threats to both the economy and our community. To ensure management authorities are notified of new incursions, the ALA has partnered with the <a href="https://www.agriculture.gov.au/">Commonwealth Department of Agriculture, Fisheries and Forestry</a> and <a href="https://www.csiro.au/">CSIRO</a> through the <a href="https://www.csiro.au/en/about/challenges-missions/biosecurity">Catalysing Australia’s Biosecurity</a> initiative to develop the Biosecurity Alerts Service.</p>
-
-
-
-<p>The ALA’s Biosecurity Alerts Service provides weekly email notifications of occurrences of invasive species to management authorities. These occurrences are aggregated from more than 850 data suppliers, including <a href="https://www.inaturalist.org/">iNaturalist</a> and <a href="https://www.feralscan.org.au/">FeralScan</a>. The Biosecurity Alerts Service reports the species name, observation location, images, data provider and provides direct links to the ALA occurrence record. Up until the end of 2023, 1,441 occurrences of invasive species had triggered a biosecurity alert, which included reports of highly invasive species, such as red imported fire ants (<em>Solenopsis invicta)</em>, Asian sho<a>re crabs (<em>Hemigrapsus sanguineus</em>), m</a>yrtle rust and <em>Opuntia </em>cacti. Land management agencies who receive the alerts are using the information in many ways, including verifying reports, undertaking management actions and <a>correcting false identifications.</a></p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-1024x683.jpg" alt="" class="wp-image-48782" srcset="https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-1536x1025.jpg 1536w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC-1920x1281.jpg 1920w, https://www.ala.org.au/app/uploads/2023/09/Spotted-Lanternfly-Lycorma-delicatula-Photo-Credit-Solomon-Hendrix-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">The ALA&#8217;s Biosecurity Alerts are on the lookout for Spotted Lanternflies <em>(Lycorma delicatula</em>), a highly invasive planthopper on Australia’s most unwanted list<em>s</em>. Photo credit Solomon Hendrix CC BY NC</figcaption></figure>
-
-
-
-<p>“There is no doubt that the biosecurity alert system has improved our statewide surveillance capability [in Queensland]. While we have only been using it for a short period we have already recorded several significant detections. I’ve been promoting the system at every opportunity,” said Steve Csurhes, Biosecurity Queensland, Queensland Department of Agriculture and Fisheries.</p>
-
-
-
-<p>Recently, the ALA has developed new <a>spatial filtering features </a>within the Biosecurity Alerts Service. This has allowed users to limit alerts to within state/territory or local government boundaries (including marine boundaries) or provide a custom spatial boundary (shapefile) for alerts within a user-defined area. This has improved the utility of biosecurity alerts, allowing them to be used more readily for reporting within National Parks boundaries or outside of biosecurity containment zones.</p>
-
-
-
-<p>The ALA is currently delivering Phase 1 of the Biosecurity Alert Service, which includes roll out of the Service to Commonwealth, State and Territory biosecurity managers. Phase 2 will begin in mid-2024 with operational enhancements allowing the service to scale nationally better, and the inclusion of interested local government areas, natural resource managers, non-government organisations and others within the biosecurity sector. You can read more about this project in our <a href="https://ala.org.au/app/uploads/2024/01/ALA-Case-Study-Biosecurity-Alerts-Fact-Sheet-Jan-2024.pdf">Impact Case Study</a> or <a href="https://www.ala.org.au/contact-us/">contact us</a> if you’d like to learn more about ALA’s services to support biosecurity.</p>
 ]]></content:encoded>
 					
 		
