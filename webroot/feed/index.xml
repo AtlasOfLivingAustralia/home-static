@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.6</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -50,19 +50,19 @@
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li><strong><a href="https://nre.tas.gov.au/biosecurity-tasmania">Biosecurity Tasmania</a>:</strong> This project will mobilise more than 73,000 invertebrate specimen records from the Tasmanian Agriculture Invertebrate Collection (TAIC). This includes more than 450 type specimens and unique records from Macquarie Island.  Cumulatively these records will provide a significant increase in spatial areas of many Tasmanian species not currently represented in the ALA, accelerating the documentation of Australia’s invertebrate fauna.</li>
 </ul>
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li><a href="https://www.dbca.wa.gov.au/science/research-tools-and-repositories/western-australian-herbarium"><strong>Western Australian Herbarium –</strong> <strong>Department of Biodiversity, Conservation and Attractions</strong></a><strong>.</strong> To improve the detection of invasive plants across Western Australia, this project will capture high-resolution images of herbarium specimens and mobilise this information to the ALA.  These images, along with existing data for 36,700 specimens and an additional 800 to be digitised, will be made publicly available. This will greatly improve the ability of land managers and biosecurity groups to identify and manage invasive species.</li>
 </ul>
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li><strong><a href="https://pir.sa.gov.au/research">Primary Industries and Regions South Australia- South Australia Research and Development Institute (SARDI)- Aquatic and Livestock Sciences</a>.</strong> SARDI holds valuable data on invasive, introduced, and native marine species collected in South Australia and beyond. Currently, these records (particularly those for invasive species) are inaccessible to the public. This project will mobilise this data by extracting it from SARDI databases, ensuring quality control, and making it open access through the ALA.</li>
 </ul>
 
@@ -149,7 +149,7 @@
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li><a href="https://www.spnhc.org/">SPNHC</a> is an international organisation devoted to the preservation, conservation and management of natural history collections.</li>
 
 
@@ -280,7 +280,7 @@
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li><strong>Raise awareness of urban wetlands:</strong> The project has created a publicly accessible online system that highlights the importance of urban wetlands for biodiversity conservation. This can raise awareness among policymakers, planners, and the general public to give greater consideration to urban wetlands are resources of high biodiversity value. </li>
 
 
@@ -749,7 +749,7 @@
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li><strong>Improving synonym matching</strong> – With thousands of unique species in Australia, and more being described and named every year, many species are known by more than one name. While the ALA uses the NSL to source synonyms for species (different names referring to the same speices), there are still differences in names, particularly those used internationally. For example, the <a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0d3239e3-927e-43c1-9d65-4a5e75fe33d3">Green Tree Frog (<em>Litoria caerulea</em>)</a> is known internationally as (<em>Ranoidea careulea)</em> in data sets such as iNaturalist. The changed taxonomy will now mean that many of these synonyms will match to the scientific name that species are most commonly known by in Australia.</li>
 
 
