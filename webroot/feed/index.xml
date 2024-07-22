@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 17 Jul 2024 02:16:07 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 22 Jul 2024 01:35:32 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,43 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Director&#8217;s Update &#8211; July 2024</title>
+		<link>https://www.ala.org.au/blogs-news/directors-update-july-2024/</link>
+		
+		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
+		<pubDate>Mon, 22 Jul 2024 01:35:31 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49626</guid>
+
+					<description><![CDATA[Welcome to the July 2024 edition of our Atlas of Living Australia (ALA) newsletter. In this issue, we are excited to release our 2024-25 ALA Annual Workplan which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by ALA’s Strategy 2020–2025, operational priorities that may emerge in [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Welcome to the July 2024 edition of our Atlas of Living Australia (ALA) newsletter.</p>
+
+
+
+<p>In this issue, we are excited to release our <a href="https://ala.org.au/publications/ala-annual-work-plan-2024-2025/">2024-25 ALA Annual Workplan</a> which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by<a href="https://www.ala.org.au/publications/ala-strategy-2020-2025/"> ALA’s Strategy 2020–2025</a>, operational priorities that may emerge in any year, and partnerships that the ALA has commenced establishing. The workplan acts as both an internal planning tool to guide team priorities, and for external communication purposes to provide our stakeholders with greater visibility into ALA operations.</p>
+
+
+
+<p>2024-25 will be the fifth year of delivery under the ALA’s current strategy. Priorities will include the production release of several important initiatives that commenced 2023-24, including the (a) operational national biosecurity alerts service, (b) new ALA home page, species pages and global search interface under the UX/UI project, and (c) stage two of the taxonomic architecture project which will include improved species names matching. Collectively, these capabilities will be transformational for Australia’s biodiversity data community, and we look forward to their release.  </p>
+
+
+
+<p>As a national research infrastructure supported under the NCRIS program, partnerships are fundamental to how the ALA benefits Australia’s researchers, decision-makers and community. In 2024-25, the ALA will further partner with Australia’s biological collections sector and to develop a case to support a <a href="https://ala.org.au/app/uploads/2024/06/Accelerating_Discovery_and_Access_to_Australias_Biological_Collections_2024_June.pdf">national approach to biological collections</a> akin to the major programs currently underway in Europe and the United States. Beyond the biological collections sector, the ALA will improve the reach and depth of its partnerships with Aboriginal and Torres Strait Islander People, working more closely with Indigenous ranger programs to co-design and deliver training programs to enhance the utility of the ALA. Similarly, this year we established a number of partnerships with the environmental consulting sector given the critical role they play in assessing and monitoring Australia’s biodiversity, and we plan to extend these partnerships to support improved translation of research infrastructure to industry.</p>
+
+
+
+<p>Our workplan also identifies project leads from the ALA, and we encourage you to reach out to our team to learn more or to collaborate. I hope you enjoy reading our July 2024 Newsletter. </p>
+
+
+
+<p>Dr Andre Zerger, ALA Director.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>New ALA data mobilisation projects</title>
 		<link>https://www.ala.org.au/blogs-news/new-ala-data-mobilisation-projects/</link>
 		
@@ -685,105 +722,6 @@
 
 
 <figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1024x768.jpeg" alt="" class="wp-image-49302" srcset="https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Golden-tipped Bat (<em>Phoniscus papuensis</em>) Photo Credit donnamarietomkinson CC BY NC.</figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>What’s in a Name? Refreshing the ALA taxonomy</title>
-		<link>https://www.ala.org.au/blogs-news/whats-in-a-name-refreshing-the-ala-taxonomy/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Tue, 12 Mar 2024 03:53:49 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49248</guid>
-
-					<description><![CDATA[Changing the taxonomic backbone of the Atlas of Living Australia]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>What’s the difference between<a href="https://bie.ala.org.au/species/ALA_DR656_1862#classification"></a><a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d1a27333-c288-46d5-a034-f42920ddb1b8#overview">(<em>Tyto novaehollandiae kimberli)</em></a> and <a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2c30d58b-572b-4dab-8644-b222c28eb0ec#overview"><em>(Tyto novaehollandiae castanops)</em></a>? Although these two birds are similar, they are different sub-species of Masked Owls that are found on completely opposite ends of Australia, and as such have different taxonomic names!</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1024x577.png" alt="two different owls, one is grey with mottled brown wings (northern Australian masked owl) and the other is yellow-brown all over (Tasmanian masked owl) " class="wp-image-49249" srcset="https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-300x169.png 300w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-768x433.png 768w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2024/02/Fungi-Friday-31.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Northern Australian Masked Owl <em>(Tyto novaehollandiae ssp. kimberli</em>) and Tasmanian Masked Owl (<em>Tyto novaehollandiae castanops</em>).</figcaption></figure>
-
-
-
-<p>Taxonomy is the scientific practice of naming, describing and classifying organisms, and is the fundamental basis for how data in the Atlas of Living Australia (ALA) are organised. Species taxonomy is continuously evolving based on new scientific discoveries (new species being described), as well as techniques such as genetic sequencing, bioinformatics and advanced imaging which can change the way researchers understand existing species leading to re-classification.</p>
-
-
-
-<p>To accurately reflect current taxonomy of species listed within the ALA, we are continuously working to improve our ‘taxonomic backbone’ i.e. source material for which species in the ALA are structured.</p>
-
-
-
-<p><strong>How species are structured in the ALA</strong></p>
-
-
-
-<p>The ALA&nbsp;<a href="https://support.ala.org.au/support/solutions/articles/6000261677-taxonomy-in-the-ala">taxonomic backbone</a>&nbsp;is principally sourced from the&nbsp;<a href="https://biodiversity.org.au/nsl/">National Species List (NSL)</a>, but we also draw names from the&nbsp;<a href="https://www.nzor.org.nz/">New Zealand Organism Register (NZOR)</a>&nbsp;as well as the&nbsp;<a href="https://www.catalogueoflife.org/">Catalogue of Life (CoL)</a>. We have recently undergone significant changes to align our taxonomic backbone to better fit current scientific names recognised in Australia. This reduces duplication of species listings in the ALA and improves accuracy and navigation when users are searching for new species or threatened species records.</p>
-
-
-
-<p><strong>What’s the numbers?</strong></p>
-
-
-
-<p>In May 2023, the ALA had 154,506 species of animals (with 2,400 unranked animal species listings) and 48,972 species of plants (with 5,555 unranked plant species listings), giving a total of ~ 211,000 plant and animal species recorded in the ALA. Unranked species are species that either cannot be placed in the taxonomy or have been added to enable data matching to an existing species.</p>
-
-
-
-<p>Through our recent work to improve ALA’s taxonomic backbone removing duplication and aligning to current taxonomy, we have reduced these listings to 124,999 animal species (with 11 unranked) and 41,740 plant species (with 37 unranked). Whilst improving ALA’s taxonomy is an evolving process, this represents a major removal of duplication and error fixing in the ALA’s species listings.</p>
-
-
-
-<p><strong>What do these changes look like in the ALA?</strong></p>
-
-
-
-<p>Though much of the work to refresh the ALA taxonomic backbone is in the back-end, here are some visible changes that you may notice across the ALA:</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>Improving synonym matching</strong> – With thousands of unique species in Australia, and more being described and named every year, many species are known by more than one name. While the ALA uses the NSL to source synonyms for species (different names referring to the same speices), there are still differences in names, particularly those used internationally. For example, the <a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0d3239e3-927e-43c1-9d65-4a5e75fe33d3">Green Tree Frog (<em>Litoria caerulea</em>)</a> is known internationally as (<em>Ranoidea careulea)</em> in data sets such as iNaturalist. The changed taxonomy will now mean that many of these synonyms will match to the scientific name that species are most commonly known by in Australia.</li>
-
-
-
-<li><strong>Placing names in the taxonomic hierarchy</strong> – The ALA places species within a taxonomy tree, like a family tree. The taxonomic backbone refresh means that we have resolved many previous errors and repeat entries for invertebrates, vertebrates and vascular plants.</li>
-</ul>
-
-
-
-<p><strong>Correcting species entries</strong> – We have taken steps to remove duplications and unresolved synonyms in the ALA by reducing the number of sources for our taxonomic backbone. We have therefore removed the Codes for Australian Aquatic Biota (CAAB) and the NZOR as a source of names for vertebrates and invertebrates. We have also consolidated all minor sources into four edited lists that add names used in legislation or species management that do not occur in the NSL – these include a conservation list, a migratory species list, a pests and weeds list and a biosecurity invasive list (species not found in Australia).</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="737" src="https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-1024x737.jpg" alt="the taxonomic classification of the masked owl, shown in the form of a hierarchy" class="wp-image-49250" srcset="https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-1024x737.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-300x216.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala-768x552.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Taxonomy-ala.jpg 1297w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Example of classifying species in a hierarchy on the ALA.</figcaption></figure>
-
-
-
-<p><strong>What’s next?</strong></p>
-
-
-
-<p>We will continue to further improve the ALA taxonomic backbone over the next twelve to eighteen months and resolve issues that have not already addressed.</p>
-
-
-
-<p>We are continuing to provide both NSL and NZOR names for plant species, at the request of the <a href="https://chah.gov.au/">Council of Australasian Herbaria</a>.&nbsp;There will continue to be some duplication both in the taxonomic tree and in scientific name synonyms between Australia and New Zealand. For fungi, protists (including algae), bacteria and viruses, we will continue accepting names from NSL, NZOR and CoL.</p>
-
-
-
-<p>All changes to the ALA taxonomic backbone have been actioned in consultation with the<a href="https://www.dcceew.gov.au/science-research/abrs">&nbsp;Australian Biological Resources Study</a>&nbsp;and the&nbsp;<a href="https://www.anbg.gov.au/cpbr/program/hc/hc-APC.html">Australian Plant Census.</a></p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1024x1024.jpg" alt="a small green frog" class="wp-image-49252" srcset="https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC-1920x1920.jpg 1920w, https://www.ala.org.au/app/uploads/2024/02/Green-Tree-Frog-Litoria-caerulea-Photo-Credit-aleckarcz-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Green Tree Frog (<em>Litoria caerulea</em>) Photo Credit aleckarcz CC BY NC.</figcaption></figure>
 ]]></content:encoded>
 					
 		
