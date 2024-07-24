@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 22 Jul 2024 01:51:18 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 24 Jul 2024 00:00:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,33 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter July 2024</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-july-2024/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 24 Jul 2024 00:00:53 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49683</guid>
+
+					<description><![CDATA[Check out the ALA&#8217;s July 2024 Newsletter.]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p id="block-e6556f64-c2e0-49e7-b903-7825bd5b688f">Check out the ALA&#8217;s <a href="https://mailchi.mp/ala/july-2024-newsletter-9577615">July 2024 Newsletter</a>.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" width="658" height="918" src="https://www.ala.org.au/app/uploads/2024/07/ala-newsletter-july-24-thumbnail.png" alt="ALA's July 2024 newsletter header banner - it includes the ALA logo and a frog, and a welcome message" class="wp-image-49685" style="width:590px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/07/ala-newsletter-july-24-thumbnail.png 658w, https://www.ala.org.au/app/uploads/2024/07/ala-newsletter-july-24-thumbnail-215x300.png 215w" sizes="(max-width: 658px) 100vw, 658px" /></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s Update &#8211; July 2024</title>
 		<link>https://www.ala.org.au/blogs-news/directors-update-july-2024/</link>
 		
@@ -79,7 +106,7 @@
 
 					<description><![CDATA[The ALA Australian Biodiversity Data Mobilisation Program (ABDMP) was developed to promote and improve the scientific understanding of Australia’s rare and remarkable biodiversity. In our third year of the program, the ABDMP was expanded to include both a ‘general’ funding stream and a ‘biosecurity-specific’ funding stream. Through a competitive application process, we are pleased to [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="341" src="https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-1024x341.png" alt="Banner with invasive Mediterranean Rye Grass and the ALA logo" class="wp-image-49622" srcset="https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-1024x341.png 1024w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-300x100.png 300w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-768x256.png 768w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="341" src="https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-1024x341.png" alt="Banner with invasive Mediterranean Rye Grass and the ALA logo" class="wp-image-49622" srcset="https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-1024x341.png 1024w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-300x100.png 300w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-768x256.png 768w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40.png 1500w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
 
 
 
@@ -142,7 +169,7 @@
 
 
 
-<figure class="wp-block-image size-large"><a href="https://icebergevents.eventsair.com/awc24/"><img decoding="async" width="1024" height="307" src="https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1024x307.png" alt="" class="wp-image-49596" srcset="https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1024x307.png 1024w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-300x90.png 300w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-768x230.png 768w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1536x461.png 1536w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1920x576.png 1920w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+<figure class="wp-block-image size-large"><a href="https://icebergevents.eventsair.com/awc24/"><img loading="lazy" decoding="async" width="1024" height="307" src="https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1024x307.png" alt="" class="wp-image-49596" srcset="https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1024x307.png 1024w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-300x90.png 300w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-768x230.png 768w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1536x461.png 1536w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1920x576.png 1920w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
 
 
 
@@ -657,75 +684,6 @@
 
 
 <p>We hope you enjoy our March Newsletter.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Taxonomist Appreciation Day</title>
-		<link>https://www.ala.org.au/blogs-news/taxonomist-appreciation-day-2/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Mon, 18 Mar 2024 21:16:43 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49299</guid>
-
-					<description><![CDATA[19th March is the perfect day to celebrate and share some facts about tax(onomy) in the Atlas of Living Australia (ALA)! We sat down with Cam Slatyer who is a Project Manager in the ALA to chat about his extensive experience and incredible stories working across taxonomy throughout his career. Q: How is taxonomy evolving [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>19<sup>th</sup> March is the perfect day to celebrate and share some facts about tax(onomy) in the Atlas of Living Australia (ALA)!  We sat down with Cam Slatyer who is a Project Manager in the ALA to chat about his extensive experience and incredible stories working across taxonomy throughout his career. </p>
-
-
-
-<p><strong>Q: How is taxonomy evolving in the ALA and what’s your role in this project?</strong></p>
-
-
-
-<p>A: The ALA has a fascinating challenge with taxonomy. We bring together data from Australia and the world, historic and new. Taxonomy is a living, evolving science where names are proposed by scientists as theories, some are accepted, and some aren’t. Names change over time.&nbsp; Take the Platypus, which has the scientific name (<em>Ornithorhynchus anatinus). </em>When it was first described by science, it was called <em>(Platypus anatinus</em>), but someone discovered that the name was already being used for a group of beetles (and still is). You can’t have that in taxonomy. The International Codes of Nomenclature (which definitely aren’t like the Pirate Code in <em>Pirates of the Caribbean</em>) try to stop that sort of thing. It’s like not having two people in the same friendship with the same name: they end up getting called Cam 1 and Cam 2 or Blue because one has red hair. This has meant that the poor old Platypus has a scientific name that means duck-like bird-snout&#8230; which is a pretty good description really.</p>
-
-
-
-<p>In the ALA, we need to cope with all names,  for everything from viruses to mountain ash to make sure that data end up under the best available name. That has been a challenge ever since the ALA first started, but now with more than 135 million records, it is vast. My job with my colleagues, is to improve it. We rely heavily on the Australian Government’s Australian Biological Resources Study, who have spent the last few years putting together a National Species List, as well as the Australian Plant Census, run by all the herbaria in Australia, to get our names. We also take names from the New Zealand Organism Register and the International Catalogue of Life to make names match. So our job for the next year or so, is removing things like duplicates, adding missing names and improving name matching. One of our biggest challenges is the differences between Australia and New Zealand. It isn’t just the All Blacks we need to keep an eye on! There are important scientific reasons why Australia and New Zealand have different names for the same things, but we are trying to make sure the New Zealand species have New Zealand names and the Australian species have Australian names.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-1024x683.jpg" alt="" class="wp-image-49300" srcset="https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2024/03/Platypus-Ornithorhynchus-anatinus-Photo-Credit-adamrichardt-CC-BY-NC.jpg 1740w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Platypus (<em>Ornithorhynchus anatinus) </em>Photo Credit adamrichardt CC BY NC.</figcaption></figure>
-
-
-
-<p><strong>Q: Tell us about your experience working in taxonomy!</strong></p>
-
-
-
-<p>A: I’m not a taxonomist, but I’ve been lucky enough to work alongside taxonomists for many years. I’ve seen an amazing array of new species and been privileged enough to have three species named after me. My favourite experience was working on heritage listing mound springs, which are incredibly important and unique freshwater springs in Queensland and South Australia, having species that are often found nowhere else on Earth. I was accompanying a freshwater snail taxonomist, looking for new species and checking on existing ones. We’d been through dozens of springs and hadn’t found any new species, which was enormously frustrating. I was looking for frogs while my colleagues were sieving for snails (mound spring snails are tiny). I found these little black dots on some leaves and showed them to the scientist. Turns out it was the only new species of the trip, were described and then immediately identified as endangered. Not bad for a frog person!</p>
-
-
-
-<p><strong>Q: What are some current challenges in the field of taxonomy?</strong></p>
-
-
-
-<p>A: Sadly, the biggest challenge is the same as when I first started working with taxonomists in the late 1990s. We are running out of taxonomists, which is frightening given they are essential for identifying threats such as the recent Varroa mite incursion, or understanding the status of threatened species. Over a third of the taxonomists in Australia are voluntary – retirees or people doing taxonomy in their spare time. Government funding for taxonomy hasn’t been increased since 1974 and museums and herbaria are the mainstay of our capacity.</p>
-
-
-
-<p><strong>Q: Do you have a favourite species?</strong></p>
-
-
-
-<p>A: Australia has around 154,000 named species. I think I have new favourites as I learn about them. But most of my regular favourites are frogs, including the stuttering frog (<em>Mixophyes balbus</em>) or bats like the golden-tipped bat (<em>Phoniscus papuensis</em>)!</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-1024x683.jpeg" alt="" class="wp-image-49301" srcset="https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-1024x683.jpeg 1024w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-768x512.jpeg 768w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-1536x1024.jpeg 1536w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC-1920x1280.jpeg 1920w, https://www.ala.org.au/app/uploads/2024/03/Stuttering-Frog-Mixophyes-balbus-Photo-Credit-Daniel-CC-BY-NC.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Stuttering Frog (<em>Mixophyes balbus)</em> Photo Credit Daniel CC BY NC.</figcaption></figure>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1024x768.jpeg" alt="" class="wp-image-49302" srcset="https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN-640x480.jpeg 640w, https://www.ala.org.au/app/uploads/2024/03/Golden-tipped-Bat-Phoniscus-papuensis-Photo-Credit-donnamarietomkinson-CC-BY-CN.jpeg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Golden-tipped Bat (<em>Phoniscus papuensis</em>) Photo Credit donnamarietomkinson CC BY NC.</figcaption></figure>
 ]]></content:encoded>
 					
 		
