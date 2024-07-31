@@ -12,13 +12,13 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 26 Jun 2024 06:33:56 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 31 Jul 2024 02:48:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.4</generator>
+	<generator>https://wordpress.org/?v=6.6</generator>
 
 <image>
 	<url>https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -28,6 +28,31 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Director’s Update – July 2024</title>
+		<link>https://www-test.ala.org.au/blogs-news/directors-update-july-2024/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 31 Jul 2024 02:48:02 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46018</guid>
+
+					<description><![CDATA[Welcome to the July 2024 edition of the Atlas of Living Australia&#8217;s (ALA) newsletter. In this issue, we are excited to release our&#160;2024-25 ALA Annual Workplan&#160;which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by&#160;ALA’s Strategy 2020–2025, operational priorities that may emerge in any year, and [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Welcome to the July 2024 edition of the Atlas of Living Australia&#8217;s (ALA) newsletter.</p>
+
+
+
+<p>In this issue, we are excited to release our&nbsp;<a href="https://ala.org.au/publications/ala-annual-work-plan-2024-2025/">2024-25 ALA Annual Workplan</a>&nbsp;which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by<a href="https://www.ala.org.au/publications/ala-strategy-2020-2025/">&nbsp;ALA’s Strategy 2020–2025</a>, operational priorities that may emerge in any year, and partnerships that the ALA has commenced establishing. The workplan acts as both an internal planning tool to guide team priorities, and for external communication purposes to provide our stakeholders with greater visibility into ALA operations.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Beyond Australia&#8217;s Cityscapes: How a New Tool Values Urban Wetlands</title>
 		<link>https://www-test.ala.org.au/blogs-news/beyond-australias-cityscapes-how-a-new-tool-values-urban-wetlands/</link>
 		
@@ -36,9 +61,9 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46007</guid>
 
-					<description><![CDATA[Did you know that small bodies of water in your city, like ponds or retention basins, play a crucial role in the environment? These urban wetlands are vital for supporting clean water, healthy ecosystems, and even bird migration. However, urban wetlands are often highly modified or constructed bodies of water, and are therefore seen as [&#8230;]]]></description>
+					<description><![CDATA[Did you know that small bodies of water in Australia&#8217;s cities, like ponds or retention basins, play a crucial role in the environment? These urban wetlands are vital for supporting clean water, healthy ecosystems, and even bird migration. However, urban wetlands are often highly modified or constructed bodies of water, and are therefore seen as [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p>Did you know that small bodies of water in your city, like ponds or retention basins, play a crucial role in the environment? These urban wetlands are vital for supporting clean water, healthy ecosystems, and even bird migration. However, urban wetlands are often highly modified or constructed bodies of water, and are therefore seen as less “valuable” from an urban planning lens in terms of biodiversity conservation and ecosystem outcomes.&nbsp;</p>
+<p>Did you know that small bodies of water in Australia&#8217;s cities, like ponds or retention basins, play a crucial role in the environment? These urban wetlands are vital for supporting clean water, healthy ecosystems, and even bird migration. However, urban wetlands are often highly modified or constructed bodies of water, and are therefore seen as less “valuable” from an urban planning lens in terms of biodiversity conservation and ecosystem outcomes. </p>
 
 
 
@@ -65,9 +90,9 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45993</guid>
 
-					<description><![CDATA[As a mega-diverse continent, Australia is home to hundreds of thousands of species, with more being discovered every year. Despite this, Australia faces one of the highest species extinction rates, meaning that innovative methods to detect and understand our biodiversity are becoming increasingly important. Advancing technologies like genomics, advanced imaging and machine learning are changing [&#8230;]]]></description>
+					<description><![CDATA[As a mega-diverse continent, Australia&#8217;s home to hundreds of thousands of species, with more being discovered every year. Despite this, Australia faces one of the highest species extinction rates, meaning that innovative methods to detect and understand our biodiversity are becoming increasingly important. Advancing technologies like genomics, advanced imaging and machine learning are changing the [&#8230;]]]></description>
 										<content:encoded><![CDATA[
-<p>As a mega-diverse continent, Australia is home to hundreds of thousands of species, with more being discovered every year. Despite this, Australia faces one of the highest species extinction rates, meaning that innovative methods to detect and understand our biodiversity are becoming increasingly important.</p>
+<p>As a mega-diverse continent, Australia&#8217;s home to hundreds of thousands of species, with more being discovered every year. Despite this, Australia faces one of the highest species extinction rates, meaning that innovative methods to detect and understand our biodiversity are becoming increasingly important.</p>
 
 
 
@@ -171,7 +196,7 @@
 
 
 
-<ol start="1">
+<ol class="wp-block-list" start="1">
 <li><strong>Research summary</strong>&nbsp;(<em>200 words</em>)</li>
 
 
@@ -193,7 +218,7 @@
 
 
 
-<ol start="1">
+<ol class="wp-block-list" start="1">
 <li>Visit the&nbsp;<a href="https://www.gbif.org/news/0YedTUAf3Nk14JKZqBn0a/call-opens-for-nominations-to-2024-gbif-graduate-researchers-award#_national-deadlines-for-2024">GBIF 2024 Graduate Researchers Award</a>&nbsp;page&nbsp;and follow the instructions.&nbsp;<br></li>
 
 
@@ -207,7 +232,7 @@
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li>Originality and innovation</li>
 
 
@@ -284,7 +309,7 @@
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li>New South Wales Department of Primary Industries, NSW – mobilising plant pest and disease data from the NSW Biosecurity Collections (~600,000 records).</li>
 
 
@@ -314,7 +339,7 @@
 
 
 
-<ul>
+<ul class="wp-block-list">
 <li>National Herbarium of Victoria, Royal Botanic Gardens of Victoria – mobilising more than 5,000 specimen-based occurrence data records from Australian macroalgae.</li>
 
 
@@ -551,23 +576,6 @@
 					<description><![CDATA[Test blog 4. please ignore.]]></description>
 										<content:encoded><![CDATA[
 <p>Test blog 4. please ignore. </p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Test Blog 3</title>
-		<link>https://www-test.ala.org.au/blogs-news/test-blog-3/</link>
-		
-		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
-		<pubDate>Thu, 11 Aug 2022 01:13:13 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45630</guid>
-
-					<description><![CDATA[This is a test blog]]></description>
-										<content:encoded><![CDATA[
-<p>This is a test blog</p>
 ]]></content:encoded>
 					
 		
