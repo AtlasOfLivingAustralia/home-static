@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 31 Jul 2024 03:51:54 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 31 Jul 2024 06:02:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,27 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Director&#8217;s Update – July 24</title>
+		<link>https://www-test.ala.org.au/blogs-news/directors-update-july-24/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 31 Jul 2024 06:02:29 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46023</guid>
+
+					<description><![CDATA[In this issue – we are excited to release our 2024-25 ALA Annual Workplan which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by ALA&#8217;s Strategy 2020-2025, operational priorities that may emerge in any year, and partnerships that the ALA has commenced establishing. The workplan acts [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>In this issue – we are excited to release our <a href="https://ala.org.au/publications/ala-annual-work-plan-2024-2025/">2024-25 ALA Annual Workplan</a> which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by <a href="https://www.ala.org.au/publications/ala-strategy-2020-2025/">ALA&#8217;s Strategy 2020-2025</a>, operational priorities that may emerge in any year, and partnerships that the ALA has commenced establishing. The workplan acts as both an internal planning tool to guide team priorities, and for external communication purposes to provide our stakeholders with greater visibility into ALA operations.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s Update – July 2024</title>
 		<link>https://www-test.ala.org.au/blogs-news/directors-update-july-2024/</link>
 		
@@ -559,23 +580,6 @@
 					<description><![CDATA[Empty test blog]]></description>
 										<content:encoded><![CDATA[
 <p>Empty test blog</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Test blog 4. please ignore.</title>
-		<link>https://www-test.ala.org.au/blogs-news/test-blog-4-please-ignore/</link>
-		
-		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
-		<pubDate>Thu, 11 Aug 2022 01:46:26 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45632</guid>
-
-					<description><![CDATA[Test blog 4. please ignore.]]></description>
-										<content:encoded><![CDATA[
-<p>Test blog 4. please ignore. </p>
 ]]></content:encoded>
 					
 		
