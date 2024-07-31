@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 31 Jul 2024 06:11:12 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 31 Jul 2024 23:13:52 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,31 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Protecting Australia&#8217;s biodiversity – with data —</title>
+		<link>https://www-test.ala.org.au/blogs-news/protecting-australias-biodiversity-with-data/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 31 Jul 2024 23:13:52 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46027</guid>
+
+					<description><![CDATA[Meet our ALA Australian Biodiversity Data Mobilisation Program winners Australia — is home to unique biodiversity and ecosystems – it&#8217;s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species. While biodiversity data such as physical specimens in collections, or data from field programs are [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Meet our ALA Australian Biodiversity Data Mobilisation Program winners</strong></p>
+
+
+
+<p>Australia — is home to unique biodiversity and ecosystems – it&#8217;s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species.</p>
+
+
+
+<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s Update &#8211; July 24</title>
 		<link>https://www-test.ala.org.au/blogs-news/directors-update-july-24/</link>
 		
@@ -563,23 +588,6 @@
 
 
 <p>#WorldCassowaryDay</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Test Blog 5</title>
-		<link>https://www-test.ala.org.au/blogs-news/test-blog-5/</link>
-		
-		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
-		<pubDate>Tue, 16 Aug 2022 02:19:33 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45634</guid>
-
-					<description><![CDATA[Empty test blog]]></description>
-										<content:encoded><![CDATA[
-<p>Empty test blog</p>
 ]]></content:encoded>
 					
 		
