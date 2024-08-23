@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 23 Aug 2024 01:55:23 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 23 Aug 2024 05:30:40 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,35 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Protecting Australia&#8217;s biodiversity – with data — (test2!?)</title>
+		<link>https://www-test.ala.org.au/blogs-news/protecting-australias-biodiversity-with-data-test2/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Fri, 23 Aug 2024 05:30:40 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46039</guid>
+
+					<description><![CDATA[Meet the ALA&#8217;s Australian Biodiversity Data Mobilisation Program winners Australia (?!) — is home to unique biodiversity and ecosystems. So – it&#8217;s vital-that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species! How? While biodiversity data such as physical specimens in collections, or data from field [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Meet the ALA&#8217;s Australian Biodiversity Data Mobilisation Program winners</strong></p>
+
+
+
+<p>Australia (?!) — is home to unique biodiversity and ecosystems. So – it&#8217;s vital-that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species!</p>
+
+
+
+<p>How?</p>
+
+
+
+<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Protecting Australia&#8217;s biodiversity – with data — (test!?)</title>
 		<link>https://www-test.ala.org.au/blogs-news/protecting-australias-biodiversity-with-data-test/</link>
 		
@@ -361,119 +390,6 @@
 <p><a href="https://www.ala.org.au/blog/">&nbsp;Back to Articles</a></p>
 
 
-
-
-
-<p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Protecting Australian biodiversity with data</title>
-		<link>https://www-test.ala.org.au/blogs-news/test-blog-tuesday-2/</link>
-		
-		<dc:creator><![CDATA[sushant.ghimire@csiro.au]]></dc:creator>
-		<pubDate>Tue, 23 Aug 2022 06:58:09 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=45644</guid>
-
-					<description><![CDATA[Meet our ALA Australian Biodiversity Data Mobilisation Program winners As Australia is home to unique biodiversity and ecosystems, it’s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species. While biodiversity data such as physical specimens in collections, or data from field programs are used [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Meet our ALA Australian Biodiversity Data Mobilisation Program winners</strong></p>
-
-
-
-<p>As Australia is home to unique biodiversity and ecosystems, it’s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species.</p>
-
-
-
-<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
-
-
-
-<p>To improve data accessibility the Atlas of Living Australia (ALA) launched the&nbsp;<a href="https://www.ala.org.au/blogs-news/the-ala-australian-biodiversity-data-mobilisation-program/">Australian Biodiversity Data Mobilisation Program</a> in 2022. This program is designed to support Australian museums, biological collections, herbaria, and research teams to digitise their data, and making it available through the ALA, and internationally through the Global Biodiversity Information Facility (GBIF).</p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/01/Fungi-Friday-24-1024x577.png" alt="" class="wp-image-49179"/><figcaption class="wp-element-caption">Australian Biodiversity Data Mobilisation Program banner.</figcaption></figure>
-
-
-
-<p class="has-text-align-left">Through a nationally competitive application process, projects were awarded grants to digitise their priority biodiversity data. The output from this program will enable data on rare and unique species to become open and accessible through the ALA. Using FAIR principles (findable, accessible, interoperable, reusable), this data will support research, decision-making and conservation efforts to better protect Australian biodiversity.</p>
-
-
-
-<p><strong>Funded projects:</strong></p>
-
-
-
-<p><strong>2022 projects</strong>:</p>
-
-
-
-<ul class="wp-block-list">
-<li>New South Wales Department of Primary Industries, NSW – mobilising plant pest and disease data from the NSW Biosecurity Collections (~600,000 records).</li>
-
-
-
-<li>South Australia Museum (SAM), SA– mobilise the SAM’s Australian Biological Tissues Collection of 39 donated frozen tissue collections of Australian freshwater fishes (around 90% of all known species and ~46,000 records).</li>
-
-
-
-<li>Queensland Museum Network, QLD – mobilising and enhancing data from the Cribb Australian Fish Trematode Collection (&gt;20,000 records of &gt;1,000 fish species).</li>
-
-
-
-<li>Tasmanian Museum and Art Gallery, TAS – mobilising wildlife molecular and tissue data (&gt; 8,500 sample vials and 1,650 formalin-fixed specimens in the histology collection).</li>
-
-
-
-<li>Edith Cowan University, WA – mobilising plant and fungi data from the Robert Brown Herbarium.</li>
-
-
-
-<li>Botanic Gardens and Parks Authority, WA – mobilising data in the Kings Park and Botanic Garden Herbarium collection (18,200 specimens).</li>
-</ul>
-
-
-
-<p><strong>2023 projects:</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>National Herbarium of Victoria, Royal Botanic Gardens of Victoria – mobilising more than 5,000 specimen-based occurrence data records from Australian macroalgae.</li>
-
-
-
-<li>Western Australian Museum – mobilising thousands of native bee data records from physical specimens collected southwestern WA, representing more than 200 bee species.</li>
-
-
-
-<li>Botanic Gardens and State Herbarium, South Australia – making &gt;30,000 bryophyte and &gt;6,000 lichen records available to the ALA through digitisation of physical collection labels.</li>
-
-
-
-<li>D’Estrees Entomology and Science Services – delivery of 7,000 -10,000 insect occurrence records from Kangaroo Island, focused on underrepresented taxa.</li>
-
-
-
-<li>Tasmanian Museum and Art Gallery – mobilising more than 15,000 invertebrate species records representing Tasmanian spiders, echinoderms, cnidarians and annelids.</li>
-</ul>
-
-
-
-<p>Congratulations to the successful projects, we look forward to working with them to make their data available nationally. We’d like to also acknowledge the applications that were not successful as they were universally excellent making our assessment process very challenging. We are also grateful to the independent review panel for their work in reviewing proposals and selecting a fantastic suite of final recipients.</p>
-
-
-
-<figure class="wp-block-image size-medium"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2023/01/DenisSmith_110613_IMG_4630_LR-1-200x300.jpg" alt="" class="wp-image-47969"/><figcaption class="wp-element-caption">Leanne Wheaton working on collections specimens at South Australia Museum, Photo Credit Denis Smith, South Australia Museum. </figcaption></figure>
-
-
-
-<p>The 2024 grant round for the Australian Biodiversity Data Mobilisation Program will open for applications in&nbsp;<strong>late autumn 2024</strong>. Keep an eye on the ALA website, social media channels and blogs for more information shortly.</p>
 
 
 
