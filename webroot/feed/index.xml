@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 30 Aug 2024 05:27:34 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 03 Sep 2024 23:33:23 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,72 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Make Australia’s biodiversity data cleaning shrimp-ler! – — (test-4)</title>
+		<link>https://www-test.ala.org.au/blogs-news/make-australias-biodiversity-data-cleaning-shrimp-ler-test-4/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Tue, 03 Sep 2024 23:33:23 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46053</guid>
+
+					<description><![CDATA[ALA’s new book – Cleaning Biodiversity Data in R]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Why did we publish this book?</strong></p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
+
+
+
+<p>The Atlas of Living Australia&#8217;s (ALA) Science &amp; Decision Team recently authored a book titled&nbsp;<a href="https://cleaning-data-r.ala.org.au/">Cleaning Biodiversity Data in R</a>. This free resource provides up-to-date information on data cleaning processes for anybody who handles their data using code in R. As Australia’s national biodiversity database, the ALA is frequently asked questions about the best way to clean data using code.&nbsp; To provide advice on this topic, our first step was to investigate what the currently accepted “best” way might be. We deep-dived into multiple recent peer-reviewed research to see whether experts cleaned their biodiversity data in the same way.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image is-style-default">
+<figure class="aligncenter size-large is-resized"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-712x1024.png" alt="cover of the data cleaning book, with dark blue background and an orange crustacean" class="wp-image-49700" style="width:312px;height:auto"/></figure></div></div>
+</div>
+
+
+
+<p>Through this process we discovered that the steps to clean ecological data can be really messy! Even among experts, data cleaning can look completely different depending on the type of investigation and study species. No wonder people ask how to do it!</p>
+
+
+
+<p>This book is our response to questions about how to clean biodiversity data in R. The book provides guidance on many of the processes for cleaning biodiversity data.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/08/simplified_workflow-1024x513.png" alt="flow diagram with multiple grey lines intersecting, to illustrate the high number of possible workflows" class="wp-image-49710"/><figcaption class="wp-element-caption"><em>A flow diagram of possible ecological data cleaning workflows (made using data from ALA’s review). Credit: Martin Westgate</em></figcaption></figure>
+
+
+
+<p><strong>What’s covered in the book and who is it for?</strong></p>
+
+
+
+<p>In <em>Cleaning Biodiversity Data in R</em>, we provide an overview of a typical biodiversity data cleaning workflow for open-access geo-referenced biodiversity data—from acquisition, to error identification, to correction. These processes are broken down into sections on exploring data, general data cleaning, and data cleaning processes that require expertise in your study species. The book has information suited to those just starting out working with biodiversity using R, to those who are looking for more advanced techniques.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/08/Landscape-socials-1-1024x577.png" alt="green and yellow dots on a map of NSW showing kingfisher records, most are focussed near the Sydney region" class="wp-image-49702"/><figcaption class="wp-element-caption"><em>An informative, artistic representation of Kingfisher records near Sydney, New South Wales, Australia. Credit: Dax Kellie</em></figcaption></figure>
+
+
+
+<p>We hope that&nbsp;<a href="https://cleaning-data-r.ala.org.au/">this resource</a> can help support your data cleaning tasks in the future, and act as a useful learning or reference tool for teaching and sharing knowledge around data cleaning.</p>
+
+
+
+<p>For more information on working with data in R and Python, check out the&nbsp;<a href="https://galah.ala.org.au/">galah package</a>&nbsp;and<a href="https://labs.ala.org.au/">&nbsp;ALA Labs.</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Make Australia&#8217;s biodiversity data cleaning shrimp-ler! (test-3)</title>
 		<link>https://www-test.ala.org.au/blogs-news/make-australias-biodiversity-data-cleaning-shrimp-ler-test-3/</link>
 		
@@ -42,7 +108,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
 
@@ -108,7 +174,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
 
@@ -174,7 +240,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
 
@@ -378,35 +444,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Beyond Australia&#8217;s Cityscapes: How a New Tool Values Urban Wetlands</title>
-		<link>https://www-test.ala.org.au/blogs-news/beyond-australias-cityscapes-how-a-new-tool-values-urban-wetlands/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Wed, 26 Jun 2024 06:33:55 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46007</guid>
-
-					<description><![CDATA[Did you know that small bodies of water in Australia&#8217;s cities, like ponds or retention basins, play a crucial role in the environment? These urban wetlands are vital for supporting clean water, healthy ecosystems, and even bird migration. However, urban wetlands are often highly modified or constructed bodies of water, and are therefore seen as [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Did you know that small bodies of water in Australia&#8217;s cities, like ponds or retention basins, play a crucial role in the environment? These urban wetlands are vital for supporting clean water, healthy ecosystems, and even bird migration. However, urban wetlands are often highly modified or constructed bodies of water, and are therefore seen as less “valuable” from an urban planning lens in terms of biodiversity conservation and ecosystem outcomes. </p>
-
-
-
-<p>In a partnership between the Atlas of Living Australia (ALA), the&nbsp;<a href="https://aurin.org.au/">Australian Urban Research Infrastructure Network (AURIN)</a>,&nbsp;<a href="https://birdlife.org.au/">BirdLife Australia</a>&nbsp;and&nbsp;<a href="https://federation.edu.au/">Federation University</a>, a tool was created to raise awareness of the importance of wetlands in urban environments. The team used open-source citizen-science data to quantify the values of urban wetlands across Victoria, including those that have previously been overlooked. This information was collated into a publicly available online mapping tool, ‘<ins><a href="https://www.valuingurbanwetlands.org.au/">Valuing Urban Wetlands</a></ins>’.</p>
-
-
-
-<p><strong>The online tool</strong></p>
-
-
-
-<p>The tool integrates waterbird and landscape data through an online portal called ‘<a href="https://www.valuingurbanwetlands.org.au/"><em>Valuing Urban Wetlands</em></a><em>.</em>’ Waterbird data collected through citizen science and professional science was accessed via the ALA,&nbsp;<a href="https://birdlife.org.au/">BirdLife Australia</a>&nbsp;and&nbsp;<a href="https://ebird.org/region/AU">eBird</a>&nbsp;and overlayed with open landscape data to create metrics for assessing wetland health and importance. The tool focuses on the Greater Melbourne region, but the methodology can be applied to other regions in the future</p>
 ]]></content:encoded>
 					
 		
