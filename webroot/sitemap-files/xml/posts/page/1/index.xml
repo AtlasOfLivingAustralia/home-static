@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="https://www-test.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www-test.ala.org.au</loc><lastmod>2024-09-03T23:33:23+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www-test.ala.org.au</loc><lastmod>2024-09-04T03:44:13+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>https://www-test.ala.org.au/curated-species-information/</loc><lastmod>2024-05-23T01:37:25+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/internships/</loc><lastmod>2023-10-11T23:08:44+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www-test.ala.org.au/45660-2/</loc><lastmod>2023-01-04T23:39:33+00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
