@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 04 Sep 2024 08:58:31 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 05 Sep 2024 03:12:41 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,72 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Make Australia&#8217;s biodiversity data cleaning shrimp-ler! – — (test`2-7)</title>
+		<link>https://www-test.ala.org.au/blogs-news/make-australias-biodiversity-data-cleaning-shrimp-ler-test2-7/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Thu, 05 Sep 2024 03:12:41 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46062</guid>
+
+					<description><![CDATA[ALA's new book – Cleaning Biodiversity Data in R]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Why did we publish this book?</strong>?</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
+
+
+
+<p>The Atlas of Living Australia&#8217;s (ALA) Science &amp; Decision Team recently authored a book titled&nbsp;<a href="https://cleaning-data-r.ala.org.au/">Cleaning Biodiversity Data in R</a>. This free resource provides up-to-date information on data cleaning processes for anybody who handles their data using code in R. As Australia’s national biodiversity database, the ALA is frequently asked questions about the best way to clean data using code.&nbsp; To provide advice on this topic, our first step was to investigate what the currently accepted “best” way might be. We deep-dived into multiple recent peer-reviewed research to see whether experts cleaned their biodiversity data in the same way.</p>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image is-style-default">
+<figure class="aligncenter size-large is-resized"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-712x1024.png" alt="cover of the data cleaning book, with dark blue background and an orange crustacean" class="wp-image-49700" style="width:312px;height:auto"/></figure></div></div>
+</div>
+
+
+
+<p>Through this process we discovered that the steps to clean ecological data can be really messy! Even among experts, data cleaning can look completely different depending on the type of investigation and study species. No wonder people ask how to do it!</p>
+
+
+
+<p>This book is our response to questions about how to clean biodiversity data in R. The book provides guidance on many of the processes for cleaning biodiversity data.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/08/simplified_workflow-1024x513.png" alt="flow diagram with multiple grey lines intersecting, to illustrate the high number of possible workflows" class="wp-image-49710"/><figcaption class="wp-element-caption"><em>A flow diagram of possible ecological data cleaning workflows (made using data from ALA’s review). Credit: Martin Westgate</em></figcaption></figure>
+
+
+
+<p><strong>What’s covered in the book and who is it for?</strong></p>
+
+
+
+<p>In <em>Cleaning Biodiversity Data in R</em>, we provide an overview of a typical biodiversity data cleaning workflow for open-access geo-referenced biodiversity data—from acquisition, to error identification, to correction. These processes are broken down into sections on exploring data, general data cleaning, and data cleaning processes that require expertise in your study species. The book has information suited to those just starting out working with biodiversity using R, to those who are looking for more advanced techniques.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/08/Landscape-socials-1-1024x577.png" alt="green and yellow dots on a map of NSW showing kingfisher records, most are focussed near the Sydney region" class="wp-image-49702"/><figcaption class="wp-element-caption"><em>An informative, artistic representation of Kingfisher records near Sydney, New South Wales, Australia. Credit: Dax Kellie</em></figcaption></figure>
+
+
+
+<p>We hope that&nbsp;<a href="https://cleaning-data-r.ala.org.au/">this resource</a> can help support your data cleaning tasks in the future, and act as a useful learning or reference tool for teaching and sharing knowledge around data cleaning.</p>
+
+
+
+<p>For more information on working with data in R and Python, check out the&nbsp;<a href="https://galah.ala.org.au/">galah package</a>&nbsp;and<a href="https://labs.ala.org.au/">&nbsp;ALA Labs.</a></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Make Australia’s biodiversity data cleaning shrimp-ler! – — (test2-6)</title>
 		<link>https://www-test.ala.org.au/blogs-news/make-australias-biodiversity-data-cleaning-shrimp-ler-test-4/</link>
 		
@@ -42,7 +108,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
 
@@ -108,7 +174,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
 
@@ -174,7 +240,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
 
@@ -240,7 +306,7 @@
 
 
 
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
 <p>Tidying messy data can be difficult, but it is a task that anybody who works with data must face if they want to use data to tackle scientific questions!</p>
 
@@ -415,31 +481,6 @@
 					<description><![CDATA[In this issue (en –, hyphen -, em —) we are &#8216;excited&#8217; to &#8220;release&#8221;?! our 2024-25 ALA Annual Workplan which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by ALA&#8217;s Strategy 2020-2025, operational priorities that may emerge in any year, and partnerships that the ALA has [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>In this issue (en –, hyphen -, em —) we are &#8216;excited&#8217; to &#8220;release&#8221;?! our <a href="https://ala.org.au/publications/ala-annual-work-plan-2024-2025/">2024-25 ALA Annual Workplan</a> which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by <a href="https://www.ala.org.au/publications/ala-strategy-2020-2025/">ALA&#8217;s Strategy 2020-2025</a>, operational priorities that may emerge in any year, and partnerships that the ALA has commenced establishing. The workplan acts as both an internal planning tool to guide team priorities, and for external communication purposes to provide our stakeholders with greater visibility into ALA operations.</p>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Director&#8217;s Update – July 2024</title>
-		<link>https://www-test.ala.org.au/blogs-news/directors-update-july-2024/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Wed, 31 Jul 2024 02:48:02 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46018</guid>
-
-					<description><![CDATA[Welcome to the July 2024 edition of the Atlas of Living Australia&#8217;s (ALA) newsletter. In this issue, we are excited to release our 2024-25 ALA Annual Workplan which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by ALA&#8217;s Strategy 2020-2025, operational priorities that may emerge in [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Welcome to the July 2024 edition of the Atlas of Living Australia&#8217;s (ALA) newsletter.</p>
-
-
-
-<p>In this issue, we are excited to release our <a href="https://ala.org.au/publications/ala-annual-work-plan-2024-2025/">2024-25 ALA Annual Workplan</a> which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by <a href="https://www.ala.org.au/publications/ala-strategy-2020-2025/">ALA&#8217;s Strategy 2020-2025</a>, operational priorities that may emerge in any year, and partnerships that the ALA has commenced establishing. The workplan acts as both an internal planning tool to guide team priorities, and for external communication purposes to provide our stakeholders with greater visibility into ALA operations.</p>
 
 
 
