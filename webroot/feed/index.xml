@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 26 Aug 2024 04:26:27 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 06 Sep 2024 04:41:44 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,81 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Webinar: Exploring next gen biodiversity detection technologies</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-exploring-next-gen-biodiversity-detection-technologies/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Fri, 06 Sep 2024 04:41:43 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49778</guid>
+
+					<description><![CDATA[Access to high-quality biodiversity data is more essential than ever in understanding and responding to changes in our natural environment. This information is used for informing planning, policy and decision-making and delivering research. Through the Atlas of Living Australia (ALA), more than 135 million species occurrence records are available as open data, with rich information accompanying [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Access to high-quality biodiversity data is more essential than ever in understanding and responding to changes in our natural environment. This information is used for informing planning, policy and decision-making and delivering research. Through the Atlas of Living Australia (ALA), more than 135 million species occurrence records are available as open data, with rich information accompanying these records such as images, location, spatial, genetic and related data.</p>
+
+
+
+<p>By enhancing traditional methods to monitor species with novel technologies, a more comprehensive view of Australia’s biodiversity can be developed. To celebrate Biodiversity Month in September, hear from three speakers as they discuss their use of ecoacoustics, eDNA and camera trapping as innovative methods to enhance our ability to detect and monitor biodiversity in Australia.</p>
+
+
+
+<p>The ALA receives support from the Australian Government through the <a href="https://www.education.gov.au/ncris">National Collaborative Research Infrastructure Strategy</a> (NCRIS) and is hosted by&nbsp;<a href="https://www.csiro.au/en/">CSIRO</a>.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Atlas of Living Australia Webinar: Exploring next-gen biodiversity detection technologies" width="640" height="360" src="https://www.youtube.com/embed/tCcza7ZZqPc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>The event was hosted on 4 September 2024 at 11AM AEST.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="speakers">Speakers</h2>
+
+
+
+<p>The ALA was grateful to be joined by the following speakers for this webinar: </p>
+
+
+
+<p>Christine Chivas from <a href="https://www.mq.edu.au/">Macquarie University</a>, Matthew Luskin from <a href="https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/" data-type="link" data-id="https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/" target="_blank" rel="noreferrer noopener">WildObs</a> at the <a href="https://www.uq.edu.au/" target="_blank" rel="noreferrer noopener">University of Queensland</a>, and Paul Roe from <a href="https://www.qut.edu.au/" target="_blank" rel="noreferrer noopener">Queensland University of Technology</a>.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignleft"><img decoding="async" src="https://events.csiro.au/~/media/Images/Events/E-ALATAB-240220/alamoderator-martin-westgate-135px.jpg?la=en&amp;hash=000621C778F9C3B05D12070053119AA1E746D4F9" alt="Dr Martin Westgate"/></figure></div>
+
+
+<p><strong>Facilitator: Dr Martin Westgate</strong></p>
+
+
+
+<p>Martin Westgate leads the Science and Decision Support team at the Atlas of Living Australia. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Make biodiversity data cleaning shrimp-ler!</title>
 		<link>https://www.ala.org.au/blogs-news/make-biodiversity-data-cleaning-shrimp-ler/</link>
 		
@@ -79,7 +154,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-1024x577.png" alt="green and yellow dots on a map of NSW showing kingfisher records, most are focussed near the Sydney region" class="wp-image-49702" srcset="https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-300x169.png 300w, https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-768x433.png 768w, https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>An informative, artistic representation of Kingfisher records near Sydney, New South Wales, Australia. Credit: Dax Kellie</em></figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="577" src="https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-1024x577.png" alt="green and yellow dots on a map of NSW showing kingfisher records, most are focussed near the Sydney region" class="wp-image-49702" srcset="https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-1024x577.png 1024w, https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-300x169.png 300w, https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-768x433.png 768w, https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1-1536x865.png 1536w, https://www.ala.org.au/app/uploads/2024/08/Landscape-socials-1.png 1640w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>An informative, artistic representation of Kingfisher records near Sydney, New South Wales, Australia. Credit: Dax Kellie</em></figcaption></figure>
 
 
 
@@ -698,33 +773,6 @@
 
 
 <figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="842" src="https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1024x842.jpg" alt="" class="wp-image-49465" srcset="https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1024x842.jpg 1024w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--300x247.jpg 300w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--768x632.jpg 768w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1536x1263.jpg 1536w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1920x1579.jpg 1920w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown-.jpg 2004w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Northern Snake Necked Turtle <em>(Chelodina oblonga) </em>Photo Credit Grover J Brown CC BY NC.</figcaption></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter March 2024</title>
-		<link>https://www.ala.org.au/blogs-news/ala-newsletter-march-2024/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Fri, 22 Mar 2024 00:48:27 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<category><![CDATA[Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49356</guid>
-
-					<description><![CDATA[Check out the ALA&#8217;s March 2024 Newsletter.]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p id="block-e6556f64-c2e0-49e7-b903-7825bd5b688f">Check out the ALA&#8217;s <a href="https://us14.campaign-archive.com/?u=b238aea31bbd4bd103ff7368c&amp;id=3b73febd33" target="_blank" rel="noreferrer noopener">March 2024 Newsletter</a>.</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="692" height="1024" src="https://www.ala.org.au/app/uploads/2024/03/newsletter-march24-692x1024.png" alt="ALA's March 2024 newsletter header banner - it includes the ALA logo and a waratah, a large red flower" class="wp-image-49359" style="width:519px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/03/newsletter-march24-692x1024.png 692w, https://www.ala.org.au/app/uploads/2024/03/newsletter-march24-203x300.png 203w, https://www.ala.org.au/app/uploads/2024/03/newsletter-march24.png 724w" sizes="(max-width: 692px) 100vw, 692px" /></figure>
 ]]></content:encoded>
 					
 		
