@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 09 Sep 2024 07:00:19 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Sep 2024 07:21:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,7 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>‘Baking for Biodiversity’: The &#8216;Threatened Species Bake Off&#8217;</title>
+		<title>‘Baking for Biodiversity’: The &#8216;Threatened Species Bake Off&#8217; 2</title>
 		<link>https://www-test.ala.org.au/blogs-news/baking-for-biodiversity-the-threatened-species-bake-off-2/</link>
 		
 		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
