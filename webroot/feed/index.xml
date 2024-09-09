@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 05 Sep 2024 04:12:25 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 09 Sep 2024 07:00:19 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,71 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>‘Baking for Biodiversity’: The &#8216;Threatened Species Bake Off&#8217;</title>
+		<link>https://www-test.ala.org.au/blogs-news/baking-for-biodiversity-the-threatened-species-bake-off-2/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Mon, 09 Sep 2024 07:00:19 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46068</guid>
+
+					<description><![CDATA[Who knew that ‘cake’ could help save the 'planet'? ]]></description>
+										<content:encoded><![CDATA[
+<p></p>
+
+
+
+<p>Every year, wildlife lovers, conservationists, and ‘baking enthusiasts’ alike come together for an event like no other: the &#8216;Threatened Species Bake Off&#8217;. This quirky and creative competition, hosted as part of Australia’s Threatened Species Day (7th September), highlights endangered native animals and plants through the medium of delicious baked goods.</p>
+
+
+
+<p>The concept is simple: bake a treat inspired by one of Australia&#8217;s many threatened species, whether it’s the critically endangered Eastern Curlew, the iconic Koala, or even a lesser-known species like the Wollemi Pine. The idea is to raise awareness of the biodiversity crisis while having a bit of fun in the kitchen.</p>
+
+
+
+<p>But why bake? While conservation efforts traditionally focus on research, policy, and habitat restoration, the bake-off taps into something more universal: food and creativity. By encouraging people to express their love for endangered species through cake, biscuits, and cupcakes, this event engages a broader audience that might not otherwise be involved in conservation conversations. Plus, who can resist a beautifully decorated cake shaped like a bilby?</p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="a-recipe-for-change">A Recipe for Change</h2>
+
+
+
+<p>The Bake Off shines a light on species at risk of extinction, but it also allows us to celebrate their beauty and importance. Participants research their chosen species, learning about their habitats, threats, and the conservation efforts in place to protect them. This process creates a deep connection between the baker and their species, sparking conversations with family and friends about biodiversity loss.</p>
+
+
+
+<p>And while the cakes are the stars of the show, the underlying message is vital: Australia is facing an extinction crisis. Over 1,800 species of animals and plants are listed as threatened under the Environment Protection and Biodiversity Conservation Act 1999. Habitat destruction, climate change, and invasive species are driving many of these species towards extinction. The Threatened Species Bake Off is a sweet reminder that we need to take action.</p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="how-it-works">How It Works</h2>
+
+
+
+<p>The rules are simple: choose a threatened species, bake something inspired by it, and share your creation on social media with the hashtag #ThreatenedSpeciesBakeOff. It’s a great way to get involved whether you’re a novice baker or a seasoned pro.</p>
+
+
+
+<p>Judges are often well-known figures from the conservation world, who will assess entries on creativity, accuracy in depicting the species, and, of course, how delicious the bake looks! While the competition is friendly, the impact is serious: each entry raises awareness of the need for urgent action to protect Australia’s biodiversity.</p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="get-involved">Get Involved</h2>
+
+
+
+<p>Even if you’re not the best baker, the Threatened Species Bake Off is a fun way to learn about Australia’s unique wildlife and help spread the word about the threats they face. By participating or sharing posts about the bake-off, you’re contributing to a larger conversation about biodiversity and conservation.</p>
+
+
+
+<p>So, dust off your apron, grab your mixing bowl, and get creative for a cause. Because sometimes, the best way to start saving the planet is with a slice of cake.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>‘Baking for Biodiversity’: The &#8216;Threatened Species Bake Off&#8217;</title>
 		<link>https://www-test.ala.org.au/blogs-news/baking-for-biodiversity-the-threatened-species-bake-off/</link>
 		
@@ -492,31 +557,6 @@
 		<pubDate>Thu, 01 Aug 2024 01:05:15 +0000</pubDate>
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46029</guid>
-
-					<description><![CDATA[Meet our ALA Australian Biodiversity Data Mobilisation Program winners Australia — is home to unique biodiversity and ecosystems – it&#8217;s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species. While biodiversity data such as physical specimens in collections, or data from field programs are [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Meet our ALA Australian Biodiversity Data Mobilisation Program winners</strong></p>
-
-
-
-<p>Australia — is home to unique biodiversity and ecosystems – it&#8217;s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species.</p>
-
-
-
-<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Protecting Australia&#8217;s biodiversity – with data —</title>
-		<link>https://www-test.ala.org.au/blogs-news/protecting-australias-biodiversity-with-data/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Wed, 31 Jul 2024 23:13:52 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46027</guid>
 
 					<description><![CDATA[Meet our ALA Australian Biodiversity Data Mobilisation Program winners Australia — is home to unique biodiversity and ecosystems – it&#8217;s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species. While biodiversity data such as physical specimens in collections, or data from field programs are [&#8230;]]]></description>
 										<content:encoded><![CDATA[
