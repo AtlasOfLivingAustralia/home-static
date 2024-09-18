@@ -12242,12 +12242,7 @@ textarea.form-control-lg {
 
 .footer-top {
   padding: 30px 0;
-  border-top: 1px solid #dee2e6;
-}
-@media (prefers-color-scheme: dark) {
-  .footer-top {
-    border-top: 1px solid #343a40;
-  }
+  border-top: 1px solid #d9d9d9;
 }
 .footer-top .ala-footer-ala-logo {
   width: 325px;
@@ -12352,6 +12347,9 @@ textarea.form-control-lg {
   width: 95%;
 }
 
+[data-bs-theme=dark] .footer-top {
+  border-top: 1px solid #637073;
+}
 [data-bs-theme=dark] .footer-top .ala-footer-partner-logos .ala-footer-ncris-logo img {
   content: url(../img/NCRIS-PROVIDER-RGB-REV.png);
 }
