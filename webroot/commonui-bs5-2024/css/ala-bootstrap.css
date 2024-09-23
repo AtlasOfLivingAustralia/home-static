@@ -12341,7 +12341,7 @@ textarea.form-control-lg {
   content: url(../img/NCRIS-PROVIDER-RGB-REV.png);
 }
 [data-bs-theme=dark] .footer-top .ala-footer-partner-logos .ala-footer-gbif-logo img {
-  content: url(../img/gbif-dot-org-white-logo.svg);
+  content: url(../img/gbif-dot-org-green-logo-dark.svg);
 }
 [data-bs-theme=dark] .footer-top .ala-footer-socials li button {
   --bs-btn-bg: white;
