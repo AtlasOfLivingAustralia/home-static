@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 06 Sep 2024 05:54:41 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 26 Sep 2024 07:56:12 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,118 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Improving the ALA&#8217;s search results</title>
+		<link>https://www.ala.org.au/blogs-news/improving-the-alas-search-results/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Thu, 26 Sep 2024 07:56:12 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=49978</guid>
+
+					<description><![CDATA[The ALA's Data Profile has been updated for better search results]]></description>
+										<content:encoded><![CDATA[
+<p><a>When using the Atlas of Living Australia&#8217;s occurrence search, our Data Profile tool</a> filters out potentially problematic records to lift the visibility of higher quality data. We&#8217;re changing it to filter iNaturalist records that are verifiable but haven&#8217;t yet been verified by default.</p>
+
+
+
+<p>iNaturalist Australia is one of the largest and most up to date datasets in the ALA. As of September 2024, <a href="https://collections.ala.org.au/public/show/dr1411">more than 7.5 million iNaturalist records</a> are loaded into the ALA, with tens of thousands of new records every week.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-large is-resized"><img fetchpriority="high" decoding="async" width="1821" height="1365" src="https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited.jpeg" alt="close up view of brushlike grevillea flowers" class="wp-image-50009" style="width:405px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited.jpeg 1821w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-1536x1151.jpeg 1536w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-640x480.jpeg 640w" sizes="(max-width: 1821px) 100vw, 1821px" /><figcaption class="wp-element-caption">Red tooth brushes (<em>Grevillea hookeriana</em>) Credit: thebeachcomber CC-BY</figcaption></figure></div>
+
+
+<p>The ALA accepts two main types of verifiable record from iNaturalist: &#8216;Research Grade&#8217; and &#8216;Needs ID&#8217;. While this will continue to be the case a new ALA data profile update means only Research Grade records will now be shown by default on maps and in search results.</p>
+
+
+
+<p><a>A third category is &#8216;Casual&#8217;, which includes records of cultivated plants, records missing important metadata such as the date and/or location, and records with no evidence of the organism. The ALA does not ingest Casual records. </a></p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="why-did-we-make-this-change">Why did we make this change?</h2>
+
+
+
+<p>Although the identification accuracy of Needs ID iNaturalist records is still relatively high for many groups of organisms (see for example, <a href="https://www.inaturalist.org/blog/94061-observation-accuracy-experiment-v0-4-is-underway">the most recent accuracy experiment run by iNaturalist staff</a>), a number of recent studies <a>(including some major work in preparation on iNaturalist records of Western Australian plants</a>) have shown that Research Grade records have a higher identification accuracy than Needs ID records for most taxa. Filtering Research Grade records in the ALA by default therefore maximises data quality for all users.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="what-is-the-difference-between-needs-id-and-research-grade">What is the difference between Needs ID and Research Grade?</h2>
+
+
+
+<p>When an observation is first uploaded to iNaturalist, it is designated as &#8216;Needs ID&#8217;. The entry will remain in this category while it only has a single identification at species-level or finer or is identified to a rank coarser than species.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="841" height="966" src="https://www.ala.org.au/app/uploads/2024/09/pic1-1.png" alt="a record page with species name, needs ID flag, photos and one suggested identification" class="wp-image-49993" style="width:600px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/09/pic1-1.png 841w, https://www.ala.org.au/app/uploads/2024/09/pic1-1-261x300.png 261w, https://www.ala.org.au/app/uploads/2024/09/pic1-1-768x882.png 768w" sizes="(max-width: 841px) 100vw, 841px" /></figure>
+
+
+
+<p>This iNaturalist record is currently categorised as Needs ID as it only has a single identification attached to it.</p>
+
+
+
+<p><a>Broadly speaking, ob</a>servations will shift from Needs ID to Research Grade when at least two identifications have been added (including the observer&#8217;s original identification), the community ID is at a species-level or finer, and more than two-thirds of identifiers agree on the identification (two from two, three from three, three from four, four from five, and so on). Research Grade observations can shift back to Needs ID at any time based on new identifications.</p>
+
+
+
+<p>For a more detailed explanation of these grades, refer to pages 27-28 of <em><a href="https://ala.org.au/publications/a-guide-to-inaturalist/">A Guide to iNaturalist: An Australian Perspective</a></em>.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img decoding="async" width="761" height="1024" src="https://www.ala.org.au/app/uploads/2024/09/pic2-761x1024.png" alt="a record page with species name, research grade flag, photos and two suggested identifications " class="wp-image-49991" style="width:600px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/09/pic2-761x1024.png 761w, https://www.ala.org.au/app/uploads/2024/09/pic2-223x300.png 223w, https://www.ala.org.au/app/uploads/2024/09/pic2-768x1034.png 768w, https://www.ala.org.au/app/uploads/2024/09/pic2.png 853w" sizes="(max-width: 761px) 100vw, 761px" /></figure>
+
+
+
+<p>This iNaturalist record is currently Research Grade, as it has two identifications at a species level which both agree with each other.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="what-change-has-the-ala-made">What change has the ALA made?</h2>
+
+
+
+<p>In the ALA, these Research Grade and Needs ID categories are represented in the Darwin Core field <em>identificationVerificationStatus</em>. The change to the default Data Profile, called &#8220;ALA General&#8221;, now excludes all Needs ID iNaturalist records by default on maps and in search results with a newly established <a href="https://support.ala.org.au/support/solutions/articles/6000240256-getting-started-with-the-data-quality-filters">group</a>: &#8216;Exclude unverified records&#8217;. This profile is visible at the top of any page of occurrence records in the ALA.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="534" src="https://www.ala.org.au/app/uploads/2024/09/pic3-1024x534.png" alt="a search results page showing the data quality profile section at the top highlighted" class="wp-image-49995" style="width:880px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/09/pic3-1024x534.png 1024w, https://www.ala.org.au/app/uploads/2024/09/pic3-300x156.png 300w, https://www.ala.org.au/app/uploads/2024/09/pic3-768x400.png 768w, https://www.ala.org.au/app/uploads/2024/09/pic3-1536x801.png 1536w, https://www.ala.org.au/app/uploads/2024/09/pic3-1920x1001.png 1920w, https://www.ala.org.au/app/uploads/2024/09/pic3.png 1982w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="can-i-still-view-these-needs-id-records">Can I still view these Needs ID records?</h2>
+
+
+
+<p>Needs ID records are still retrievable at any time. All you have to do is untick the checkbox next to the data profile, and the records will then be included in your results. Learn more about <a href="https://support.ala.org.au/support/solutions/articles/6000241038-how-do-i-turnoff-or-modify-the-data-profile">how to modify the ALA data profiles</a>.</p>
+
+
+
+<p>If you’re unsure about this change or have any questions, please reach out to <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Webinar: Exploring next gen biodiversity detection technologies</title>
 		<link>https://www.ala.org.au/blogs-news/ala-webinar-exploring-next-gen-biodiversity-detection-technologies/</link>
 		
@@ -60,7 +172,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="Atlas of Living Australia Webinar: Exploring next-gen biodiversity detection technologies" width="640" height="360" src="https://www.youtube.com/embed/tCcza7ZZqPc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" title="Atlas of Living Australia Webinar: Exploring next-gen biodiversity detection technologies" width="640" height="360" src="https://www.youtube.com/embed/tCcza7ZZqPc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -129,7 +241,7 @@
 
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image is-style-default">
-<figure class="aligncenter size-large is-resized"><img fetchpriority="high" decoding="async" width="712" height="1024" src="https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-712x1024.png" alt="cover of the data cleaning book, with dark blue background and an orange crustacean" class="wp-image-49700" style="width:312px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-712x1024.png 712w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-208x300.png 208w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-768x1105.png 768w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-1067x1536.png 1067w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-1423x2048.png 1423w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R.png 1640w" sizes="(max-width: 712px) 100vw, 712px" /></figure></div></div>
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="712" height="1024" src="https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-712x1024.png" alt="cover of the data cleaning book, with dark blue background and an orange crustacean" class="wp-image-49700" style="width:312px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-712x1024.png 712w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-208x300.png 208w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-768x1105.png 768w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-1067x1536.png 1067w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-1423x2048.png 1423w, https://www.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R.png 1640w" sizes="(max-width: 712px) 100vw, 712px" /></figure></div></div>
 </div>
 
 
@@ -142,7 +254,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="513" src="https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-1024x513.png" alt="flow diagram with multiple grey lines intersecting, to illustrate the high number of possible workflows" class="wp-image-49710" srcset="https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-1024x513.png 1024w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-300x150.png 300w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-768x385.png 768w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-1536x770.png 1536w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-2048x1027.png 2048w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-1920x963.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>A flow diagram of possible ecological data cleaning workflows (made using data from ALA’s review). Credit: Martin Westgate</em></figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="513" src="https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-1024x513.png" alt="flow diagram with multiple grey lines intersecting, to illustrate the high number of possible workflows" class="wp-image-49710" srcset="https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-1024x513.png 1024w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-300x150.png 300w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-768x385.png 768w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-1536x770.png 1536w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-2048x1027.png 2048w, https://www.ala.org.au/app/uploads/2024/08/simplified_workflow-1920x963.png 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>A flow diagram of possible ecological data cleaning workflows (made using data from ALA’s review). Credit: Martin Westgate</em></figcaption></figure>
 
 
 
@@ -680,99 +792,6 @@
 
 
 <p>For more information, contact <a href="mailto:outreach@ala.org.au">outreach@ala.org.au</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Shell Yeah! Citizen Science Saves Turtles with the 1 Million Turtles Project</title>
-		<link>https://www.ala.org.au/blogs-news/shell-yeah-citizen-science-saves-turtles-with-the-1-million-turtles-project/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Wed, 22 May 2024 21:00:00 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49462</guid>
-
-					<description><![CDATA[Today is World Turtle Day! Australia is home to 23 species of freshwater turtles which you can discover through the ALA! We’re celebrating the day by chatting to Dr Ricky Spencer &#8211; Associate Professor from Western Sydney University who co-leads the 1 Million Turtles (1MT) citizen science project. Q: Where did the idea for the [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Today is World Turtle Day! Australia is home to 23 species of freshwater turtles which you can discover through the <a href="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ef8440de-c558-4fdf-9e4c-635a7871f01b#overview" data-type="link" data-id="https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ef8440de-c558-4fdf-9e4c-635a7871f01b#overview">ALA</a>! We’re celebrating the day by chatting to Dr Ricky Spencer &#8211; Associate Professor from <a href="https://www.westernsydney.edu.au/schools/sosc/research/zoological_sciences">Western Sydney University</a> who co-leads the <a href="https://1millionturtles.com/">1 Million Turtles</a> (1MT) citizen science project.</p>
-
-
-
-<p><strong>Q: Where did the idea for the 1 Million Turtles project come from?</strong></p>
-
-
-
-<p>The story starts with a stark realisation. In 2015, a mysterious virus swept through the Bellinger River in northern New South Wales, wiping out a staggering 90% of the critically endangered <a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/e8b0899e-0148-45ba-b2eb-2c42c3ad3d96">Bellinger River Snapping Turtle (</a><em><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/e8b0899e-0148-45ba-b2eb-2c42c3ad3d96">Myuchelys georgesi)</a> </em>population. This devastating event highlighted the urgent need for large-scale freshwater turtle conservation efforts. Researchers from leading Australian universities knew traditional methods wouldn&#8217;t suffice. They needed a way to harness the power of the public, a way to give everyone a voice in turtle conservation. Enter citizen science, and the innovative 1MT project was born.</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1024x768.jpg" alt="" class="wp-image-49463" style="width:1001px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1536x1152.jpg 1536w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-1920x1440.jpg 1920w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2024/05/Bellinger-River-Saw-shelled-Turtle-Myuchelys-georgesi-Photo-Credit-Darren-Fielder-CC-BY-NC.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Bellinger River Snapping Turtle (<em>Myuchelys georgesi)</em> Photo Credit Darren Fielder CC BY NC.</figcaption></figure>
-
-
-
-<p><strong>Q: What role does citizen science play in this project?</strong></p>
-
-
-
-<p>Citizen science is at the very core of 1MT. Why? Because freshwater turtles are shy and elusive creatures. Traditional research methods often lack the necessary scope to track their populations effectively. Imagine the difference millions of eyes across the country can make! Through the user-friendly <a href="https://turtlesat.org.au/turtlesat/default.aspx">TurtleSAT app</a>, citizen scientists become data collection heroes.</p>
-
-
-
-<p><strong>Q: What kind of turtle data are you interested in collecting through the TurtleSAT app?</strong></p>
-
-
-
-<p>TurtleSAT is more than just a reporting tool. Inspired by the Bellinger River crisis, the app is designed to capture a wide range of turtle data. See a healthy turtle basking on a log? Snap a picture and submit it through TurtleSAT. Witness a turtle struggling to cross a busy road? Report the location and type of road within the app. Notice unusual behaviour, like a turtle with lesions or difficulty moving? Document your observations with photos or videos and submit them through TurtleSAT. This detailed data allows researchers to identify threats, track populations, and understand the overall health of freshwater turtle populations.</p>
-
-
-
-<p>But 1MT goes beyond mere data collection. The program is passionate about transforming participants from observers to active conservation partners. This is where the exciting turtle data comes in. Citizen scientists are trained to collect information beyond sightings. They learn nest monitoring and protection protocols, conduct standardised surveys for invasive species like foxes (think National Nest Predation Survey), and even analyse data through TurtleSAT. This fosters a sense of ownership and empowers communities to become active conservation stewards.</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="392" height="839" src="https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb.png" alt="" class="wp-image-49477" srcset="https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb.png 392w, https://www.ala.org.au/app/uploads/2024/05/Turtlesatbbb-140x300.png 140w" sizes="(max-width: 392px) 100vw, 392px" /></figure>
-
-
-
-<p><strong>Q: What impacts have you seen from the 1MT project so far?</strong></p>
-
-
-
-<p>The impact of the 1MT project has been truly shell-ebrating! Winning the prestigious <a href="https://www.youtube.com/watch?v=RNR4EqScorM">Eureka Prize for Innovation in Citizen Science in 2023</a> served as a major validation and a springboard for further growth. The recognition brought well-deserved attention to the project&#8217;s innovative approach and its crucial role in turtle conservation.</p>
-
-
-
-<p>Another exciting aspect of 1MT is the collaboration with the <a href="https://www.nativetitlesa.org/pbcs/ngarrindjeri-aboriginal-corporation-rntbc/">Ngarrindjeri Aboriginal Corporation</a>. This partnership aims to record the rich knowledge and history of turtles held by the Ngarrindjeri people, the Traditional Owners of the land. Integrating Indigenous knowledge systems with scientific research offers invaluable insights into turtle ecology and conservation practices.</p>
-
-
-
-<p>So, what exciting discoveries have emerged from the mountains of data collected so far? Well, the results are nothing short of fascinating! Citizen science data has played a key role in identifying hotspots of turtle mortality on roads. This has led to targeted signage, infrastructure improvements, and the creation of &#8220;Turtle-Safe&#8221; roads. Additionally, the data has informed conservation advice documents for numerous turtle species under the <em>EPBC Act</em>, a critical step towards their protection.</p>
-
-
-
-<p>Beyond scientific advancements, the program has fostered a positive shift in public attitudes and behaviours towards turtles. Community initiatives like Turtle Islands – safe havens built by local communities for nesting turtles – showcase the power of collective action.</p>
-
-
-
-<p><strong>Q: How can the public get involved?</strong></p>
-
-
-
-<p>The 1MT project is actively seeking new citizen scientists to join the movement. How can you get involved? Download the <a href="https://turtlesat.org.au/turtlesat/default.aspx">TurtleSAT app</a>, report your turtle sightings, and participate in data collection efforts. You can also spread awareness about the project, support fundraising initiatives, or even explore volunteering opportunities with local turtle conservation groups. Become a champion for freshwater turtles!</p>
-
-
-
-<p>To learn more about the 1 Million Turtles project, visit the website <a href="https://1millionturtles.com/">here</a>, and download the <a href="https://turtlesat.org.au/turtlesat/default.aspx">TurtleSAT App</a>.</p>
-
-
-
-<p>View the records of this project on the ALA <a href="https://collections.ala.org.au/public/show/dr26141">here</a>.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="842" src="https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1024x842.jpg" alt="" class="wp-image-49465" srcset="https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1024x842.jpg 1024w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--300x247.jpg 300w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--768x632.jpg 768w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1536x1263.jpg 1536w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown--1920x1579.jpg 1920w, https://www.ala.org.au/app/uploads/2024/05/South-Western-Snake-Necked-Turtle-Chelodina-oblonga-via-iNaturalist-Grover-J-Brown-.jpg 2004w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Northern Snake Necked Turtle <em>(Chelodina oblonga) </em>Photo Credit Grover J Brown CC BY NC.</figcaption></figure>
 ]]></content:encoded>
 					
 		
