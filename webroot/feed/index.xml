@@ -12,7 +12,7 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 09 Sep 2024 07:21:39 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Oct 2024 05:05:53 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,27 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Geoff test post</title>
+		<link>https://www-test.ala.org.au/blogs-news/geoff-test-post/</link>
+		
+		<dc:creator><![CDATA[Geoff.Egan@csiro.au]]></dc:creator>
+		<pubDate>Wed, 02 Oct 2024 05:05:53 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46076</guid>
+
+					<description><![CDATA[Testing publishing in ALA sytem]]></description>
+										<content:encoded><![CDATA[
+<p>Testing publishing in ALA sytem</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>‘Baking for Biodiversity’: The &#8216;Threatened Species Bake Off&#8217; 2</title>
 		<link>https://www-test.ala.org.au/blogs-news/baking-for-biodiversity-the-threatened-species-bake-off-2/</link>
 		
@@ -544,31 +565,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Protecting Australia&#8217;s biodiversity 2 – with data —</title>
-		<link>https://www-test.ala.org.au/blogs-news/protecting-australias-biodiversity-2-with-data/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Thu, 01 Aug 2024 01:05:15 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46029</guid>
-
-					<description><![CDATA[Meet our ALA Australian Biodiversity Data Mobilisation Program winners Australia — is home to unique biodiversity and ecosystems – it&#8217;s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species. While biodiversity data such as physical specimens in collections, or data from field programs are [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Meet our ALA Australian Biodiversity Data Mobilisation Program winners</strong></p>
-
-
-
-<p>Australia — is home to unique biodiversity and ecosystems – it&#8217;s vital that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species.</p>
-
-
-
-<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
 ]]></content:encoded>
 					
 		
