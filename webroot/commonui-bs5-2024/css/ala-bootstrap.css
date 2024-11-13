@@ -12217,6 +12217,9 @@ textarea.form-control-lg {
 #breadcrumb .breadcrumb-list li {
   display: inline-block;
 }
+#breadcrumb .breadcrumb-list li a {
+  text-decoration: none;
+}
 #breadcrumb .breadcrumb-list li + li::before {
   display: inline-block;
   content: "";
