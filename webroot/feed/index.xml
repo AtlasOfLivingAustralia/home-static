@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 08 Nov 2024 03:27:28 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 18 Nov 2024 01:08:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,81 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Webinar: Generous interfaces for discovering complex biodiversity data</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-generous-interfaces-for-discovering-complex-biodiversity-data/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Mon, 18 Nov 2024 01:08:06 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=50118</guid>
+
+					<description><![CDATA[How can we ensure our data can be easily and generously accessed? In this webinar, Generous interfaces for discovering biodiversity data, the ALA’s Dr Martin Westgate and the ANU’s Prof Mitchell Whitelaw and Prof Adrian Mackenzie delve into their recent work with the ALA on finding more generous ways to explore biodiversity data. We explore [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>How can we ensure our data can be easily and generously accessed? In this webinar, Generous interfaces for discovering biodiversity data, the ALA’s Dr Martin Westgate and the ANU’s Prof Mitchell Whitelaw and Prof Adrian Mackenzie delve into their recent work with the ALA on finding more generous ways to explore biodiversity data. </p>
+
+
+
+<p>We explore how the development of novel interfaces is transforming the way biodiversity data is presented, making it more inviting and accessible for a diverse range of users.</p>
+
+
+
+<p>The ALA receives support from the Australian Government through the <a href="https://www.education.gov.au/ncris">National Collaborative Research Infrastructure Strategy</a> (NCRIS) and is hosted by&nbsp;<a href="https://www.csiro.au/en/">CSIRO</a>.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Atlas of Living Australia Webinar: Generous interfaces for discovering complex biodiversity data" width="640" height="360" src="https://www.youtube.com/embed/25yFLAT89E0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>The event was hosted on 12 November 2024 at 12PM AEDT.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="speakers">Speakers</h2>
+
+
+
+<p>The ALA was grateful to be joined by the following speakers for this webinar: </p>
+
+
+
+<p><a href="https://mtchl.net/" target="_blank" rel="noreferrer noopener">Prof Mitchell Whitelaw</a> and <a href="https://researchportalplus.anu.edu.au/en/persons/adrian-mackenzie" target="_blank" rel="noreferrer noopener">Prof Adrian Mackenzie</a> from the <a href="https://www.anu.edu.au/" target="_blank" rel="noreferrer noopener">Australian National University</a> (ANU)</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignleft"><img decoding="async" src="https://events.csiro.au/~/media/Images/Events/E-ALATAB-240220/alamoderator-martin-westgate-135px.jpg?la=en&amp;hash=000621C778F9C3B05D12070053119AA1E746D4F9" alt="Dr Martin Westgate"/></figure></div>
+
+
+<p><strong>Facilitator: Dr Martin Westgate</strong></p>
+
+
+
+<p>Martin Westgate leads the Science and Decision Support team at the Atlas of Living Australia. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Newsletter November 2024</title>
 		<link>https://www.ala.org.au/blogs-news/ala-newsletter-november-2024/</link>
 		
@@ -141,7 +216,7 @@
 
 
 
-<figure class="wp-block-image size-large is-style-default"><img decoding="async" width="1024" height="724" src="https://www.ala.org.au/app/uploads/2024/10/iNat-usage-1024x724.jpg" alt="Graph showing total Australian iNaturalist observations over time, rising from under 1 million before 2020 to over 8 million by mid 2023." class="wp-image-50032" srcset="https://www.ala.org.au/app/uploads/2024/10/iNat-usage-1024x724.jpg 1024w, https://www.ala.org.au/app/uploads/2024/10/iNat-usage-300x212.jpg 300w, https://www.ala.org.au/app/uploads/2024/10/iNat-usage-768x543.jpg 768w, https://www.ala.org.au/app/uploads/2024/10/iNat-usage.jpg 1379w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>Total Australian iNaturalist observations over time. Since June, this figure has now surpassed 9 million records!</em></figcaption></figure>
+<figure class="wp-block-image size-large is-style-default"><img loading="lazy" decoding="async" width="1024" height="724" src="https://www.ala.org.au/app/uploads/2024/10/iNat-usage-1024x724.jpg" alt="Graph showing total Australian iNaturalist observations over time, rising from under 1 million before 2020 to over 8 million by mid 2023." class="wp-image-50032" srcset="https://www.ala.org.au/app/uploads/2024/10/iNat-usage-1024x724.jpg 1024w, https://www.ala.org.au/app/uploads/2024/10/iNat-usage-300x212.jpg 300w, https://www.ala.org.au/app/uploads/2024/10/iNat-usage-768x543.jpg 768w, https://www.ala.org.au/app/uploads/2024/10/iNat-usage.jpg 1379w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption"><em>Total Australian iNaturalist observations over time. Since June, this figure has now surpassed 9 million records!</em></figcaption></figure>
 
 
 
@@ -562,157 +637,6 @@
 
 
 <p>We congratulate the successful biosecurity projects for 2024 and thank our review panel for their time and expertise in evaluating many high-calibre applications for this funding stream.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Where to find the ALA</title>
-		<link>https://www.ala.org.au/blogs-news/where-to-find-the-ala/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Thu, 11 Jul 2024 00:51:42 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49594</guid>
-
-					<description><![CDATA[The Atlas of Living Australia (ALA) champions open science and fosters collaboration with data providers, users, and the broader biodiversity community. We actively connect with researchers, policymakers, and the public through engaging outreach programs and external events. With many exciting domestic and international events in the second half of 2024 on the horizon, here’s a [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>The Atlas of Living Australia (ALA) champions open science and fosters collaboration with data providers, users, and the broader biodiversity community. We actively connect with researchers, policymakers, and the public through engaging outreach programs and external events. With many exciting domestic and international events in the second half of 2024 on the horizon, here’s a list of where you’ll be able to find the ALA team!</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://avpc.net.au/"><img loading="lazy" decoding="async" width="1024" height="353" src="https://www.ala.org.au/app/uploads/2024/06/AVPC_2-1024x353.jpg" alt="" class="wp-image-49603" srcset="https://www.ala.org.au/app/uploads/2024/06/AVPC_2-1024x353.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2-300x103.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2-768x265.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/AVPC_2.jpg 1372w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p><strong>29 July – 1 August – <a href="https://avpc.net.au/">Australasian Vertebrate Pest Conference</a></strong></p>
-
-
-
-<p>Hosted in Sydney, this event is a keystone conference for discussing the latest innovation and research in the vertebrate pest management sector. This conference is delivered in partnership with the NSW Department of Primary Industries, NSW Local Land Service and NSW National Parks and Wildlife Service.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://icebergevents.eventsair.com/awc24/"><img loading="lazy" decoding="async" width="1024" height="307" src="https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1024x307.png" alt="" class="wp-image-49596" srcset="https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1024x307.png 1024w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-300x90.png 300w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-768x230.png 768w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1536x461.png 1536w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference-1920x576.png 1920w, https://www.ala.org.au/app/uploads/2024/06/Weeds-conference.png 2000w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p><strong>25 – 29 August –</strong> <strong><a href="https://icebergevents.eventsair.com/awc24/">Australasian Weeds Conference</a></strong></p>
-
-
-
-<p>Invasive Species Queensland is collaborating with the Council of Australasian Weed Societies (CAWS) in hosting the 23rd Australasian Weeds Conference at the Brisbane Convention and Exhibition Centre.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://www.biosym.com.au/"><img loading="lazy" decoding="async" width="1024" height="299" src="https://www.ala.org.au/app/uploads/2024/06/BioSym-1024x299.jpg" alt="" class="wp-image-49597" srcset="https://www.ala.org.au/app/uploads/2024/06/BioSym-1024x299.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/BioSym-300x88.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/BioSym-768x224.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/BioSym.jpg 1124w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p><strong>27-29 August –</strong> <strong><a href="https://www.biosym.com.au/">Biosecurity Symposium</a></strong></p>
-
-
-
-<p>The ALA is a co-session sponsor at this event. This symposium is a flagship event of the Biosecurity Collective – a shared initiative consisting of Animal Health Australia (AHA), Invasive Species Council (ISC), Centre for Invasive Species Solutions (CISS) and Plant Health Australia (PHA) intended to influence the direction of Australia’s biosecurity system towards 2030, particularly in engaging all Australians in building a stronger biosecurity system and building a mass biosecurity movement. This event will be hosted at Sea World on the Gold Coast.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://33creative.eventsair.com/land-and-water-forum-2024/"><img loading="lazy" decoding="async" width="1024" height="254" src="https://www.ala.org.au/app/uploads/2024/06/First-ntions-1024x254.jpg" alt="" class="wp-image-49598" srcset="https://www.ala.org.au/app/uploads/2024/06/First-ntions-1024x254.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/First-ntions-300x75.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/First-ntions-768x191.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/First-ntions-1536x382.jpg 1536w, https://www.ala.org.au/app/uploads/2024/06/First-ntions-2048x509.jpg 2048w, https://www.ala.org.au/app/uploads/2024/06/First-ntions-1920x477.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p><strong>27-29 August – <a href="https://33creative.eventsair.com/land-and-water-forum-2024/">Dangkal Gwo&#8217;yal-wa First Nations Land and Water Forum</a></strong></p>
-
-
-
-<p>The Australian Government is pleased to present the 2024 First Nations Land and Water Management Forum (Dangkal Gwo&#8217;yal-wa) Forum to be held on Larrakia Country (Darwin), bringing together First Nations land and water managers from across Australia to celebrate and showcase their achievements looking after Country.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://www.tdwg.org/conferences/2024/"><img loading="lazy" decoding="async" width="1024" height="472" src="https://www.ala.org.au/app/uploads/2024/06/spnhc-tdwg-2024-logo-w-credit-line-1024x472.png" alt="" class="wp-image-49599" srcset="https://www.ala.org.au/app/uploads/2024/06/spnhc-tdwg-2024-logo-w-credit-line-1024x472.png 1024w, https://www.ala.org.au/app/uploads/2024/06/spnhc-tdwg-2024-logo-w-credit-line-300x138.png 300w, https://www.ala.org.au/app/uploads/2024/06/spnhc-tdwg-2024-logo-w-credit-line-768x354.png 768w, https://www.ala.org.au/app/uploads/2024/06/spnhc-tdwg-2024-logo-w-credit-line.png 1388w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p><strong>2-6 September – <a href="https://www.tdwg.org/conferences/2024/">SPNHC and TDWG joint conference</a></strong></p>
-
-
-
-<p>The Society for the Preservation of Natural History Collections (SPNHC) and the Biodiversity information Standards (TDWG) conference will be held in Okinawa, Japan this year.</p>
-
-
-
-<ul class="wp-block-list">
-<li><a href="https://www.spnhc.org/">SPNHC</a> is an international organisation devoted to the preservation, conservation and management of natural history collections.</li>
-
-
-
-<li>Biodiversity Information Standards (<a href="https://www.tdwg.org/">TDWG</a>) develops and maintains data standards that support the integration of primary biodiversity information across disciplines, organizations, and nations. Its annual conference has become a preeminent forum for advancing biodiversity informatics.</li>
-</ul>
-
-
-
-<figure class="wp-block-image size-full"><a href="https://www.trematodes2024.com/"><img loading="lazy" decoding="async" width="1000" height="470" src="https://www.ala.org.au/app/uploads/2024/06/Trematodes.png" alt="" class="wp-image-49600" srcset="https://www.ala.org.au/app/uploads/2024/06/Trematodes.png 1000w, https://www.ala.org.au/app/uploads/2024/06/Trematodes-300x141.png 300w, https://www.ala.org.au/app/uploads/2024/06/Trematodes-768x361.png 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
-
-
-
-<p><strong>8-13 September – <a href="https://www.trematodes2024.com/">Trematodes 2024</a></strong></p>
-
-
-
-<p>The ALA is a sponsor of this event. This inaugural international meeting for the trematodology community brings together trematode researchers from around the world to discuss taxonomy, evolution, life cycles, physiology, ecology and biogeography. This event will be hosted at the Queensland Museum, Brisbane.</p>
-
-
-
-<figure class="wp-block-image size-full"><a href="https://gb31.gbif.org/"><img loading="lazy" decoding="async" width="956" height="332" src="https://www.ala.org.au/app/uploads/2024/06/GB31.jpg" alt="" class="wp-image-49601" srcset="https://www.ala.org.au/app/uploads/2024/06/GB31.jpg 956w, https://www.ala.org.au/app/uploads/2024/06/GB31-300x104.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/GB31-768x267.jpg 768w" sizes="(max-width: 956px) 100vw, 956px" /></a></figure>
-
-
-
-<p><strong>30 September – 4 October – <a href="https://gb31.gbif.org/">GB31</a></strong></p>
-
-
-
-<p>The 31<sup>st</sup> meeting of the Global Biodiversity Information Facility (GBIF) Governing Board will be held in Portugal.</p>
-
-
-
-<p>The GBIF Governing Board meets in a different Participant country each year. The meeting is organised by the GBIF Secretariat in collaboration with the hosting country. The formal proceedings of the Board are associated with several other events at the same location, including meetings of nodes, standing committees, training events and the annual Science Symposium.&#8217;</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="174" src="https://www.ala.org.au/app/uploads/2024/07/ALCA-1024x174.jpg" alt="" class="wp-image-49620" srcset="https://www.ala.org.au/app/uploads/2024/07/ALCA-1024x174.jpg 1024w, https://www.ala.org.au/app/uploads/2024/07/ALCA-300x51.jpg 300w, https://www.ala.org.au/app/uploads/2024/07/ALCA-768x130.jpg 768w, https://www.ala.org.au/app/uploads/2024/07/ALCA.jpg 1031w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><strong>10 &#8211; 11 October &#8211; Australian Land Conservation Alliance (ALCA) <a href="https://alca.org.au/alca_event/private-land-conservation-conference-2024/">Private Land Conservation Conference </a></strong></p>
-
-
-
-<p>The ALA is a sponsor of this event. Now in its 8th year, ALCA’s annual Private Land Conservation Conference (PLC24) is Australia’s premier land conservation event. This year’s theme is Nature Now: Action for People and Planet and will be a vital platform for exploring barriers and opportunities to accelerate and expand nature action and finance. PLC24 is a two-day program of workshops, plenaries and concurrent sessions with an exciting line-up of Australian and international speakers.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://conference.eresearch.edu.au/"><img loading="lazy" decoding="async" width="1024" height="449" src="https://www.ala.org.au/app/uploads/2024/06/eresearch-1024x449.jpg" alt="" class="wp-image-49604" srcset="https://www.ala.org.au/app/uploads/2024/06/eresearch-1024x449.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/eresearch-300x131.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/eresearch-768x336.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/eresearch-1536x673.jpg 1536w, https://www.ala.org.au/app/uploads/2024/06/eresearch.jpg 1810w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p><strong>28 October &#8211; 1 November &#8211; <a href="https://conference.eresearch.edu.au/">eResearch Australasia</a></strong></p>
-
-
-
-<p>Hosted by Australasian eResearch Organisations (AeRO) Inc., the conference (hosted in Melbourne this year), is for those interested in eResearch and actively transforming research via information technology. The conference provides an exciting opportunity for delegates to engage, connect and share their ideas and exemplars concerning new information-centric research capabilities, and how ICT technologies can help researchers to collaborate, collect, manage, share, process, analyse, find, understand, and reuse information.</p>
-
-
-
-<figure class="wp-block-image size-large"><a href="https://esa2024.org.au/"><img loading="lazy" decoding="async" width="1024" height="312" src="https://www.ala.org.au/app/uploads/2024/06/ESA2024-graphic-07-01-1024x312.jpg" alt="" class="wp-image-49602" srcset="https://www.ala.org.au/app/uploads/2024/06/ESA2024-graphic-07-01-1024x312.jpg 1024w, https://www.ala.org.au/app/uploads/2024/06/ESA2024-graphic-07-01-300x91.jpg 300w, https://www.ala.org.au/app/uploads/2024/06/ESA2024-graphic-07-01-768x234.jpg 768w, https://www.ala.org.au/app/uploads/2024/06/ESA2024-graphic-07-01.jpg 1162w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
-
-
-
-<p><strong>9-13 December – <a href="https://esa2024.org.au/">Ecological Society of Australia (ESA)</a></strong></p>
-
-
-
-<p>The ALA is a sponsor of this event. The conference of the Ecological Society of Australia (ESA 2024) will be held at the Melbourne Convention and Exhibition Centre. ESA 2024 will be an in-person conference but a limited number of online options will be offered, including live-streamed plenaries, some live-streamed symposia and some of the presentations being made available online after the conference.</p>
 ]]></content:encoded>
 					
 		
