@@ -12236,9 +12236,11 @@ textarea.form-control-lg {
 
 .ala-page {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .ala-page > article {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .ala-page > article header.entry-header {
   margin-bottom: 1rem;
@@ -12247,6 +12249,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .ala-page > article {
     margin-top: 2rem;
+    margin-bottom: 2rem;
   }
   .ala-page > article header.entry-header {
     margin-bottom: 2rem;
