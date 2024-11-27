@@ -12491,3 +12491,126 @@ textarea.form-control-lg {
     content: url(../img/ALA_Logo_dark_325.png);
   }
 }
+.home .ala-hero-block {
+  min-height: 30rem;
+  background-color: #f2f2f2;
+}
+.home .ala-hero-block h1, .home .ala-hero-block .h1 {
+  margin-top: 195px;
+}
+.home .ala-hero-block h1 em, .home .ala-hero-block .h1 em {
+  display: inline-block;
+  font-style: normal;
+  background: linear-gradient(to right, #c44d34 40%, #f15637);
+  background-clip: text;
+  color: transparent;
+}
+.home .ala-quicklinks-block ul {
+  list-style: none;
+  padding: 1.5rem 0 0.5rem;
+}
+.home .ala-quicklinks-block ul li {
+  display: inline-block;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0 0 0.4rem;
+  background-repeat: no-repeat;
+  background-position: left 0.8rem center;
+  background-size: 1.3rem;
+}
+.home .ala-quicklinks-block ul li.ala-quicklink-location {
+  background-image: url(../img/quicklinks-map.svg);
+}
+.home .ala-quicklinks-block ul li.ala-quicklink-records {
+  background-image: url(../img/quicklinks-folder-magnify.svg);
+}
+.home .ala-quicklinks-block ul li.ala-quicklink-collections {
+  background-image: url(../img/quicklinks-books.svg);
+}
+.home .ala-quicklinks-block ul li.ala-quicklink-mapping {
+  background-image: url(../img/quicklinks-world.svg);
+}
+.home .ala-quicklinks-block ul li a {
+  display: inline-block;
+  width: 100%;
+  padding: 0.7rem 0 0.7rem 2.5rem;
+  text-decoration: none;
+}
+.home .ala-quicklinks-block ul li a span {
+  color: #212121;
+  font-size: 1.25rem;
+}
+.home .ala-quicklinks-block ul li:hover {
+  border-color: #c44d34;
+}
+.home .ala-stats-block {
+  background: linear-gradient(to right, #002a31, #003b45 50%);
+  color: white;
+}
+.home .ala-stats-block .stats {
+  background-color: #ffc557;
+  color: #212121;
+}
+.home .ala-updates-block {
+  background-color: #f2f2f2;
+}
+.home .ala-newsletter-block {
+  background-color: #d9d9d9;
+}
+
+[data-bs-theme=dark] .home .ala-hero-block {
+  background-color: black;
+  color: white;
+}
+[data-bs-theme=dark] .home .ala-quicklinks-block ul li {
+  border: 1px solid #9d9d9d;
+}
+[data-bs-theme=dark] .home .ala-quicklinks-block ul li.ala-quicklink-location {
+  background-image: url(../img/quicklinks-map-dark.svg);
+}
+[data-bs-theme=dark] .home .ala-quicklinks-block ul li.ala-quicklink-records {
+  background-image: url(../img/quicklinks-folder-magnify-dark.svg);
+}
+[data-bs-theme=dark] .home .ala-quicklinks-block ul li.ala-quicklink-collections {
+  background-image: url(../img/quicklinks-books-dark.svg);
+}
+[data-bs-theme=dark] .home .ala-quicklinks-block ul li.ala-quicklink-mapping {
+  background-image: url(../img/quicklinks-world-dark.svg);
+}
+[data-bs-theme=dark] .home .ala-quicklinks-block ul li a span {
+  color: white;
+}
+[data-bs-theme=dark] .home .ala-quicklinks-block ul li:hover {
+  border-color: #f26649;
+}
+[data-bs-theme=dark] .home .ala-updates-block {
+  background-color: #f2f2f2;
+}
+[data-bs-theme=dark] .home .ala-newsletter-block {
+  background-color: #d9d9d9;
+}
+
+@media (min-width: 992px) {
+  .home .ala-quicklinks-block ul {
+    padding: 3.8rem 0 2.1rem;
+    margin-left: 2.8%;
+  }
+  .home .ala-quicklinks-block ul li {
+    width: 22%;
+    max-width: 16rem;
+    min-height: 8.5rem;
+    margin: 0 1% 0.4rem;
+    background-position: center top 1.3rem;
+    background-size: 2rem;
+  }
+  .home .ala-quicklinks-block ul li a {
+    padding: 4rem 1rem 1rem;
+    text-align: center;
+  }
+  .home .ala-quicklinks-block ul li a span {
+    max-width: 11rem;
+    min-height: 3rem;
+    display: inline-block;
+  }
+}
