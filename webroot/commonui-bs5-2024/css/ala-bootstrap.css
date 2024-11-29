@@ -11848,6 +11848,24 @@ textarea.form-control-lg {
   --bs-gutter-x: 1.75rem;
 }
 
+.ala-link-arrow::after {
+  display: inline-block;
+  content: "";
+  vertical-align: -0.2em;
+  height: 1rem;
+  width: 1.5rem;
+  color: #212121;
+  /* Bootstrap Icons SVG: arrow-right */
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8' clip-rule='evenodd'/></svg>");
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+  background-position: 0.5rem 0;
+}
+
+[data-bs-theme=dark] .ala-link-arrow::after {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8' clip-rule='evenodd'/></svg>");
+}
+
 .ala-header-wrapper {
   padding-top: 0.75rem;
 }
@@ -12547,16 +12565,102 @@ textarea.form-control-lg {
 .home .ala-stats-block {
   background: linear-gradient(to right, #002a31, #003b45 50%);
   color: white;
+  font-size: 0.9rem;
 }
-.home .ala-stats-block .stats {
+.home .ala-stats-block h2, .home .ala-stats-block .h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+.home .ala-stats-block .stats-data {
   background-color: #ffc557;
   color: #212121;
+  border: 1px solid #eb9d07;
+  border-radius: 10px;
+  margin-top: 1.8rem;
+  margin-bottom: 2.2rem;
+}
+.home .ala-stats-block .stats-data .stats-data-cell {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.5rem 0.2rem 1.1rem;
+}
+.home .ala-stats-block .stats-data span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: -0.4rem;
+}
+.home .ala-stats-block .stats-data a {
+  color: #212121;
+  font-size: 0.8rem;
+}
+.home .ala-stats-block .stats-data .stats-see-more {
+  display: block;
+  margin-top: 0.6rem;
+  margin-bottom: 0.7rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.home .ala-stats-block a {
+  color: white;
+}
+.home .ala-stats-block img {
+  width: 100%;
+}
+.home .ala-stats-block .stats-image-attrib {
+  text-align: right;
+  padding-bottom: 1.1rem;
+  margin-top: 2.2rem;
+}
+.home .ala-impact-block {
+  background-image: url(../img/ala-logo-grey-bg.svg);
+  background-size: auto 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  font-size: 0.9rem;
+  padding-bottom: 2.5rem;
+}
+.home .ala-impact-block h2, .home .ala-impact-block .h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.5rem;
+}
+.home .ala-impact-block h3, .home .ala-impact-block .h3 {
+  font-size: 1.3rem;
+  color: #c44d34;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+.home .ala-impact-block p {
+  margin-bottom: 0.9rem;
+}
+.home .ala-impact-block .impact-see-more {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 1.7rem;
+}
+.home .ala-impact-block img {
+  width: 100%;
+  margin-bottom: 1.3rem;
+  border-radius: 10px;
 }
 .home .ala-updates-block {
   background-color: #f2f2f2;
 }
 .home .ala-newsletter-block {
   background-color: #d9d9d9;
+}
+.home .ala-newsletter-block h2, .home .ala-newsletter-block .h2 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.1rem;
+}
+.home .ala-newsletter-block a {
+  background-color: white;
+  margin-bottom: 2rem;
 }
 
 [data-bs-theme=dark] .home .ala-hero-block {
@@ -12587,8 +12691,25 @@ textarea.form-control-lg {
 [data-bs-theme=dark] .home .ala-updates-block {
   background-color: #f2f2f2;
 }
+[data-bs-theme=dark] .home .ala-impact-block {
+  background-image: url(../img/ala-logo-dark-bg.svg);
+  background-color: black;
+}
+[data-bs-theme=dark] .home .ala-impact-block h3, [data-bs-theme=dark] .home .ala-impact-block .h3 {
+  color: #ffc557;
+}
+[data-bs-theme=dark] .home .ala-impact-block .impact-see-more {
+  color: white;
+}
 [data-bs-theme=dark] .home .ala-newsletter-block {
-  background-color: #d9d9d9;
+  background-color: #3a3a3a;
+}
+[data-bs-theme=dark] .home .ala-newsletter-block a {
+  background-color: #c44d34;
+  color: white;
+}
+[data-bs-theme=dark] .home .ala-newsletter-block a:hover {
+  background-color: transparent;
 }
 
 @media (min-width: 992px) {
@@ -12612,5 +12733,103 @@ textarea.form-control-lg {
     max-width: 11rem;
     min-height: 3rem;
     display: inline-block;
+    font-size: 1.15rem;
+  }
+  .home .ala-stats-block {
+    font-size: 1rem;
+  }
+  .home .ala-stats-block h2, .home .ala-stats-block .h2 {
+    margin-top: 5.6rem;
+    margin-bottom: 1.8rem;
+    font-size: 2.8rem;
+  }
+  .home .ala-stats-block .stats-data {
+    margin-top: 2.2rem;
+  }
+  .home .ala-stats-block .stats-data .col-lg-3 {
+    padding: 0;
+  }
+  .home .ala-stats-block .stats-data .stats-data-cell {
+    border-bottom: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 1rem;
+    padding: 0 0.5rem 0 1.2rem;
+    min-height: 4.7rem;
+  }
+  .home .ala-stats-block .stats-data .stats-data-cell-records {
+    border-left: none !important;
+    padding-left: 1.3rem;
+  }
+  .home .ala-stats-block .stats-data span {
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+    line-height: 1.6rem;
+  }
+  .home .ala-stats-block .stats-data a {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    display: block;
+  }
+  .home .ala-stats-block .stats-data .stats-see-more {
+    margin-left: 0.6rem;
+  }
+  .home .ala-stats-block .stats-text {
+    max-width: 31rem;
+  }
+  .home .ala-stats-block img {
+    margin-top: 5.5rem;
+  }
+  .home .ala-stats-block .col-stats-data {
+    padding-right: 0;
+  }
+  .home .ala-stats-block .col-stats-image {
+    padding-left: 0;
+  }
+  .home .ala-stats-block .stats-image-attrib {
+    padding-bottom: 2.5rem;
+  }
+  .home .ala-impact-block {
+    font-size: 1rem;
+    padding-bottom: 4rem;
+  }
+  .home .ala-impact-block h2, .home .ala-impact-block .h2 {
+    margin-top: 5.6rem;
+    margin-bottom: 3.8rem;
+    font-size: 2.8rem;
+    text-align: center;
+  }
+  .home .ala-impact-block h3, .home .ala-impact-block .h3 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+  }
+  .home .ala-impact-block .ala-impact-2-text {
+    position: relative;
+    left: 50%;
+  }
+  .home .ala-impact-block .ala-impact-2-image {
+    position: relative;
+    left: -50%;
+  }
+  .home .ala-impact-block .col-lg-6 {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+  .home .ala-impact-block img {
+    margin-bottom: 3rem;
+  }
+  .home .ala-newsletter-block h2, .home .ala-newsletter-block .h2 {
+    margin-top: 2.7rem;
+    font-size: 2rem;
+    margin-bottom: 2.7rem;
+  }
+  .home .ala-newsletter-block a {
+    margin-top: 2.6rem;
+    float: right;
+  }
+}
+@media (min-width: 1200px) {
+  .home .ala-quicklinks-block ul li a span {
+    font-size: 1.25rem;
   }
 }
