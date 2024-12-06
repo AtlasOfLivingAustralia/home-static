@@ -12,13 +12,13 @@
 	<atom:link href="https://www-test.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www-test.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 10 Oct 2024 05:07:53 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 06 Dec 2024 01:01:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.6.2</generator>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
 
 <image>
 	<url>https://www-test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -28,6 +28,31 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Meet the ALA&#8217;s Australian Biodiversity Data Mobilisation Program winners [Test]</title>
+		<link>https://www-test.ala.org.au/blogs-news/meet-the-alas-australian-biodiversity-data-mobilisation-program-winners-test/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Fri, 06 Dec 2024 01:01:54 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46118</guid>
+
+					<description><![CDATA[Australia — is home to unique biodiversity and ecosystems. So – it&#8217;s vital-that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species! How? While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Australia — is home to unique biodiversity and ecosystems. So – it&#8217;s vital-that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species!</p>
+
+
+
+<p>How?</p>
+
+
+
+<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>An iNaturalist Australia milestone</title>
 		<link>https://www-test.ala.org.au/blogs-news/an-inaturalist-australia-milestone/</link>
 		
@@ -39,13 +64,13 @@
 		<category><![CDATA[Atlas of Living Australia]]></category>
 		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46079</guid>
 
-					<description><![CDATA[After launching internationally in 2008, iNaturalist has blossomed into one of the most popular citizen science platforms in the world with more than 214 million observations across approximately 491,000 species, contributed by almost 3.4 million users (as of October 2024). While these are incredible collective results, it’s safe to say our local iNaturalist Australia node [&#8230;]]]></description>
+					<description><![CDATA[After launching internationally in 2008, iNaturalist has blossomed into one of the most popular citizen science platforms in the world with more than 214 million observations across approximately 491,000 species, contributed by almost 3.4 million users (as of October 2024). While these are incredible collective results, it&#8217;s safe to say our local iNaturalist Australia node [&#8230;]]]></description>
 										<content:encoded><![CDATA[
 <p>After launching internationally in 2008, iNaturalist has blossomed into one of the most popular citizen science platforms in the world with more than 214 million observations across approximately 491,000 species, contributed by almost 3.4 million users (<a>as of October 2024). </a></p>
 
 
 
-<p>While these are incredible collective results, it’s safe to say our local iNaturalist Australia node is a heavyweight on the global stage and, as a major contributor to Atlas of Living Australia (ALA) records, we’re celebrating a big milestone this month with iNaturalist Australia’s fifth birthday!</p>
+<p>While these are incredible collective results, it&#8217;s safe to say our local iNaturalist Australia node is a heavyweight on the global stage and, as a major contributor to Atlas of Living Australia (ALA) records, we’re celebrating a big milestone this month with iNaturalist Australia’s fifth birthday!</p>
 
 
 
@@ -599,35 +624,6 @@
 
 
 <p>For more information on working with data in R and Python, check out the&nbsp;<a href="https://galah.ala.org.au/">galah package</a>&nbsp;and<a href="https://labs.ala.org.au/">&nbsp;ALA Labs.</a></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Protecting Australia&#8217;s biodiversity – with data — (test2!?)</title>
-		<link>https://www-test.ala.org.au/blogs-news/protecting-australias-biodiversity-with-data-test2/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Fri, 23 Aug 2024 05:30:40 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www-test.ala.org.au/?p=46039</guid>
-
-					<description><![CDATA[Meet the ALA&#8217;s Australian Biodiversity Data Mobilisation Program winners Australia (?!) — is home to unique biodiversity and ecosystems. So – it&#8217;s vital-that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species! How? While biodiversity data such as physical specimens in collections, or data from field [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Meet the ALA&#8217;s Australian Biodiversity Data Mobilisation Program winners</strong></p>
-
-
-
-<p>Australia (?!) — is home to unique biodiversity and ecosystems. So – it&#8217;s vital-that researchers, governments and industry have access to high-quality data so they can better understand, monitor and protect species!</p>
-
-
-
-<p>How?</p>
-
-
-
-<p>While biodiversity data such as physical specimens in collections, or data from field programs are used to address specific research goals, these data often require additional resources to ensure they can be digitised and made available nationally as open data.</p>
 ]]></content:encoded>
 					
 		
