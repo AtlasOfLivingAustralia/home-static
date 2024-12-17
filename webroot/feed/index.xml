@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 19 Nov 2024 06:35:02 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 17 Dec 2024 04:53:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,78 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>New biodiversity data set to benefit all</title>
+		<link>https://www.ala.org.au/blogs-news/new-biodiversity-data-set-to-benefit-all/</link>
+		
+		<dc:creator><![CDATA[Lucinda Ross]]></dc:creator>
+		<pubDate>Tue, 17 Dec 2024 04:49:43 +0000</pubDate>
+				<category><![CDATA[Data]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=50141</guid>
+
+					<description><![CDATA[The Atlas of Living Australia’s (ALA) Australian Biodiversity Data Mobilisation Program (ABDMP) offers grants to support people and institutions in making their biodiversity data more accessible. Read about our 2024 grant recipients.]]></description>
+										<content:encoded><![CDATA[
+<p>The Atlas of Living Australia&#8217;s (ALA) <a href="https://ala.org.au/abdmp/" target="_blank" rel="noreferrer noopener">Australian Biodiversity Data Mobilisation Program (ABDMP)</a> offers grants to support people and institutions in making their biodiversity data more accessible.  </p>
+
+
+
+<p>You may have read about the ABDMP projects <a href="https://www.ala.org.au/blogs-news/new-ala-data-mobilisation-projects/" target="_blank" rel="noreferrer noopener">we announced in July 2024</a> which improved the accessibility of previously untapped biosecurity data. &nbsp;</p>
+
+
+
+<p>Well, now we can announce five new projects which have received an ABDMP grant to enable the provision of new biodiversity data into the ALA. </p>
+
+
+
+<p>The recipients are:&nbsp;&nbsp;</p>
+
+
+
+<ol start="1" class="wp-block-list">
+<li><strong>Australian Wildlife Conservancy (AWC):</strong> The largest private land conservation organisation in Australia holding data from remote regions across the continent that are historically under-surveyed, such as the Kimberley, Cape York and the arid zone. AWC surveys have focused on threatened species and restricted-range endemics. It’s estimated AWC will provide more than 260,000 records to the ALA including records from areas that have less published data and from longitudinal surveying. </li>
+</ol>
+
+
+
+<ol start="2" class="wp-block-list">
+<li><strong>Museums Victoria: </strong>This grant will support the digitisation of a significant Click Beetle (Elateridae) collection for approximately 800 species within Australia. At approximately 15,000 records, this project will add data for an additional 99 species to the ALA and increase in species-level occurrence records by 180%, increase the number of species by 36%, and increase the number of genera by 38%. </li>
+</ol>
+
+
+
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-1024x683.jpg" alt="Woman looking at computer with beetle on screen. " class="wp-image-50142" srcset="https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-1920x1280.jpg 1920w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo: Joseph Byford Photography</figcaption></figure>
+
+
+
+<ol start="3" class="wp-block-list">
+<li><strong>Royal Botanical Gardens Victoria: </strong>This grant supports the mobilisation of specimen-based occurrence data from Australian macrofungi specimens collected by renowned mycologist and fungi photographer Bruce Fuhrer OAM (1930–2023). The project will see the transcription and digitisation of data associated with approximately 1800 specimens and a selection of field images taken by Mr Fuhrer. </li>
+</ol>
+
+
+
+<ol start="4" class="wp-block-list">
+<li><strong>University of Melbourne: </strong>This project will facilitate the mobilisation of data for non-vascular bryophyte (phylum Bryophyta) and liverwort (phylum Marchantiophyta) specimens, collected by bryologist Dr David Meagher, into the Atlas of Living Australia. Dr Meagher has been described as ‘Australia’s most competent bryologist’. He authored 60 publications, many describing or revising bryophyte and liverwort taxa during his 20+ year research career. In digitising Meagher’s specimens, this project will contribute data for specimens collected from throughout Australia within the last 20 years, documenting contemporary taxon distributions and habitat occupancy for non-vascular taxa that are under-represented in the ALA. </li>
+</ol>
+
+
+
+<ol start="5" class="wp-block-list">
+<li><strong>West Australian Museum: </strong>Dr Barbara York Main (1929–2019) was Australia’s ‘spider-lady’ with an international reputation as a spider researcher and author of books describing the Western Australian environment. Dr Main’s collection is comprised primarily of thousands of trapdoor spiders that she collected over a 60+ year period and is considered the most significant <br>historical collection of this iconic group of spiders in Australia. It also includes Barbara’s field notebooks that describe critical data on burrow structure, and soil and vegetation associations. The collection is estimated to contain 3,500–4,000 specimens and will support a greater understanding of these species in the future.  </li>
+</ol>
+
+
+
+<p>We congratulate the successful projects and grant recipients for 2024 and thank our review panel for their time and expertise in evaluating many high-calibre applications this year. &nbsp;</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Webinar: Generous interfaces for discovering complex biodiversity data</title>
 		<link>https://www.ala.org.au/blogs-news/ala-webinar-generous-interfaces-for-discovering-complex-biodiversity-data/</link>
 		
@@ -123,7 +195,7 @@
 
 
 
-<figure class="wp-block-image is-resized is-style-default"><a href="https://mailchi.mp/ala/nov-2024-newsletter"><img fetchpriority="high" decoding="async" width="1272" height="1160" src="https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2.png" alt="ALA's November 2024 newsletter header banner - it includes the ALA logo and a dried wattle specimen, and a welcome message" class="wp-image-50104" style="width:1450px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2.png 1272w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-300x274.png 300w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-1024x934.png 1024w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-768x700.png 768w" sizes="(max-width: 1272px) 100vw, 1272px" /></a></figure>
+<figure class="wp-block-image is-resized is-style-default"><a href="https://mailchi.mp/ala/nov-2024-newsletter"><img decoding="async" width="1272" height="1160" src="https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2.png" alt="ALA's November 2024 newsletter header banner - it includes the ALA logo and a dried wattle specimen, and a welcome message" class="wp-image-50104" style="width:1450px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2.png 1272w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-300x274.png 300w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-1024x934.png 1024w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-768x700.png 768w" sizes="(max-width: 1272px) 100vw, 1272px" /></a></figure>
 
 
 
@@ -150,7 +222,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignright is-resized"><img decoding="async" width="719" height="938" src="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png" alt="&quot;&quot;" class="wp-image-48109" style="width:251px;height:auto" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png 719w, https://www.ala.org.au/app/uploads/2023/02/Andre-zerger-230x300.png 230w" sizes="(max-width: 719px) 100vw, 719px" /></figure></div>
+<figure class="alignright is-resized"><img loading="lazy" decoding="async" width="719" height="938" src="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png" alt="&quot;&quot;" class="wp-image-48109" style="width:251px;height:auto" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png 719w, https://www.ala.org.au/app/uploads/2023/02/Andre-zerger-230x300.png 230w" sizes="auto, (max-width: 719px) 100vw, 719px" /></figure></div>
 
 
 <p>Welcome to the November 2024 edition of our Atlas of Living Australia (ALA) newsletter.</p>
@@ -590,53 +662,6 @@
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>New ALA data mobilisation projects</title>
-		<link>https://www.ala.org.au/blogs-news/new-ala-data-mobilisation-projects/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Wed, 17 Jul 2024 02:16:07 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49618</guid>
-
-					<description><![CDATA[The ALA Australian Biodiversity Data Mobilisation Program (ABDMP) was developed to promote and improve the scientific understanding of Australia’s rare and remarkable biodiversity. In our third year of the program, the ABDMP was expanded to include both a ‘general’ funding stream and a ‘biosecurity-specific’ funding stream. Through a competitive application process, we are pleased to [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="341" src="https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-1024x341.png" alt="Banner with invasive Mediterranean Rye Grass and the ALA logo" class="wp-image-49622" srcset="https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-1024x341.png 1024w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-300x100.png 300w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40-768x256.png 768w, https://www.ala.org.au/app/uploads/2024/07/Landscape-banner-headings-40.png 1500w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p>The <a href="https://www.ala.org.au/abdmp/">ALA Australian Biodiversity Data Mobilisation Program</a> (ABDMP) was developed to promote and improve the scientific understanding of Australia’s rare and remarkable biodiversity. In our third year of the program, the ABDMP was expanded to include both a ‘general’ funding stream and a ‘biosecurity-specific’ funding stream. Through a competitive application process, we are pleased to announce the successful biosecurity projects for 2024. The general round of projects will be announced shortly.</p>
-
-
-
-<p><strong>Successful Biosecurity Projects:</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li><strong><a href="https://nre.tas.gov.au/biosecurity-tasmania">Biosecurity Tasmania</a>:</strong> This project will mobilise more than 73,000 invertebrate specimen records from the Tasmanian Agriculture Invertebrate Collection (TAIC). This includes more than 450 type specimens and unique records from Macquarie Island.  Cumulatively these records will provide a significant increase in spatial areas of many Tasmanian species not currently represented in the ALA, accelerating the documentation of Australia’s invertebrate fauna.</li>
-</ul>
-
-
-
-<ul class="wp-block-list">
-<li><a href="https://www.dbca.wa.gov.au/science/research-tools-and-repositories/western-australian-herbarium"><strong>Western Australian Herbarium –</strong> <strong>Department of Biodiversity, Conservation and Attractions</strong></a><strong>.</strong> To improve the detection of invasive plants across Western Australia, this project will capture high-resolution images of herbarium specimens and mobilise this information to the ALA.  These images, along with existing data for 36,700 specimens and an additional 800 to be digitised, will be made publicly available. This will greatly improve the ability of land managers and biosecurity groups to identify and manage invasive species.</li>
-</ul>
-
-
-
-<ul class="wp-block-list">
-<li><strong><a href="https://pir.sa.gov.au/research">Primary Industries and Regions South Australia- South Australia Research and Development Institute (SARDI)- Aquatic and Livestock Sciences</a>.</strong> SARDI holds valuable data on invasive, introduced, and native marine species collected in South Australia and beyond. Currently, these records (particularly those for invasive species) are inaccessible to the public. This project will mobilise this data by extracting it from SARDI databases, ensuring quality control, and making it open access through the ALA.</li>
-</ul>
-
-
-
-<p>We congratulate the successful biosecurity projects for 2024 and thank our review panel for their time and expertise in evaluating many high-calibre applications for this funding stream.</p>
 ]]></content:encoded>
 					
 		
