@@ -12533,6 +12533,9 @@ textarea.form-control-lg {
   background-color: white;
   margin-bottom: 1.2rem;
 }
+.home .ala-hero-block .ala-hero-search:has(button[aria-expanded=true]) {
+  border-radius: 5px 5px 5px 0;
+}
 .home .ala-hero-block .ala-hero-search .ala-hero-main-input {
   display: flex;
   align-items: center;
