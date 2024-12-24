@@ -12747,6 +12747,95 @@ textarea.form-control-lg {
 .home .ala-updates-block {
   background-color: #f2f2f2;
 }
+.home .ala-updates-block h2, .home .ala-updates-block .h2 {
+  margin-top: 2.6rem;
+  margin-bottom: 1.8rem;
+  font-size: 1.45rem;
+}
+.home .ala-updates-block a {
+  color: #212121;
+  text-decoration: none;
+}
+.home .ala-updates-block .ala-news-posts {
+  width: 18rem;
+  margin-bottom: 2.3rem;
+}
+.home .ala-updates-block .ala-news-posts .carousel-inner {
+  padding: 1rem;
+}
+.home .ala-updates-block .ala-news-posts .carousel-control-prev, .home .ala-updates-block .ala-news-posts .carousel-control-next {
+  top: 5rem;
+  bottom: auto;
+  background-color: #212121;
+  width: 6vh;
+  height: 6vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.home .ala-updates-block .ala-news-post {
+  font-size: 0.8rem;
+  background-color: #f2f2f2;
+}
+.home .ala-updates-block .ala-news-post .ala-news-post-image {
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  width: 16rem;
+  height: 11rem;
+}
+.home .ala-updates-block .ala-news-post .ala-news-post-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+.home .ala-updates-block .ala-news-post .ala-news-post-categories {
+  padding-left: 0;
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+.home .ala-updates-block .ala-news-post .ala-news-post-categories :first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+.home .ala-updates-block .ala-news-post .ala-news-post-categories :first-child ::before {
+  width: 0;
+  background-image: none;
+}
+.home .ala-updates-block .ala-news-post .ala-news-post-categories li {
+  display: inline-block;
+  margin-left: -0.2rem;
+}
+.home .ala-updates-block .ala-news-post .ala-news-post-categories li ::before {
+  display: inline-block;
+  content: "";
+  vertical-align: -0.125em;
+  height: 1rem;
+  width: 1.2rem;
+  background-repeat: no-repeat;
+  background-size: 1.3rem 1.3rem;
+  background-position: 0 0;
+  /* Bootstrap Icons: dot */
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='currentColor' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3' clip-rule='evenodd'/></svg>");
+}
+.home .ala-updates-block .ala-news-post h3, .home .ala-updates-block .ala-news-post .h3 {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.home .ala-updates-block .ala-news-post .ala-news-post-date {
+  margin-top: 0.7rem;
+  margin-bottom: 0.6rem;
+}
+.home .ala-updates-block .ala-insta-post img {
+  width: 16rem;
+}
+.home .ala-updates-block .newsletter-button {
+  margin-top: 1.8rem;
+  margin-bottom: 3.8rem;
+}
 .home .ala-newsletter-block {
   background-color: #d9d9d9;
 }
@@ -12874,7 +12963,24 @@ textarea.form-control-lg {
 }
 [data-bs-theme=dark] .home .ala-updates-block {
   background-color: #212121;
+}
+[data-bs-theme=dark] .home .ala-updates-block a {
   color: white;
+}
+[data-bs-theme=dark] .home .ala-updates-block .ala-news-post {
+  background-color: #212121;
+  color: white;
+}
+[data-bs-theme=dark] .home .ala-updates-block .ala-news-post .ala-news-post-categories li ::before {
+  /* Bootstrap Icons: dot */
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3' clip-rule='evenodd'/></svg>");
+}
+[data-bs-theme=dark] .home .ala-updates-block .newsletter-button a {
+  background-color: #c44d34;
+  color: white;
+}
+[data-bs-theme=dark] .home .ala-updates-block .newsletter-button a:hover {
+  background-color: transparent;
 }
 [data-bs-theme=dark] .home .ala-impact-block {
   background-image: url(../img/ala-logo-dark-bg.svg);
@@ -13064,6 +13170,17 @@ textarea.form-control-lg {
   }
   .home .ala-impact-block img {
     margin-bottom: 3rem;
+  }
+  .home .ala-updates-block .ala-news-posts {
+    width: 50rem;
+  }
+  .home .ala-updates-block .ala-news-posts .carousel-inner {
+    display: flex;
+  }
+  .home .ala-updates-block .ala-news-post {
+    margin-right: 0;
+    display: block;
+    flex: 0 0 33.33%;
   }
   .home .ala-newsletter-block h2, .home .ala-newsletter-block .h2 {
     margin-top: 2.7rem;
