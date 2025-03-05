@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 14 Jan 2025 05:56:32 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 05 Mar 2025 22:58:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,65 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Webinar: Harnessing biodiversity data to support Australian industry</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-harnessing-biodiversity-data-to-support-australian-industry/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 05 Mar 2025 22:57:35 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=50357</guid>
+
+					<description><![CDATA[Access to biodiversity data supports many industries, such as environmental consulting, agriculture, mining, forestry and tourism. By leveraging this valuable resource, businesses can make more informed decisions, minimise environmental impacts, and contribute to Australia&#8217;s sustainability goals. Join this webinar hosted by the ALA to hear how industry professionals utilise biodiversity data to support their business [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Access to biodiversity data supports many industries, such as environmental consulting, agriculture, mining, forestry and tourism. By leveraging this valuable resource, businesses can make more informed decisions, minimise environmental impacts, and contribute to Australia&#8217;s sustainability goals. Join this webinar hosted by the ALA to hear how industry professionals utilise biodiversity data to support their business needs.</p>
+
+
+
+<p>The ALA receives support from the Australian Government through the <a href="https://www.education.gov.au/ncris">National Collaborative Research Infrastructure Strategy</a> (NCRIS) and is hosted by&nbsp;<a href="https://www.csiro.au/en/">CSIRO</a>.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA Webinar: Harnessing biodiversity data to support Australian industry" width="640" height="360" src="https://www.youtube.com/embed/QIXH9kyVGZc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This event was hosted on 4 March 2025 at 12pm AEDT.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="speakers">Speakers</h2>
+
+
+
+<p>The ALA was grateful to be joined by the following speakers for this webinar: Juliet Seers from the ALA, Ali Cotton from <a href="https://apemgroup.com/" target="_blank" rel="noreferrer noopener">APEM Group</a>, and Elizabeth Stark from <a href="https://www.symbolix.com.au/" target="_blank" rel="noreferrer noopener">Symbolix</a>.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+<div class="wp-block-image">
+<figure class="alignleft"><img decoding="async" src="https://events.csiro.au/~/media/Images/Events/E-ALATAB-240220/alamoderator-martin-westgate-135px.jpg?la=en&amp;hash=000621C778F9C3B05D12070053119AA1E746D4F9" alt="Dr Martin Westgate"/></figure></div>
+
+
+<p><strong>Facilitator: Dr Martin Westgate</strong></p>
+
+
+
+<p>Martin Westgate leads the Science and Decision Support team at the Atlas of Living Australia. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>New biodiversity data set to benefit all</title>
 		<link>https://www.ala.org.au/blogs-news/new-biodiversity-data-set-to-benefit-all/</link>
 		
@@ -195,7 +254,7 @@
 
 
 
-<figure class="wp-block-image is-resized is-style-default"><a href="https://mailchi.mp/ala/nov-2024-newsletter"><img decoding="async" width="1272" height="1160" src="https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2.png" alt="ALA's November 2024 newsletter header banner - it includes the ALA logo and a dried wattle specimen, and a welcome message" class="wp-image-50104" style="width:1450px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2.png 1272w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-300x274.png 300w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-1024x934.png 1024w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-768x700.png 768w" sizes="(max-width: 1272px) 100vw, 1272px" /></a></figure>
+<figure class="wp-block-image is-resized is-style-default"><a href="https://mailchi.mp/ala/nov-2024-newsletter"><img loading="lazy" decoding="async" width="1272" height="1160" src="https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2.png" alt="ALA's November 2024 newsletter header banner - it includes the ALA logo and a dried wattle specimen, and a welcome message" class="wp-image-50104" style="width:1450px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2.png 1272w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-300x274.png 300w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-1024x934.png 1024w, https://www.ala.org.au/app/uploads/2024/11/newsletterq4-shot2-768x700.png 768w" sizes="auto, (max-width: 1272px) 100vw, 1272px" /></a></figure>
 
 
 
@@ -621,47 +680,6 @@
 
 
 <figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="658" height="918" src="https://www.ala.org.au/app/uploads/2024/07/ala-newsletter-july-24-thumbnail.png" alt="ALA's July 2024 newsletter header banner - it includes the ALA logo and a frog, and a welcome message" class="wp-image-49685" style="width:590px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/07/ala-newsletter-july-24-thumbnail.png 658w, https://www.ala.org.au/app/uploads/2024/07/ala-newsletter-july-24-thumbnail-215x300.png 215w" sizes="auto, (max-width: 658px) 100vw, 658px" /></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Director&#8217;s Update &#8211; July 2024</title>
-		<link>https://www.ala.org.au/blogs-news/directors-update-july-2024/</link>
-		
-		<dc:creator><![CDATA[april.suen@csiro.au]]></dc:creator>
-		<pubDate>Mon, 22 Jul 2024 01:35:31 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49626</guid>
-
-					<description><![CDATA[Welcome to the July 2024 edition of our Atlas of Living Australia (ALA) newsletter. In this issue, we are excited to release our 2024-25 ALA Annual Workplan which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by ALA’s Strategy 2020–2025, operational priorities that may emerge in [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Welcome to the July 2024 edition of our Atlas of Living Australia (ALA) newsletter.</p>
-
-
-
-<p>In this issue, we are excited to release our <a href="https://ala.org.au/publications/ala-annual-work-plan-2024-2025/">2024-25 ALA Annual Workplan</a> which is a key element of our strategic and operational planning process. Priorities in the workplan are informed by<a href="https://www.ala.org.au/publications/ala-strategy-2020-2025/"> ALA’s Strategy 2020–2025</a>, operational priorities that may emerge in any year, and partnerships that the ALA has commenced establishing. The workplan acts as both an internal planning tool to guide team priorities, and for external communication purposes to provide our stakeholders with greater visibility into ALA operations.</p>
-
-
-
-<p>2024-25 will be the fifth year of delivery under the ALA’s current strategy. Priorities will include the production release of several important initiatives that commenced 2023-24, including the (a) operational national biosecurity alerts service, (b) new ALA home page, species pages and global search interface under the UX/UI project, and (c) stage two of the taxonomic architecture project which will include improved species names matching. Collectively, these capabilities will be transformational for Australia’s biodiversity data community, and we look forward to their release. &nbsp;</p>
-
-
-
-<p>As a national research infrastructure supported under the NCRIS program, partnerships are fundamental to how the ALA benefits Australia’s researchers, decision-makers and community. In 2024-25, the ALA will further partner with Australia’s biological collections sector and to develop a case to support a <a href="https://ala.org.au/app/uploads/2024/06/Accelerating_Discovery_and_Access_to_Australias_Biological_Collections_2024_June.pdf">national approach to biological collections</a> akin to the major programs currently underway in Europe and the United States. Beyond the biological collections sector, the ALA will improve the reach and depth of its partnerships with Aboriginal and Torres Strait Islander People, working more closely with Indigenous ranger programs to co-design and deliver training programs to enhance the utility of the ALA. Similarly, this year we established a number of partnerships with the environmental consulting sector given the critical role they play in assessing and monitoring Australia’s biodiversity, and we plan to extend these partnerships to support improved translation of research infrastructure to industry.</p>
-
-
-
-<p>Our workplan also identifies project leads from the ALA, and we encourage you to reach out to our team to learn more or to collaborate. I hope you enjoy reading our July 2024 Newsletter. </p>
-
-
-
-<p><strong>Dr Andre Zerger, ALA Director.</strong></p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
