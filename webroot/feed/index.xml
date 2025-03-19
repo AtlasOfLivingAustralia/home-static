@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 13 Mar 2025 23:29:44 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 19 Mar 2025 05:23:55 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,72 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>How do we get more rare species records?</title>
+		<link>https://www.ala.org.au/blogs-news/how-do-we-get-more-rare-species-records/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Wed, 19 Mar 2025 05:21:34 +0000</pubDate>
+				<category><![CDATA[Data]]></category>
+		<category><![CDATA[International]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=50402</guid>
+
+					<description><![CDATA[While some species have millions of observations recorded in the Atlas of Living Australia (ALA), many lesser-known species have few or even no public records. The ALA has been working to improve taxonomic representativeness of our data with a little help from the international community! So how do we get more rare records? Species specimens [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>While some species have millions of observations recorded in the Atlas of Living Australia (ALA), many lesser-known species have few or even no public records. The ALA has been working to improve taxonomic representativeness of our data with a little help from the international community!</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-large is-resized"><img fetchpriority="high" decoding="async" width="927" height="1024" src="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png" alt="close up of two orchid flowers on a single plant. The flowers have six purple long pointed petals, and the centre of each flower is orange " class="wp-image-50406" style="width:375px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png 927w, https://www.ala.org.au/app/uploads/2025/03/orchid-272x300.png 272w, https://www.ala.org.au/app/uploads/2025/03/orchid-768x848.png 768w, https://www.ala.org.au/app/uploads/2025/03/orchid-1391x1536.png 1391w, https://www.ala.org.au/app/uploads/2025/03/orchid.png 1811w" sizes="(max-width: 927px) 100vw, 927px" /><figcaption class="wp-element-caption">Blue Tinsel Lily (<em>Calectasia cyanea</em>), photo credit: botanistbob CC-BY-NC </figcaption></figure></div>
+
+
+<p>So how do we get more rare records? Species specimens from museums or herbaria are invaluable sources for this task. The thing is, getting access to specimen data isn&#8217;t always easy.&nbsp;</p>
+
+
+
+<p>One challenge stems from a strength of taxonomy: It&#8217;s a global discipline. Natural history specimens are sent around the world to experts for careful description and classification. This means that specimens, including those of Australian species, can end up anywhere on the planet.&nbsp;&nbsp;</p>
+
+
+
+<p>Another challenge is getting access to specimen data. Digitising specimens helps to make important specimens discoverable by end users. Museums and herbaria face a vast task in digitising their collections, and even though Australia is one of the leading countries in this respect, when there are only one or two existing specimens of a species in the world, it can be difficult to even find these amidst the ocean of specimens awaiting digitisation!&nbsp;</p>
+
+
+
+<p>While progress continues to be made digitising the global backlog, it is important to also gather existing lesser-known datasets with <em>digitised </em>specimen data – digitally catalogued physical specimens, photographs or sounds (and metadata about the place and time they were recorded). People often don&#8217;t think to look in international digital specimen datasets for data on Australian species.&nbsp;</p>
+
+
+
+<p>The ALA is fortunate to partner with the <a href="https://www.gbif.org/" target="_blank" rel="noreferrer noopener">Global Biodiversity Information Facility</a> (GBIF), an international repository of many regional and national <a href="https://living-atlases.gbif.org/" target="_blank" rel="noreferrer noopener">Living Atlases</a> like the ALA. From GBIF, the ALA was able to source an additional three million records of Australian species to the ALA&#8217;s 150 million records.&nbsp;</p>
+
+
+
+<p>These additional records have provided the first digital records of a whopping 7,914 Australian species. Another 6,177 had the number of records doubled.&nbsp;&nbsp;</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="800" height="533" src="https://www.ala.org.au/app/uploads/2025/03/gecko.jpg" alt="close up of a gecko with large golden eyes, and mottled yellow and brown body" class="wp-image-50405" style="width:751px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/gecko.jpg 800w, https://www.ala.org.au/app/uploads/2025/03/gecko-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/03/gecko-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption class="wp-element-caption">Gulbaru Gecko (<em>Phyllurus gulbaru</em>), photo credit: dhfischer CC-BY</figcaption></figure>
+
+
+
+<p>The result is even more exciting for threatened species. These GBIF data have contributed more than 72,703 records of 1,393 federally threatened species! Crucially, GBIF data has contributed records for 482 data-poor species (species with less than 80 records). For another seven threatened species, these data provided their first Australian digital records.&nbsp;</p>
+
+
+
+<p>Improving the taxonomic breadth of Australian species records in the ALA is incredibly important for both science and conservation. &nbsp;</p>
+
+
+
+<p>More species with openly accessible data means scientists can save time and effort searching for data, having positive impacts on conservation assessments and modelling.&nbsp;</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Newsletter March 2025</title>
 		<link>https://www.ala.org.au/blogs-news/ala-newsletter-march-2025/</link>
 		
@@ -44,7 +110,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img fetchpriority="high" decoding="async" width="631" height="837" src="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png" alt="Top section of the ALA newsletter for March, including ALA logo and banner with a shingleback lizard. " class="wp-image-50373" style="width:459px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png 631w, https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1-226x300.png 226w" sizes="(max-width: 631px) 100vw, 631px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="631" height="837" src="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png" alt="Top section of the ALA newsletter for March, including ALA logo and banner with a shingleback lizard. " class="wp-image-50373" style="width:459px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png 631w, https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1-226x300.png 226w" sizes="(max-width: 631px) 100vw, 631px" /></figure>
 ]]></content:encoded>
 					
 		
@@ -65,7 +131,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignright is-resized"><img decoding="async" width="719" height="938" src="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png" alt="&quot;&quot;" class="wp-image-48109" style="width:251px;height:auto" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png 719w, https://www.ala.org.au/app/uploads/2023/02/Andre-zerger-230x300.png 230w" sizes="(max-width: 719px) 100vw, 719px" /></figure></div>
+<figure class="alignright is-resized"><img loading="lazy" decoding="async" width="719" height="938" src="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png" alt="&quot;&quot;" class="wp-image-48109" style="width:251px;height:auto" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png 719w, https://www.ala.org.au/app/uploads/2023/02/Andre-zerger-230x300.png 230w" sizes="auto, (max-width: 719px) 100vw, 719px" /></figure></div>
 
 
 <p>Welcome to the March 2025 edition of our Atlas of Living Australia (ALA) newsletter.</p>
@@ -131,7 +197,7 @@
 
 
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="ALA Webinar: Harnessing biodiversity data to support Australian industry" width="640" height="360" src="https://www.youtube.com/embed/QIXH9kyVGZc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" title="ALA Webinar: Harnessing biodiversity data to support Australian industry" width="640" height="360" src="https://www.youtube.com/embed/QIXH9kyVGZc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 
 
@@ -595,81 +661,6 @@
 
 
 <p>If you’re unsure about this change or have any questions, please reach out to <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Webinar: Exploring next gen biodiversity detection technologies</title>
-		<link>https://www.ala.org.au/blogs-news/ala-webinar-exploring-next-gen-biodiversity-detection-technologies/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Fri, 06 Sep 2024 04:41:43 +0000</pubDate>
-				<category><![CDATA[Webinars]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49778</guid>
-
-					<description><![CDATA[Access to high-quality biodiversity data is more essential than ever in understanding and responding to changes in our natural environment. This information is used for informing planning, policy and decision-making and delivering research. Through the Atlas of Living Australia (ALA), more than 135 million species occurrence records are available as open data, with rich information [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-
-<p>Access to high-quality biodiversity data is more essential than ever in understanding and responding to changes in our natural environment. This information is used for informing planning, policy and decision-making and delivering research. Through the Atlas of Living Australia (ALA), more than 135 million species occurrence records are available as open data, with rich information accompanying these records such as images, location, spatial, genetic and related data.</p>
-
-
-
-<p>By enhancing traditional methods to monitor species with novel technologies, a more comprehensive view of Australia’s biodiversity can be developed. To celebrate Biodiversity Month in September, hear from three speakers as they discuss their use of ecoacoustics, eDNA and camera trapping as innovative methods to enhance our ability to detect and monitor biodiversity in Australia.</p>
-
-
-
-<p>The ALA receives support from the Australian Government through the <a href="https://www.education.gov.au/ncris">National Collaborative Research Infrastructure Strategy</a> (NCRIS) and is hosted by&nbsp;<a href="https://www.csiro.au/en/">CSIRO</a>.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Atlas of Living Australia Webinar: Exploring next-gen biodiversity detection technologies" width="640" height="360" src="https://www.youtube.com/embed/tCcza7ZZqPc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>The event was hosted on 4 September 2024 at 11AM AEST.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="speakers">Speakers</h2>
-
-
-
-<p>The ALA was grateful to be joined by the following speakers for this webinar: </p>
-
-
-
-<p>Christine Chivas from <a href="https://www.mq.edu.au/">Macquarie University</a>, Matthew Luskin from <a href="https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/" data-type="link" data-id="https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/" target="_blank" rel="noreferrer noopener">WildObs</a> at the <a href="https://www.uq.edu.au/" target="_blank" rel="noreferrer noopener">University of Queensland</a>, and Paul Roe from <a href="https://www.qut.edu.au/" target="_blank" rel="noreferrer noopener">Queensland University of Technology</a>.</p>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-image">
-<figure class="alignleft"><img decoding="async" src="https://events.csiro.au/~/media/Images/Events/E-ALATAB-240220/alamoderator-martin-westgate-135px.jpg?la=en&amp;hash=000621C778F9C3B05D12070053119AA1E746D4F9" alt="Dr Martin Westgate"/></figure></div>
-
-
-<p><strong>Facilitator: Dr Martin Westgate</strong></p>
-
-
-
-<p>Martin Westgate leads the Science and Decision Support team at the Atlas of Living Australia. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
 ]]></content:encoded>
 					
 		
