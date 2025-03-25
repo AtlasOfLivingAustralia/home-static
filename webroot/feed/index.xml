@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 19 Mar 2025 05:23:55 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 25 Mar 2025 03:24:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,136 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA interns dive into real-world projects</title>
+		<link>https://www.ala.org.au/blogs-news/ala-interns-dive-into-real-world-projects/</link>
+		
+		<dc:creator><![CDATA[Lucinda Ross]]></dc:creator>
+		<pubDate>Tue, 25 Mar 2025 03:24:26 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=50433</guid>
+
+					<description><![CDATA[Supporting the next generation to gain hands-on experience in STEM fields is critical to engaging and inspiring our future researchers and data scientists. That&#8217;s why, each year, the Atlas of Living Australia (ALA) offers several internship positions with our science and support teams. We chatted with our recent 2025 Summer students, Yaohang, Jarod and Jeff [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Supporting the next generation to gain hands-on experience in STEM fields is critical to engaging and inspiring our future researchers and data scientists. That&#8217;s why, each year, the Atlas of Living Australia (ALA) offers several internship positions with our science and support teams.<br></p>
+
+
+
+<p>We chatted with our recent 2025 Summer students, Yaohang, Jarod and Jeff to find out more about their ALA internship experience and what they’ve learned along the way.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" class="wp-block-heading has-medium-font-size" id="yaohang-li-is-studying-a-bachelor-of-software-engineering-honours-at-the-university-of-technology-sydney"><strong>Yaohang Li is studying a Bachelor of Software Engineering (Honours) at the University of Technology Sydney.</strong></h2>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><img fetchpriority="high" decoding="async" width="565" height="742" src="https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li.jpg" alt="&quot;&quot;" class="wp-image-50435" style="width:359px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li.jpg 565w, https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li-228x300.jpg 228w" sizes="(max-width: 565px) 100vw, 565px" /><figcaption class="wp-element-caption">Yaohang Li said he had the opportunity to gain hands-on experience in his areas of interest, cloud computing and automation, during his internship with the ALA. Photo: Erin Roger</figcaption></figure></div>
+
+
+<p><strong>1. What&#8217;s your study background?<br></strong>I am an international student currently pursuing a Bachelor of Software Engineering (Honours) at the University of Technology Sydney (UTS). I’m in my final year and I have always had an interest in software and cloud technologies. Throughout my studies, I’ve gained a solid foundation in programming, software and engineering, and I’m really excited to apply my academic knowledge to practical environment and real-world projects.<br></p>
+
+
+
+<p><strong>2. What was the topic you chose to focus on? What factors led you to choose this topic?<br></strong>I chose to focus on DevOps engineering, which involved migrating the ALA’s Restricted Access Species Data system’s deployment process. I chose this one because it involves continuous integration and continuous delivery and cloud technologies. My interest in cloud computing and automation, along with the opportunity to work on real-world problems related to my major, made this topic quite interesting for me. Although I’m interested in other topics as well, this one suited me the best for my background.<br></p>
+
+
+
+<p><strong>3. What’s a new skill that you learned through the program?<br></strong>I gained valuable experience with cloud technologies, particularly in using infrastructure-as-code solutions that aligns with ALA’s workflow and developed much deeper understanding of different use cases of cloud services and best practice of cloud native technology when building out the infrastructure.<br>I also learned a lot about DevOps and approaches to managing infrastructure. There’s always a gap between learning it from documentation and then applying that to a project. I’m also impressed how ALA manage all the infrastructure and services efficiently.<br></p>
+
+
+
+<p><strong>4. What was the biggest challenge you encountered during the program?<br></strong>One challenge I encountered was differences between two tools we used when migrating the deployment process of API. The existing tool Pulumi made things simple by letting me set up the API with just a few basic settings, but it is highly abstracted. When I switched to using our internal technologies, it provided a more detailed and fine-grained control—I had to manually set up several pieces and make sure they all worked together. At one point, I missed a step, which led to a significant amount of time spent troubleshooting the issue. It was a real learning experience in paying attention to details and troubleshooting issues.<br></p>
+
+
+
+<p><strong>5. What was the highlight of your internship experience?<br></strong>The highlight of my internship was successfully completing the system migration with minimal downtime. It was rewarding to see the deployment go smoothly, especially after the long preparation during this summer.<br>Working with my team at ALA was a fantastic experience. Everyone was incredibly supportive, and I learned so much from their expertise—especially from my mentor, Joe. Their guidance helped me apply ALA’s best practices while recreating the infrastructure, allowing us to fully automate the process when setting up and tearing down different environments.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" class="wp-block-heading has-medium-font-size" id="jarod-wright-is-studying-a-bachelor-of-science-majoring-in-ecology-and-conservation-biology-at-the-university-of-wollongong"><strong>Jarod Wright is studying a Bachelor of Science majoring in Ecology and Conservation Biology at the University of Wollongong.</strong></h2>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><img decoding="async" width="891" height="751" src="https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright.jpg" alt="&quot;&quot;" class="wp-image-50437" style="width:404px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright.jpg 891w, https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright-300x253.jpg 300w, https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright-768x647.jpg 768w" sizes="(max-width: 891px) 100vw, 891px" /><figcaption class="wp-element-caption">Jarod Wright participated in the ALA’s 2025 Summer Internship Program.</figcaption></figure></div>
+
+
+<p><strong>1. What’s your study background?<br></strong>My background is a mix of computer science and science. I’m currently studying a Bachelor of Science majoring in Ecology and Conservation Biology, with previous studies majoring in Computer Science.<br></p>
+
+
+
+<p><strong>2. What was the topic you chose to focus on? What factors led you to choose this topic?<br></strong>I looked at the impact that the Black Summer bushfires had on Southern Greater Gliders (Petauroides volans) distribution. As a proud Wodi Wodi man, I am deeply interested in understanding how megafires like the Black Summer fires have impacted biodiversity and species distribution in Australia, especially so given the wide scale prevention of the community from continuing traditional fire regimes on the east coast of Australia since colonisation.<br></p>
+
+
+
+<p><strong>3. What’s a new skill that that you learned through the program?<br></strong>Species distribution modelling is the biggest skill I learnt! It was a lot of fun and really eye opening to learn about, being able to go out and find data to analyse, and then to produce a species distribution map was a very enjoyable experience and it was very rewarding to produce that final output.<br></p>
+
+
+
+<p><strong>4. What was the biggest challenge you encountered during the program?<br></strong>Managing spatial data and pushing the limits of what my computer could handle was the biggest challenge. The spatial data I was working with is quite big, and modelling is computationally intensive, so it often took a while to run and crashes were frequent, which made debugging and producing the final result a very long but ultimately rewarding experience.<br></p>
+
+
+
+<p><strong>5. What was the highlight of your internship experience?<br></strong>The highlight of my internship was definitely getting to know the Science and Decision Support team and working closely with them, whilst spending my summer developing my R skills on a topic that I am very passionate about.</p>
+
+
+
+<div style="height:32px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" class="wp-block-heading has-medium-font-size" id="jeff-lu-is-studying-a-bachelor-of-information-systems-at-the-university-of-nsw"><strong>Jeff Lu is studying a Bachelor of Information Systems at the University of NSW.</strong></h2>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><img decoding="async" width="796" height="930" src="https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu.jpg" alt="&quot;&quot;" class="wp-image-50436" style="width:391px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu.jpg 796w, https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu-257x300.jpg 257w, https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu-768x897.jpg 768w" sizes="(max-width: 796px) 100vw, 796px" /><figcaption class="wp-element-caption">Jeff Lu participated in the ALA’s 2025 Summer Internship Program. Photo: Erin Roger</figcaption></figure></div>
+
+
+<p><strong>1. What’s your study background?<br></strong>I study Information Systems at UNSW.<br></p>
+
+
+
+<p><strong>2. What was the topic you chose to focus on? What factors led you to choose this topic?<br></strong>The topic of focus involves gathering user requirements to redesign the user interface of ALA’s Profile Collections site. I chose this topic because I have a keen interest in UX/UI and business analysis, and this topic was perfect for me to apply these skills that I learned in university.<br></p>
+
+
+
+<p><strong>3. What’s a new skill that you learned through the program?<br></strong>A new skill that I earned through the program was interviewing people. Before this internship, I had never interviewed anyone before, so naturally, I wouldn’t know how to structure an interview or how to ask questions effectively. Through the guidance of my supervisor and buddy in this project, I was able to learn the key techniques and methods of interviewing people, as well as what questions to ask in order to get the most insights out of people.<br></p>
+
+
+
+<p><strong>4. What was the biggest challenge you encountered during the program?<br></strong>The biggest challenge I encountered during this internship was that I had to work remotely away from my supervisors. Personally, I enjoy collaborating face-to-face with people as it allows for more interactive discussions and immediate feedback.<br></p>
+
+
+
+<p><strong>5. What was the highlight of your internship experience?<br></strong>The highlight of my internship would have to be meeting so many amazing people from within ALA. Even though most of us are based in different locations, I was still able to chat and have meaningful conversations with many of my colleagues. Additionally, my colleagues in the Sydney office have been super kind and welcoming to me since day one, which made my internship experience a whole lot better.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading has-medium-font-size" class="wp-block-heading has-medium-font-size" id="more-information"><strong>More information</strong></h2>
+
+
+
+<p>If you would like to know more, see our <a href="https://ala.org.au/internships/">ALA internship opportunities</a> page, or contact us at <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>How do we get more rare species records?</title>
 		<link>https://www.ala.org.au/blogs-news/how-do-we-get-more-rare-species-records/</link>
 		
@@ -44,7 +174,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignright size-large is-resized"><img fetchpriority="high" decoding="async" width="927" height="1024" src="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png" alt="close up of two orchid flowers on a single plant. The flowers have six purple long pointed petals, and the centre of each flower is orange " class="wp-image-50406" style="width:375px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png 927w, https://www.ala.org.au/app/uploads/2025/03/orchid-272x300.png 272w, https://www.ala.org.au/app/uploads/2025/03/orchid-768x848.png 768w, https://www.ala.org.au/app/uploads/2025/03/orchid-1391x1536.png 1391w, https://www.ala.org.au/app/uploads/2025/03/orchid.png 1811w" sizes="(max-width: 927px) 100vw, 927px" /><figcaption class="wp-element-caption">Blue Tinsel Lily (<em>Calectasia cyanea</em>), photo credit: botanistbob CC-BY-NC </figcaption></figure></div>
+<figure class="alignright size-large is-resized"><img loading="lazy" decoding="async" width="927" height="1024" src="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png" alt="close up of two orchid flowers on a single plant. The flowers have six purple long pointed petals, and the centre of each flower is orange " class="wp-image-50406" style="width:375px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png 927w, https://www.ala.org.au/app/uploads/2025/03/orchid-272x300.png 272w, https://www.ala.org.au/app/uploads/2025/03/orchid-768x848.png 768w, https://www.ala.org.au/app/uploads/2025/03/orchid-1391x1536.png 1391w, https://www.ala.org.au/app/uploads/2025/03/orchid.png 1811w" sizes="auto, (max-width: 927px) 100vw, 927px" /><figcaption class="wp-element-caption">Blue Tinsel Lily (<em>Calectasia cyanea</em>), photo credit: botanistbob CC-BY-NC </figcaption></figure></div>
 
 
 <p>So how do we get more rare records? Species specimens from museums or herbaria are invaluable sources for this task. The thing is, getting access to specimen data isn&#8217;t always easy.&nbsp;</p>
@@ -71,7 +201,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img decoding="async" width="800" height="533" src="https://www.ala.org.au/app/uploads/2025/03/gecko.jpg" alt="close up of a gecko with large golden eyes, and mottled yellow and brown body" class="wp-image-50405" style="width:751px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/gecko.jpg 800w, https://www.ala.org.au/app/uploads/2025/03/gecko-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/03/gecko-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" /><figcaption class="wp-element-caption">Gulbaru Gecko (<em>Phyllurus gulbaru</em>), photo credit: dhfischer CC-BY</figcaption></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="800" height="533" src="https://www.ala.org.au/app/uploads/2025/03/gecko.jpg" alt="close up of a gecko with large golden eyes, and mottled yellow and brown body" class="wp-image-50405" style="width:751px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/gecko.jpg 800w, https://www.ala.org.au/app/uploads/2025/03/gecko-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/03/gecko-768x512.jpg 768w" sizes="auto, (max-width: 800px) 100vw, 800px" /><figcaption class="wp-element-caption">Gulbaru Gecko (<em>Phyllurus gulbaru</em>), photo credit: dhfischer CC-BY</figcaption></figure>
 
 
 
@@ -110,7 +240,7 @@
 
 
 
-<figure class="wp-block-image size-full is-resized"><img decoding="async" width="631" height="837" src="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png" alt="Top section of the ALA newsletter for March, including ALA logo and banner with a shingleback lizard. " class="wp-image-50373" style="width:459px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png 631w, https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1-226x300.png 226w" sizes="(max-width: 631px) 100vw, 631px" /></figure>
+<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="631" height="837" src="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png" alt="Top section of the ALA newsletter for March, including ALA logo and banner with a shingleback lizard. " class="wp-image-50373" style="width:459px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png 631w, https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1-226x300.png 226w" sizes="auto, (max-width: 631px) 100vw, 631px" /></figure>
 ]]></content:encoded>
 					
 		
@@ -549,118 +679,6 @@
 
 
 <p>You can use iNaturalist through <a href="https://inaturalist.ala.org.au/">a browser on your computer</a><a href="#_msocom_6"> </a>or via the mobile phone app: check out <a href="https://ala.org.au/publications/a-guide-to-inaturalist/">our in-depth guide</a> to get you started. iNaturalist Australia is the fastest growing citizen science platform in the country, so there’s no better time to join than now! The achievements to date have all been thanks to the dedicated and passionate people observing, identifying and curating observations of Australia’s amazing biodiversity.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Improving the ALA&#8217;s search results</title>
-		<link>https://www.ala.org.au/blogs-news/improving-the-alas-search-results/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Thu, 26 Sep 2024 07:56:12 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=49978</guid>
-
-					<description><![CDATA[The ALA's Data Profile has been updated for better search results]]></description>
-										<content:encoded><![CDATA[
-<p><a>When using the Atlas of Living Australia&#8217;s occurrence search, our Data Profile tool</a> filters out potentially problematic records to lift the visibility of higher quality data. We&#8217;re changing it to filter iNaturalist records that are verifiable but haven&#8217;t yet been verified by default.</p>
-
-
-
-<p>iNaturalist Australia is one of the largest and most up to date datasets in the ALA. As of September 2024, <a href="https://collections.ala.org.au/public/show/dr1411">more than 7.5 million iNaturalist records</a> are loaded into the ALA, with tens of thousands of new records every week.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-large is-resized"><img loading="lazy" decoding="async" width="1821" height="1365" src="https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited.jpeg" alt="close up view of brushlike grevillea flowers" class="wp-image-50009" style="width:405px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited.jpeg 1821w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-1536x1151.jpeg 1536w, https://www.ala.org.au/app/uploads/2024/09/red-tooth-brushes-grevillea-hookeriana-thebeachcomber-CCBY-edited-640x480.jpeg 640w" sizes="auto, (max-width: 1821px) 100vw, 1821px" /><figcaption class="wp-element-caption">Red tooth brushes (<em>Grevillea hookeriana</em>) Credit: thebeachcomber CC-BY</figcaption></figure></div>
-
-
-<p>The ALA accepts two main types of verifiable record from iNaturalist: &#8216;Research Grade&#8217; and &#8216;Needs ID&#8217;. While this will continue to be the case a new ALA data profile update means only Research Grade records will now be shown by default on maps and in search results.</p>
-
-
-
-<p><a>A third category is &#8216;Casual&#8217;, which includes records of cultivated plants, records missing important metadata such as the date and/or location, and records with no evidence of the organism. The ALA does not ingest Casual records. </a></p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="why-did-we-make-this-change">Why did we make this change?</h2>
-
-
-
-<p>Although the identification accuracy of Needs ID iNaturalist records is still relatively high for many groups of organisms (see for example, <a href="https://www.inaturalist.org/blog/94061-observation-accuracy-experiment-v0-4-is-underway">the most recent accuracy experiment run by iNaturalist staff</a>), a number of recent studies <a>(including some major work in preparation on iNaturalist records of Western Australian plants</a>) have shown that Research Grade records have a higher identification accuracy than Needs ID records for most taxa. Filtering Research Grade records in the ALA by default therefore maximises data quality for all users.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="what-is-the-difference-between-needs-id-and-research-grade">What is the difference between Needs ID and Research Grade?</h2>
-
-
-
-<p>When an observation is first uploaded to iNaturalist, it is designated as &#8216;Needs ID&#8217;. The entry will remain in this category while it only has a single identification at species-level or finer or is identified to a rank coarser than species.</p>
-
-
-
-<figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="841" height="966" src="https://www.ala.org.au/app/uploads/2024/09/pic1-1.png" alt="a record page with species name, needs ID flag, photos and one suggested identification" class="wp-image-49993" style="width:600px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/09/pic1-1.png 841w, https://www.ala.org.au/app/uploads/2024/09/pic1-1-261x300.png 261w, https://www.ala.org.au/app/uploads/2024/09/pic1-1-768x882.png 768w" sizes="auto, (max-width: 841px) 100vw, 841px" /></figure>
-
-
-
-<p>This iNaturalist record is currently categorised as Needs ID as it only has a single identification attached to it.</p>
-
-
-
-<p><a>Broadly speaking, ob</a>servations will shift from Needs ID to Research Grade when at least two identifications have been added (including the observer&#8217;s original identification), the community ID is at a species-level or finer, and more than two-thirds of identifiers agree on the identification (two from two, three from three, three from four, four from five, and so on). Research Grade observations can shift back to Needs ID at any time based on new identifications.</p>
-
-
-
-<p>For a more detailed explanation of these grades, refer to pages 27-28 of <em><a href="https://ala.org.au/publications/a-guide-to-inaturalist/">A Guide to iNaturalist: An Australian Perspective</a></em>.</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="761" height="1024" src="https://www.ala.org.au/app/uploads/2024/09/pic2-761x1024.png" alt="a record page with species name, research grade flag, photos and two suggested identifications " class="wp-image-49991" style="width:600px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/09/pic2-761x1024.png 761w, https://www.ala.org.au/app/uploads/2024/09/pic2-223x300.png 223w, https://www.ala.org.au/app/uploads/2024/09/pic2-768x1034.png 768w, https://www.ala.org.au/app/uploads/2024/09/pic2.png 853w" sizes="auto, (max-width: 761px) 100vw, 761px" /></figure>
-
-
-
-<p>This iNaturalist record is currently Research Grade, as it has two identifications at a species level which both agree with each other.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="what-change-has-the-ala-made">What change has the ALA made?</h2>
-
-
-
-<p>In the ALA, these Research Grade and Needs ID categories are represented in the Darwin Core field <em>identificationVerificationStatus</em>. The change to the default Data Profile, called &#8220;ALA General&#8221;, now excludes all Needs ID iNaturalist records by default on maps and in search results with a newly established <a href="https://support.ala.org.au/support/solutions/articles/6000240256-getting-started-with-the-data-quality-filters">group</a>: &#8216;Exclude unverified records&#8217;. This profile is visible at the top of any page of occurrence records in the ALA.</p>
-
-
-
-<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="534" src="https://www.ala.org.au/app/uploads/2024/09/pic3-1024x534.png" alt="a search results page showing the data quality profile section at the top highlighted" class="wp-image-49995" style="width:880px;height:auto" srcset="https://www.ala.org.au/app/uploads/2024/09/pic3-1024x534.png 1024w, https://www.ala.org.au/app/uploads/2024/09/pic3-300x156.png 300w, https://www.ala.org.au/app/uploads/2024/09/pic3-768x400.png 768w, https://www.ala.org.au/app/uploads/2024/09/pic3-1536x801.png 1536w, https://www.ala.org.au/app/uploads/2024/09/pic3-1920x1001.png 1920w, https://www.ala.org.au/app/uploads/2024/09/pic3.png 1982w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="can-i-still-view-these-needs-id-records">Can I still view these Needs ID records?</h2>
-
-
-
-<p>Needs ID records are still retrievable at any time. All you have to do is untick the checkbox next to the data profile, and the records will then be included in your results. Learn more about <a href="https://support.ala.org.au/support/solutions/articles/6000241038-how-do-i-turnoff-or-modify-the-data-profile">how to modify the ALA data profiles</a>.</p>
-
-
-
-<p>If you’re unsure about this change or have any questions, please reach out to <a href="mailto:support@ala.org.au">support@ala.org.au</a>.</p>
 ]]></content:encoded>
 					
 		
