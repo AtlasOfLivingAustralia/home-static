@@ -2,6 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
+<url><loc>https://www.ala.org.au/blogs-news/ala-insights-the-hidden-world-of-sensitive-species-data/</loc><lastmod>2025-07-24T23:00:06+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-interns-dive-into-real-world-projects/</loc><lastmod>2025-03-25T03:24:26+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/how-do-we-get-more-rare-species-records/</loc><lastmod>2025-03-19T05:23:55+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-march-2025/</loc><lastmod>2025-03-13T06:16:03+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
