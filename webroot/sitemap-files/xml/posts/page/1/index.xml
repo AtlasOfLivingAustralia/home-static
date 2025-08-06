@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="https://www.ala.org.au/app/plugins/www-xml-sitemap-generator-org//assets/SitemapXML.xsl"?>
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
-<url><loc>https://www.ala.org.au</loc><lastmod>2025-08-05T22:56:59+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>https://www.ala.org.au</loc><lastmod>2025-08-06T05:47:39+00:00</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>https://www.ala.org.au/publications/ala-strategy-2025-2030/</loc><lastmod>2025-06-23T05:50:52+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/current-projects/ux-ui-project/</loc><lastmod>2025-01-07T03:11:15+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/publications/atlas-of-living-australia-year-in-review-202324/</loc><lastmod>2024-09-24T03:53:42+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -33,7 +33,7 @@
 <url><loc>https://www.ala.org.au/biocollect-mobile-apps/</loc><lastmod>2019-09-02T05:25:27+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/biocollect-for-natural-resource-management/</loc><lastmod>2019-07-23T01:27:53+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/biocollect-for-ecosciences/</loc><lastmod>2019-10-11T00:57:08+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/biocollect-for-citizen-science/</loc><lastmod>2019-10-11T01:00:21+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/biocollect-for-citizen-science/</loc><lastmod>2025-08-06T05:37:37+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/biocollect/</loc><lastmod>2021-04-28T23:16:19+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/lucid-key-for-weeds-of-the-southern-tablelands/</loc><lastmod>2019-06-11T02:46:46+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/environmentaldna/</loc><lastmod>2019-07-12T02:01:08+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -44,7 +44,7 @@
 <url><loc>https://www.ala.org.au/ala-for-government-and-land-managers-2/</loc><lastmod>2023-06-22T06:34:21+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-for-community-and-schools-2/</loc><lastmod>2024-09-23T06:17:45+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/biocache/</loc><lastmod>2019-08-04T23:30:05+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/old-biocollect/biocollect-hubs/</loc><lastmod>2022-09-06T06:59:07+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/old-biocollect/biocollect-hubs/</loc><lastmod>2025-08-06T05:47:39+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/ala-knowledge-base/spatial-portal-help/</loc><lastmod>2017-06-08T00:09:39+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/how-to-use-ala/</loc><lastmod>2025-01-08T02:55:44+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/who-we-are-3/atlas-background/atlas-partners/ala-community/tasmanian-museum-and-art-gallery/</loc><lastmod>2016-11-28T03:54:58+00:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
