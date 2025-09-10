@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 09 Sep 2025 06:16:27 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 10 Sep 2025 02:21:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -46,15 +46,15 @@
 
 
 
-<p>The ALA developed a new process for ingesting data in <a href="https://camtrap-dp.tdwg.org/">Camera Trap Data Package</a> (CamtrapDP), a new standard that allows richer data capture specifying deployments, observations and media. It’s been developed by the <a href="https://www.tdwg.org/">Biodiversity Information Standards organisation (TDWG)</a> and adopted by the <a href="https://www.gbif.org/">Global Biodiversity Information Facility</a> (GBIF). The ALA transforms Camtrap data into <a href="https://dwc.tdwg.org/">Darwin Core </a>events and occurrences.</p>
+<p>The <a href="https://wildobs.org.au/">Wildlife Observatory of Australia</a> (WildObs) is a national initiative transforming how Australia collects, processes, and shares <a href="https://collections.ala.org.au/public/show/dp5214">data from wildlife camera traps</a>. WildObs is a partnership led by the <a href="https://www.qcif.edu.au/">Queensland Cyber Infrastructure Foundation</a> (QCIF) and supported by our NCRIS colleagues the <a href="https://www.tern.org.au/">Terrestrial Ecosystem Monitoring Network</a> (TERN) and the <a href="https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/">Australian Research Data Commons</a> (ARDC).</p>
+
+
+
+<p>For our part, the ALA developed a new process for ingesting data in <a href="https://camtrap-dp.tdwg.org/">Camera Trap Data Package</a> (CamtrapDP), a new standard that allows richer data capture specifying deployments, observations and media. It’s been developed by the <a href="https://www.tdwg.org/">Biodiversity Information Standards organisation (TDWG)</a> and adopted by the <a href="https://www.gbif.org/">Global Biodiversity Information Facility</a> (GBIF). The ALA transforms Camtrap data into <a href="https://dwc.tdwg.org/">Darwin Core </a>events and occurrences.</p>
 
 
 
 <figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-1024x576.jpg" alt="" class="wp-image-50819" srcset="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-1024x576.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-768x432.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Brush Turkey (<em>Alectura lathami</em>). Identified by Zachary Amir, CC BY-NC</figcaption></figure>
-
-
-
-<p>The <a href="https://wildobs.org.au/">Wildlife Observatory of Australia</a> (WildObs) is our <a href="https://collections.ala.org.au/public/show/dp5214">data partner</a>. It’s a national initiative transforming how Australia collects, processes, and shares data from wildlife camera traps. WildObs is a partnership led by the <a href="https://www.qcif.edu.au/">Queensland Cyber Infrastructure Foundation</a> and supported by <a href="https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/">Australian Research Data Commons</a> (ARDC).</p>
 
 
 
@@ -95,6 +95,10 @@
 
 
 <p>The <a href="https://biocache.ala.org.au/occurrences/search?q=data_provider_uid:dp5214#tab_recordImages" data-type="link" data-id="https://biocache.ala.org.au/occurrences/search?q=data_provider_uid:dp5214#tab_recordImages">first dataset recently published in the ALA</a> features wildlife in the Wet Tropics captured and identified by quantitative wildlife ecologist <a href="https://about.uq.edu.au/experts/45824">Zachary Amir from the University of Queensland</a> who is part of the WildObs team, hosted by <a href="https://www.tern.org.au/">TERN</a>. Zach was looking at interactions between native and invasive vertebrates in the rainforests of North Queensland.</p>
+
+
+
+<p></p>
 
 
 
