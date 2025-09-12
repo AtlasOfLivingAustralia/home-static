@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Wed, 10 Sep 2025 03:42:09 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 12 Sep 2025 02:19:10 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,32 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter September 2025</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-september-2025/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Fri, 12 Sep 2025 02:19:09 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=50855</guid>
+
+					<description><![CDATA[The ALA September 2025 newsletter is out now – featuring the latest project updates, research insights, upcoming events, and more!]]></description>
+										<content:encoded><![CDATA[
+<p>Discover the ALA&#8217;s <a href="https://mailchi.mp/ala/sep-2025-newsletter" target="_blank" rel="noreferrer noopener">September 2025 newsletter</a>.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><a href="https://mailchi.mp/ala/sep-2025-newsletter" target="_blank" rel=" noreferrer noopener"><img fetchpriority="high" decoding="async" width="660" height="862" src="https://www.ala.org.au/app/uploads/2025/09/newsletter-tile-sep2025.png" alt="top section of the September 2025 ALA newsletter with banner " class="wp-image-50858" style="width:459px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/newsletter-tile-sep2025.png 660w, https://www.ala.org.au/app/uploads/2025/09/newsletter-tile-sep2025-230x300.png 230w" sizes="(max-width: 660px) 100vw, 660px" /></a></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>From snapshot to supercharged science data</title>
 		<link>https://www.ala.org.au/blogs-news/from-snapshot-to-supercharged-science-data/</link>
 		
@@ -54,7 +80,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-1024x576.jpg" alt="" class="wp-image-50819" srcset="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-1024x576.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-768x432.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Brush Turkey (<em>Alectura lathami</em>). Identified by Zachary Amir, CC BY-NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="576" src="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-1024x576.jpg" alt="" class="wp-image-50819" srcset="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-1024x576.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-768x432.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Brush Turkey (<em>Alectura lathami</em>). Identified by Zachary Amir, CC BY-NC</figcaption></figure>
 
 
 
@@ -90,7 +116,7 @@
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-1024x768.jpg" alt="" class="wp-image-50822" srcset="https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Red-legged Pademelon (<em>Thylogale stigmatica</em>). Identified by Zachary Amir, CC BY-NC</figcaption></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-1024x768.jpg" alt="" class="wp-image-50822" srcset="https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE.jpg 1200w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Red-legged Pademelon (<em>Thylogale stigmatica</em>). Identified by Zachary Amir, CC BY-NC</figcaption></figure>
 
 
 
@@ -773,78 +799,6 @@
 
 
 <p>Martin Westgate leads the Science and Decision Support team at the Atlas of Living Australia. His research focuses on how scientific information can be used to understand and mitigate human impacts on the environment, via a combination of empirical ecology and evidence synthesis. Martin is also a scientific software developer and occasional frog-watcher.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>New biodiversity data set to benefit all</title>
-		<link>https://www.ala.org.au/blogs-news/new-biodiversity-data-set-to-benefit-all/</link>
-		
-		<dc:creator><![CDATA[Lucinda Ross]]></dc:creator>
-		<pubDate>Tue, 17 Dec 2024 04:49:43 +0000</pubDate>
-				<category><![CDATA[Data]]></category>
-		<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=50141</guid>
-
-					<description><![CDATA[The Atlas of Living Australia's (ALA) Australian Biodiversity Data Mobilisation Program (ABDMP) offers grants to support people and institutions in making their biodiversity data more accessible. Read about our 2024 grant recipients.]]></description>
-										<content:encoded><![CDATA[
-<p>The Atlas of Living Australia&#8217;s (ALA) <a href="https://ala.org.au/abdmp/" target="_blank" rel="noreferrer noopener">Australian Biodiversity Data Mobilisation Program (ABDMP)</a> offers grants to support people and institutions in making their biodiversity data more accessible. &nbsp;</p>
-
-
-
-<p>You may have read about the ABDMP projects <a href="https://www.ala.org.au/blogs-news/new-ala-data-mobilisation-projects/" target="_blank" rel="noreferrer noopener">we announced in July 2024</a> which improved the accessibility of previously untapped biosecurity data. &nbsp;</p>
-
-
-
-<p>Well, now we can announce five new projects which have received an ABDMP grant to enable the provision of new biodiversity data into the ALA. </p>
-
-
-
-<p>The recipients are:&nbsp;&nbsp;</p>
-
-
-
-<ol start="1" class="wp-block-list">
-<li><strong>Australian Wildlife Conservancy (AWC):</strong> The largest private land conservation organisation in Australia holding data from remote regions across the continent that are historically under-surveyed, such as the Kimberley, Cape York and the arid zone. AWC surveys have focused on threatened species and restricted-range endemics. It’s estimated AWC will provide more than 260,000 records to the ALA including records from areas that have less published data and from longitudinal surveying.&nbsp;</li>
-</ol>
-
-
-
-<ol start="2" class="wp-block-list">
-<li><strong>Museums Victoria: </strong>This grant will support the digitisation of a significant Click Beetle (Elateridae) collection for approximately 800 species within Australia. At approximately 15,000 records, this project will add data for an additional 99 species to the ALA and increase in species-level occurrence records by 180%, increase the number of species by 36%, and increase the number of genera by 38%. </li>
-</ol>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-1024x683.jpg" alt="Woman looking at computer with beetle on screen. " class="wp-image-50142" srcset="https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-2048x1365.jpg 2048w, https://www.ala.org.au/app/uploads/2024/12/JOSEPHBYFORD-101345-1533-1920x1280.jpg 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Photo: Joseph Byford Photography</figcaption></figure>
-
-
-
-<ol start="3" class="wp-block-list">
-<li><strong>Royal Botanic Gardens Victoria: </strong>This grant supports the mobilisation of specimen-based occurrence data from Australian macrofungi specimens collected by renowned mycologist and fungi photographer Bruce Fuhrer OAM (1930–2023). The project will see the transcription and digitisation of data associated with approximately 1800 specimens and a selection of field images taken by Mr Fuhrer. </li>
-</ol>
-
-
-
-<ol start="4" class="wp-block-list">
-<li><strong>University of Melbourne: </strong>This project will facilitate the mobilisation of data for non-vascular bryophyte (phylum Bryophyta) and liverwort (phylum Marchantiophyta) specimens, collected by bryologist Dr David Meagher, into the Atlas of Living Australia. Dr Meagher has been described as ‘Australia’s most competent bryologist’. He authored 60 publications, many describing or revising bryophyte and liverwort taxa during his 20+ year research career. In digitising Meagher’s specimens, this project will contribute data for specimens collected from throughout Australia within the last 20 years, documenting contemporary taxon distributions and habitat occupancy for non-vascular taxa that are under-represented in the ALA.&nbsp;</li>
-</ol>
-
-
-
-<ol start="5" class="wp-block-list">
-<li><strong>West Australian Museum: </strong>Dr Barbara York Main (1929–2019) was Australia’s ‘spider-lady’ with an international reputation as a spider researcher and author of books describing the Western Australian environment. Dr Main’s collection is comprised primarily of thousands of trapdoor spiders that she collected over a 60+ year period and is considered the most significant&nbsp;historical collection of this iconic group of spiders in Australia. It also includes Barbara’s field notebooks that describe critical data on burrow structure, and soil and vegetation associations. The collection is estimated to contain 3,500–4,000 specimens and will support a greater understanding of these species in the future. &nbsp;</li>
-</ol>
-
-
-
-<p>We congratulate the successful projects and grant recipients for 2024 and thank our review panel for their time and expertise in evaluating many high-calibre applications this year. &nbsp;</p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
