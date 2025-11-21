@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Fri, 21 Nov 2025 01:11:10 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 21 Nov 2025 01:39:44 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -89,10 +89,6 @@
 
 
 
-<p>During this webinar, Jens mentioned a paper: </p>
-
-
-
 <div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
 
 
@@ -106,6 +102,20 @@
 
 
 <p>Andrew is the Team Lead &#8211; Applications and Biosecurity at the Atlas of Living Australia. His diverse career has included management of scientific and public sector programs with the National Fire Ant Eradication Program, the World Mosquito Program and the Queensland Museum. Andrew holds a PhD in Medical Entomology from the University of Queensland and is an active member of the Entomological Society of Queensland.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading" class="wp-block-heading" id="links">Links</h3>
+
+
+
+<ul class="wp-block-list">
+<li>During this webinar, the following dataset was discussed: <a href="https://www.agriculture.gov.au/abares/research-topics/invasive-species/national-feral-pig-current-distribution-australia" target="_blank" rel="noreferrer noopener">National Feral Pig Current Distribution in Australia</a> (ABARES)</li>
+</ul>
 
 
 
