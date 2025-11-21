@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 27 Oct 2025 06:19:50 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 21 Nov 2025 00:55:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,90 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Webinar: How biosecurity data are protecting Australia&#8217;s ecosystems</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-how-biosecurity-data-are-protecting-australias-ecosystems/</link>
+		
+		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
+		<pubDate>Fri, 21 Nov 2025 00:55:16 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=51012</guid>
+
+					<description><![CDATA[Discover how biosecurity data are transforming the fight against invasive species in Australia. Join this webinar, hosted by the Atlas of Living Australia, to explore cutting-edge tools and strategies that are keeping our environment one step ahead. This event was hosted on 18 Nov 2025 at 12pm AEDT. Presenters David MitchellResearch officer, Australian Bureau of [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p>Discover how biosecurity data are transforming the fight against invasive species in Australia. Join this webinar, hosted by the Atlas of Living Australia, to explore cutting-edge tools and strategies that are keeping our environment one step ahead.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA Webinar: How biosecurity data are protecting Australia&#039;s ecosystems" width="640" height="360" src="https://www.youtube.com/embed/sn6Hd0JKE68?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This event was hosted on 18 Nov 2025 at 12pm AEDT.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading" class="wp-block-heading" id="presenters">Presenters</h3>
+
+
+
+<p><strong>David Mitchell</strong><br>Research officer, Australian Bureau of Agricultural and Resource Economics and Sciences</p>
+
+
+
+<p>David works at the Australian Bureau of Agricultural and Resource Economics and Sciences (ABARES), on the National Vertebrate Pests and Weeds Distribution Project which collates and analyses data on priority invasive species. Prior to ABARES, David did his PhD and a postdoc behavioural ecology and evolution using guppies as a model species.</p>
+
+
+
+<p><strong>Steve Csurhes</strong><br>Principal Biosecurity Officer, Invasive Plants and Animals Program, Biosecurity Qld</p>
+
+
+
+<p>Steve has worked in the field of invasive species management for 38 years, including roles in policy, legislation, research, and operational response. His main interest lies in preventative pest management, which includes pre-emptive regulations on sale and possession of high-risk pests, surveillance and early detection and eradication response.</p>
+
+
+
+<p><strong>Jens Froese</strong><br>Team Lead, Adaptive Biosecurity Management, CSIRO</p>
+
+
+
+<p>Jens is a Senior Research Scientist at CSIRO with research expertise in biosecurity and biological invasions, data integration, spatial analysis, risk modelling, and structured expert elicitation. He specialises in developing methods, workflows and tools to enable adaptive management of invasive species and other biothreats for improved on ground and policy outcomes.</p>
+
+
+
+<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading" class="wp-block-heading" id="facilitator">Facilitator</h3>
+
+
+
+<p><strong>Dr Andrew Turley</strong><br>Team Lead, Applications and Biosecurity, Atlas of Living Australia</p>
+
+
+
+<p>Andrew is the Team Lead &#8211; Applications and Biosecurity at the Atlas of Living Australia. His diverse career has included management of scientific and public sector programs with the National Fire Ant Eradication Program, the World Mosquito Program and the Queensland Museum. Andrew holds a PhD in Medical Entomology from the University of Queensland and is an active member of the Entomological Society of Queensland.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>galaxias: tiny-fish inspired tool for huge sea of research data</title>
 		<link>https://www.ala.org.au/blogs-news/galaxias-tiny-fish-inspired-tool-for-huge-sea-of-research-data/</link>
 		
@@ -158,7 +242,7 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" width="400" height="300" src="https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize.jpg" alt="" class="wp-image-50966" srcset="https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize.jpg 400w, https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize-300x225.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" /><figcaption class="wp-element-caption">The <a href="https://biocache.ala.org.au/occurrences/e4853e60-e08d-4ed3-b042-f4d121a39fee">Mountain Galaxias</a> (<em><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/3ca3dab8-586f-47ed-9589-7e7679762fea">Galaxias olidus</a></em>) is found on both sides of the Great Dividing Range from southern Queensland, south-eastern New South Wales, across Victoria and further west to South Australia. Credit: Tse Chung Yi, CC BY-NC</figcaption></figure></div>
+<figure class="alignright size-full"><img loading="lazy" decoding="async" width="400" height="300" src="https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize.jpg" alt="" class="wp-image-50966" srcset="https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize.jpg 400w, https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize-300x225.jpg 300w" sizes="auto, (max-width: 400px) 100vw, 400px" /><figcaption class="wp-element-caption">The <a href="https://biocache.ala.org.au/occurrences/e4853e60-e08d-4ed3-b042-f4d121a39fee">Mountain Galaxias</a> (<em><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/3ca3dab8-586f-47ed-9589-7e7679762fea">Galaxias olidus</a></em>) is found on both sides of the Great Dividing Range from southern Queensland, south-eastern New South Wales, across Victoria and further west to South Australia. Credit: Tse Chung Yi, CC BY-NC</figcaption></figure></div>
 
 
 <p>Sharing this stream of research data makes for a richer data ecosystem for biodiversity information in Australia.</p>
@@ -866,66 +950,6 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <figure class="wp-block-image size-full is-resized"><img loading="lazy" decoding="async" width="631" height="837" src="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png" alt="Top section of the ALA newsletter for March, including ALA logo and banner with a shingleback lizard. " class="wp-image-50373" style="width:459px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1.png 631w, https://www.ala.org.au/app/uploads/2025/03/mar-newsletter-cropped-1-226x300.png 226w" sizes="auto, (max-width: 631px) 100vw, 631px" /></figure>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Director&#8217;s Update &#8211; March 2025</title>
-		<link>https://www.ala.org.au/blogs-news/directors-update-march-2025/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Thu, 13 Mar 2025 02:06:19 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=50350</guid>
-
-					<description><![CDATA[Welcome to the March 2025 edition of our Atlas of Living Australia (ALA) newsletter. In December I had the privilege of attending a fantastic event on the topic of Nationally Distributed Collections Infrastructure to Solve Global Research Challenges, as a side event to International Conference on Research Infrastructures held in Brisbane. The ALA hosted the [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p></p>
-
-
-<div class="wp-block-image">
-<figure class="alignright is-resized"><img loading="lazy" decoding="async" width="719" height="938" src="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png" alt="&quot;&quot;" class="wp-image-48109" style="width:251px;height:auto" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png 719w, https://www.ala.org.au/app/uploads/2023/02/Andre-zerger-230x300.png 230w" sizes="auto, (max-width: 719px) 100vw, 719px" /></figure></div>
-
-
-<p>Welcome to the March 2025 edition of our Atlas of Living Australia (ALA) newsletter.</p>
-
-
-
-<p>In December I had the privilege of attending a fantastic event on the topic of Nationally Distributed Collections Infrastructure to Solve Global Research Challenges, as a side event to <a href="https://icri2024.au/" data-type="link" data-id="https://icri2024.au/" target="_blank" rel="noreferrer noopener">International Conference on Research Infrastructures</a> held in Brisbane. The ALA hosted the event in partnership with the Queensland Museum, Phenomics Australia and CSIRO.  </p>
-
-
-
-<p>The event focussed on the fundamental role research collections and biobanks play in supporting science, decision-making, and industry applications which has received renewed interest, given technological advances that can rapidly generate new data and insights from physical specimens. Novel techniques in genomics, advanced imaging, and, increasingly artificial intelligence and machine learning, means that more information than ever can be derived from Australia’s research collections.&nbsp;&nbsp;</p>
-
-
-
-<p>The event brought together international and local experts from across the collections and biobanking sector to explore a number of areas that are seen as critical for supporting future science needs, including (a) Collection digitisation, storage and management, (b) Digital infrastructure, data access and integration, (c) Emerging transformational technology, (d) Skills and workforce development, and finally (e) Sectoral leadership.&nbsp;&nbsp;</p>
-
-
-
-<p>The importance of Indigenous data sovereignty and the opportunity to improve how a future state incorporates non-Western knowledge systems was also identified as fundamental.&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-
-
-<p>With ALA’s historic focus on partnering with Australia’s biological collections sector, it was great to see the parallels within other domains such as human health biobanking and it’s clear there is much to be gained for partnering further.&nbsp;&nbsp;</p>
-
-
-
-<p>The ICRI congress itself was fantastic and inspiring to see the current ‘state of the research infrastructure’ internationally, across a number of domain areas. Several ICRI presentations remain available at <a href="https://www.youtube.com/@ICRI2024/videos" target="_blank" rel="noreferrer noopener">https://www.youtube.com/@ICRI2024/videos</a> and I encourage you to view some of these as they so effectively highlight the strength of Australia’s research infrastructure system, and future opportunities confronting our sector.&nbsp;&nbsp;</p>
-
-
-
-<p>I hope you enjoy reading our March 2025 Newsletter.</p>
-
-
-
-<p><strong>Dr Andre Zerger, ALA Director.</strong></p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
