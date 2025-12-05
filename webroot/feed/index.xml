@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.8.1</generator>
+	<generator>https://wordpress.org/?v=6.9</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -135,10 +135,10 @@
 		<guid isPermaLink="false">https://www.ala.org.au/?p=50956</guid>
 
 					<description><![CDATA[Our coding tool {galaxias} makes it easier for researchers to share their biodiversity data for greater open science impact.]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image alignright size-full is-resized"><img fetchpriority="high" decoding="async" width="505" height="500" src="https://www.ala.org.au/app/uploads/2025/10/galaxias-team-photo_medium.png" alt="" class="wp-image-50968" style="width:411px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/10/galaxias-team-photo_medium.png 505w, https://www.ala.org.au/app/uploads/2025/10/galaxias-team-photo_medium-300x297.png 300w, https://www.ala.org.au/app/uploads/2025/10/galaxias-team-photo_medium-150x150.png 150w" sizes="(max-width: 505px) 100vw, 505px" /><figcaption class="wp-element-caption">The ALA&#8217;s Science and Decision Support Team developed galaxias (clockwise from top right) Dax Kellie, Amanda Buyan,
+										<content:encoded><![CDATA[<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><img fetchpriority="high" decoding="async" width="505" height="500" src="https://www.ala.org.au/app/uploads/2025/10/galaxias-team-photo_medium.png" alt="" class="wp-image-50968" style="width:411px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/10/galaxias-team-photo_medium.png 505w, https://www.ala.org.au/app/uploads/2025/10/galaxias-team-photo_medium-300x297.png 300w, https://www.ala.org.au/app/uploads/2025/10/galaxias-team-photo_medium-150x150.png 150w" sizes="(max-width: 505px) 100vw, 505px" /><figcaption class="wp-element-caption">The ALA&#8217;s Science and Decision Support Team developed galaxias (clockwise from top right) Dax Kellie, Amanda Buyan,
 Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
-
+</div>
 
 
 <p>A fishy new software package will help researchers share data more easily with the Atlas of Living Australia (ALA).</p>
@@ -205,7 +205,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignleft size-full is-resized"><img decoding="async" width="844" height="512" src="https://www.ala.org.au/app/uploads/2025/10/Spotted-Galaxias_Zacky-N_cropped.jpeg" alt="A small spotted galaxias fish in a clear plastic box" class="wp-image-50963" style="width:374px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/10/Spotted-Galaxias_Zacky-N_cropped.jpeg 844w, https://www.ala.org.au/app/uploads/2025/10/Spotted-Galaxias_Zacky-N_cropped-300x182.jpeg 300w, https://www.ala.org.au/app/uploads/2025/10/Spotted-Galaxias_Zacky-N_cropped-768x466.jpeg 768w" sizes="(max-width: 844px) 100vw, 844px" /><figcaption class="wp-element-caption">The <a href="https://biocache.ala.org.au/occurrences/cf102dd4-54dd-4f2d-a438-21ab5931a009">Spotted Galaxias</a> (<em><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/e4d85845-3e34-4112-90a9-f954176721ec">Galaxias truttaceus</a></em>) is found across southern Victoria, Tasmania, and south-west Western Australia. Credit: Zacky, CC BY-NC</figcaption></figure></div>
+<figure class="alignleft size-full is-resized"><img decoding="async" width="844" height="512" src="https://www.ala.org.au/app/uploads/2025/10/Spotted-Galaxias_Zacky-N_cropped.jpeg" alt="A small spotted galaxias fish in a clear plastic box" class="wp-image-50963" style="width:374px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/10/Spotted-Galaxias_Zacky-N_cropped.jpeg 844w, https://www.ala.org.au/app/uploads/2025/10/Spotted-Galaxias_Zacky-N_cropped-300x182.jpeg 300w, https://www.ala.org.au/app/uploads/2025/10/Spotted-Galaxias_Zacky-N_cropped-768x466.jpeg 768w" sizes="(max-width: 844px) 100vw, 844px" /><figcaption class="wp-element-caption">The <a href="https://biocache.ala.org.au/occurrences/cf102dd4-54dd-4f2d-a438-21ab5931a009">Spotted Galaxias</a> (<em><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/e4d85845-3e34-4112-90a9-f954176721ec">Galaxias truttaceus</a></em>) is found across southern Victoria, Tasmania, and south-west Western Australia. Credit: Zacky, CC BY-NC</figcaption></figure>
+</div>
 
 
 <p>“I guess the challenge or the technical problem that galaxias solves is that no one knows what our data format is,” Martin said.</p>
@@ -256,7 +257,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full"><img loading="lazy" decoding="async" width="400" height="300" src="https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize.jpg" alt="" class="wp-image-50966" srcset="https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize.jpg 400w, https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize-300x225.jpg 300w" sizes="auto, (max-width: 400px) 100vw, 400px" /><figcaption class="wp-element-caption">The <a href="https://biocache.ala.org.au/occurrences/e4853e60-e08d-4ed3-b042-f4d121a39fee">Mountain Galaxias</a> (<em><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/3ca3dab8-586f-47ed-9589-7e7679762fea">Galaxias olidus</a></em>) is found on both sides of the Great Dividing Range from southern Queensland, south-eastern New South Wales, across Victoria and further west to South Australia. Credit: Tse Chung Yi, CC BY-NC</figcaption></figure></div>
+<figure class="alignright size-full"><img loading="lazy" decoding="async" width="400" height="300" src="https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize.jpg" alt="" class="wp-image-50966" srcset="https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize.jpg 400w, https://www.ala.org.au/app/uploads/2025/10/Mountain-Galaxias_Tse-Chung-Yi_resize-300x225.jpg 300w" sizes="auto, (max-width: 400px) 100vw, 400px" /><figcaption class="wp-element-caption">The <a href="https://biocache.ala.org.au/occurrences/e4853e60-e08d-4ed3-b042-f4d121a39fee">Mountain Galaxias</a> (<em><a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/3ca3dab8-586f-47ed-9589-7e7679762fea">Galaxias olidus</a></em>) is found on both sides of the Great Dividing Range from southern Queensland, south-eastern New South Wales, across Victoria and further west to South Australia. Credit: Tse Chung Yi, CC BY-NC</figcaption></figure>
+</div>
 
 
 <p>Sharing this stream of research data makes for a richer data ecosystem for biodiversity information in Australia.</p>
@@ -437,7 +439,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 					<description><![CDATA[Welcome to the September 2025 edition of our Atlas of Living Australia (ALA) newsletter. We are pleased to announce the release of our new&#160;Five-Year Strategy (2025–2030), which sets a clear direction for the Atlas of Living Australia’s priorities and development over the coming years.&#160; As Australia’s national biodiversity data infrastructure, our vision is to deliver [&#8230;]]]></description>
 										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="719" height="938" src="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png" alt="&quot;&quot;" class="wp-image-48109" style="width:251px" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png 719w, https://www.ala.org.au/app/uploads/2023/02/Andre-zerger-230x300.png 230w" sizes="auto, (max-width: 719px) 100vw, 719px" /></figure></div>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="719" height="938" src="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png" alt="&quot;&quot;" class="wp-image-48109" style="width:251px" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png 719w, https://www.ala.org.au/app/uploads/2023/02/Andre-zerger-230x300.png 230w" sizes="auto, (max-width: 719px) 100vw, 719px" /></figure>
+</div>
 
 
 <p>Welcome to the September 2025 edition of our Atlas of Living Australia (ALA) newsletter.</p>
@@ -525,7 +528,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="375" height="342" src="https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED.jpg" alt="" class="wp-image-50807" style="width:360px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED.jpg 375w, https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED-300x274.jpg 300w" sizes="auto, (max-width: 375px) 100vw, 375px" /><figcaption class="wp-element-caption">Crown Rust (<em>Puccinia coronata</em>). Credit: trisha_s, CC BY-NC</figcaption></figure></div>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="375" height="342" src="https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED.jpg" alt="" class="wp-image-50807" style="width:360px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED.jpg 375w, https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED-300x274.jpg 300w" sizes="auto, (max-width: 375px) 100vw, 375px" /><figcaption class="wp-element-caption">Crown Rust (<em>Puccinia coronata</em>). Credit: trisha_s, CC BY-NC</figcaption></figure>
+</div>
 
 
 <h4 class="wp-block-heading" class="wp-block-heading" id="what-did-you-most-enjoy-learning-more-about-at-the-conference">What did you most enjoy learning more about at the conference?</h4>
@@ -572,7 +576,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="2048" height="1536" src="https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC.jpeg" alt="" class="wp-image-50810" style="width:317px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC.jpeg 2048w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-640x480.jpeg 640w" sizes="auto, (max-width: 2048px) 100vw, 2048px" /><figcaption class="wp-element-caption">Fork-leaved Sundew (<em>Drosera binata</em>). Credit: Thilo Krueger, CC BY NC</figcaption></figure></div>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="2048" height="1536" src="https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC.jpeg" alt="" class="wp-image-50810" style="width:317px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC.jpeg 2048w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-640x480.jpeg 640w" sizes="auto, (max-width: 2048px) 100vw, 2048px" /><figcaption class="wp-element-caption">Fork-leaved Sundew (<em>Drosera binata</em>). Credit: Thilo Krueger, CC BY NC</figcaption></figure>
+</div>
 
 
 <h4 class="wp-block-heading" class="wp-block-heading" id="what-did-you-most-enjoy-learning-more-about-at-the-conference">What did you most enjoy learning more about at the conference?</h4>
@@ -623,7 +628,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="1000" height="667" src="https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited.jpeg" alt="" class="wp-image-50805" style="width:332px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited.jpeg 1000w, https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited-768x512.jpeg 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Myrtle Rust (<em>Austropuccinia psidii</em>). Credit: Pete Woodall, CC BY NC</figcaption></figure></div>
+<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="1000" height="667" src="https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited.jpeg" alt="" class="wp-image-50805" style="width:332px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited.jpeg 1000w, https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited-768x512.jpeg 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Myrtle Rust (<em>Austropuccinia psidii</em>). Credit: Pete Woodall, CC BY NC</figcaption></figure>
+</div>
 
 
 <h4 class="wp-block-heading" class="wp-block-heading" id="what-did-you-most-enjoy-learning-more-about-at-the-conference">What did you most enjoy learning more about at the conference?</h4>
@@ -658,7 +664,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="576" height="1024" src="https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea.jpg" alt="" class="wp-image-50796" style="width:235px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea.jpg 576w, https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea-169x300.jpg 169w" sizes="auto, (max-width: 576px) 100vw, 576px" /><figcaption class="wp-element-caption">Variable Bossiaea (<em>Bossiaea heterophylla</em>). Credit: Ambrosia1, CC BY-NC</figcaption></figure></div>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="576" height="1024" src="https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea.jpg" alt="" class="wp-image-50796" style="width:235px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea.jpg 576w, https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea-169x300.jpg 169w" sizes="auto, (max-width: 576px) 100vw, 576px" /><figcaption class="wp-element-caption">Variable Bossiaea (<em>Bossiaea heterophylla</em>). Credit: Ambrosia1, CC BY-NC</figcaption></figure>
+</div>
 
 
 <h2 class="wp-block-heading" class="wp-block-heading" id="ala-biosecurity-alerts-and-plant-health">ALA Biosecurity Alerts and plant health</h2>
@@ -777,7 +784,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="565" height="742" src="https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li.jpg" alt="&quot;&quot;" class="wp-image-50435" style="width:359px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li.jpg 565w, https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li-228x300.jpg 228w" sizes="auto, (max-width: 565px) 100vw, 565px" /><figcaption class="wp-element-caption">Yaohang Li said he had the opportunity to gain hands-on experience in his areas of interest, cloud computing and automation, during his internship with the ALA. Photo: Erin Roger</figcaption></figure></div>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="565" height="742" src="https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li.jpg" alt="&quot;&quot;" class="wp-image-50435" style="width:359px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li.jpg 565w, https://www.ala.org.au/app/uploads/2025/03/Yaohang-Li-228x300.jpg 228w" sizes="auto, (max-width: 565px) 100vw, 565px" /><figcaption class="wp-element-caption">Yaohang Li said he had the opportunity to gain hands-on experience in his areas of interest, cloud computing and automation, during his internship with the ALA. Photo: Erin Roger</figcaption></figure>
+</div>
 
 
 <p><strong>1. What&#8217;s your study background?<br></strong>I am an international student currently pursuing a Bachelor of Software Engineering (Honours) at the University of Technology Sydney (UTS). I’m in my final year and I have always had an interest in software and cloud technologies. Throughout my studies, I’ve gained a solid foundation in programming, software and engineering, and I’m really excited to apply my academic knowledge to practical environment and real-world projects.<br></p>
@@ -808,7 +816,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="891" height="751" src="https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright.jpg" alt="&quot;&quot;" class="wp-image-50437" style="width:404px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright.jpg 891w, https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright-300x253.jpg 300w, https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright-768x647.jpg 768w" sizes="auto, (max-width: 891px) 100vw, 891px" /><figcaption class="wp-element-caption">Jarod Wright participated in the ALA’s 2025 Summer Internship Program.</figcaption></figure></div>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="891" height="751" src="https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright.jpg" alt="&quot;&quot;" class="wp-image-50437" style="width:404px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright.jpg 891w, https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright-300x253.jpg 300w, https://www.ala.org.au/app/uploads/2025/03/Jarod-Wright-768x647.jpg 768w" sizes="auto, (max-width: 891px) 100vw, 891px" /><figcaption class="wp-element-caption">Jarod Wright participated in the ALA’s 2025 Summer Internship Program.</figcaption></figure>
+</div>
 
 
 <p><strong>1. What’s your study background?<br></strong>My background is a mix of computer science and science. I’m currently studying a Bachelor of Science majoring in Ecology and Conservation Biology, with previous studies majoring in Computer Science.<br></p>
@@ -839,7 +848,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="796" height="930" src="https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu.jpg" alt="&quot;&quot;" class="wp-image-50436" style="width:391px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu.jpg 796w, https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu-257x300.jpg 257w, https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu-768x897.jpg 768w" sizes="auto, (max-width: 796px) 100vw, 796px" /><figcaption class="wp-element-caption">Jeff Lu participated in the ALA’s 2025 Summer Internship Program. Photo: Erin Roger</figcaption></figure></div>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="796" height="930" src="https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu.jpg" alt="&quot;&quot;" class="wp-image-50436" style="width:391px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu.jpg 796w, https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu-257x300.jpg 257w, https://www.ala.org.au/app/uploads/2025/03/Jeff-Lu-768x897.jpg 768w" sizes="auto, (max-width: 796px) 100vw, 796px" /><figcaption class="wp-element-caption">Jeff Lu participated in the ALA’s 2025 Summer Internship Program. Photo: Erin Roger</figcaption></figure>
+</div>
 
 
 <p><strong>1. What’s your study background?<br></strong>I study Information Systems at UNSW.<br></p>
@@ -897,7 +907,8 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <div class="wp-block-image">
-<figure class="alignright size-large is-resized"><img loading="lazy" decoding="async" width="927" height="1024" src="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png" alt="close up of two orchid flowers on a single plant. The flowers have six purple long pointed petals, and the centre of each flower is orange " class="wp-image-50406" style="width:375px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png 927w, https://www.ala.org.au/app/uploads/2025/03/orchid-272x300.png 272w, https://www.ala.org.au/app/uploads/2025/03/orchid-768x848.png 768w, https://www.ala.org.au/app/uploads/2025/03/orchid-1391x1536.png 1391w, https://www.ala.org.au/app/uploads/2025/03/orchid.png 1811w" sizes="auto, (max-width: 927px) 100vw, 927px" /><figcaption class="wp-element-caption">Blue Tinsel Lily (<em>Calectasia cyanea</em>), photo credit: botanistbob CC-BY-NC </figcaption></figure></div>
+<figure class="alignright size-large is-resized"><img loading="lazy" decoding="async" width="927" height="1024" src="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png" alt="close up of two orchid flowers on a single plant. The flowers have six purple long pointed petals, and the centre of each flower is orange " class="wp-image-50406" style="width:375px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/03/orchid-927x1024.png 927w, https://www.ala.org.au/app/uploads/2025/03/orchid-272x300.png 272w, https://www.ala.org.au/app/uploads/2025/03/orchid-768x848.png 768w, https://www.ala.org.au/app/uploads/2025/03/orchid-1391x1536.png 1391w, https://www.ala.org.au/app/uploads/2025/03/orchid.png 1811w" sizes="auto, (max-width: 927px) 100vw, 927px" /><figcaption class="wp-element-caption">Blue Tinsel Lily (<em>Calectasia cyanea</em>), photo credit: botanistbob CC-BY-NC </figcaption></figure>
+</div>
 
 
 <p>So how do we get more rare records? Species specimens from museums or herbaria are invaluable sources for this task. The thing is, getting access to specimen data isn&#8217;t always easy.&nbsp;</p>
