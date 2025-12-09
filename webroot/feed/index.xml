@@ -18,7 +18,7 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.8.2</generator>
+	<generator>https://wordpress.org/?v=6.9</generator>
 
 <image>
 	<url>https://www.test.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -67,7 +67,8 @@
 
 
 <div class="wp-block-image">
-<figure class="alignright size-large is-resized"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2025/03/orchid-927x1024.png" alt="close up of two orchid flowers on a single plant. The flowers have six purple long pointed petals, and the centre of each flower is orange " class="wp-image-50406" style="width:375px;height:auto"/><figcaption class="wp-element-caption">Blue Tinsel Lily&nbsp;(<em>Calectasia cyanea</em>), photo credit: botanistbob CC-BY-NC </figcaption></figure></div>
+<figure class="alignright size-large is-resized"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2025/03/orchid-927x1024.png" alt="close up of two orchid flowers on a single plant. The flowers have six purple long pointed petals, and the centre of each flower is orange " class="wp-image-50406" style="width:375px;height:auto"/><figcaption class="wp-element-caption">Blue Tinsel Lily&nbsp;(<em>Calectasia cyanea</em>), photo credit: botanistbob CC-BY-NC </figcaption></figure>
+</div>
 
 
 <p>So how do we get more rare records? Species specimens from museums or herbaria are invaluable sources for this task. The thing is, getting access to specimen data isn&#8217;t always easy.&nbsp;</p>
@@ -461,7 +462,8 @@
 
 
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><div class="wp-block-image is-style-default">
-<figure class="aligncenter size-large is-resized"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-712x1024.png" alt="cover of the data cleaning book, with dark blue background and an orange crustacean" class="wp-image-49700" style="width:312px;height:auto"/></figure></div></div>
+<figure class="aligncenter size-large is-resized"><img decoding="async" src="https://edit.ala.org.au/app/uploads/2024/08/Cleaning-Biodiversity-Data-in-R-712x1024.png" alt="cover of the data cleaning book, with dark blue background and an orange crustacean" class="wp-image-49700" style="width:312px;height:auto"/></figure>
+</div></div>
 </div>
 
 
