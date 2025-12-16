@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 11 Dec 2025 00:47:52 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 16 Dec 2025 03:55:20 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,28 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter December 2025</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-december-2025/</link>
+		
+		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
+		<pubDate>Tue, 16 Dec 2025 03:55:20 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=51144</guid>
+
+					<description><![CDATA[The ALA December 2025 newsletter is out now – featuring our Year in Review, new Australian Biodiversity Data Mobilisation Program projects, and new taxonomic backbone release!]]></description>
+										<content:encoded><![CDATA[
+<p>Discover the ALA&#8217;s <a href="https://mailchi.mp/ala/sep-2025-ala-newsletter">December 2025 newsletter</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="600" height="749" src="https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025.png" alt="" class="wp-image-51149" srcset="https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025.png 600w, https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025-240x300.png 240w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Updating our taxonomic backbone for accuracy, names matching and better searchability</title>
 		<link>https://www.ala.org.au/blogs-news/updating-our-taxonomic-backbone-for-accuracy-names-matching-and-better-searchability/</link>
 		
@@ -38,7 +60,7 @@
 
 					<description><![CDATA["Your hip bone's connected to your back bone" goes the old song, but did you know the Atlas of Living Australia (ALA) uses a backbone as well? Ours is taxonomy and we use it to arrange all the names in the ALA.]]></description>
 										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="alignright size-large is-resized"><img fetchpriority="high" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1024x683.jpg" alt="" class="wp-image-51110" style="aspect-ratio:1.4992854967554525;width:438px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1920x1280.jpg 1920w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Eastern Sedgefrog (<em>Drymomantis fallax</em>). Photo: Isaac Clarey, CC BY-NC</figcaption></figure>
+<figure class="alignright size-large is-resized"><img decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1024x683.jpg" alt="" class="wp-image-51110" style="aspect-ratio:1.4992854967554525;width:438px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1920x1280.jpg 1920w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Eastern Sedgefrog (<em>Drymomantis fallax</em>). Photo: Isaac Clarey, CC BY-NC</figcaption></figure>
 </div>
 
 
@@ -114,7 +136,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img decoding="async" width="1000" height="667" src="https://www.ala.org.au/app/uploads/2025/12/Blotch-tailed-earless-dragon_Travis-W-Reeder.jpg" alt="" class="wp-image-51112" style="aspect-ratio:1.499285782306447;width:439px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/12/Blotch-tailed-earless-dragon_Travis-W-Reeder.jpg 1000w, https://www.ala.org.au/app/uploads/2025/12/Blotch-tailed-earless-dragon_Travis-W-Reeder-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/12/Blotch-tailed-earless-dragon_Travis-W-Reeder-768x512.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Pebble Dragon (<em>Tympanocryptis cephalus</em>). Photo: Travis W. Reeder, CC BY-NC</figcaption></figure>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="1000" height="667" src="https://www.ala.org.au/app/uploads/2025/12/Blotch-tailed-earless-dragon_Travis-W-Reeder.jpg" alt="" class="wp-image-51112" style="aspect-ratio:1.499285782306447;width:439px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/12/Blotch-tailed-earless-dragon_Travis-W-Reeder.jpg 1000w, https://www.ala.org.au/app/uploads/2025/12/Blotch-tailed-earless-dragon_Travis-W-Reeder-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/12/Blotch-tailed-earless-dragon_Travis-W-Reeder-768x512.jpg 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Pebble Dragon (<em>Tympanocryptis cephalus</em>). Photo: Travis W. Reeder, CC BY-NC</figcaption></figure>
 </div>
 
 
@@ -154,7 +176,8 @@
 		
 		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
 		<pubDate>Wed, 10 Dec 2025 22:16:23 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
+				<category><![CDATA[Data]]></category>
+		<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=51042</guid>
 
 					<description><![CDATA[Six new biodiversity data mobilisation projects will contribute approximately 85,000 new records to the Atlas of Living Australia (ALA) under our Australian Biodiversity Data Mobilisation Program 2025.]]></description>
@@ -1092,77 +1115,6 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <p>“We’ve also been improving data quality and taxonomic representation for the benefit of plant pathology. For example, we’ve greatly expanded ALA representation of biosecurity relevant species via our <a href="https://www.ala.org.au/abdmp/">data mobilisation program</a>.”</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Insights: The hidden world of sensitive species data</title>
-		<link>https://www.ala.org.au/blogs-news/ala-insights-the-hidden-world-of-sensitive-species-data/</link>
-		
-		<dc:creator><![CDATA[kylie.morrow@csiro.au]]></dc:creator>
-		<pubDate>Thu, 24 Jul 2025 22:50:39 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=50691</guid>
-
-					<description><![CDATA[The Atlas of Living Australia (ALA) provides reliable biodiversity data for research and conservation, but did you know it also plays a key role in managing sensitive species information? In this session, you&#8217;ll learn how the ALA identifies and protects sensitive species records, and how you can request access to the data and contribute by [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>The Atlas of Living Australia (ALA) provides reliable biodiversity data for research and conservation, but did you know it also plays a key role in managing sensitive species information?</p>
-
-
-
-<p>In this session, you&#8217;ll learn how the ALA identifies and protects sensitive species records, and how you can request access to the data and contribute by suggesting the addition of species to the sensitive lists.</p>
-
-
-
-<p>The ALA receives support from the Australian Government through the <a href="https://www.education.gov.au/ncris">National Collaborative Research Infrastructure Strategy</a> (NCRIS) and is hosted by&nbsp;<a href="https://www.csiro.au/en/">CSIRO</a>.</p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="ALA Insights: The hidden world of sensitive species data" width="640" height="360" src="https://www.youtube.com/embed/AVigz0nlQY4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p>This event was hosted on 24 July 2025 at 12pm AEST.</p>
-
-
-
-<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="speakers">Speakers</h2>
-
-
-
-<h3 class="wp-block-heading" class="wp-block-heading" id=""></h3>
-
-
-
-<p><strong>Tania Laity &#8211; ALA Business and Policy Analyst<br>Cam Slatyer &#8211; ALA National Biodiversity Data Initiatives Project Manager</strong></p>
-
-
-
-<p>Tania Laity and Cam Slatyer both have over thirty years of experience working on science and biodiversity issues in government, conservation and the collections sectors. Cam is currently the subject matter lead on taxonomy for the Atlas of Living Australia and Tania is the Business Analyst. They are currently leading an international working group to develop a data standard for handling Restricted Access Species Data.</p>
-
-
-
-<p>Previously, they led a diverse group of government and non-government stakeholders that produced the <a href="https://rasd.org.au/" target="_blank" rel="noreferrer noopener">National Framework for the Sharing of Restricted Access Species Data</a> in Australia, supported by the Australian Research Data Commons, Atlas of Living Australia and CSIRO as part of the Australian Government&#8217;s National Collaborative Research Infrastructure Strategy.</p>
-
-
-
-<p></p>
-
-
-
-<p>This event was hosted by <strong>Juliet Seers, </strong>the ALA Training and Outreach Coordinator.</p>
-
-
-
-<p></p>
 ]]></content:encoded>
 					
 		
