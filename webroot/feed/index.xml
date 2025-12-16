@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 16 Dec 2025 03:55:20 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 16 Dec 2025 04:51:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -35,6 +35,7 @@
 		<pubDate>Tue, 16 Dec 2025 03:55:20 +0000</pubDate>
 				<category><![CDATA[ALA Blog]]></category>
 		<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=51144</guid>
 
 					<description><![CDATA[The ALA December 2025 newsletter is out now – featuring our Year in Review, new Australian Biodiversity Data Mobilisation Program projects, and new taxonomic backbone release!]]></description>
@@ -755,6 +756,7 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 		<pubDate>Fri, 12 Sep 2025 02:19:09 +0000</pubDate>
 				<category><![CDATA[ALA Blog]]></category>
 		<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=50855</guid>
 
 					<description><![CDATA[The ALA September 2025 newsletter is out now – featuring the latest project updates, research insights, upcoming events, and more!]]></description>
