@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 16 Dec 2025 05:02:34 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 21 Jan 2026 23:06:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,203 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Australian Virtual Seed Bank Portal upgraded</title>
+		<link>https://www.ala.org.au/blogs-news/australian-virtual-seed-bank-portal-upgraded/</link>
+		
+		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
+		<pubDate>Wed, 21 Jan 2026 23:06:05 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=51224</guid>
+
+					<description><![CDATA[Seedbank data from across Australia is easier to access, search and visualise, thanks to updates to the Australian Virtual Seed Bank Portal.]]></description>
+										<content:encoded><![CDATA[
+<p>Seedbank data from across Australia is easier to access, search and visualise, thanks to updates to the <a href="https://seedbank.ala.org.au/">Australian Virtual Seed Bank</a> Portal.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><img fetchpriority="high" decoding="async" width="768" height="1024" src="https://www.ala.org.au/app/uploads/2026/01/Golden-wattle-seed_SJM-McFish.jpg" alt="Close up of wattle seed pods showing seeds" class="wp-image-51237" style="aspect-ratio:0.7500068132886382;width:332px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/01/Golden-wattle-seed_SJM-McFish.jpg 768w, https://www.ala.org.au/app/uploads/2026/01/Golden-wattle-seed_SJM-McFish-225x300.jpg 225w" sizes="(max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption">Golden Wattle (<em>Acacia pycnantha</em>). Credit: SJM McFish, CC BY-SA</figcaption></figure>
+</div>
+
+
+<p>Built through a collaboration between the <a href="https://www.seedpartnership.org.au/">Australian Seed Bank Partnership (ASBP)</a> and the Atlas of Living Australia (ALA) the portal is a shared online space showcasing the breadth of conservation seed collections held across the country.</p>
+
+
+
+<p>It’s the first big refresh since the site launched in 2023 and makes the data much more interactive.</p>
+
+
+
+<p>ALA Software Developer Jack Brinkman has been working on the <a href="https://www.seedpartnership.org.au/australian-virtual-seed-bank/">seed bank portal project</a> since he joined the ALA in 2022.</p>
+
+
+
+<p>“It’s always fun working with the seed bank partners,” Jack said.</p>
+
+
+
+<p>“In this cycle of the project, we were looking at two key features: a conservation lens on the statistics page, showing species listed under the national <a href="https://www.dcceew.gov.au/environment/epbc">Environment Protection and Biodiversity Conservation Act 1999 (EPBC Act) </a>and under relevant state legislation, and a new form of spatial querying.”</p>
+
+
+
+<p>ALA Business and Policy Analyst Tania Laity said the improved functionality will allow seed banks to search the data in ways that are useful to them.</p>
+
+
+
+<p>“We&#8217;re making this information open and available to the seed bank community as well as to the broader community,” Tania said.</p>
+
+
+
+<p>“So if a student is researching a particular plant species, they’ll be able to see which seed banks hold that seed and find out about the specific conditions it needs to germinate.”</p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-full is-resized"><img decoding="async" width="940" height="788" src="https://www.ala.org.au/app/uploads/2026/01/AVSB-FB-post-tile-3.png" alt="Close of Data Explorer feature of our Australian Virtual Seed Bank portal showing search options for threatened species" class="wp-image-51233" style="width:396px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/01/AVSB-FB-post-tile-3.png 940w, https://www.ala.org.au/app/uploads/2026/01/AVSB-FB-post-tile-3-300x251.png 300w, https://www.ala.org.au/app/uploads/2026/01/AVSB-FB-post-tile-3-768x644.png 768w" sizes="(max-width: 940px) 100vw, 940px" /></figure>
+</div>
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="a-snappy-new-snapshot-page">A snappy new snapshot page</h2>
+
+
+
+<p>A new <a href="https://seedbank.ala.org.au/dashboard">Seed Bank Snapshot page</a> applies a conservation lens to seed bank records.</p>
+
+
+
+<p>The new <a href="https://seedbank.ala.org.au/dashboard">Data Explorer feature</a> lets users drill down using filters to see which banked species are listed under the national <a href="https://www.dcceew.gov.au/environment/epbc">EPBC Act</a> and/or the relevant state legislation. This will provide crucial information against national and international plant conservation targets.</p>
+
+
+
+<p>The snapshot page also allows users to download records of all threatened species, which wasn’t possible previously.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full is-resized"><img decoding="async" width="940" height="788" src="https://www.ala.org.au/app/uploads/2026/01/AVSB-FB-post-tile-2.png" alt="Close of map search feature of our Australian Virtual Seed Bank portal showing a map of Australia on a globe" class="wp-image-51232" style="width:413px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/01/AVSB-FB-post-tile-2.png 940w, https://www.ala.org.au/app/uploads/2026/01/AVSB-FB-post-tile-2-300x251.png 300w, https://www.ala.org.au/app/uploads/2026/01/AVSB-FB-post-tile-2-768x644.png 768w" sizes="(max-width: 940px) 100vw, 940px" /></figure>
+</div>
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="map-to-it-seeds-around-australia">Map to it: seeds around Australia</h2>
+
+
+
+<p>Another new feature is a <a href="https://seedbank.ala.org.au/">searchable map </a>showing where seeds were collected across the country. Users can now query and download records spatially using polygon-based area searches.</p>
+
+
+
+<p>“One use case might be if a researcher is going out in the field to collect seed, then they can check which other species have been collected in that area,” Tania said.</p>
+
+
+
+<p>“So they can get an idea of the timing of when seed sets and the best time to go out and collect seed, or check which species occur in that area that haven’t had seeds collected.”</p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="a-different-type-of-record">A different type of record</h2>
+
+
+
+<p>The seed bank portal uses a different biodiversity record type than other ALA data. They’re event-based records rather than occurrence records, which just record which organism was seen where and when.</p>
+
+
+
+<p>“The events model allows us to hierarchically nest a bunch of subsequent ‘events’ or information after the original entry showing where, when and by who the seeds were collected,” Jack said.</p>
+
+
+
+<p>“It gives us not only the detailed data about the collection of the seed, but also what happened to the seed beyond that, at different points in time.”</p>
+
+
+
+<p>These records show lots of extra linked information such as how much seed is stored, storage conditions, and tips for how to grow the seed based on previous trials. For example, some seeds need special treatments before they will germinate, such as smoke or heat treatment, or slicing through the tough outer seedcase (scarifying).</p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="ex-seeding-expectations">Ex-seeding expectations</h2>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2026/01/Seed_DavidMerritt_DBCA_resize-1024x768.jpg" alt="A hand holding a mix of Western Australian native species seeds." class="wp-image-51234" style="aspect-ratio:1.501487209994051;width:417px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/01/Seed_DavidMerritt_DBCA_resize-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2026/01/Seed_DavidMerritt_DBCA_resize-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2026/01/Seed_DavidMerritt_DBCA_resize-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2026/01/Seed_DavidMerritt_DBCA_resize-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2026/01/Seed_DavidMerritt_DBCA_resize.jpg 1333w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Western Australian native seed mix. Credit: Dave Merrit</figcaption></figure>
+</div>
+
+
+<p>In addition to the new features, this refresh also provides new data on species banked and germinated over the last year. This information will underpin critical research, environmental reporting, and evidence-based conservation of Australia’s native plant diversity.</p>
+
+
+
+<p>“It’s about making seed bank data more interoperable and usable, and increasing our records in the ALA as well, so it&#8217;s a win-win,” Tania said.</p>
+
+
+
+<p>Jack says the diverse breadth of biodiversity data knowledge across the ALA powered this project.</p>
+
+
+
+<p>“It took many iterations to build this unique product that could capture the depth of this type of information, which led to the use of the event system,” Jack said.</p>
+
+
+
+<p>“It was a relatively new way of deploying the website itself, and it was a very collaborative experience across ALA teams, such as the Data and Systems teams, which made it even more rewarding.</p>
+
+
+
+<p>“When people ask me what I do for work, I often talk about the seed bank portal,” Jack said.</p>
+
+
+
+<p>“The way I pitch it is that if we have an ecological disaster, such as major bushfires, and a bunch of our native plants are wiped out, the virtual seed bank shows all of the seed in seed banks across Australia, where and when it was collected, and what we know about germination.</p>
+
+
+
+<p>“It’s a key resource which could help those looking to reestablish or conserve threatened populations.”</p>
+
+
+
+<p></p>
+
+
+<div class="wp-block-image">
+<figure class="alignleft size-large is-resized"><img loading="lazy" decoding="async" width="768" height="1024" src="https://www.ala.org.au/app/uploads/2026/01/Seed-Collectors-on-Mt-Jagungal_resize-768x1024.jpg" alt="Two seed collectors wearing rain jackets out in the field collecting seeds from native plants." class="wp-image-51235" style="width:422px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/01/Seed-Collectors-on-Mt-Jagungal_resize-768x1024.jpg 768w, https://www.ala.org.au/app/uploads/2026/01/Seed-Collectors-on-Mt-Jagungal_resize-225x300.jpg 225w, https://www.ala.org.au/app/uploads/2026/01/Seed-Collectors-on-Mt-Jagungal_resize-rotated.jpg 1000w" sizes="auto, (max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption">National Seed Bank Collectors bagging <em>Oxylobium ellipticum</em> on Mt Jagungal, Kosciuszko National Park, NSW. Credit: Jarrod Ruch</figcaption></figure>
+</div>
+
+
+<p>The <a href="https://www.seedpartnership.org.au/">Australian Seed Bank Partnership</a> is an alliance of 16 organisations and growing. It includes 11 conservation seed banks at Australia’s leading botanic gardens, as well as state environment agencies, non-government organisations and the <a href="https://brahmsonline.kew.org/msbp">Millennium Seed Bank Partnership</a>, Kew in the UK.</p>
+
+
+
+<p></p>
+
+
+
+<p>The Atlas of Living Australia (ALA) is a <a href="https://www.education.gov.au/ncris">National Collaborative Research Infrastructure Strategy (NCRIS) </a>research infrastructure, hosted by <a href="https://www.csiro.au/">Australia’s national science agency, CSIRO</a>, providing users with trusted biodiversity data services.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ALA Newsletter December 2025</title>
 		<link>https://www.ala.org.au/blogs-news/ala-newsletter-december-2025/</link>
 		
@@ -44,7 +241,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="600" height="749" src="https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025.png" alt="" class="wp-image-51149" srcset="https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025.png 600w, https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025-240x300.png 240w" sizes="(max-width: 600px) 100vw, 600px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="600" height="749" src="https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025.png" alt="" class="wp-image-51149" srcset="https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025.png 600w, https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025-240x300.png 240w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure>
 ]]></content:encoded>
 					
 		
@@ -61,7 +258,7 @@
 
 					<description><![CDATA["Your hip bone's connected to your back bone" goes the old song, but did you know the Atlas of Living Australia (ALA) uses a backbone as well? Ours is taxonomy and we use it to arrange all the names in the ALA.]]></description>
 										<content:encoded><![CDATA[<div class="wp-block-image">
-<figure class="alignright size-large is-resized"><img decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1024x683.jpg" alt="" class="wp-image-51110" style="aspect-ratio:1.4992854967554525;width:438px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1920x1280.jpg 1920w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Eastern Sedgefrog (<em>Drymomantis fallax</em>). Photo: Isaac Clarey, CC BY-NC</figcaption></figure>
+<figure class="alignright size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="683" src="https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1024x683.jpg" alt="" class="wp-image-51110" style="aspect-ratio:1.4992854967554525;width:438px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1024x683.jpg 1024w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-768x512.jpg 768w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1536x1024.jpg 1536w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1-1920x1280.jpg 1920w, https://www.ala.org.au/app/uploads/2025/12/Eastern-Dwarf-Tree-Frog-Litoria-fallax-Photo-Credit-Isaac-Clarey-CC-BY-NC-1.jpg 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Eastern Sedgefrog (<em>Drymomantis fallax</em>). Photo: Isaac Clarey, CC BY-NC</figcaption></figure>
 </div>
 
 
@@ -109,7 +306,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignleft size-large is-resized"><img decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-1024x1024.jpg" alt="" class="wp-image-51113" style="width:328px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-1920x1920.jpg 1920w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Cape York Graceful Treefrog (<em>Chlorohyla bella</em>). Photo: Mark Simpson, CC BY-NC</figcaption></figure>
+<figure class="alignleft size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="1024" src="https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-1024x1024.jpg" alt="" class="wp-image-51113" style="width:328px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-1024x1024.jpg 1024w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-300x300.jpg 300w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-150x150.jpg 150w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-768x768.jpg 768w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-1536x1536.jpg 1536w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1-1920x1920.jpg 1920w, https://www.ala.org.au/app/uploads/2025/12/Cape-York-Graceful-Tree-Frog-Ranoidea-bella-Photo-Credit-Mark-Simpson-CC-BY-NC-1.jpg 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Cape York Graceful Treefrog (<em>Chlorohyla bella</em>). Photo: Mark Simpson, CC BY-NC</figcaption></figure>
 </div>
 
 
@@ -908,215 +1105,6 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>We&#8217;re frond of plants &#8211; ALA at the Australasian Plant Pathology Association conference 2025</title>
-		<link>https://www.ala.org.au/blogs-news/were-frond-of-plants-ala-at-the-australasian-plant-pathology-association-conference-2025/</link>
-		
-		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
-		<pubDate>Tue, 09 Sep 2025 06:14:09 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=50791</guid>
-
-					<description><![CDATA[Plants are the third biggest type of occurrence record in the Atlas of Living Australia (ALA), with over 24 million occurrence records. And scientific collections have a big role to play in helping to tackle plant diseases. We recently participated in the Australasian Plant Pathology Society conference: From Field to Future, Scientific Collections and Plant [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Plants are the third biggest type of occurrence record in the Atlas of Living Australia (ALA), with over 24 million occurrence records. And scientific collections have a big role to play in helping to tackle plant diseases.</p>
-
-
-
-<p>We recently participated in the <a href="https://www.appsnet.org/">Australasian Plant Pathology Society</a> conference: From Field to Future, Scientific Collections and Plant Pathology.</p>
-
-
-
-<p>As part of this, we offered bursaries to support university students and early career researchers to attend the conference. We spoke with three of them to find out their perspectives on the future of plant disease science and the role of online platforms like the ALA.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="966" src="https://www.ala.org.au/app/uploads/2025/09/APPP-bursaries-image_cropped-1024x966.jpg" alt="" class="wp-image-50792" srcset="https://www.ala.org.au/app/uploads/2025/09/APPP-bursaries-image_cropped-1024x966.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/APPP-bursaries-image_cropped-300x283.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/APPP-bursaries-image_cropped-768x724.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/APPP-bursaries-image_cropped-1536x1449.jpg 1536w, https://www.ala.org.au/app/uploads/2025/09/APPP-bursaries-image_cropped-2048x1932.jpg 2048w, https://www.ala.org.au/app/uploads/2025/09/APPP-bursaries-image_cropped-1920x1811.jpg 1920w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
-
-
-
-<p><em>ALA bursary recipients with ALA biosecurity lead Erin Roger at the Australasian Plant Pathology Society conference 2025. Pictured left to right: Vivian Rincon-Florez, Jonathan Haworth, Erin Roger, Haixa Guan and Alyssa Martino.</em></p>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="haixia-guan-phd-candidate-the-university-of-sydney">Haixia Guan, PhD candidate, The University of Sydney</h2>
-
-
-
-<p>Haixia is interested in the evolutionary ’arms race’ between plants and pathogens, and how genome-scale data can be used to better understand disease dynamics. In her PhD she explored the evolution and virulence variation of crown rust pathogens of Australia using comparative genomics and population-level variation analysis.</p>
-
-
-
-<h4 class="wp-block-heading" class="wp-block-heading" id="did-you-already-know-about-the-atlas-of-living-australia">Did you already know about the Atlas of Living Australia?</h4>
-
-
-
-<p>I was aware of the ALA but hadn’t used it widely. Attending APPS 2025 gave me the opportunity to further understand the scope and potential of the ALA, especially in terms of integrating species distribution data with environmental and genomic data.</p>
-
-
-
-<p>I realised that the ALA could be a valuable tool for planning field sampling strategies and for relating pathogen occurrence to environmental variables.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="375" height="342" src="https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED.jpg" alt="" class="wp-image-50807" style="width:360px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED.jpg 375w, https://www.ala.org.au/app/uploads/2025/09/Crown-Rust-Puccinia-coronata_Trisha_S_CC-BY-NC_CROPPED-300x274.jpg 300w" sizes="auto, (max-width: 375px) 100vw, 375px" /><figcaption class="wp-element-caption">Crown Rust (<em>Puccinia coronata</em>). Credit: trisha_s, CC BY-NC</figcaption></figure>
-</div>
-
-
-<h4 class="wp-block-heading" class="wp-block-heading" id="what-did-you-most-enjoy-learning-more-about-at-the-conference">What did you most enjoy learning more about at the conference?</h4>
-
-
-
-<p>I enjoyed most the diversity of research topics and the opportunity to interact with researchers working in different areas of plant pathology &#8211; and understanding species diversity and evolution from a genomic perspective.</p>
-
-
-
-<p>An unexpected but inspiring moment was learning how open data platforms and other bioinformatics resources are being used to maintain biological diversity and systematically monitor plant pathogens.</p>
-
-
-
-<h4 class="wp-block-heading" class="wp-block-heading" id="where-do-you-see-yourself-working-studying-in-plant-pathology-in-the-future-and-what-do-you-see-as-the-role-of-online-data-platforms-like-the-atlas-of-living-australia">Where do you see yourself working/studying in plant pathology in the future? And what do you see as the role of online data platforms like the Atlas of Living Australia?</h4>
-
-
-
-<p>In the future, I hope to continue working in fungal pathogen genomics, ideally combining computational biology and field-based studies to address key questions about disease surveillance and management.</p>
-
-
-
-<p>Online data platforms like the ALA play a crucial role in this context. They offer an incredible foundation for integrative analyses—linking species distribution, environmental data, and temporal changes. For researchers, platforms like ALA democratise access to biodiversity data and support more informed, large-scale plant epidemiology studies.</p>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="arundhati-singh-phd-candidate-curtin-university">Arundhati Singh, PhD Candidate, Curtin University</h2>
-
-
-
-<p>Arundhati is interested in fungicide research. In her PhD, she’s specifically investigating the spatial and temporal dynamics of fungicide distribution within plants and how these influence disease control and the development of resistance.</p>
-
-
-
-<h4 class="wp-block-heading" class="wp-block-heading" id="did-you-already-know-about-the-atlas-of-living-australia">Did you already know about the Atlas of Living Australia?</h4>
-
-
-
-<p>Yes, I’m familiar with the ALA. While I haven’t contributed occurrence records yet, I’ve used the platform to review species distributions and understand local biodiversity for understanding the background of my experiments.</p>
-
-
-
-<p>As my current work focuses on fungicide distribution and its role in disease management, tools like the ALA offer an excellent opportunity to connect biological datasets with plant pathology research. I’m looking forward to exploring it further as my research expands into more field-based components.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="2048" height="1536" src="https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC.jpeg" alt="" class="wp-image-50810" style="width:317px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC.jpeg 2048w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-300x225.jpeg 300w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1024x768.jpeg 1024w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-768x576.jpeg 768w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1536x1152.jpeg 1536w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-1920x1440.jpeg 1920w, https://www.ala.org.au/app/uploads/2025/09/Fork-leaved-Sundew-Drosera-binata-Photo-Credit-Thilo-Krueger-CC-BY-NC-640x480.jpeg 640w" sizes="auto, (max-width: 2048px) 100vw, 2048px" /><figcaption class="wp-element-caption">Fork-leaved Sundew (<em>Drosera binata</em>). Credit: Thilo Krueger, CC BY NC</figcaption></figure>
-</div>
-
-
-<h4 class="wp-block-heading" class="wp-block-heading" id="what-did-you-most-enjoy-learning-more-about-at-the-conference">What did you most enjoy learning more about at the conference?</h4>
-
-
-
-<p>I thoroughly enjoyed the sessions on integrated disease management and pathogen evolution. It was especially inspiring to see how molecular techniques are being integrated with field-based approaches to develop more sustainable plant disease control strategies.</p>
-
-
-
-<h4 class="wp-block-heading" class="wp-block-heading" id="where-do-you-see-yourself-working-studying-in-plant-pathology-in-the-future-and-what-do-you-see-as-the-role-of-online-data-platforms-like-the-atlas-of-living-australia">Where do you see yourself working/studying in plant pathology in the future? And what do you see as the role of online data platforms like the Atlas of Living Australia?</h4>
-
-
-
-<p>I hope to continue in academia, focusing on research that bridges fundamental laboratory science with applied, field-based strategies to develop targeted and sustainable plant protection methods.</p>
-
-
-
-<p>I see platforms like the ALA playing an increasingly vital role in this work; offering accessible, reliable biodiversity data that can inform disease risk assessments, support research planning, and enhance biosecurity efforts.</p>
-
-
-
-<p>I also believe integrating such platforms into both research and teaching will be critical in training the next generation of plant pathologists.</p>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="alyssa-martino-scientific-officer-biodiversity-research-research-centre-for-ecosystem-resilience">Alyssa Martino, Scientific Officer Biodiversity Research, Research Centre for Ecosystem Resilience</h2>
-
-
-
-<p>Alyssa’s research focuses on forest pathology, in particular host resistance to the fungal pathogen <em>Austropuccinia psidii</em> which causes myrtle rust. This has involved investigating disease resistance genes in Australian native trees, which are highly diverse both within and between species. It’s sparked a broader interest in researching disease resistance gene evolution, and gene diversity across native plant populations.</p>
-
-
-
-<h4 class="wp-block-heading" class="wp-block-heading" id="did-you-already-know-about-the-atlas-of-living-australia">Did you already know about the Atlas of Living Australia?</h4>
-
-
-
-<p>Yes, I am familiar with the platform and have used it both during my PhD and now during my postdoc. During my PhD, I established the<a href="https://inaturalist.ala.org.au/projects/gum-tree-guardians"> Gum Tree Guardians project </a>on iNaturalist as a citizen scientist initiative to increase awareness of myrtle rust in Australia.</p>
-
-
-
-<p>I was fortunate to collaborate with Erin Roger and the ALA and Rebecca Paxton from the University of Adelaide on a broader <a href="https://theconversation.com/myrtle-rust-is-lethal-to-australian-plants-could-citizen-scientists-help-track-its-spread-225681">myrtle rust campaign</a> to boost the total myrtle rust observations in ALA.</p>
-
-
-
-<p>I also use the ALA platform (especially the spatial portal) in my postdoc role. Based at the Sydney Botanic Gardens within the <a href="https://www.botanicgardens.org.au/our-science/what-we-do/research-centre-ecosystem-resilience">Research Centre for Ecosystem Resilience</a>, I work on the population genetics of threatened plant species across NSW. The <a href="https://spatial.ala.org.au/">spatial portal</a> has been a great tool for planning collections of these species across the state.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignleft size-full is-resized"><img loading="lazy" decoding="async" width="1000" height="667" src="https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited.jpeg" alt="" class="wp-image-50805" style="width:332px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited.jpeg 1000w, https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited-300x200.jpeg 300w, https://www.ala.org.au/app/uploads/2025/09/Myrtle-Rust-Austropuccinia-psidii-Photo-Credit-Pete-Woodall-CC-BY-NC-edited-768x512.jpeg 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Myrtle Rust (<em>Austropuccinia psidii</em>). Credit: Pete Woodall, CC BY NC</figcaption></figure>
-</div>
-
-
-<h4 class="wp-block-heading" class="wp-block-heading" id="what-did-you-most-enjoy-learning-more-about-at-the-conference">What did you most enjoy learning more about at the conference?</h4>
-
-
-
-<p>The conference was incredibly inspiring! Having recently started my first postdoc, based at the Sydney Botanic Gardens, the conference theme of collections sparked a lot of ideas for future research, especially seeing research using herbarium specimens to uncover the history, evolution, and diversity of plant pathogens.</p>
-
-
-
-<p>I was amazed to see the preservation of fungal spores on herbarium specimens, making me think about what may be lurking in the Sydney Botanic Gardens collections.</p>
-
-
-
-<p></p>
-
-
-
-<p></p>
-
-
-
-<h4 class="wp-block-heading has-text-align-left" class="wp-block-heading has-text-align-left" id="where-do-you-see-yourself-working-studying-in-plant-pathology-in-the-future-and-what-do-you-see-as-the-role-of-online-data-platforms-like-the-atlas-of-living-australia">Where do you see yourself working/studying in plant pathology in the future? And what do you see as the role of online data platforms like the Atlas of Living Australia?</h4>
-
-
-
-<p>Being born and raised in Western Australia, I see myself one day taking the learnings from my time in Sydney back to Perth or Albany. My goal is to bring high-quality plant pathology research down to the south-west biodiversity hotspot in Western Australia, with a focus on investigating disease resistance gene diversity in WA’s endemic plant species.</p>
-
-
-
-<p>Platforms like the ALA will assist ahead of fieldwork for collections, and will also enable the collection of data on plants and pathogens during this type of research. It will be incredibly beneficial in a biodiversity hotspot which is threatened by plant pathogens like<em> Phytophthora cinnamomi</em>, which has already had a large impact in that region.</p>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="576" height="1024" src="https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea.jpg" alt="" class="wp-image-50796" style="width:235px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea.jpg 576w, https://www.ala.org.au/app/uploads/2025/09/ALA-Variable-Bossiaea-169x300.jpg 169w" sizes="auto, (max-width: 576px) 100vw, 576px" /><figcaption class="wp-element-caption">Variable Bossiaea (<em>Bossiaea heterophylla</em>). Credit: Ambrosia1, CC BY-NC</figcaption></figure>
-</div>
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="ala-biosecurity-alerts-and-plant-health">ALA Biosecurity Alerts and plant health</h2>
-
-
-
-<p>Our former biosecurity lead <a href="https://ca.linkedin.com/in/erin-roger-9299a067">Dr Erin Roger</a> delivered a conference keynote address on how open data research infrastructure can support data driven biosecurity initiatives.</p>
-
-
-
-<p>“Our <a href="https://www.ala.org.au/biosecurity/">Biosecurity Alerts Service</a>, based largely on citizen science data, can detect and report invasive species throughout Australia. It can support the plant pathology sector by monitoring the spread of plant pests and diseases, such as myrtle rust,” Erin said.</p>
-
-
-
-<p>“We’ve also been improving data quality and taxonomic representation for the benefit of plant pathology. For example, we’ve greatly expanded ALA representation of biosecurity relevant species via our <a href="https://www.ala.org.au/abdmp/">data mobilisation program</a>.”</p>
 ]]></content:encoded>
 					
 		
