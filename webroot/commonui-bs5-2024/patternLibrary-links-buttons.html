@@ -7,21 +7,10 @@
     <link rel="stylesheet" href="css/ala-combined.css">
 
     <script src="js/ala-combined.js"></script>
-    <title>testPage bs5 2024</title>
+
+    <title>links and buttons: pattern library: bs5 2024</title>
 </head>
 <body>
-
-<!-- <div class="ala-admin-message">
-    <div class="system-message alert alert-warning" role="alert">
-        <div class="container">
-            <div class="row">
-                <div class="alert-ala-content">
-                This is a test <a href="https://www.ala.org.au/">alert message</a>. Please ignore!
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
 
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
   <symbol id="arrow-right" viewBox="0 0 16 16">
@@ -513,112 +502,60 @@
 </div>
 
 
-<section id="breadcrumb">
-    <div class="container">
-        <div class="row">
-            <nav aria-label="Breadcrumb" role="navigation">
-                <ol class="breadcrumb-list">
-                    <li><a href="http://www.ala.org.au">Home</a></li>
-                    
-                        
-                    <li><a href="/">An intermediate link</a></li>
-                    
-                    
-                    <li class="active">About Us</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-</section>
-
-<script>
-    // signedIn / signedOut
-    const switchAuth = (newClass) => {
-        const authItems = document.querySelectorAll(".ala-header-auth");
-        authItems.forEach((item) => {
-            // remove existing auth state classes
-            item.classList.remove('signedIn');
-            item.classList.remove('signedOut');
-            // apply new auth state class
-            item.classList.add(newClass);
-        });
-    };
-</script>
-
 <div class="ala-default-block">
 	<div class="container" id="content">
 
 		<div class="row">
 
-			<div class="ala-page">
+			<div class="ala-page ala-pattern-library">
 
-                <article class="post-166 page type-page status-publish hentry" id="post-166">
-	
-                    <div class="entry-content">
-                        
-                        <h2 class="wp-block-heading" class="wp-block-heading" id="what-is-the-ala" style="margin-top: 1rem;">This is a page heading</h2>
-                        
-                        <p>Check out the <a href="patternLibrary.html">pattern library</a> for this ALA design system.</p>
-                        
-                        <p>Test <a onclick="switchAuth('signedIn')" href="javascript:void(0);">logged-in</a> and <a onclick="switchAuth('signedOut')" href="javascript:void(0);">logged-out</a> state.</p>
-                        
-                        <h3>Some typical page content (for a home site page):</h3>
+                <h1>Links and buttons</h1>
+                <p><a href="patternLibrary.html">ALA pattern library</a> for Bootstrap 5 sites using the 2024 design system</p>
 
-                        <p>The ALA helps to create a more detailed picture of Australia’s biodiversity for scientists, policy makers, environmental planners and land managers, industry and the general public, and enables them&nbsp;to work more efficiently.</p>
-                        
-                        <p>The ALA is the Australian node and a full voting member of GBIF – the Global Biodiversity Information Facility – an international network and data infrastructure funded by the world&#8217;s governments and aimed at providing anyone, anywhere, open access to data about all types of life on Earth.&nbsp;</p>
-                        
-                        <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                        
-                        <h3 class="wp-block-heading" class="wp-block-heading" id="vision"><strong>Vision</strong></h3>
-                        
-                        <p>To deliver trusted biodiversity data services for Australia supporting world-class research and decision-making.</p>
-                        
-                        <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                        
-                        <h3 class="wp-block-heading" class="wp-block-heading" id="international-leadership"><strong>International leadership&nbsp;</strong></h3>
-                        
-                        <p>The ALA plays an important role in developing and maintaining international biodiversity data standards. We have membership roles on the&nbsp;Biodiversity Data Standards (TDWG) <a href="https://www.tdwg.org/about/executive/" target="_blank" rel="noreferrer noopener">Executive Committee</a>, <a href="https://www.tdwg.org/community/osr/humboldt-core/" target="_blank" rel="noreferrer noopener">Humboldt Core Task Group</a>, <a rel="noreferrer noopener" href="https://www.tdwg.org/community/ac/" target="_blank">Audubon Core Interest Group</a>, <a href="https://www.tdwg.org/community/tnc/" target="_blank" rel="noreferrer noopener">Taxon Names and Concepts Interest Group</a>, and the <a rel="noreferrer noopener" href="https://www.tdwg.org/community/mobs/" target="_blank">Machine Observations Interest Group</a>.</p>
-                        
-                        <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                        
-                        <h3 class="wp-block-heading" class="wp-block-heading" id="our-users"><strong>Our users</strong></h3>
-                        
-                        <p>The ALA is&nbsp;an essential resource for:</p>
-                        
-                        <ul><li>Researchers in the fields of ecology, new species discoveries, systematics (relationships between living things), taxonomy (naming and classification), and digitisation of biological collections</li><li>Researchers and practitioners in biodiversity conservation and environmental monitoring, sustainable ecosystem development</li><li>Government agencies and land managers responsible for natural resource management and environmental impact assessments</li><li>Community and education groups involved in ecoscience education and citizen science activities.</li></ul>
-                        
-                        <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                        
-                        <h3 class="wp-block-heading" class="wp-block-heading" id="data-standards"><strong>Data standards</strong></h3>
-                        
-                        <p>The ALA uses the&nbsp;<a href="https://dwc.tdwg.org/">Darwin Core</a>&nbsp;set of standards to mobilise and deliver biodiversity data. Darwin Core is the internationally agreed data standard to facilitate the sharing of information about biological diversity.</p>
-                        
-                        <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                        
-                        <h3 class="wp-block-heading" class="wp-block-heading" id="governance"><strong>Governance</strong></h3>
-                        
-                        <p>Learn about our advisory board, executive and contributors on the <a href="/governance">Governance</a> page.</p>
-                        
-                        <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                        
-                        <h3 class="wp-block-heading" class="wp-block-heading" id="funding"><strong>Funding</strong></h3>
-                        
-                        <p>The ALA&nbsp;receives support&nbsp;from the Australian Government through the&nbsp;<a href="https://www.education.gov.au/national-collaborative-research-infrastructure-strategy-ncris">National Collaborative Research Infrastructure Strategy</a>&nbsp;(NCRIS) and is hosted by the&nbsp;<a href="https://www.csiro.au/">Commonwealth Scientific and Industrial Research Organisation</a>&nbsp;(CSIRO).</p>
-                        
-                        <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-                        
-                        <h3 class="wp-block-heading" class="wp-block-heading" id="ala-strategy-2020-2025"><strong>ALA Strategy 2020-2025</strong></h3>
-                        
-                        <figure class="wp-block-image size-large is-resized"><a href="https://www.ala.org.au/publications/ala-strategy-2020-2025/" target="_blank" rel="noopener"><img decoding="async" src="https://www.ala.org.au/app/uploads/2020/07/ALA-Strategy-cover-page-image.png" alt="Image of the cover for the ALA Strategy 2020-2025" class="wp-image-44115" width="212" height="299" srcset="https://www.ala.org.au/app/uploads/2020/07/ALA-Strategy-cover-page-image.png 603w, https://www.ala.org.au/app/uploads/2020/07/ALA-Strategy-cover-page-image-213x300.png 213w" sizes="(max-width: 212px) 100vw, 212px" /></a><figcaption><a href="https://www.ala.org.au/publications/ala-strategy-2020-2025/" target="_blank" rel="noreferrer noopener">Download Atlas of Living Australia Strategy 2020-2025</a></figcaption></figure>
-                                
-                    </div><!-- .entry-content -->
-                
-                    <footer class="entry-footer">
-                        
-                    </footer><!-- .entry-footer -->
-                
-                </article><!-- #post-## -->
+                <div class="ala-callout-alert-large"><p>Be aware that styles can differ between "mobile" (&lt;992px browser width) and "desktop".</p> 
+                <p>Also keep dark and light mode in mind: you can use the mode selector in the header.</p></div>
+
+                <p>See the <a href="https://getbootstrap.com/docs/5.0/components/buttons/#outline-buttons">Bootstrap 5 button docs</a> for more details on usage.</p>
+
+                <p>The normal button used in this design should be <strong>primary outline</strong>.</p>
+
+                <div class="pattern-library-grid">
+                    <h3 class="ala-pattern-meta">Primary buttons</h3>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-primary btn-sm"&gt;Small primary&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-primary btn-sm">Small primary</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-outline-primary btn-sm"&gt;Small primary outline&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-outline-primary btn-sm">Small primary outline</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-primary"&gt;Normal primary&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-primary">Normal primary</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-outline-primary"&gt;Primary outline&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-outline-primary">Primary outline</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-primary btn-lg"&gt;Large primary&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-primary btn-lg">Large primary</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-outline-primary btn-lg"&gt;Large primary outline&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-outline-primary btn-lg">Large primary outline</button></div>
+
+                    <h3 class="ala-pattern-meta">Secondary buttons</h3>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-secondary btn-sm"&gt;Small secondary&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-secondary btn-sm">Small secondary</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-outline-secondary btn-sm"&gt;Small secondary outline&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-outline-secondary btn-sm">Small secondary outline</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-secondary"&gt;Normal secondary&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-secondary">Normal secondary</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-outline-secondary"&gt;Secondary outline&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-outline-secondary">Secondary outline</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-secondary btn-lg"&gt;Large secondary&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-secondary btn-lg">Large secondary</button></div>
+                    <div class="ala-pattern-code"><span>&lt;button class="btn btn-outline-secondary btn-lg"&gt;Large secondary outline&lt;/button&gt;</span></div>
+                    <div class="ala-pattern-example"><button class="btn btn-outline-secondary btn-lg">Large secondary outline</button></div>
+
+                    <h3 class="ala-pattern-meta">Links</h3>
+                    <div class="ala-pattern-code"><span>Standard &lt;a href="#"&gt;inline text link&lt;/a&gt; style</span></div>
+                    <div class="ala-pattern-example"><p>Standard <a href="#">inline text link</a> style</p></div>
+                    <div class="ala-pattern-code"><span>&lt;a href="#" class="ala-link-arrow"&gt;Link with arrow after&lt;/a&gt;</span></div>
+                    <div class="ala-pattern-example"><p><a href="#" class="ala-link-arrow">Link with arrow after</a></p></div>
+
+                </div>
+
 
 			</div><!-- .ala-page -->
 
