@@ -5,7 +5,7 @@
     "updated": "2024-03-04T00:00+10:00"
   },
   "species-lists": {
-    "message": "This is a test site and list data may be cleared, periodically",
+    "message": "This is a **test site** and list data may be <b>cleared</b>, periodically",
     "severity": "INFO",
     "updated": "2024-03-04T00:00+10:00"
   },
