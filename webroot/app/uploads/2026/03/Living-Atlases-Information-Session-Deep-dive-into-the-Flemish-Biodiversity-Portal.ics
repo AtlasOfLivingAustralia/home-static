@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Molina, Javier (NCMI, Clayton)":mailto:Javier.Molina@csiro.au
+DESCRIPTION:                              \nWhat to expect\nOfficially laun
+ ched in February 2026\, the Flemish Biodiversity Portal (VBP) has become t
+ he definitive central hub for biodiversity data in Flanders\, Belgium. Dev
+ eloped by the INBO\, the portal successfully adapts the Atlas of Living Au
+ stralia (ALA) open-source framework to provide researchers\, policymakers\
+ , and the public with real-time access to regional natural heritage.\n\nTh
+ e portal currently integrates over 30 million occurrence records from more
+  than 300 diverse datasets\, including museum collections\, scientific mon
+ itoring networks\, and citizen science. By harmonizing these sources throu
+ gh Darwin Core standards\, the VBP enables precise tracking of species dis
+ tributions\, invasive species trends\, and habitat health within the speci
+ fic Flemish landscape.\n\nFor the Living Atlases Community\, the VBP stand
+ s as a successful implementation of a "Living Atlas" instance in a high-de
+ nsity\, Flemish context. It provides critical infrastructure for meeting E
+ uropean Nature Restoration targets and regional policy needs. While the po
+ rtal is now operational\, ongoing development focuses on enhancing data fl
+ ows—particularly the real-time integration of broad citizen science data
+ —and refining secure access for sensitive species. The VBP demonstrates 
+ how localized data mobilization can drive evidence-based conservation acro
+ ss borders.\n\nThis presentation offers a deep dive into the VBP\, illustr
+ ating how the original ALA codebase was adapted for a Flemish audience and
+  its reception within the local community. We will specifically address th
+ e hurdles overcome during implementation\, including the technical challen
+ ges of localizing a complex Australian architecture for a Dutch-speaking p
+ ublic.\n\n\n\nThis event will be recorded and the recording made available
+  through the Living Atlases slack channel in the week after the event.\n\n
+ Time and date\nWednesday 22 April 2026 5-6pm AEST (7-8am UTC)\nSee it in y
+ our local time zone<https://www.timeanddate.com/worldclock/fixedtime.html?
+ msg=Living+Atlases+Information+Session+-+Deep+dive+into+the+Flemish+Biodiv
+ ersity+Portal&iso=20260422T17&p1=152&ah=1>.\n\nHow to join\nThis is an onl
+ ine event that will be broadcast using MS Teams\, follow the links below t
+ o join.\nhttps://teams.microsoft.com/meet/45445242223484?p=4PkBVfIpcknp7kE
+ lvJ\nMeeting ID: 454 452 422 234 84\nPasscode: 9PJ9so6R\n\n\nFurther infor
+ mation\nThis event will be recorded and the recording made available throu
+ gh the Living Atlases slack channel<https://ala.us14.list-manage.com/track
+ /click?u=b238aea31bbd4bd103ff7368c&id=4252e0d32e&e=e24f40f4fd> in the week
+  after the event.\nIf you have any questions\, please reach out to support
+ @ala.org.au<mailto:support@ala.org.au>\n\n\n______________________________
+ __________________________________________________\nMicrosoft Teams meetin
+ g\nJoin: https://teams.microsoft.com/meet/45445242223484?p=4PkBVfIpcknp7kE
+ lvJ\nMeeting ID: 454 452 422 234 84\nPasscode: 9PJ9so6R\n_________________
+ _______________\nNeed help?<https://aka.ms/JoinTeamsMeeting?omkt=en-AU> | 
+ System reference<https://teams.microsoft.com/l/meetup-join/19%3ameeting_YT
+ NkNWYzODMtYjQ1Ny00ZmQxLWFkYTItODEyYTdmMmY1YzMz%40thread.v2/0?context=%7b%2
+ 2Tid%22%3a%220fe05593-19ac-4f98-adbf-0375fce7f160%22%2c%22Oid%22%3a%229e3e
+ ab2b-c4b7-420f-89ed-e37696bc0529%22%7d>\nDial in by phone\n+61 2 8318 0088
+ \,\,246538638#<tel:+61283180088\,\,246538638#> Australia\, Sydney\nFind a 
+ local number<https://dialin.teams.microsoft.com/33a00b7f-828e-472c-b845-33
+ ac42dabf1f?id=246538638>\nPhone conference ID: 246 538 638#\nJoin on a vid
+ eo conferencing device\nTenant key: csiro@m.webex.com<mailto:csiro@m.webex
+ .com>\nVideo ID: 134 185 210 8\nMore info<https://www.webex.com/msteams?co
+ nfid=1341852108&tenantkey=csiro&domain=m.webex.com>\nFor organizers: Meeti
+ ng options<https://teams.microsoft.com/meetingOptions/?organizerId=9e3eab2
+ b-c4b7-420f-89ed-e37696bc0529&tenantId=0fe05593-19ac-4f98-adbf-0375fce7f16
+ 0&threadId=19_meeting_YTNkNWYzODMtYjQ1Ny00ZmQxLWFkYTItODEyYTdmMmY1YzMz@thr
+ ead.v2&messageId=0&language=en-AU> | Reset dial-in PIN<https://dialin.team
+ s.microsoft.com/usp/pstnconferencing>\n.             \nAll external guests
+  will join meetings via a lobby by default. Meeting organisers or users wi
+ th presenter rights should only admit familiar and expected guests. For te
+ chnical difficulties\, contact IMTServiceCentre@csiro.au<mailto:IMTService
+ Centre@csiro.au>\nPrivacy and security<https://www.csiro.au/en/about/Polic
+ ies/Privacy/Office-365-Privacy-Statement>\n_______________________________
+ _________________________________________________\n\n
+UID:040000008200E00074C5B7101A82E00800000000425FD5AF01B5DC01000000000000000
+ 010000000B6D2D0452FE03644AAED5E37A1698B09
+SUMMARY:Living Atlases Information Session - Deep dive into the Flemish Bio
+ diversity Portal
+DTSTART:20260422T070000Z
+DTEND:20260422T080000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260320T033725Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:3
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_YTNkNWYzODMtYjQ1Ny00ZmQxLWFkYTItODEyYTdmMmY1YzMz%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%220fe05593-19ac-4f98-adbf-0375fce7f160%22%2c%22O
+ id%22%3a%229e3eab2b-c4b7-420f-89ed-e37696bc0529%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/0fe05593-19ac-4f98-adbf-0375fce7f160/9e3eab2b-c4b7-420f-89ed-e
+ 37696bc0529/19_meeting_YTNkNWYzODMtYjQ1Ny00ZmQxLWFkYTItODEyYTdmMmY1YzMz@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_YTNkNWYzODMtYjQ1Ny00ZmQ
+ xLWFkYTItODEyYTdmMmY1YzMz@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+61 2 8318 0088
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:246538638
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
