@@ -2,24 +2,33 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/ala-styles.min.css">
     <link rel="stylesheet" href="css/autocomplete.min.css">
     <link rel="stylesheet" href="css/autocomplete-extra.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migration.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/autocomplete.min.js"></script>
     <script src="js/application.js"></script>
+    <style>
+        .variant-label { background:#212121; color:#fff; font-family:monospace; font-size:13px; padding:6px 12px; margin:0; }
+        .variant-divider { border:3px solid #f26649; margin:0; }
+    </style>
 </head>
 <body>
-<div id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
-    <a class="skip-link sr-only sr-only-focusable" href="#INSERT_CONTENT_ID_HERE">Skip to content</a>
 
-    <nav class="navbar navbar-inverse navbar-expand-md">
-        <div class="{{containerClass}} header-logo-menu">
+<!-- VARIANT 1: container / signedOut -->
+<p class="variant-label">&#9658; Variant 1: container / signedOut</p>
+<hr class="variant-divider">
+<div id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
+    <a class="skip-link visually-hidden visually-hidden-focusable" href="#INSERT_CONTENT_ID_HERE">Skip to content</a>
+
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container header-logo-menu">
             <div class="navbar-header">
                 <div>
                     <a href="https://www-test.ala.org.au" class="custom-logo-link navbar-brand" itemprop="url">
@@ -28,8 +37,8 @@
                              srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w"
                              sizes="(max-width: 1005px) 100vw, 1005px"> </a>
                 </div>
-                <div class="display-flex {{loginStatus}}">
-                    <button class="display-flex search-trigger d-md-none d-lg-none collapsed collapse-trigger-button" title="Open search dialog"
+                <div class="display-flex signedOut">
+                    <button class="display-flex search-trigger d-lg-none collapsed collapse-trigger-button" title="Open search dialog"
                             data-bs-toggle="collapse" data-bs-target="#autocompleteSearchALA"
                             onclick="focusOnClickSearchButton()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 22 22">
@@ -47,12 +56,14 @@
                         </svg>
                         <span class="collapse visible-on-show" aria-hidden="true">&times;</span>
                     </button>
-                    <a href="{{loginURL}}" role="button" class="account-mobile d-md-none d-lg-none loginBtn mobile-login-btn"
+                    <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" role="button" class="account-mobile d-lg-none loginBtn mobile-login-btn"
                        title="Login button">
-                        <i class="fas fa-sign-in"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M10 17v-3H3v-4h7V7l5 5-5 5Zm7 3h-7v-2h7V6h-7V4h7a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2Z"></path>
+                        </svg>
                     </a>
                     <a href="https://userdetails.test.ala.org.au/myprofile" role="button"
-                       class="account-mobile d-md-none d-lg-none myProfileBtn" title="Profile">
+                       class="account-mobile d-lg-none myProfileBtn" title="Profile">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 37 41">
                             <defs>
                                 <style>
@@ -67,31 +78,33 @@
                                   transform="translate(-596 -84)"></path>
                         </svg>
                     </a>
-                    <a href="{{logoutURL}}" role="button"
-                       class="account-mobile d-md-none d-lg-none logoutBtn mobile-logout-btn" title="Logout">
-                        <i class="fas fa-sign-out"></i>
+                    <a href="https://auth-test.ala.org.au/cas/logout" role="button"
+                       class="account-mobile d-lg-none logoutBtn mobile-logout-btn" title="Logout">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 17v-3H7v-4h7V7l5 5-5 5Zm-3 3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7v2H4v12h7v2Z"></path>
+                        </svg>
                     </a>
-                    <button class="navbar-toggle collapsed collapse-trigger-button" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#navbarOuterWrapper" aria-controls="navbarOuterWrapper"
+                    <div class="mobile-nav-toggle d-lg-none collapsed collapse-trigger-button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <div class="horizontal-line"></div>
                         <div class="horizontal-line"></div>
                         <div class="horizontal-line"></div>
                         <span class="collapse visible-on-show" aria-hidden="true">&times;</span>
-                    </button>
+                    </div>
                 </div>
             </div>
 
-            <div id="navbarOuterWrapper" class="outer-nav-wrapper collapse navbar-collapse">
-                <div class="top-bar d-none d-sm-block hidden-sm">
+            <div id="navbarOuterWrapper" class="outer-nav-wrapper">
+                <div class="top-bar d-none d-lg-flex">
                     <a href="https://www-test.ala.org.au/contact-us/" class="btn btn-link btn-sm">Contact us</a>
-                    <div class="account {{loginStatus}}">
+                    <div class="account signedOut">
                         <a href="https://userdetails.test.ala.org.au/registration/createAccount"
                            class="btn btn-outline-light btn-sm signUpBtn" role="button">Sign up</a>
                         <a href="https://userdetails.test.ala.org.au/myprofile"
                            class="btn btn-outline-light btn-sm myProfileBtn" role="button">Profile</a>
-                        <a href="{{loginURL}}" class="btn btn-primary btn-sm loginBtn">Login</a>
-                        <a href="{{logoutURL}}" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
+                        <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" class="btn btn-primary btn-sm loginBtn">Login</a>
+                        <a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
                     </div>
                 </div>
                 <div class="main-nav-wrapper">
@@ -132,7 +145,6 @@
                                 <li><a href="https://www-test.ala.org.au/publications/" class="dropdown-item">Brochures and reports</a></li>
                                  <li><a href="https://www-test.ala.org.au/ala-logo-and-identity/" class="dropdown-item">ALA logo and identity</a></li>
                                 <li><a href="https://www-test.ala.org.au/ala-cited-publications/" class="dropdown-item">ALA-cited publications</a></li>
-                                <li><a href="https://www-test.ala.org.au/education-resources/" class="dropdown-item">Education resources</a></li>
                                 <li><a href="https://www-test.ala.org.au/abdmp/" class="dropdown-item">Data Mobilisation Program</a></li>
                                 <li><a href="https://labs.ala.org.au/" class="dropdown-item">ALA Labs</a></li>
                             </ul>
@@ -172,7 +184,7 @@
                         </ul>
                       </div>
 
-                    <button class="search-trigger d-none d-sm-block hidden-sm collapsed collapse-trigger-button"
+                    <button class="search-trigger d-none d-lg-block collapsed collapse-trigger-button"
                             data-bs-toggle="collapse"
                             data-bs-target="#autocompleteSearchALA" onclick="focusOnClickSearchButton()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22"
@@ -195,9 +207,9 @@
 
             </div>
         </div><!-- .container -->
-        <div class="{{containerClass}}">
+        <div class="container">
             <div id="autocompleteSearchALA" class="collapse">
-                <form method="get" action="{{searchServer}}{{searchPath}}" class="search-form">
+                <form method="get" action="https://bie.ala.org.au/search" class="search-form">
                     <div class="space-between">
                         <input id="autocompleteHeader" type="text" name="q"
                                placeholder="Search species, datasets, and more..." class="search-input"
@@ -239,6 +251,7 @@
         </div>
     </li>
 </script>
+
 <section id="breadcrumb">
     <div class="container">
         <div class="row">
@@ -250,96 +263,103 @@
     </div>
 </section>
 <div class="wrapper" id="full-width-page-wrapper">
-
-	<div class="container" id="content">
-
-		<div class="row">
-
-			<div class="col-md-12 content-area" id="primary">
-
-				<main class="site-main" id="main" role="main">
-
-<article class="post-166 page type-page status-publish hentry" id="post-166">
-	
-	<div class="entry-content">
-		
-<h2 class="wp-block-heading" class="wp-block-heading" id="what-is-the-ala">Heading h2<br></h2>
-
-<p>Paragraph text p: Example text here with <a href="randomPage">an inline link</a>. </p>
-
-<p>Paragraph text p: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem. </p>
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-<h3 class="wp-block-heading" class="wp-block-heading" id="our-users">Heading h3: List</h3>
-
-<p>Intro p for list:</p>
-
-<ul><li>Basic list item</li>
-    <li>Basic list item with <a href="randomPage">link in the text</a></li>
-    <li>Basic list item</li>
-    <li>Basic list item with longer line length: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</li>
-</ul>
-
-<h4>Heading h4: Buttons</h4>
-    <p><button type="button" class="btn btn-primary">button.btn.btn-primary</button></p>
-    <p><button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button></p>
-    <p><button type="button" class="btn btn-danger">button.btn.btn-danger</button></p>
-
-    <div class="card card-ala-light">
-          <div class="card-body">
-            <h4>.card.card-ala-light .card-body h4</h4>
-        
-            <p>p: Example text here with <a href="randomPage">an inline link</a>. </p>
-
-            <p><button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button></p>
-          </div>
-        </div>
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-                    <div class="content">
-                            <h4 id="update-your-details">
-                                <a href="randomPage">
-                                    Heading as a link: h4 a
-                                </a>
-                              </h4>
-                            <p>Paragraph text</p>
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-md-12 content-area" id="primary">
+                <main class="site-main" id="main" role="main">
+                    <article class="post-166 page type-page status-publish hentry" id="post-166">
+                        <div class="entry-content">
+                            <p>"class: entry-content" Paragraph text p: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                                dolorem. </p>
                         </div>
-		
-	</div><!-- .entry-content -->
+                        <div>
+                            <h2 class="wp-block-heading" id="what-is-the-ala">Heading h2<br></h2>
 
-	<footer class="entry-footer">
-		
-	</footer><!-- .entry-footer -->
+                            <p>Paragraph text p: Example text here with <a href="randomPage">an inline link</a>. </p>
 
-</article><!-- #post-## -->
+                            <p>Paragraph text p: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                                dolorem. </p>
 
-				</main><!-- #main -->
+                            <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 
-			</div><!-- #primary -->
+                            <h3 class="wp-block-heading" id="our-users">Heading h3: List</h3>
 
-		</div><!-- .row end -->
+                            <p>Intro p for list:</p>
 
-	</div><!-- #content -->
+                            <ul>
+                                <li>Basic list item</li>
+                                <li>Basic list item with <a href="randomPage">link in the text</a></li>
+                                <li>Basic list item</li>
+                                <li>Basic list item with longer line length: Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                                    ipsa quae ab illo inventore veritatis
+                                </li>
+                            </ul>
 
+                            <h4>Heading h4: Buttons</h4>
+                            <p>
+                                <button type="button" class="btn btn-primary">button.btn.btn-primary</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-danger">button.btn.btn-danger</button>
+                            </p>
+
+                            <div class="card card-ala-light">
+                                <div class="card-body">
+                                    <h4>.card.card-ala-light .card-body h4</h4>
+                                    <p>p: Example text here with <a href="randomPage">an inline link</a>. </p>
+                                    <p>
+                                        <button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+                            <div class="content">
+                                <h4 id="update-your-details">
+                                    <a href="randomPage">Heading as a link: h4 a</a>
+                                </h4>
+                                <p>Paragraph text</p>
+                            </div>
+
+                        </div><!-- .entry-content -->
+
+                        <footer class="entry-footer"></footer><!-- .entry-footer -->
+
+                    </article><!-- #post-## -->
+                </main><!-- #main -->
+            </div><!-- #primary -->
+        </div><!-- .row end -->
+    </div><!-- #content -->
 </div><!-- #full-width-page-wrapper -->
 <footer class="site-footer bootstrap" id="colophon">
     <div class="footer-top">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center align-items-baseline">
                 <div class="col-sm-12 col-md-4 align-center logo-column">
                     <img width="1005" src="https://www.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo"
                          alt="Atlas of Living Australia" itemprop="logo"
                          srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w"
                          sizes="(max-width: 1005px) 100vw, 1005px">
-                    <div class="account {{loginStatus}}">
+                    <div class="account signedOut">
                         <a href="https://userdetails.test.ala.org.au/registration/createAccount"
                            class="btn btn-outline-light btn-sm signUpBtn" role="button">Sign up</a>
                         <a href="https://userdetails.test.ala.org.au/myprofile"
                            class="btn btn-outline-light btn-sm myProfileBtn" role="button">My profile</a>
-                        <a href="{{loginURL}}" class="btn btn-primary btn-sm loginBtn">Login</a>
-                        <a href="{{logoutURL}}" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
+                        <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" class="btn btn-primary btn-sm loginBtn">Login</a>
+                        <a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
                         <ul class="social">
                             <li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i
                                     class="fab fa-facebook" aria-hidden="true"></i></a></li>
@@ -351,14 +371,14 @@
                     </div>
                 </div><!--col end -->
                 <div class="col-sm-6 col-md-4 content-column">
-                    <div class="media content">
-                        <div class="media-left">
-                            <img class="media-object image"
+                    <div class="d-flex content">
+                        <div class="flex-shrink-0">
+                            <img class="image"
                                  src="https://www.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg"
                                  alt="">
                         </div>
-                        <div class="media-body">
-                            <h4 class="h4"><a class="underline"
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="h4"><a class="text-decoration-underline"
                                               href="https://www-test.ala.org.au/home/record-a-sighting/">Record
                                 a Sighting</a></h4>
                             <p>Upload your observations, identify species, and contribute to the ALA.</p>
@@ -366,14 +386,14 @@
                     </div>
                 </div><!--col end -->
                 <div class="col-sm-6 col-md-4 content-column">
-                    <div class="media content">
-                        <div class="media-left">
-                            <img class="media-object image"
+                    <div class="d-flex content">
+                        <div class="flex-shrink-0">
+                            <img class="image"
                                  src="https://www.ala.org.au/app/uploads/2019/05/spatial-portal-white-trans-70.png"
                                  alt=""/>
                         </div>
-                        <div class="media-body">
-                            <h4 class="h4"><a href="https://spatial.ala.org.au/" class="underline">Explore the Spatial Portal</a></h4>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="h4"><a href="https://spatial.ala.org.au/" class="text-decoration-underline">Explore the Spatial Portal</a></h4>
                             <p>Visualise and analyse relationships between species, location and environment.</p>
                         </div>
                     </div>
@@ -618,16 +638,16 @@
                     <div class="footer-menu-horizontal">
                         <ul id="menu-other-links" class="menu horizontal">
                             <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a
-                                    class="underline" href="https://www-test.ala.org.au/blog/">News &amp; media</a>
+                                    class="text-decoration-underline" href="https://www-test.ala.org.au/blog/">News &amp; media</a>
                             </li>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                                    class="underline" href="https://support.ala.org.au/support/home">Help</a></li>
+                                    class="text-decoration-underline" href="https://support.ala.org.au/support/home">Help</a></li>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
-                                    class="underline"
+                                    class="text-decoration-underline"
                                     href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer
                                 tools &amp; documentation</a></li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
-                                    class="underline"
+                                    class="text-decoration-underline"
                                     href="https://www-test.ala.org.au/sites-and-services/">All sites, services &amp;
                                 tools</a></li>
                         </ul>
@@ -642,9 +662,9 @@
             <div class="row">
                 <div class="col-md-6 content-column">
                     <h4>The ALA is made possible by contributions from its partners, is supported by <a
-                            href="https://www.dese.gov.au/ncris" class="underline">NCRIS</a>,
-                        is hosted by <a href="https://csiro.au/" class="underline">CSIRO</a>, and is the Australian node of <a
-                                href="https://www.gbif.org/en/" class="underline">GBIF</a>.</h4>
+                            href="https://www.dese.gov.au/ncris" class="text-decoration-underline">NCRIS</a>,
+                        is hosted by <a href="https://csiro.au/" class="text-decoration-underline">CSIRO</a>, and is the Australian node of <a
+                                href="https://www.gbif.org/en/" class="text-decoration-underline">GBIF</a>.</h4>
                     <p>
                         <a href="https://www.dese.gov.au/ncris"><img
                                 class="alignnone wp-image-41895 size-thumbnail"
@@ -663,8 +683,8 @@
                 </div>
                 <div class="col-md-6 content-column">
                     <h4>Acknowledgement of Traditional Owners and Country</h4>
-                    <p>The Atlas of Living Australia acknowledges Australia’s Traditional Owners and pays respect to the
-                        past and present Elders of the nation’s Aboriginal and Torres Strait Islander communities. We
+                    <p>The Atlas of Living Australia acknowledges Australia&rsquo;s Traditional Owners and pays respect to the
+                        past and present Elders of the nation&rsquo;s Aboriginal and Torres Strait Islander communities. We
                         honour and celebrate the spiritual, cultural and customary connections of Traditional Owners to
                         country and the biodiversity that forms part of that country.</p>
                 </div><!--col end -->
@@ -678,13 +698,13 @@
                 <div class="col-sm-12 col-md-7">
                     <p class="alert-text text-creativecommons">
                         This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative
-                        Commons Attribution 3.0 Australia License</a> <a rel="license"
+                        Commons Attribution 3.0 Australia License</a>&nbsp;<a rel="license"
                                                                          href="http://creativecommons.org/licenses/by/3.0/au/"><img
                             alt="Creative Commons License" style="border-width:0"
                             src="https://www.ala.org.au/app/themes/pvtl/images/cc-by.png"></a>
                     </p>
                 </div><!--col end -->
-                <div class="col-sm-12 col-md-5 text-md-right">
+                <div class="col-sm-12 col-md-5 text-md-end">
                     <ul class="menu horizontal">
                         <li><a href="https://www-test.ala.org.au/terms-of-use/#cy">Copyright</a>
                         </li>
@@ -717,5 +737,2107 @@
     });
 </script>
 <!-- end ALA support widget -->
+
+
+<!-- VARIANT 2: container / signedIn -->
+<p class="variant-label">&#9658; Variant 2: container / signedIn</p>
+<hr class="variant-divider">
+<div id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
+    <a class="skip-link visually-hidden visually-hidden-focusable" href="#INSERT_CONTENT_ID_HERE">Skip to content</a>
+
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container header-logo-menu">
+            <div class="navbar-header">
+                <div>
+                    <a href="https://www-test.ala.org.au" class="custom-logo-link navbar-brand" itemprop="url">
+                        <img width="1005" height="150" src="https://www.ala.org.au/app/uploads/2019/01/logo.png"
+                             class="custom-logo" alt="Atlas of Living Australia" itemprop="image"
+                             srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w"
+                             sizes="(max-width: 1005px) 100vw, 1005px"> </a>
+                </div>
+                <div class="display-flex signedIn">
+                    <button class="display-flex search-trigger d-lg-none collapsed collapse-trigger-button" title="Open search dialog"
+                            data-bs-toggle="collapse" data-bs-target="#autocompleteSearchALA"
+                            onclick="focusOnClickSearchButton()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 22 22">
+                            <defs>
+                                <style>
+                                    .search-icon {
+                                        fill: #fff;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="search-icon"
+                                  d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                  transform="translate(-1516 -60)"></path>
+                        </svg>
+                        <span class="collapse visible-on-show" aria-hidden="true">&times;</span>
+                    </button>
+                    <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" role="button" class="account-mobile d-lg-none loginBtn mobile-login-btn"
+                       title="Login button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M10 17v-3H3v-4h7V7l5 5-5 5Zm7 3h-7v-2h7V6h-7V4h7a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2Z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://userdetails.test.ala.org.au/myprofile" role="button"
+                       class="account-mobile d-lg-none myProfileBtn" title="Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 37 41">
+                            <defs>
+                                <style>
+                                    .account-icon {
+                                        fill: #212121;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path id="Account" class="account-icon"
+                                  d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z"
+                                  transform="translate(-596 -84)"></path>
+                        </svg>
+                    </a>
+                    <a href="https://auth-test.ala.org.au/cas/logout" role="button"
+                       class="account-mobile d-lg-none logoutBtn mobile-logout-btn" title="Logout">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 17v-3H7v-4h7V7l5 5-5 5Zm-3 3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7v2H4v12h7v2Z"></path>
+                        </svg>
+                    </a>
+                    <div class="mobile-nav-toggle d-lg-none collapsed collapse-trigger-button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="horizontal-line"></div>
+                        <div class="horizontal-line"></div>
+                        <div class="horizontal-line"></div>
+                        <span class="collapse visible-on-show" aria-hidden="true">&times;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="navbarOuterWrapper" class="outer-nav-wrapper">
+                <div class="top-bar d-none d-lg-flex">
+                    <a href="https://www-test.ala.org.au/contact-us/" class="btn btn-link btn-sm">Contact us</a>
+                    <div class="account signedIn">
+                        <a href="https://userdetails.test.ala.org.au/registration/createAccount"
+                           class="btn btn-outline-light btn-sm signUpBtn" role="button">Sign up</a>
+                        <a href="https://userdetails.test.ala.org.au/myprofile"
+                           class="btn btn-outline-light btn-sm myProfileBtn" role="button">Profile</a>
+                        <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" class="btn btn-primary btn-sm loginBtn">Login</a>
+                        <a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
+                    </div>
+                </div>
+                <div class="main-nav-wrapper">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSearch" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Search &amp; analyse
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownSearch">
+                                <li><a href="https://bie.ala.org.au/" class="dropdown-item">Search species</a></li>
+                                <li><a href="https://biocache.ala.org.au/search#tab_simpleSearch" class="dropdown-item">Search &amp; download records</a></li>
+                                <li><a href="https://collections.ala.org.au/datasets" class="dropdown-item">Search datasets</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://spatial.ala.org.au/" class="dropdown-item">Spatial analysis (Spatial Portal)</a></li>
+                                <li><a href="https://biocache.ala.org.au/explore/your-area" class="dropdown-item">Explore your area</a></li>
+                                <li><a href="https://collections.ala.org.au/" class="dropdown-item">Explore natural history collections</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownContribute" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contribute
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownContribute">
+                                <li><a href="https://support.ala.org.au/support/solutions/articles/6000261427-sharing-a-dataset-with-the-ala" class="dropdown-item">Share your dataset</a></li>
+                                <li><a href="https://lists.ala.org.au/public/speciesLists" class="dropdown-item">Upload species list</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www.ala.org.au/home/record-a-sighting/" class="dropdown-item">Record a sighting</a></li>
+                                <li><a href="https://volunteer.ala.org.au/" class="dropdown-item">Transcribe &amp; digitise (DigiVol)</a></li>
+                                <li><a href="https://biocollect.ala.org.au/acsa" class="dropdown-item">Discover citizen science projects</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownResources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownResources">
+                                <li><a href="https://www-test.ala.org.au/publications/" class="dropdown-item">Brochures and reports</a></li>
+                                 <li><a href="https://www-test.ala.org.au/ala-logo-and-identity/" class="dropdown-item">ALA logo and identity</a></li>
+                                <li><a href="https://www-test.ala.org.au/ala-cited-publications/" class="dropdown-item">ALA-cited publications</a></li>
+                                <li><a href="https://www-test.ala.org.au/abdmp/" class="dropdown-item">Data Mobilisation Program</a></li>
+                                <li><a href="https://labs.ala.org.au/" class="dropdown-item">ALA Labs</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                                <li><a href="https://www-test.ala.org.au/about-ala/" class="dropdown-item">About us</a></li>
+                                <li><a href="https://www-test.ala.org.au/governance" class="dropdown-item">Governance</a></li>
+                                <li><a href="https://www-test.ala.org.au/blog/" class="dropdown-item">News &amp; media</a></li>
+                                <li><a href="https://www-test.ala.org.au/careers/" class="dropdown-item">Careers</a></li>
+                                <li><a href="https://www-test.ala.org.au/internships/" class="dropdown-item">Internships</a></li>
+                                <li><a href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www-test.ala.org.au/current-projects/" class="dropdown-item">Current projects</a></li>
+                                <li><a href="https://living-atlases.gbif.org/" class="dropdown-item">International Living Atlases</a></li>
+                                <li><a href="https://www-test.ala.org.au/indigenous-ecological-knowledge/" class="dropdown-item">Indigenous ecological knowledge</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www-test.ala.org.au/sites-and-services/" class="dropdown-item">All sites, services &amp; tools</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHelp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Help
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownHelp">
+                                <li><a href="https://support.ala.org.au/support/home" class="dropdown-item">Browse all articles (FAQs)</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000137994" class="dropdown-item">ALA Data help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000138053" class="dropdown-item">ALA Tools &amp; Apps help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000138349" class="dropdown-item">ALA Spatial Portal help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/articles/6000261662-citing-the-ala" class="dropdown-item">How to cite the ALA</a></li>
+                                <li><a href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+
+                    <button class="search-trigger d-none d-lg-block collapsed collapse-trigger-button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#autocompleteSearchALA" onclick="focusOnClickSearchButton()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22"
+                             title="Open search control">
+                            <defs>
+                                <style>
+                                    .search-icon {
+                                        fill: #fff;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="search-icon"
+                                  d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                  transform="translate(-1516 -60)"></path>
+                        </svg>
+                        <span class="collapse visible-on-show" aria-hidden="true" title="Close">&times;</span>
+                    </button>
+                </div>
+
+            </div>
+        </div><!-- .container -->
+        <div class="container">
+            <div id="autocompleteSearchALA" class="collapse">
+                <form method="get" action="https://bie.ala.org.au/search" class="search-form">
+                    <div class="space-between">
+                        <input id="autocompleteHeader" type="text" name="q"
+                               placeholder="Search species, datasets, and more..." class="search-input"
+                               autocomplete="off"/>
+                        <button class="search-submit" title="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22">
+                                <defs>
+                                    <style>
+                                        .search-icon {
+                                            fill: #fff;
+                                            fill-rule: evenodd;
+                                        }
+                                    </style>
+                                </defs>
+                                <path class="search-icon"
+                                      d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                      transform="translate(-1516 -60)"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav><!-- .site-navigation -->
+
+</div>
+<script type="text/html" id="autoCompleteTemplate">
+    <li class="autocomplete-item striped">
+        <div class="content-spacing">
+            <div class="autocomplete-heading">
+                <% if (commonNameMatches.length > 0) { %>
+                <%=commonNameMatches[0]%>
+                <% } else if (scientificNameMatches.length > 0) { %>
+                <%=scientificNameMatches[0]%>
+                <% } else { %>
+                <%=matchedNames[0]%>
+                <% } %>
+            </div>
+        </div>
+    </li>
+</script>
+
+<section id="breadcrumb">
+    <div class="container">
+        <div class="row">
+            <ul class="breadcrumb-list">
+                <li><a href="/">Home</a></li>
+                <li class="active">Breadcrumb title</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<div class="wrapper">
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-md-12 content-area" id="primary">
+                <main class="site-main" id="main" role="main">
+                    <article>
+                        <div class="entry-content">
+                            <p>Signed-in variant — profile and logout links should be visible above.</p>
+                            <p>Paragraph text p: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                                dolorem. </p>
+                        </div>
+                        <div>
+                            <h2 class="wp-block-heading">Heading h2</h2>
+
+                            <p>Paragraph text p: Example text here with <a href="randomPage">an inline link</a>. </p>
+
+                            <h3 class="wp-block-heading">Heading h3: List</h3>
+                            <p>Intro p for list:</p>
+                            <ul>
+                                <li>Basic list item</li>
+                                <li>Basic list item with <a href="randomPage">link in the text</a></li>
+                                <li>Basic list item</li>
+                                <li>Basic list item with longer line length: Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                                    ipsa quae ab illo inventore veritatis
+                                </li>
+                            </ul>
+
+                            <h4>Heading h4: Buttons</h4>
+                            <p>
+                                <button type="button" class="btn btn-primary">button.btn.btn-primary</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-danger">button.btn.btn-danger</button>
+                            </p>
+
+                            <div class="card card-ala-light">
+                                <div class="card-body">
+                                    <h4>.card.card-ala-light .card-body h4</h4>
+                                    <p>p: Example text here with <a href="randomPage">an inline link</a>. </p>
+                                    <p>
+                                        <button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4><a href="randomPage">Heading as a link: h4 a</a></h4>
+                                <p>Paragraph text</p>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="site-footer bootstrap" id="colophon">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row align-items-center align-items-baseline">
+                <div class="col-sm-12 col-md-4 align-center logo-column">
+                    <img width="1005" src="https://www.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo"
+                         alt="Atlas of Living Australia" itemprop="logo"
+                         srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w"
+                         sizes="(max-width: 1005px) 100vw, 1005px">
+                    <div class="account signedIn">
+                        <a href="https://userdetails.test.ala.org.au/registration/createAccount"
+                           class="btn btn-outline-light btn-sm signUpBtn" role="button">Sign up</a>
+                        <a href="https://userdetails.test.ala.org.au/myprofile"
+                           class="btn btn-outline-light btn-sm myProfileBtn" role="button">My profile</a>
+                        <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" class="btn btn-primary btn-sm loginBtn">Login</a>
+                        <a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
+                        <ul class="social">
+                            <li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i
+                                    class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/atlasoflivingaustralia/" target="_blank"><i
+                                    class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://au.linkedin.com/company/atlas-of-living-australia" target="_blank"><i
+                                    class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-sm-6 col-md-4 content-column">
+                    <div class="d-flex content">
+                        <div class="flex-shrink-0">
+                            <img class="image"
+                                 src="https://www.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg"
+                                 alt="">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="h4"><a class="text-decoration-underline"
+                                              href="https://www-test.ala.org.au/home/record-a-sighting/">Record
+                                a Sighting</a></h4>
+                            <p>Upload your observations, identify species, and contribute to the ALA.</p>
+                        </div>
+                    </div>
+                </div><!--col end -->
+                <div class="col-sm-6 col-md-4 content-column">
+                    <div class="d-flex content">
+                        <div class="flex-shrink-0">
+                            <img class="image"
+                                 src="https://www.ala.org.au/app/uploads/2019/05/spatial-portal-white-trans-70.png"
+                                 alt=""/>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="h4"><a href="https://spatial.ala.org.au/" class="text-decoration-underline">Explore the Spatial Portal</a></h4>
+                            <p>Visualise and analyse relationships between species, location and environment.</p>
+                        </div>
+                    </div>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-search-analyse" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Search &amp; analyse</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://bie.ala.org.au/">Search species</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocache.ala.org.au/search#tab_simpleSearch">Search &amp;
+                                        download records</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://collections.ala.org.au/datasets">Search
+                                        datasets</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://spatial.ala.org.au/">Spatial analysis (Spatial Portal)</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocache.ala.org.au/explore/your-area">Explore your area</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://collections.ala.org.au/">Explore natural history
+                                        collections</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://regions.ala.org.au/">Explore
+                                        regions</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://lists.ala.org.au/iconic-species">Browse
+                                        Australian iconic species</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://specimens.ala.org.au/">Browse
+                                        specimen images</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-contribute" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Contribute</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://support.ala.org.au/support/solutions/articles/6000261427-sharing-a-dataset-with-the-ala">Share
+                                        your dataset</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://lists.ala.org.au/public/speciesLists">Upload species list</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/home/record-a-sighting/">Record
+                                        a sighting</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            title="Transcribe &amp; digitise (DigiVol)"
+                                            href="https://digivol.ala.org.au/">Transcribe &amp; digitise (DigiVol)</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocollect.ala.org.au/acsa">Discover
+                                        citizen science projects</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-menu">
+                        <ul id="menu-resources" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="#">Resources</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/publications/">Brochures and reports</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/ala-logo-and-identity/">ALA logo and identity</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://www-test.ala.org.au/biosecurity" class="dropdown-item">Biosecurity Hub</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/ala-cited-publications/">ALA-cited publications</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/education-resources/">Education resources</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/abdmp/">Data Mobilisation Program</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://labs.ala.org.au/">ALA Labs</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-about" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="https://www-test.ala.org.au/about-ala/">About</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/about-ala/">About us</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/governance">Governance</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/blog/">News &amp; media</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/careers/">Careers</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                href="https://www-test.ala.org.au/internships/">Internships</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/contact-us/">Contact
+                                        us</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/current-projects/">Current projects</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+
+                                            href="https://living-atlases.gbif.org/">International Living Atlases</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/indigenous-ecological-knowledge/">Indigenous
+                                        ecological knowledge</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/sites-and-services/">All
+                                        sites, services &amp; tools</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+            </div><!--row end -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-tools" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Tools</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://www-test.ala.org.au/biocollect/">BioCollect</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://galah.ala.org.au/">galah</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://profiles.ala.org.au/opus/foa">Flora of Australia</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://fieldcapture.ala.org.au/">MERIT</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://dashboard.ala.org.au/">ALA dashboard</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://www-test.ala.org.au/sites-and-services/">All sites, service and tools</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-community-hubs" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Community hubs</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://arga.org.au/">ARGA: Australian Reference Genome Atlas</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://asbp.ala.org.au/">ASBP: Australian Seed Bank Partnership</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://avh.ala.org.au/">AVH:
+                                        Australasian Virtual Herbarium</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://ozcam.ala.org.au/">OZCAM: Online Zoological Collections</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-ala-for" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">ALA for...</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-researchers">ALA for
+                                        researchers</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-government-and-land-managers-2/">ALA for government and land
+                                        managers</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-community-and-schools-2/">ALA for community and schools</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-menu">
+                        <ul id="menu-about" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="#">Help</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://support.ala.org.au/support/home">Browse all articles (FAQs)</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://support.ala.org.au/support/solutions/6000137994">ALA Data help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://support.ala.org.au/support/solutions/6000138053">ALA Tools &amp; Apps help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://support.ala.org.au/support/solutions/6000138349">ALA Spatial Portal help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                href="https://support.ala.org.au/support/solutions/articles/6000261662-citing-the-ala">How to cite the ALA</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://www-test.ala.org.au/contact-us/">Contact us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-12">
+
+                    <div class="footer-menu-horizontal">
+                        <ul id="menu-other-links" class="menu horizontal">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a
+                                    class="text-decoration-underline" href="https://www-test.ala.org.au/blog/">News &amp; media</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    class="text-decoration-underline" href="https://support.ala.org.au/support/home">Help</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    class="text-decoration-underline"
+                                    href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer
+                                tools &amp; documentation</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                    class="text-decoration-underline"
+                                    href="https://www-test.ala.org.au/sites-and-services/">All sites, services &amp;
+                                tools</a></li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 content-column">
+                    <h4>The ALA is made possible by contributions from its partners, is supported by <a
+                            href="https://www.dese.gov.au/ncris" class="text-decoration-underline">NCRIS</a>,
+                        is hosted by <a href="https://csiro.au/" class="text-decoration-underline">CSIRO</a>, and is the Australian node of <a
+                                href="https://www.gbif.org/en/" class="text-decoration-underline">GBIF</a>.</h4>
+                    <p>
+                        <a href="https://www.dese.gov.au/ncris"><img
+                                class="alignnone wp-image-41895 size-thumbnail"
+                                src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg"
+                                alt="NCRIS logo" width="150" height="109"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a
+                                href="https://csiro.au/"><img class="alignnone wp-image-41909"
+                                                              src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png"
+                                                              alt="CSIRO logo" width="109" height="109"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a
+                                href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898"
+                                                                     src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png"
+                                                                     alt="GBIF logo" width="207" height="109"></a></p>
+                </div>
+                <div class="col-md-6 content-column">
+                    <h4>Acknowledgement of Traditional Owners and Country</h4>
+                    <p>The Atlas of Living Australia acknowledges Australia&rsquo;s Traditional Owners and pays respect to the
+                        past and present Elders of the nation&rsquo;s Aboriginal and Torres Strait Islander communities. We
+                        honour and celebrate the spiritual, cultural and customary connections of Traditional Owners to
+                        country and the biodiversity that forms part of that country.</p>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <p class="alert-text text-creativecommons">
+                        This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative
+                        Commons Attribution 3.0 Australia License</a>&nbsp;<a rel="license"
+                                                                         href="http://creativecommons.org/licenses/by/3.0/au/"><img
+                            alt="Creative Commons License" style="border-width:0"
+                            src="https://www.ala.org.au/app/themes/pvtl/images/cc-by.png"></a>
+                    </p>
+                </div><!--col end -->
+                <div class="col-sm-12 col-md-5 text-md-end">
+                    <ul class="menu horizontal">
+                        <li><a href="https://www-test.ala.org.au/terms-of-use/#cy">Copyright</a>
+                        </li>
+                        <li><a href="https://www-test.ala.org.au/terms-of-use/">Terms of
+                            Use</a></li>
+                        <li><a href="https://status.ala.org.au/">System Status</a></li>
+                    </ul>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+</footer>
+<script src="https://cdn.usefathom.com/script.js" data-site="QDWZORBB" defer></script>
+
+<!-- ALA support widget -->
+<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+    FreshWidget.init("", {
+        "queryString": "&widgetType=popup&helpdesk_ticket[group_id]=6000207804&helpdesk_ticket[product_id]=6000005589&formTitle=Report+an+issue+or+ask+for+help",
+        "utf8": "✓",
+        "widgetType": "popup",
+        "buttonType": "text",
+        "buttonText": "Need help?",
+        "buttonColor": "white",
+        "buttonBg": "#d5502a",
+        "alignment": "2",
+        "offset": "350px",
+        "formHeight": "500px",
+        "url": "https://support.ala.org.au"
+    });
+</script>
+<!-- end ALA support widget -->
+
+
+<!-- VARIANT 3: container-fluid / signedOut -->
+<p class="variant-label">&#9658; Variant 3: container-fluid / signedOut</p>
+<hr class="variant-divider">
+<div id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
+    <a class="skip-link visually-hidden visually-hidden-focusable" href="#INSERT_CONTENT_ID_HERE">Skip to content</a>
+
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid header-logo-menu">
+            <div class="navbar-header">
+                <div>
+                    <a href="https://www-test.ala.org.au" class="custom-logo-link navbar-brand" itemprop="url">
+                        <img width="1005" height="150" src="https://www.ala.org.au/app/uploads/2019/01/logo.png"
+                             class="custom-logo" alt="Atlas of Living Australia" itemprop="image"
+                             srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w"
+                             sizes="(max-width: 1005px) 100vw, 1005px"> </a>
+                </div>
+                <div class="display-flex signedOut">
+                    <button class="display-flex search-trigger d-lg-none collapsed collapse-trigger-button" title="Open search dialog"
+                            data-bs-toggle="collapse" data-bs-target="#autocompleteSearchALA"
+                            onclick="focusOnClickSearchButton()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 22 22">
+                            <defs>
+                                <style>
+                                    .search-icon {
+                                        fill: #fff;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="search-icon"
+                                  d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                  transform="translate(-1516 -60)"></path>
+                        </svg>
+                        <span class="collapse visible-on-show" aria-hidden="true">&times;</span>
+                    </button>
+                    <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" role="button" class="account-mobile d-lg-none loginBtn mobile-login-btn"
+                       title="Login button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M10 17v-3H3v-4h7V7l5 5-5 5Zm7 3h-7v-2h7V6h-7V4h7a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2Z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://userdetails.test.ala.org.au/myprofile" role="button"
+                       class="account-mobile d-lg-none myProfileBtn" title="Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 37 41">
+                            <defs>
+                                <style>
+                                    .account-icon {
+                                        fill: #212121;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path id="Account" class="account-icon"
+                                  d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z"
+                                  transform="translate(-596 -84)"></path>
+                        </svg>
+                    </a>
+                    <a href="https://auth-test.ala.org.au/cas/logout" role="button"
+                       class="account-mobile d-lg-none logoutBtn mobile-logout-btn" title="Logout">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 17v-3H7v-4h7V7l5 5-5 5Zm-3 3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7v2H4v12h7v2Z"></path>
+                        </svg>
+                    </a>
+                    <div class="mobile-nav-toggle d-lg-none collapsed collapse-trigger-button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="horizontal-line"></div>
+                        <div class="horizontal-line"></div>
+                        <div class="horizontal-line"></div>
+                        <span class="collapse visible-on-show" aria-hidden="true">&times;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="navbarOuterWrapper" class="outer-nav-wrapper">
+                <div class="top-bar d-none d-lg-flex">
+                    <a href="https://www-test.ala.org.au/contact-us/" class="btn btn-link btn-sm">Contact us</a>
+                    <div class="account signedOut">
+                        <a href="https://userdetails.test.ala.org.au/registration/createAccount"
+                           class="btn btn-outline-light btn-sm signUpBtn" role="button">Sign up</a>
+                        <a href="https://userdetails.test.ala.org.au/myprofile"
+                           class="btn btn-outline-light btn-sm myProfileBtn" role="button">Profile</a>
+                        <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" class="btn btn-primary btn-sm loginBtn">Login</a>
+                        <a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
+                    </div>
+                </div>
+                <div class="main-nav-wrapper">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSearch" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Search &amp; analyse
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownSearch">
+                                <li><a href="https://bie.ala.org.au/" class="dropdown-item">Search species</a></li>
+                                <li><a href="https://biocache.ala.org.au/search#tab_simpleSearch" class="dropdown-item">Search &amp; download records</a></li>
+                                <li><a href="https://collections.ala.org.au/datasets" class="dropdown-item">Search datasets</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://spatial.ala.org.au/" class="dropdown-item">Spatial analysis (Spatial Portal)</a></li>
+                                <li><a href="https://biocache.ala.org.au/explore/your-area" class="dropdown-item">Explore your area</a></li>
+                                <li><a href="https://collections.ala.org.au/" class="dropdown-item">Explore natural history collections</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownContribute" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contribute
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownContribute">
+                                <li><a href="https://support.ala.org.au/support/solutions/articles/6000261427-sharing-a-dataset-with-the-ala" class="dropdown-item">Share your dataset</a></li>
+                                <li><a href="https://lists.ala.org.au/public/speciesLists" class="dropdown-item">Upload species list</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www.ala.org.au/home/record-a-sighting/" class="dropdown-item">Record a sighting</a></li>
+                                <li><a href="https://volunteer.ala.org.au/" class="dropdown-item">Transcribe &amp; digitise (DigiVol)</a></li>
+                                <li><a href="https://biocollect.ala.org.au/acsa" class="dropdown-item">Discover citizen science projects</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownResources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownResources">
+                                <li><a href="https://www-test.ala.org.au/publications/" class="dropdown-item">Brochures and reports</a></li>
+                                 <li><a href="https://www-test.ala.org.au/ala-logo-and-identity/" class="dropdown-item">ALA logo and identity</a></li>
+                                <li><a href="https://www-test.ala.org.au/ala-cited-publications/" class="dropdown-item">ALA-cited publications</a></li>
+                                <li><a href="https://www-test.ala.org.au/abdmp/" class="dropdown-item">Data Mobilisation Program</a></li>
+                                <li><a href="https://labs.ala.org.au/" class="dropdown-item">ALA Labs</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                                <li><a href="https://www-test.ala.org.au/about-ala/" class="dropdown-item">About us</a></li>
+                                <li><a href="https://www-test.ala.org.au/governance" class="dropdown-item">Governance</a></li>
+                                <li><a href="https://www-test.ala.org.au/blog/" class="dropdown-item">News &amp; media</a></li>
+                                <li><a href="https://www-test.ala.org.au/careers/" class="dropdown-item">Careers</a></li>
+                                <li><a href="https://www-test.ala.org.au/internships/" class="dropdown-item">Internships</a></li>
+                                <li><a href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www-test.ala.org.au/current-projects/" class="dropdown-item">Current projects</a></li>
+                                <li><a href="https://living-atlases.gbif.org/" class="dropdown-item">International Living Atlases</a></li>
+                                <li><a href="https://www-test.ala.org.au/indigenous-ecological-knowledge/" class="dropdown-item">Indigenous ecological knowledge</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www-test.ala.org.au/sites-and-services/" class="dropdown-item">All sites, services &amp; tools</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHelp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Help
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownHelp">
+                                <li><a href="https://support.ala.org.au/support/home" class="dropdown-item">Browse all articles (FAQs)</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000137994" class="dropdown-item">ALA Data help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000138053" class="dropdown-item">ALA Tools &amp; Apps help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000138349" class="dropdown-item">ALA Spatial Portal help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/articles/6000261662-citing-the-ala" class="dropdown-item">How to cite the ALA</a></li>
+                                <li><a href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+
+                    <button class="search-trigger d-none d-lg-block collapsed collapse-trigger-button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#autocompleteSearchALA" onclick="focusOnClickSearchButton()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22"
+                             title="Open search control">
+                            <defs>
+                                <style>
+                                    .search-icon {
+                                        fill: #fff;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="search-icon"
+                                  d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                  transform="translate(-1516 -60)"></path>
+                        </svg>
+                        <span class="collapse visible-on-show" aria-hidden="true" title="Close">&times;</span>
+                    </button>
+                </div>
+
+            </div>
+        </div><!-- .container -->
+        <div class="container-fluid">
+            <div id="autocompleteSearchALA" class="collapse">
+                <form method="get" action="https://bie.ala.org.au/search" class="search-form">
+                    <div class="space-between">
+                        <input id="autocompleteHeader" type="text" name="q"
+                               placeholder="Search species, datasets, and more..." class="search-input"
+                               autocomplete="off"/>
+                        <button class="search-submit" title="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22">
+                                <defs>
+                                    <style>
+                                        .search-icon {
+                                            fill: #fff;
+                                            fill-rule: evenodd;
+                                        }
+                                    </style>
+                                </defs>
+                                <path class="search-icon"
+                                      d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                      transform="translate(-1516 -60)"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav><!-- .site-navigation -->
+
+</div>
+<script type="text/html" id="autoCompleteTemplate">
+    <li class="autocomplete-item striped">
+        <div class="content-spacing">
+            <div class="autocomplete-heading">
+                <% if (commonNameMatches.length > 0) { %>
+                <%=commonNameMatches[0]%>
+                <% } else if (scientificNameMatches.length > 0) { %>
+                <%=scientificNameMatches[0]%>
+                <% } else { %>
+                <%=matchedNames[0]%>
+                <% } %>
+            </div>
+        </div>
+    </li>
+</script>
+
+<section id="breadcrumb">
+    <div class="container-fluid">
+        <div class="row">
+            <ul class="breadcrumb-list">
+                <li><a href="/">Home</a></li>
+                <li class="active">Breadcrumb title</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<div class="wrapper">
+    <div class="container-fluid" id="content">
+        <div class="row">
+            <div class="col-md-12 content-area" id="primary">
+                <main class="site-main" id="main" role="main">
+                    <article>
+                        <div class="entry-content">
+                            <p>Fluid layout signed-out variant — navbar and search bar use full width.</p>
+                            <p>Paragraph text p: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                                dolorem. </p>
+                        </div>
+                        <div>
+                            <h2 class="wp-block-heading">Heading h2</h2>
+
+                            <p>Paragraph text p: Example text here with <a href="randomPage">an inline link</a>. </p>
+
+                            <h3 class="wp-block-heading">Heading h3: List</h3>
+                            <p>Intro p for list:</p>
+                            <ul>
+                                <li>Basic list item</li>
+                                <li>Basic list item with <a href="randomPage">link in the text</a></li>
+                                <li>Basic list item</li>
+                                <li>Basic list item with longer line length: Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                                    ipsa quae ab illo inventore veritatis
+                                </li>
+                            </ul>
+
+                            <h4>Heading h4: Buttons</h4>
+                            <p>
+                                <button type="button" class="btn btn-primary">button.btn.btn-primary</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-danger">button.btn.btn-danger</button>
+                            </p>
+
+                            <div class="card card-ala-light">
+                                <div class="card-body">
+                                    <h4>.card.card-ala-light .card-body h4</h4>
+                                    <p>p: Example text here with <a href="randomPage">an inline link</a>. </p>
+                                    <p>
+                                        <button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4><a href="randomPage">Heading as a link: h4 a</a></h4>
+                                <p>Paragraph text</p>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="site-footer bootstrap" id="colophon">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row align-items-center align-items-baseline">
+                <div class="col-sm-12 col-md-4 align-center logo-column">
+                    <img width="1005" src="https://www.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo"
+                         alt="Atlas of Living Australia" itemprop="logo"
+                         srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w"
+                         sizes="(max-width: 1005px) 100vw, 1005px">
+                    <div class="account signedOut">
+                        <a href="https://userdetails.test.ala.org.au/registration/createAccount"
+                           class="btn btn-outline-light btn-sm signUpBtn" role="button">Sign up</a>
+                        <a href="https://userdetails.test.ala.org.au/myprofile"
+                           class="btn btn-outline-light btn-sm myProfileBtn" role="button">My profile</a>
+                        <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" class="btn btn-primary btn-sm loginBtn">Login</a>
+                        <a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
+                        <ul class="social">
+                            <li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i
+                                    class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/atlasoflivingaustralia/" target="_blank"><i
+                                    class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://au.linkedin.com/company/atlas-of-living-australia" target="_blank"><i
+                                    class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-sm-6 col-md-4 content-column">
+                    <div class="d-flex content">
+                        <div class="flex-shrink-0">
+                            <img class="image"
+                                 src="https://www.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg"
+                                 alt="">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="h4"><a class="text-decoration-underline"
+                                              href="https://www-test.ala.org.au/home/record-a-sighting/">Record
+                                a Sighting</a></h4>
+                            <p>Upload your observations, identify species, and contribute to the ALA.</p>
+                        </div>
+                    </div>
+                </div><!--col end -->
+                <div class="col-sm-6 col-md-4 content-column">
+                    <div class="d-flex content">
+                        <div class="flex-shrink-0">
+                            <img class="image"
+                                 src="https://www.ala.org.au/app/uploads/2019/05/spatial-portal-white-trans-70.png"
+                                 alt=""/>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="h4"><a href="https://spatial.ala.org.au/" class="text-decoration-underline">Explore the Spatial Portal</a></h4>
+                            <p>Visualise and analyse relationships between species, location and environment.</p>
+                        </div>
+                    </div>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-search-analyse" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Search &amp; analyse</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://bie.ala.org.au/">Search species</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocache.ala.org.au/search#tab_simpleSearch">Search &amp;
+                                        download records</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://collections.ala.org.au/datasets">Search
+                                        datasets</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://spatial.ala.org.au/">Spatial analysis (Spatial Portal)</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocache.ala.org.au/explore/your-area">Explore your area</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://collections.ala.org.au/">Explore natural history
+                                        collections</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://regions.ala.org.au/">Explore
+                                        regions</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://lists.ala.org.au/iconic-species">Browse
+                                        Australian iconic species</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://specimens.ala.org.au/">Browse
+                                        specimen images</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-contribute" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Contribute</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://support.ala.org.au/support/solutions/articles/6000261427-sharing-a-dataset-with-the-ala">Share
+                                        your dataset</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://lists.ala.org.au/public/speciesLists">Upload species list</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/home/record-a-sighting/">Record
+                                        a sighting</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            title="Transcribe &amp; digitise (DigiVol)"
+                                            href="https://digivol.ala.org.au/">Transcribe &amp; digitise (DigiVol)</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocollect.ala.org.au/acsa">Discover
+                                        citizen science projects</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-menu">
+                        <ul id="menu-resources" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="#">Resources</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/publications/">Brochures and reports</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/ala-logo-and-identity/">ALA logo and identity</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://www-test.ala.org.au/biosecurity" class="dropdown-item">Biosecurity Hub</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/ala-cited-publications/">ALA-cited publications</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/education-resources/">Education resources</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/abdmp/">Data Mobilisation Program</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://labs.ala.org.au/">ALA Labs</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-about" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="https://www-test.ala.org.au/about-ala/">About</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/about-ala/">About us</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/governance">Governance</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/blog/">News &amp; media</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/careers/">Careers</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                href="https://www-test.ala.org.au/internships/">Internships</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/contact-us/">Contact
+                                        us</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/current-projects/">Current projects</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+
+                                            href="https://living-atlases.gbif.org/">International Living Atlases</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/indigenous-ecological-knowledge/">Indigenous
+                                        ecological knowledge</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/sites-and-services/">All
+                                        sites, services &amp; tools</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+            </div><!--row end -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-tools" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Tools</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://www-test.ala.org.au/biocollect/">BioCollect</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://galah.ala.org.au/">galah</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://profiles.ala.org.au/opus/foa">Flora of Australia</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://fieldcapture.ala.org.au/">MERIT</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://dashboard.ala.org.au/">ALA dashboard</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://www-test.ala.org.au/sites-and-services/">All sites, service and tools</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-community-hubs" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Community hubs</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://arga.org.au/">ARGA: Australian Reference Genome Atlas</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://asbp.ala.org.au/">ASBP: Australian Seed Bank Partnership</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://avh.ala.org.au/">AVH:
+                                        Australasian Virtual Herbarium</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://ozcam.ala.org.au/">OZCAM: Online Zoological Collections</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-ala-for" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">ALA for...</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-researchers">ALA for
+                                        researchers</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-government-and-land-managers-2/">ALA for government and land
+                                        managers</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-community-and-schools-2/">ALA for community and schools</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-menu">
+                        <ul id="menu-about" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="#">Help</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://support.ala.org.au/support/home">Browse all articles (FAQs)</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://support.ala.org.au/support/solutions/6000137994">ALA Data help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://support.ala.org.au/support/solutions/6000138053">ALA Tools &amp; Apps help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://support.ala.org.au/support/solutions/6000138349">ALA Spatial Portal help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                href="https://support.ala.org.au/support/solutions/articles/6000261662-citing-the-ala">How to cite the ALA</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://www-test.ala.org.au/contact-us/">Contact us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-12">
+
+                    <div class="footer-menu-horizontal">
+                        <ul id="menu-other-links" class="menu horizontal">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a
+                                    class="text-decoration-underline" href="https://www-test.ala.org.au/blog/">News &amp; media</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    class="text-decoration-underline" href="https://support.ala.org.au/support/home">Help</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    class="text-decoration-underline"
+                                    href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer
+                                tools &amp; documentation</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                    class="text-decoration-underline"
+                                    href="https://www-test.ala.org.au/sites-and-services/">All sites, services &amp;
+                                tools</a></li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 content-column">
+                    <h4>The ALA is made possible by contributions from its partners, is supported by <a
+                            href="https://www.dese.gov.au/ncris" class="text-decoration-underline">NCRIS</a>,
+                        is hosted by <a href="https://csiro.au/" class="text-decoration-underline">CSIRO</a>, and is the Australian node of <a
+                                href="https://www.gbif.org/en/" class="text-decoration-underline">GBIF</a>.</h4>
+                    <p>
+                        <a href="https://www.dese.gov.au/ncris"><img
+                                class="alignnone wp-image-41895 size-thumbnail"
+                                src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg"
+                                alt="NCRIS logo" width="150" height="109"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a
+                                href="https://csiro.au/"><img class="alignnone wp-image-41909"
+                                                              src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png"
+                                                              alt="CSIRO logo" width="109" height="109"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a
+                                href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898"
+                                                                     src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png"
+                                                                     alt="GBIF logo" width="207" height="109"></a></p>
+                </div>
+                <div class="col-md-6 content-column">
+                    <h4>Acknowledgement of Traditional Owners and Country</h4>
+                    <p>The Atlas of Living Australia acknowledges Australia&rsquo;s Traditional Owners and pays respect to the
+                        past and present Elders of the nation&rsquo;s Aboriginal and Torres Strait Islander communities. We
+                        honour and celebrate the spiritual, cultural and customary connections of Traditional Owners to
+                        country and the biodiversity that forms part of that country.</p>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <p class="alert-text text-creativecommons">
+                        This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative
+                        Commons Attribution 3.0 Australia License</a>&nbsp;<a rel="license"
+                                                                         href="http://creativecommons.org/licenses/by/3.0/au/"><img
+                            alt="Creative Commons License" style="border-width:0"
+                            src="https://www.ala.org.au/app/themes/pvtl/images/cc-by.png"></a>
+                    </p>
+                </div><!--col end -->
+                <div class="col-sm-12 col-md-5 text-md-end">
+                    <ul class="menu horizontal">
+                        <li><a href="https://www-test.ala.org.au/terms-of-use/#cy">Copyright</a>
+                        </li>
+                        <li><a href="https://www-test.ala.org.au/terms-of-use/">Terms of
+                            Use</a></li>
+                        <li><a href="https://status.ala.org.au/">System Status</a></li>
+                    </ul>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+</footer>
+<script src="https://cdn.usefathom.com/script.js" data-site="QDWZORBB" defer></script>
+
+<!-- ALA support widget -->
+<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+    FreshWidget.init("", {
+        "queryString": "&widgetType=popup&helpdesk_ticket[group_id]=6000207804&helpdesk_ticket[product_id]=6000005589&formTitle=Report+an+issue+or+ask+for+help",
+        "utf8": "✓",
+        "widgetType": "popup",
+        "buttonType": "text",
+        "buttonText": "Need help?",
+        "buttonColor": "white",
+        "buttonBg": "#d5502a",
+        "alignment": "2",
+        "offset": "350px",
+        "formHeight": "500px",
+        "url": "https://support.ala.org.au"
+    });
+</script>
+<!-- end ALA support widget -->
+
+
+<!-- VARIANT 4: container-fluid / signedIn -->
+<p class="variant-label">&#9658; Variant 4: container-fluid / signedIn</p>
+<hr class="variant-divider">
+<div id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
+    <a class="skip-link visually-hidden visually-hidden-focusable" href="#INSERT_CONTENT_ID_HERE">Skip to content</a>
+
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid header-logo-menu">
+            <div class="navbar-header">
+                <div>
+                    <a href="https://www-test.ala.org.au" class="custom-logo-link navbar-brand" itemprop="url">
+                        <img width="1005" height="150" src="https://www.ala.org.au/app/uploads/2019/01/logo.png"
+                             class="custom-logo" alt="Atlas of Living Australia" itemprop="image"
+                             srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w"
+                             sizes="(max-width: 1005px) 100vw, 1005px"> </a>
+                </div>
+                <div class="display-flex signedIn">
+                    <button class="display-flex search-trigger d-lg-none collapsed collapse-trigger-button" title="Open search dialog"
+                            data-bs-toggle="collapse" data-bs-target="#autocompleteSearchALA"
+                            onclick="focusOnClickSearchButton()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 22 22">
+                            <defs>
+                                <style>
+                                    .search-icon {
+                                        fill: #fff;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="search-icon"
+                                  d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                  transform="translate(-1516 -60)"></path>
+                        </svg>
+                        <span class="collapse visible-on-show" aria-hidden="true">&times;</span>
+                    </button>
+                    <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" role="button" class="account-mobile d-lg-none loginBtn mobile-login-btn"
+                       title="Login button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M10 17v-3H3v-4h7V7l5 5-5 5Zm7 3h-7v-2h7V6h-7V4h7a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2Z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://userdetails.test.ala.org.au/myprofile" role="button"
+                       class="account-mobile d-lg-none myProfileBtn" title="Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 37 41">
+                            <defs>
+                                <style>
+                                    .account-icon {
+                                        fill: #212121;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path id="Account" class="account-icon"
+                                  d="M614.5,107.1a11.549,11.549,0,1,0-11.459-11.549A11.516,11.516,0,0,0,614.5,107.1Zm0-21.288a9.739,9.739,0,1,1-9.664,9.739A9.711,9.711,0,0,1,614.5,85.81Zm9.621,23.452H604.874a8.927,8.927,0,0,0-8.881,8.949V125h37v-6.785A8.925,8.925,0,0,0,624.118,109.262Zm7.084,13.924H597.789v-4.975a7.12,7.12,0,0,1,7.085-7.139h19.244a7.119,7.119,0,0,1,7.084,7.139v4.975Z"
+                                  transform="translate(-596 -84)"></path>
+                        </svg>
+                    </a>
+                    <a href="https://auth-test.ala.org.au/cas/logout" role="button"
+                       class="account-mobile d-lg-none logoutBtn mobile-logout-btn" title="Logout">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M14 17v-3H7v-4h7V7l5 5-5 5Zm-3 3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7v2H4v12h7v2Z"></path>
+                        </svg>
+                    </a>
+                    <div class="mobile-nav-toggle d-lg-none collapsed collapse-trigger-button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="horizontal-line"></div>
+                        <div class="horizontal-line"></div>
+                        <div class="horizontal-line"></div>
+                        <span class="collapse visible-on-show" aria-hidden="true">&times;</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="navbarOuterWrapper" class="outer-nav-wrapper">
+                <div class="top-bar d-none d-lg-flex">
+                    <a href="https://www-test.ala.org.au/contact-us/" class="btn btn-link btn-sm">Contact us</a>
+                    <div class="account signedIn">
+                        <a href="https://userdetails.test.ala.org.au/registration/createAccount"
+                           class="btn btn-outline-light btn-sm signUpBtn" role="button">Sign up</a>
+                        <a href="https://userdetails.test.ala.org.au/myprofile"
+                           class="btn btn-outline-light btn-sm myProfileBtn" role="button">Profile</a>
+                        <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" class="btn btn-primary btn-sm loginBtn">Login</a>
+                        <a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
+                    </div>
+                </div>
+                <div class="main-nav-wrapper">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSearch" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Search &amp; analyse
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownSearch">
+                                <li><a href="https://bie.ala.org.au/" class="dropdown-item">Search species</a></li>
+                                <li><a href="https://biocache.ala.org.au/search#tab_simpleSearch" class="dropdown-item">Search &amp; download records</a></li>
+                                <li><a href="https://collections.ala.org.au/datasets" class="dropdown-item">Search datasets</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://spatial.ala.org.au/" class="dropdown-item">Spatial analysis (Spatial Portal)</a></li>
+                                <li><a href="https://biocache.ala.org.au/explore/your-area" class="dropdown-item">Explore your area</a></li>
+                                <li><a href="https://collections.ala.org.au/" class="dropdown-item">Explore natural history collections</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownContribute" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contribute
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownContribute">
+                                <li><a href="https://support.ala.org.au/support/solutions/articles/6000261427-sharing-a-dataset-with-the-ala" class="dropdown-item">Share your dataset</a></li>
+                                <li><a href="https://lists.ala.org.au/public/speciesLists" class="dropdown-item">Upload species list</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www.ala.org.au/home/record-a-sighting/" class="dropdown-item">Record a sighting</a></li>
+                                <li><a href="https://volunteer.ala.org.au/" class="dropdown-item">Transcribe &amp; digitise (DigiVol)</a></li>
+                                <li><a href="https://biocollect.ala.org.au/acsa" class="dropdown-item">Discover citizen science projects</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownResources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownResources">
+                                <li><a href="https://www-test.ala.org.au/publications/" class="dropdown-item">Brochures and reports</a></li>
+                                 <li><a href="https://www-test.ala.org.au/ala-logo-and-identity/" class="dropdown-item">ALA logo and identity</a></li>
+                                <li><a href="https://www-test.ala.org.au/ala-cited-publications/" class="dropdown-item">ALA-cited publications</a></li>
+                                <li><a href="https://www-test.ala.org.au/abdmp/" class="dropdown-item">Data Mobilisation Program</a></li>
+                                <li><a href="https://labs.ala.org.au/" class="dropdown-item">ALA Labs</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+                                <li><a href="https://www-test.ala.org.au/about-ala/" class="dropdown-item">About us</a></li>
+                                <li><a href="https://www-test.ala.org.au/governance" class="dropdown-item">Governance</a></li>
+                                <li><a href="https://www-test.ala.org.au/blog/" class="dropdown-item">News &amp; media</a></li>
+                                <li><a href="https://www-test.ala.org.au/careers/" class="dropdown-item">Careers</a></li>
+                                <li><a href="https://www-test.ala.org.au/internships/" class="dropdown-item">Internships</a></li>
+                                <li><a href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www-test.ala.org.au/current-projects/" class="dropdown-item">Current projects</a></li>
+                                <li><a href="https://living-atlases.gbif.org/" class="dropdown-item">International Living Atlases</a></li>
+                                <li><a href="https://www-test.ala.org.au/indigenous-ecological-knowledge/" class="dropdown-item">Indigenous ecological knowledge</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="https://www-test.ala.org.au/sites-and-services/" class="dropdown-item">All sites, services &amp; tools</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHelp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Help
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownHelp">
+                                <li><a href="https://support.ala.org.au/support/home" class="dropdown-item">Browse all articles (FAQs)</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000137994" class="dropdown-item">ALA Data help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000138053" class="dropdown-item">ALA Tools &amp; Apps help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/6000138349" class="dropdown-item">ALA Spatial Portal help</a></li>
+                                <li><a href="https://support.ala.org.au/support/solutions/articles/6000261662-citing-the-ala" class="dropdown-item">How to cite the ALA</a></li>
+                                <li><a href="https://www-test.ala.org.au/contact-us/" class="dropdown-item">Contact us</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+
+                    <button class="search-trigger d-none d-lg-block collapsed collapse-trigger-button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#autocompleteSearchALA" onclick="focusOnClickSearchButton()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22"
+                             title="Open search control">
+                            <defs>
+                                <style>
+                                    .search-icon {
+                                        fill: #fff;
+                                        fill-rule: evenodd;
+                                    }
+                                </style>
+                            </defs>
+                            <path class="search-icon"
+                                  d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                  transform="translate(-1516 -60)"></path>
+                        </svg>
+                        <span class="collapse visible-on-show" aria-hidden="true" title="Close">&times;</span>
+                    </button>
+                </div>
+
+            </div>
+        </div><!-- .container -->
+        <div class="container-fluid">
+            <div id="autocompleteSearchALA" class="collapse">
+                <form method="get" action="https://bie.ala.org.au/search" class="search-form">
+                    <div class="space-between">
+                        <input id="autocompleteHeader" type="text" name="q"
+                               placeholder="Search species, datasets, and more..." class="search-input"
+                               autocomplete="off"/>
+                        <button class="search-submit" title="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 22 22">
+                                <defs>
+                                    <style>
+                                        .search-icon {
+                                            fill: #fff;
+                                            fill-rule: evenodd;
+                                        }
+                                    </style>
+                                </defs>
+                                <path class="search-icon"
+                                      d="M1524.33,60v1.151a7.183,7.183,0,1,1-2.69.523,7.213,7.213,0,0,1,2.69-.523V60m0,0a8.333,8.333,0,1,0,7.72,5.217A8.323,8.323,0,0,0,1524.33,60h0Zm6.25,13.772-0.82.813,7.25,7.254a0.583,0.583,0,0,0,.82,0,0.583,0.583,0,0,0,0-.812l-7.25-7.254h0Zm-0.69-7.684,0.01,0c0-.006-0.01-0.012-0.01-0.018s-0.01-.015-0.01-0.024a6,6,0,0,0-7.75-3.3l-0.03.009-0.02.006v0a0.6,0.6,0,0,0-.29.293,0.585,0.585,0,0,0,.31.756,0.566,0.566,0,0,0,.41.01V63.83a4.858,4.858,0,0,1,6.32,2.688l0.01,0a0.559,0.559,0,0,0,.29.29,0.57,0.57,0,0,0,.75-0.305A0.534,0.534,0,0,0,1529.89,66.089Z"
+                                      transform="translate(-1516 -60)"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav><!-- .site-navigation -->
+
+</div>
+<script type="text/html" id="autoCompleteTemplate">
+    <li class="autocomplete-item striped">
+        <div class="content-spacing">
+            <div class="autocomplete-heading">
+                <% if (commonNameMatches.length > 0) { %>
+                <%=commonNameMatches[0]%>
+                <% } else if (scientificNameMatches.length > 0) { %>
+                <%=scientificNameMatches[0]%>
+                <% } else { %>
+                <%=matchedNames[0]%>
+                <% } %>
+            </div>
+        </div>
+    </li>
+</script>
+
+<section id="breadcrumb">
+    <div class="container-fluid">
+        <div class="row">
+            <ul class="breadcrumb-list">
+                <li><a href="/">Home</a></li>
+                <li class="active">Breadcrumb title</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<div class="wrapper">
+    <div class="container-fluid" id="content">
+        <div class="row">
+            <div class="col-md-12 content-area" id="primary">
+                <main class="site-main" id="main" role="main">
+                    <article>
+                        <div class="entry-content">
+                            <p>Fluid layout signed-in variant — profile and logout links should be visible above.</p>
+                            <p>Paragraph text p: Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                                dolorem. </p>
+                        </div>
+                        <div>
+                            <h2 class="wp-block-heading">Heading h2</h2>
+
+                            <p>Paragraph text p: Example text here with <a href="randomPage">an inline link</a>. </p>
+
+                            <h3 class="wp-block-heading">Heading h3: List</h3>
+                            <p>Intro p for list:</p>
+                            <ul>
+                                <li>Basic list item</li>
+                                <li>Basic list item with <a href="randomPage">link in the text</a></li>
+                                <li>Basic list item</li>
+                                <li>Basic list item with longer line length: Sed ut perspiciatis unde omnis iste natus
+                                    error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+                                    ipsa quae ab illo inventore veritatis
+                                </li>
+                            </ul>
+
+                            <h4>Heading h4: Buttons</h4>
+                            <p>
+                                <button type="button" class="btn btn-primary">button.btn.btn-primary</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-danger">button.btn.btn-danger</button>
+                            </p>
+
+                            <div class="card card-ala-light">
+                                <div class="card-body">
+                                    <h4>.card.card-ala-light .card-body h4</h4>
+                                    <p>p: Example text here with <a href="randomPage">an inline link</a>. </p>
+                                    <p>
+                                        <button type="button" class="btn btn-outline-dark">button.btn.btn-outline-dark</button>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <h4><a href="randomPage">Heading as a link: h4 a</a></h4>
+                                <p>Paragraph text</p>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="site-footer bootstrap" id="colophon">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row align-items-center align-items-baseline">
+                <div class="col-sm-12 col-md-4 align-center logo-column">
+                    <img width="1005" src="https://www.ala.org.au/app/uploads/2019/01/logo.png" class="custom-logo"
+                         alt="Atlas of Living Australia" itemprop="logo"
+                         srcset="https://www.ala.org.au/app/uploads/2019/01/logo.png 1005w, https://www.ala.org.au/app/uploads/2019/01/logo-300x45.png 300w, https://www.ala.org.au/app/uploads/2019/01/logo-768x115.png 768w"
+                         sizes="(max-width: 1005px) 100vw, 1005px">
+                    <div class="account signedIn">
+                        <a href="https://userdetails.test.ala.org.au/registration/createAccount"
+                           class="btn btn-outline-light btn-sm signUpBtn" role="button">Sign up</a>
+                        <a href="https://userdetails.test.ala.org.au/myprofile"
+                           class="btn btn-outline-light btn-sm myProfileBtn" role="button">My profile</a>
+                        <a href="https://auth-test.ala.org.au/cas/login?service=https%3A%2F%2Ftest.ala.org.au%2F" class="btn btn-primary btn-sm loginBtn">Login</a>
+                        <a href="https://auth-test.ala.org.au/cas/logout" class="btn btn-outline-light btn-sm logoutBtn" role="button">Logout</a>
+                        <ul class="social">
+                            <li><a href="http://www.facebook.com/atlasoflivingaustralia" target="_blank"><i
+                                    class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/atlasoflivingaustralia/" target="_blank"><i
+                                    class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="https://au.linkedin.com/company/atlas-of-living-australia" target="_blank"><i
+                                    class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-sm-6 col-md-4 content-column">
+                    <div class="d-flex content">
+                        <div class="flex-shrink-0">
+                            <img class="image"
+                                 src="https://www.ala.org.au/app/uploads/2020/04/iNaturalistAU-Logomark-white.svg"
+                                 alt="">
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="h4"><a class="text-decoration-underline"
+                                              href="https://www-test.ala.org.au/home/record-a-sighting/">Record
+                                a Sighting</a></h4>
+                            <p>Upload your observations, identify species, and contribute to the ALA.</p>
+                        </div>
+                    </div>
+                </div><!--col end -->
+                <div class="col-sm-6 col-md-4 content-column">
+                    <div class="d-flex content">
+                        <div class="flex-shrink-0">
+                            <img class="image"
+                                 src="https://www.ala.org.au/app/uploads/2019/05/spatial-portal-white-trans-70.png"
+                                 alt=""/>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h4 class="h4"><a href="https://spatial.ala.org.au/" class="text-decoration-underline">Explore the Spatial Portal</a></h4>
+                            <p>Visualise and analyse relationships between species, location and environment.</p>
+                        </div>
+                    </div>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-search-analyse" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Search &amp; analyse</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://bie.ala.org.au/">Search species</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocache.ala.org.au/search#tab_simpleSearch">Search &amp;
+                                        download records</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://collections.ala.org.au/datasets">Search
+                                        datasets</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://spatial.ala.org.au/">Spatial analysis (Spatial Portal)</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocache.ala.org.au/explore/your-area">Explore your area</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://collections.ala.org.au/">Explore natural history
+                                        collections</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://regions.ala.org.au/">Explore
+                                        regions</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://lists.ala.org.au/iconic-species">Browse
+                                        Australian iconic species</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://specimens.ala.org.au/">Browse
+                                        specimen images</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-contribute" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Contribute</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://support.ala.org.au/support/solutions/articles/6000261427-sharing-a-dataset-with-the-ala">Share
+                                        your dataset</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://lists.ala.org.au/public/speciesLists">Upload species list</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/home/record-a-sighting/">Record
+                                        a sighting</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            title="Transcribe &amp; digitise (DigiVol)"
+                                            href="https://digivol.ala.org.au/">Transcribe &amp; digitise (DigiVol)</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://biocollect.ala.org.au/acsa">Discover
+                                        citizen science projects</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-menu">
+                        <ul id="menu-resources" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="#">Resources</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/publications/">Brochures and reports</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/ala-logo-and-identity/">ALA logo and identity</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://www-test.ala.org.au/biosecurity" class="dropdown-item">Biosecurity Hub</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/ala-cited-publications/">ALA-cited publications</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/education-resources/">Education resources</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/abdmp/">Data Mobilisation Program</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://labs.ala.org.au/">ALA Labs</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-about" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="https://www-test.ala.org.au/about-ala/">About</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/about-ala/">About us</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/governance">Governance</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/blog/">News &amp; media</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/careers/">Careers</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                href="https://www-test.ala.org.au/internships/">Internships</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/contact-us/">Contact
+                                        us</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://www-test.ala.org.au/current-projects/">Current projects</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+
+                                            href="https://living-atlases.gbif.org/">International Living Atlases</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                            href="https://www-test.ala.org.au/indigenous-ecological-knowledge/">Indigenous
+                                        ecological knowledge</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/sites-and-services/">All
+                                        sites, services &amp; tools</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+            </div><!--row end -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-tools" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Tools</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://www-test.ala.org.au/biocollect/">BioCollect</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://galah.ala.org.au/">galah</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://profiles.ala.org.au/opus/foa">Flora of Australia</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://fieldcapture.ala.org.au/">MERIT</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://dashboard.ala.org.au/">ALA dashboard</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                        href="https://www-test.ala.org.au/sites-and-services/">All sites, service and tools</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-community-hubs" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">Community hubs</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://arga.org.au/">ARGA: Australian Reference Genome Atlas</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://asbp.ala.org.au/">ASBP: Australian Seed Bank Partnership</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://avh.ala.org.au/">AVH:
+                                        Australasian Virtual Herbarium</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://ozcam.ala.org.au/">OZCAM: Online Zoological Collections</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="footer-menu">
+                        <ul id="menu-ala-for" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children">
+                                <a href="#">ALA for...</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-researchers">ALA for
+                                        researchers</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-government-and-land-managers-2/">ALA for government and land
+                                        managers</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                            href="https://www-test.ala.org.au/ala-for-community-and-schools-2/">ALA for community and schools</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-menu">
+                        <ul id="menu-about" class="menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">
+                                <a href="#">Help</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://support.ala.org.au/support/home">Browse all articles (FAQs)</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
++                                             href="https://support.ala.org.au/support/solutions/6000137994">ALA Data help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://support.ala.org.au/support/solutions/6000138053">ALA Tools &amp; Apps help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://support.ala.org.au/support/solutions/6000138349">ALA Spatial Portal help</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                                href="https://support.ala.org.au/support/solutions/articles/6000261662-citing-the-ala">How to cite the ALA</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                              href="https://www-test.ala.org.au/contact-us/">Contact us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+                <div class="col-md-12">
+
+                    <div class="footer-menu-horizontal">
+                        <ul id="menu-other-links" class="menu horizontal">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent"><a
+                                    class="text-decoration-underline" href="https://www-test.ala.org.au/blog/">News &amp; media</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    class="text-decoration-underline" href="https://support.ala.org.au/support/home">Help</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    class="text-decoration-underline"
+                                    href="https://support.ala.org.au/support/solutions/folders/6000233596">Developer
+                                tools &amp; documentation</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page"><a
+                                    class="text-decoration-underline"
+                                    href="https://www-test.ala.org.au/sites-and-services/">All sites, services &amp;
+                                tools</a></li>
+                        </ul>
+                    </div>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 content-column">
+                    <h4>The ALA is made possible by contributions from its partners, is supported by <a
+                            href="https://www.dese.gov.au/ncris" class="text-decoration-underline">NCRIS</a>,
+                        is hosted by <a href="https://csiro.au/" class="text-decoration-underline">CSIRO</a>, and is the Australian node of <a
+                                href="https://www.gbif.org/en/" class="text-decoration-underline">GBIF</a>.</h4>
+                    <p>
+                        <a href="https://www.dese.gov.au/ncris"><img
+                                class="alignnone wp-image-41895 size-thumbnail"
+                                src="https://www.ala.org.au/app/uploads/2019/06/NCRIS_150px-150x109.jpg"
+                                alt="NCRIS logo" width="150" height="109"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a
+                                href="https://csiro.au/"><img class="alignnone wp-image-41909"
+                                                              src="https://www.ala.org.au/app/uploads/2019/07/CSIRO_Solid_RGB-150x150.png"
+                                                              alt="CSIRO logo" width="109" height="109"></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a
+                                href="https://www.gbif.org/en/"><img class="alignnone size-full wp-image-41898"
+                                                                     src="https://www.ala.org.au/app/uploads/2019/06/GBIF_109px.png"
+                                                                     alt="GBIF logo" width="207" height="109"></a></p>
+                </div>
+                <div class="col-md-6 content-column">
+                    <h4>Acknowledgement of Traditional Owners and Country</h4>
+                    <p>The Atlas of Living Australia acknowledges Australia&rsquo;s Traditional Owners and pays respect to the
+                        past and present Elders of the nation&rsquo;s Aboriginal and Torres Strait Islander communities. We
+                        honour and celebrate the spiritual, cultural and customary connections of Traditional Owners to
+                        country and the biodiversity that forms part of that country.</p>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-7">
+                    <p class="alert-text text-creativecommons">
+                        This work is licensed under a <a href="https://creativecommons.org/licenses/by/3.0/au/">Creative
+                        Commons Attribution 3.0 Australia License</a>&nbsp;<a rel="license"
+                                                                         href="http://creativecommons.org/licenses/by/3.0/au/"><img
+                            alt="Creative Commons License" style="border-width:0"
+                            src="https://www.ala.org.au/app/themes/pvtl/images/cc-by.png"></a>
+                    </p>
+                </div><!--col end -->
+                <div class="col-sm-12 col-md-5 text-md-end">
+                    <ul class="menu horizontal">
+                        <li><a href="https://www-test.ala.org.au/terms-of-use/#cy">Copyright</a>
+                        </li>
+                        <li><a href="https://www-test.ala.org.au/terms-of-use/">Terms of
+                            Use</a></li>
+                        <li><a href="https://status.ala.org.au/">System Status</a></li>
+                    </ul>
+                </div><!--col end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div>
+</footer>
+<script src="https://cdn.usefathom.com/script.js" data-site="QDWZORBB" defer></script>
+
+<!-- ALA support widget -->
+<script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
+<script type="text/javascript">
+    FreshWidget.init("", {
+        "queryString": "&widgetType=popup&helpdesk_ticket[group_id]=6000207804&helpdesk_ticket[product_id]=6000005589&formTitle=Report+an+issue+or+ask+for+help",
+        "utf8": "✓",
+        "widgetType": "popup",
+        "buttonType": "text",
+        "buttonText": "Need help?",
+        "buttonColor": "white",
+        "buttonBg": "#d5502a",
+        "alignment": "2",
+        "offset": "350px",
+        "formHeight": "500px",
+        "url": "https://support.ala.org.au"
+    });
+</script>
+<!-- end ALA support widget -->
+
+
 </body>
 </html>
