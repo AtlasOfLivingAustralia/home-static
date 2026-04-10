@@ -1,0 +1,215 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:AUS Eastern Standard Time
+BEGIN:STANDARD
+DTSTART:16010401T030000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+TZOFFSETFROM:+1100
+TZOFFSETTO:+1000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16011007T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=10
+TZOFFSETFROM:+1000
+TZOFFSETTO:+1100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;CN="Slatyer, Cam (NCMI, Black Mountain)";RSVP=TRUE:mailto:Cam.Slat
+	yer@csiro.au
+ATTENDEE;CN="Newman, Peggy (NCMI, Clayton)";RSVP=TRUE:mailto:Peggy.Newman@c
+	siro.au
+ATTENDEE;CN="OConnor, Rosemary (NCMI, Dutton Park)";RSVP=TRUE:mailto:Rosema
+	ry.Oconnor@csiro.au
+ATTENDEE;CN="Wallis, Ely (She / Her) (NCMI, Clayton)";RSVP=TRUE:mailto:Ely.
+	Wallis@csiro.au
+CLASS:PUBLIC
+CREATED:20260312T215550Z
+DESCRIPTION:Apologies for moving this meeting again\, just trying to work w
+	ith availabilities 🙂\n\n_____________________________________________
+	___________________________________\nMicrosoft Teams meeting \nJoin: https
+	://teams.microsoft.com/meet/43324230769198?p=PB91iIaqkr8vxz9lwu \nMeeting 
+	ID: 433 242 307 691 98 \nPasscode: eu9W6qx9 \n____________________________
+	____\n\nNeed help? <https://aka.ms/JoinTeamsMeeting?omkt=en-US>  | System 
+	reference <https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGVkY2Jk
+	ZTQtMGE2NC00NWEzLTk1ODItNjdlMmFjY2FmODQ3%40thread.v2/0?context=%7b%22Tid%2
+	2%3a%220fe05593-19ac-4f98-adbf-0375fce7f160%22%2c%22Oid%22%3a%22ac06b407-4
+	c1f-4225-a3b3-a72ad3ad238c%22%7d> \nDial in by phone \n+61 2 8318 0088\,\,
+	746329114# <tel:+61283180088\,\,746329114#>  Australia\, Sydney\nFind a lo
+	cal number <https://dialin.teams.microsoft.com/33a00b7f-828e-472c-b845-33a
+	c42dabf1f?id=746329114> \nPhone conference ID: 746 329 114# \nJoin on a vi
+	deo conferencing device \nTenant key: csiro@m.webex.com \nVideo ID: 137 68
+	6 036 7 \nMore info <https://www.webex.com/msteams?confid=1376860367&tenan
+	tkey=csiro&domain=m.webex.com> \nFor organizers: Meeting options <https://
+	teams.microsoft.com/meetingOptions/?organizerId=ac06b407-4c1f-4225-a3b3-a7
+	2ad3ad238c&tenantId=0fe05593-19ac-4f98-adbf-0375fce7f160&threadId=19_meeti
+	ng_ZGVkY2JkZTQtMGE2NC00NWEzLTk1ODItNjdlMmFjY2FmODQ3@thread.v2&messageId=0&
+	language=en-US>  | Reset dial-in PIN <https://dialin.teams.microsoft.com/u
+	sp/pstnconferencing> \n <https://www.csiro.au/~/media/Web-team/Images/CSIR
+	O_Logo/logo.png> \nAll external guests will join meetings via a lobby by d
+	efault. Meeting organisers or users with presenter rights should only admi
+	t familiar and expected guests. For technical difficulties\, contact IMTSe
+	rviceCentre@csiro.au\nPrivacy and security <https://www.csiro.au/en/about/
+	Policies/Privacy/Office-365-Privacy-Statement> \n_________________________
+	_______________________________________________________\n
+DTEND;TZID="AUS Eastern Standard Time":20260408T160000
+DTSTAMP:20260312T215358Z
+DTSTART;TZID="AUS Eastern Standard Time":20260408T150000
+LAST-MODIFIED:20260312T215550Z
+LOCATION:Microsoft Teams Meeting
+ORGANIZER;CN="Seers, Juliet (NCMI, Parkville)":mailto:Juliet.Seers@csiro.au
+PRIORITY:5
+SEQUENCE:2
+SUMMARY;LANGUAGE=en-us:ALA Data Mobilisation Program Q&A drop in session pl
+	aceholder
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E008000000004136CA6851B0DC01000000000000000
+	01000000054D156B982182C4E96B2902FCF163324
+X-ALT-DESC;FMTTYPE=text/html:<html>\n<head>\n\n</head>\n<body>\n<div class=
+	"elementToProof" style="font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MS
+	FontService\, Calibri\, Helvetica\, sans-serif\; font-size: 11pt\; color: 
+	rgb(0\, 0\, 0)\;">\nApologies for moving this meeting again\, just trying 
+	to work with availabilities <span id="🙂">\n🙂</span><br>\n</div>\
+	n<div style="max-width: 1024px\;">\n<div style="white-space: nowrap\; marg
+	in-bottom: 24px\; font-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica N
+	eue&quot\;\, Helvetica\, Arial\, sans-serif\; color: rgb(36\, 36\, 36)\;">
+	\n________________________________________________________________________
+	________</div>\n<div style="margin-bottom: 12px\; font-family: &quot\;Sego
+	e UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica\, Arial\, sans-seri
+	f\; color: rgb(36\, 36\, 36)\;">\n<span style="font-size: 20px\; font-weig
+	ht: 600\;">Microsoft Teams meeting</span> </div>\n<div style="margin-botto
+	m: 6px\; font-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\
+	;\, Helvetica\, Arial\, sans-serif\;">\n<span style="font-size: 20px\; col
+	or: rgb(36\, 36\, 36)\; font-weight: 600\;">Join: </span>\n<span style="fo
+	nt-size: 20px\; color: rgb(91\, 95\, 199)\;"><u><a href="https://teams.mic
+	rosoft.com/meet/43324230769198?p=PB91iIaqkr8vxz9lwu" target="_blank" id="x
+	_meet_invite_block.action.join_link" class="x_me-email-link OWAAutoLink" t
+	itle="Meeting join" rel="noopener noreferrer" data-auth="NotApplicable" st
+	yle="color: rgb(91\, 95\, 199)\;">https://teams.microsoft.com/meet/4332423
+	0769198?p=PB91iIaqkr8vxz9lwu</a></u></span><span style="color: rgb(36\, 36
+	\, 36)\;">\n</span></div>\n<div style="margin-bottom: 6px\; font-family: &
+	quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica\, Arial\,
+	 sans-serif\;">\n<span style="font-size: 14px\; color: rgb(97\, 97\, 97)\;
+	">Meeting ID: </span><span style="font-size: 14px\; color: rgb(36\, 36\, 3
+	6)\;">433 242 307 691 98</span><span style="color: rgb(36\, 36\, 36)\;">\n
+	</span></div>\n<div style="margin-bottom: 32px\; font-family: &quot\;Segoe
+	 UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica\, Arial\, sans-serif
+	\;">\n<span style="font-size: 14px\; color: rgb(97\, 97\, 97)\;">Passcode:
+	 </span><span style="font-size: 14px\; color: rgb(36\, 36\, 36)\;">eu9W6qx
+	9</span><span style="color: rgb(36\, 36\, 36)\;">\n</span></div>\n<div sty
+	le="margin-bottom: 12px\; max-width: 1024px\;">\n<hr style="background-col
+	or: rgb(97\, 97\, 97)\; height: 1px\;">\n</div>\n<div style="margin-bottom
+	: 24px\; font-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\
+	;\, Helvetica\, Arial\, sans-serif\;">\n<span style="font-size: 14px\; col
+	or: rgb(91\, 95\, 199)\;"><u><a href="https://aka.ms/JoinTeamsMeeting?omkt
+	=en-US" target="_blank" id="x_meet_invite_block.action.help" class="x_me-e
+	mail-link OWAAutoLink" rel="noopener noreferrer" data-auth="NotApplicable"
+	 style="color: rgb(91\, 95\, 199)\;">Need\n help?</a></u></span><span styl
+	e="color: rgb(36\, 36\, 36)\;"> </span><span style="color: rgb(97\, 97\, 9
+	7)\;">|</span><span style="color: rgb(36\, 36\, 36)\;">\n</span><span styl
+	e="font-size: 14px\; color: rgb(91\, 95\, 199)\;"><u><a href="https://team
+	s.microsoft.com/l/meetup-join/19%3ameeting_ZGVkY2JkZTQtMGE2NC00NWEzLTk1ODI
+	tNjdlMmFjY2FmODQ3%40thread.v2/0?context=%7b%22Tid%22%3a%220fe05593-19ac-4f
+	98-adbf-0375fce7f160%22%2c%22Oid%22%3a%22ac06b407-4c1f-4225-a3b3-a72ad3ad2
+	38c%22%7d" target="_blank" id="x_meet_invite_block.action.join_link_compat
+	ibility" class="x_me-email-link OWAAutoLink" rel="noopener noreferrer" dat
+	a-auth="NotApplicable" style="color: rgb(91\, 95\, 199)\;">System\n refere
+	nce</a></u></span></div>\n<div style="margin-bottom: 6px\; font-family: &q
+	uot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica\, Arial\, 
+	sans-serif\; color: rgb(36\, 36\, 36)\;">\n<span style="font-size: 16px\; 
+	font-weight: 600\;">Dial in by phone</span> </div>\n<div style="margin-bot
+	tom: 6px\; font-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quo
+	t\;\, Helvetica\, Arial\, sans-serif\;">\n<span style="font-size: 14px\; c
+	olor: rgb(91\, 95\, 199)\;"><u><a href="tel:+61283180088\,\,746329114#" ta
+	rget="_blank" id="x_meet_invite_block.action.join_phone_number1" class="x_
+	me-email-link OWAAutoLink" rel="noopener noreferrer" data-auth="NotApplica
+	ble" style="color: rgb(91\, 95\, 199)\; margin-right: 6px\;">+61\n 2 8318 
+	0088\,\,746329114#</a></u></span><span style="color: rgb(36\, 36\, 36)\;">
+	 </span>\n<span style="font-size: 14px\; color: rgb(97\, 97\, 97)\;">Austr
+	alia\, Sydney</span></div>\n<div style="margin-bottom: 6px\; font-family: 
+	&quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica\, Arial\
+	, sans-serif\; font-size: 14px\; color: rgb(91\, 95\, 199)\;">\n<u><a href
+	="https://dialin.teams.microsoft.com/33a00b7f-828e-472c-b845-33ac42dabf1f?
+	id=746329114" target="_blank" id="x_meet_invite_block.action.join_phone_fi
+	nd_local_number" class="x_me-email-link OWAAutoLink" rel="noopener norefer
+	rer" data-auth="NotApplicable" style="color: rgb(91\, 95\, 199)\;">Find\n 
+	a local number</a></u></div>\n<div style="margin-bottom: 24px\; font-famil
+	y: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica\, Ari
+	al\, sans-serif\;">\n<span style="font-size: 14px\; color: rgb(97\, 97\, 9
+	7)\;">Phone conference ID: </span>\n<span style="font-size: 14px\; color: 
+	rgb(36\, 36\, 36)\;">746 329 114#</span><span style="color: rgb(36\, 36\, 
+	36)\;">\n</span></div>\n<div style="margin-bottom: 6px\; font-family: &quo
+	t\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica\, Arial\, sa
+	ns-serif\; color: rgb(36\, 36\, 36)\;">\n<span style="font-size: 16px\; fo
+	nt-weight: 600\;">Join on a video conferencing device</span>\n</div>\n<div
+	 style="margin-bottom: 6px\; font-family: &quot\;Segoe UI&quot\;\, &quot\;
+	Helvetica Neue&quot\;\, Helvetica\, Arial\, sans-serif\;">\n<span style="f
+	ont-size: 14px\; color: rgb(97\, 97\, 97)\;">Tenant key: </span><span styl
+	e="font-size: 14px\; color: rgb(36\, 36\, 36)\;">csiro@m.webex.com</span><
+	span style="color: rgb(36\, 36\, 36)\;">\n</span></div>\n<div style="margi
+	n-bottom: 6px\; font-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neu
+	e&quot\;\, Helvetica\, Arial\, sans-serif\;">\n<span style="font-size: 14p
+	x\; color: rgb(97\, 97\, 97)\;">Video ID: </span><span style="font-size: 1
+	4px\; color: rgb(36\, 36\, 36)\;">137 686 036 7</span><span style="color: 
+	rgb(36\, 36\, 36)\;">\n</span></div>\n<div style="margin-bottom: 24px\; fo
+	nt-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helveti
+	ca\, Arial\, sans-serif\; font-size: 14px\; color: rgb(91\, 95\, 199)\;">\
+	n<u><a href="https://www.webex.com/msteams?confid=1376860367&amp\;tenantke
+	y=csiro&amp\;domain=m.webex.com" target="_blank" id="x_meet_invite_block.a
+	ction.join_vtc_info" class="x_me-email-link OWAAutoLink" rel="noreferrer n
+	oopener" data-auth="NotApplicable" style="color: rgb(91\, 95\, 199)\;">Mor
+	e\n info</a></u></div>\n<div style="font-family: &quot\;Segoe UI&quot\;\, 
+	&quot\;Helvetica Neue&quot\;\, Helvetica\, Arial\, sans-serif\;">\n<span s
+	tyle="font-size: 14px\; color: rgb(97\, 97\, 97)\;">For organizers: </span
+	><span style="font-size: 14px\; color: rgb(91\, 95\, 199)\;"><u><a href="h
+	ttps://teams.microsoft.com/meetingOptions/?organizerId=ac06b407-4c1f-4225-
+	a3b3-a72ad3ad238c&amp\;tenantId=0fe05593-19ac-4f98-adbf-0375fce7f160&amp\;
+	threadId=19_meeting_ZGVkY2JkZTQtMGE2NC00NWEzLTk1ODItNjdlMmFjY2FmODQ3@threa
+	d.v2&amp\;messageId=0&amp\;language=en-US" target="_blank" id="x_meet_invi
+	te_block.action.organizer_meet_options" class="x_me-email-link OWAAutoLink
+	" rel="noreferrer noopener" data-auth="NotApplicable" style="color: rgb(91
+	\, 95\, 199)\;">Meeting\n options</a></u></span><span style="color: rgb(36
+	\, 36\, 36)\;"> </span><span style="color: rgb(97\, 97\, 97)\;">|</span><s
+	pan style="color: rgb(36\, 36\, 36)\;">\n</span><span style="font-size: 14
+	px\; color: rgb(91\, 95\, 199)\;"><u><a href="https://dialin.teams.microso
+	ft.com/usp/pstnconferencing" target="_blank" id="x_meet_invite_block.actio
+	n.organizer_reset_dialin_pin" class="x_me-email-link OWAAutoLink" rel="nor
+	eferrer noopener" data-auth="NotApplicable" style="color: rgb(91\, 95\, 19
+	9)\;">Reset\n dial-in PIN</a></u></span></div>\n<div style="margin-top: 24
+	px\; margin-bottom: 6px\;"><span style="font-family: &quot\;Segoe UI&quot\
+	;\, &quot\;Helvetica Neue&quot\;\, Helvetica\, Arial\, sans-serif\; color:
+	 rgb(36\, 36\, 36)\;"><img alt="Company Logo" data-imagetype="External" he
+	ight="32" style="height: 32px\; margin-bottom: 6px\; display: block\;" src
+	="https://www.csiro.au/~/media/Web-team/Images/CSIRO_Logo/logo.png">\n</sp
+	an>\n<div style="font-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Ne
+	ue&quot\;\, Helvetica\, Arial\, sans-serif\; font-size: 14px\; color: rgb(
+	97\, 97\, 97)\;">\nAll external guests will join meetings via a lobby by d
+	efault. Meeting organisers or users with presenter rights should only admi
+	t familiar and expected guests. For technical difficulties\, contact IMTSe
+	rviceCentre@csiro.au</div>\n</div>\n<div style="margin-bottom: 24px\; font
+	-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica
+	\, Arial\, sans-serif\; font-size: 14px\; color: rgb(91\, 95\, 199)\;">\n<
+	u><a href="https://www.csiro.au/en/about/Policies/Privacy/Office-365-Priva
+	cy-Statement" target="_blank" id="x_meet_invite_block.action.org_privacy" 
+	class="x_me-email-link OWAAutoLink" rel="noreferrer noopener" data-auth="N
+	otApplicable" style="color: rgb(91\, 95\, 199)\;">Privacy\n and security</
+	a></u></div>\n<div style="white-space: nowrap\; margin-bottom: 24px\; font
+	-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, Helvetica
+	\, Arial\, sans-serif\; color: rgb(36\, 36\, 36)\;">\n____________________
+	____________________________________________________________</div>\n</div>
+	\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MS-OLK-APPTLASTSEQUENCE:2
+X-MS-OLK-APPTSEQTIME:20260312T215358Z
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
