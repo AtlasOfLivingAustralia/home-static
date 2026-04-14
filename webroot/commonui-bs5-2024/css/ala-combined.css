@@ -12563,17 +12563,17 @@ body.background-lightgrey {
   margin-right: 1.9rem;
 }
 .footer-top .ala-footer-partner-logos .ala-footer-ncris-logo img {
-  width: 65px;
+  max-width: 65px;
   content: url(../img/NCRIS-PROVIDER.png);
 }
 .footer-top .ala-footer-partner-logos .ala-footer-csiro-logo {
   margin-right: 0.7rem;
 }
 .footer-top .ala-footer-partner-logos .ala-footer-csiro-logo img {
-  width: 47px;
+  max-width: 47px;
 }
 .footer-top .ala-footer-partner-logos .ala-footer-gbif-logo img {
-  width: 102px;
+  max-width: 102px;
   content: url(../img/gbif-dot-org-green-logo.svg);
 }
 .footer-top .ala-footer-news-help {
