@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 21 Apr 2026 04:33:06 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Apr 2026 04:44:48 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -207,10 +207,9 @@ a{color:#C44D34;font-weight:700;}
   <div class="acc-item">
     <button class="acc-btn" onclick="accToggle(this)">Q9. Why is subgenus included in the name for many birds in the ALA? It makes it harder to match lists from other sources.<span class="acc-icon">+</span></button>
     <div class="acc-panel">
-      <p class="q-body">The ALA applies the scientific name as provided in the National Species List. For Aves (birds), this includes subgenera for some taxa. It is possible to download the scientific names without subgenera by using what is called canonical scientific name (which is the bare scientific name). When using the download page, use &#8220;ALA Legacy Format&#8221;, which provides the data in a more convenient format than &#8220;Full Darwin Core&#8221; :</p>
-      <img decoding="async" src="https://www.www.ala.org.au/app/uploads/2026/04/download1.png" alt="ALA download interface showing ALA legacy format selected" style="max-width:100%;height:auto;display:block;margin:8px 0;">
-      <p class="q-body">The species field in the download will provide the scientific name without subgenera:</p>
-      <img decoding="async" src="https://www.www.ala.org.au/app/uploads/2026/04/download2.png" alt="Spreadsheet showing the species column and subspecies column on the right" style="max-width:100%;height:auto;display:block;margin:8px 0;">
+      <p class="q-body">The ALA applies the scientific name as provided in the National Species List. For Aves (birds), this includes subgenera for some taxa. It is possible to download the scientific names without subgenera by using what is called canonical scientific name (which is the bare scientific name). When using the download page, use &#8220;ALA Legacy Format&#8221;, which provides the data in a more convenient format than &#8220;Full Darwin Core&#8221;.</p>
+      <p class="q-body">The species field in the download will provide the scientific name without subgenera.</p>
+      
     </div>
   </div>
 
