@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 21 Apr 2026 05:10:15 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Apr 2026 05:31:37 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -141,7 +141,7 @@ a{color:#C44D34;font-weight:700;}
   <div class="acc-item">
     <button class="acc-btn" onclick="accToggle(this)">Q2. Do you automatically trawl records for Australia in current literature? Does this include new GenBank records for new species?<span class="acc-icon">+</span></button>
     <div class="acc-panel">
-      <p class="q-body">The ALA builds the taxonomy backbone from the National Species List with additional components added as necessary. The ALA audits all incoming datasets for species names that don&#8217;t match the NSL and reviews them to look for species that need to be added to the NSL or the ALA or both. New species names enter the ALA at a rate of between 170 and 400 names per week and in an average year, the ALA taxonomy team reviews between 35 and 80,000 names. The ALA investigates all queries about species names sent via the help desk. In addition, during a taxonomic backbone build the ALA checks the major museum and herbarium journals in Australia including the Australian Journal of Taxonomy. Any name that is identified is also sent to the Australian Biological Resources Study for review for inclusion in the NSL.</p>
+      <p class="q-body">The ALA builds the taxonomy backbone from the National Species List with additional components added as necessary. The ALA audits all incoming datasets for species names that don&#8217;t match the NSL and reviews them to look for species that need to be added to the NSL or the ALA or both. New species names enter the ALA at a rate of between 170 and 400 names per week and in an average year, the ALA taxonomy team reviews between 35,000 and 80,000 names. The ALA investigates all queries about species names sent via the help desk. In addition, during a taxonomic backbone build the ALA checks the major museum and herbarium journals in Australia including the Australian Journal of Taxonomy. Any name that is identified is also sent to the Australian Biological Resources Study for review for inclusion in the NSL.</p>
     </div>
   </div>
 
