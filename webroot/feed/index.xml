@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 12 Mar 2026 06:14:23 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Apr 2026 04:33:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,286 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Insights: taxonomy and names matching in the Atlas of Living Australia</title>
+		<link>https://www.ala.org.au/blogs-news/ala-insights-taxonomy-and-names-matching-in-the-atlas-of-living-australia/</link>
+		
+		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
+		<pubDate>Tue, 21 Apr 2026 04:33:06 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=51399</guid>
+
+					<description><![CDATA[In this ALA Insights session find out how our taxonomy and names matching works, and how to use the taxonomy in the ALA to find records.]]></description>
+										<content:encoded><![CDATA[
+<p>Taxonomy is the science of naming, describing and classifying organisms. It&#8217;s the basis for how data in the Atlas of Living Australia (ALA) are organised.</p>
+
+
+
+<p>At the core of our taxonomic hierarchy is the Australian National Species List (managed by the <a href="https://www.dcceew.gov.au/science-research/abrs">Australian Biological Resources Study</a>).</p>
+
+
+
+<p>The ALA also needs to incorporate a range of other names including synonyms, newly described species and non-breeding species that occur in Australia.</p>
+
+
+
+<p>In this ALA Insights session find out how our taxonomy and names matching works, and how to use the taxonomy in the ALA to help find records.</p>
+
+
+
+<p>The ALA receives support from the Australian Government through the<a href="https://www.education.gov.au/ncris"> National Collaborative Research Infrastructure Strategy</a> (NCRIS) and is hosted by <a href="https://www.csiro.au/">CSIRO</a>.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA Insights Taxonomy and names matching in the ALA" width="640" height="360" src="https://www.youtube.com/embed/haJYZo3hEBA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This event was hosted on 17 March 2026 at 12pm AEDT.</p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="presenters">Presenters</h2>
+
+
+
+<p><strong>Cameron Slatyer<br>National Biodiversity Data Initiatives Project Manager, the Atlas of Living Australia</strong></p>
+
+
+
+<p>Cam Slatyer is the subject matter expert for the taxonomic backbone of the Atlas of Living Australia and chairs the international Biodiversity Information Standards (TDWG) working group on the sensitive species date extension. He was previously Branch Manager of Life and Geosciences in the Australian Museum Research Institute.<br>He is a past Director of the Australian Biological Resources Study and has worked in Australian Government and the New South Wales Government. He is passionately interested in the importance of collections, taxonomy and research translation.</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Simon Sherrin</strong><br><strong>Software Engineer,</strong> <strong>the Atlas of Living Australia</strong></p>
+
+
+
+<p>Simon Sherrin is a senior developer with experience in digital collections and online biodiversity infrastructure in Australia. Over the last two decades, has worked with the Biodiversity Heritage Library (BHL) &#8211; Australia, Museums Victoria, and the Atlas of Living Australia to deploy digital solutions that support scientific research, collection accessibility, and public engagement with natural history and cultural history data.</p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="facilitator">Facilitator</h2>
+
+
+
+<p><strong>Juliet Seers<br>Training and Outreach Coordinator, the Atlas of Living Australia</strong></p>
+
+
+
+<p>Juliet is a seasoned environmental and sustainability communicator and educator who is dedicated to fostering connections between the ALA, the scientific community, industry and the general public. Juliet advocates for data-driven decisions as the key to making a positive impact on our ecosystems, and works with industry on how best to use the ALA to inform planning and decision-making.</p>
+
+
+
+<div style="height:36px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="qa-discussion">Q&amp;A discussion</h2>
+
+
+
+<p>The conversation sparked so many great questions – more than we could fit into the session, so we&#8217;ve taken the time to answer the rest here.</p>
+
+
+
+<style>
+.acc-item{border:1px solid #212121;border-radius:4px;margin-bottom:8px;overflow:hidden;}
+.acc-btn{width:100%;text-align:left;background:transparent;border:none;padding:14px 18px;font-size:16px;font-weight:500;color:#212121;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;line-height:1.4;}
+.acc-btn:hover{background:#f5f5f5;}
+.acc-icon{font-size:20px;line-height:1;flex-shrink:0;}
+.acc-panel{display:none;padding:4px 18px 16px;border-top:1px solid #e0e0e0;}
+.q-body{font-size:16px;color:#212121;line-height:1.6;margin:0 0 6px;}
+.q-body:last-child{margin:0;}
+.acc-panel ul{font-size:16px;color:#212121;line-height:1.6;margin:4px 0 8px;padding-left:20px;}
+.acc-panel ul li{font-size:16px !important;padding:2px 0;}
+a{color:#C44D34;font-weight:700;}
+</style>
+
+<div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q1. How does the ALA get notified of taxonomic changes that might need to be reflected in the ALA? For example, does this include updates from the Australian Faunal Directory, the Australian Plant Census and/or new publications?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">The ALA updates its taxonomic backbone every 6-12 months. When we do this, we take a fresh upload of the National Species List as our taxonomic backbone. As part of this process we do a further check, looking at all scientific names that don&#8217;t match against the new backbone to see if additional changes are required. We also review new names published in the major Australian journals before finalising the backbone. Between backbone updates, we monitor new scientific names that appear in the incoming data to the ALA and we also do a monthly check of new names appearing in threatened species lists in Australia. The ALA on average receives between about 170 and 400 new scientific names in data each week. The majority of these are unconfirmed sightings from citizen science sites, but we still check them. Any new name that might need to be added to the taxonomy we send to the National Species List for consideration.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q2. Do you automatically trawl records for Australia in current literature? Does this include new GenBank records for new species?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">The ALA builds the taxonomy backbone from the National Species List with additional components added as necessary. The ALA audits all incoming datasets for species names that don&#8217;t match the NSL and reviews them to look for species that need to be added to the NSL or the ALA or both. New species names enter the ALA at a rate of between 170 and 400 names per week and in an average year, the ALA taxonomy team reviews between 35 and 80,000 names. The ALA investigates all queries about species names sent via the help desk. In addition, during a taxonomic backbone build the ALA checks the major museum and herbarium journals in Australia including the Australian Journal of Taxonomy. Any name that is identified is also sent to the Australian Biological Resources Study for review for inclusion in the NSL.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q3. How are occurrence records handled when taxa have synonyms? Are records for all synonyms merged under the currently accepted name?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">Occurrence records are always attached to a currently accepted name. Occurrence records that come into the ALA with a scientific name that is a synonym of an accepted name in the ALA will match to that accepted name. It is possible to check what names have attached to a particular taxon by customising your filter to include &#8220;Scientific name (unprocessed)&#8221;. There was a demonstration of how to do this in the Insights Webinar (from 0:27:49 on customised filters) This will then display all names in the data attaching to the scientific name that you are looking at.</p>
+      <p class="q-body">There are two exceptions to this:</p>
+      <ul>
+        <li>If the synonym is not in the taxonomic backbone then it will not match to the taxonomy (although a higher match is possible). You can let the ALA team know about missing synonyms and we will review them as discussed in answers 1) and 2) the previous answer about incorporating taxonomic changes.</li>
+        <li>If the synonym is associated with more than one scientific name. Pro parte synonyms (names that get split as synonyms and associated with several current names) cause known problems with names matching in the ALA. We are currently looking at a way to alert users if a particular current name includes pro parte synonyms. Unfortunately, until this is resolved you will need to look at the names tab on species pages and check for pro parte synonyms.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q4. What has happened in cases where a valid taxonomic name has &#8220;bumped&#8221; back to genus, family or even order. These names are existing published names (for example, Echinoderms).<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">The ALA&#8217;s name matching can only be as accurate as the completeness of the accepted names and synonyms contained in the backbone. The backbone in turn depends on a scientific name being in the National Species List (NSL) or another global database. As an example, examining the records that end up being placed somewhere within Echinoderms (phylum Echinodermata), there 2,408 distinct provided scientific names that do not match at species level in ALA but which are attached to records that are placed within Australia and its External Territories. Of these provided scientific names, 1,067 cannot be allocated to species because they are either non-name text strings (eg Unidentified), undescribed species (eg <em>Ophiura</em> sp. MoV 2728), or a higher taxonomic level (eg Synaptidae).</p>
+      <p class="q-body">Of the remaining 1,341 species names, 8 are names that post-date the last ALA taxonomic update, 50 are orthographic or spelling errors, 49 are possibly invalid genus-species combinations generally caused by incorrectly updating genus, and 1,234 are valid synonym name combinations that are not in the National Species List (but which may not occur in Australia). The first 107 names have been added to our ALA taxonomic lists to improve the match.</p>
+      <p class="q-body">But what about the remaining 1,234 provided scientific names? Having had the issue pointed out, the first step is to run the non-matching names against the World Organism Register of Marine Species and Global Biodiversity Information System (WoRMS). We then compare the valid current name against the NSL List. We then look at the names that do not match against either WoRMS or the Global Biodiversity Information Facility (GBIF) and manually investigate them including whether there are records in Australian waters.</p>
+      <p class="q-body">This two-part process has identified 277 Echinoderm species or synonyms missing from the NSL. We pass these on to the Australian Biological Resources Study for consideration of inclusion in the NSL. The remaining 1064 names have no digital link to extant species in Australia and will be investigated by the ALA team in the next 12 months as possible synonyms of Australian species missing from the NSL or confirmed overseas species that can safely be ignored.</p>
+      <p class="q-body">It&#8217;s important to remember that when we update the taxonomic backbone, every occurrence record is rematched against the new backbone. Records that were previously attached to higher taxonomy level will be attached to the correct accepted name if the provided scientific name appears in the updated taxonomy. It&#8217;s a constant process of refinement.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q5. Is there a plan to include place holder taxa or &#8216;morpho&#8217; taxa or &#8216;geno&#8217; taxa? The taxonomic description of species can lag by decades the discovery or work on species. And while we are waiting on taxonomy, the species can&#8217;t be listed or are lost.<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">First of all, it is important to note that if there is robust evidence for an undescribed species being a &#8220;real&#8221; taxonomic unit and strong evidence for its status, the species can still be listed as threatened. For example, there are over 167 phrase/morpho-species taxa listed as threatened on the <em>Environment Protection and Biodiversity Conservation Act</em> (1999), and many examples on State and Territory lists as well.</p>
+      <p class="q-body">The ALA is not a taxonomic database. It exists primarily as research infrastructure, which makes observation and specimen information discoverable. The ALA cannot possibly accept all temporary taxonomic units of recognition in the backbone. Ecologists temporarily tag a specimen as <em>Acacia</em> &#8220;sharp needles&#8221; and geneticists have Operational Taxonomic Units (OTUs) that are not stable and not a systematic or global way of arranging data.</p>
+      <p class="q-body">Taxonomy is a discovery-based science in which species are the theories being tested. There is a considerable range of confidence in the existence of both published and unpublished species. For example, a species described in 1897 may have far less likelihood of being valid than <em>Anilios</em> sp. &#8220;Cape Range&#8221; (an undescribed listed blind snake from Western Australia).</p>
+      <p class="q-body">The ALA currently includes species listed in the National Species List or where Australian collections and States and Territories have identified stable or transient regular population occurrences in Australia. If there is universal agreement among experts that an undescribed species is a valid taxon, then it will be included in the backbone. This is currently far easier for flora than fauna because there is a national process of consensus.</p>
+      <p class="q-body">The ALA is currently partnering with a number of experts and groups around Australia to investigate how genetic units and morpho species in the fauna can be better handled. It will take some time to come to a meaningful, practical solution.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q6. Would it be possible to include a list of species with Indigenous names and match them with their corresponding scientific names?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">Yes. Australian Indigenous plant and animal names are the equivalent of Latin-based western scientific names, and really the two systems should be seen as separate, equally valid scientific systems from separate traditions, for looking at the same biological entities through different lenses. It is equally important to recognise that the two systems do not arrive at the same conclusions (ie, a named biological entity in one is, in many cases, not the same as the other).</p>
+      <p class="q-body">The ALA is committed to working with Indigenous communities on their own terms to bring an Indigenous view of science alongside western science through the <a href="https://www.ala.org.au/indigenous-ecological-knowledge/">Indigenous Ecological Knowledge Project</a>. The project associates names and information that communities have decided they want to share into the ALA. With consent from the communities, information is shared as <a href="https://profiles.ala.org.au/opus/kamilaroi/profile/11ae929c-d6f7-4e00-b0cb-362f5f287a57">community-approved encyclopedias</a>, also as <a href="https://lists.ala.org.au/speciesListItem/list/dr17886">species lists</a>, and are also displayed on <a href="https://bie.ala.org.au/species/https:/biodiversity.org.au/afd/taxa/2a4e373b-913a-4e2a-a53f-74828f6dae7e">species pages</a> in the ALA</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q7. Are all species indigenous to Australia and New Zealand?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">The ALA contains records from all over the world, because many datasets include important records such as museum specimens from Africa, or biosecurity specimens from Europe etc.</p>
+      <p class="q-body">However, the taxonomic backbone only includes species that are native or introduced to Australia, species that are not found in Australia but which are of biosecurity concern, or species that have been introduced to Australia from elsewhere.</p>
+      <p class="q-body">In addition, the taxonomic backbone includes the vascular flora and fungi of New Zealand.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q8. Is native versus exotic status included as an attribute? Is it similar for extinct versus extant? How do you flag these species?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">These values are not included in the taxonomy but are included elsewhere in the ALA. The ALA maintains a list of species that are regarded as <a href="https://lists.ala.org.au/speciesListItem/list/dr32213">non-native in one or more jurisdictions in Australia</a>. The list should only be interrogated state by state as it includes species that are native to one part of Australia but which have spread to another. The list is compiled from expert derived information from the National Species List and Commonwealth, State and Territory reports and lists. It is regularly reviewed.</p>
+      <p class="q-body">The ALA generally only includes recently extinct species. Most extinct species should have a tag on the species page and in the Commonwealth, State and Territory <a href="https://lists.ala.org.au/public/speciesLists?&#038;max=25&#038;sort=listName&#038;order=asc&#038;isThreatened=eq:true&#038;isAuthoritative=eq:true">threatened species lists</a>, to show they are extinct. This information should be in downloads when records are downloaded</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q9. Why is subgenus included in the name for many birds in the ALA? It makes it harder to match lists from other sources.<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">The ALA applies the scientific name as provided in the National Species List. For Aves (birds), this includes subgenera for some taxa. It is possible to download the scientific names without subgenera by using what is called canonical scientific name (which is the bare scientific name). When using the download page, use &#8220;ALA Legacy Format&#8221;, which provides the data in a more convenient format than &#8220;Full Darwin Core&#8221; :</p>
+      <img decoding="async" src="https://www.www.ala.org.au/app/uploads/2026/04/download1.png" alt="ALA download interface showing ALA legacy format selected" style="max-width:100%;height:auto;display:block;margin:8px 0;">
+      <p class="q-body">The species field in the download will provide the scientific name without subgenera:</p>
+      <img decoding="async" src="https://www.www.ala.org.au/app/uploads/2026/04/download2.png" alt="Spreadsheet showing the species column and subspecies column on the right" style="max-width:100%;height:auto;display:block;margin:8px 0;">
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q10. Is there a single &#8220;go to&#8221; field for scientific name when downloading records to summarise all species found within a location?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body"><strong>For example, when I download records from the ALA, I filter different life forms differently to compile a species list. For birds I need to use &#8220;Scientific name original&#8221; but for plants it&#8217;s the &#8220;Scientific Name (interpreted)&#8221;. &#8220;Species&#8221; looks good but doesn&#8217;t include subspecies. For example, under Scientific Name (interpreted) the New Holland Honeyeater is <em>Phylidonyris (Meliornis) novaehollandiae</em> and under Scientific Name (original) it&#8217;s <em>Phylidonyris novaehollandiae</em> BUT for the plant Knottybutt grass under Scientific Name (interpreted) it is <em>Paspalidium constrictum</em> and under Scientific Name (original) it&#8217;s <em>Setaria constricta (Domin) R.D.Webster</em>.</strong></p>
+      <p class="q-body">Yes, scientific Name (interpreted) is the recommended field to use. If you want to be thorough, include both Scientific Name (interpreted) and Scientific Name (original), but interpreted should be your primary field.</p>
+      <p class="q-body">When you download records from the ALA using the ALA Legacy Format, two scientific name fields are available:</p>
+      <ul>
+        <li>Scientific Name (original) is the scientific name provided in the occurrence record by the data supplier. This name may be out of date, or simply wrong.</li>
+        <li>Scientific Name (interpreted) is the current scientific name that the provided scientific name has been matched to in the current taxonomic backbone, in other words, the nationally accepted name.</li>
+      </ul>
+      <p class="q-body">Note: these fields appear when you use &#8220;ALA Legacy Format&#8221;, which provides data in a more accessible column structure than &#8220;Full Darwin Core&#8221; (which contains equivalent name fields, but they are less easy to identify).</p>
+      <p class="q-body">Scientific Name (original) reflects whatever name the data supplier used at the time of recording. This means a single species can appear under multiple different names across datasets, including outdated synonyms, spelling errors, or variant forms. Without cross-referencing Scientific Name (interpreted), you may not realise these records all refer to the same species.</p>
+      <p class="q-body">A good example is the plant Knottybutt grass. Under Scientific Name (interpreted) it appears consistently as <em>Paspalidium constrictum</em> (Domin) C.E.Hubb. the nationally agreed name. Under Scientific Name (original), the same species appears across datasets as:</p>
+      <ul>
+        <li>Setaria constricta (Domin) R.D.Webster</li>
+        <li>Paspalidium gracile var. rugosum Hughes</li>
+        <li>Panicum constrictum Domin</li>
+        <li>Panicum flavidum var. tenuius Benth.</li>
+        <li>Panicum flavidum var. tenuior Benth.</li>
+      </ul>
+      <p class="q-body">Scientific Name (interpreted) also catches simple errors. Several datasets record the New Holland Honeyeater as <em>Phyldonyris novaehollandiae</em> missing the &#8220;i&#8221; between the &#8220;l&#8221; and the &#8220;d&#8221;. Scientific Name (interpreted) correctly resolves all of these to the accepted name, Phylidonyris (Meliornis) novaehollandiae, regardless of how the supplier recorded it.</p>
+      <p class="q-body">The &#8216;Species&#8217; field is worth a mention here too as it looks like a useful option but does not include subspecies, so it is not reliable for compiling a complete species list.</p>
+      <p class="q-body">Finally, if you are working as a taxonomist, Scientific Name (original) is less of a problem. Familiarity with synonyms means the variation is manageable. For most other users, Scientific Name (interpreted) is the right choice.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q11. Taxonomy is dynamic. When you do an update, do you announce it?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">Yes, the reindexing of the taxonomic backbone is communicated on the website and in our newsletter. For example, this is the blog from our last update (we also posted to our social media channels) <a href="https://www.ala.org.au/blogs-news/updating-our-taxonomic-backbone-for-accuracy-names-matching-and-better-searchability/">https://www.ala.org.au/blogs-news/updating-our-taxonomic-backbone-for-accuracy-names-matching-and-better-searchability/</a></p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q12. Are &#8216;synonyms&#8217; always older, superseded names?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">Generally, but not always. It is possible to have two scientific names accepted by different authorities at the same time. These are still synonyms of one another.</p>
+      <p class="q-body">As an example that we used in the webinar, <em>Tachyspiza</em> is the new genus name for the raptor genus <em>Accipiter</em>. Both ABRS and us are aware of <em>Tachyspiza</em>, but are still in the process of implementing it and many organisations in Australia are continuing to use <em>Accipiter</em>.</p>
+      <p class="q-body">The longer explanation follows as to why! There is always a degree of variance in taxonomy and particularly taxonomy internationally versus what we use in Australia. For example for most of the last 10 years, Australia has been using <em>Litoria</em> for Australian tree frogs whereas the rest of the world has been using <em>Ranoidea</em>. There was a national agreement in Australia between most herpetologists and the Australian Faunal Directory to hold off using <em>Ranoidea</em> because we all knew there was a major revision of Australia genera of tree frogs (which happened last year, splitting <em>Litoria</em> into over 10 new genera). So, Australia leapfrogged <em>Ranoidea</em> (pun intended) and has gone from <em>Litoria</em> straight to the new genera.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q13. When there is a difference in a threatened species name in the Commonwealth Environment Protection and Biodiversity Conservation Act versus other Acts, for example the Biodiversity Conservation Act in NSW, which name is given in the ALA?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">The accepted name in the ALA will generally be the name used in the National Species List, except where the species is not in the NSL. This will generally be the name in the EPBC Act. It should be noted that 94% of threatened species names are identical between State, Territory and Commonwealth lists. Regardless, you should be able to search using either the EPBC name or the name used in a State or Territory and it will simply return the given name under the NSL. The ALA checks all threatened species and sensitive species lists in Australia every month. We ensure that all names from state and territories link to a taxon. In some instances, newly described species may link to a genus for a few months until we can update the taxonomic backbone.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q14. Where do you get the taxonomy for fungi (incl. microfungi)? Is it from the Global Biodiversity Information Facility or the National Species List? Why are only vascular plant names harvested from the New Zealand Organisms Register (NZOR) and not fungi? Australia and New Zealand do share some macrofungi?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">Fungi taxonomy in the ALA is currently a combination of the National Species List (the Australian Fungi Name Index (AFNI), the Australian Fungi List (AFL)) and the New Zealand Organism Register. We have been working with the taxonomists who maintain the fungi component of the NSL. They have put in a massive effort, adding over 5,000 species. From our next taxonomic backbone update, we&#8217;ll only be using the NSL because the overlap with NZOR should have been covered.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q15. Why should I use the ALA for taxonomy rather than going to the source – for example. the Australian Faunal Directory?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">You shouldn&#8217;t. The ALA is not trying to be the source of wisdom on taxonomy, that is expressly the purpose of the National Species List. The ALA uses the NSL in a modified form to logically display occurrence data. The ALA is a reflection of the point of truth, which is the NSL (and its components such as the Australian Faunal Directory). The ALA strongly recommends using the NSL when checking taxonomy (which is what we do too).</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q16. How does the ALA deal with situations where large numbers of new taxa have been published by a small number of controversial authors (often criticised as taxonomic vandalism)?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">We follow the advice of the National Species List, which in turn relies on the advice of taxonomists around Australia. These names will generally be treated as synonyms in the ALA, and directed towards the nationally accepted species name.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" onclick="accToggle(this)">Q17. How long does the ALA take to update an occurrence record if the data is changed at sources &#8211; for example, when the scientific name on a museum specimen label changes as a result of correcting a past identification?<span class="acc-icon">+</span></button>
+    <div class="acc-panel">
+      <p class="q-body">The change will take effect the next time the dataset is uploaded to the ALA. For most museums, herbaria and state and territory datasets the frequency varies from weekly to approximately six monthly.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function accToggle(btn){
+  var panel=btn.nextElementSibling;
+  var icon=btn.querySelector('.acc-icon');
+  var open=panel.style.display==='block';
+  panel.style.display=open?'none':'block';
+  icon.textContent=open?'+':'−';
+}
+</script>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>International Day of Women and Girls in Science</title>
 		<link>https://www.ala.org.au/blogs-news/international-day-of-women-and-girls-in-science-2/</link>
 		
@@ -128,7 +408,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full"><img decoding="async" width="284" height="351" src="https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1.jpg" alt="" class="wp-image-51300" srcset="https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1.jpg 284w, https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1-243x300.jpg 243w" sizes="(max-width: 284px) 100vw, 284px" /><figcaption class="wp-element-caption">Image credit: Judith Love Cohen with the Pioneer spacecraft (1959). <a href="https://en.wikipedia.org/wiki/File:Judith_Love_Cohen,_1959.jpg">Photo/Look magazine</a></figcaption></figure>
+<figure class="alignright size-full"><img loading="lazy" decoding="async" width="284" height="351" src="https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1.jpg" alt="" class="wp-image-51300" srcset="https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1.jpg 284w, https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1-243x300.jpg 243w" sizes="auto, (max-width: 284px) 100vw, 284px" /><figcaption class="wp-element-caption">Image credit: Judith Love Cohen with the Pioneer spacecraft (1959). <a href="https://en.wikipedia.org/wiki/File:Judith_Love_Cohen,_1959.jpg">Photo/Look magazine</a></figcaption></figure>
 </div>
 
 
@@ -1094,95 +1374,6 @@ Shandiya Balasubramaniam and Martin Westgate.</figcaption></figure>
 
 
 <figure class="wp-block-image size-full is-resized"><a href="https://mailchi.mp/ala/sep-2025-newsletter" target="_blank" rel=" noreferrer noopener"><img loading="lazy" decoding="async" width="660" height="862" src="https://www.ala.org.au/app/uploads/2025/09/newsletter-tile-sep2025.png" alt="top section of the September 2025 ALA newsletter with banner " class="wp-image-50858" style="width:459px;height:auto" srcset="https://www.ala.org.au/app/uploads/2025/09/newsletter-tile-sep2025.png 660w, https://www.ala.org.au/app/uploads/2025/09/newsletter-tile-sep2025-230x300.png 230w" sizes="auto, (max-width: 660px) 100vw, 660px" /></a></figure>
-
-
-
-<p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>From snapshot to supercharged science data</title>
-		<link>https://www.ala.org.au/blogs-news/from-snapshot-to-supercharged-science-data/</link>
-		
-		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
-		<pubDate>Tue, 09 Sep 2025 06:16:27 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=50817</guid>
-
-					<description><![CDATA[A new dataset sees verified images from wildlife camera traps available in the Atlas of Living Australia (ALA) through the Wildlife Observatory of Australia (WildObs).]]></description>
-										<content:encoded><![CDATA[
-<p>A new dataset sees verified images from wildlife camera traps available in the Atlas of Living Australia (ALA).</p>
-
-
-
-<p>But it wasn’t just a case of point and shoot to incorporate this new data into the ALA.</p>
-
-
-
-<p>The <a href="https://wildobs.org.au/">Wildlife Observatory of Australia</a> (WildObs) is a national initiative transforming how Australia collects, processes, and shares <a href="https://collections.ala.org.au/public/show/dp5214">data from wildlife camera traps</a>. WildObs is a partnership led by the <a href="https://www.qcif.edu.au/">Queensland Cyber Infrastructure Foundation</a> (QCIF) and supported by our NCRIS colleagues the <a href="https://www.tern.org.au/">Terrestrial Ecosystem Monitoring Network</a> (TERN) and the <a href="https://ardc.edu.au/project/the-wildlife-observatory-of-australia-wildobs/">Australian Research Data Commons</a> (ARDC).</p>
-
-
-
-<p>For our part, the ALA developed a new process for ingesting data in <a href="https://camtrap-dp.tdwg.org/">Camera Trap Data Package</a> (CamtrapDP), a new standard that allows richer data capture specifying deployments, observations and media. It’s been developed by the <a href="https://www.tdwg.org/">Biodiversity Information Standards organisation (TDWG)</a> and adopted by the <a href="https://www.gbif.org/">Global Biodiversity Information Facility</a> (GBIF). The ALA transforms Camtrap data into <a href="https://dwc.tdwg.org/">Darwin Core </a>events and occurrences.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="576" src="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-1024x576.jpg" alt="" class="wp-image-50819" srcset="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-1024x576.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize-768x432.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_brush-turkey_day_CLOSE-UP_resize.jpg 1200w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Australian Brush Turkey (<em>Alectura lathami</em>). Identified by Zachary Amir, CC BY-NC</figcaption></figure>
-
-
-
-<p>WildObs works across many research projects to curate verified camera trap datasets, and we’ve collaborated with them to mobilise data using CamtrapDP. This then allows the ALA to provide the infrastructure behind the <a href="https://collections.ala.org.au/public/show/dp5214">WildObs Tagged Image Repository</a> and makes the camera trap data <a href="https://ardc.edu.au/resource-hub/making-data-fair/">findable, accessible, interoperable and reusable</a> (FAIR).</p>
-
-
-
-<p>The ALA’s normal data processing pipeline prepares the data for indexing and mapping. We match records to our taxonomic backbone, and standardise dates and times and coordinates. We track globally unique identifiers for the records and datasets, and we apply threatened species statuses and responsibly manage obfuscation and access to sensitive records.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_cassowary_close-up_resize-1024x768.jpg" alt="" class="wp-image-50820" srcset="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_cassowary_close-up_resize-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_cassowary_close-up_resize-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_cassowary_close-up_resize-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_cassowary_close-up_resize-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_cassowary_close-up_resize.jpg 1200w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Southern Cassowary (<em>Casuarius casuarius</em>), Identified by Zachary Amir, CC BY-NC</figcaption></figure>
-
-
-
-<p>Peggy Newman is the ALA’s Data Manager.</p>
-
-
-
-<p>&#8220;The ALA’s ingestion pipeline is ideal for handling most of the standardisation and data cleaning needed to produce AI-ready datasets, which is often the most time consuming and mind numbing part of building AI/ML models,&#8221; Peggy says.</p>
-
-
-
-<p>“In the coming years, we’re expecting to see a huge influx of biodiversity datasets like this where the observations and identifications come about from automation and modelling.</p>
-
-
-
-<p>“For the models to get better, they’ll need to be built with and informed by openly shared and verified datasets. When the models are better, they’ll be able to help produce better quality datasets in shorter timeframes.</p>
-
-
-
-<p>“We see the ALA’s data pipelines and FAIR practices as supporting researchers to improve this kind of feedback loop in biodiversity monitoring.”</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="768" src="https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-1024x768.jpg" alt="" class="wp-image-50822" srcset="https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-1024x768.jpg 1024w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-300x225.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-768x576.jpg 768w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE-640x480.jpg 640w, https://www.ala.org.au/app/uploads/2025/09/camera-trap_Red-legged-Pademelon_day_RESIZE.jpg 1200w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Red-legged Pademelon (<em>Thylogale stigmatica</em>). Identified by Zachary Amir, CC BY-NC</figcaption></figure>
-
-
-
-<p>The <a href="https://biocache.ala.org.au/occurrences/search?q=data_provider_uid:dp5214#tab_recordImages" data-type="link" data-id="https://biocache.ala.org.au/occurrences/search?q=data_provider_uid:dp5214#tab_recordImages">first dataset recently published in the ALA</a> features wildlife in the Wet Tropics captured and identified by quantitative wildlife ecologist <a href="https://about.uq.edu.au/experts/45824">Zachary Amir from the University of Queensland</a> who is part of the WildObs team, hosted by <a href="https://www.tern.org.au/">TERN</a>. Zach was looking at interactions between native and invasive vertebrates in the rainforests of North Queensland.</p>
-
-
-
-<p></p>
-
-
-
-<p><strong>Acknowledgment:</strong><br>WildObs is made possible through a <a href="https://wildobs.org.au/#partners">national collaboration</a> of <a href="https://www.education.gov.au/national-research-infrastructure">National Collaborative Research Infrastructure Strategy </a>enabled infrastructure. <a href="https://www.tern.org.au/">TERN</a> provides standardised field protocols and hosts the systematic survey data across Australian ecosystems. The ALA hosts the tagged image dataset and occurrence records for public access and reuse. The <a href="https://ardc.edu.au/">Australian Research Data Commons</a> (ARDC) through the<a href="https://www.qcif.edu.au/"> Queensland Cyber Infrastructure Foundation</a> (QCIF) is building the user-facing platform to support image upload, tagging, model training, and data sharing using advanced AI tools. It&#8217;s part of the <a href="https://ardc.edu.au/planet-research-data-commons/">ARDC&#8217;s Planet Research Data Commons</a>, which provides national-scale data infrastructure for earth and environmental science research and decision making.</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1000" height="563" src="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_tree-kangaroo_resize.jpg" alt="" class="wp-image-50823" srcset="https://www.ala.org.au/app/uploads/2025/09/Camera-trap_tree-kangaroo_resize.jpg 1000w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_tree-kangaroo_resize-300x169.jpg 300w, https://www.ala.org.au/app/uploads/2025/09/Camera-trap_tree-kangaroo_resize-768x432.jpg 768w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /><figcaption class="wp-element-caption">Lumholtz&#8217;s Tree-kangaroo (<em>Dendrolagus lumholtzi</em>). Identified by Zachary Amir, CC BY-NC</figcaption></figure>
 
 
 
