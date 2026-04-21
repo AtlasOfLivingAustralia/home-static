@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 21 Apr 2026 04:44:48 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 21 Apr 2026 05:00:39 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,7 +28,7 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>ALA Insights: taxonomy and names matching in the Atlas of Living Australia</title>
+		<title>ALA Insights: taxonomy and names matching in the ALA</title>
 		<link>https://www.ala.org.au/blogs-news/ala-insights-taxonomy-and-names-matching-in-the-atlas-of-living-australia/</link>
 		
 		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
