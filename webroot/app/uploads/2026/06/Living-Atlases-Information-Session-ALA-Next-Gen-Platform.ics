@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Molina, Javier (NCMI, Clayton)":mailto:Javier.Molina@csiro.au
+DESCRIPTION:What to expect\nFor more than a decade the Atlas of Living Aust
+ ralia (ALA) has run mainly on self-managed server infrastructure that whil
+ e dependable has posed challenges as the ALA has matured and grown.\n\nThi
+ s talk introduces the ALA's next-generation platform: a modern\, cloud-nat
+ ive foundation built on AWS. Rather than being a single technology next-ge
+ n is about the adoption of modern practices and services to allow us to ra
+ pidly develop and deliver high quality applications with a lower cost and 
+ carbon footprint.\n\nSome of the technologies covered will be our managed 
+ Kubernetes cluster\, statically hosted React SPAs\, managed databases and 
+ other services. Also\, our automated deployment CICD framework that is use
+ d to manage and launch applications as well as underlying platforms.\n\nFi
+ nally\, we will look in more detail at a single application\; how it’s d
+ eveloped\, deployed and hosted under next-gen.\n\nThis event will be recor
+ ded and the recording made available through the Living Atlases slack chan
+ nel in the week after the event.\n\nTime and date\nTuesday 16 June 2026  6
+ -7pm AEST (8-9am  UTC)\nSee it in your local time zone<https://www.timeand
+ date.com/worldclock/fixedtime.html?msg=Living+Atlases+Information+Session+
+ -+The+ALA+Next-Gen+Platform&iso=20260616T18&p1=152&ah=1>.\n\nHow to join\n
+ This is an online event that will be broadcast using MS Teams\, follow the
+  links at the bottom to join.\n\nFurther information\nThis event will be r
+ ecorded and the recording made available through the Living Atlases slack 
+ channel<https://ala.us14.list-manage.com/track/click?u=b238aea31bbd4bd103f
+ f7368c&id=4252e0d32e&e=e24f40f4fd> in the week after the event.\nIf you ha
+ ve any questions\, please reach out to support@ala.org.au<mailto:support@a
+ la.org.au>\n\n\n\n________________________________________________________
+ ________________________\nMicrosoft Teams meeting\nJoin: https://teams.mic
+ rosoft.com/meet/42926604886751?p=85JQtO23Sr47Jyrnx1\nMeeting ID: 429 266 0
+ 48 867 51\nPasscode: iN3Rs3KG\n________________________________\nNeed help
+ ?<https://aka.ms/JoinTeamsMeeting?omkt=en-AU> | System reference<https://t
+ eams.microsoft.com/l/meetup-join/19%3ameeting_MjNhODU1ODItNjI0Ny00Yjg1LTgz
+ NmMtOGQyYmI5MjFhYTcz%40thread.v2/0?context=%7b%22Tid%22%3a%220fe05593-19ac
+ -4f98-adbf-0375fce7f160%22%2c%22Oid%22%3a%229e3eab2b-c4b7-420f-89ed-e37696
+ bc0529%22%7d>\nDial in by phone\n+61 2 8318 0088\,\,385417250#<tel:+612831
+ 80088\,\,385417250#> Australia\, Sydney\nFind a local number<https://diali
+ n.teams.microsoft.com/33a00b7f-828e-472c-b845-33ac42dabf1f?id=385417250>\n
+ Phone conference ID: 385 417 250#\nJoin on a video conferencing device\nTe
+ nant key: csiro@m.webex.com\nVideo ID: 132 374 757 7\nMore info<https://ww
+ w.webex.com/msteams?confid=1323747577&tenantkey=csiro&domain=m.webex.com>\
+ nFor organizers: Meeting options<https://teams.microsoft.com/meetingOption
+ s/?organizerId=9e3eab2b-c4b7-420f-89ed-e37696bc0529&tenantId=0fe05593-19ac
+ -4f98-adbf-0375fce7f160&threadId=19_meeting_MjNhODU1ODItNjI0Ny00Yjg1LTgzNm
+ MtOGQyYmI5MjFhYTcz@thread.v2&messageId=0&language=en-AU> | Reset dial-in P
+ IN<https://dialin.teams.microsoft.com/usp/pstnconferencing>\n[Company Logo
+ ]\nAll external guests will join meetings via a lobby by default. Meeting 
+ organisers or users with presenter rights should only admit familiar and e
+ xpected guests. For technical difficulties\, contact IMTServiceCentre@csir
+ o.au\nPrivacy and security<https://www.csiro.au/en/about/Policies/Privacy/
+ Office-365-Privacy-Statement>\n___________________________________________
+ _____________________________________\n
+UID:040000008200E00074C5B7101A82E008000000003FE0668DB4ECDC01000000000000000
+ 010000000B4D3284D0E9D7A499CA5D2D270110231
+SUMMARY: Living Atlases Information Session - ALA Next-Gen Platform
+DTSTART:20260616T080000Z
+DTEND:20260616T090000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260601T033049Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:4
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MjNhODU1ODItNjI0Ny00Yjg1LTgzNmMtOGQyYmI5MjFhYTcz%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%220fe05593-19ac-4f98-adbf-0375fce7f160%22%2c%22O
+ id%22%3a%229e3eab2b-c4b7-420f-89ed-e37696bc0529%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/0fe05593-19ac-4f98-adbf-0375fce7f160/9e3eab2b-c4b7-420f-89ed-e
+ 37696bc0529/19_meeting_MjNhODU1ODItNjI0Ny00Yjg1LTgzNmMtOGQyYmI5MjFhYTcz@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MjNhODU1ODItNjI0Ny00Yjg
+ 1LTgzNmMtOGQyYmI5MjFhYTcz@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+61 2 8318 0088
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:385417250
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT1H
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
