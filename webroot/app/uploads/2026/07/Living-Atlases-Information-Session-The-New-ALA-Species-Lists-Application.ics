@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Microsoft Exchange Server 2010
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:tzone://Microsoft/Utc
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010101T000000
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Molina, Javier (NCMI, Clayton)":mailto:Javier.Molina@csiro.au
+DESCRIPTION:Living Atlases Information Session - The New ALA Species Lists 
+ Application\n\nWhat to expect\nThe ALA’s lists application is a tool tha
+ t allows the creation and maintenance of a list of species. This can then 
+ be used\, within and external to the ALA.  Key uses of lists include:\n\n 
+  1.  Query records for a defined set of species\n  2.  Assign conservation
+ / threatened species status to records and species pages\n  3.\nIdentify a
+ nd generalising records of sensitive (restricted access) species via the s
+ ensitive data service\n  4.  Flag new records of species of biosecurity co
+ ncern\n  5.\nProvide a subset of taxa for use in other applications e.g. B
+ ioCollect\, Profiles\n\nThe species list application was originally develo
+ ped over 15 years ago. It had morphed into a mature application\, largely 
+ due to the requirements of other applications (including SDS\, Profiles\, 
+ Spatial portal and BioCollect) that needed managed subsets of species link
+ ed to the ALA taxonomic backbone to deliver specialised functionality.\n\n
+ A review of the Lists product in August 2021 resulted in a decision to upd
+ ate and enhance it to better serve current and future requirements. The or
+ iginal code had outlived its usefulness and accumulated too much technical
+  debt.\n\nThis presentation will walk through: the new application\, the n
+ ew user interface\, the new APIs and some uses cases showing how internal 
+ and external users can use its functionality.\n\nTime and date\n\nTuesday 
+ 11 Aug 2026 6-7pm AEST (8-9am  UTC)\n\nSee it in your local time zone<http
+ s://www.timeanddate.com/worldclock/fixedtime.html?msg=Living+Atlases+Infor
+ mation+Session+-+The+New+ALA+Species+Lists+Application+&iso=20260811T18&p1
+ =152&ah=1>.\n\nFurther information\nThis event will be recorded and the re
+ cording made available through the Living Atlases slack channel<https://li
+ ving-atlases.gbif.org/contact> in the week after the event.\nIf you have a
+ ny questions\, please reach out to support@ala.org.au<mailto:support@ala.o
+ rg.au>\n\n\n\n____________________________________________________________
+ ____________________\nMicrosoft Teams meeting\nJoin: https://teams.microso
+ ft.com/meet/44277615966949?p=w27uSdoruuDh3rWcpf\nMeeting ID: 442 776 159 6
+ 69 49\nPasscode: iV662Co3\n________________________________\nNeed help?<ht
+ tps://aka.ms/JoinTeamsMeeting?omkt=en-AU> | System reference<https://teams
+ .microsoft.com/l/meetup-join/19%3ameeting_MTFmNDVjYzgtYjA0Ni00NGQ3LTg1MjQt
+ M2E1Nzk0MDdhMjA4%40thread.v2/0?context=%7b%22Tid%22%3a%220fe05593-19ac-4f9
+ 8-adbf-0375fce7f160%22%2c%22Oid%22%3a%229e3eab2b-c4b7-420f-89ed-e37696bc05
+ 29%22%7d>\nDial in by phone\n+61 2 8318 0088\,\,683162191#<tel:+6128318008
+ 8\,\,683162191#> Australia\, Sydney\nFind a local number<https://dialin.te
+ ams.microsoft.com/33a00b7f-828e-472c-b845-33ac42dabf1f?id=683162191>\nPhon
+ e conference ID: 683 162 191#\nJoin on a video conferencing device\nTenant
+  key: csiro@m.webex.com\nVideo ID: 134 327 611 7\nMore info<https://www.we
+ bex.com/msteams?confid=1343276117&tenantkey=csiro&domain=m.webex.com>\nFor
+  organizers: Meeting options<https://teams.microsoft.com/meetingOptions/?o
+ rganizerId=9e3eab2b-c4b7-420f-89ed-e37696bc0529&tenantId=0fe05593-19ac-4f9
+ 8-adbf-0375fce7f160&threadId=19_meeting_MTFmNDVjYzgtYjA0Ni00NGQ3LTg1MjQtM2
+ E1Nzk0MDdhMjA4@thread.v2&messageId=0&language=en-AU> | Reset dial-in PIN<h
+ ttps://dialin.teams.microsoft.com/usp/pstnconferencing>\n[Company Logo]\nA
+ ll external guests will join meetings via a lobby by default. Meeting orga
+ nisers or users with presenter rights should only admit familiar and expec
+ ted guests. For technical difficulties\, contact IMTServiceCentre@csiro.au
+ \nPrivacy and security<https://www.csiro.au/en/about/Policies/Privacy/Offi
+ ce-365-Privacy-Statement>\n_______________________________________________
+ _________________________________\n
+UID:040000008200E00074C5B7101A82E008000000006D7E1AEF5EFCDC01000000000000000
+ 010000000CEC9D342A286464AA7072E4749918CB2
+SUMMARY:Living Atlases Information Session - The New ALA Species Lists Appl
+ ication
+DTSTART:20260811T080000Z
+DTEND:20260811T090000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260727T073148Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:4
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:0
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
+ 19%3ameeting_MTFmNDVjYzgtYjA0Ni00NGQ3LTg1MjQtM2E1Nzk0MDdhMjA4%40thread.v2/
+ 0?context=%7b%22Tid%22%3a%220fe05593-19ac-4f98-adbf-0375fce7f160%22%2c%22O
+ id%22%3a%229e3eab2b-c4b7-420f-89ed-e37696bc0529%22%7d
+X-MICROSOFT-SCHEDULINGSERVICEUPDATEURL:https://api.scheduler.teams.microsof
+ t.com/teams/0fe05593-19ac-4f98-adbf-0375fce7f160/9e3eab2b-c4b7-420f-89ed-e
+ 37696bc0529/19_meeting_MTFmNDVjYzgtYjA0Ni00NGQ3LTg1MjQtM2E1Nzk0MDdhMjA4@th
+ read.v2/0
+X-MICROSOFT-SKYPETEAMSPROPERTIES:{"cid":"19:meeting_MTFmNDVjYzgtYjA0Ni00NGQ
+ 3LTg1MjQtM2E1Nzk0MDdhMjA4@thread.v2"\,"rid":0\,"mid":0\,"uid":null\,"priva
+ te":true\,"type":0}
+X-MICROSOFT-ONLINEMEETINGEXTERNALLINK:
+X-MICROSOFT-ONLINEMEETINGTOLLNUMBER:+61 2 8318 0088
+X-MICROSOFT-ONLINEMEETINGCONFERENCEID:683162191
+X-MICROSOFT-ONLINEMEETINGINFORMATION:{"OnlineMeetingChannelId":null\,"Onlin
+ eMeetingProvider":3}
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-LOCATIONDISPLAYNAME:Microsoft Teams Meeting
+X-MICROSOFT-LOCATIONS:[{"DisplayName":"Microsoft Teams Meeting"\,"LocationA
+ nnotation":""\,"LocationUri":""\,"LocationStreet":""\,"LocationCity":""\,"
+ LocationState":""\,"LocationCountry":""\,"LocationPostalCode":""\,"Locatio
+ nFullAddress":""}]
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT2H
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
