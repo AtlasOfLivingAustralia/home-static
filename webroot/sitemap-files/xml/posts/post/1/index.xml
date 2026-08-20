@@ -3,9 +3,9 @@
 <!-- Created using XmlSitemapGenerator.org WordPress Plugin - Free HTML, RSS and XML sitemap generator -->
 <urlset  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" >
 <url><loc>https://www.ala.org.au/blogs-news/big-moth-energy-collecting-moth-data-with-citizen-science/</loc><lastmod>2026-07-19T17:38:37+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/newsletter/atlas-of-living-australia-newsletter-may-2026/</loc><lastmod>2026-06-04T09:42:15+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-may-2026/</loc><lastmod>2026-08-20T12:40:09+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/directors-update-may-2026/</loc><lastmod>2026-06-04T09:41:24+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/ala-insights-taxonomy-and-names-matching-in-the-atlas-of-living-australia/</loc><lastmod>2026-04-21T15:31:37+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-insights-taxonomy-and-names-matching-in-the-atlas-of-living-australia/</loc><lastmod>2026-08-20T12:32:48+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/international-day-of-women-and-girls-in-science-2/</loc><lastmod>2026-03-12T17:14:23+11:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/australian-virtual-seed-bank-portal-upgraded/</loc><lastmod>2026-01-22T10:14:06+11:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-december-2025/</loc><lastmod>2025-12-16T16:02:34+11:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -18,7 +18,7 @@
 <url><loc>https://www.ala.org.au/blogs-news/directors-update-september-2025/</loc><lastmod>2025-09-10T13:42:09+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/from-snapshot-to-supercharged-science-data/</loc><lastmod>2025-09-10T12:21:39+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/were-frond-of-plants-ala-at-the-australasian-plant-pathology-association-conference-2025/</loc><lastmod>2025-09-09T16:14:09+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/ala-insights-the-hidden-world-of-sensitive-species-data/</loc><lastmod>2025-07-25T10:53:11+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-insights-the-hidden-world-of-sensitive-species-data/</loc><lastmod>2026-08-20T12:32:51+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-interns-dive-into-real-world-projects/</loc><lastmod>2025-03-25T14:24:26+11:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/how-do-we-get-more-rare-species-records/</loc><lastmod>2025-03-19T16:23:55+11:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-march-2025/</loc><lastmod>2025-03-13T17:16:03+11:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
@@ -93,7 +93,7 @@
 <url><loc>https://www.ala.org.au/blogs-news/ecoassets-launched/</loc><lastmod>2022-07-21T09:03:30+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-may-2022/</loc><lastmod>2025-03-13T17:08:12+11:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/directors-message-may-2022/</loc><lastmod>2022-05-23T11:36:26+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-<url><loc>https://www.ala.org.au/blogs-news/ala-webinar-protecting-australias-ecosystems/</loc><lastmod>2022-06-14T09:56:41+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+<url><loc>https://www.ala.org.au/blogs-news/ala-webinar-protecting-australias-ecosystems/</loc><lastmod>2026-08-20T12:31:51+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/biocollect-update-new-look-for-our-data-collection-tool/</loc><lastmod>2022-05-24T09:37:01+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-labs-new-site-offering-technical-solutions-to-scientific-problems/</loc><lastmod>2022-05-18T16:29:30+10:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 <url><loc>https://www.ala.org.au/blogs-news/ala-newsletter-march-2022/</loc><lastmod>2025-12-16T15:07:52+11:00</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>

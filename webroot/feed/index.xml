@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Sun, 19 Jul 2026 07:38:37 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Aug 2026 02:40:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -221,12 +221,14 @@
 		
 			</item>
 		<item>
-		<title>Atlas of Living Australia Newsletter May 2026</title>
-		<link>https://www.ala.org.au/newsletter/atlas-of-living-australia-newsletter-may-2026/</link>
+		<title>ALA Newsletter May 2026</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-may-2026/</link>
 		
 		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
 		<pubDate>Wed, 03 Jun 2026 23:42:15 +0000</pubDate>
-				<category><![CDATA[ALA Newsletter]]></category>
+				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[ALA Newsletter]]></category>
+		<category><![CDATA[Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=51508</guid>
 
 					<description><![CDATA[The ALA May 2026 newsletter is here – with news, how we’re supporting open biodiversity science, research highlights, and our systems and services update.]]></description>
@@ -292,7 +294,8 @@
 		
 		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
 		<pubDate>Tue, 21 Apr 2026 04:33:06 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=51399</guid>
 
 					<description><![CDATA[In this ALA Insights session find out how our taxonomy and names matching works, and how to use the taxonomy in the ALA to find records.]]></description>
