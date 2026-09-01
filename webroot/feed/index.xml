@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Mon, 31 Aug 2026 23:57:40 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 01 Sep 2026 01:02:43 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -36,7 +36,7 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=51590</guid>
 
-					<description><![CDATA[We’ve updated our Species List tool. This tool lets users make, upload and maintain a personalised list of species of interest.]]></description>
+					<description><![CDATA[We've updated our Species List tool. This tool lets users make, upload and maintain a personalised list of species of interest.]]></description>
 										<content:encoded><![CDATA[
 <p>The <a href="https://lists.ala.org.au/">ALA Species List tool</a> is now streamlined and easier to use.</p>
 
@@ -173,7 +173,7 @@
 		
 			</item>
 		<item>
-		<title>Where there’s a will, there’s a Quail &#8211; ALA data now natively in QGIS</title>
+		<title>Where there&#8217;s a will, there&#8217;s a Quail &#8211; ALA data now natively in QGIS</title>
 		<link>https://www.ala.org.au/blogs-news/where-theres-a-will-theres-a-quail-ala-data-now-natively-in-qgis/</link>
 		
 		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
@@ -318,7 +318,7 @@
 		
 			</item>
 		<item>
-		<title>Australia’s national environmental research infrastructure delivering billions in benefits</title>
+		<title>Australia&#8217;s national environmental research infrastructure delivering billions in benefits</title>
 		<link>https://www.ala.org.au/blogs-news/australias-national-environmental-research-infrastructure-delivering-billions-in-benefits/</link>
 		
 		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
@@ -326,9 +326,9 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=51637</guid>
 
-					<description><![CDATA[A new report from Lateral Economics estimates that Australia’s national environmental research infrastructure delivers more than $1.5 billion per year in scientific, economic and societal benefits.]]></description>
+					<description><![CDATA[A new report from Lateral Economics estimates that Australia's national environmental research infrastructure delivers more than $1.5 billion per year in scientific, economic and societal benefits.]]></description>
 										<content:encoded><![CDATA[
-<p>A <a href="https://zenodo.org/records/19934982">new report</a> from <a href="https://static1.squarespace.com/static/69aedc3382b849546e21f454/t/69ca60a139bead4606f6074d/1774870692408/NEESFF+Pilot+Impact+Assessment+report+January+2026.docx.pdf">Lateral Economics</a> estimates that Australia’s national environmental research infrastructure delivers more than $1.5 billion per year in scientific, economic and societal benefits.</p>
+<p>A <a href="https://zenodo.org/records/19934982">new report</a> from <a href="https://static1.squarespace.com/static/69aedc3382b849546e21f454/t/69ca60a139bead4606f6074d/1774870692408/NEESFF+Pilot+Impact+Assessment+report+January+2026.docx.pdf">Lateral Economics</a> estimates that Australia&#8217;s national environmental research infrastructure delivers more than $1.5 billion per year in scientific, economic and societal benefits.</p>
 
 
 
