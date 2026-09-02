@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 01 Sep 2026 01:02:43 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 02 Sep 2026 02:20:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,27 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA Newsletter September 2026</title>
+		<link>https://www.ala.org.au/blogs-news/ala-newsletter-september-2026/</link>
+		
+		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
+		<pubDate>Wed, 02 Sep 2026 02:20:06 +0000</pubDate>
+				<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=51695</guid>
+
+					<description><![CDATA[Happy Biodiversity Month! Read about our new QGIS plugin Quail, Species List tool update and more.]]></description>
+										<content:encoded><![CDATA[
+<p>Happy Biodiversity Month! Discover our <a href="https://mailchi.mp/ala/september-2026-ala-newsletter">September newsletter</a>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="397" height="718" src="https://www.ala.org.au/app/uploads/2026/09/Newsletter-screenshot-Sept-2026.png" alt="" class="wp-image-51699" srcset="https://www.ala.org.au/app/uploads/2026/09/Newsletter-screenshot-Sept-2026.png 397w, https://www.ala.org.au/app/uploads/2026/09/Newsletter-screenshot-Sept-2026-166x300.png 166w" sizes="(max-width: 397px) 100vw, 397px" /></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Updated Species List tool now live</title>
 		<link>https://www.ala.org.au/blogs-news/updated-species-list-tool-now-live/</link>
 		
@@ -58,7 +79,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img fetchpriority="high" decoding="async" width="1024" height="905" src="https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj.jpeg" alt="" class="wp-image-51594" style="aspect-ratio:1.1315017149322868;width:457px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj.jpeg 1024w, https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj-300x265.jpeg 300w, https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj-768x679.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Pink Spider Orchid (<em>Caladenia harringtoniae</em>). Credit: sarraj, CC BY-NC</figcaption></figure>
+<figure class="alignright size-full is-resized"><img decoding="async" width="1024" height="905" src="https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj.jpeg" alt="" class="wp-image-51594" style="aspect-ratio:1.1315017149322868;width:457px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj.jpeg 1024w, https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj-300x265.jpeg 300w, https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj-768x679.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Pink Spider Orchid (<em>Caladenia harringtoniae</em>). Credit: sarraj, CC BY-NC</figcaption></figure>
 </div>
 
 
@@ -166,7 +187,7 @@
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="1024" height="682" src="https://www.ala.org.au/app/uploads/2026/08/Leafy-seadragon_TammyGibbs.jpg" alt="" class="wp-image-51597" srcset="https://www.ala.org.au/app/uploads/2026/08/Leafy-seadragon_TammyGibbs.jpg 1024w, https://www.ala.org.au/app/uploads/2026/08/Leafy-seadragon_TammyGibbs-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2026/08/Leafy-seadragon_TammyGibbs-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Leafy Seadragon (<em>Phycodurus eques</em>). Credit: Tammy Gibbs, CC BY-NC.</figcaption></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1024" height="682" src="https://www.ala.org.au/app/uploads/2026/08/Leafy-seadragon_TammyGibbs.jpg" alt="" class="wp-image-51597" srcset="https://www.ala.org.au/app/uploads/2026/08/Leafy-seadragon_TammyGibbs.jpg 1024w, https://www.ala.org.au/app/uploads/2026/08/Leafy-seadragon_TammyGibbs-300x200.jpg 300w, https://www.ala.org.au/app/uploads/2026/08/Leafy-seadragon_TammyGibbs-768x512.jpg 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Leafy Seadragon (<em>Phycodurus eques</em>). Credit: Tammy Gibbs, CC BY-NC.</figcaption></figure>
 ]]></content:encoded>
 					
 		
@@ -1330,29 +1351,6 @@ function accToggle(btn){
 
 
 <p></p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>ALA Newsletter December 2025</title>
-		<link>https://www.ala.org.au/blogs-news/ala-newsletter-december-2025/</link>
-		
-		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
-		<pubDate>Tue, 16 Dec 2025 03:55:20 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<category><![CDATA[ALA Newsletter]]></category>
-		<category><![CDATA[Newsletter]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=51144</guid>
-
-					<description><![CDATA[The ALA December 2025 newsletter is out now – featuring our Year in Review, new Australian Biodiversity Data Mobilisation Program projects, and new taxonomic backbone release!]]></description>
-										<content:encoded><![CDATA[
-<p>Discover the ALA&#8217;s <a href="https://mailchi.mp/ala/sep-2025-ala-newsletter">December 2025 newsletter</a>.</p>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="600" height="749" src="https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025.png" alt="" class="wp-image-51149" srcset="https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025.png 600w, https://www.ala.org.au/app/uploads/2025/12/Newsletter-front-page-December-2025-240x300.png 240w" sizes="auto, (max-width: 600px) 100vw, 600px" /></figure>
 ]]></content:encoded>
 					
 		
