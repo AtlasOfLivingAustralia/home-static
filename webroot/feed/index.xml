@@ -12,13 +12,13 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 03 Sep 2026 05:55:42 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 03 Sep 2026 07:30:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.9.5</generator>
+	<generator>https://wordpress.org/?v=6.9.7</generator>
 
 <image>
 	<url>https://www.ala.org.au/app/uploads/2019/01/cropped-favicon-32x32.png</url>
@@ -28,7 +28,7 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>Director’s Update – September 2026</title>
+		<title>Director&#8217;s Update – September 2026</title>
 		<link>https://www.ala.org.au/blogs-news/directors-update-september-2026/</link>
 		
 		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
@@ -36,7 +36,7 @@
 				<category><![CDATA[ALA Blog]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=51706</guid>
 
-					<description><![CDATA[Welcome to the Atlas of Living Australia September 2026 newsletter The Atlas of Living Australia (ALA) has recently released its 2026-27 Annual Work Plan, outlining an ambitious program of work to strengthen Australia’s national biodiversity data infrastructure and support the growing needs of researchers, governments, industry and the community. We are proud to share a [&#8230;]]]></description>
+					<description><![CDATA[Welcome to the Atlas of Living Australia September 2026 newsletter The Atlas of Living Australia (ALA) has recently released its 2026-27 Annual Work Plan, outlining an ambitious program of work to strengthen Australia&#8217;s national biodiversity data infrastructure and support the growing needs of researchers, governments, industry and the community. We are proud to share a [&#8230;]]]></description>
 										<content:encoded><![CDATA[<div class="wp-block-image">
 <figure class="alignright size-full is-resized"><img fetchpriority="high" decoding="async" width="719" height="938" src="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png" alt="&quot;&quot;" class="wp-image-48109" style="aspect-ratio:0.7665245430977224;width:274px;height:auto" srcset="https://www.ala.org.au/app/uploads/2023/02/Andre-zerger.png 719w, https://www.ala.org.au/app/uploads/2023/02/Andre-zerger-230x300.png 230w" sizes="(max-width: 719px) 100vw, 719px" /></figure>
 </div>
@@ -46,7 +46,7 @@
 
 
 
-<p>The Atlas of Living Australia (ALA) has recently released its <a href="https://ala.org.au/publications/ala-annual-work-plan-2026-2027/">2026-27 Annual Work Plan</a>, outlining an ambitious program of work to strengthen Australia’s national biodiversity data infrastructure and support the growing needs of researchers, governments, industry and the community. We are proud to share a plan that builds on the <a href="https://www.ala.org.au/publications/ala-strategy-2025-2030/">ALA Strategy 2025-2030</a>, with a strong focus on improving biodiversity data quality and governance, supporting emerging data streams such as camera traps and acoustic monitoring, and advancing the transition to a modern, cloud-native platform.</p>
+<p>The Atlas of Living Australia (ALA) has recently released its <a href="https://ala.org.au/publications/ala-annual-work-plan-2026-2027/">2026-27 Annual Work Plan</a>, outlining an ambitious program of work to strengthen Australia&#8217;s national biodiversity data infrastructure and support the growing needs of researchers, governments, industry and the community. We are proud to share a plan that builds on the <a href="https://www.ala.org.au/publications/ala-strategy-2025-2030/">ALA Strategy 2025-2030</a>, with a strong focus on improving biodiversity data quality and governance, supporting emerging data streams such as camera traps and acoustic monitoring, and advancing the transition to a modern, cloud-native platform.</p>
 
 
 
