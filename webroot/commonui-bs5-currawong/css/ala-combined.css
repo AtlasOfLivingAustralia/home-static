@@ -12379,6 +12379,7 @@ body.background-lightgrey {
     opacity: 0.3;
     transform: rotateX(-90deg);
     transform-origin: top center;
+    z-index: 50;
   }
   .ala-header .ala-header-nav > ul > li .ala-header-nav-secondary-panel .container {
     margin-top: 2.2rem;
