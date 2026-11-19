@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Tue, 08 Sep 2026 05:14:12 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 19 Nov 2026 22:56:03 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,235 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALA webinar: state and territory biodiversity data systems &#8211; recent advances and future directions.</title>
+		<link>https://www.ala.org.au/blogs-news/ala-webinar-state-and-territory-biodiversity-data-systems-recent-advances-and-future-directions/</link>
+		
+		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
+		<pubDate>Thu, 19 Nov 2026 22:56:03 +0000</pubDate>
+				<category><![CDATA[Webinars]]></category>
+		<category><![CDATA[ALA Blog]]></category>
+		<guid isPermaLink="false">https://www.ala.org.au/?p=51746</guid>
+
+					<description><![CDATA[We invited representatives from Dandjoo in Western Australia, NSW BioNet and the Natural Values Atlas in Tasmania to showcase their respective repositories, recent advances and future directions.]]></description>
+										<content:encoded><![CDATA[
+<p>Australia is one of the most biologically diverse places on Earth. From our larger states, like Western Australia and New South Wales, to our smallest, Tasmania, each has high levels of regional endemism with species which occur nowhere else.</p>
+
+
+
+<p>All the states and territories have publicly available atlases of their biodiversity data, and they share versions of this data with the Atlas of Living Australia. Data from states and territories makes up around 20% of the biodiversity data in Australia. It’s particularly important for our national understanding of vertebrate animals and vascular plants.</p>
+
+
+
+<p>The conservation agencies in Australia&#8217;s states and territories manage large biodiversity data holdings for a wide variety of purposes centred upon environmental management and approvals and meeting statutory obligations under the various pieces of legislation in their jurisdictions.</p>
+
+
+
+<p>The ALA receives support from the Australian Government through the <a href="https://www.education.gov.au/ncris">National Collaborative Research Infrastructure Strategy (NCRIS)</a> and is hosted by <a href="https://www.csiro.au/">CSIRO</a>.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="ALA webinar: state and territory biodiversity data systems - recent advances and future directions." width="640" height="360" src="https://www.youtube.com/embed/z5mlCcsFBV4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><figcaption class="wp-element-caption">This event was hosted on 29 September 2026 at 12pm AEDT.</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="presenters">Presenters</h2>
+
+
+
+<p><strong>Trisha Moriarty and Anshu Gupta</strong></p>
+
+
+
+<p><a href="https://bio.wa.gov.au/dandjoo">Dandjoo</a>, Western Australian Department of Biodiversity, Conservation and Attractions (DBCA), Biodiversity Information Office (BIO)</p>
+
+
+
+<p><strong>Ron Avery</strong></p>
+
+
+
+<p><a href="https://www.environment.nsw.gov.au/topics/animals-and-plants/biodiversity/nsw-bionet">NSW BioNet</a>, Senior Team Leader, Biodiversity Information Systems, </p>
+
+
+
+<p><strong>David McElwee</strong></p>
+
+
+
+<p><a href="https://www.naturalvaluesatlas.tas.gov.au/">Natural Values Atlas</a>, Tasmania. Department of Natural Resources and Environment Tasmania</p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="facilitator">Facilitator</h2>
+
+
+
+<p><strong>Peggy Newman<br>Team Data Management Lead, Atlas of Living Australia</strong></p>
+
+
+
+<p>Peggy is the Data Manager at the ALA, and the Australian Node Manager of the <a href="https://www.gbif.org/">Global Biodiversity Information Facility (GBIF)</a>. She leads the Data Management team who map, ingest and index datasets from hundreds of data providers from the government, collections and citizen science sectors.</p>
+
+
+
+<h2 class="wp-block-heading" class="wp-block-heading" id="qa-discussion">Q&amp;A discussion</h2>
+
+
+
+<p>The conversation sparked so many great questions – more than we could fit into the session, so we’ve taken the time to answer the rest here.</p>
+
+
+
+<style>
+.acc-item{border:1px solid #212121;border-radius:4px;margin-bottom:8px;overflow:hidden;}
+.acc-btn{width:100%;text-align:left;background:transparent;border:none;padding:14px 18px;font-size:16px;font-weight:500;color:#212121;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;line-height:1.4;}
+.acc-btn:hover,.acc-btn:focus-visible{background:#f5f5f5;}
+.acc-btn:focus-visible{outline:3px solid #C44D34;outline-offset:-3px;}
+.acc-icon{font-size:20px;line-height:1;flex-shrink:0;}
+.acc-panel{padding:4px 18px 16px;border-top:1px solid #e0e0e0;}
+.acc-panel[hidden]{display:none;}
+.q-body{font-size:16px;color:#212121;line-height:1.6;margin:10px 0 6px;}
+.q-body:last-child{margin-bottom:0;}
+.subquestion{font-weight:700;margin-top:14px;}
+.subq-label{display:inline-block;min-width:1.5em;}
+.acc-panel a{color:#C44D34;font-weight:700;overflow-wrap:anywhere;}
+</style>
+
+<div class="accordion">
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-1" onclick="accToggle(this)">Q1. Are any of the states presenting today also looking at data use in state-and-transition modelling? Any understandings of additional costs/imposts in that work?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-1" hidden>
+      <p class="q-body">State and transition simulation models are more likely to be used with vegetation coverage datasets than the biodiversity occurrence datasets. We’ve discussed at this webinar.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-2" onclick="accToggle(this)">Q2. How are you enabling locations to be obscured for culturally sensitive species?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-2" hidden>
+      <p class="q-body">In the ALA, sensitive species locations are systematically obscured for all ingested data using generalisation rules captured in Sensitive Lists (see: <a href="https://lists.ala.org.au/?filters=isSDS:true" target="_blank" rel="noopener noreferrer">https://lists.ala.org.au/?filters=isSDS:true</a>) provided by states and territories, and Birdlife Australia. Culturally sensitive species locations are managed through data governance processes and decisions made together with data providers.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-3" onclick="accToggle(this)">Q3. How is survey absence captured in these systems?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-3" hidden>
+      <p class="q-body">In the ALA using Darwin Core, data providers may use the occurrenceStatus field to nominate “present” or “absent” values for an occurrence.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-4" onclick="accToggle(this)">Q4. Do the platforms capture island data including occurrence of invasive species?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-4" hidden>
+      <p class="q-body">Species occurrence data exists for many islands; however, the ALA does not hold extensive data on whether a species is flagged as invasive for a particular location. To study invasive species in an area, we recommend uploading a list of your target invasive species to the lists tool and using it to query occurrences.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-5" onclick="accToggle(this)">Q5. Are there plans to bring IMSA data over to Dandjoo for marine species? And are there similar marine database inputs for BioNet?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-5" hidden>
+      <p class="q-body">Yes, Biodiversity Information Office (Dandjoo) is planning to look at IMSA data. The initial focus has been on terrestrial data from the IBSA portal with survey data from 356 projects ingested. Dandjoo currently holds marine data from providers such WA Museum, iNaturalist and Dept. Biodiversity Conservation and Attractions.</p>
+      <p class="q-body">BioNet contains marine and aquatic species data but this data holding is not comprehensive</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-6" onclick="accToggle(this)">Q6. Computer power and data storage costs will be significant and allowing interrogation of the sets will require more capacity. How are the State Budgets holding up and what about future?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-6" hidden>
+      <p class="q-body subquestion"><span class="subq-label">a.</span> Does it mean that eventually there will be only one ALA site with appropriate state management.</p>
+      <p class="q-body subquestion"><span class="subq-label">b.</span> Also for the future is there any standardisation of AI platforms used?</p>
+      <p class="q-body">Each state provided budget information in a previous question.</p>
+      <p class="q-body">In the foreseeable future it is unlikely that all state and territory atlases and the ALA will be merged, as each has differing jurisdictional responsibilities and funding arrangements.</p>
+      <p class="q-body">To that end there is no standardisation of AI platforms.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-7" onclick="accToggle(this)">Q7. I assume all data is in the cloud, but where is data kept (Australian servers? worldwide?)<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-7" hidden>
+      <p class="q-body subquestion"><span class="subq-label">a.</span> Is there an alternative to digital systems (i.e. if systems go down)?</p>
+      <p class="q-body subquestion"><span class="subq-label">b.</span> Who owns this data?</p>
+      <p class="q-body">Data in the ALA, and on most modern government platforms, is managed onshore either on premise or in the cloud. Non sensitive data that is published through the ALA is also published to the Global Biodiversity Information Facility (GBIF).</p>
+      <p class="q-body">Most modern IT systems are well managed for resilience to outages and disaster recovery.</p>
+      <p class="q-body">Most of the data we discussed in the webinar is released publicly by data providers under Creative Commons licensing, and they would be the most likely to be named the “data owners”. With biodiversity data, there are often many parties involved with the collection and dissemination of data (data custodians, stewards, informaticians) and it’s important that users of data correctly follow the attribution requirements as set out by the <a href="https://creativecommons.org/cc-licenses/" target="_blank" rel="noopener noreferrer">Creative Commons license</a> applied by the data provider.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-8" onclick="accToggle(this)">Q8. I&#x27;m aware of a couple of projects where a lot of effort (months) was placed into aligning data from BioNet, GBIF, the ALA and other sources. (I thought they were much aligned). I am told that there were absences. Are there tools or processes you might make available for other new players?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-8" hidden>
+      <p class="q-body">Data flows from BioNet to the ALA and to GBIF, and there will be differences in the data primarily due to the different taxonomic backbones of all three. The ALA invites new data providers and provides tooling (Galaxias) and <a href="https://support.ala.org.au/support/solutions/articles/6000261427-sharing-a-dataset-with-the-ala" target="_blank" rel="noopener noreferrer">guidance for sharing data</a>.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-9" onclick="accToggle(this)">Q9. When will the new interface be available for Natural Values Atlas Tasmania?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-9" hidden>
+      <p class="q-body">The new NVA interface will be live on 19 November.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-10" onclick="accToggle(this)">Q10. I noticed that both BioNet and NVA appear to list &#x27;survey sites&#x27; available as a spatial layer &#8211; is this a spatial layer of survey effort/coverage? If so, I think this is a really valuable and often overlooked source of info. It can be just as valuable to know where/when species have been searched for and not detected, yet absence data often aren’t captured or readily available in biodiversity databases. Would be great to hear more on what these “survey sites” layer/s capture, how it is populated/used, and whether there are plans in other states/territories to capture this if not already doing so.<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-10" hidden>
+      <p class="q-body">BioNet will be publishing its large flora and fauna systematic survey data holding via a new web service in 2026. This data is complex containing information about the site, replicates, survey method, species census, and measurements for fact. This is the first step in a longer journey of refinement. To interpret species absence routinely from these datasets further work may be needed. Site locations will be made available as spatial layer.</p>
+      <p class="q-body">In the NVA survey effort should be captured in the survey metadata for each survey. It isn’t a map of survey effort (hours per grid square). I appreciate that would be nice, but it isn’t what we are showing. It is a step in the direction that would get us to that destination though.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-11" onclick="accToggle(this)">Q11. How will the different state systems being presented here interact and inform each other, and at a higher level interact with the Atlas of Living Australia, iNaturalist, Environment Information Australia&#8217;s upcoming Biodiversity Data Repository, and others?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-11" hidden>
+      <p class="q-body subquestion"><span class="subq-label">a.</span> That’s a great point. And it would be great if some information on survey effort/coverage would be given in these databases. In my experience, the &#8220;survey sites&#8221; names that I&#8217;ve seen in downloaded data from BioNet and NVA seem to be a mix of established survey sites and incidental records or unknown survey effort/coverage, and where possible, I have used other fields to determine the type of record (incidental, standardised survey, etc.). And absolutely, absences are often not captured or captured in an inconsistent way. But I would love to hear from the BioNet and NVA teams here!</p>
+      <p class="q-body subquestion"><span class="subq-label">b.</span> Thanks. It seems that survey effort is only captured in metadata for species presence records. I once tried to look at all small mammal records, and plot any that had &#8216;mammal trapping&#8217; as a method to understand spatial coverage of targeted small mammal surveys. roundabout way to get there! Would be great if it was captured</p>
+      <p class="q-body">In general, we accept that systematic survey data needs to be a focus of our systems.</p>
+      <p class="q-body">BioNet delivers species observation data to ALA and Biodiversity Data Repository, but does not yet received data back, although this is evolving as a priority. Species absence is not codified; it is inferred from other information including method, effort, and timing of survey that is held in the systematic survey data model and metadata. Exposure of this systematic survey data via open web services is a first step and will allow us to test and refine our approach in future releases.</p>
+      <p class="q-body">Dandjoo delivers species occurrence and systematic survey data to the federal Biodiversity Data Repository and non-sensitive data is also available through ALA. Most data in Dandjoo have a Creative Commons By Attribution licence, but there are small number of datasets that cannot be on shared due to licence constraints impose by the rightsholder.</p>
+      <p class="q-body">The NVA has generally not recorded absences for things that were not previously known to be present on that site—giant trees, eagle nests etc might be recorded as absent; shore birds, wallabies, ephemeral plants et cetera would not.</p>
+      <p class="q-body">There is also a difference between ‘absent’ and ‘not detected’. We are hoping to accommodate both.</p>
+      <p class="q-body">Going forwards, we should be doing a better job of capturing presences and not detected/absence data in the new NVA, but it is not something that was well catered for in the old NVA as recording of survey method and effort were not well supported and without that these are only half the whole.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-12" onclick="accToggle(this)">Q12. Ron, iNaturalist data is I think harvested to the Atlas of Living Australia. Does it also end up in BioNet in NSW?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-12" hidden>
+      <p class="q-body subquestion"><span class="subq-label">a.</span> I was wondering how frequently BioNet data is uploaded to ALA. Also does all data feed to ALA or subset of data</p>
+      <p class="q-body">All publicly available BioNet data (a subset of the total) is loaded to the ALA weekly.</p>
+    </div>
+  </div>
+
+  <div class="acc-item">
+    <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-13" onclick="accToggle(this)">Q13. Keen to understand the decision framework and processes these systems use to maintain currency of historical records with respect to taxonomic naming, revisions, etc. Is there a nationally accepted &#x27;UID&#x27; that those collecting and submitting data can adopt?<span class="acc-icon" aria-hidden="true">+</span></button>
+    <div class="acc-panel" id="acc-panel-13" hidden>
+      <p class="q-body">Records in the ALA are reprocessed regularly to match the provided taxonomic details (name, higher taxonomic details) to the current accepted taxonomic name. Historical views of the taxonomic backbone are not retained.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function accToggle(btn){
+  var panel=document.getElementById(btn.getAttribute('aria-controls'));
+  var icon=btn.querySelector('.acc-icon');
+  var open=btn.getAttribute('aria-expanded')==='true';
+  btn.setAttribute('aria-expanded',String(!open));
+  panel.hidden=open;
+  icon.textContent=open?'+':'−';
+}
+</script>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Director&#8217;s Update – September 2026</title>
 		<link>https://www.ala.org.au/blogs-news/directors-update-september-2026/</link>
 		
@@ -95,6 +324,7 @@
 		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
 		<pubDate>Wed, 02 Sep 2026 02:20:06 +0000</pubDate>
 				<category><![CDATA[ALA Blog]]></category>
+		<category><![CDATA[Newsletter]]></category>
 		<guid isPermaLink="false">https://www.ala.org.au/?p=51695</guid>
 
 					<description><![CDATA[Happy Biodiversity Month! Read about our new QGIS plugin Quail, Species List tool update and more.]]></description>
@@ -140,7 +370,7 @@
 
 
 <div class="wp-block-image">
-<figure class="alignright size-full is-resized"><img decoding="async" width="1024" height="905" src="https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj.jpeg" alt="" class="wp-image-51594" style="aspect-ratio:1.1315017149322868;width:457px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj.jpeg 1024w, https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj-300x265.jpeg 300w, https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj-768x679.jpeg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Pink Spider Orchid (<em>Caladenia harringtoniae</em>). Credit: sarraj, CC BY-NC</figcaption></figure>
+<figure class="alignright size-full is-resized"><img loading="lazy" decoding="async" width="1024" height="905" src="https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj.jpeg" alt="" class="wp-image-51594" style="aspect-ratio:1.1315017149322868;width:457px;height:auto" srcset="https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj.jpeg 1024w, https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj-300x265.jpeg 300w, https://www.ala.org.au/app/uploads/2026/08/Pink-Spider-Orchid_sarraj-768x679.jpeg 768w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Pink Spider Orchid (<em>Caladenia harringtoniae</em>). Credit: sarraj, CC BY-NC</figcaption></figure>
 </div>
 
 
@@ -1084,137 +1314,6 @@ function accToggle(btn){
   icon.textContent=open?'+':'−';
 }
 </script>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>International Day of Women and Girls in Science</title>
-		<link>https://www.ala.org.au/blogs-news/international-day-of-women-and-girls-in-science-2/</link>
-		
-		<dc:creator><![CDATA[Ian Dewar]]></dc:creator>
-		<pubDate>Wed, 11 Feb 2026 00:17:44 +0000</pubDate>
-				<category><![CDATA[ALA Blog]]></category>
-		<guid isPermaLink="false">https://www.ala.org.au/?p=51293</guid>
-
-					<description><![CDATA[Today we&#8217;re celebrating International Day of Women and Girls in Science. Despite progress, women are still under-represented in science, technology, engineering and mathematics (STEM) disciplines all over the world. In 2022, just 31 per cent of researchers globally were women. And women make up only 35% of science graduates globally. In Australia the proportion of [&#8230;]]]></description>
-										<content:encoded><![CDATA[
-<p>Today we&#8217;re celebrating <a href="https://www.un.org/en/observances/women-and-girls-in-science-day">International Day of Women and Girls in Science</a>. Despite progress, women are still under-represented in science, technology, engineering and mathematics (STEM) disciplines all over the world. <a href="https://www.un.org/en/observances/women-and-girls-in-science-day">In 2022</a>, just 31 per cent of researchers globally were women. And women make up only 35% of science graduates globally.</p>
-
-
-
-<p>In Australia the proportion of STEM enrolments from women has remained stable at 37 per cent since 2020. Women remained underrepresented in enrolments and completions for engineering and IT. The proportion of women in STEM-qualified occupations has remained at 15 per cent from 2021 to 2024, compared to 50 per cent in non-STEM occupations. Find out more in the <a href="https://www.industry.gov.au/publications/stem-equity-monitor#workforce-data">STEM Equity Monitor</a>.</p>
-
-
-
-<p>We asked ALA team members to share their stories about a woman in science they find inspiring.</p>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="purnima-devi-barman">Purnima Devi Barman</h2>
-
-
-
-<p><em>By Shandiya Balasubramaniam, Decision Support Program Lead</em></p>
-
-
-
-<p><a href="https://www.instagram.com/storksister/?hl=en">Dr Purnima Devi Barman</a> is a wildlife conservation biologist from Assam, India, whose work has transformed how communities care for one of the world’s most threatened birds, the <a href="https://www.inaturalist.org/taxa/4751-Leptoptilos-dubius">greater adjutant stork</a> (<em>Leptoptilos dubius</em>). Locally known as <a href="https://www.inaturalist.org/taxa/4751-Leptoptilos-dubius/browse_photos">the hargila</a>, these birds were once considered bad omens, and it was common for nesting trees to be cut down and nests destroyed.</p>
-
-
-
-<p>Dr Barman worked directly with women in the local communities to change perceptions of the stork, offering an alternative image of these birds as symbols of joy. She engaged women to incorporate stork motifs into the fabrics they were already weaving, hoping to create an appreciation for these birds. This grew into multiple small businesses producing textiles, clothing, and artworks featuring the stork, many of which are now sold internationally. Alongside raising the profile of the stork globally, this work has led to the establishment of sewing schools locally, providing training, income, and new vocational opportunities for women.</p>
-
-
-
-<p>At the heart of this effort is <a href="https://www.instagram.com/the_hargila_army_/?hl=en">the Hargila Army</a>, an all-women conservation network founded by Dr Barman that has been central to the stork’s recovery. Now comprising more than 20,000 women across over 40 villages, the Hargila Army protects nesting trees, rescues injured birds, and celebrates the stork through festivals, songs, and traditional weaving. Through this community-led approach, people’s sense of stewardship of the species has grown and the hargila is now proudly celebrated.</p>
-
-
-
-<p>This inspirational campaign shows the power of a multi-pronged approach to conservation, combining ecological management with art, design, and culture to holistically support the long-term conservation of a species. Dr Barman’s work has been internationally recognised through numerous awards, such as <a href="https://whitleyaward.org/2025/02/20/dr-purnima-devi-barman-named-time-woman-of-the-year-2025/">the Whitley Gold Award</a> and the <a href="https://www.unep.org/championsofearth/laureates/2022/dr-purnima-devi-barman">UN Champion of the Earth Award</a>, and more recently in 2025 she was named one of <a href="https://time.com/collections/women-of-the-year/7216405/purnima-devi-barman-hargila-storks/">TIME’s Women of the Year.</a></p>
-
-
-
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="An army of women are rescuing an entire bird species in India" width="640" height="360" src="https://www.youtube.com/embed/WfglmGkTUr8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-
-<p></p>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="lucyna-kania"><strong>Lucyna Kania</strong></h2>
-
-
-
-<p><em>By Juliet Seers, Training and Outreach Coordinator</em></p>
-
-
-
-<p>Lucy is inspiring because she shows that science doesn’t have to be tied only to journals or university settings to matter. As a wildlife ecologist and photographer, she brings attention to insects and other invertebrates that are critical to how ecosystems function but rarely get public attention.</p>
-
-
-
-<p>For example, through her role in the <a href="https://www.abc.net.au/news/2024-09-09/wildlife-photographers-discover-mam-burrumurl-ghost-wasp-nt/104321586">discovery of a new species of ghost wasp</a> in the Northern Territory, the Mam-Burrumurl wasp (<em>Gasteruption mamburrumurl</em>). Lucy was one of the individuals who first <a href="https://nit.com.au/09-09-2024/13609/mam-burrumurl-new-species-of-ghost-wasp-discovered-in-the-nt">found the wasp in the field</a> (which was later formally described by <a href="https://www.taxonomyaustralia.org.au/ajt/papers/j2iqgsdncv">Ben Parslow from the South Australian Museum</a>).</p>
-
-
-
-<p>Importantly, she worked closely with <a href="https://www.jawoyn.org.au/">Jawoyn Traditional Owners</a> to help develop a culturally appropriate name using traditional language, this shows how science can be respectful and inclusive. Lucy makes a real effort to demonstrate that every species has a story worth telling.</p>
-
-
-
-<p>Her impact also comes from expanding what a career in science can look like, and who it can reach. Lucy has contributed to major public-facing projects, including filming for Netflix’s Our Great National Parks in Kakadu, partnering with ABC Science and ABC Darwin to highlight unique Top End species, and co-curating the <a href="https://www.magnt.net.au/tinyterritory">MAGNT exhibition Tiny Territory</a> with her partner Nick Volpe, celebrating the region’s extraordinary insect life. These projects show that influencing how people value biodiversity often happens through storytelling and imagery, not data alone.</p>
-
-
-
-<p>Currently through her work at the <a href="https://manubio.org/">Manu Bio Station in Peru</a>, Lucy continues to collaborate with local communities to survey and document biodiversity in one of the most species-rich places on Earth. For people early in their careers, or those who don’t fit the traditional academic mould, her work is a clear reminder that there are many ways to belong in science, and that real change happens when research connects with people.</p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="768" height="1024" src="https://www.ala.org.au/app/uploads/2026/02/Lucyna-Kania_fieldwork_instagram-768x1024.jpg" alt="" class="wp-image-51297" srcset="https://www.ala.org.au/app/uploads/2026/02/Lucyna-Kania_fieldwork_instagram-768x1024.jpg 768w, https://www.ala.org.au/app/uploads/2026/02/Lucyna-Kania_fieldwork_instagram-225x300.jpg 225w, https://www.ala.org.au/app/uploads/2026/02/Lucyna-Kania_fieldwork_instagram.jpg 900w" sizes="auto, (max-width: 768px) 100vw, 768px" /><figcaption class="wp-element-caption">Credit: <a href="https://www.instagram.com/lucynak.wild/?hl=en">Lucyna Kania, Instagram</a></figcaption></figure>
-
-
-
-<p></p>
-
-
-
-<h2 class="wp-block-heading" class="wp-block-heading" id="judith-love-cohen">Judith Love Cohen</h2>
-
-
-
-<p><em>By Kylie Morrow, Digital Product Specialist</em></p>
-
-
-<div class="wp-block-image">
-<figure class="alignright size-full"><img loading="lazy" decoding="async" width="284" height="351" src="https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1.jpg" alt="" class="wp-image-51300" srcset="https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1.jpg 284w, https://www.ala.org.au/app/uploads/2026/02/Judith_Love_Cohen_1959-1-243x300.jpg 243w" sizes="auto, (max-width: 284px) 100vw, 284px" /><figcaption class="wp-element-caption">Image credit: Judith Love Cohen with the Pioneer spacecraft (1959). <a href="https://en.wikipedia.org/wiki/File:Judith_Love_Cohen,_1959.jpg">Photo/Look magazine</a></figcaption></figure>
-</div>
-
-
-<p><a href="https://allthatsinteresting.com/judith-love-cohen">Judith Love Cohen</a> (1933-2016) was an aerospace engineer whose determination to pursue mathematics and engineering in the 1950s and 60s led to contributions that saved lives on the Apollo 13 space mission. Thankfully, Cohen ignored her high school guidance counsellor’s advice to attend &#8220;a nice finishing school and learn to be a lady&#8221;, and instead pursued her childhood dream to reach for the stars.</p>
-
-
-
-<p>Even in primary school, Cohen was talented at mathematics – classmates were paying her to complete their maths homework for them. Fast forwarding to university, Cohen initially studied mathematics before <a href="https://viterbischool.usc.edu/news/2016/07/in-memory-of-judith-love-cohen-mother-wife-friend-author-engineer/">earning her bachelor&#8217;s and master&#8217;s degrees in electrical engineering from USC</a>.</p>
-
-
-
-<p>After graduation, Cohen joined Space Technology Laboratories (later TRW) where she worked on the Abort-Guidance System for the Apollo Lunar Excursion Module. This backup navigation system was designed to take over in an emergency, and in April 1970, it did exactly that, guiding the Apollo 13 astronauts safely back to Earth.</p>
-
-
-
-<p>Cohen&#8217;s dedication to her work was extraordinary. Famously, on August 28, 1969, while in labour with her fourth child, she stopped by her office to collect a computer printout of a problem she&#8217;d been working on. Later that day, she called her boss from the hospital to report she&#8217;d solved the problem… and also gave birth to a healthy baby – who would grow up to be the famous actor and musician, Jack Black!</p>
-
-
-
-<p>Beyond Apollo, Cohen worked on the Tracking and Data Relay System Satellite, which operated in orbit for nearly 40 years, and led systems engineering for the science ground facility of the Hubble Space Telescope.</p>
-
-
-
-<p>Throughout her career, Cohen was a strong advocate for inclusion and equality in the workplace, and after retiring from engineering in the 1990s, she continued this legacy, authoring &#8220;You Can Be a Woman Engineer&#8221; and co-publishing over 20 books encouraging girls to pursue careers in science, technology, and other non-traditional fields.</p>
 ]]></content:encoded>
 					
 		
