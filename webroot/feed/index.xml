@@ -12,7 +12,7 @@
 	<atom:link href="https://www.ala.org.au/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.ala.org.au</link>
 	<description>Open access to Australia’s biodiversity data</description>
-	<lastBuildDate>Thu, 19 Nov 2026 23:20:18 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 19 Nov 2026 23:35:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -194,7 +194,7 @@
   <div class="acc-item">
     <button class="acc-btn" type="button" aria-expanded="false" aria-controls="acc-panel-9" onclick="accToggle(this)">Q9. When will the new interface be available for Natural Values Atlas Tasmania?<span class="acc-icon" aria-hidden="true">+</span></button>
     <div class="acc-panel" id="acc-panel-9" hidden>
-      <p class="q-body">The new NVA interface will be live on 19 November.</p>
+      <p class="q-body">The new NVA interface will be live in late November.</p>
     </div>
   </div>
 
